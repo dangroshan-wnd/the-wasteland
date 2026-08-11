@@ -11,6 +11,9 @@ environment and run the downloader:
 .\.venv\Scripts\python.exe .\flock-league\download_videos.py
 ```
 
+New downloads also save YouTube metadata (`.info.json`) and available English
+manual or automatic captions (`.vtt`) beside each video.
+
 Install [ffmpeg](https://ffmpeg.org/download.html) and make it available on
 `PATH` to let `yt-dlp` combine YouTube's highest-quality video and audio
 streams. Without ffmpeg, `yt-dlp` falls back to the best combined stream.
@@ -18,6 +21,32 @@ streams. Without ffmpeg, `yt-dlp` falls back to the best combined stream.
 The script is safe to rerun. Partial downloads resume, and completed video IDs
 are recorded in `uploads/.download-archive.txt` so they are skipped on later
 runs. Run it again whenever you want to fetch newly published videos.
+
+### YouTube authentication and rate limits
+
+If YouTube asks you to sign in to confirm you are not a bot, wait before retrying
+and pass cookies from a browser where you are already signed into YouTube:
+
+```powershell
+.\.venv\Scripts\python.exe .\flock-league\download_videos.py --cookies-from-browser edge
+```
+
+Supported values are `chrome`, `edge`, and `firefox`. Treat browser cookies as
+credentials: do not share or commit exported cookie files. The script reads them
+directly from the selected browser and does not create a cookie file.
+
+### Backfill metadata for existing downloads
+
+To fetch metadata and captions for videos already present in `uploads/` without
+downloading their media again:
+
+```powershell
+.\.venv\Scripts\python.exe .\flock-league\backfill_metadata.py
+```
+
+The backfill only processes media filenames containing a YouTube ID. If YouTube
+requires authentication, add `--cookies-from-browser edge` (or another supported
+browser) to the command. Existing sidecars are not overwritten.
 
 ## Analysis pipeline plan
 
@@ -28,13 +57,12 @@ episodes.
 
 ### 1. Capture and backfill source metadata
 
-After the current media download has finished:
+The initial metadata support is implemented:
 
-- Update `download_videos.py` so future downloads also save each video's
-  `.info.json` metadata, English manual captions, and English automatic captions
-  when manual captions are unavailable.
-- Add a separate `backfill_metadata.py` script that retrieves those sidecars for
-  videos already in `uploads/` without downloading the media again.
+- `download_videos.py` saves each video's `.info.json` metadata and available
+  English manual or automatic captions.
+- `backfill_metadata.py` retrieves those sidecars for videos already in
+  `uploads/` without downloading the media again.
 - Use the YouTube video ID as the canonical episode identifier. It is already
   included in each downloaded filename.
 
@@ -124,11 +152,9 @@ when its input, extraction schema, prompt, or model changes.
 
 ### Initial implementation milestones
 
-1. Finish the current video download.
-2. Add metadata and caption capture for future downloads.
-3. Backfill metadata and captions without redownloading media.
-4. Verify all local files are matched to metadata by YouTube ID.
-5. Process one representative episode into a timestamped transcript,
+1. Backfill metadata and captions without redownloading media.
+2. Verify all local files are matched to metadata by YouTube ID.
+3. Process one representative episode into a timestamped transcript,
    `events.json`, and `recap.md`.
-6. Review the event schema and extraction quality before processing the full
+4. Review the event schema and extraction quality before processing the full
    archive chronologically.
