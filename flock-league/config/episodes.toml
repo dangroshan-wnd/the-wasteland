@@ -1,0 +1,511 @@
+# Episode-specific trusted guidance.
+#
+# Every downloaded episode has a block below. Keep `season` aligned with the
+# season files and add freeform guidance inside the multiline instructions.
+
+[episodes."8zrKZTP_QEs"]
+title = "2024 Fantasy Football Draft Vlog (Flock League)"
+upload_date = "20240826"
+season = "season_1"
+instructions = """
+This episode contains the pre-season draft where Team Owners select their players. Make note of the draft order, each Owner's selections, and any discussion points that stand out if relevant.
+"""
+
+[episodes."FKFRHyok5QI"]
+title = "The Flock League Goes Crazy After This Trade"
+upload_date = "20240831"
+season = "season_1"
+instructions = ""
+
+[episodes."-9vcgs-W6YM"]
+title = "Week 1 Changed The Flock League Forever"
+upload_date = "20240910"
+season = "season_1"
+instructions = ""
+
+[episodes."1Er6FYX-6Go"]
+title = "A Horrible Trade RUINS Masons Team"
+upload_date = "20240912"
+season = "season_1"
+instructions = ""
+
+[episodes."RP0Ad-ITeos"]
+title = "Justin Jefferson Trade RUINS The League For Everyone"
+upload_date = "20240913"
+season = "season_1"
+instructions = ""
+
+[episodes."ZJ0ZvmANWvU"]
+title = "Week 2 Ended Friendships & Created Rivalries"
+upload_date = "20240917"
+season = "season_1"
+instructions = ""
+
+[episodes."H1v_pca2E4Y"]
+title = "A Brandon Aiyuk Trade Gets UGLY"
+upload_date = "20240919"
+season = "season_1"
+instructions = ""
+
+[episodes."9Lb5mnouNss"]
+title = "There's Only One Undefeated Team Left..."
+upload_date = "20240924"
+season = "season_1"
+instructions = ""
+
+[episodes."ETKlwr3lVSQ"]
+title = "The Flock League Has Never Been So Close"
+upload_date = "20241001"
+season = "season_1"
+instructions = ""
+
+[episodes."E-u7SYYPtpU"]
+title = "The Craziest Fantasy Football Ending Ever"
+upload_date = "20241008"
+season = "season_1"
+instructions = ""
+
+[episodes."RACYXNABMMw"]
+title = "1/2 The League Is Falling Apart"
+upload_date = "20241015"
+season = "season_1"
+instructions = ""
+
+[episodes."GDMCqNykCeo"]
+title = "Week 7 Is a Must Win For These \"Experts\""
+upload_date = "20241017"
+season = "season_1"
+instructions = ""
+
+[episodes."WcWhMGGTC8c"]
+title = "Injuries Are Destroying Entire Teams"
+upload_date = "20241022"
+season = "season_1"
+instructions = ""
+
+[episodes."mg7wnMVJ68g"]
+title = "A Mike Evans Trade Creates Enemies"
+upload_date = "20241024"
+season = "season_1"
+instructions = ""
+
+[episodes."BJCWUpdCcUI"]
+title = "There Are Only 3 Winning Teams Left..."
+upload_date = "20241029"
+season = "season_1"
+instructions = ""
+
+[episodes."Mph1sql7rIU"]
+title = "Week 9 Could End These \"Experts\""
+upload_date = "20241031"
+season = "season_1"
+instructions = ""
+
+[episodes."Q5mr-3MYhTI"]
+title = "A Last Minute DK Metcalf Trade Changes Everything"
+upload_date = "20241105"
+season = "season_1"
+instructions = ""
+
+[episodes."PvDpOviLy9k"]
+title = "2 \"Experts\" Fight To Not Get Eliminated"
+upload_date = "20241107"
+season = "season_1"
+instructions = ""
+
+[episodes."RUW4MnGTMr4"]
+title = "The Creators Are Exposed As Frauds"
+upload_date = "20241112"
+season = "season_1"
+instructions = ""
+
+[episodes."WGyHzTpPRJU"]
+title = "Sal Finally Trades Away Josh Allen"
+upload_date = "20241114"
+season = "season_1"
+instructions = ""
+
+[episodes."Wm0p0Ftj50s"]
+title = "The King Has Fallen"
+upload_date = "20241119"
+season = "season_1"
+instructions = ""
+
+[episodes."1hpWz-XPC6Q"]
+title = "Lose & You're Eliminated"
+upload_date = "20241121"
+season = "season_1"
+instructions = ""
+
+[episodes."gD_Zr6Z6_ME"]
+title = "Massive Upsets Change The Standings"
+upload_date = "20241126"
+season = "season_1"
+instructions = ""
+
+[episodes."C0wHMfHGrw4"]
+title = "Mason Makes Another Bet"
+upload_date = "20241128"
+season = "season_1"
+instructions = ""
+
+[episodes."0XSRuWmedyE"]
+title = "Thanksgiving Destroys The League Standings"
+upload_date = "20241203"
+season = "season_1"
+instructions = ""
+
+[episodes."vPJPpjwvKAw"]
+title = "Win or You Don't Make The Playoffs"
+upload_date = "20241205"
+season = "season_1"
+instructions = ""
+
+[episodes."TDe1t1rNmnM"]
+title = "The Flock Playoffs Are Officially Set"
+upload_date = "20241210"
+season = "season_1"
+instructions = ""
+
+[episodes."GAc_HbwkO0c"]
+title = "The Playoffs Are Officially Starting"
+upload_date = "20241212"
+season = "season_1"
+instructions = ""
+
+[episodes."BQ7x15-Pj9s"]
+title = "Round 1 Eliminated..."
+upload_date = "20241217"
+season = "season_1"
+instructions = ""
+
+[episodes."4wefRPLlr9E"]
+title = "Who Will Make The Flock Championship?"
+upload_date = "20241219"
+season = "season_1"
+instructions = ""
+
+[episodes."wK4L-00YtOI"]
+title = "It All Comes Down To This..."
+upload_date = "20241224"
+season = "season_1"
+instructions = ""
+
+[episodes."s9aEz8IiLps"]
+title = "The Official 2024 Flock League Champion..."
+upload_date = "20241231"
+season = "season_1"
+instructions = ""
+
+[episodes."4g7RRKqHFgM"]
+title = "200 Fans Auditioned To Join Our Fantasy League"
+upload_date = "20250802"
+season = "season_2"
+instructions = ""
+
+[episodes."61SYGco3M0c"]
+title = "We Battled For Our Fantasy Football Draft Order"
+upload_date = "20250815"
+season = "season_2"
+instructions = ""
+
+[episodes."8r65PzZERBQ"]
+title = "2025 Fantasy Football Draft Vlog (Flock League)"
+upload_date = "20250820"
+season = "season_2"
+instructions = ""
+
+[episodes."aBV0cg-p6S0"]
+title = "This Drake London Trade Changes Everything"
+upload_date = "20250822"
+season = "season_2"
+instructions = ""
+
+[episodes."Wloq05xMjn0"]
+title = "2 Trades Change The Flock League"
+upload_date = "20250826"
+season = "season_2"
+instructions = ""
+
+[episodes."4nKLcHkMzOg"]
+title = "The Season Has Officially Started..."
+upload_date = "20250903"
+season = "season_2"
+instructions = ""
+
+[episodes."XZFUTts-ucg"]
+title = "CMC Injury Ruins Sal’s Team"
+upload_date = "20250906"
+season = "season_2"
+instructions = ""
+
+[episodes."b0_Jtfzf0wg"]
+title = "Week 1 Just Changed The Flock League"
+upload_date = "20250909"
+season = "season_2"
+instructions = ""
+
+[episodes."NWWImfbtuxQ"]
+title = "Mason Trades Bill Croskey-Merritt!"
+upload_date = "20250911"
+season = "season_2"
+instructions = ""
+
+[episodes."YDw4ibmxupI"]
+title = "Week 2 Starts with Disaster"
+upload_date = "20250912"
+season = "season_2"
+instructions = ""
+
+[episodes."Qm1uymT9wd8"]
+title = "Week 2 Destroyed The Flock League"
+upload_date = "20250916"
+season = "season_2"
+instructions = ""
+
+[episodes."4s5PZYmeh_k"]
+title = "Week 3 Will End Someone's Season"
+upload_date = "20250919"
+season = "season_2"
+instructions = ""
+
+[episodes."j_mp5yaxUKI"]
+title = "There's Only One Undefeated Team Left..."
+upload_date = "20250923"
+season = "season_2"
+instructions = ""
+
+[episodes."Ug4oUgQngqA"]
+title = "Week 4 Will Expose The Frauds In the Flock League"
+upload_date = "20250926"
+season = "season_2"
+instructions = ""
+
+[episodes."ZOOSxEd3JF4"]
+title = "Week 4 Ends With A Controversy"
+upload_date = "20250930"
+season = "season_2"
+instructions = ""
+
+[episodes."4wcxwdLhxhA"]
+title = "a Rashee Rice Trade Ruins The League"
+upload_date = "20251002"
+season = "season_2"
+instructions = ""
+
+[episodes."5XL4efuHgzM"]
+title = "Injuries Have Ruined The Flock League"
+upload_date = "20251003"
+season = "season_2"
+instructions = ""
+
+[episodes."JVs9fCotrl4"]
+title = "The Entire League Just Changed Dramatically"
+upload_date = "20251007"
+season = "season_2"
+instructions = ""
+
+[episodes."aoQevV7mPGM"]
+title = "The Playoff Race Officially Begins"
+upload_date = "20251010"
+season = "season_2"
+instructions = ""
+
+[episodes."hZnHAqQUs4M"]
+title = "Injuries Change Everything In The Flock League"
+upload_date = "20251014"
+season = "season_2"
+instructions = ""
+
+[episodes."el8V1iEGjeA"]
+title = "Puka Nacua is Traded in the Flock League"
+upload_date = "20251016"
+season = "season_2"
+instructions = ""
+
+[episodes."YYY4sfQQqnw"]
+title = "Marvin Harrison Jr. is Traded in The Flock League"
+upload_date = "20251017"
+season = "season_2"
+instructions = ""
+
+[episodes."zxttrt4pTdI"]
+title = "Trades Create Rivalries in the Flock League"
+upload_date = "20251018"
+season = "season_2"
+instructions = ""
+
+[episodes."w80SSv5_xwU"]
+title = "The Highest Scoring Matchup In League History"
+upload_date = "20251021"
+season = "season_2"
+instructions = ""
+
+[episodes."PNQCVZ4llc8"]
+title = "3 Trades Change Everything in The Flock League"
+upload_date = "20251022"
+season = "season_2"
+instructions = ""
+
+[episodes."S5irD0Q9Ws8"]
+title = "Week 8 Will Reveal the Frauds in the Flock League"
+upload_date = "20251024"
+season = "season_2"
+instructions = ""
+
+[episodes."PpdrFMa4ZyI"]
+title = "Collusion Strikes The Flock League"
+upload_date = "20251028"
+season = "season_2"
+instructions = ""
+
+[episodes."vbORnj1fi1k"]
+title = "Justin Jefferson Trade RUINS The League For Everyone"
+upload_date = "20251029"
+season = "season_2"
+instructions = ""
+
+[episodes."CHTcnvtg8sQ"]
+title = "It Just Got Ugly In The Flock League"
+upload_date = "20251031"
+season = "season_2"
+instructions = ""
+
+[episodes."Xi1lNnsEtEc"]
+title = "The Biggest Upset In Flock League History"
+upload_date = "20251104"
+season = "season_2"
+instructions = ""
+
+[episodes."EWKH1p4OpaI"]
+title = "Mason & Sal Make Trades in the Flock League"
+upload_date = "20251107"
+season = "season_2"
+instructions = ""
+
+[episodes."fJnktipVPC0"]
+title = "There Are Only 3 Winning Teams Left"
+upload_date = "20251111"
+season = "season_2"
+instructions = ""
+
+[episodes."rCjzyXTy9n8"]
+title = "Sal Puts JT On The Trade Block"
+upload_date = "20251114"
+season = "season_2"
+instructions = ""
+
+[episodes."1VZ-YKG1Kzc"]
+title = "The Craziest Ending In League History"
+upload_date = "20251118"
+season = "season_2"
+instructions = ""
+
+[episodes."ZhTVNr8hQ1A"]
+title = "Avery puts Ja'Marr Chase on the Trade Block"
+upload_date = "20251121"
+season = "season_2"
+instructions = ""
+
+[episodes."G01JgJoGEFs"]
+title = "Mason & Sal Fight For 1st Place"
+upload_date = "20251125"
+season = "season_2"
+instructions = ""
+
+[episodes."7L0cXNMy2Z4"]
+title = "6 Teams Fight for 4 Playoff Spots"
+upload_date = "20251128"
+season = "season_2"
+instructions = ""
+
+[episodes."K81JouqxkPg"]
+title = "The Playoff Race Gets Messy in The Flock League"
+upload_date = "20251202"
+season = "season_2"
+instructions = ""
+
+[episodes."9jTZe3Ip7u8"]
+title = "Someone Got Kicked From The Flock League"
+upload_date = "20251205"
+season = "season_2"
+instructions = ""
+
+[episodes."2pXucooy27A"]
+title = "The Greatest Comeback in Flock League History"
+upload_date = "20251209"
+season = "season_2"
+instructions = ""
+
+[episodes."kSfIHK2unTY"]
+title = "Flock League Playoffs Start With Disaster"
+upload_date = "20251212"
+season = "season_2"
+instructions = ""
+
+[episodes."S7CTvDDohcE"]
+title = "The Fan may be Kicked From The Flock League"
+upload_date = "20251216"
+season = "season_2"
+instructions = ""
+
+[episodes."sYwkPshjA3Y"]
+title = "Rivalries Are Created in The Flock Playoffs"
+upload_date = "20251219"
+season = "season_2"
+instructions = ""
+
+[episodes."7Z1U_HBbJU0"]
+title = "The Flock League Finals Are Set"
+upload_date = "20251223"
+season = "season_2"
+instructions = ""
+
+[episodes."bg1QVfomxsQ"]
+title = "The Flock League Championship Starts"
+upload_date = "20251226"
+season = "season_2"
+instructions = ""
+
+[episodes."ziFlJ-2pBPQ"]
+title = "The 2025 Flock League Champion"
+upload_date = "20251230"
+season = "season_2"
+instructions = ""
+
+[episodes."zJyaIpFkJFo"]
+title = "Fans Auditioned to be in our $100k Fantasy League"
+upload_date = "20260623"
+season = "season_3"
+instructions = ""
+
+[episodes."piCwq4OGA08"]
+title = "Fans Rap to Get Into Our 100K Fantasy League"
+upload_date = "20260709"
+season = "season_3"
+instructions = ""
+
+[episodes."fOl-XK8Q4H8"]
+title = "We Found Our Top 10 Fans"
+upload_date = "20260716"
+season = "season_3"
+instructions = ""
+
+[episodes."bUNT4zXIO_c"]
+title = "Interviewing The Newest Member of The Flock League"
+upload_date = "20260724"
+season = "season_3"
+instructions = ""
+
+[episodes."AOBULQzil58"]
+title = "The Flock Leagues 2 Newest Members"
+upload_date = "20260731"
+season = "season_3"
+instructions = ""
+
+[episodes."7YR4q4CThTI"]
+title = "Flock League Just Changed The Rules"
+upload_date = "20260806"
+season = "season_3"
+instructions = ""
+

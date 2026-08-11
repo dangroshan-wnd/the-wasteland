@@ -1,0 +1,10 @@
+# Guidance bundle manifest. Edit the referenced files rather than this file.
+
+[guidance_files]
+defaults = "defaults.toml"
+episodes = "episodes.toml"
+seasons = [
+  "seasons/season-1.toml",
+  "seasons/season-2.toml",
+  "seasons/season-3.toml",
+]

@@ -1,0 +1,6 @@
+id = "season_1"
+label = "Season 1"
+start_date = 2024-08-26
+end_date = 2024-12-31
+team_owners = ["Tom", "Thomas", "Zach", "Austin", "Danny", "Mason", "Bush", "Badake", "Nathan", "Sal", "Joe"]
+instructions = ""

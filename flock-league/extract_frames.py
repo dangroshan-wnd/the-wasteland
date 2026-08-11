@@ -10,16 +10,18 @@ import re
 import shutil
 import subprocess
 import tempfile
+import tomllib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 
-SCRIPT_VERSION = 2
+SCRIPT_VERSION = 3
 PROJECT_DIR = Path(__file__).resolve().parent
 UPLOADS_DIR = PROJECT_DIR / "uploads"
 ARTIFACTS_DIR = PROJECT_DIR / "artifacts"
+EPISODES_CONFIG_PATH = PROJECT_DIR / "config" / "episodes.toml"
 VIDEO_EXTENSIONS = {".avi", ".flv", ".m4v", ".mkv", ".mov", ".mp4", ".webm"}
 VIDEO_ID_PATTERN = re.compile(r"\[([A-Za-z0-9_-]{11})\]")
 VTT_TIMING_PATTERN = re.compile(
@@ -102,6 +104,31 @@ def parse_args() -> argparse.Namespace:
     if args.width < 2:
         parser.error("--width must be at least 2")
     return args
+
+
+def artifact_directory(video_id: str, season_id: str) -> Path:
+    """Return the canonical season-scoped artifact directory for an episode."""
+    if not re.fullmatch(r"[A-Za-z0-9_-]+", season_id):
+        raise SystemExit(f"Invalid season id for artifact path: {season_id!r}")
+    return ARTIFACTS_DIR / season_id / video_id
+
+
+def configured_episode_season(video_id: str) -> str:
+    """Look up an episode's season for the standalone sampling command."""
+    try:
+        config = tomllib.loads(EPISODES_CONFIG_PATH.read_text(encoding="utf-8"))
+    except (OSError, tomllib.TOMLDecodeError) as error:
+        raise SystemExit(
+            f"Could not read episode season mapping {EPISODES_CONFIG_PATH}: {error}"
+        ) from error
+    episode = (config.get("episodes") or {}).get(video_id)
+    season_id = episode.get("season") if isinstance(episode, dict) else None
+    if not isinstance(season_id, str) or not season_id:
+        raise SystemExit(
+            f"Episode {video_id} has no season in {EPISODES_CONFIG_PATH}. "
+            "Add its mapping or pass --output explicitly."
+        )
+    return season_id
 
 
 def find_ffmpeg(explicit_path: str | None) -> str:
@@ -466,7 +493,11 @@ def main() -> None:
         raise SystemExit("Episode metadata does not contain a valid duration.")
 
     output_path = (
-        args.output or ARTIFACTS_DIR / args.video_id / "visual-sampling.json"
+        args.output
+        or artifact_directory(
+            args.video_id, configured_episode_season(args.video_id)
+        )
+        / "visual-sampling.json"
     ).resolve()
     output_path.parent.mkdir(parents=True, exist_ok=True)
     settings = {

@@ -1,0 +1,12 @@
+# Trusted instructions that apply to every season and episode.
+
+instructions = """
+1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each "season", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.
+2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.
+3. The narrative importance should be placed primarily on the "Team Owners" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.
+4. Team names (e.g. "StevenSwagal") may change week-to-week but Team Owner (e.g. "Tom") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.
+5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.
+6. Always make note of mentioned injuries, trades, and waiver wire actions.
+7. Be concise in the note-taking; wordiness is not a virtue.
+8. Make note of any "items requiring review" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.
+"""

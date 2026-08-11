@@ -85,7 +85,7 @@ The `--` separator is needed only when a video ID itself begins with a hyphen.
 
 The command creates images only inside a temporary directory. It records their
 timestamps, extraction strategies, and triggering caption evidence in
-`artifacts/VIDEO_ID/visual-sampling.json`, then deletes every image. Overlapping
+`artifacts/SEASON_ID/VIDEO_ID/visual-sampling.json`, then deletes every image. Overlapping
 samples are deduplicated while retaining every selection reason. An identical
 rerun uses the plan cache; pass `--force` to recompute it.
 
@@ -133,7 +133,7 @@ each completed window in `episode_notes.json`, allowing an interrupted run to
 resume without repeating completed window calls. When complete, it writes:
 
 ```text
-artifacts/VIDEO_ID/
+artifacts/SEASON_ID/VIDEO_ID/
 ├── metadata.json
 ├── transcript.json
 ├── review-plan.json
@@ -146,6 +146,33 @@ artifacts/VIDEO_ID/
 Images exist only inside the active temporary directory. Base64 image data is
 sent directly to the model and is not written to any artifact. Successful,
 failed, and interrupted runs retain zero image files.
+
+### Add season and episode guidance
+
+The guidance bundle is split into focused files:
+
+- `config/defaults.toml` contains instructions that apply to every analysis.
+- `config/seasons/season-N.toml` contains one season's date range, owners, and
+  season-wide instructions.
+- `config/episodes.toml` contains one `[episodes."VIDEO_ID"]` block for every
+  downloaded episode, including its title, upload date, season, and editable
+  `instructions` value.
+- `config/review-guidance.toml` is the bundle manifest and normally does not need
+  editing.
+
+Episode mappings take precedence over date matching. The reviewer sends only the
+resolved defaults, season, and episode sections to the model. A change to the
+applicable guidance changes that episode's analysis fingerprint so the next run
+uses the new instructions.
+
+Use triple-quoted strings for multiline guidance:
+
+```toml
+instructions = """
+First instruction.
+Second instruction.
+"""
+```
 
 ## Analysis pipeline plan
 
@@ -229,15 +256,16 @@ flock-league/
 │   ├── league.yaml
 │   └── extraction-schema.json
 ├── artifacts/
-│   └── VIDEO_ID/
-│       ├── metadata.json
-│       ├── transcript.json
-│       ├── transcript.vtt
-│       ├── visual-sampling.json
-│       ├── episode_notes.json
-│       ├── events.json
-│       ├── recap.md
-│       └── processing.json
+│   └── season_1/
+│       └── VIDEO_ID/
+│           ├── metadata.json
+│           ├── transcript.json
+│           ├── transcript.vtt
+│           ├── visual-sampling.json
+│           ├── episode_notes.json
+│           ├── events.json
+│           ├── recap.md
+│           └── processing.json
 ├── data/
 │   └── league.sqlite
 └── reports/

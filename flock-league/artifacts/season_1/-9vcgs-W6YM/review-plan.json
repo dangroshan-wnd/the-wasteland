@@ -7,6 +7,15 @@
     "targeted": 90
   },
   "retained_image_count": 0,
+  "guidance": {
+    "source": "C:\\Users\\dangr\\projects\\the-wasteland\\flock-league\\config\\review-guidance.toml",
+    "defaults": {
+      "instructions": ""
+    },
+    "season_id": null,
+    "season": {},
+    "episode": {}
+  },
   "windows": [
     {
       "index": 0,
