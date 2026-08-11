@@ -85,7 +85,7 @@ The `--` separator is needed only when a video ID itself begins with a hyphen.
 
 The command creates images only inside a temporary directory. It records their
 timestamps, extraction strategies, and triggering caption evidence in
-`artifacts/SEASON_ID/VIDEO_ID/visual-sampling.json`, then deletes every image. Overlapping
+`artifacts/SEASON_ID/VIDEO_TITLE_SLUG/visual-sampling.json`, then deletes every image. Overlapping
 samples are deduplicated while retaining every selection reason. An identical
 rerun uses the plan cache; pass `--force` to recompute it.
 
@@ -133,7 +133,7 @@ each completed window in `episode_notes.json`, allowing an interrupted run to
 resume without repeating completed window calls. When complete, it writes:
 
 ```text
-artifacts/SEASON_ID/VIDEO_ID/
+artifacts/SEASON_ID/VIDEO_TITLE_SLUG/
 ├── metadata.json
 ├── transcript.json
 ├── review-plan.json
@@ -142,6 +142,11 @@ artifacts/SEASON_ID/VIDEO_ID/
 ├── events.json
 └── recap.md
 ```
+
+Artifact folder names are lowercase title slugs: spaces and punctuation become
+underscores, while parentheses are retained (for example,
+`2024_fantasy_football_draft_vlog_(flock_league)`). The YouTube ID remains the
+canonical lookup key and is stored with `video_title` in generated JSON files.
 
 Images exist only inside the active temporary directory. Base64 image data is
 sent directly to the model and is not written to any artifact. Successful,
@@ -280,7 +285,7 @@ flock-league/
 │   └── extraction-schema.json
 ├── artifacts/
 │   └── season_1/
-│       └── VIDEO_ID/
+│       └── VIDEO_TITLE_SLUG/
 │           ├── metadata.json
 │           ├── transcript.json
 │           ├── transcript.vtt

@@ -194,6 +194,7 @@ def audit(args: argparse.Namespace) -> tuple[dict[str, Any], bool]:
         ]
         episode: dict[str, Any] = {
             "video_id": video_id,
+            "video_title": None,
             "media": [path.name for path in media_files],
             "metadata": [path.name for path in metadata_files],
             "captions": [path.name for path in caption_files],
@@ -227,6 +228,7 @@ def audit(args: argparse.Namespace) -> tuple[dict[str, Any], bool]:
             try:
                 metadata_data = json.loads(metadata_files[0].read_text(encoding="utf-8"))
                 episode["title"] = metadata_data.get("title")
+                episode["video_title"] = metadata_data.get("title")
                 episode["upload_date"] = metadata_data.get("upload_date")
                 episode["source_url"] = metadata_data.get("webpage_url")
                 if metadata_data.get("id") != video_id:

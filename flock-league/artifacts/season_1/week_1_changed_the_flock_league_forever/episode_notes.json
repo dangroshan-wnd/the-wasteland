@@ -1,0 +1,1162 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T18:56:45.618696+00:00",
+  "fingerprint": "bed6f273dee118178bd0d97f42c2188e8fa3314e609d102c8d6e3922c414227c",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "-9vcgs-W6YM",
+  "video_title": "Week 1 Changed The Flock League Forever",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Week 1 Changed The Flock League Forever",
+      "upload_date": "20240910",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 1 preview footage shows an injury headline, Avery’s quarterback lineup, a reported free-agent transaction, and Sal starting Xavier Worthy against Corey.",
+        "observations": [
+          {
+            "category": "injury",
+            "summary": "Puka Nacua was placed on injured reserve.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Puka Nacua"
+            ],
+            "facts": [
+              {
+                "name": "transaction",
+                "value": "Placed on injured reserve"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 6.174,
+                "end_seconds": 9.0,
+                "details": "On-screen breaking-news graphic reads: “PLACED ON INJURED RESERVE — PUKA NACUA.”"
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Avery’s Week 1 lineup had Jayden Daniels starting at QB and Jared Goff on the bench.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Avery",
+              "Jayden Daniels",
+              "Jared Goff"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Avery"
+              },
+              {
+                "name": "starting_qb",
+                "value": "Jayden Daniels"
+              },
+              {
+                "name": "bench_qb",
+                "value": "Jared Goff"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 66.4,
+                "end_seconds": 70.0,
+                "details": "Avery says he is considering Jared Goff over Jayden Daniels; the visible fantasy lineup shows Jayden Daniels in the QB slot and Jared Goff on the bench."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "A league activity feed reports that Mason-Dodd added Samaje Perine and dropped Tank Bigsby as a free-agent move.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Mason-Dodd",
+              "Samaje Perine",
+              "Tank Bigsby"
+            ],
+            "facts": [
+              {
+                "name": "added",
+                "value": "Samaje Perine"
+              },
+              {
+                "name": "dropped",
+                "value": "Tank Bigsby"
+              },
+              {
+                "name": "move_type",
+                "value": "Free-agent move"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 96.854,
+                "end_seconds": 99.0,
+                "details": "The on-screen league chat/activity feed says “Mason-Dodd made a free agent move,” showing Samaje Perine added and Tank Bigsby removed."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Sal started Xavier Worthy in his Week 1 matchup against Corey; Worthy scored 20.80 fantasy points.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Sal",
+              "Corey",
+              "Xavier Worthy"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Sal"
+              },
+              {
+                "name": "player_started",
+                "value": "Xavier Worthy"
+              },
+              {
+                "name": "opponent_owner",
+                "value": "Corey"
+              },
+              {
+                "name": "fantasy_points",
+                "value": "20.80"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 166.0,
+                "end_seconds": 178.0,
+                "details": "Transcript identifies Corey as Sal’s Week 1 opponent and says Sal started Xavier Worthy. The on-screen fantasy scoring panel lists X. Worthy at 20.80 points, with 1 carry for 21 yards/1 TD and 2 receptions for 47 yards/1 TD."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The footage does not establish the final result or score of Sal versus Corey.",
+          "Mason-Dodd is shown in the activity feed, but the supplied season owner list uses “Mason”; confirm whether these identify the same league owner."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 1 discussion includes an unaccepted Kenneth Walker trade proposal involving Avery, another unanswered offer to Badake, and Sal renaming his team after the Chiefs/Ravens opener.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Sal changed his fantasy team name to “Sorry Corey.”",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Sal",
+              "Corey",
+              "Sorry Corey"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Sal"
+              },
+              {
+                "name": "team_name",
+                "value": "Sorry Corey"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 230.84,
+                "end_seconds": 237.0,
+                "details": "Speaker says he changed his team name to “Sorry Corey”; an on-screen notification reads “SalVetri has updated...” and displays “Sorry Corey.”"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Avery was offered Kenneth Walker in exchange for Rhamondre Stevenson and Austin Ekeler, but the offer was not accepted in this window.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Avery",
+              "Kenneth Walker",
+              "Rhamondre Stevenson",
+              "Austin Ekeler",
+              "averyhuffman"
+            ],
+            "facts": [
+              {
+                "name": "receives",
+                "value": "Kenneth Walker (from averyhuffman)"
+              },
+              {
+                "name": "sends",
+                "value": "Rhamondre Stevenson and Austin Ekeler (to averyhuffman)"
+              },
+              {
+                "name": "outcome",
+                "value": "Unaccepted; speaker says Avery gave no counteroffer"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 267.04,
+                "end_seconds": 289.16,
+                "details": "Speaker describes offering Rhamondre Stevenson plus more for Kenneth Walker and says he received no counter. On-screen trade graphic specifies: receives Kenneth Walker from averyhuffman; sends Rhamondre Stevenson and Austin Ekeler to averyhuffman."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Badake had Saquon Barkley and A.J. Brown on the trade block; the speaker says he sent an offer involving Ja'Marr Chase but had not received a response.",
+            "status": "reported",
+            "confidence": 0.77,
+            "raw_names": [
+              "Badake",
+              "Saquon Barkley",
+              "AJ Brown",
+              "Ja'Marr Chase"
+            ],
+            "facts": [
+              {
+                "name": "players_on_trade_block",
+                "value": "Saquon Barkley; A.J. Brown"
+              },
+              {
+                "name": "offer_involved",
+                "value": "Ja'Marr Chase"
+              },
+              {
+                "name": "outcome",
+                "value": "No response reported; no completed trade"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 337.76,
+                "end_seconds": 349.24,
+                "details": "Speaker says Badake put Saquon Barkley and A.J. Brown on the trade block, that he sent an offer of Ja'Marr Chase, and that Badake had not responded."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speaker who made the Avery and Badake offers is not identified by name in this window.",
+          "The full terms of the Badake/Ja'Marr Chase offer are not shown."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 1 roster news: Badake placed Saquon Barkley and A.J. Brown on the trade block; an offer involving Ja'Marr Chase, Calvin Ridley, and DJ Moore was discussed but not shown as completed. An unidentified league member says he added Justin Fields from waivers after Russell Wilson was ruled out for Week 1. Tee Higgins was listed doubtful with a hamstring injury.",
+        "observations": [
+          {
+            "category": "injury_update",
+            "summary": "Tee Higgins was listed doubtful for Week 1 with a hamstring injury.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Tee Higgins"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Tee Higgins"
+              },
+              {
+                "name": "injury",
+                "value": "Hamstring"
+              },
+              {
+                "name": "Week 1 status",
+                "value": "Doubtful"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 378.0,
+                "end_seconds": 382.0,
+                "details": "Speaker says Higgins' hamstring makes him doubtful for Week 1; on-screen headline reads, “Tee Higgins Doubtful for Week 1 with Hamstring Injury.”"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Badake put Saquon Barkley and A.J. Brown on the trade block.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Badake",
+              "Saquon Barkley",
+              "A.J. Brown"
+            ],
+            "facts": [
+              {
+                "name": "team owner",
+                "value": "Badake"
+              },
+              {
+                "name": "players on trade block",
+                "value": "Saquon Barkley; A.J. Brown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 416.4,
+                "end_seconds": 421.0,
+                "details": "Speaker says Badake put both players on the block; Sleeper overlay explicitly says “Badake put a player on the trade block” and lists Saquon Barkley and A.J. Brown."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A trade involving Badake was proposed but not completed: the on-screen offer has Badake receiving Calvin Ridley and DJ Moore and sending Ja'Marr Chase.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Badake",
+              "Calvin Ridley",
+              "DJ Moore",
+              "Ja'Marr Chase"
+            ],
+            "facts": [
+              {
+                "name": "Badake receives",
+                "value": "Calvin Ridley; DJ Moore"
+              },
+              {
+                "name": "Badake sends",
+                "value": "Ja'Marr Chase"
+              },
+              {
+                "name": "completion",
+                "value": "Not established; presented as an offer/proposal"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 439.2,
+                "end_seconds": 445.2,
+                "details": "Speaker describes being offered Calvin Ridley and DJ Moore for Chase; the trade overlay labels Ridley and Moore “From Badake” under RECEIVES and Chase “To Badake” under SENDS, with an X indicating the deal was not accepted."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "An unidentified league member says he picked up Justin Fields from waivers after learning Russell Wilson would not play in Week 1.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Justin Fields",
+              "Russell Wilson",
+              "Yours Truly"
+            ],
+            "facts": [
+              {
+                "name": "added player",
+                "value": "Justin Fields"
+              },
+              {
+                "name": "method",
+                "value": "Waiver wire"
+              },
+              {
+                "name": "stated reason",
+                "value": "Russell Wilson would not play in Week 1"
+              },
+              {
+                "name": "owner identity",
+                "value": "Unidentified speaker (“Yours Truly”)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 522.24,
+                "end_seconds": 537.76,
+                "details": "Speaker says he heard Russell Wilson would not play in Week 1 and had 10 minutes to go to the waiver wire and pick up Justin Fields."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Which team owner is the speaker who says he claimed Justin Fields from waivers?",
+          "No completed trade is shown for the Badake/Ridley/Moore/Chase discussion."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 1 lineup reactions include Mason’s quarterback depth and an uncompleted trade offer; Danny and Zach’s matchup is shown in progress.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Mason offered Rhamondre Stevenson and Caleb Williams for James Cook to the manager described as “Bake”; the offer was discussed but not confirmed as accepted.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Mason",
+              "Bake",
+              "Rhamondre Stevenson",
+              "Caleb Williams",
+              "James Cook"
+            ],
+            "facts": [
+              {
+                "name": "offering_owner",
+                "value": "Mason"
+              },
+              {
+                "name": "receiving_manager_raw_name",
+                "value": "Bake"
+              },
+              {
+                "name": "offered_players",
+                "value": "Rhamondre Stevenson; Caleb Williams"
+              },
+              {
+                "name": "requested_player",
+                "value": "James Cook"
+              },
+              {
+                "name": "trade_status",
+                "value": "Offer only; completion not shown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 551.079,
+                "end_seconds": 568.36,
+                "details": "The speaker says he received an offer from Mason of Rhamondre Stevenson and Caleb Williams for James Cook, then discusses not panic-buying after Jordan Love’s injury."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Mason was said to roster three quarterbacks—Justin Fields, Caleb Williams, and Brock Purdy—and said he might sell Fields if another quarterback injury occurred.",
+            "status": "confirmed",
+            "confidence": 0.87,
+            "raw_names": [
+              "Mason",
+              "Justin Fields",
+              "Caleb Williams",
+              "Brock Purdy"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Mason"
+              },
+              {
+                "name": "quarterbacks_rostered",
+                "value": "Justin Fields; Caleb Williams; Brock Purdy"
+              },
+              {
+                "name": "possible_move",
+                "value": "Mason said he might sell Justin Fields if a quarterback injury created demand"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 573.8,
+                "end_seconds": 603.519,
+                "details": "Mason is described as rostering three quarterbacks, then states he has Fields, Caleb, and Brock Purdy and would perhaps sell Fields if someone needed a quarterback."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Jordan Love was described as injured, prompting discussion that the manager called “Bake” might need a quarterback replacement.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Jordan Love",
+              "Bake"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Jordan Love"
+              },
+              {
+                "name": "injury_context",
+                "value": "Discussed as a reason Bake could need a replacement quarterback"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 547.64,
+                "end_seconds": 568.36,
+                "details": "Mason is said to be messaging Bake about replacing Jordan Love; the recipient then references panic over Jordan Love’s injury."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Danny led Zach 123.06–112.66 in an in-progress Week 1 matchup; the display showed Danny with one RB remaining and Zach with two players (WR and DEF) remaining.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Danny",
+              "Zach",
+              "Certified Goober",
+              "Big D & Drunk Joe B"
+            ],
+            "facts": [
+              {
+                "name": "leading_owner",
+                "value": "Danny"
+              },
+              {
+                "name": "trailing_owner",
+                "value": "Zach"
+              },
+              {
+                "name": "current_score",
+                "value": "Danny 123.06, Zach 112.66"
+              },
+              {
+                "name": "matchup_state",
+                "value": "In progress; Danny had one RB remaining, Zach had a WR and DEF remaining"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 670.2,
+                "end_seconds": 674.0,
+                "details": "The fantasy matchup display labels @Danny… / Certified Goober against @zaxwage / Big D & Drunk Joe B, with scores 123.06 and 112.66 and remaining-player indicators."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "“Bake” is likely Badake based on the season owner list, but the window only audibly identifies the manager as “Bake.”",
+          "The window confirms Mason made the Stevenson/Williams-for-Cook offer, but does not show whether it was rejected, accepted, or later altered.",
+          "A pre-season trade between Mason and Danny is criticized, and Danny references Rhamondre Stevenson, Rico Dowdle, and Chase Brown; however, this window does not state the full completed trade terms clearly enough to record it."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 1 matchup updates show Tom’s completed win over Nathan and two still-live matchups; Puka Nacua’s in-game exit affected Nathan’s roster.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Tom defeated Nathan in Week 1, 129.58–118.98.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Tom",
+              "Nathan",
+              "StevenSwagal",
+              "NathanSchm..."
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Tom"
+              },
+              {
+                "name": "loser",
+                "value": "Nathan"
+              },
+              {
+                "name": "score",
+                "value": "129.58–118.98"
+              },
+              {
+                "name": "week",
+                "value": "1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 754.68,
+                "end_seconds": 760.0,
+                "details": "Transcript identifies this as Nathan’s matchup against Tom; the on-screen final matchup scoreboard shows Nathan’s side at 118.98 and @StevenSwagal’s side at 129.58, with no players remaining."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Puka Nacua was listed out during the Rams game; he was in Nathan’s Week 1 lineup and scored 8.20 fantasy points.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Puka Nacua",
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Puka Nacua"
+              },
+              {
+                "name": "fantasy_owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "fantasy_points",
+                "value": "8.20"
+              },
+              {
+                "name": "game_status",
+                "value": "Out"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 769.88,
+                "end_seconds": 774.32,
+                "details": "Transcript says Puka Nacua was listed out for the game; the matchup screen identifies P. Nacua on Nathan’s side with an out indicator and 8.20 points."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Bush led Sal 106.84–106.58 in an unresolved Week 1 matchup, with Bush still having Garrett Wilson to play.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Bush",
+              "Sal",
+              "Garrett Wilson",
+              "@BuschLeague",
+              "@SalVetri"
+            ],
+            "facts": [
+              {
+                "name": "current_score",
+                "value": "Bush 106.84, Sal 106.58"
+              },
+              {
+                "name": "Bush_player_remaining",
+                "value": "Garrett Wilson"
+              },
+              {
+                "name": "matchup_state",
+                "value": "In progress"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 792.374,
+                "end_seconds": 805.84,
+                "details": "On-screen matchup displays @BuschLeague leading @SalVetri 106.84–106.58 and shows Garrett Wilson as Bush’s remaining player. The speaker says he is down one with Garrett Wilson left and expects to beat Sal, but that outcome is not yet final."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Danny led Zach 123.06–112.66 in an unresolved Week 1 matchup. Danny had Breece Hall remaining; Zach had Brandon Aiyuk and the Jets defense remaining.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Danny",
+              "Zach",
+              "Breece Hall",
+              "Brandon Aiyuk",
+              "Jets defense",
+              "@DannyIad21",
+              "@zaxavage"
+            ],
+            "facts": [
+              {
+                "name": "current_score",
+                "value": "Danny 123.06, Zach 112.66"
+              },
+              {
+                "name": "Danny_player_remaining",
+                "value": "Breece Hall"
+              },
+              {
+                "name": "Zach_players_remaining",
+                "value": "Brandon Aiyuk; New York Jets D/ST"
+              },
+              {
+                "name": "matchup_state",
+                "value": "In progress"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 863.6,
+                "end_seconds": 871.1,
+                "details": "Transcript says the speaker is down 10 with Aiyuk and the Jets defense left against Danny’s Breece Hall. The on-screen matchup identifies Danny at 123.06 and Zach at 112.66, with those players remaining."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "A manager said DeAndre Swift would be sent to waivers if he failed to score five points, but this was a conditional threat—not a completed waiver move. Swift finished with exactly 5.00 points.",
+            "status": "speculative",
+            "confidence": 0.97,
+            "raw_names": [
+              "DeAndre Swift",
+              "D. Swift"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "DeAndre Swift"
+              },
+              {
+                "name": "conditional_waiver_threshold",
+                "value": "Below 5 points"
+              },
+              {
+                "name": "Week 1 fantasy points",
+                "value": "5.00"
+              },
+              {
+                "name": "transaction_completed",
+                "value": "No"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 724.76,
+                "end_seconds": 730.44,
+                "details": "Speaker says Swift will go to waivers if he cannot score five points; the subsequent on-screen player card shows D. Swift with 5.00 points."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript’s reference to “Corey” appears to be Sal’s team name (“Sorry Corey”), not a confirmed owner identity; no owner named Corey is recorded.",
+          "No final outcome is shown for Bush vs. Sal or Danny vs. Zach within this window."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 1 results shown: Austin defeated Avery; Mason defeated Thomas after Christian McCaffrey was inactive; Badake led the league in scoring in a win over Joe; and Danny defeated Zach.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Austin defeated Avery in Week 1, 141.82–124.48.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Austin",
+              "Avery",
+              "@AustinHood",
+              "@averyhuffman"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Austin"
+              },
+              {
+                "name": "loser",
+                "value": "Avery"
+              },
+              {
+                "name": "score",
+                "value": "141.82–124.48"
+              },
+              {
+                "name": "week",
+                "value": "1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 900.48,
+                "end_seconds": 920.0,
+                "details": "The speaker describes low scores from Amon-Ra St. Brown and Michael Pittman and regret over sitting Jayden Daniels; the on-screen matchup identifies @averyhuffman versus @AustinHood and shows the final 124.48–141.82 score."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Christian McCaffrey was listed inactive before Monday Night Football while in Thomas's lineup, materially affecting Mason's Week 1 matchup against Thomas.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Christian McCaffrey",
+              "Mason",
+              "Thomas",
+              "@MasonDodd",
+              "@ThomasWadde"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Christian McCaffrey"
+              },
+              {
+                "name": "status",
+                "value": "inactive"
+              },
+              {
+                "name": "fantasy_owner_affected",
+                "value": "Thomas"
+              },
+              {
+                "name": "week",
+                "value": "1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 947.44,
+                "end_seconds": 968.68,
+                "details": "Transcript states McCaffrey was labeled inactive before Monday Night Football and was in Thomas's lineup; the matchup screen shows Mason (@MasonDodd) versus Thomas (@ThomasWadde), with McCaffrey marked out/with yet to play."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Mason defeated Thomas in Week 1, 106.42–93.06.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Mason",
+              "Thomas",
+              "@MasonDodd",
+              "@ThomasWadde"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Mason"
+              },
+              {
+                "name": "loser",
+                "value": "Thomas"
+              },
+              {
+                "name": "score",
+                "value": "106.42–93.06"
+              },
+              {
+                "name": "week",
+                "value": "1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 947.44,
+                "end_seconds": 968.68,
+                "details": "Mason's matchup with Thomas is shown during the discussion of McCaffrey's inactive status."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 998.035,
+                "end_seconds": 1000.0,
+                "details": "The Week 1 standings show Mason at 1–0 with 106.42 points for and 93.06 points against, and Thomas at 0–1 with 93.06 points for and 106.42 points against."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Badake defeated Joe in Week 1, 148.30–99.22, and had the league's highest Week 1 point total.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Badake",
+              "Joe",
+              "@Badake",
+              "@GreenMeansMoney"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Badake"
+              },
+              {
+                "name": "loser",
+                "value": "Joe"
+              },
+              {
+                "name": "score",
+                "value": "148.30–99.22"
+              },
+              {
+                "name": "week",
+                "value": "1"
+              },
+              {
+                "name": "league_high_points",
+                "value": "148.30"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 973.319,
+                "end_seconds": 1000.0,
+                "details": "Speaker says Badake is 1–0, beat Joe, and scored 148 points; the matchup screen shows @Badake 148.30 over @GreenMeansMoney 99.22, while the standings list Badake first with 148.3 PF."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Danny defeated Zach in Week 1, 141.36–119.46.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Danny",
+              "Zach",
+              "@Dannylad21",
+              "@zaxavage"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Danny"
+              },
+              {
+                "name": "loser",
+                "value": "Zach"
+              },
+              {
+                "name": "score",
+                "value": "141.36–119.46"
+              },
+              {
+                "name": "week",
+                "value": "1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1011.0,
+                "end_seconds": 1040.0,
+                "details": "Zach says the team will start 0–1 because Danny's kicker and defense combined for 46 points; Danny then celebrates a win over Zach. The on-screen matchup lists @Dannylad21 141.36 versus @zaxavage 119.46, and the displayed kicker/defense scores are 21.00 and 25.00."
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1128.0,
+      "transient_image_count": 6,
+      "review": {
+        "window_summary": "Week 1 results board shows six completed matchups, and Mason makes a free-agent roster move.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Week 1 matchup results shown on the league board: Nathan lost to @StevenSwagal, Mason beat Thomas, Danny beat @zaxavage, Badake beat @GreenMeansMoney, Austin beat Avery, and Bush beat Sal.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Nathan",
+              "@StevenSwagal",
+              "Mason",
+              "Thomas",
+              "Danny",
+              "@zaxavage",
+              "Badake",
+              "@GreenMeansMoney",
+              "Austin",
+              "Avery",
+              "Bush",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "Nathan vs @StevenSwagal",
+                "value": "Nathan lost 118.98–129.58."
+              },
+              {
+                "name": "Mason vs Thomas",
+                "value": "Mason won 106.42–93.06."
+              },
+              {
+                "name": "Danny vs @zaxavage",
+                "value": "Danny won 141.36–119.46."
+              },
+              {
+                "name": "Badake vs @GreenMeansMoney",
+                "value": "Badake won 148.30–99.22."
+              },
+              {
+                "name": "Avery vs Austin",
+                "value": "Austin won 141.82–124.48."
+              },
+              {
+                "name": "Bush vs Sal",
+                "value": "Bush won 118.84–106.58."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1080.0,
+                "end_seconds": 1080.0,
+                "details": "League results board visibly lists all six matchups, scores, and 1–0/0–1 records."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1083.2,
+                "end_seconds": 1090.56,
+                "details": "Speaker says Nathan lost and that Avery was also 'taken down,' consistent with the results board."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Mason made a free-agent move, adding Isaac Guerendo and dropping Isaiah Davis.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "MasonDodd",
+              "Isaac Guerendo",
+              "Isaiah Davis"
+            ],
+            "facts": [
+              {
+                "name": "Team owner",
+                "value": "Mason"
+              },
+              {
+                "name": "Add",
+                "value": "Isaac Guerendo (RB, SF)"
+              },
+              {
+                "name": "Drop",
+                "value": "Isaiah Davis (RB, NYJ)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1110.0,
+                "end_seconds": 1124.035,
+                "details": "On-screen transaction card reads: 'MasonDodd made a free agent move,' with Isaac Guerendo marked plus and Isaiah Davis marked minus."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The owners behind the display handles @StevenSwagal, @zaxavage, and @GreenMeansMoney are not established in this window."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "The owner who claimed Justin Fields from waivers is not identified; Mason's later statement that he rosters Fields does not by itself establish that he made this waiver claim.",
+    "The manager called “Bake” in the Mason-for-James-Cook offer is likely Badake, but the source does not state the full name.",
+    "The full terms and status of a separate discussed Badake offer involving Ja'Marr Chase and potentially Saquon Barkley/A.J. Brown are conflicted or incomplete. The visualized Ridley/DJ Moore-for-Chase offer was not accepted.",
+    "“Corey” appears connected to Sal's “Sorry Corey” team-name joke and earlier matchup references, but is not established as a separate league owner."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize team owners over NFL players and use stable owner names where supported.",
+      "status": "fulfilled",
+      "details": "Matchup, roster, injury-impact, and transaction events identify owners where the evidence establishes them. Unidentified speakers and ambiguous aliases were retained as uncertain."
+    },
+    {
+      "instruction": "Track Week 1 head-to-head results, scores, injuries, trades, and waiver actions.",
+      "status": "fulfilled",
+      "details": "All six final Week 1 matchups shown on the results board are recorded, along with supported injuries, roster moves, and uncompleted trade offers."
+    },
+    {
+      "instruction": "Do not treat proposals, jokes, rumors, or predictions as confirmed league events.",
+      "status": "fulfilled",
+      "details": "Trade discussions are labeled as proposals or reported offers, and the conditional DeAndre Swift waiver threat was excluded as no transaction was completed."
+    },
+    {
+      "instruction": "Make note of items requiring review.",
+      "status": "fulfilled",
+      "details": "Ambiguous owner identities, aliases, and incomplete/conflicting trade terms are listed in open_questions."
+    }
+  ],
+  "supplemental_outputs": []
+}

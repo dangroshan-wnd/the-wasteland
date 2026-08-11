@@ -28,7 +28,7 @@ from extract_frames import (
 )
 
 
-SCRIPT_VERSION = 4
+SCRIPT_VERSION = 5
 DEFAULT_MODEL = "gpt-5.6-terra"
 REPOSITORY_DIR = Path(__file__).resolve().parent.parent
 DEFAULT_GUIDANCE_PATH = Path(__file__).resolve().parent / "config" / "review-guidance.toml"
@@ -739,7 +739,10 @@ def main() -> None:
             f"Could not resolve a season for episode {args.video_id}. "
             "Add its season to the episode guidance or season date ranges."
         )
-    output_dir = artifact_directory(args.video_id, season_id).resolve()
+    video_title = metadata.get("title")
+    if not isinstance(video_title, str) or not video_title.strip():
+        raise SystemExit(f"Episode {args.video_id} does not have a usable video title.")
+    output_dir = artifact_directory(video_title, season_id).resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
     notes_path = output_dir / "episode_notes.json"
     events_path = output_dir / "events.json"
@@ -758,6 +761,7 @@ def main() -> None:
         {
             "schema_version": 1,
             "video_id": args.video_id,
+            "video_title": video_title,
             "caption_source": caption.name if caption else None,
             "segments": segments,
         },
@@ -827,6 +831,7 @@ def main() -> None:
             {
                 "schema_version": 1,
                 "video_id": args.video_id,
+                "video_title": video_title,
                 "raw_sample_counts": raw_counts,
                 "retained_image_count": 0,
                 "guidance": guidance,
@@ -896,6 +901,7 @@ def main() -> None:
                     "complete": False,
                     "model": args.model,
                     "video_id": args.video_id,
+                    "video_title": video_title,
                     "retained_image_count": 0,
                     "guidance": guidance,
                     "windows": [completed_reviews[index] for index in sorted(completed_reviews)],
@@ -919,6 +925,7 @@ def main() -> None:
                 "complete": True,
                 "model": args.model,
                 "video_id": args.video_id,
+                "video_title": video_title,
                 "retained_image_count": 0,
                 "guidance": guidance,
                 "windows": ordered_reviews,
@@ -940,6 +947,7 @@ def main() -> None:
             {
                 "schema_version": 1,
                 "video_id": args.video_id,
+                "video_title": video_title,
                 "season": synthesis.season,
                 "week": synthesis.week,
                 "guidance": guidance,

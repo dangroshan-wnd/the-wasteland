@@ -11,13 +11,14 @@ import shutil
 import subprocess
 import tempfile
 import tomllib
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 
-SCRIPT_VERSION = 3
+SCRIPT_VERSION = 4
 PROJECT_DIR = Path(__file__).resolve().parent
 UPLOADS_DIR = PROJECT_DIR / "uploads"
 ARTIFACTS_DIR = PROJECT_DIR / "artifacts"
@@ -106,11 +107,23 @@ def parse_args() -> argparse.Namespace:
     return args
 
 
-def artifact_directory(video_id: str, season_id: str) -> Path:
-    """Return the canonical season-scoped artifact directory for an episode."""
+def video_title_slug(video_title: str) -> str:
+    """Convert a video title to a stable, Windows-safe artifact folder name."""
+    ascii_title = (
+        unicodedata.normalize("NFKD", video_title).encode("ascii", "ignore").decode()
+    )
+    ascii_title = ascii_title.lower().replace("&", " and ").replace("'", "")
+    slug = re.sub(r"[^a-z0-9()]+", "_", ascii_title).strip("_ .")
+    if not slug:
+        raise SystemExit(f"Video title cannot produce an artifact folder: {video_title!r}")
+    return slug[:160].rstrip("_ .")
+
+
+def artifact_directory(video_title: str, season_id: str) -> Path:
+    """Return the canonical title-named artifact directory for an episode."""
     if not re.fullmatch(r"[A-Za-z0-9_-]+", season_id):
         raise SystemExit(f"Invalid season id for artifact path: {season_id!r}")
-    return ARTIFACTS_DIR / season_id / video_id
+    return ARTIFACTS_DIR / season_id / video_title_slug(video_title)
 
 
 def configured_episode(video_id: str) -> dict[str, Any]:
@@ -556,7 +569,8 @@ def main() -> None:
     output_path = (
         args.output
         or artifact_directory(
-            args.video_id, configured_episode_season(args.video_id)
+            metadata_data.get("title") or args.video_id,
+            configured_episode_season(args.video_id),
         )
         / "visual-sampling.json"
     ).resolve()

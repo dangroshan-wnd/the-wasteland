@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "video_id": "8zrKZTP_QEs",
+  "video_title": "2024 Fantasy Football Draft Vlog (Flock League)",
   "season": "Season 1",
   "week": null,
   "guidance": {
@@ -64,25 +65,25 @@
   "events": [
     {
       "event_type": "other",
-      "summary": "The Flock League format is 1 QB, 2 RB, 2 WR, 1 TE, 2 FLEX, full PPR, with kickers and defenses included.",
+      "summary": "The inaugural Flock League format was announced as full PPR with 1 QB, 2 RB, 2 WR, 1 TE, 2 flex, kickers, and defenses.",
       "season": "Season 1",
       "week": null,
       "status": "confirmed",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "participants": [],
       "scores": [],
       "facts": [
         {
-          "name": "Lineup",
-          "value": "1 QB, 2 RB, 2 WR, 1 TE, 2 FLEX"
+          "name": "starting lineup",
+          "value": "1 QB; 2 RB; 2 WR; 1 TE; 2 flex"
         },
         {
-          "name": "Scoring",
+          "name": "scoring",
           "value": "Full PPR"
         },
         {
-          "name": "Additional roster positions",
-          "value": "Kicker and defense"
+          "name": "additional roster positions",
+          "value": "Kickers and defenses included"
         }
       ],
       "evidence": [
@@ -90,199 +91,105 @@
           "source": "transcript",
           "start_seconds": 2.629,
           "end_seconds": 18.92,
-          "details": "The host states the lineup, full-PPR scoring, and inclusion of kickers and defenses."
+          "details": "The host describes the lineup, full-PPR scoring, and inclusion of kickers and defenses."
         }
       ]
     },
     {
       "event_type": "draft",
-      "summary": "The first-round draft order was Tom, Thomas, Zach, Austin, Avery, Danny, Mason, Bush, Badake, Nathan, Sal, and Joe.",
+      "summary": "The Season 1 preseason draft was completed. The draft order was Tom, Thomas, Zach, Austin, Avery, Danny, Mason, Bush, Badake, Nathan, Sal, and Joe.",
       "season": "Season 1",
       "week": null,
       "status": "confirmed",
-      "confidence": 0.95,
+      "confidence": 0.9,
       "participants": [
         {
-          "role": "drafter",
+          "role": "draft slot 1",
           "name": "Tom"
         },
         {
-          "role": "drafter",
+          "role": "draft slot 2",
           "name": "Thomas"
         },
         {
-          "role": "drafter",
+          "role": "draft slot 3",
           "name": "Zach"
         },
         {
-          "role": "drafter",
+          "role": "draft slot 4",
           "name": "Austin"
         },
         {
-          "role": "drafter",
+          "role": "draft slot 5",
           "name": "Avery"
         },
         {
-          "role": "drafter",
+          "role": "draft slot 6",
           "name": "Danny"
         },
         {
-          "role": "drafter",
+          "role": "draft slot 7",
           "name": "Mason"
         },
         {
-          "role": "drafter",
+          "role": "draft slot 8",
           "name": "Bush"
         },
         {
-          "role": "drafter",
+          "role": "draft slot 9",
           "name": "Badake"
         },
         {
-          "role": "drafter",
+          "role": "draft slot 10",
           "name": "Nathan"
         },
         {
-          "role": "drafter",
+          "role": "draft slot 11",
           "name": "Sal"
         },
         {
-          "role": "drafter",
+          "role": "draft slot 12",
           "name": "Joe"
         }
       ],
       "scores": [],
       "facts": [
         {
-          "name": "Round",
-          "value": "1"
-        },
-        {
-          "name": "Draft order",
+          "name": "draft order",
           "value": "Tom, Thomas, Zach, Austin, Avery, Danny, Mason, Bush, Badake, Nathan, Sal, Joe"
+        },
+        {
+          "name": "full roster readings",
+          "value": "Recorded in supplemental output draft_results."
         }
       ],
       "evidence": [
         {
           "source": "visual",
-          "start_seconds": 480.51,
-          "end_seconds": 480.51,
-          "details": "The draft overlay shows all 12 first-round player cards beneath the owner columns, establishing the owner order."
-        }
-      ]
-    },
-    {
-      "event_type": "draft",
-      "summary": "Rounds 4 through 6 were completed, with owner-by-owner selections recorded from the draft board and commentary. The complete final-board reading is not available in the supplied evidence extract.",
-      "season": "Season 1",
-      "week": null,
-      "status": "confirmed",
-      "confidence": 0.94,
-      "participants": [],
-      "scores": [],
-      "facts": [
-        {
-          "name": "Round 4",
-          "value": "Completed across all 12 owners"
+          "start_seconds": 1782.0,
+          "end_seconds": 1798.0,
+          "details": "The final draft board displays all owner columns and completed selections in order."
         },
-        {
-          "name": "Round 5",
-          "value": "Completed across all 12 owners"
-        },
-        {
-          "name": "Round 6",
-          "value": "Completed across all 12 owners"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "both",
-          "start_seconds": 930.475,
-          "end_seconds": 1059.64,
-          "details": "The board and commentary support the completed Round 4 and Round 5 selections."
-        },
-        {
-          "source": "visual",
-          "start_seconds": 1258.315,
-          "end_seconds": 1258.315,
-          "details": "The draft-board overlay displays six completed selection rows for each owner."
-        }
-      ]
-    },
-    {
-      "event_type": "roster_move",
-      "summary": "After six rounds, Mason was the only team reported to have not drafted a running back.",
-      "season": "Season 1",
-      "week": null,
-      "status": "confirmed",
-      "confidence": 0.9,
-      "participants": [
-        {
-          "role": "team owner",
-          "name": "Mason"
-        }
-      ],
-      "scores": [],
-      "facts": [
-        {
-          "name": "Roster status after Round 6",
-          "value": "No running back drafted"
-        },
-        {
-          "name": "League comparison",
-          "value": "Speakers described Mason as the only team without a running back"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "both",
-          "start_seconds": 1182.32,
-          "end_seconds": 1213.24,
-          "details": "Commentary says Mason had not selected a running back in six rounds, and the roster overlay shows his first six selections without one."
-        }
-      ]
-    },
-    {
-      "event_type": "injury",
-      "summary": "Hollywood Brown was described as injured at the time of the draft; no injury type or recovery timetable was provided.",
-      "season": "Season 1",
-      "week": null,
-      "status": "reported",
-      "confidence": 0.9,
-      "participants": [
-        {
-          "role": "NFL player",
-          "name": "Hollywood Brown"
-        }
-      ],
-      "scores": [],
-      "facts": [
-        {
-          "name": "Reported status",
-          "value": "Injured 'right now'"
-        },
-        {
-          "name": "Injury type/timetable",
-          "value": "Not provided"
-        }
-      ],
-      "evidence": [
         {
           "source": "transcript",
-          "start_seconds": 1272.0,
-          "end_seconds": 1276.76,
-          "details": "A speaker says, 'we'll take Hollywood Brown. I don't care that he's injured right now.'"
+          "start_seconds": 1778.24,
+          "end_seconds": 1780.0,
+          "details": "Speakers state that the draft has finished."
         }
       ]
     },
     {
-      "event_type": "injury",
-      "summary": "Jalen McMillan was reported to be dealing with an unspecified injury, though the speaker said it did not appear serious.",
+      "event_type": "injury_update",
+      "summary": "Jalen McMillan was discussed as dealing with an injury that did not appear serious, and the final board places him on Avery's roster.",
       "season": "Season 1",
       "week": null,
       "status": "reported",
       "confidence": 0.86,
       "participants": [
+        {
+          "role": "fantasy owner",
+          "name": "Avery"
+        },
         {
           "role": "NFL player",
           "name": "Jalen McMillan"
@@ -291,20 +198,55 @@
       "scores": [],
       "facts": [
         {
-          "name": "Reported condition",
-          "value": "Unspecified injury"
+          "name": "injury assessment",
+          "value": "Speaker said it did not appear serious."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1667.88,
+          "end_seconds": 1673.24,
+          "details": "Transcript discusses McMillan's injury and says it does not seem serious; the final board places him in Avery's column."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Marquise Brown was described by a speaker as injured at the time of the draft. Available roster evidence conflicts on whether he was selected by Mason or Bush.",
+      "season": "Season 1",
+      "week": null,
+      "status": "reported",
+      "confidence": 0.78,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Marquise Brown"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury status",
+          "value": "Described by a speaker as injured 'right now'."
         },
         {
-          "name": "Reported severity",
-          "value": "Does not seem serious, according to the speaker"
+          "name": "owner assignment",
+          "value": "Unclear: a mid-draft overlay was read as Mason, while the final-board reading lists Hollywood Brown under Bush."
         }
       ],
       "evidence": [
         {
           "source": "transcript",
-          "start_seconds": 1667.88,
-          "end_seconds": 1675.04,
-          "details": "The speaker says McMillan may have slipped because of an injury but that it does not seem serious by all accounts."
+          "start_seconds": 1273.88,
+          "end_seconds": 1276.76,
+          "details": "A speaker says, 'we'll take Hollywood Brown. I don't care that he's injured right now.'"
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1782.0,
+          "end_seconds": 1798.0,
+          "details": "The supplied final-board reading lists Hollywood Brown in Bush's column."
         }
       ]
     }
