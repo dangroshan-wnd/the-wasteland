@@ -8,7 +8,8 @@ title = "2024 Fantasy Football Draft Vlog (Flock League)"
 upload_date = "20240826"
 season = "season_1"
 instructions = """
-This episode contains the pre-season draft where Team Owners select their players. Make note of the draft order, each Owner's selections, and any discussion points that stand out if relevant.
+1. This episode contains the pre-season draft where Team Owners select their players. Make note of the draft order, each Owner's selections, and any discussion points that stand out if relevant.
+2. Save in JSON format each Team Owner's final selections. Save this is the artifacts/season_1/ folder.
 """
 
 [episodes."FKFRHyok5QI"]
