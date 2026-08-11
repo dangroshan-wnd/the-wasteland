@@ -119,11 +119,18 @@ def video_title_slug(video_title: str) -> str:
     return slug[:160].rstrip("_ .")
 
 
-def artifact_directory(video_title: str, season_id: str) -> Path:
-    """Return the canonical title-named artifact directory for an episode."""
+def artifact_directory(video_title: str, season_id: str, upload_date: str) -> Path:
+    """Return the canonical date-and-title artifact directory for an episode."""
     if not re.fullmatch(r"[A-Za-z0-9_-]+", season_id):
         raise SystemExit(f"Invalid season id for artifact path: {season_id!r}")
-    return ARTIFACTS_DIR / season_id / video_title_slug(video_title)
+    if not re.fullmatch(r"\d{8}", upload_date):
+        raise SystemExit(f"Invalid upload date for artifact path: {upload_date!r}")
+    try:
+        datetime.strptime(upload_date, "%Y%m%d")
+    except ValueError as error:
+        raise SystemExit(f"Invalid upload date for artifact path: {upload_date!r}") from error
+    folder_name = f"{upload_date}__{video_title_slug(video_title)}"
+    return ARTIFACTS_DIR / season_id / folder_name
 
 
 def configured_episode(video_id: str) -> dict[str, Any]:
@@ -571,6 +578,7 @@ def main() -> None:
         or artifact_directory(
             metadata_data.get("title") or args.video_id,
             configured_episode_season(args.video_id),
+            metadata_data.get("upload_date") or "",
         )
         / "visual-sampling.json"
     ).resolve()

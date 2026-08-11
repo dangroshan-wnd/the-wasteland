@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "video_id": "0XSRuWmedyE",
+  "video_title": "Thanksgiving Destroys The League Standings",
+  "season": "Season 1",
+  "week": 13,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Thanksgiving Destroys The League Standings",
+      "upload_date": "20241203",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "waiver",
+      "summary": "Bush reported acquiring the Cowboys D/ST for $7; the unit scored 20 Thanksgiving-week fantasy points.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "reported",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "fantasy unit",
+          "name": "Cowboys D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "waiver cost",
+          "value": "$7"
+        },
+        {
+          "name": "reported fantasy points",
+          "value": "20"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 74.0,
+          "end_seconds": 77.4,
+          "details": "The speaker identified on the matchup graphic as Corey (Busch) says he spent $7 on the Cowboys defense and received 20 points."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Mason defeated Nathan 135.22-117.30 in Week 13.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Mason"
+        },
+        {
+          "role": "loser",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Mason",
+          "score": 135.22
+        },
+        {
+          "name": "Nathan",
+          "score": 117.3
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 360.0,
+          "end_seconds": 367.2,
+          "details": "Week 13 matchup panel shows Nathan at 117.30 and Mason at 135.22, with Mason marked as winner."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Nathan started Rachaad White and benched Jerry Jeudy in the loss to Mason.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "starter",
+          "name": "Rachaad White"
+        },
+        {
+          "role": "bench player",
+          "name": "Jerry Jeudy"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Jeudy points discussed",
+          "value": "38; an earlier spoken estimate was 40"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 372.44,
+          "end_seconds": 384.64,
+          "details": "Discussion says Nathan started Rachaad White over Jeudy and had Jeudy's 38-point performance on his bench; earlier dialogue cites 40 points."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Mason was stated to be 8-5 following the win over Nathan.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "record",
+          "value": "8-5"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 490.8,
+          "end_seconds": 494.12,
+          "details": "Speaker states that Mason is 8-5."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Mason was reported to have defeated Austin by approximately 0.2 points after David Njoku dropped a late pass.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Mason"
+        },
+        {
+          "role": "loser",
+          "name": "Austin"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "margin",
+          "value": "approximately 0.2 points"
+        },
+        {
+          "name": "decisive context",
+          "value": "A late Njoku reception was said to have changed the result, but he dropped the pass."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 554.76,
+          "end_seconds": 578.64,
+          "details": "Speaker says Austin nearly won, a Njoku catch would have caused a loss, and the margin was about 0.2."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Mason reported that Jordan Mason was out for the season, leaving Mason without an RB2.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "NFL player",
+          "name": "Jordan Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported player status",
+          "value": "out for the season"
+        },
+        {
+          "name": "reported fantasy impact",
+          "value": "Mason said he no longer had an RB2"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 579.84,
+          "end_seconds": 585.88,
+          "details": "Speaker says Jordan Mason is out for the season and that he does not have an RB2."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Zach defeated Joe 187.56-133.72, ending Joe's four-game winning streak.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Zach"
+        },
+        {
+          "role": "loser",
+          "name": "Joe"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Zach",
+          "score": 187.56
+        },
+        {
+          "name": "Joe",
+          "score": 133.72
+        }
+      ],
+      "facts": [
+        {
+          "name": "Joe prior winning streak",
+          "value": "four games"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 660.72,
+          "end_seconds": 707.12,
+          "details": "The matchup board displays Zach 187.56 and Joe 133.72; narration says Zach ended Joe's four-game winning streak."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Zach clinched the No. 1 seed and a playoff bye at 10-3, with one week remaining.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "record",
+          "value": "10-3"
+        },
+        {
+          "name": "seed",
+          "value": "No. 1"
+        },
+        {
+          "name": "playoff status",
+          "value": "bye clinched"
+        },
+        {
+          "name": "weeks remaining",
+          "value": "1"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 683.04,
+          "end_seconds": 718.32,
+          "details": "Speaker says Zach's win locked up the bye and No. 1 seed at 10-3 with one week left."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Sal defeated Avery in a high-scoring Week 13 matchup, with the displayed final approximately 165.96-163.64.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Sal"
+        },
+        {
+          "role": "loser",
+          "name": "Avery"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Sal",
+          "score": 165.96
+        },
+        {
+          "name": "Avery",
+          "score": 163.64
+        }
+      ],
+      "facts": [
+        {
+          "name": "narrated rounded score",
+          "value": "165-163"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 777.5,
+          "end_seconds": 788.6,
+          "details": "Matchup screen identifies Avery versus Sal and displays the close final scores."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 732.0,
+          "end_seconds": 750.0,
+          "details": "Sal says he scored 165 and beat Avery, who scored 163."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Badake defeated Danny in Week 13; the clearest supplied result screen shows 133.06-111.08.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Badake"
+        },
+        {
+          "role": "loser",
+          "name": "Danny"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Badake",
+          "score": 133.06
+        },
+        {
+          "name": "Danny",
+          "score": 111.08
+        }
+      ],
+      "facts": [
+        {
+          "name": "conflicting displayed score",
+          "value": "An earlier supplied visual review reports 131.04-111.06."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 927.767,
+          "end_seconds": 936.533,
+          "details": "Week 13 matchup display shows Badake with a WIN at 133.06 over Danny at 111.08; narration also describes a 133-111 loss."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Breece Hall was initially reported as expected to play Sunday, but Danny later said Hall was inactive in Danny's Week 13 loss to Badake.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "reported",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Breece Hall"
+        },
+        {
+          "role": "bench player",
+          "name": "Nick Westbrook-Ikhine"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "earlier availability report",
+          "value": "expected to play Sunday"
+        },
+        {
+          "name": "later reported status",
+          "value": "inactive"
+        },
+        {
+          "name": "Hall fantasy points shown",
+          "value": "6.00"
+        },
+        {
+          "name": "narrated bench comparison",
+          "value": "Nick Westbrook-Ikhine scored 19.90, 15 points more than Hall"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 190.92,
+          "end_seconds": 203.24,
+          "details": "An unidentified manager says Hall was expected to play and names Westbrook-Ikhine as an emergency substitute."
+        },
+        {
+          "source": "both",
+          "start_seconds": 947.88,
+          "end_seconds": 957.88,
+          "details": "Danny's discussion says Hall was inactive and Westbrook-Ikhine outscored him by 15; the display shows Hall at 6.00."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Entering Week 14, Zach was first at 10-3 and Mason second at 8-5; Avery and Austin were 7-6. Six managers were tied at 6-7 for positions 5-10, while Nathan and Bush were 5-8.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "1st place",
+          "name": "Zach"
+        },
+        {
+          "role": "2nd place",
+          "name": "Mason"
+        },
+        {
+          "role": "3rd place",
+          "name": "Avery"
+        },
+        {
+          "role": "4th place",
+          "name": "Austin"
+        },
+        {
+          "role": "5th place",
+          "name": "Badake"
+        },
+        {
+          "role": "6th place",
+          "name": "Thomas"
+        },
+        {
+          "role": "7th place",
+          "name": "Sal"
+        },
+        {
+          "role": "8th place",
+          "name": "Danny"
+        },
+        {
+          "role": "9th place",
+          "name": "StevenSwaggg"
+        },
+        {
+          "role": "10th place",
+          "name": "Joe"
+        },
+        {
+          "role": "11th place",
+          "name": "Nathan"
+        },
+        {
+          "role": "12th place",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "playoff berths",
+          "value": "6"
+        },
+        {
+          "name": "Badake through Joe records",
+          "value": "6-7"
+        },
+        {
+          "name": "Nathan and Bush records",
+          "value": "5-8"
+        },
+        {
+          "name": "current cutoff",
+          "value": "Thomas in 6th; Sal in 7th and Danny in 8th"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1117.367,
+          "end_seconds": 1230.0,
+          "details": "Standings graphic lists all 12 teams and records."
+        },
+        {
+          "source": "both",
+          "start_seconds": 1270.0,
+          "end_seconds": 1273.5,
+          "details": "Narration confirms that six teams make the playoffs and Sal is seventh; standings show positions 5-10 at 6-7."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Mason was seventh in points scored (1,671.48) but had the league's lowest points against (1,564.74), and was said to control a conditional path to the No. 2 seed by winning in Week 14.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "reported",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "points scored",
+          "value": "1,671.48"
+        },
+        {
+          "name": "points-scored rank",
+          "value": "7th"
+        },
+        {
+          "name": "points against",
+          "value": "1,564.74"
+        },
+        {
+          "name": "No. 2 seed condition",
+          "value": "Mason can secure it with a win, according to the speaker"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1171.08,
+          "end_seconds": 1183.88,
+          "details": "Speaker says Mason is seventh in points scored and has a legitimate chance at the No. 2 seed and bye."
+        },
+        {
+          "source": "both",
+          "start_seconds": 1229.559,
+          "end_seconds": 1248.559,
+          "details": "Speaker says Mason has the fewest points against; standings display 1,564.74 points against."
+        }
+      ]
+    }
+  ]
+}

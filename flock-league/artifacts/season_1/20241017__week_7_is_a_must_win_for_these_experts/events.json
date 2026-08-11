@@ -1,0 +1,737 @@
+{
+  "schema_version": 1,
+  "video_id": "GDMCqNykCeo",
+  "video_title": "Week 7 Is a Must Win For These \"Experts\"",
+  "season": "Season 1",
+  "week": 7,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Week 7 Is a Must Win For These \"Experts\"",
+      "upload_date": "20241017",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "waiver",
+      "summary": "Zach added the New York Jets D/ST for $6 and dropped the Houston Texans D/ST.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "added",
+          "name": "New York Jets D/ST"
+        },
+        {
+          "role": "dropped",
+          "name": "Houston Texans D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "waiver_cost",
+          "value": "$6"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 49.36,
+          "end_seconds": 54.8,
+          "details": "The waiver screen and discussion identify Zach adding the Jets defense, dropping Houston, and spending $6."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Nathan added Sean Tucker for $6 and dropped Alec Pierce; he also added Colby Parkinson for $0 and dropped Ty Johnson.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "added",
+          "name": "Sean Tucker"
+        },
+        {
+          "role": "dropped",
+          "name": "Alec Pierce"
+        },
+        {
+          "role": "added",
+          "name": "Colby Parkinson"
+        },
+        {
+          "role": "dropped",
+          "name": "Ty Johnson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Sean Tucker waiver cost",
+          "value": "$6"
+        },
+        {
+          "name": "Colby Parkinson waiver cost",
+          "value": "$0"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 65.96,
+          "end_seconds": 79.36,
+          "details": "Waiver screen identifies Nathan adding Sean Tucker and dropping Alec Pierce for $6."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 180.595,
+          "end_seconds": 183.635,
+          "details": "League transaction panel lists Nathan adding Colby Parkinson and dropping Ty Johnson for $0."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Austin added Dameon Pierce for $5 and dropped Tyler Conklin.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "added",
+          "name": "Dameon Pierce"
+        },
+        {
+          "role": "dropped",
+          "name": "Tyler Conklin"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "waiver_cost",
+          "value": "$5"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 65.9,
+          "end_seconds": 82.0,
+          "details": "Waiver screen shows Austin adding Dameon Pierce, dropping Tyler Conklin, and spending $5."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Badake added Hunter Henry for $5 and dropped Justin Fields.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "added",
+          "name": "Hunter Henry"
+        },
+        {
+          "role": "dropped",
+          "name": "Justin Fields"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "waiver_cost",
+          "value": "$5"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 41.16,
+          "end_seconds": 52.88,
+          "details": "The transaction screen and discussion show Badake adding Hunter Henry, dropping Justin Fields, for $5."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Danny made several free-agent moves: New Orleans D/ST for Chicago Bears D/ST, Drake Maye for Dak Prescott, Bub Means for Allen Lazard, and Will Reichard for Dontayvion Wicks.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "added",
+          "name": "New Orleans D/ST"
+        },
+        {
+          "role": "dropped",
+          "name": "Chicago Bears D/ST"
+        },
+        {
+          "role": "added",
+          "name": "Drake Maye"
+        },
+        {
+          "role": "dropped",
+          "name": "Dak Prescott"
+        },
+        {
+          "role": "added",
+          "name": "Bub Means"
+        },
+        {
+          "role": "dropped",
+          "name": "Allen Lazard"
+        },
+        {
+          "role": "added",
+          "name": "Will Reichard"
+        },
+        {
+          "role": "dropped",
+          "name": "Dontayvion Wicks"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "New Orleans/Chicago defense move cost",
+          "value": "$0"
+        },
+        {
+          "name": "Drake Maye/Dak Prescott move cost",
+          "value": "$0"
+        },
+        {
+          "name": "Bub Means/Allen Lazard move cost",
+          "value": "$0"
+        },
+        {
+          "name": "Will Reichard move",
+          "value": "Free-agent transaction; cost not shown in supplied evidence"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 122.0,
+          "end_seconds": 151.0,
+          "details": "Danny's transaction card and discussion confirm Drake Maye added for Dak Prescott at $0."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 180.595,
+          "end_seconds": 187.635,
+          "details": "League transaction panel lists Danny's New Orleans D/ST, Bub Means, and Will Reichard moves and their corresponding drops."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Zach and Sal completed an eight-player trade that included JuJu Smith-Schuster, Terry McLaurin, Jonathan Taylor, Tyjae Spears, Amari Cooper, Diontae Johnson, Brian Robinson, and Bucky Irving. The exact player-by-player direction is unclear in the supplied trade graphic.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.83,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "player involved",
+          "name": "JuJu Smith-Schuster"
+        },
+        {
+          "role": "player involved",
+          "name": "Terry McLaurin"
+        },
+        {
+          "role": "player involved",
+          "name": "Jonathan Taylor"
+        },
+        {
+          "role": "player involved",
+          "name": "Tyjae Spears"
+        },
+        {
+          "role": "player involved",
+          "name": "Amari Cooper"
+        },
+        {
+          "role": "player involved",
+          "name": "Diontae Johnson"
+        },
+        {
+          "role": "player involved",
+          "name": "Brian Robinson"
+        },
+        {
+          "role": "player involved",
+          "name": "Bucky Irving"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "trade size",
+          "value": "Eight players"
+        },
+        {
+          "name": "reported context",
+          "value": "A speaker said his side obtained Amari Cooper and traded away Jonathan Taylor."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 219.235,
+          "end_seconds": 242.755,
+          "details": "Trade graphic displays the eight-player exchange, but the supplied view does not unambiguously map each column to Zach or Sal."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 214.36,
+          "end_seconds": 246.48,
+          "details": "Discussion identifies the transaction as Sal's trade with Zach and says one side obtained Cooper while moving Jonathan Taylor."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "A trade offer involving Brandon Aiyuk, sent by Cory, was declined. The recipient and the other assets were not established.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.89,
+      "participants": [
+        {
+          "role": "offer sender",
+          "name": "Cory"
+        },
+        {
+          "role": "player involved",
+          "name": "Brandon Aiyuk"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "trade status",
+          "value": "Rejected"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 721.36,
+          "end_seconds": 728.36,
+          "details": "A speaker says Cory sent a Brandon Aiyuk trade and that they do not want Aiyuk back."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Danny said he was starting Bub Means in his upcoming Week 7 matchup against Avery.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "opponent",
+          "name": "Avery"
+        },
+        {
+          "role": "starting player",
+          "name": "Bub Means"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "action",
+          "value": "Named Bub Means as a Week 7 starter"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 532.76,
+          "end_seconds": 539.0,
+          "details": "Danny says, “I’m starting Bub Means against Avery.”"
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Mason said he picked up the New York Jets D/ST for his Week 7 lineup.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "added",
+          "name": "New York Jets D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "timing",
+          "value": "Week 7 lineup discussion"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 812.033,
+          "end_seconds": 839.16,
+          "details": "Mason's lineup is on screen while he says, “we picked up that New York Jets defense.”"
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Bush made a free-agent defense swap, adding the Los Angeles Rams D/ST and dropping the Tampa Bay Buccaneers D/ST.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "added",
+          "name": "Los Angeles Rams D/ST"
+        },
+        {
+          "role": "dropped",
+          "name": "Tampa Bay Buccaneers D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 925.367,
+          "end_seconds": 930.0,
+          "details": "League activity feed shows BushLeague adding Los Angeles Rams DEF and removing Tampa Bay Buccaneers DEF."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Zach was described as 5-1 and first in the league entering Week 7.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "record",
+          "value": "5-1"
+        },
+        {
+          "name": "standing",
+          "value": "First in league"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 632.0,
+          "end_seconds": 636.4,
+          "details": "A speaker says Zach is 5-1 and first in the league."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Mason's displayed record entering Week 7 was 4-2.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "record",
+          "value": "4-2"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 859.054,
+          "end_seconds": 870.0,
+          "details": "On-screen team banner identifies Mason with a 4-2 record."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Mason was reported to have lost to Austin in the prior week; no final score was provided.",
+      "season": "Season 1",
+      "week": null,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "loser",
+          "name": "Mason"
+        },
+        {
+          "role": "winner",
+          "name": "Austin"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "timing",
+          "value": "Week before Week 7"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 553.64,
+          "end_seconds": 556.8,
+          "details": "The speaker refers to “this past week when I lost to ... Austin.”"
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Joe and Nathan were previewed as Week 7 opponents. Joe was said to have five starters on bye and a 38-point projection at that time; this was not a completed result.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "reported",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Joe"
+        },
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Joe starters on bye",
+          "value": "5"
+        },
+        {
+          "name": "Joe projected points",
+          "value": "38"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 763.56,
+          "end_seconds": 796.354,
+          "details": "Narration and matchup screen identify Joe versus Nathan and describe Joe's five bye-week starters and 38-point projection."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Mason said injuries had affected his WR2 options, naming Rashee Rice, Nico Collins, Malik Nabers, and Dontayvion Wicks. He said Wicks went down in the first quarter of the prior week's game.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "reported",
+      "confidence": 0.78,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "player mentioned",
+          "name": "Rashee Rice"
+        },
+        {
+          "role": "player mentioned",
+          "name": "Nico Collins"
+        },
+        {
+          "role": "player mentioned",
+          "name": "Malik Nabers"
+        },
+        {
+          "role": "player mentioned",
+          "name": "Dontayvion Wicks"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Wicks detail",
+          "value": "Reportedly went down in the first quarter in the prior week"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 549.4,
+          "end_seconds": 562.96,
+          "details": "Mason describes the listed players as injured WR2 options and says Wicks went down in the first quarter."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "The episode reported NFL availability concerns for Rashid Shaheed, Chris Olave, and Drake Maye. No precise Shaheed diagnosis, fantasy owner for Shaheed or Olave, or confirmed Maye game status is established.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "reported",
+      "confidence": 0.76,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Rashid Shaheed"
+        },
+        {
+          "role": "NFL player",
+          "name": "Chris Olave"
+        },
+        {
+          "role": "NFL player",
+          "name": "Drake Maye"
+        },
+        {
+          "role": "fantasy owner of Maye",
+          "name": "Danny"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Shaheed report",
+          "value": "Described as having a major knee injury"
+        },
+        {
+          "name": "Olave report",
+          "value": "Said to be unavailable Thursday night"
+        },
+        {
+          "name": "Maye report",
+          "value": "Said to be injured and possibly no longer the starter"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 183.599,
+          "end_seconds": 190.88,
+          "details": "Discussion says Shaheed has a major knee injury and Olave is not playing Thursday night."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 956.04,
+          "end_seconds": 970.0,
+          "details": "Narration says a Wednesday-night report indicated Maye might no longer start and was injured."
+        }
+      ]
+    }
+  ]
+}

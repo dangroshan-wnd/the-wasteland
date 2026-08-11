@@ -1,0 +1,868 @@
+{
+  "schema_version": 1,
+  "video_id": "RACYXNABMMw",
+  "video_title": "1/2 The League Is Falling Apart",
+  "season": "Season 1",
+  "week": 6,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "1/2 The League Is Falling Apart",
+      "upload_date": "20241015",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "waiver",
+      "summary": "Sal added JuJu Smith-Schuster for $24, beating Nathan’s $23 bid by one dollar, and released Emanuel Wilson.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "runner-up bidder",
+          "name": "Nathan"
+        },
+        {
+          "role": "added player",
+          "name": "JuJu Smith-Schuster"
+        },
+        {
+          "role": "dropped player",
+          "name": "Emanuel Wilson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning bid",
+          "value": "$24"
+        },
+        {
+          "name": "runner-up bid",
+          "value": "$23"
+        },
+        {
+          "name": "total bids",
+          "value": "5"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 82.254,
+          "end_seconds": 92.0,
+          "details": "Processed-waiver card shows Sal adding JuJu Smith-Schuster for $24 and dropping Emanuel Wilson."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 110.0,
+          "end_seconds": 117.0,
+          "details": "Bid list shows Sal at $24 and Nathan at $23."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Badake added the Philadelphia Eagles D/ST for $5, Mason added Joshua Palmer for $1, and an unclearly identified roster added the Houston Texans D/ST for $1 while dropping the New York Jets D/ST.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.83,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "added player",
+          "name": "Philadelphia Eagles D/ST"
+        },
+        {
+          "role": "added player",
+          "name": "Joshua Palmer"
+        },
+        {
+          "role": "added player",
+          "name": "Houston Texans D/ST"
+        },
+        {
+          "role": "dropped player",
+          "name": "New York Jets D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Badake bid",
+          "value": "$5"
+        },
+        {
+          "name": "Mason bid",
+          "value": "$1"
+        },
+        {
+          "name": "unidentified roster transaction",
+          "value": "Added Houston Texans D/ST for $1; dropped New York Jets D/ST"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 63.533,
+          "end_seconds": 68.0,
+          "details": "Processed-waivers panel lists the Eagles, Texans/Jets, and Joshua Palmer transactions; the Texans/Jets roster label is unclear."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Zach and Sal completed the league’s second-ever trade: Zach received JuJu Smith-Schuster, Terry McLaurin, Jonathan Taylor, and Tyjae Spears; Sal received Amari Cooper, Diontae Johnson, Brian Robinson, and Bucky Irving.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "accepted date",
+          "value": "Oct. 11, 2024"
+        },
+        {
+          "name": "Zach received",
+          "value": "JuJu Smith-Schuster; Terry McLaurin; Jonathan Taylor; Tyjae Spears"
+        },
+        {
+          "name": "Sal received",
+          "value": "Amari Cooper; Diontae Johnson; Brian Robinson; Bucky Irving"
+        },
+        {
+          "name": "league trade count",
+          "value": "Second-ever trade"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 557.833,
+          "end_seconds": 559.0,
+          "details": "Accepted-trade panel displays the complete eight-player exchange between zaxavage and SalVetrii."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 548.36,
+          "end_seconds": 553.88,
+          "details": "Zach describes sending Amari Cooper, Diontae Johnson, Brian Robinson, and Bucky Irving for Jonathan Taylor, Terry McLaurin, JuJu Smith-Schuster, and Tyjae Spears."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Sal changed his team name to “Cooked.”",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "new team name",
+          "value": "Cooked"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 642.655,
+          "end_seconds": 647.655,
+          "details": "League notification reads: “SalVetrii has updated their team name: Cooked.”"
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Danny reported that Rashee Rice was out for the season after surgery, Nico Collins had been placed on Texans IR for at least four weeks, and Malik Nabers would miss a second consecutive week.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "reported",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Rashee Rice"
+        },
+        {
+          "role": "NFL player",
+          "name": "Nico Collins"
+        },
+        {
+          "role": "NFL player",
+          "name": "Malik Nabers"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Rashee Rice status",
+          "value": "Reported season-ending injury and surgery; exact torn ligament unclear"
+        },
+        {
+          "name": "Nico Collins status",
+          "value": "Reported Texans IR placement; at least four weeks absent"
+        },
+        {
+          "name": "Malik Nabers status",
+          "value": "Reported to miss a second consecutive week"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 267.2,
+          "end_seconds": 284.68,
+          "details": "Danny identifies the three receivers while discussing injuries affecting his lineup."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Jonathan Taylor was mentioned as having an ankle issue, and Zach later reported Jordan Mason left Thursday’s game with an injury and essentially did not return.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "reported",
+      "confidence": 0.87,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Jonathan Taylor"
+        },
+        {
+          "role": "affected team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "NFL player",
+          "name": "Jordan Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Jonathan Taylor issue",
+          "value": "Ankle issue mentioned; severity not established"
+        },
+        {
+          "name": "Jordan Mason status",
+          "value": "Reported to leave Thursday game injured and essentially not return"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1.4,
+          "end_seconds": 4.319,
+          "details": "A speaker says, “Jonathan Taylor your ankle hurts.”"
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 508.48,
+          "end_seconds": 518.0,
+          "details": "Zach says Jordan Mason left injured after exceeding 70 rushing yards early and basically did not return."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Danny previously acquired Jonathan Brooks in a trade; the counterparty and return assets were not shown.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "acquiring team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "acquired player",
+          "name": "Jonathan Brooks"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "trade terms",
+          "value": "Not shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1280.039,
+          "end_seconds": 1285.24,
+          "details": "Speaker refers to Danny having “made the trade for Jonathan Brooks.”"
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Badake won Ray Davis for $5, ahead of Nathan’s $2 bid and Bush’s $0 bid.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "runner-up bidder",
+          "name": "Nathan"
+        },
+        {
+          "role": "bidder",
+          "name": "Bush"
+        },
+        {
+          "role": "added player",
+          "name": "Ray Davis"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning bid",
+          "value": "$5"
+        },
+        {
+          "name": "Nathan bid",
+          "value": "$2"
+        },
+        {
+          "name": "Bush bid",
+          "value": "$0"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 934.079,
+          "end_seconds": 952.5,
+          "details": "Waiver overlay lists Badake $5, Nathan $2, and Bush $0 for Ray Davis."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Danny added Ty Johnson and Bush added Ray Davis as free agents; after James Cook was expected to play, the two players were dropped.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.92,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "player",
+          "name": "Ty Johnson"
+        },
+        {
+          "role": "player",
+          "name": "Ray Davis"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "initial adds",
+          "value": "Danny added Ty Johnson; Bush added Ray Davis"
+        },
+        {
+          "name": "subsequent drops",
+          "value": "Ty Johnson and Ray Davis were dropped after a James Cook availability notification"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 900.0,
+          "end_seconds": 918.0,
+          "details": "Transcript and league notifications identify Danny’s Ty Johnson add and Bush’s Ray Davis add, followed by the drops."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "James Cook was reported unavailable for Monday because of turf toe, creating a late lineup decision in Badake’s matchup with Nathan.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "reported",
+      "confidence": 0.83,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "opponent",
+          "name": "Nathan"
+        },
+        {
+          "role": "NFL player",
+          "name": "James Cook"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "issue",
+          "value": "Turf toe"
+        },
+        {
+          "name": "availability",
+          "value": "Reported unavailable for Monday"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 806.0,
+          "end_seconds": 819.76,
+          "details": "Narration says Cook was ruled out and had been dealing with turf toe."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Badake defeated Nathan, 127.52-113.56, after starting Ray Davis; Badake said Davis scored more than 18 points after James Cook did not play.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Badake"
+        },
+        {
+          "role": "loser",
+          "name": "Nathan"
+        },
+        {
+          "role": "key player",
+          "name": "Ray Davis"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Badake",
+          "score": 127.52
+        },
+        {
+          "name": "Nathan",
+          "score": 113.56
+        }
+      ],
+      "facts": [
+        {
+          "name": "Badake record after matchup",
+          "value": "4-2"
+        },
+        {
+          "name": "Ray Davis points",
+          "value": "More than 18"
+        },
+        {
+          "name": "James Cook status",
+          "value": "Did not play"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 950.56,
+          "end_seconds": 964.16,
+          "details": "Badake explains the Ray Davis start and says he is 4-2."
+        },
+        {
+          "source": "both",
+          "start_seconds": 1420.0,
+          "end_seconds": 1433.2,
+          "details": "Results board and narration show Badake beating Nathan 127.52-113.56."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Joe defeated Tom, 133.34-112.22.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Joe"
+        },
+        {
+          "role": "loser",
+          "name": "Tom"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Joe",
+          "score": 133.34
+        },
+        {
+          "name": "Tom",
+          "score": 112.22
+        }
+      ],
+      "facts": [
+        {
+          "name": "Joe record after matchup",
+          "value": "2-4"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1433.92,
+          "end_seconds": 1436.52,
+          "details": "Narration states Joe beat Tom; the results board shows 133.34-112.22."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Mason defeated Bush, 128.50-111.40.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Mason"
+        },
+        {
+          "role": "loser",
+          "name": "Bush"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Mason",
+          "score": 128.5
+        },
+        {
+          "name": "Bush",
+          "score": 111.4
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1418.767,
+          "end_seconds": 1420.5,
+          "details": "Results board shows Bush at 111.40 and Mason at 128.50."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Sal defeated Thomas in a Week 6 Monday-night comeback.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Sal"
+        },
+        {
+          "role": "loser",
+          "name": "Thomas"
+        },
+        {
+          "role": "key player",
+          "name": "Josh Allen"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "final-score conflict",
+          "value": "One matchup display shows 134.50-128.28; a later results board shows 134.50-124.38."
+        },
+        {
+          "name": "pre-Monday deficit",
+          "value": "Sal trailed by 18.2 points and needed 18.2 from Josh Allen"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1153.12,
+          "end_seconds": 1162.44,
+          "details": "Sal says he came back to beat Thomas; the matchup screen displays 134.50-128.28."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1418.767,
+          "end_seconds": 1420.5,
+          "details": "Later results board shows Thomas at 124.38 and Sal at 134.50."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Austin defeated Danny in Week 6.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Austin"
+        },
+        {
+          "role": "loser",
+          "name": "Danny"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "final-score conflict",
+          "value": "One results display shows 145.74-117.42; a later matchup board shows 145.20-117.42."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1418.767,
+          "end_seconds": 1420.5,
+          "details": "Results board shows Danny at 117.42 and Austin at 145.74."
+        },
+        {
+          "source": "both",
+          "start_seconds": 1440.0,
+          "end_seconds": 1446.5,
+          "details": "Later matchup board shows Danny at 117.42 and Austin at 145.20."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Zach defeated Avery, 190.42-121.86, for his fifth consecutive win.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Zach"
+        },
+        {
+          "role": "loser",
+          "name": "Avery"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Zach",
+          "score": 190.42
+        },
+        {
+          "name": "Avery",
+          "score": 121.86
+        }
+      ],
+      "facts": [
+        {
+          "name": "Zach winning streak",
+          "value": "5 games"
+        },
+        {
+          "name": "Avery record after matchup",
+          "value": "3-3"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1080.0,
+          "end_seconds": 1088.4,
+          "details": "Matchup screen and narration show Zach winning 190.42-121.86 and reaching five straight wins."
+        },
+        {
+          "source": "both",
+          "start_seconds": 1448.68,
+          "end_seconds": 1452.2,
+          "details": "Later board again shows Zach at 190.42 and Avery at 121.86."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "After Week 6, Zach was alone in first at 5-1. Danny, Badake, Austin, and Mason were 4-2; Avery was 3-3; Thomas, Sal, Nathan, Bush, Tom, and Joe were 2-4.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "first place",
+          "name": "Zach"
+        },
+        {
+          "role": "second place",
+          "name": "Danny"
+        },
+        {
+          "role": "third place",
+          "name": "Badake"
+        },
+        {
+          "role": "fourth place",
+          "name": "Austin"
+        },
+        {
+          "role": "fifth place",
+          "name": "Mason"
+        },
+        {
+          "role": "sixth place",
+          "name": "Avery"
+        },
+        {
+          "role": "seventh place",
+          "name": "Thomas"
+        },
+        {
+          "role": "eighth place",
+          "name": "Sal"
+        },
+        {
+          "role": "ninth place",
+          "name": "Nathan"
+        },
+        {
+          "role": "tenth place",
+          "name": "Bush"
+        },
+        {
+          "role": "eleventh place",
+          "name": "Tom"
+        },
+        {
+          "role": "twelfth place",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "1st",
+          "value": "Zach, 5-1"
+        },
+        {
+          "name": "2nd-5th",
+          "value": "Danny, Badake, Austin, Mason, all 4-2"
+        },
+        {
+          "name": "6th",
+          "value": "Avery, 3-3"
+        },
+        {
+          "name": "7th-12th",
+          "value": "Thomas, Sal, Nathan, Bush, Tom, Joe, all 2-4"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1467.4,
+          "end_seconds": 1563.88,
+          "details": "Updated standings screen and narration list Zach at 5-1, four teams at 4-2, Avery at 3-3, and six teams at 2-4."
+        }
+      ]
+    }
+  ]
+}

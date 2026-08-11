@@ -1,0 +1,1304 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T19:43:54.966101+00:00",
+  "fingerprint": "09c5ad9ec238d533e1929f24a91afd12e9fcbdc25c042a03b3c73078d7943b46",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "E-u7SYYPtpU",
+  "video_title": "The Craziest Fantasy Football Ending Ever",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Craziest Fantasy Football Ending Ever",
+      "upload_date": "20241008",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 5 begins; the window establishes Avery vs. Mason and shows Zach winning the Tucker Kraft waiver claim.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery and Mason are matched up for Week 5; this is an upcoming matchup, not a result.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Avery",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "5"
+              },
+              {
+                "name": "matchup",
+                "value": "Avery vs. Mason"
+              },
+              {
+                "name": "state",
+                "value": "Week 5 kickoff / pre-game"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 40.035,
+                "end_seconds": 60.0,
+                "details": "The matchup display shows Mason's team versus Avery's team, while Avery says, “we're playing Mason this week.”"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Before Week 5, Mason is 3-1 and Avery is 2-2 in the displayed standings.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Mason",
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "Mason record",
+                "value": "3-1"
+              },
+              {
+                "name": "Avery record",
+                "value": "2-2"
+              },
+              {
+                "name": "timing",
+                "value": "Entering Week 5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 40.035,
+                "end_seconds": 40.035,
+                "details": "Standings screen lists Mason's team at 3-1 and Avery's team at 2-2."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 45.6,
+                "end_seconds": 54.4,
+                "details": "Avery refers to himself as 2-2 while discussing the Week 5 matchup."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Zach acquired Packers TE Tucker Kraft for $31 via waivers.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Zach",
+              "zaxavage",
+              "Tucker Kraft"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Tucker Kraft"
+              },
+              {
+                "name": "position/team",
+                "value": "TE, GB"
+              },
+              {
+                "name": "acquiring owner",
+                "value": "Zach"
+              },
+              {
+                "name": "winning bid",
+                "value": "$31"
+              },
+              {
+                "name": "other visible bids",
+                "value": "Mason $7; Bush $4; Danny $0"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 156.2,
+                "end_seconds": 179.0,
+                "details": "Commentary identifies Zach as spending $31 on Tucker Kraft; the waiver screen lists Tucker Kraft (TE-GB), zaxavage $31, MasonDodd $7, BuschLeague $4, and Dannylad21 $0."
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Waiver and free-agent activity is shown, plus preview discussion of an upcoming matchup; no completed matchup result is established.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Bush won Trey Sermon for $27 FAAB and dropped Jaylen Wright.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Bush",
+              "Trey Sermon",
+              "Jaylen Wright"
+            ],
+            "facts": [
+              {
+                "name": "add",
+                "value": "Trey Sermon"
+              },
+              {
+                "name": "drop",
+                "value": "Jaylen Wright"
+              },
+              {
+                "name": "winning_FAAB_bid",
+                "value": "$27"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 198.519,
+                "end_seconds": 203.0,
+                "details": "Transcript says “Bush gets him”; the league transaction display identifies BushLeaguer’s roster adding Trey Sermon, dropping Jaylen Wright, for $27."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Danny dropped Carson Steele and added Cade Otton as a free-agent move.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Danny",
+              "Carson Steele",
+              "Cade Otton"
+            ],
+            "facts": [
+              {
+                "name": "add",
+                "value": "Cade Otton"
+              },
+              {
+                "name": "drop",
+                "value": "Carson Steele"
+              },
+              {
+                "name": "move_type",
+                "value": "free-agent move"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 264.933,
+                "end_seconds": 274.433,
+                "details": "On-screen league chat explicitly states “Dannylad21 made a free agent move,” showing Cade Otton added and Carson Steele dropped."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 249.28,
+                "end_seconds": 271.12,
+                "details": "Discussion describes Danny dropping Carson Steele."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Devin Singletary was reported not to have practiced yet; this was cited as the rationale for Danny adding Tyrone Tracy midweek.",
+            "status": "reported",
+            "confidence": 0.83,
+            "raw_names": [
+              "Devin Singletary",
+              "Tyrone Tracy",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Devin Singletary"
+              },
+              {
+                "name": "reported_status",
+                "value": "Had not practiced yet"
+              },
+              {
+                "name": "related_roster_action",
+                "value": "Danny added Tyrone Tracy midweek"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 258.72,
+                "end_seconds": 264.0,
+                "details": "Speaker says reports indicated “Devin Singletary has not practiced yet” and says “Tyrone Tracy, I add in the middle of the week.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript refers to an upcoming matchup as “Cory and Joe,” but Cory is not listed among the provided Season 1 owners and the exact owner identities/teams are not clear enough to record a matchup observation.",
+          "Claims that Danny previously spent $37 FAAB on Carson Steele and that the next-highest Trey Sermon bid was $21 are spoken assertions; the displayed transaction evidence in this window does not independently show those details."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Pre-week matchup trash talk includes one reported record, an upcoming matchup, and a potential injury affecting Danny's roster.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "An unnamed league manager says he is 1-3.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "record",
+                "value": "1-3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 378.12,
+                "end_seconds": 381.36,
+                "details": "Speaker says, “I'm now one and three in this league.”"
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "The manager with a 1-3 record says his team is facing Bak's team this week; this is an upcoming matchup, not a result.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Bak",
+              "Baki"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Unnamed 1-3 manager vs. Bak's team"
+              },
+              {
+                "name": "timing",
+                "value": "this week"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 381.36,
+                "end_seconds": 397.88,
+                "details": "Speaker says they are “facing a good team, it's Bak's team,” then addresses “Baki” about this week's game."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Rashee Rice is reported as potentially lost from Danny's fantasy roster; his return timetable was uncertain at recording, with a possible return in a few weeks mentioned.",
+            "status": "reported",
+            "confidence": 0.88,
+            "raw_names": [
+              "Danny",
+              "Rashee Rice"
+            ],
+            "facts": [
+              {
+                "name": "fantasy_owner",
+                "value": "Danny"
+              },
+              {
+                "name": "player",
+                "value": "Rashee Rice"
+              },
+              {
+                "name": "availability",
+                "value": "Potentially out; possible return in a few weeks was uncertain"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 416.88,
+                "end_seconds": 421.68,
+                "details": "Transcript says Danny “lost Rashi rice potentially” and that it was “up in the air” whether he could return in a few weeks. The surrounding on-screen league/chat context supports that this is fantasy-roster discussion."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The 1-3 speaker is not identified by name in this window, so the record and matchup cannot be assigned to a specific team owner.",
+          "The precise nature and duration of Rashee Rice's injury are not established in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week matchup reactions include Avery’s stated record and several NFL injury developments affecting fantasy rosters; no completed fantasy matchup result is established in this window.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Avery is described as having a 2-2 record.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "2-2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 547.6,
+                "end_seconds": 554.76,
+                "details": "Speaker calls Avery the 'lazy manager' and says he is 'currently 2 and two.'"
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "De'Von Achane was shown down on the field, with the speaker expressing concern about a possible injury.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Devon hn",
+              "De'Von Achane"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "De'Von Achane"
+              },
+              {
+                "name": "reported condition",
+                "value": "Down on the field; injury concern"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 642.04,
+                "end_seconds": 656.44,
+                "details": "The speaker says Achane is down, notes people kneeling around him, and says 'this is not good.'"
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "A speaker says Rashee Rice, Malik Nabers, and Nico Collins are all dealing with injuries; the speaker says they had all three players.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "rasid rice",
+              "Malik neighbors",
+              "niik Collins",
+              "Rashee Rice",
+              "Malik Nabers",
+              "Nico Collins"
+            ],
+            "facts": [
+              {
+                "name": "players",
+                "value": "Rashee Rice; Malik Nabers; Nico Collins"
+              },
+              {
+                "name": "speaker roster claim",
+                "value": "Speaker says he had all three players"
+              },
+              {
+                "name": "reported status",
+                "value": "Dealing with injuries"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 658.28,
+                "end_seconds": 669.28,
+                "details": "Speaker says: 'first it was rasid rice then Malik neighbors now niik Collins' and that all three are dealing with injuries."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the speaker claiming to roster Rashee Rice, Malik Nabers, and Nico Collins is not established within this window.",
+          "The severity and official status of the reported injuries are not provided."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A Week 5 matchup between the teams shown as Avery's Son and the betting favorite remains live; the speaker's team-name change is shown, and a late Pat Freiermuth touchdown swings the projected result.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "The team previously called \"Domains Daddy\" is shown renamed \"Avery's Son.\"",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Domains Daddy",
+              "Avery's Son"
+            ],
+            "facts": [
+              {
+                "name": "team_name_change",
+                "value": "Domains Daddy → Avery's Son"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 823.84,
+                "end_seconds": 829.24,
+                "details": "Speaker says he will update his team name to \"Avery's son.\""
+              },
+              {
+                "source": "visual",
+                "start_seconds": 857.1,
+                "end_seconds": 870.0,
+                "details": "Sleeper matchup display visibly labels the left team \"Avery's Son.\""
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "The Week 5 Avery's Son vs. the betting favorite matchup was still in progress; after a Pat Freiermuth touchdown, the display showed Avery's Son trailing 157.16–158.02, with a 48%–52% projected win split.",
+            "status": "unclear",
+            "confidence": 0.9,
+            "raw_names": [
+              "Avery's Son",
+              "the betting favorite",
+              "Pat Freiermuth"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "5"
+              },
+              {
+                "name": "score_at_time_shown",
+                "value": "Avery's Son 157.16, the betting favorite 158.02"
+              },
+              {
+                "name": "projected_win_probability_at_time_shown",
+                "value": "Avery's Son 48%, the betting favorite 52%"
+              },
+              {
+                "name": "matchup_completion",
+                "value": "Not established in this window"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 857.1,
+                "end_seconds": 893.334,
+                "details": "Sleeper matchup screen shows Week 5, Avery's Son at 157.16 and the betting favorite at 158.02, with 48% and 52% win probabilities. The play alert identifies a Pat Freiermuth 6-yard touchdown."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 833.52,
+                "end_seconds": 844.08,
+                "details": "Speaker says Mason was up two entering Sunday night and that he needed the Steelers defense to outscore Pat Freiermuth by 2.5 or more."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window ends before the final outcome of Avery's Son vs. the betting favorite is shown.",
+          "The owner behind Avery's Son is not legible enough in the supplied visual material to assign confidently."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Mason narrowly defeated Avery in their Week 5 fantasy matchup, 157.16–156.02, after the Cowboys’ final play ended without the scoring outcome Avery needed.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason defeated Avery, 157.16–156.02, in Week 5.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Mason",
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "5"
+              },
+              {
+                "name": "winner",
+                "value": "Mason"
+              },
+              {
+                "name": "loser",
+                "value": "Avery"
+              },
+              {
+                "name": "winner_score",
+                "value": "157.16"
+              },
+              {
+                "name": "loser_score",
+                "value": "156.02"
+              },
+              {
+                "name": "margin",
+                "value": "1.14"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1017.16,
+                "end_seconds": 1065.0,
+                "details": "Commentary says the Cowboys’ final scoring chance would determine Mason versus Avery and then describes the Cowboys recovering the final-play lateral for game over; the on-screen fantasy app at 00:17:45 shows Mason's 157.16 versus Avery's 156.02 and a 100% win indicator."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Pat Freiermuth's touchdown during Sunday Night Football helped make Mason and Avery's fantasy matchup a one-point game before the Cowboys' final sequence.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Pat Freiermuth",
+              "Cowboys",
+              "Steelers"
+            ],
+            "facts": [
+              {
+                "name": "NFL_event",
+                "value": "Pat Freiermuth touchdown"
+              },
+              {
+                "name": "fantasy_impact",
+                "value": "Matchup was within one point afterward"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 927.84,
+                "end_seconds": 943.96,
+                "details": "Narration identifies Pat Freiermuth's shuttle-pass touchdown and states Mason and Avery were separated by one point."
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A Week 5 Mason–Avery matchup was reversed after Sleeper attributed a late lateral-play fumble to Pat Freiermuth, removing two points from Mason's total.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery defeated Mason after a scoring correction reversed the initially displayed Mason win. The correction removed two points from Mason because a late fumble was attributed to Pat Freiermuth.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Mason",
+              "Avery",
+              "Pat Freiermuth"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "5"
+              },
+              {
+                "name": "winner",
+                "value": "Avery"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "scoring_change",
+                "value": "Mason lost 2 points due to a Pat Freiermuth fumble attribution"
+              },
+              {
+                "name": "pre-correction displayed score",
+                "value": "Mason 157.16, Avery 156.02"
+              },
+              {
+                "name": "post-correction implied score",
+                "value": "Mason 155.16, Avery 156.02"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1170.08,
+                "end_seconds": 1176.08,
+                "details": "Narration says the correction means Avery wins; the on-screen pre-correction matchup display shows Mason leading 157.16–156.02."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1216.76,
+                "end_seconds": 1233.12,
+                "details": "Narration states that the fumble was attributed to Pat Freiermuth, Mason loses two points, and Avery wins the matchup."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1248.96,
+                "end_seconds": 1253.4,
+                "details": "Narration says Sleeper officially identified it as a Pat Freiermuth fumble and took two points away from Mason."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Sleeper's scoring correction attributed the final-play fumble, initially thought to belong to George Pickens, to Pat Freiermuth.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Pat Freiermuth",
+              "George Pickens",
+              "Sleeper"
+            ],
+            "facts": [
+              {
+                "name": "corrected_fumble_player",
+                "value": "Pat Freiermuth"
+              },
+              {
+                "name": "initially believed fumble player",
+                "value": "George Pickens"
+              },
+              {
+                "name": "fantasy_points_effect",
+                "value": "-2 points for Mason's lineup"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1193.2,
+                "end_seconds": 1200.72,
+                "details": "Narration says the late backward-pass sequence resulted in a Freiermuth fumble and mentions a possible correction."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1216.76,
+                "end_seconds": 1228.0,
+                "details": "Narration says the last-second fumble was attributed to Pat Freiermuth rather than George Pickens."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The final corrected score is implied as Avery 156.02 to Mason 155.16 from the displayed pre-correction score and the reported two-point deduction, but a final matchup screen is not shown in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Two completed fantasy matchup results are discussed: an unnamed manager says he beat Mason, while another manager says he lost to Zack. No scores are provided.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified manager states that he beat Mason; he says Mason is now 3-2 and that he is ahead of Mason in the standings. The winner changed his team name to \"Mason's Daddy\" after the win.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Mason",
+              "Mason's Daddy"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "Mason record after matchup",
+                "value": "3-2"
+              },
+              {
+                "name": "team-name change",
+                "value": "Mason's Daddy"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1281.12,
+                "end_seconds": 1310.12,
+                "details": "Speaker says, \"I won,\" changed his name to \"Mason's Daddy,\" then tells Mason, \"you're now three and two 'cuz I beat you\" and says he is higher in the standings."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified manager says he is now 2-3 after a close loss to Zack.",
+            "status": "confirmed",
+            "confidence": 0.87,
+            "raw_names": [
+              "Zack",
+              "Pickins"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Zack"
+              },
+              {
+                "name": "loser",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "loser record after matchup",
+                "value": "2-3"
+              },
+              {
+                "name": "matchup margin",
+                "value": "Close (no score given)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1417.04,
+                "end_seconds": 1436.8,
+                "details": "Speaker says, \"I am now two and three\" and was not able to \"knock down Zack\" in \"a close one\"; he says he needed Pickins to produce."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the manager who beat Mason is not established in this window.",
+          "The identity of the 2-3 manager who lost to Zack is not established in this window.",
+          "No final scores are shown or stated for either matchup."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 5 reactions and the standings heading into Week 6: Bush, Avery, and Badake describe wins, while the standings show Danny and Zach at 4-1 atop the league.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Bush defeated Joe; a league member says Bush scored roughly double Joe's total. Bush's record became 2-3.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Bush",
+              "Joe",
+              "Garrett Wilson",
+              "Brandon Aiyuk"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Bush"
+              },
+              {
+                "name": "loser",
+                "value": "Joe"
+              },
+              {
+                "name": "Bush record",
+                "value": "2-3"
+              },
+              {
+                "name": "margin description",
+                "value": "Bush roughly doubled Joe's points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1460.64,
+                "end_seconds": 1462.68,
+                "details": "Bush says his team is now 2-3."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1484.48,
+                "end_seconds": 1495.84,
+                "details": "Another speaker celebrates Bush's win and says Bush doubled Joe's points."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1603.98,
+                "end_seconds": 1607.98,
+                "details": "Standings list 'Respectfully Not Jettas' with the raw owner label beginning 'Bush...' at 2-3."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Bush credits Garrett Wilson and Brandon Aiyuk's big receiving games for his win, saying both exceeded 100 receiving yards after prior underperformance on his roster.",
+            "status": "reported",
+            "confidence": 0.83,
+            "raw_names": [
+              "Bush",
+              "Garrett Wilson",
+              "Brandon Aiyuk"
+            ],
+            "facts": [
+              {
+                "name": "fantasy manager",
+                "value": "Bush"
+              },
+              {
+                "name": "players",
+                "value": "Garrett Wilson; Brandon Aiyuk"
+              },
+              {
+                "name": "reported NFL production",
+                "value": "Both over 100 receiving yards"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1461.76,
+                "end_seconds": 1478.24,
+                "details": "Bush says Wilson and Aiyuk had been underperforming for him, then both went over 100 receiving yards with heavy targets and receptions."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Avery says he beat Mason, handing Mason a second consecutive loss.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Avery",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Avery"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "Mason losing streak",
+                "value": "2 games"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1500.96,
+                "end_seconds": 1539.2,
+                "details": "The speaker says his coaching 'out did Mason,' tells Mason he lost two straight, and later calls Mason's team 'Avery's Son.'"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1603.98,
+                "end_seconds": 1607.98,
+                "details": "Standings show 'Mason's Daddy' at 3-2 and 'Avery's Son' at 3-2, consistent with the matchup discussion."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Badake defeated Nathan. Nathan says his team scored about 130 points but lost to Badake's team, which scored more than 150.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Badake",
+              "Nathan",
+              "Baki"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Badake"
+              },
+              {
+                "name": "loser",
+                "value": "Nathan"
+              },
+              {
+                "name": "Nathan reported score",
+                "value": "about 130"
+              },
+              {
+                "name": "Badake reported score",
+                "value": "more than 150"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1548.4,
+                "end_seconds": 1571.28,
+                "details": "Nathan congratulates 'Badaki,' says his own team scored about 130, and says he faced a team that scored 150-plus."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1603.98,
+                "end_seconds": 1607.98,
+                "details": "Standings show Badake at 3-2 and the raw owner label beginning 'Nathan...' at 2-3."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Entering Week 6, Danny and Zach are tied for first at 4-1. Avery and Badake are among the 3-2 teams, with Badake in fourth place on the displayed standings.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Danny",
+              "Zach",
+              "Avery",
+              "Badake"
+            ],
+            "facts": [
+              {
+                "name": "Danny record",
+                "value": "4-1"
+              },
+              {
+                "name": "Zach record",
+                "value": "4-1"
+              },
+              {
+                "name": "Avery record",
+                "value": "3-2"
+              },
+              {
+                "name": "Badake record",
+                "value": "3-2"
+              },
+              {
+                "name": "Badake displayed standing",
+                "value": "4th"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1573.16,
+                "end_seconds": 1596.8,
+                "details": "Badake says the league is entering Week 6, names Danny first, Zach second, Avery next, and himself fourth."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1603.98,
+                "end_seconds": 1607.98,
+                "details": "The standings visibly list Danny and Zach at 4-1; Avery and Badake at 3-2, with Badake fourth."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The full Week 5 matchup scores are not legible enough in this window to record exact totals.",
+          "The final speaker says he is 1-4 and references Sal also going to 1-4, but the clipped sentence does not establish their exact Week 5 matchup result."
+        ]
+      }
+    },
+    {
+      "window_index": 9,
+      "start": 1620.0,
+      "end": 1723.0,
+      "transient_image_count": 9,
+      "review": {
+        "window_summary": "Week 5 recap/Week 6 setup: Zach says a late Jalen Tolbert touchdown preserved a win and moved him to 4-1; the standings show Danny and Zach tied atop the league. A manager cuts Pat Freiermuth, and Badake is said to be getting A.J. Brown and Saquon Barkley back healthy for Week 6.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "The standings show Danny and Zach tied for first at 4-1 after Week 5.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Danny",
+              "Zach",
+              "Tier of his own",
+              "JChrist, its JSN Bourne"
+            ],
+            "facts": [
+              {
+                "name": "Danny record",
+                "value": "4-1"
+              },
+              {
+                "name": "Zach record",
+                "value": "4-1"
+              },
+              {
+                "name": "standing",
+                "value": "tied for first"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1628.0,
+                "end_seconds": 1637.5,
+                "details": "Standings panel visibly lists the first two teams at 4-1; speaker states, 'we're 4 in one, tied for the top of the league' and addresses Zach."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Zach reports a Week 5 win; he says Dak Prescott's touchdown pass to Jalen Tolbert was the deciding play, and without it he would have lost.",
+            "status": "confirmed",
+            "confidence": 0.85,
+            "raw_names": [
+              "Zach",
+              "Dak Prescott",
+              "Jalen Tolbert"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "5"
+              },
+              {
+                "name": "result",
+                "value": "Zach won"
+              },
+              {
+                "name": "decisive NFL play",
+                "value": "Dak Prescott touchdown pass to Jalen Tolbert"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1625.56,
+                "end_seconds": 1649.2,
+                "details": "Speaker calls it a 'huge fantasy football dub,' says the team is 4-1, and says he would have lost without Dak's touchdown pass to Jalen Tolbert."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "An unnamed manager says Pat Freiermuth is off his fantasy team following a loss.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Pat Freiermuth"
+            ],
+            "facts": [
+              {
+                "name": "action",
+                "value": "removed from team"
+              },
+              {
+                "name": "player",
+                "value": "Pat Freiermuth"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1611.04,
+                "end_seconds": 1615.72,
+                "details": "Speaker says, 'Pat Fry meth, you're off the team.'"
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Badake is said to be getting A.J. Brown and Saquon Barkley back healthy ahead of a Week 6 matchup.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Badake",
+              "A.J. Brown",
+              "Saquon Barkley"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "6"
+              },
+              {
+                "name": "fantasy owner",
+                "value": "Badake"
+              },
+              {
+                "name": "players",
+                "value": "A.J. Brown; Saquon Barkley"
+              },
+              {
+                "name": "update",
+                "value": "described as coming back healthy"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1625.88,
+                "end_seconds": 1630.92,
+                "details": "Speaker says he is playing Badake in Week 6 and that Badake is 'now coming back healthy with AJ Brown and Saquon Barkley.'"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The displayed standings show six teams at 3-2, four teams at 2-3, and Sal and Joe at 1-4.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Avery",
+              "Badake",
+              "Austin",
+              "Mason",
+              "Thomas",
+              "Bush",
+              "Nathan",
+              "Tom",
+              "Sal",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "3-2 teams",
+                "value": "Avery, Badake, Austin, Mason"
+              },
+              {
+                "name": "2-3 teams",
+                "value": "Thomas, Bush, Nathan, Tom"
+              },
+              {
+                "name": "1-4 teams",
+                "value": "Sal, Joe"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1620.0,
+                "end_seconds": 1643.0,
+                "details": "The standings overlay visibly lists rows 3-6 at 3-2, rows 7-10 at 2-3, and rows 11-12 at 1-4; owner identities are indicated by the displayed account/team labels."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The manager who cut Pat Freiermuth is not identified in this window.",
+          "The specific Week 5 opponent and final score for Zach's Tolbert-decided win are not clearly established by the supplied evidence.",
+          "A trade shown at 00:28:29 is presented as an external viewer trade question, not clearly as a transaction in this private league."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "The final corrected Avery–Mason score is inferred as Avery 156.02 to Mason 155.16; no final corrected matchup screen is supplied.",
+    "Zach’s Week 5 opponent and final score are not established.",
+    "The manager who removed Pat Freiermuth is unidentified.",
+    "A speaker who said he was 2-3 after a close loss to Zach is not identified; no additional matchup result is assigned from that statement.",
+    "An unnamed 1-3 manager’s pregame matchup with Badake cannot be assigned to a specific owner from the supplied evidence."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Create concise, evidence-supported league notes; prioritize team owners and track available matchups, scores, injuries, waivers, and roster moves.",
+      "status": "fulfilled",
+      "details": "The synthesis records supported Week 5 results, standings, waiver activity, roster moves, and owner-linked injury updates. NFL plays are included only where they directly affected league outcomes."
+    },
+    {
+      "instruction": "Do not convert jokes, projections, rumors, or unsupported transcript claims into confirmed league facts; preserve uncertainty for review.",
+      "status": "fulfilled",
+      "details": "The recap excludes pregame boasts and unverified trade talk, labels injury reports and return expectations as reported, and retains unidentified owners, missing opponents, and inferred scores as open questions."
+    },
+    {
+      "instruction": "Honor episode-specific instructions and recap exclusions.",
+      "status": "not_applicable",
+      "details": "No episode-specific instructions or recap exclusions were provided."
+    }
+  ],
+  "supplemental_outputs": []
+}

@@ -1,0 +1,620 @@
+{
+  "schema_version": 1,
+  "video_id": "4wefRPLlr9E",
+  "video_title": "Who Will Make The Flock Championship?",
+  "season": "Season 1",
+  "week": 16,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Who Will Make The Flock Championship?",
+      "upload_date": "20241219",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "matchup_result",
+      "summary": "Week 16 semifinal: Zach is scheduled to face Avery; the winner advances to the league final.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Avery"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "round",
+          "value": "Semifinal / Round 2"
+        },
+        {
+          "name": "event state",
+          "value": "Upcoming"
+        },
+        {
+          "name": "Zach projected points",
+          "value": "142.69"
+        },
+        {
+          "name": "Avery projected points",
+          "value": "139.69"
+        },
+        {
+          "name": "Zach win probability",
+          "value": "52%"
+        },
+        {
+          "name": "Avery win probability",
+          "value": "48%"
+        },
+        {
+          "name": "records shown",
+          "value": "Zach 11-3; Avery 7-7"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1464.0,
+          "end_seconds": 1470.0,
+          "details": "Week 16 matchup screen shows Zach vs. Avery with 142.69–139.69 projections, 52%–48% odds, and 11-3 versus 7-7 records."
+        },
+        {
+          "source": "both",
+          "start_seconds": 1284.24,
+          "end_seconds": 1307.28,
+          "details": "Transcript and matchup screen identify Avery vs. Zach as a Week 16 semifinal."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Week 16 semifinal: Mason is scheduled to face Thomas; Thomas is narrowly favored by projection.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "round",
+          "value": "Semifinal / Round 2"
+        },
+        {
+          "name": "event state",
+          "value": "Upcoming"
+        },
+        {
+          "name": "Mason projected points",
+          "value": "125.78"
+        },
+        {
+          "name": "Thomas projected points",
+          "value": "129.83"
+        },
+        {
+          "name": "Mason win probability",
+          "value": "48%"
+        },
+        {
+          "name": "Thomas win probability",
+          "value": "52%"
+        },
+        {
+          "name": "records shown",
+          "value": "Mason 9-5; Thomas 6-8"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 566.154,
+          "end_seconds": 568.154,
+          "details": "Bracket display shows Mason vs. Thomas with 125.78–129.83 projected points and 48%–52% odds."
+        },
+        {
+          "source": "both",
+          "start_seconds": 477.52,
+          "end_seconds": 496.52,
+          "details": "Transcript and bracket identify Mason vs. Thomas as a Week 16 playoff matchup."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Thomas defeated Austin in a close playoff matchup the previous week to advance.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Thomas"
+        },
+        {
+          "role": "opponent",
+          "name": "Austin"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "margin description",
+          "value": "Close matchup"
+        },
+        {
+          "name": "timing",
+          "value": "Previous week relative to Week 16"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 492.8,
+          "end_seconds": 496.52,
+          "details": "Speaker says Thomas was able to move on in a close matchup against Austin last week."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Zach added Raiders RB Sincere McCormick as a free agent.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "player added",
+          "name": "Sincere McCormick"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "action",
+          "value": "Free-agent addition"
+        },
+        {
+          "name": "position/team shown",
+          "value": "RB - LV"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 226.467,
+          "end_seconds": 248.3,
+          "details": "Sleeper League Chat shows Zach making a free-agent move for Sincere McCormick, listed as RB - LV."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "David Montgomery was reported to have torn his MCL, leaving Thomas short-handed for the semifinal; Alvin Kamara was also described as unavailable or uncertain.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "reported",
+      "confidence": 0.85,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "injured player",
+          "name": "David Montgomery"
+        },
+        {
+          "role": "availability concern",
+          "name": "Alvin Kamara"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "David Montgomery injury",
+          "value": "Reported torn MCL"
+        },
+        {
+          "name": "Thomas roster impact",
+          "value": "Reportedly missing his top two running backs"
+        },
+        {
+          "name": "Alvin Kamara status",
+          "value": "Discussed as unavailable/uncertain; precise status not established"
+        },
+        {
+          "name": "potential roster response",
+          "value": "Jerome Ford described as a pickup for Thomas"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 540.56,
+          "end_seconds": 552.96,
+          "details": "Speaker says Montgomery tore his MCL, calls Jerome Ford a solid pickup for Thomas, and describes the loss of two key players."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 506.8,
+          "end_seconds": 539.0,
+          "details": "Speaker says Thomas is missing several players to injury and names Alvin Kamara while describing his top two RBs."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Commentary states Zach previously acquired Mike Evans, though the transaction method and timing were not given.",
+      "season": "Season 1",
+      "week": null,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "player acquired",
+          "name": "Mike Evans"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "transaction method",
+          "value": "Not established"
+        },
+        {
+          "name": "transaction timing",
+          "value": "Not established"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 184.72,
+          "end_seconds": 194.0,
+          "details": "Commentary says Zach made savvy moves to acquire players like Mike Evans."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Nathan, Bush, and Badake were identified as the remaining Toilet Bowl contenders; the highest Week 16 scorer among the three would be safe from the punishment T-shirt.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "Toilet Bowl contender",
+          "name": "Nathan"
+        },
+        {
+          "role": "Toilet Bowl contender",
+          "name": "Bush"
+        },
+        {
+          "role": "Toilet Bowl contender",
+          "name": "Badake"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "safety condition",
+          "value": "Highest Week 16 scorer among the three avoids T-shirt-punishment contention"
+        },
+        {
+          "name": "bracket context",
+          "value": "Toilet Bowl"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1180.0,
+          "end_seconds": 1206.7,
+          "details": "Speaker identifies Nathan, Bush, and Badake as the remaining three and explains that the highest scorer is safe that week."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Nathan is scheduled to face Steven in a Week 16 Toilet Bowl matchup, projected nearly even.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "speculative",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "opponent identity not mapped to season owner",
+          "name": "Steven"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "event state",
+          "value": "Upcoming projection"
+        },
+        {
+          "name": "Nathan projected points",
+          "value": "129.32"
+        },
+        {
+          "name": "Steven projected points",
+          "value": "128.97"
+        },
+        {
+          "name": "win probabilities",
+          "value": "50%-50%"
+        },
+        {
+          "name": "records shown",
+          "value": "Both 6-8"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 925.32,
+          "end_seconds": 935.0,
+          "details": "Matchup display and commentary show Nathan vs. Steven at 129.32–128.97 with 50%-50% odds."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Bush is scheduled to face Badake in Week 16 Toilet Bowl context; Badake is narrowly favored by projection.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "speculative",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "team owner",
+          "name": "Badake"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "event state",
+          "value": "Upcoming projection"
+        },
+        {
+          "name": "Bush projected points",
+          "value": "123.71"
+        },
+        {
+          "name": "Badake projected points",
+          "value": "128.38"
+        },
+        {
+          "name": "win probabilities",
+          "value": "Bush 47%; Badake 53%"
+        },
+        {
+          "name": "records shown",
+          "value": "Both 6-8"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 924.04,
+          "end_seconds": 935.0,
+          "details": "Matchup display and commentary show Bush vs. Badake at 123.71–128.38 with 47%-53% odds."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Tony Pollard was reported questionable for Nathan’s Week 16 Toilet Bowl lineup; Nathan was considering flexing Rachaad White over Josh Downs.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "player",
+          "name": "Tony Pollard"
+        },
+        {
+          "role": "possible replacement",
+          "name": "Rachaad White"
+        },
+        {
+          "role": "possible benching",
+          "name": "Josh Downs"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Tony Pollard status",
+          "value": "Questionable"
+        },
+        {
+          "name": "Pollard opponent mentioned",
+          "value": "Colts"
+        },
+        {
+          "name": "possible lineup move",
+          "value": "Flex Rachaad White over Josh Downs"
+        },
+        {
+          "name": "lineup move status",
+          "value": "Unconfirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 992.76,
+          "end_seconds": 998.0,
+          "details": "Speaker says Pollard is questionable and would be a must-start if active; lineup is identified as Nathan's."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1022.08,
+          "end_seconds": 1028.52,
+          "details": "Speaker says he might flex Rachaad White over Josh Downs because Downs has a difficult matchup."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Kenneth Walker’s Week 16 availability was uncertain in the Zach-Avery semifinal. Avery discussed Walker as returning healthy, while Zach said he would replace Walker if inactive; the replacement name is unclear.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "reported",
+      "confidence": 0.78,
+      "participants": [
+        {
+          "role": "player",
+          "name": "Kenneth Walker"
+        },
+        {
+          "role": "team owner discussed",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner with stated contingency",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "availability",
+          "value": "Discussed as questionable/possibly unavailable, with conflicting optimistic comment that he was returning healthy"
+        },
+        {
+          "name": "Zach contingency",
+          "value": "Would substitute a player transcribed unclearly as 'Davis CM' if Walker does not play"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1367.2,
+          "end_seconds": 1384.68,
+          "details": "Discussion identifies Walker as a Week 16 concern for Avery and later says he is coming back healthy."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1439.52,
+          "end_seconds": 1445.6,
+          "details": "Speaker says that if Kenneth Walker does not play, he will substitute a player whose name is transcribed unclearly as 'Davis CM'."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "A speaker predicted Zach vs. Mason as the league championship matchup.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "speculative",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "predicted finalist",
+          "name": "Zach"
+        },
+        {
+          "role": "predicted finalist",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "prediction",
+          "value": "Zach vs. Mason championship"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1852.56,
+          "end_seconds": 1857.04,
+          "details": "Speaker says Zach and Mason will end up being the championship matchup, explicitly framing it as an opinion."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "schema_version": 1,
+  "video_id": "mg7wnMVJ68g",
+  "video_title": "A Mike Evans Trade Creates Enemies",
+  "season": "Season 1",
+  "week": 8,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "A Mike Evans Trade Creates Enemies",
+      "upload_date": "20241024",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "waiver",
+      "summary": "Zach dropped Chris Godwin.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Zach"
+        },
+        {
+          "role": "player dropped",
+          "name": "Chris Godwin"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "move",
+          "value": "Released/dropped"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 50.0,
+          "end_seconds": 57.0,
+          "details": "Transcript says Zach drops Chris Godwin, and the league activity panel shows the Zach-associated account making a free-agent move involving Godwin."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Zach added Jalen McMillan for $42 FAAB, beating Nathan's $38 bid.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "winning owner",
+          "name": "Zach"
+        },
+        {
+          "role": "player added",
+          "name": "Jalen McMillan"
+        },
+        {
+          "role": "runner-up owner",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning bid",
+          "value": "$42"
+        },
+        {
+          "name": "runner-up bid",
+          "value": "$38"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 95.68,
+          "end_seconds": 102.8,
+          "details": "On-screen league activity lists McMillan added for $42, while the transcript states Zach beat Nathan by four dollars."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Nathan added Trey Palmer for $11 FAAB and released Colby Parkinson.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "player added",
+          "name": "Trey Palmer"
+        },
+        {
+          "role": "player dropped",
+          "name": "Colby Parkinson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning bid",
+          "value": "$11"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 147.575,
+          "end_seconds": 151.575,
+          "details": "Waiver-bid detail lists Nathan at $11 for Trey Palmer, and league activity shows Palmer added and Parkinson released."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Bush added Cedric Tillman for $8 FAAB and released Brandon Aiyuk.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Bush"
+        },
+        {
+          "role": "player added",
+          "name": "Cedric Tillman"
+        },
+        {
+          "role": "player dropped",
+          "name": "Brandon Aiyuk"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning bid",
+          "value": "$8"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 166.0,
+          "end_seconds": 177.8,
+          "details": "League activity and transcript show Tillman added to Bush's roster for $8 and Aiyuk released."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Zach added the San Francisco 49ers D/ST for $0 and dropped the New York Jets D/ST.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Zach"
+        },
+        {
+          "role": "added unit",
+          "name": "San Francisco 49ers D/ST"
+        },
+        {
+          "role": "dropped unit",
+          "name": "New York Jets D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "waiver cost",
+          "value": "$0"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 206.233,
+          "end_seconds": 212.48,
+          "details": "The waiver screen lists Zach adding San Francisco's defense and dropping the Jets D/ST for $0; the transcript says he got the 49ers defense for free."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Zach was in first place with a 6-1 record.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "record",
+          "value": "6-1"
+        },
+        {
+          "name": "standing",
+          "value": "1st"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 217.667,
+          "end_seconds": 221.36,
+          "details": "The standings screen shows Zach's team first at 6-1, corroborated by the transcript."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Zach received Mike Evans and Chris Olave from Thomas for Kareem Hunt and Jaxon Smith-Njigba.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "owner receiving Mike Evans and Chris Olave",
+          "name": "Zach"
+        },
+        {
+          "role": "owner receiving Kareem Hunt and Jaxon Smith-Njigba",
+          "name": "Thomas"
+        },
+        {
+          "role": "player",
+          "name": "Mike Evans"
+        },
+        {
+          "role": "player",
+          "name": "Chris Olave"
+        },
+        {
+          "role": "player",
+          "name": "Kareem Hunt"
+        },
+        {
+          "role": "player",
+          "name": "Jaxon Smith-Njigba"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Zach received",
+          "value": "Mike Evans; Chris Olave"
+        },
+        {
+          "name": "Zach sent",
+          "value": "Kareem Hunt; Jaxon Smith-Njigba"
+        },
+        {
+          "name": "Thomas received",
+          "value": "Kareem Hunt; Jaxon Smith-Njigba"
+        },
+        {
+          "name": "Thomas sent",
+          "value": "Mike Evans; Chris Olave"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 219.36,
+          "end_seconds": 282.0,
+          "details": "The accepted-trade panel explicitly lists both managers and all four players; narration identifies the trade as completed."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "The Zach–Thomas trade generated league-chat complaints and strong commentary that it favored Zach.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Zach"
+        },
+        {
+          "role": "owner",
+          "name": "Thomas"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reaction",
+          "value": "League-chat complaints"
+        },
+        {
+          "name": "commentary",
+          "value": "Several speakers called the deal a fleece or said Zach won decisively; these are opinions rather than objective trade valuation."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 222.64,
+          "end_seconds": 229.04,
+          "details": "A speaker says the league-chat messages were complaints about the trade."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 270.64,
+          "end_seconds": 307.84,
+          "details": "Commentators characterize the trade as heavily favoring Zach."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Mike Evans was discussed as potentially missing a few weeks with a hamstring injury.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "affected fantasy owner",
+          "name": "Zach"
+        },
+        {
+          "role": "NFL player",
+          "name": "Mike Evans"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Hamstring"
+        },
+        {
+          "name": "timetable",
+          "value": "Possible absence of a few weeks; not confirmed"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 418.84,
+          "end_seconds": 422.0,
+          "details": "A speaker says Mike Evans might be out for a few weeks with a hamstring injury."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "DK Metcalf was discussed as potentially missing one to two weeks with a knee injury.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "reported",
+      "confidence": 0.72,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "DK Metcalf"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Knee"
+        },
+        {
+          "name": "possible absence",
+          "value": "One to two weeks"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 389.04,
+          "end_seconds": 392.96,
+          "details": "A speaker says Metcalf is hurt and will probably miss one to two weeks with a knee injury."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "In an earlier Zach–Sal trade, Sal received Amari Cooper and Zach received Jonathan Taylor.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "owner receiving Amari Cooper",
+          "name": "Sal"
+        },
+        {
+          "role": "owner receiving Jonathan Taylor",
+          "name": "Zach"
+        },
+        {
+          "role": "player",
+          "name": "Amari Cooper"
+        },
+        {
+          "role": "player",
+          "name": "Jonathan Taylor"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Sal received",
+          "value": "Amari Cooper"
+        },
+        {
+          "name": "Zach received",
+          "value": "Jonathan Taylor"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1002.44,
+          "end_seconds": 1040.32,
+          "details": "Narration describes the prior exchange, and the matchup screen shows Cooper on Sal's roster and Taylor on Zach's roster."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Badake and Mason's Week 8 matchup was previewed as nearly even: Badake was 5-2 and Mason 4-3, with a 127-125 projection and 51%-49% win odds for Badake.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Badake"
+        },
+        {
+          "role": "owner",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Badake record",
+          "value": "5-2"
+        },
+        {
+          "name": "Mason record",
+          "value": "4-3"
+        },
+        {
+          "name": "projected score",
+          "value": "Badake 127, Mason 125"
+        },
+        {
+          "name": "win probability",
+          "value": "Badake 51%, Mason 49%"
+        },
+        {
+          "name": "result status",
+          "value": "Pre-game projection only; no final result shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 762.68,
+          "end_seconds": 796.68,
+          "details": "The speaker and Sleeper matchup screen provide the records, projected score, and win probabilities."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Sal's Week 8 game against Zach was previewed with Sal at 3-4 on a two-game winning streak and Zach at 6-1 on six straight wins.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Sal"
+        },
+        {
+          "role": "owner",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Sal record",
+          "value": "3-4"
+        },
+        {
+          "name": "Sal streak",
+          "value": "Two wins"
+        },
+        {
+          "name": "Sal standings context",
+          "value": "One spot outside the postseason"
+        },
+        {
+          "name": "Zach record",
+          "value": "6-1"
+        },
+        {
+          "name": "Zach streak",
+          "value": "Six wins"
+        },
+        {
+          "name": "result status",
+          "value": "Pre-game preview only; no final result shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 970.319,
+          "end_seconds": 994.8,
+          "details": "The transcript and matchup display give both records, streaks, and the upcoming matchup."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Bush/Corey reported that Brandon Aiyuk's injury was a significant roster issue before the Week 8 game against Danny.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "reported",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "affected owner",
+          "name": "Bush"
+        },
+        {
+          "role": "NFL player",
+          "name": "Brandon Aiyuk"
+        },
+        {
+          "role": "upcoming opponent",
+          "name": "Danny"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury detail",
+          "value": "Not specified"
+        },
+        {
+          "name": "context",
+          "value": "Discussed before Bush/Corey's Week 8 matchup with Danny"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1132.56,
+          "end_seconds": 1144.0,
+          "details": "The speaker says he and Danny are playing this week and that his team suffered a big injury with Brandon Aiyuk."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Danny reportedly dropped Dak Prescott during Prescott's bye week to add Drake Maye.",
+      "season": "Season 1",
+      "week": null,
+      "status": "reported",
+      "confidence": 0.8,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Danny"
+        },
+        {
+          "role": "player dropped",
+          "name": "Dak Prescott"
+        },
+        {
+          "role": "player added",
+          "name": "Drake Maye"
+        }
+      ],
+      "scores": [],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1156.0,
+          "end_seconds": 1161.84,
+          "details": "A speaker says Danny famously dropped Dak Prescott during the bye to pick up Drake Maye."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Nathan's Week 8 matchup against Austin was previewed; Nathan planned to start Kyren Williams on Thursday.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "owner",
+          "name": "Austin"
+        },
+        {
+          "role": "planned starter",
+          "name": "Kyren Williams"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "result status",
+          "value": "Upcoming matchup only; no final result shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1260.48,
+          "end_seconds": 1275.84,
+          "details": "The speaker says he is against Austin and has Kyren Williams playing Thursday; the app display shows the Nathan-versus-Austin matchup."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "An unidentified manager reported that Brandon Aubrey's jury-duty absence created a fantasy lineup concern.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "reported",
+      "confidence": 0.66,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Brandon Aubrey"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "fantasy roster claim",
+          "value": "The unidentified speaker calls Aubrey 'my kicker'"
+        },
+        {
+          "name": "availability context",
+          "value": "Reported jury duty; timetable unclear"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1323.76,
+          "end_seconds": 1346.32,
+          "details": "The speaker says his kicker has jury duty, while an on-screen post reports Aubrey was selected for a 12-person jury with no clear timetable."
+        }
+      ]
+    }
+  ]
+}

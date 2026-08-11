@@ -1,0 +1,1412 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T20:03:19.205642+00:00",
+  "fingerprint": "bfb6d7d569dfa174489e17f56eebd67a0d7a135b61cf51cf455db3230730c1ff",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "Q5mr-3MYhTI",
+  "video_title": "A Last Minute DK Metcalf Trade Changes Everything",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "A Last Minute DK Metcalf Trade Changes Everything",
+      "upload_date": "20241105",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Opening montage covers an unspecified completed deal involving Mason and pregame roster/injury concerns, including inactive players affecting Sal's matchup with Danny.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "A speaker says he completed a trade/deal with Mason after talks during the week; the players/assets and the speaker's owner identity are not provided.",
+            "status": "confirmed",
+            "confidence": 0.76,
+            "raw_names": [
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "counterparty",
+                "value": "Mason"
+              },
+              {
+                "name": "trade_terms",
+                "value": "Not stated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2.07,
+                "end_seconds": 3.48,
+                "details": "Speaker says, \"I work up a deal with Mason... and we get a deal done.\""
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Puka Nacua was described as potentially unavailable but expected to attempt to play, according to a cited McVay update; his actual game status remains uncertain in this window.",
+            "status": "reported",
+            "confidence": 0.7,
+            "raw_names": [
+              "Puka",
+              "Puka Nacua",
+              "McVay"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Puka Nacua"
+              },
+              {
+                "name": "reported_status",
+                "value": "May try to play; availability uncertain"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 61.68,
+                "end_seconds": 72.64,
+                "details": "Speaker says, \"maybe no Puka,\" then says McVay indicated Puka would \"try to play\" after having been on IR and reinjuring himself in practice."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Sal reports that Brian Robinson was ultimately inactive before his game after initially being reported as playing, and that Amari Cooper was also ruled inactive shortly before kickoff. Sal says Deontay Johnson was expected to play only 10–15 snaps.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Sal",
+              "Brian Robinson",
+              "Amari Cooper",
+              "Deontay Johnson"
+            ],
+            "facts": [
+              {
+                "name": "Brian Robinson",
+                "value": "Reported active, then inactive before the game"
+              },
+              {
+                "name": "Amari Cooper",
+                "value": "Inactive about an hour before the game"
+              },
+              {
+                "name": "Deontay Johnson",
+                "value": "Expected to play 10–15 snaps"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 149.23,
+                "end_seconds": 180.0,
+                "details": "The on-screen label identifies the speaker as SAL and displays his fantasy lineup; Sal says Brian Robinson was inactive before the game, Amari Cooper was inactive an hour before kickoff, and Deontay Johnson would play 10–15 snaps."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Sal says Danny's Breece Hall scored 10 fantasy points in Thursday Night Football, giving Sal an initially favorable start to their matchup.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Sal",
+              "Danny",
+              "Breece Hall"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Breece Hall"
+              },
+              {
+                "name": "fantasy_points",
+                "value": "10"
+              },
+              {
+                "name": "game_context",
+                "value": "Thursday Night Football"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 156.28,
+                "end_seconds": 160.4,
+                "details": "Sal says, \"we got lucky on Thursday Night Football. Danny only got 10 points from Breece Hall.\""
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "What were the player/assets and both owner identities in the completed deal involving Mason?",
+          "Which fantasy owner rostered Puka Nacua in this matchup, and did he ultimately play?",
+          "The window does not establish the final result of Sal versus Danny or any other matchup."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Sal makes a multi-player, $20 FAAB trade with Mason after DK Metcalf is ruled out; Sal also adds Jeremy McNichols. Another owner plans to start Dak Prescott against 7-1 Zach.",
+        "observations": [
+          {
+            "category": "injury_update",
+            "summary": "Sal says DK Metcalf was ruled out again, creating a last-minute lineup problem.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Sal",
+              "DK Metcalf"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "DK Metcalf"
+              },
+              {
+                "name": "update",
+                "value": "Ruled out again"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 183.36,
+                "end_seconds": 187.28,
+                "details": "Sal says, 'DK Metcalf gets ruled out again.'"
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "SalVerti added RB Jeremy McNichols as a free agent.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Sal",
+              "SalVerti",
+              "Jeremy McNichols"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Sal"
+              },
+              {
+                "name": "added",
+                "value": "Jeremy McNichols"
+              },
+              {
+                "name": "acquisition_type",
+                "value": "Free agent"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 197.7,
+                "end_seconds": 199.5,
+                "details": "On-screen transaction card reads: 'SalVerti made a free agent move' and 'Jeremy McNichols, RB - WAS.'"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Mason acquired DK Metcalf and Najee Harris from Sal; Sal acquired Austin Ekeler, Javonte Williams, Ladd McConkey, and $20 FAAB.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Mason",
+              "Sal",
+              "SalVerti",
+              "DK Metcalf",
+              "Najee Harris",
+              "Austin Ekeler",
+              "Javonte Williams",
+              "Ladd McConkey"
+            ],
+            "facts": [
+              {
+                "name": "team_owner_sending",
+                "value": "Sal"
+              },
+              {
+                "name": "team_owner_receiving",
+                "value": "Mason"
+              },
+              {
+                "name": "to_mason",
+                "value": "DK Metcalf; Najee Harris"
+              },
+              {
+                "name": "to_sal",
+                "value": "Austin Ekeler; Javonte Williams; Ladd McConkey; $20 FAAB"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 222.32,
+                "end_seconds": 231.88,
+                "details": "Sal says he and Mason 'get a deal done'; the visible trade panel lists DK Metcalf and Najee Harris 'From SalVerti,' and Austin Ekeler, Javonte Williams, Ladd McConkey, and $20 FAAB 'To SalVerti.'"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Sal states that he is 3-5 and believed he would have been projected for about 70 points without the trade.",
+            "status": "reported",
+            "confidence": 0.86,
+            "raw_names": [
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Sal"
+              },
+              {
+                "name": "record",
+                "value": "3-5"
+              },
+              {
+                "name": "pre-trade projected_points",
+                "value": "About 70"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 397.24,
+                "end_seconds": 404.8,
+                "details": "Sal says, 'I'm three and five in this league' and that he was projected to score 'like 70 points' before the trade."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "An unidentified owner decides to start Dak Prescott rather than Patrick Mahomes, hoping to upset Zach, who is described as 7-1.",
+            "status": "speculative",
+            "confidence": 0.78,
+            "raw_names": [
+              "Dak Prescott",
+              "Patrick Mahomes",
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "planned_starter",
+                "value": "Dak Prescott"
+              },
+              {
+                "name": "alternative",
+                "value": "Patrick Mahomes"
+              },
+              {
+                "name": "opponent",
+                "value": "Zach"
+              },
+              {
+                "name": "opponent_record_described",
+                "value": "7-1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 510.52,
+                "end_seconds": 535.28,
+                "details": "The speaker says he chose Dak over Mahomes and hopes to 'take down the seven-and-one King Zach'; this is a stated lineup plan, not a completed result."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speaker planning to start Dak Prescott is not identified by name in this window.",
+          "Zach's 7-1 record is stated by an opponent but is not independently shown on-screen in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Sunday in-progress matchup updates: Joe overtook Mason, while an unnamed speaker said he was beating Nathan and discussed injuries/points affecting other lineups.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Joe moved ahead of Mason 125–122 in their still-live matchup; the speaker later called it official that Joe had passed Mason.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Joe",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Joe vs. Mason"
+              },
+              {
+                "name": "in-progress score",
+                "value": "Joe 125, Mason 122"
+              },
+              {
+                "name": "status",
+                "value": "In progress; not presented as a final result"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 505.04,
+                "end_seconds": 512.0,
+                "details": "Speaker says Joe has taken the lead against Mason, then states Joe passed them up, 125 to 122."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "An unnamed speaker said he was decisively beating Nathan; no score or final result was provided.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Unnamed speaker vs. Nathan"
+              },
+              {
+                "name": "status",
+                "value": "In progress; speaker says he is 'killing Nathan'"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 431.6,
+                "end_seconds": 443.8,
+                "details": "Speaker says the night is more interesting because he is 'killing Nathan' and Joe may beat Mason."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Drake London reportedly left his NFL game early with a hip injury after scoring 10 fantasy points in the first quarter, missing the final three quarters according to the speaker.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Drake London"
+            ],
+            "facts": [
+              {
+                "name": "injury",
+                "value": "Hip injury"
+              },
+              {
+                "name": "game availability",
+                "value": "Reportedly missed final three quarters"
+              },
+              {
+                "name": "fantasy points at exit",
+                "value": "10"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 399.28,
+                "end_seconds": 408.16,
+                "details": "Speaker says London had 10 points in the first quarter, went out with a hip injury after an early touchdown, and missed the final three quarters."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Puka Nacua was said to have punched someone and been ejected from his NFL game.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Puka",
+              "Puka Nacua"
+            ],
+            "facts": [
+              {
+                "name": "NFL event",
+                "value": "Reported ejection after punching someone"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 360.44,
+                "end_seconds": 368.88,
+                "details": "Speaker says 'puka' punched somebody and was thrown out of the game."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Danny was said to roster Jaylen Tolbert and Drake Maye, whose late passing/receiving scoring swings added an estimated 12–15 points to Danny's lineup.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Danny",
+              "Jaylen Tolbert",
+              "Drake Maye"
+            ],
+            "facts": [
+              {
+                "name": "Danny rostered",
+                "value": "Jaylen Tolbert; Drake Maye"
+              },
+              {
+                "name": "estimated late scoring impact",
+                "value": "12–15 points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 382.84,
+                "end_seconds": 395.28,
+                "details": "Speaker says a late Jaylen Tolbert touchdown and Drake Maye passing touchdown gave Danny roughly 12–15 points."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Joe started raw-transcript names \"Tamm Hill\" and the Colts defense; the speaker credited the Colts defense with offsetting Sam Darnold interceptions.",
+            "status": "reported",
+            "confidence": 0.7,
+            "raw_names": [
+              "Joe",
+              "Tamm Hill",
+              "Colts defense",
+              "Sam Darnold"
+            ],
+            "facts": [
+              {
+                "name": "Joe lineup",
+                "value": "\"Tamm Hill\"; Colts defense"
+              },
+              {
+                "name": "scoring context",
+                "value": "Colts defense points reportedly offset Darnold interception losses"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 459.92,
+                "end_seconds": 468.68,
+                "details": "Speaker says Joe put 'Tamm Hill' in his lineup."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 516.96,
+                "end_seconds": 530.72,
+                "details": "Speaker says Darnold's second interception did not help Mason because Joe had the Colts defense scoring on the turnovers."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the speaker facing Nathan and Danny is not established in this window.",
+          "Joe's player name transcribed as \"Tamm Hill\" is likely uncertain; on-screen evidence here does not resolve it.",
+          "The Joe–Mason score is an in-progress snapshot, not a confirmed final result.",
+          "A trade is mentioned generally around 00:06:51–00:06:55, but no parties or assets are provided, so no trade can be recorded."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Commentary confirms that Mason lost a fantasy matchup to Joe; it also references an unspecified last-minute trade between Mason and Sal.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason lost his matchup against Joe; the speaker says Mason is the only league creator to have lost to Joe so far this season.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Mason",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Joe"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "score",
+                "value": "Not shown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 565.76,
+                "end_seconds": 592.84,
+                "details": "The speaker says he is playing Joe, then states that 'the only Creator so far to lose to Joe this season is Mason' and repeats that Mason 'lost to Joe.'"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A speaker says Mason made a trade with Sal 'at the buzzer,' but the players/assets and exact timing are not provided in this window.",
+            "status": "reported",
+            "confidence": 0.74,
+            "raw_names": [
+              "Mason",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "team_owner_1",
+                "value": "Mason"
+              },
+              {
+                "name": "team_owner_2",
+                "value": "Sal"
+              },
+              {
+                "name": "terms",
+                "value": "Not provided"
+              },
+              {
+                "name": "timing",
+                "value": "Described as 'at the buzzer'"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 632.8,
+                "end_seconds": 647.36,
+                "details": "The speaker addresses Mason: 'you want to make that trade with Sal at the buzzer' and says the players Mason traded away could have made a difference."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The Mason–Sal trade terms, including whether DK Metcalf was involved, are not stated in this window.",
+          "No final fantasy score is shown for Joe versus Mason."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Monday Night Football resolves Bush’s matchup with Zach; Bush is described as losing after starting Dak Prescott over Patrick Mahomes.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Zach defeated Bush in their fantasy matchup; no final fantasy score is provided in this window.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Zach"
+              },
+              {
+                "name": "loser",
+                "value": "Bush"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 880.72,
+                "end_seconds": 887.04,
+                "details": "Narrator says Bush “gets smacked down by Zach.”}]},{"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 888.56,
+                "end_seconds": 897.24,
+                "details": "The discussion says Bush debated Dak Prescott versus Mahomes, with Mahomes scoring 22 points on Bush’s bench and Dak Prescott scoring 12 points."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window does not show the final score of Zach versus Bush.",
+          "An earlier pre-MNF matchup discussed at 13:08–13:40 involves Danny, Bucky Irving, and Xavier Worthy, but the opposing owner is not identified and no outcome is shown."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 9 post-MNF recap: Zach narrowly beat Bush, Mason beat Nathan decisively, and Avery was credited with a win over an unidentified 3-6 manager.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Zach defeated Bush 146.84-145.22 in Week 9.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Zach",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "9"
+              },
+              {
+                "name": "winner",
+                "value": "Zach"
+              },
+              {
+                "name": "loser",
+                "value": "Bush"
+              },
+              {
+                "name": "score",
+                "value": "146.84-145.22"
+              },
+              {
+                "name": "margin",
+                "value": "1.62"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 960.0,
+                "end_seconds": 965.0,
+                "details": "On-screen fantasy matchup lists @zaxvage's team at 146.84 over @BuschLeaguee's team at 145.22; the narrator says Zach took him down by about a point."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Dak Prescott was in Bush's Week 9 starting lineup and was marked out after getting hurt; Bush had not started Patrick Mahomes instead.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Bush",
+              "Dak Prescott",
+              "Patrick Mahomes"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Bush"
+              },
+              {
+                "name": "player",
+                "value": "Dak Prescott"
+              },
+              {
+                "name": "injury_status",
+                "value": "Out"
+              },
+              {
+                "name": "lineup_context",
+                "value": "Started Dak Prescott rather than Patrick Mahomes"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 993.84,
+                "end_seconds": 996.48,
+                "details": "Speaker says Bush started Dak, who got hurt, instead of Patrick Mahomes; the Week 9 lineup screen shows Bush's starter 'Q8 - DAL D. Prescott (Out)'."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Mason defeated Nathan 151.04-89.76 in Week 9.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Mason",
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "9"
+              },
+              {
+                "name": "winner",
+                "value": "Mason"
+              },
+              {
+                "name": "loser",
+                "value": "Nathan"
+              },
+              {
+                "name": "score",
+                "value": "151.04-89.76"
+              },
+              {
+                "name": "margin",
+                "value": "61.28"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1013.8,
+                "end_seconds": 1019.2,
+                "details": "Narration calls it a roughly 60-point win against Nathan; on-screen matchup shows Mason's team 151.04 versus Nathan's 89.76."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Avery was credited with a win over a manager who said his record fell to 3-6; that opponent is not identified in this window.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Avery"
+              },
+              {
+                "name": "loser_record_after_matchup",
+                "value": "3-6"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1031.76,
+                "end_seconds": 1049.2,
+                "details": "An unidentified speaker says, 'I'm three and six now' and 'congrats to Avery, gets the dub.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of Avery's Week 9 opponent is not established in this window.",
+          "A 'Jefferson trade' is mentioned, but no trade terms or clear confirmation of a specific transaction are supplied here."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Danny defeated Sal by four points in their brother-versus-brother matchup. Sal described multiple injury setbacks, while Danny said Nico Collins would return to his lineup the following week.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Danny defeated Sal by 4 points in the \"Battle of Italia\"/Civil War matchup.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Danny",
+              "Sal",
+              "S"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Danny"
+              },
+              {
+                "name": "loser",
+                "value": "Sal (referred to as \"S\")"
+              },
+              {
+                "name": "margin",
+                "value": "4 points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1085.84,
+                "end_seconds": 1097.68,
+                "details": "A speaker says Danny got the win over \"S\"; Sal then says he lost by four points to Danny. Danny subsequently calls himself the winner of the Battle of Italia."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Sal reported that four of his players were ruled out with injuries during the week; Drake London also left in the first quarter after scoring 10 points.",
+            "status": "reported",
+            "confidence": 0.86,
+            "raw_names": [
+              "Sal",
+              "S",
+              "Drake London"
+            ],
+            "facts": [
+              {
+                "name": "affected_owner",
+                "value": "Sal (referred to as \"S\")"
+              },
+              {
+                "name": "reported_injured_players",
+                "value": "4"
+              },
+              {
+                "name": "Drake London game status",
+                "value": "Left in the first quarter"
+              },
+              {
+                "name": "Drake London points before exit",
+                "value": "10"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1137.12,
+                "end_seconds": 1146.16,
+                "details": "Sal attributes the close loss to four players being ruled out with injuries and says Drake London left in the first quarter after 10 points."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Sal said he was two games out of a playoff seed with five games remaining, and was not mathematically eliminated.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Sal",
+              "S"
+            ],
+            "facts": [
+              {
+                "name": "distance from playoff seed",
+                "value": "2 games"
+              },
+              {
+                "name": "games remaining",
+                "value": "5"
+              },
+              {
+                "name": "elimination status",
+                "value": "Not mathematically eliminated, per Sal"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1174.16,
+                "end_seconds": 1182.08,
+                "details": "Sal says there are five weeks left and he is technically only two games out of a playoff seed."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Danny said Nico Collins would return to his fantasy lineup the following week.",
+            "status": "reported",
+            "confidence": 0.91,
+            "raw_names": [
+              "Danny",
+              "Nico Collins"
+            ],
+            "facts": [
+              {
+                "name": "affected_owner",
+                "value": "Danny"
+              },
+              {
+                "name": "player",
+                "value": "Nico Collins"
+              },
+              {
+                "name": "expected lineup timing",
+                "value": "Upcoming week"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1200.6,
+                "end_seconds": 1218.52,
+                "details": "Danny says his team is back in the win column and that they are getting Nico Collins back into the lineup in the upcoming week."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The exact weekly fantasy scores for Danny and Sal are not shown; only the four-point margin is supported.",
+          "Sal's statement that four players were ruled out does not identify all four players or establish their specific injuries."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 9 results and updated standings are reviewed; a prior Mason trade of Austin Ekeler and Ladd McConkey is mentioned without trade-partner details.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Thomas defeated Badake in Week 9, 188.92–153.52.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Thomas",
+              "Badake"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "9"
+              },
+              {
+                "name": "winner",
+                "value": "Thomas"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "score",
+                "value": "188.92–153.52"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1297.155,
+                "end_seconds": 1300.0,
+                "details": "The Week 9 matchup board displays Badake's team at 153.52 versus Thomas's team at 188.92, with Thomas marked as winner."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1296.88,
+                "end_seconds": 1302.08,
+                "details": "Speaker says Badake was blown out and that Thomas's team scored 190 points, consistent with the displayed 188.92."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Avery defeated Nathan in Week 9, 151.04–83.76.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Avery",
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "9"
+              },
+              {
+                "name": "winner",
+                "value": "Avery"
+              },
+              {
+                "name": "loser",
+                "value": "Nathan"
+              },
+              {
+                "name": "score",
+                "value": "151.04–83.76"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1297.155,
+                "end_seconds": 1300.0,
+                "details": "The Week 9 matchup board shows Avery's team scoring 151.04 against Nathan's team scoring 83.76, with Avery marked as winner."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Austin defeated Tom in Week 9, 144.30–128.50.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Austin",
+              "Tom"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "9"
+              },
+              {
+                "name": "winner",
+                "value": "Austin"
+              },
+              {
+                "name": "loser",
+                "value": "Tom"
+              },
+              {
+                "name": "score",
+                "value": "144.30–128.50"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1297.155,
+                "end_seconds": 1300.0,
+                "details": "The Week 9 matchup board shows Tom's team at 128.50 and Austin's team at 144.30, with Austin marked as winner."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Joe defeated Mason in Week 9, 130.38–122.48.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Joe",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "9"
+              },
+              {
+                "name": "winner",
+                "value": "Joe"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "score",
+                "value": "130.38–122.48"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1297.155,
+                "end_seconds": 1300.0,
+                "details": "The Week 9 matchup board shows Mason's team at 122.48 and Joe's team at 130.38, with Joe marked as winner."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1431.52,
+                "end_seconds": 1438.68,
+                "details": "The speaker says Mason would have avoided the embarrassment of losing to Joe."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Zach defeated Danny in Week 9, 193.60–167.30.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Zach",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "9"
+              },
+              {
+                "name": "winner",
+                "value": "Zach"
+              },
+              {
+                "name": "loser",
+                "value": "Danny"
+              },
+              {
+                "name": "score",
+                "value": "193.60–167.30"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1297.155,
+                "end_seconds": 1300.0,
+                "details": "The Week 9 matchup board shows Danny's team at 167.30 and Zach's team at 193.60, with Zach marked as winner."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "After Week 9, Zach was first at 8–1; Austin was second at 6–3; Avery moved into third at 5–4, ahead of Badake in fourth at 5–4.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Zach",
+              "Austin",
+              "Avery",
+              "Badake"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "9"
+              },
+              {
+                "name": "first_place",
+                "value": "Zach, 8–1"
+              },
+              {
+                "name": "second_place",
+                "value": "Austin, 6–3"
+              },
+              {
+                "name": "third_place",
+                "value": "Avery, 5–4"
+              },
+              {
+                "name": "fourth_place",
+                "value": "Badake, 5–4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1357.039,
+                "end_seconds": 1366.159,
+                "details": "Transcript says Zach is 8–1, Avery moved to third, and Austin moved to second; the standings screen displays Zach first (8–1), Austin second (6–3), Avery third (5–4), and Badake fourth (5–4)."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Mason is said to have traded away Austin Ekeler and Ladd McConkey; the recipient and return are not provided.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Mason",
+              "Austin Ekeler",
+              "Ladd McConkey"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Mason"
+              },
+              {
+                "name": "players_traded_away",
+                "value": "Austin Ekeler; Ladd McConkey"
+              },
+              {
+                "name": "trade_partner_or_return",
+                "value": "Not stated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1431.52,
+                "end_seconds": 1438.68,
+                "details": "Speaker says that if Mason 'doesn't trade away Austin Eckler and Ladd [McConkey],' he would not have lost to Joe."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window does not identify the recipient or return package for Mason's Austin Ekeler/Ladd McConkey trade.",
+          "A vague reference to an owner having injuries and needing a trade with Mason provides no reliable owner identity, players, or completed-trade details."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1473.0,
+      "transient_image_count": 6,
+      "review": {
+        "window_summary": "Nathan is described as suffering a lopsided loss and sitting at 3-6; the standings screen also shows several teams near the bottom at 3-6.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Nathan reportedly scored fewer than 90 points and lost his matchup by 60 points.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "Nathan points",
+                "value": "Under 90"
+              },
+              {
+                "name": "Margin of defeat",
+                "value": "60 points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1455.2,
+                "end_seconds": 1465.6,
+                "details": "Speaker addresses Nathan and says, “you can't score 90 points, you lose by 60.”"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Nathan is 3-6. The standings screen also shows three 3-6 teams in positions 9–12, including Nathan's team at ninth and Sal's team at 11th.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Nathan",
+              "Sal",
+              "Worked By Waivers",
+              "Cooked"
+            ],
+            "facts": [
+              {
+                "name": "Nathan record",
+                "value": "3-6"
+              },
+              {
+                "name": "Nathan standings position",
+                "value": "9th"
+              },
+              {
+                "name": "Sal record",
+                "value": "3-6"
+              },
+              {
+                "name": "Sal standings position",
+                "value": "11th"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1440.167,
+                "end_seconds": 1440.167,
+                "details": "League standings display 'Worked By Waivers' (NathanSchmidt) at 3-6 in 9th and 'Cooked' (SalVel...) at 3-6 in 11th; positions 10 and 12 also show 3-6."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1465.6,
+                "end_seconds": 1468.9,
+                "details": "Speaker tells Nathan, “you're three and six.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Nathan's opponent and the exact final score are not provided in this window.",
+          "The transcript suggests a race to avoid last involving an unclear name beginning with “S” and Nathan, but the standings show additional 3-6 teams; this window does not establish a definitive last-place race."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "The supplied Week 9 evidence conflicts on Nathan’s opponent and score: Mason–Nathan (151.04–89.76) versus Avery–Nathan (151.04–83.76).",
+    "A window review also identifies Zach over Danny 193.60–167.30, which conflicts with the separately supported Danny–Sal and Zach–Bush Week 9 results; confirm whether that board belongs to this league/week before recording it.",
+    "The exact scores for Danny versus Sal are not supplied; only Danny’s four-point margin is supported.",
+    "Puka Nacua’s rostered owner is not established in the supplied evidence.",
+    "Sal said four players were ruled out, but the evidence does not identify all four."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize team owners, use owner names, and distinguish NFL context from private-league events.",
+      "status": "fulfilled",
+      "details": "League events are attributed to owners where supported; NFL-player news is retained as lineup context rather than treated as league transactions."
+    },
+    {
+      "instruction": "Track stated matchup outcomes, scores, trades, injuries, and waiver actions without inventing missing details.",
+      "status": "fulfilled",
+      "details": "Confirmed trade terms, waiver move, supported results, and injury reports are recorded. Missing scores and unidentified parties are not invented."
+    },
+    {
+      "instruction": "Defer to visual evidence when it conflicts with transcript evidence, and preserve unresolved conflicts for review.",
+      "status": "fulfilled",
+      "details": "The incompatible Nathan matchup reports are marked unclear and listed as an open question rather than being resolved."
+    },
+    {
+      "instruction": "Honor episode-specific instructions and declared supplemental outputs.",
+      "status": "not_applicable",
+      "details": "No episode-specific instructions or supplemental outputs were declared in the supplied guidance."
+    }
+  ],
+  "supplemental_outputs": []
+}

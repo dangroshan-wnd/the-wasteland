@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "video_id": "0XSRuWmedyE",
+  "video_title": "Thanksgiving Destroys The League Standings",
+  "raw_sample_counts": {
+    "scene": 130,
+    "periodic": 48,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Thanksgiving Destroys The League Standings",
+      "upload_date": "20241203",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        4.533,
+        22.367,
+        38.395,
+        54.667,
+        68.7,
+        86.0,
+        97.467,
+        110.274,
+        125.8,
+        145.033,
+        162.933,
+        172.967
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        189.267,
+        216.133,
+        226.894,
+        228.894,
+        230.894,
+        240.0,
+        276.535,
+        286.275,
+        308.315,
+        324.215,
+        334.255,
+        352.474
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        363.174,
+        365.174,
+        367.174,
+        382.995,
+        401.333,
+        412.067,
+        426.333,
+        461.433,
+        472.8,
+        487.995,
+        520.7,
+        533.255
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        547.367,
+        561.333,
+        574.5,
+        595.667,
+        608.8,
+        628.395,
+        630.395,
+        632.395,
+        658.833,
+        660.333,
+        701.555,
+        705.555
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        732.567,
+        735.094,
+        742.235,
+        752.9,
+        777.5,
+        788.567,
+        810.0,
+        835.4,
+        844.733,
+        863.267,
+        873.667,
+        892.967
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        914.333,
+        927.767,
+        936.533,
+        952.635,
+        970.367,
+        984.794,
+        990.0,
+        1007.5,
+        1028.035,
+        1037.695,
+        1053.4,
+        1067.6
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1084.374,
+        1086.374,
+        1088.374,
+        1101.433,
+        1117.367,
+        1135.4,
+        1153.5,
+        1172.055,
+        1177.435,
+        1198.215,
+        1202.215,
+        1230.0
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1430.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1260.0,
+        1290.0,
+        1326.855,
+        1328.855,
+        1330.855,
+        1332.595,
+        1336.595,
+        1358.033,
+        1359.967,
+        1380.0,
+        1393.5,
+        1415.733
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "schema_version": 1,
+  "video_id": "gD_Zr6Z6_ME",
+  "video_title": "Massive Upsets Change The Standings",
+  "season": "Season 1",
+  "week": 12,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Massive Upsets Change The Standings",
+      "upload_date": "20241126",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "injury",
+      "summary": "Cedric Tillman left Thursday's game with a concussion while in Bush's active Week 12 lineup. He finished with 2.8 fantasy points: two receptions for 28 yards and one lost fumble.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "NFL player",
+          "name": "Cedric Tillman"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Concussion"
+        },
+        {
+          "name": "fantasy points",
+          "value": "2.8"
+        },
+        {
+          "name": "stat line",
+          "value": "2 receptions on 4 targets, 28 receiving yards, 1 fumble lost"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 113.52,
+          "end_seconds": 127.0,
+          "details": "Narration says Tillman left with a concussion after fumbling, and the roster screen shows C. Tillman with 2.80 points and the listed stat line on Bush's side."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Mason claimed Bills TE Dalton Kincaid off waivers for $21.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "acquiring owner",
+          "name": "Mason"
+        },
+        {
+          "role": "NFL player",
+          "name": "Dalton Kincaid"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "position/team",
+          "value": "TE, BUF"
+        },
+        {
+          "name": "waiver cost",
+          "value": "$21"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 491.44,
+          "end_seconds": 499.4,
+          "details": "Narration and the waiver notification identify MasonDodd claiming Dalton Kincaid for $21."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Danny said he acquired Will Dissly for free the previous week.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "reported",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "acquiring owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Will Dissly"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "cost",
+          "value": "Free"
+        },
+        {
+          "name": "timing",
+          "value": "Previous week"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 521.04,
+          "end_seconds": 526.88,
+          "details": "Danny and the displayed league-chat message say he got Will Dissly for free the prior week."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Nathan said he acquired Green Bay Packers D/ST before Brock Purdy was officially ruled out for the week.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "roster addition",
+          "name": "Green Bay Packers D/ST"
+        },
+        {
+          "role": "NFL context",
+          "name": "Brock Purdy"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "move",
+          "value": "Added/acquired Green Bay Packers D/ST"
+        },
+        {
+          "name": "context",
+          "value": "Added before Purdy was officially ruled out"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 607.959,
+          "end_seconds": 619.32,
+          "details": "The speaker says Green Bay D/ST was his best defense move and that he acquired it before the Purdy-out news; the accompanying roster is identified as Nathan's."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery defeated Austin in Week 12. Avery scored 142.90; the reviewed boards conflict on Austin's displayed total.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Avery"
+        },
+        {
+          "role": "loser",
+          "name": "Austin"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Avery",
+          "score": 142.9
+        }
+      ],
+      "facts": [
+        {
+          "name": "Austin score",
+          "value": "Conflicting visual readings: 84.96 and 84.86"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 650.567,
+          "end_seconds": 667.315,
+          "details": "A league board shows Avery at 142.90 over Austin at 84.96."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 905.814,
+          "end_seconds": 905.814,
+          "details": "A later reviewed board shows Avery at 142.90 over Austin at 84.86."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Sal defeated Bush in Week 12. Bush's displayed score was 134.46, but the reviewed boards conflict on Sal's total.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Sal"
+        },
+        {
+          "role": "loser",
+          "name": "Bush"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Bush",
+          "score": 134.46
+        }
+      ],
+      "facts": [
+        {
+          "name": "Sal score",
+          "value": "Conflicting visual readings: 167.82 and 157.82"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 650.567,
+          "end_seconds": 667.315,
+          "details": "A league board shows Sal's side winning 167.82-134.46."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 905.814,
+          "end_seconds": 905.814,
+          "details": "A later reviewed board shows Sal's side winning 157.82-134.46."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Joe defeated Badake, 166.28-115.02.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Joe"
+        },
+        {
+          "role": "loser",
+          "name": "Badake"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Joe",
+          "score": 166.28
+        },
+        {
+          "name": "Badake",
+          "score": 115.02
+        }
+      ],
+      "facts": [
+        {
+          "name": "Joe record after result",
+          "value": "6-6"
+        },
+        {
+          "name": "Badake record after result",
+          "value": "5-7"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 852.8,
+          "end_seconds": 862.28,
+          "details": "The matchup display shows Badake at 115.02 against Joe's team at 166.28; narration identifies the records after the result."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Joe was reported to have acquired Amir Abdullah via trade; the trade partner and date were not provided.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "reported",
+      "confidence": 0.8,
+      "participants": [
+        {
+          "role": "acquiring owner",
+          "name": "Joe"
+        },
+        {
+          "role": "NFL player",
+          "name": "Amir Abdullah"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "trade partner",
+          "value": "Not stated"
+        },
+        {
+          "name": "displayed Week 12 fantasy points",
+          "value": "17.50"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 993.36,
+          "end_seconds": 1000.8,
+          "details": "Commentary says Joe went out and traded for Amir Abdullah."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1022.767,
+          "end_seconds": 1022.767,
+          "details": "The adjacent Week 12 lineup display shows A. Abdullah scoring 17.50 on the winning side."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Zach defeated Danny in Week 12; commentary says the loss dropped Danny to 6-6.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Zach"
+        },
+        {
+          "role": "loser",
+          "name": "Danny"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Danny record after result",
+          "value": "6-6"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1168.08,
+          "end_seconds": 1189.6,
+          "details": "Commentary explicitly states that Zach beat Danny and that Danny would fall to 6-6."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "A later Week 12 matchup board shows Thomas defeating Mason, 161.34-126.12.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Thomas"
+        },
+        {
+          "role": "loser",
+          "name": "Mason"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Thomas",
+          "score": 161.34
+        },
+        {
+          "name": "Mason",
+          "score": 126.12
+        }
+      ],
+      "facts": [
+        {
+          "name": "conflicting earlier recap",
+          "value": "An earlier review describes a separate Nathan-over-Mason result and a Thomas-over-Mason score near 141-126.52; these cannot all describe one Week 12 head-to-head."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1435.233,
+          "end_seconds": 1440.0,
+          "details": "The late matchup board shows Fight For Freedom at 126.12 versus Team ThomasWaddle at 161.34."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Zach led the league at 9-3 after Week 12.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "record",
+          "value": "9-3"
+        },
+        {
+          "name": "standing",
+          "value": "1st"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1339.4,
+          "end_seconds": 1360.867,
+          "details": "The standings board places Zach's team first at 9-3."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Avery, Austin, and Mason were shown tied at 7-5; Thomas was fifth at 6-6.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Avery standing",
+          "value": "2nd, 7-5"
+        },
+        {
+          "name": "Austin standing",
+          "value": "3rd, 7-5"
+        },
+        {
+          "name": "Mason standing",
+          "value": "4th, 7-5"
+        },
+        {
+          "name": "Thomas standing",
+          "value": "5th, 6-6"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1339.4,
+          "end_seconds": 1360.867,
+          "details": "The standings display lists Avery, Austin, and Mason at 7-5 in places two through four and Thomas fifth at 6-6."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Bush was reported as 4-8 with the league's worst record.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "reported",
+      "confidence": 0.83,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "record",
+          "value": "4-8"
+        },
+        {
+          "name": "standing context",
+          "value": "Worst record in league, per speaker"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1364.679,
+          "end_seconds": 1375.2,
+          "details": "The speaker says Bush is 4-8 and has the worst record in the league."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "The recap stated that two regular-season games remained; the top four were described as \"pretty much solid,\" but no playoff berth had officially been secured.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "reported",
+      "confidence": 0.81,
+      "participants": [],
+      "scores": [],
+      "facts": [
+        {
+          "name": "games remaining",
+          "value": "2"
+        },
+        {
+          "name": "playoff-race assessment",
+          "value": "No official berth secured, per speaker"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1504.76,
+          "end_seconds": 1510.64,
+          "details": "The speaker says the top four are pretty much solid but nobody has secured a playoff place with two games remaining."
+        }
+      ]
+    }
+  ]
+}

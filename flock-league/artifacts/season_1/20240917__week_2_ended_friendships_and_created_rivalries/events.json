@@ -1,0 +1,874 @@
+{
+  "schema_version": 1,
+  "video_id": "ZJ0ZvmANWvU",
+  "video_title": "Week 2 Ended Friendships & Created Rivalries",
+  "season": "Season 1",
+  "week": 2,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Week 2 Ended Friendships & Created Rivalries",
+      "upload_date": "20240917",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "matchup_result",
+      "summary": "Mason defeated Nathan in Week 2, 118.46-102.14, improving to 2-0 while Nathan fell to 0-2.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Mason"
+        },
+        {
+          "role": "loser",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Mason",
+          "score": 118.46
+        },
+        {
+          "name": "Nathan",
+          "score": 102.14
+        }
+      ],
+      "facts": [
+        {
+          "name": "Mason record after matchup",
+          "value": "2-0"
+        },
+        {
+          "name": "Nathan record after matchup",
+          "value": "0-2"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1746.6,
+          "end_seconds": 1751.76,
+          "details": "The final standings/matchup graphic shows Mason's side at 118.46 and 2-0, over Nathan's side at 102.14 and 0-2; Mason also says he is undefeated."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery defeated Sal in Week 2, 122.94-115.76.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Avery"
+        },
+        {
+          "role": "loser",
+          "name": "Sal"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Avery",
+          "score": 122.94
+        },
+        {
+          "name": "Sal",
+          "score": 115.76
+        }
+      ],
+      "facts": [
+        {
+          "name": "Avery record after matchup",
+          "value": "2-0"
+        },
+        {
+          "name": "Sal record after matchup",
+          "value": "0-2"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1640.533,
+          "end_seconds": 1641.5,
+          "details": "The matchup display shows Avery's team at 122.94 and 2-0 over Sal's team at 115.76 and 0-2."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Austin defeated Bush in Week 2, 140.82-135.24.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Austin"
+        },
+        {
+          "role": "loser",
+          "name": "Bush"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Austin",
+          "score": 140.82
+        },
+        {
+          "name": "Bush",
+          "score": 135.24
+        }
+      ],
+      "facts": [
+        {
+          "name": "Austin record after matchup",
+          "value": "2-0"
+        },
+        {
+          "name": "Bush record after matchup",
+          "value": "1-1"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1716.6,
+          "end_seconds": 1728.32,
+          "details": "The final matchup display shows 140.82-135.24, while commentary identifies Austin as the winner and says Bush fell to 1-1."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Danny defeated Badake in Week 2, 162.12-145.34.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.92,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Danny"
+        },
+        {
+          "role": "loser",
+          "name": "Badake"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Danny",
+          "score": 162.12
+        },
+        {
+          "name": "Badake",
+          "score": 145.34
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1769.68,
+          "end_seconds": 1776.6,
+          "details": "Commentary says Danny beat Badake with 162 points, and the standings graphic shows 162.12 over 145.34."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Thomas defeated the team labeled Good Evening, Cowards, 153.20-88.46, in Week 2.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Thomas"
+        },
+        {
+          "role": "loser",
+          "name": "Good Evening, Cowards"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Thomas",
+          "score": 153.2
+        },
+        {
+          "name": "Good Evening, Cowards",
+          "score": 88.46
+        }
+      ],
+      "facts": [
+        {
+          "name": "losing team handle shown",
+          "value": "@StevenSwagal"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1766.0,
+          "end_seconds": 1768.679,
+          "details": "The standings graphic shows Team ThomasWade at 153.20 over Good Evening, Cowards at 88.46, with commentary describing Thomas's win."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Zach's Baking Bad defeated the team labeled #site-issues, 141.30-100.08, in Week 2.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Zach"
+        },
+        {
+          "role": "loser",
+          "name": "#site-issues"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Zach",
+          "score": 141.3
+        },
+        {
+          "name": "#site-issues",
+          "score": 100.08
+        }
+      ],
+      "facts": [
+        {
+          "name": "losing team handle shown",
+          "value": "@GreenMeansMoney"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1644.279,
+          "end_seconds": 1646.36,
+          "details": "The matchup graphic shows Baking Bad at 141.30 over #site-issues at 100.08; later commentary explicitly says Zach won."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Danny traded Jaylen Waddle and Rhamondre Stevenson for Nico Collins and Trey Benson.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "receiver of Nico Collins and Trey Benson",
+          "name": "Danny"
+        },
+        {
+          "role": "trade counterparty",
+          "name": "Unidentified manager"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Danny sent",
+          "value": "Jaylen Waddle; Rhamondre Stevenson"
+        },
+        {
+          "name": "Danny received",
+          "value": "Nico Collins; Trey Benson"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1140.0,
+          "end_seconds": 1141.0,
+          "details": "The completed-trade graphic labels Waddle and Stevenson as from Dannylad21 and Collins and Benson as to Dannylad21."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Mason and Bush completed a trade: Bush received Hollywood Brown and Javonte Williams, while Mason received Amari Cooper, Justice Hill, and $5 FAAB.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "received Hollywood Brown and Javonte Williams",
+          "name": "Bush"
+        },
+        {
+          "role": "received Amari Cooper, Justice Hill, and $5 FAAB",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Bush received",
+          "value": "Hollywood Brown; Javonte Williams"
+        },
+        {
+          "name": "Mason received",
+          "value": "Amari Cooper; Justice Hill; $5 FAAB"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1260.0,
+          "end_seconds": 1285.0,
+          "details": "The transaction graphic identifies the complete Mason-Bush exchange, including $5 FAAB, while Mason discusses trading away Amari Cooper."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Nathan traded Justin Jefferson to an unidentified manager for Kyren Williams.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "sent Justin Jefferson and received Kyren Williams",
+          "name": "Nathan"
+        },
+        {
+          "role": "received Justin Jefferson and sent Kyren Williams",
+          "name": "Unidentified manager"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Nathan sent",
+          "value": "Justin Jefferson"
+        },
+        {
+          "name": "Nathan received",
+          "value": "Kyren Williams"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1008.16,
+          "end_seconds": 1016.8,
+          "details": "The recipient says Nathan traded Justin Jefferson for Kyren Williams and gave the speaker Justin Jefferson."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1024.6,
+          "end_seconds": 1037.84,
+          "details": "Nathan confirms that he traded Jefferson away and defends the completed trade."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Nathan added Tyler Johnson and dropped Josh Reynolds through waivers for $32 FAAB.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "manager",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "added",
+          "value": "Tyler Johnson, WR, LAR"
+        },
+        {
+          "name": "dropped",
+          "value": "Josh Reynolds, WR, DEN"
+        },
+        {
+          "name": "FAAB spent",
+          "value": "$32"
+        },
+        {
+          "name": "transaction date shown",
+          "value": "Sep 11, 9:05 AM"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 61.32,
+          "end_seconds": 81.76,
+          "details": "Commentary cites Nathan's $32 bid, and the transaction card shows Tyler Johnson added and Josh Reynolds dropped."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Danny made a $2 waiver claim for Steelers D/ST, which scored 13 Week 2 fantasy points.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "manager",
+          "name": "Danny"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "added",
+          "value": "Steelers D/ST"
+        },
+        {
+          "name": "FAAB spent",
+          "value": "$2"
+        },
+        {
+          "name": "Week 2 points",
+          "value": "13"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1348.96,
+          "end_seconds": 1358.32,
+          "details": "Danny says he bid $2 for a defense, and the lineup overlay shows PIT DEF with 13.00 points."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Badake said he picked up tight end Colby Parkinson for Week 2.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "manager",
+          "name": "Badake"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "added",
+          "value": "Colby Parkinson, TE"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 300.72,
+          "end_seconds": 306.52,
+          "details": "The speaker identified by visual context as Badake says his newly picked-up tight end was rendered in the transcript as 'Kobe Parkinson.'"
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "An unidentified manager said they picked up Darnell Mooney.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "manager",
+          "name": "Unidentified manager"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "added",
+          "value": "Darnell Mooney"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 900.759,
+          "end_seconds": 903.2,
+          "details": "The speaker says, 'I picked up Darnell Mooney.'"
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Evan Engram was ruled out shortly before kickoff with a pregame hamstring injury; an unidentified manager left him in the lineup for zero points.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Evan Engram"
+        },
+        {
+          "role": "fantasy manager affected",
+          "name": "Unidentified manager"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Hamstring"
+        },
+        {
+          "name": "availability",
+          "value": "Out before kickoff"
+        },
+        {
+          "name": "fantasy impact",
+          "value": "Left in lineup for zero points"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 931.56,
+          "end_seconds": 947.56,
+          "details": "The speaker says Engram was ruled out an hour before kickoff and resulted in a lineup zero; the on-screen ESPN alert cites a pregame hamstring injury."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Kenneth Walker was reported ruled out or doubtful for Sunday against New England with an oblique injury, affecting Sal's Week 2 outlook.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "reported",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "fantasy manager affected",
+          "name": "Sal"
+        },
+        {
+          "role": "NFL player",
+          "name": "Kenneth Walker"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Oblique"
+        },
+        {
+          "name": "reported availability",
+          "value": "Ruled out / doubtful for Sunday versus New England"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 625.24,
+          "end_seconds": 648.0,
+          "details": "Sal says Walker was ruled out and that his projected matchup outlook worsened; the transcript also renders the reported status as doubtful."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Hollywood Brown was reported to have been placed on IR shortly after the Mason-Bush trade.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "reported",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Hollywood Brown"
+        },
+        {
+          "role": "fantasy manager affected",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported status",
+          "value": "IR"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 720.6,
+          "end_seconds": 728.0,
+          "details": "A speaker says Brown had been put on IR and notes the negative impact for the manager who acquired him."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Joe Mixon was described as day-to-day.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "reported",
+      "confidence": 0.87,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Joe Mixon"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported status",
+          "value": "Day-to-day"
+        },
+        {
+          "name": "fantasy owner",
+          "value": "Unidentified"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1245.08,
+          "end_seconds": 1249.2,
+          "details": "A speaker states that Joe Mixon was currently day-to-day."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Nathan was said to have lost Cooper Kupp and Isaiah Pacheco before his Week 3 matchup.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "reported",
+      "confidence": 0.76,
+      "participants": [
+        {
+          "role": "fantasy manager affected",
+          "name": "Nathan"
+        },
+        {
+          "role": "NFL player",
+          "name": "Cooper Kupp"
+        },
+        {
+          "role": "NFL player",
+          "name": "Isaiah Pacheco"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported impact",
+          "value": "Both players were said to be lost ahead of Week 3"
+        },
+        {
+          "name": "nature of absences",
+          "value": "Not specified"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1552.64,
+          "end_seconds": 1558.88,
+          "details": "A speaker says Nathan had lost Cooper Kupp and Isaiah Pacheco before their upcoming Week 3 matchup."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Danny declared Badake his league rival, and Avery said Mason was already his rival.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "rival",
+          "name": "Danny"
+        },
+        {
+          "role": "rival",
+          "name": "Badake"
+        },
+        {
+          "role": "rival",
+          "name": "Avery"
+        },
+        {
+          "role": "rival",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "rivalry",
+          "value": "Danny vs. Badake"
+        },
+        {
+          "name": "rivalry",
+          "value": "Avery vs. Mason"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 180.04,
+          "end_seconds": 186.96,
+          "details": "Danny formally identifies Badake's team name as his rival."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 219.36,
+          "end_seconds": 225.68,
+          "details": "Avery says, 'I already have a rival, it's Mason.'"
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Mason and Nathan agreed to a conditional Week 2 side bet tied to their matchup.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "participant",
+          "name": "Mason"
+        },
+        {
+          "role": "participant",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "if Nathan lost",
+          "value": "Reenact a song in the next video"
+        },
+        {
+          "name": "if Mason lost",
+          "value": "Record a one-minute video congratulating Nathan"
+        },
+        {
+          "name": "outcome relevant to bet",
+          "value": "Mason defeated Nathan"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 768.36,
+          "end_seconds": 814.36,
+          "details": "Mason's proposed consequence for Nathan and Nathan's counter-condition for Mason are described in dialogue and an on-screen message."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1515.399,
+          "end_seconds": 1521.919,
+          "details": "After the matchup, Nathan says he is a man of his word and will fulfill his end of the deal."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Nathan renamed his team “Mason's Biggest Nightmare.”",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.87,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "team name",
+          "value": "Mason's Biggest Nightmare"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 320.12,
+          "end_seconds": 323.68,
+          "details": "Narration and the subsequent lineup display show Nathan's renamed team."
+        }
+      ]
+    }
+  ]
+}

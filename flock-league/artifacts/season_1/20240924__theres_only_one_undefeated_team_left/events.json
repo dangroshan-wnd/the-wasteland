@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "video_id": "9Lb5mnouNss",
+  "video_title": "There's Only One Undefeated Team Left...",
+  "season": "Season 1",
+  "week": 3,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "There's Only One Undefeated Team Left...",
+      "upload_date": "20240924",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "other",
+      "summary": "Nathan completed a Colts-themed song/dance punishment after saying he lost a bet tied to a matchup with Mason.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.85,
+      "participants": [
+        {
+          "role": "owner who lost bet",
+          "name": "Nathan"
+        },
+        {
+          "role": "reported bet opponent",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "punishment",
+          "value": "Reenact a Colts-themed song/anthem"
+        },
+        {
+          "name": "matchup result",
+          "value": "Not explicitly established; Nathan only confirms losing the bet"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 60.72,
+          "end_seconds": 67.84,
+          "details": "Nathan says Mason made a matchup bet requiring him to reenact the song if he lost."
+        },
+        {
+          "source": "both",
+          "start_seconds": 127.36,
+          "end_seconds": 131.36,
+          "details": "Nathan says he is doing the performance because he lost a bet; an on-screen label reads “COLTS ANTHEM WEEK 2 PACKERS.”"
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Joe entered Week 3 with a 2-0 record.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "record entering Week 3",
+          "value": "2-0"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 224.959,
+          "end_seconds": 231.44,
+          "details": "A Week 3 preview identifies Joe as having started 2-0."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Mason entered Week 3 with a 2-0 record.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "confirmed",
+      "confidence": 0.87,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "record entering Week 3",
+          "value": "2-0"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 269.68,
+          "end_seconds": 272.72,
+          "details": "A speaker says Mason is 2-0."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Danny acquired Carson Steele on waivers for $37 FAAB, with Avery bidding $36.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "acquiring owner",
+          "name": "Danny"
+        },
+        {
+          "role": "runner-up bidder",
+          "name": "Avery"
+        },
+        {
+          "role": "NFL player",
+          "name": "Carson Steele"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning bid",
+          "value": "$37 FAAB"
+        },
+        {
+          "name": "runner-up bid",
+          "value": "$36 FAAB"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 431.84,
+          "end_seconds": 440.72,
+          "details": "Danny confirms spending $37 and states Avery bid $36."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Mason defeated Nathan, 118.46-107.14, in a Week 2 matchup.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Mason"
+        },
+        {
+          "role": "loser",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Mason",
+          "score": 118.46
+        },
+        {
+          "name": "Nathan",
+          "score": 107.14
+        }
+      ],
+      "facts": [
+        {
+          "name": "league award",
+          "value": "Lowest Pts in Win"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 465.28,
+          "end_seconds": 473.6,
+          "details": "The on-screen Sleeper award card shows MasonDodd 118.46 versus NathanSchmidt 107.14 and labels it “Lowest Pts in Win.”"
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Kenneth Walker was reported not to be playing due to health concerns; his fantasy owner was not identified.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Kenneth Walker"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "availability",
+          "value": "Not playing"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 489.68,
+          "end_seconds": 503.44,
+          "details": "A manager says Kenneth Walker is not playing and cannot stay healthy for his fantasy team."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Tom acquired Lamar Jackson, Jahmyr Gibbs, and Marvin Harrison Jr. from Joe for CeeDee Lamb and Anthony Richardson.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "recipient owner",
+          "name": "Tom"
+        },
+        {
+          "role": "sending owner",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Tom received",
+          "value": "Lamar Jackson; Jahmyr Gibbs; Marvin Harrison Jr."
+        },
+        {
+          "name": "Tom sent",
+          "value": "CeeDee Lamb; Anthony Richardson"
+        },
+        {
+          "name": "league reaction",
+          "value": "Some managers called for a veto or characterized the deal as collusion; no veto outcome is shown."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 582.399,
+          "end_seconds": 595.2,
+          "details": "Commentary identifies Tom as receiving Gibbs, Marvin Harrison Jr., and Lamar Jackson for Lamb and Richardson; the trade graphic confirms the player exchange."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 597.36,
+          "end_seconds": 603.76,
+          "details": "League members debate whether the trade is collusion or veto-worthy."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "DannyLady21 traded Nico Collins and Trey Benson for Jaylen Waddle and Rhamondre Stevenson; commentary identifies Mason as the other side.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "confirmed",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "owner represented by displayed team",
+          "name": "Danny"
+        },
+        {
+          "role": "reported counterparty",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Danny received",
+          "value": "Jaylen Waddle; Rhamondre Stevenson"
+        },
+        {
+          "name": "Danny sent",
+          "value": "Nico Collins; Trey Benson"
+        },
+        {
+          "name": "counterparty certainty",
+          "value": "Mason is identified in commentary, not on the visible trade card."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 704.355,
+          "end_seconds": 708.355,
+          "details": "Trade card lists DannyLady21 receiving Waddle and Stevenson and sending Collins and Benson."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 703.519,
+          "end_seconds": 707.12,
+          "details": "Commentary discusses Mason’s side of the deal."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Justin Jefferson was reported to be full go for Week 3 after a quad injury suffered the prior Sunday.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "reported",
+      "confidence": 0.77,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Justin Jefferson"
+        },
+        {
+          "role": "opposing owner context",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Quad"
+        },
+        {
+          "name": "availability",
+          "value": "Described as full go for Week 3"
+        },
+        {
+          "name": "fantasy context",
+          "value": "Bush was said to be facing a lineup starting Jefferson."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 806.399,
+          "end_seconds": 848.96,
+          "details": "Narration says Jefferson had a quad injury Sunday but was full go for Week 3, while discussing Bush’s Garrett Wilson-over-Jefferson draft choice."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Joe Mixon was reported out with an ankle injury immediately before Week 3 kickoff.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "reported",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Joe Mixon"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Ankle"
+        },
+        {
+          "name": "availability",
+          "value": "Out"
+        },
+        {
+          "name": "fantasy consequence",
+          "value": "An unidentified manager said this forced an Amari Cooper start."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 864.16,
+          "end_seconds": 894.48,
+          "details": "A speaker says Mixon is out with an ankle injury and that he must start Cooper."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Zach traded Brandon Aiyuk for Jaxon Smith-Njigba and Amari Cooper.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "confirmed",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Zach sent",
+          "value": "Brandon Aiyuk"
+        },
+        {
+          "name": "Zach received",
+          "value": "Jaxon Smith-Njigba; Amari Cooper"
+        },
+        {
+          "name": "counterparty",
+          "value": "Not established"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 945.28,
+          "end_seconds": 955.68,
+          "details": "A speaker says Zach traded Aiyuk for “JS and Amari Cooper,” treating the transaction as completed."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Tom defeated Mason in Week 3.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Tom"
+        },
+        {
+          "role": "loser",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "final score",
+          "value": "Not readable in supplied evidence"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1375.6,
+          "end_seconds": 1414.0,
+          "details": "Commentary directed at Mason says, “Tom took you out in week three,” alongside the matchup display."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Danny acquired Jonathan Brooks from Joe for Adam Thielen, Rico Dowdle, and $30 FAAB.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "acquiring owner",
+          "name": "Danny"
+        },
+        {
+          "role": "sending owner",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Danny received",
+          "value": "Jonathan Brooks"
+        },
+        {
+          "name": "Joe received",
+          "value": "Adam Thielen; Rico Dowdle; $30 FAAB"
+        },
+        {
+          "name": "trade status",
+          "value": "Completed"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1440.0,
+          "end_seconds": 1442.4,
+          "details": "Completed-trade panel shows Danny adding Jonathan Brooks and sending Thielen, Dowdle, and $30 FAAB."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1580.96,
+          "end_seconds": 1584.08,
+          "details": "Commentary identifies the completed transaction as a trade between Danny and Joe."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Adam Thielen was reported to have suffered a hamstring injury.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Adam Thielen"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Hamstring"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1437.52,
+          "end_seconds": 1439.84,
+          "details": "Narrator says Adam Thielen just suffered a hamstring injury."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Danny was reported to be 3-0, in first place, and the league’s top scorer after Week 3.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "reported",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "record",
+          "value": "3-0"
+        },
+        {
+          "name": "standing",
+          "value": "First place"
+        },
+        {
+          "name": "points distinction",
+          "value": "Most points scored"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1486.08,
+          "end_seconds": 1498.56,
+          "details": "Danny says he is 3-0, has the most points scored, and is in first place."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Jonathan Brooks was reported to be expected to miss time.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "reported",
+      "confidence": 0.8,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Jonathan Brooks"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "availability update",
+          "value": "Going to miss time"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1617.679,
+          "end_seconds": 1620.08,
+          "details": "A speaker says, “Brooks is going to miss time.”"
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "An unidentified team called the “betting favorite” defeated Cory by 48 points and finished 1-2.",
+      "season": "Season 1",
+      "week": 3,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "the betting favorite"
+        },
+        {
+          "role": "loser",
+          "name": "Cory"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "margin",
+          "value": "48 points"
+        },
+        {
+          "name": "winner record after matchup",
+          "value": "1-2"
+        },
+        {
+          "name": "exact final scores",
+          "value": "Not readable in supplied evidence"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1647.679,
+          "end_seconds": 1656.64,
+          "details": "Speaker says his team won by 48 over Cory after Monday night and is now 1-2."
+        }
+      ]
+    }
+  ]
+}

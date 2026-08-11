@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "video_id": "9Lb5mnouNss",
+  "video_title": "There's Only One Undefeated Team Left...",
+  "raw_sample_counts": {
+    "scene": 125,
+    "periodic": 56,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "There's Only One Undefeated Team Left...",
+      "upload_date": "20240924",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        7.067,
+        13.667,
+        19.033,
+        20.5,
+        35.167,
+        49.267,
+        69.5,
+        96.467,
+        109.967,
+        131.033,
+        138.167,
+        155.167
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        180.367,
+        195.133,
+        211.333,
+        232.967,
+        240.0,
+        268.755,
+        278.235,
+        288.395,
+        307.0,
+        325.8,
+        339.967,
+        356.567
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        368.267,
+        399.967,
+        409.333,
+        426.867,
+        443.167,
+        461.594,
+        463.594,
+        472.355,
+        483.867,
+        502.7,
+        516.3,
+        537.167
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        540.0,
+        565.115,
+        567.115,
+        575.475,
+        603.967,
+        615.867,
+        636.594,
+        659.433,
+        668.733,
+        682.667,
+        704.355,
+        708.355
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        720.0,
+        740.067,
+        756.755,
+        769.467,
+        790.834,
+        799.233,
+        823.167,
+        832.434,
+        840.0,
+        863.467,
+        870.0,
+        895.875
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        908.733,
+        924.267,
+        935.833,
+        957.7,
+        973.755,
+        983.194,
+        994.194,
+        1005.967,
+        1034.433,
+        1041.675,
+        1055.733,
+        1076.795
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1080.795,
+        1088.195,
+        1104.567,
+        1117.315,
+        1139.767,
+        1147.667,
+        1176.995,
+        1190.355,
+        1207.115,
+        1222.267,
+        1231.667,
+        1251.715
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1261.075,
+        1263.075,
+        1276.667,
+        1282.467,
+        1286.794,
+        1288.794,
+        1290.794,
+        1320.0,
+        1350.0,
+        1380.0,
+        1416.767,
+        1430.133
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1440.0,
+        1459.467,
+        1469.733,
+        1473.467,
+        1485.9,
+        1499.467,
+        1507.6,
+        1530.567,
+        1560.0,
+        1570.633,
+        1590.0,
+        1600.133
+      ]
+    },
+    {
+      "index": 9,
+      "start": 1620.0,
+      "end": 1676.0,
+      "transient_sample_count": 8,
+      "sample_timestamps": [
+        1620.0,
+        1642.533,
+        1646.467,
+        1650.0,
+        1651.167,
+        1658.633,
+        1665.733,
+        1668.967
+      ]
+    }
+  ]
+}

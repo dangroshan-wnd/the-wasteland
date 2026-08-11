@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "video_id": "4wefRPLlr9E",
+  "video_title": "Who Will Make The Flock Championship?",
+  "raw_sample_counts": {
+    "scene": 126,
+    "periodic": 63,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Who Will Make The Flock Championship?",
+      "upload_date": "20241219",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        4.715,
+        6.715,
+        20.495,
+        38.154,
+        53.435,
+        63.767,
+        83.4,
+        90.0,
+        109.433,
+        121.867,
+        143.133,
+        160.467
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        186.733,
+        202.674,
+        210.0,
+        226.467,
+        248.3,
+        265.633,
+        276.735,
+        287.795,
+        300.0,
+        316.1,
+        340.167,
+        350.767
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        361.9,
+        379.794,
+        390.0,
+        418.967,
+        423.467,
+        442.414,
+        460.435,
+        471.5,
+        493.635,
+        497.635,
+        511.633,
+        533.9
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        542.833,
+        566.154,
+        568.154,
+        575.635,
+        592.567,
+        600.7,
+        625.975,
+        635.575,
+        650.1,
+        672.967,
+        698.567,
+        709.667
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        722.367,
+        746.9,
+        761.235,
+        763.235,
+        765.235,
+        773.775,
+        780.633,
+        804.1,
+        818.733,
+        835.2,
+        848.933,
+        878.033
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        900.0,
+        930.394,
+        934.394,
+        949.2,
+        963.733,
+        981.567,
+        1000.167,
+        1010.167,
+        1020.0,
+        1040.9,
+        1054.433,
+        1073.4
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1080.0,
+        1118.2,
+        1136.8,
+        1150.2,
+        1154.7,
+        1167.9,
+        1176.333,
+        1192.0,
+        1208.133,
+        1228.115,
+        1230.115,
+        1232.115
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1263.167,
+        1285.733,
+        1295.067,
+        1318.935,
+        1320.935,
+        1322.935,
+        1341.233,
+        1363.915,
+        1373.055,
+        1380.0,
+        1411.833,
+        1429.675
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1440.0,
+        1466.314,
+        1468.314,
+        1470.314,
+        1475.955,
+        1491.874,
+        1500.0,
+        1530.0,
+        1560.0,
+        1580.367,
+        1593.2,
+        1611.167
+      ]
+    },
+    {
+      "index": 9,
+      "start": 1620.0,
+      "end": 1800.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1628.367,
+        1638.967,
+        1647.167,
+        1659.033,
+        1669.733,
+        1671.133,
+        1689.767,
+        1720.1,
+        1743.867,
+        1762.633,
+        1770.0,
+        1799.7
+      ]
+    },
+    {
+      "index": 10,
+      "start": 1800.0,
+      "end": 1871.0,
+      "transient_sample_count": 7,
+      "sample_timestamps": [
+        1812.3,
+        1822.467,
+        1830.0,
+        1831.233,
+        1848.0,
+        1858.833,
+        1860.0
+      ]
+    }
+  ]
+}

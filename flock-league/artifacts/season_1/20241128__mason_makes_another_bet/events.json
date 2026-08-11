@@ -1,0 +1,635 @@
+{
+  "schema_version": 1,
+  "video_id": "C0wHMfHGrw4",
+  "video_title": "Mason Makes Another Bet",
+  "season": "Season 1",
+  "week": 13,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Mason Makes Another Bet",
+      "upload_date": "20241128",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "standings",
+      "summary": "Entering Week 13, Zach leads the league at 9-3, while Bush is in 12th/last at 4-8 on a four-game losing streak.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Zach record and standing",
+          "value": "9-3, 1st"
+        },
+        {
+          "name": "Bush record and standing",
+          "value": "4-8, 12th/last"
+        },
+        {
+          "name": "Bush losing streak",
+          "value": "4 games"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 142.23,
+          "end_seconds": 180.0,
+          "details": "Standings display and narration show Zach at 9-3 and Bush in last at 4-8; Bush states he is on a four-game losing streak."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "The league is tightly clustered: the hosts say 11 of 12 teams are in the postseason or one game back with two regular-season games remaining.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "reported",
+      "confidence": 0.88,
+      "participants": [],
+      "scores": [],
+      "facts": [
+        {
+          "name": "playoff-race context",
+          "value": "11 of 12 teams are in a playoff position or one game back"
+        },
+        {
+          "name": "regular-season games remaining",
+          "value": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 142.2,
+          "end_seconds": 155.959,
+          "details": "Host describes the league-wide playoff race and notes two games remain."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Upcoming Week 13 matchup: Mason vs. Nathan.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "state",
+          "value": "Upcoming"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 274.68,
+          "end_seconds": 281.28,
+          "details": "The host identifies Mason as facing Nathan."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Mason and Nathan accepted a Week 13 wager: the loser of their matchup must wear a turkey hat in the following week’s midweek video.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "wager consequence",
+          "value": "Matchup loser wears a turkey hat"
+        },
+        {
+          "name": "fulfillment timing",
+          "value": "Next week's midweek video"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 457.72,
+          "end_seconds": 469.4,
+          "details": "Mason proposes the turkey-hat consequence and Nathan explicitly accepts."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 523.2,
+          "end_seconds": 529.4,
+          "details": "Mason restates that the loser must wear the hat in next week's midweek video."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Avery added Devaughn Vele for $32 FAAB and dropped Kayshon Boutte.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "player added",
+          "name": "Devaughn Vele"
+        },
+        {
+          "role": "player dropped",
+          "name": "Kayshon Boutte"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "add",
+          "value": "Devaughn Vele, WR, Denver"
+        },
+        {
+          "name": "drop",
+          "value": "Kayshon Boutte, WR, New England"
+        },
+        {
+          "name": "FAAB spent",
+          "value": "$32"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 322.395,
+          "end_seconds": 346.314,
+          "details": "Waiver-processing screen lists Avery adding Vele for $32 and dropping Boutte."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 321.56,
+          "end_seconds": 331.64,
+          "details": "Avery says he won Vele and spent $32."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Upcoming Week 13 matchup: Danny vs. Badake. The episode frames it as pivotal to both owners’ playoff hopes.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "team owner",
+          "name": "Badake"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "state",
+          "value": "Upcoming"
+        },
+        {
+          "name": "conditional implication",
+          "value": "A Danny loss would leave Danny 6-7 and move Badake to 6-7, as discussed"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 600.36,
+          "end_seconds": 620.0,
+          "details": "Commentary identifies Danny versus Badake and gives conditional record implications; matchup screen corroborates the pairing."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Breece Hall reportedly missed Wednesday practice after the bye because of knee soreness; Danny’s fantasy plans are affected and Hall’s Sunday availability is uncertain.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "reported",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Breece Hall"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported practice status",
+          "value": "Did not practice Wednesday following bye"
+        },
+        {
+          "name": "reported issue",
+          "value": "Knee soreness"
+        },
+        {
+          "name": "availability",
+          "value": "Uncertain for Sunday"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 775.72,
+          "end_seconds": 801.68,
+          "details": "Danny discusses Hall's Wednesday DNP and the possibility that he may not play Sunday."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "A last-place manager, referred to in speech as “Bo,” reportedly added Braelon Allen before Danny could acquire him after the Breece Hall news.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "reported",
+      "confidence": 0.7,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "team owner",
+          "name": "Bo (identity uncertain)"
+        },
+        {
+          "role": "player added",
+          "name": "Braelon Allen"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "waiver context",
+          "value": "Reportedly added after Breece Hall's DNP news and ahead of Danny"
+        },
+        {
+          "name": "manager identity",
+          "value": "Spoken as 'Bo'; owner mapping is unresolved"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 787.64,
+          "end_seconds": 806.08,
+          "details": "Danny says the last-place team picked up Braelon Allen just before he reached waivers."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Danny says he offered Buccaneers D/ST plus a receiver for Braelon Allen, but the other manager wanted a starting running back; no completed trade is established.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "reported",
+      "confidence": 0.81,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "trade target",
+          "name": "Braelon Allen"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Danny offer",
+          "value": "Buccaneers D/ST plus a receiver for Braelon Allen"
+        },
+        {
+          "name": "reported asking price",
+          "value": "A starting running back"
+        },
+        {
+          "name": "status",
+          "value": "Not completed"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 826.08,
+          "end_seconds": 837.04,
+          "details": "Danny describes his offer and says the manager would only move Allen for a starting running back."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Upcoming Week 13 matchup: Sal vs. Avery. Avery is projected for 136.30 points (60%) to Sal’s 122.52 (40%).",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "team owner",
+          "name": "Avery"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Sal projection / win probability",
+          "value": "122.52 / 40%"
+        },
+        {
+          "name": "Avery projection / win probability",
+          "value": "136.30 / 60%"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1144.12,
+          "end_seconds": 1146.84,
+          "details": "Matchup screen and dialogue identify Sal versus Avery and display the projections and probabilities."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "A trade proposal shown on the league platform was rejected: zaxavage would receive Josh Allen from GreenMeansMoney for Baker Mayfield, Terry McLaurin, and Jonathan Taylor.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "league account",
+          "name": "zaxavage"
+        },
+        {
+          "role": "league account",
+          "name": "GreenMeansMoney"
+        },
+        {
+          "role": "player",
+          "name": "Josh Allen"
+        },
+        {
+          "role": "player",
+          "name": "Baker Mayfield"
+        },
+        {
+          "role": "player",
+          "name": "Terry McLaurin"
+        },
+        {
+          "role": "player",
+          "name": "Jonathan Taylor"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "status",
+          "value": "Trade Rejected"
+        },
+        {
+          "name": "zaxavage receives",
+          "value": "Josh Allen"
+        },
+        {
+          "name": "zaxavage sends",
+          "value": "Baker Mayfield, Terry McLaurin, Jonathan Taylor"
+        },
+        {
+          "name": "owner mapping",
+          "value": "The supplied evidence does not conclusively map GreenMeansMoney to a listed owner"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1310.633,
+          "end_seconds": 1340.0,
+          "details": "Trade panel explicitly says 'Trade Rejected' and lists the players and platform accounts."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Upcoming Week 13 matchup: Bush vs. Austin. Bush describes himself as a major underdog.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "reported",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "team owner",
+          "name": "Austin"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "state",
+          "value": "Upcoming"
+        },
+        {
+          "name": "Austin players named by Bush",
+          "value": "Christian McCaffrey, Bijan Robinson, CeeDee Lamb, Jalen Hurts"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1557.6,
+          "end_seconds": 1591.84,
+          "details": "Bush identifies Austin as his opponent, calls himself a major underdog, and names several Austin roster players."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Sal offered Brian Robinson and Evan Engram for Travis Kelce, but the unnamed opposing manager says he will not accept; no trade was completed.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "reported",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "team owner",
+          "name": "Unidentified manager"
+        },
+        {
+          "role": "player",
+          "name": "Brian Robinson"
+        },
+        {
+          "role": "player",
+          "name": "Evan Engram"
+        },
+        {
+          "role": "player",
+          "name": "Travis Kelce"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Sal sends",
+          "value": "Brian Robinson and Evan Engram"
+        },
+        {
+          "name": "Sal receives",
+          "value": "Travis Kelce"
+        },
+        {
+          "name": "status",
+          "value": "Manager states intention to decline; no platform resolution shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1673.32,
+          "end_seconds": 1703.88,
+          "details": "The unnamed speaker lays out the Sal offer and says he will not do the deal."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Bush is stated to have acquired Brandon Aiyuk from an unidentified speaker; other trade assets and timing are not provided.",
+      "season": "Season 1",
+      "week": 13,
+      "status": "confirmed",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "player acquired",
+          "name": "Brandon Aiyuk"
+        },
+        {
+          "role": "trade partner",
+          "name": "Unidentified speaker"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "acquiring owner",
+          "value": "Bush"
+        },
+        {
+          "name": "status",
+          "value": "Completed before this episode; terms not provided"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1956.44,
+          "end_seconds": 1960.0,
+          "details": "Speaker thanks Bush for trading for Brandon Aiyuk from him."
+        }
+      ]
+    }
+  ]
+}

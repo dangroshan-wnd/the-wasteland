@@ -1,0 +1,526 @@
+{
+  "schema_version": 1,
+  "video_id": "BJCWUpdCcUI",
+  "video_title": "There Are Only 3 Winning Teams Left...",
+  "season": "Season 1",
+  "week": 8,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "There Are Only 3 Winning Teams Left...",
+      "upload_date": "20241029",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "trade",
+      "summary": "Bush and Badake completed a trade: Bush received Calvin Ridley, DJ Moore, Alexander Mattison, and $12 FAAB; Badake received Garrett Wilson and Rome Odunze.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner receiving Ridley, Moore, Mattison, and FAAB",
+          "name": "Bush"
+        },
+        {
+          "role": "team owner receiving Wilson and Odunze",
+          "name": "Badake"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Bush receives",
+          "value": "Calvin Ridley; DJ Moore; Alexander Mattison; $12 FAAB"
+        },
+        {
+          "name": "Badake receives",
+          "value": "Garrett Wilson; Rome Odunze"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 63.32,
+          "end_seconds": 84.0,
+          "details": "The discussion and completed-trade panel list the exchanged assets."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 82.754,
+          "end_seconds": 142.754,
+          "details": "The transaction screen is labeled Trade Accepted and shows both sides accepting the listed deal."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Mason defeated Badake by one point in Week 8.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Mason"
+        },
+        {
+          "role": "loser",
+          "name": "Badake"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "margin",
+          "value": "1 point"
+        },
+        {
+          "name": "decisive context",
+          "value": "A Brock Purdy touchdown was cited as pivotal"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 645.36,
+          "end_seconds": 678.0,
+          "details": "Badake says he lost by one point and states that Mason won the game."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Mason announced that he was cutting Anthony Richardson.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "reported",
+      "confidence": 0.8,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "action",
+          "value": "Announced cut"
+        },
+        {
+          "name": "player",
+          "value": "Anthony Richardson"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 628.48,
+          "end_seconds": 633.12,
+          "details": "The speaker says, “we are officially cutting Anthony Richardson.”"
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Drake Maye left with a concussion, affecting Danny's roster.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "fantasy owner affected",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Drake Maye"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Concussion"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 540.04,
+          "end_seconds": 546.68,
+          "details": "The narration says Danny was upset because Drake Maye was taken out with a concussion."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Danny's waiver pickup Tyrone Tracy left his game with a concussion.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.92,
+      "participants": [
+        {
+          "role": "fantasy owner affected",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Tyrone Tracy"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "roster acquisition",
+          "value": "Waiver wire"
+        },
+        {
+          "name": "injury",
+          "value": "Concussion"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 792.0,
+          "end_seconds": 805.0,
+          "details": "Danny is visually identified while the narration and first-person clip state that Tracy was acquired from waivers and left with a concussion."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Tom defeated Avery in Week 8. Tom's team had rebranded from StevenSwagal to Mason's Granddaddy.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Tom"
+        },
+        {
+          "role": "loser",
+          "name": "Avery"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Tom team name",
+          "value": "Mason's Granddaddy"
+        },
+        {
+          "name": "Tom former team name",
+          "value": "StevenSwagal"
+        },
+        {
+          "name": "Avery team name",
+          "value": "Mason's Daddy"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 919.12,
+          "end_seconds": 935.32,
+          "details": "Commentary identifies Tom as Avery's opponent and says StevenSwagal became Mason's Granddaddy; the league board shows Mason's Daddy versus Mason's Granddaddy."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Bush won his Week 8 matchup; commentary credits forced starter Calvin Ridley as a key reason for the win.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.78,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "key lineup context",
+          "value": "Calvin Ridley was described as helping secure the win"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1147.08,
+          "end_seconds": 1159.68,
+          "details": "The speaker says Bush was forced to start Ridley after the trade and that Ridley was why Bush got a win."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Zach defeated Sal 155.46-89.42 in Week 8.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Zach"
+        },
+        {
+          "role": "loser",
+          "name": "Sal"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Zach",
+          "score": 155.46
+        },
+        {
+          "name": "Sal",
+          "score": 89.42
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1264.88,
+          "end_seconds": 1269.72,
+          "details": "The matchup screen displays 155.46-89.42 while commentary identifies Zach as dominating Sal."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Sal was reported to be short at running back because Jordan Mason was injured; DK Metcalf was also reported injured.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "reported",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "fantasy owner affected",
+          "name": "Sal"
+        },
+        {
+          "role": "NFL player",
+          "name": "Jordan Mason"
+        },
+        {
+          "role": "NFL player",
+          "name": "DK Metcalf"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "lineup impact",
+          "value": "Sal started Sterling Shepard at flex"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1365.28,
+          "end_seconds": 1378.88,
+          "details": "The speaker says Jordan Mason is out injured, DK is injured, and Sal had to flex Sterling Shepard."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Austin defeated Nathan 184.14-161.88 in Week 8.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Austin"
+        },
+        {
+          "role": "loser",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Austin",
+          "score": 184.14
+        },
+        {
+          "name": "Nathan",
+          "score": 161.88
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1387.56,
+          "end_seconds": 1392.36,
+          "details": "The league matchup screen shows Austin defeating Nathan, 184.14-161.88."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Austin was said to have acquired CeeDee Lamb immediately before the Week 8 weekend, but the other manager and return were not shown.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "reported",
+      "confidence": 0.74,
+      "participants": [
+        {
+          "role": "acquiring owner",
+          "name": "Austin"
+        },
+        {
+          "role": "acquired NFL player",
+          "name": "CeeDee Lamb"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "compensation",
+          "value": "Described rhetorically as 'a bag of chips'; actual assets unknown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1402.28,
+          "end_seconds": 1407.92,
+          "details": "Nathan says Austin added CeeDee Lamb 'for a bag of chips.'"
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "After Week 8, Zach led at 7-1. Austin, Badake, and Mason were 5-3; Avery, Danny, and Bush were 4-4; Thomas, Nathan, Sal, and Tom were 3-5; Joe was 2-6.",
+      "season": "Season 1",
+      "week": 8,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "1st place",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Zach",
+          "value": "7-1"
+        },
+        {
+          "name": "Austin",
+          "value": "5-3"
+        },
+        {
+          "name": "Badake",
+          "value": "5-3"
+        },
+        {
+          "name": "Mason",
+          "value": "5-3"
+        },
+        {
+          "name": "Avery",
+          "value": "4-4"
+        },
+        {
+          "name": "Danny",
+          "value": "4-4"
+        },
+        {
+          "name": "Bush",
+          "value": "4-4"
+        },
+        {
+          "name": "Thomas",
+          "value": "3-5"
+        },
+        {
+          "name": "Nathan",
+          "value": "3-5"
+        },
+        {
+          "name": "Sal",
+          "value": "3-5"
+        },
+        {
+          "name": "Tom",
+          "value": "3-5"
+        },
+        {
+          "name": "Joe",
+          "value": "2-6"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1441.76,
+          "end_seconds": 1485.04,
+          "details": "The closing standings discussion lists the teams and records."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1472.133,
+          "end_seconds": 1475.0,
+          "details": "The standings screen corroborates the listed records."
+        }
+      ]
+    }
+  ]
+}

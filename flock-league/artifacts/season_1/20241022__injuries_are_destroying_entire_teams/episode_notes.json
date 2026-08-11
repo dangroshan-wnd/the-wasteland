@@ -1,0 +1,1317 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T19:52:23.183555+00:00",
+  "fingerprint": "76fd11e6679082ec4af9af652434d894d8c22ea2ae9f7bb54e8f48442168ef44",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "WcWhMGGTC8c",
+  "video_title": "Injuries Are Destroying Entire Teams",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Injuries Are Destroying Entire Teams",
+      "upload_date": "20241022",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 7 Thursday-night footage shows Mason leading Sal early, while Danny and Bush discuss disappointing Thursday scores from their players/opponents.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason led Sal 26.10–22.00 in their Week 7 matchup after Thursday night; Sal was still projected to win 147.63–124.07 (67%–33%).",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Sal",
+              "Mason",
+              "Cooked",
+              "Sal's Barber"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "7"
+              },
+              {
+                "name": "Mason score",
+                "value": "26.10"
+              },
+              {
+                "name": "Sal score",
+                "value": "22.00"
+              },
+              {
+                "name": "Sal projected total",
+                "value": "147.63"
+              },
+              {
+                "name": "Mason projected total",
+                "value": "124.07"
+              },
+              {
+                "name": "Sal win probability",
+                "value": "67%"
+              },
+              {
+                "name": "Mason win probability",
+                "value": "33%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 142.115,
+                "end_seconds": 146.0,
+                "details": "Sleeper matchup screen identifies @SalVetri versus @MasonDodd and displays 22.00 vs 26.10, 67% vs 33%, and projections of 147.63 vs 124.07."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 139.959,
+                "end_seconds": 143.0,
+                "details": "Sal says he is projected to win by about 20-plus points."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Mason's Denver D/ST scored 22.0 fantasy points in Denver's 33–10 win at New Orleans, with six sacks, two forced fumbles, two fumble recoveries, and a touchdown.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Mason",
+              "Denver Broncos defense"
+            ],
+            "facts": [
+              {
+                "name": "fantasy points",
+                "value": "22.00"
+              },
+              {
+                "name": "NFL result",
+                "value": "Denver won 33–10 at New Orleans"
+              },
+              {
+                "name": "defensive stats",
+                "value": "10 points allowed, 6 sacks, 2 forced fumbles, 2 fumble recoveries, 1 touchdown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 128.214,
+                "end_seconds": 132.0,
+                "details": "On-screen fantasy card shows DEN D/ST at 22.00 points and the listed final score and defensive statistics."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 119.159,
+                "end_seconds": 130.959,
+                "details": "Sal identifies Mason as having Denver's defense and reacts to its scoring."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Danny's Bub Means scored 6.7 fantasy points on Thursday night (3 receptions, 37 yards) in New Orleans' 10–33 loss to Denver.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Danny",
+              "B. Means"
+            ],
+            "facts": [
+              {
+                "name": "fantasy points",
+                "value": "6.70"
+              },
+              {
+                "name": "receiving stats",
+                "value": "3 receptions, 37 yards"
+              },
+              {
+                "name": "NFL result",
+                "value": "New Orleans lost 10–33 vs Denver"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 157.234,
+                "end_seconds": 160.0,
+                "details": "The player card alongside the label DANNY lists WR–NO B. Means, 6.70 points, and 3/5 receiving for 37 yards."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 154.36,
+                "end_seconds": 157.879,
+                "details": "Danny says Bub Means is being out-targeted by Mason Tipton and Cedrick Wilson and that it is not promising."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Bush's Alvin Kamara scored 8.4 fantasy points on Thursday night against Denver (7 carries for 10 yards; 6 receptions on 7 targets for 14 yards).",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Bush",
+              "Corey (Bush)",
+              "A. Kamara"
+            ],
+            "facts": [
+              {
+                "name": "fantasy points",
+                "value": "8.40"
+              },
+              {
+                "name": "rushing stats",
+                "value": "7 carries, 10 yards"
+              },
+              {
+                "name": "receiving stats",
+                "value": "6 receptions on 7 targets, 14 yards"
+              },
+              {
+                "name": "NFL result",
+                "value": "New Orleans lost 10–33 vs Denver"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 172.954,
+                "end_seconds": 176.0,
+                "details": "The screen labeled COREY (BUSH) displays RB–NO A. Kamara at 8.40 points with the listed rushing and receiving statistics."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 169.599,
+                "end_seconds": 175.599,
+                "details": "Bush says an opponent's Alvin Kamara scored under 10 points and gave him hope for the week."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Mason says he previously traded Amari Cooper; no trade partner or return is provided in this window.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Mason",
+              "Amari Cooper"
+            ],
+            "facts": [
+              {
+                "name": "player traded",
+                "value": "Amari Cooper"
+              },
+              {
+                "name": "trade partner/return",
+                "value": "Not stated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 100.159,
+                "end_seconds": 103.399,
+                "details": "Mason says others made fun of him for trading Amari Cooper."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The Sal–Mason matchup is only an in-progress Thursday-night snapshot, not a final result.",
+          "The counterparty and assets involved in Mason's Amari Cooper trade are not stated.",
+          "The owner of Danny's Week 7 opponent is not identified in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 7 Sunday/pre-MNF reactions: Danny rebrands his team, Mason trails Sal heavily in a matchup, and Brandon Aiyuk is discussed as injured.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Anthony Richardson had been on Sal's roster for two days before being moved off it; he is now started against Sal by Mason.",
+            "status": "confirmed",
+            "confidence": 0.83,
+            "raw_names": [
+              "Anthony Richardson",
+              "S",
+              "Mason",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "previous_owner_raw",
+                "value": "S"
+              },
+              {
+                "name": "current_owner",
+                "value": "Mason"
+              },
+              {
+                "name": "transaction_type",
+                "value": "Moved off Sal/S's roster; exact mechanism unstated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 183.0,
+                "end_seconds": 201.04,
+                "details": "Speaker says Richardson was on “S's team for two days” and was sent “right out the door”; the Sunday matchup display shows A. Richardson in Mason's starting lineup opposite J. Allen on Sal's side."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Danny officially renamed his fantasy team to “Mason’s We Todd...” (final word is partially unclear/censored).",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Danny",
+              "Mason’s We Todd..."
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Danny"
+              },
+              {
+                "name": "new_team_name_raw",
+                "value": "Mason’s We Todd..."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 223.36,
+                "end_seconds": 249.52,
+                "details": "Danny says the name is officially rebranded; the league Team Settings screen visibly shows the team name beginning “Mason’s We Todd...”."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Brandon Aiyuk is said to have suffered a serious knee injury, prompting discussion of replacements for “Cory.”",
+            "status": "reported",
+            "confidence": 0.72,
+            "raw_names": [
+              "Brandon Aiyuk",
+              "Cory",
+              "Rome Odunze"
+            ],
+            "facts": [
+              {
+                "name": "affected_roster_owner_raw",
+                "value": "Cory"
+              },
+              {
+                "name": "possible_replacement_discussed",
+                "value": "Rome Odunze"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 291.68,
+                "end_seconds": 315.6,
+                "details": "Speaker says “Brandon Aiyuk is missing his knee,” calls it awful, and asks Cory whether Rome Odunze will fill in for Aiyuk. The precise diagnosis and Cory's identity are not visually verified."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Mason was projected to lose to Sal before Monday Night Football, 81.26–133.02 (2%–98%). This is not a completed result.",
+            "status": "speculative",
+            "confidence": 0.9,
+            "raw_names": [
+              "Mason",
+              "Sal",
+              "Sar's Barber",
+              "Cooked"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "7"
+              },
+              {
+                "name": "phase",
+                "value": "Pre-MNF"
+              },
+              {
+                "name": "score_mason",
+                "value": "81.26"
+              },
+              {
+                "name": "score_sal",
+                "value": "133.02"
+              },
+              {
+                "name": "win_probability_mason",
+                "value": "2%"
+              },
+              {
+                "name": "win_probability_sal",
+                "value": "98%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 352.5,
+                "end_seconds": 360.0,
+                "details": "The pre-MNF matchup display shows @MasonDodd’s Sar's Barber at 81.26 versus @Sal’s Cooked at 133.02, with 2% and 98% win probabilities."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Confirm whether “S” in the Anthony Richardson roster-move discussion is Sal and identify the exact transaction mechanism.",
+          "Confirm the full/correct spelling of Danny’s renamed team; the displayed final word is partly unclear.",
+          "Confirm Cory’s identity and Aiyuk’s official injury diagnosis.",
+          "The Mason–Sal matchup remained pre-MNF, so the final result is not established in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Pre-Monday Night Football Week 7 matchup check-ins: Austin held a large projected lead over Zach, while Sal held a near-certain projected lead over Mason. Mason was reported to be sending Anthony Richardson to waivers after starting him.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Before Monday Night Football, Austin led Zach 122.26–46.80 in their Week 7 matchup; the league display gave Austin an 80% win probability and Zach 20%.",
+            "status": "unclear",
+            "confidence": 0.96,
+            "raw_names": [
+              "Zach",
+              "Austin",
+              "@zakawage",
+              "@AustinHood",
+              "Henry's 3rd Leg",
+              "Cash me in Week 7"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "7"
+              },
+              {
+                "name": "score",
+                "value": "Austin 122.26, Zach 46.80"
+              },
+              {
+                "name": "win probability",
+                "value": "Austin 80%, Zach 20%"
+              },
+              {
+                "name": "game state",
+                "value": "Pre-MNF; matchup still had players remaining"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 378.4,
+                "end_seconds": 390.0,
+                "details": "League matchup screen is labeled '*PRE MNF*' and shows Zach/@zakawage at 46.80 versus Austin/@AustinHood at 122.26, with 20% and 80% probabilities; Zach says he is 75 points down to Austin."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Before Monday Night Football, Sal led Mason 133.02–61.26 in Week 7; the display gave Sal a 98% win probability, though Mason still had four players left to play.",
+            "status": "unclear",
+            "confidence": 0.97,
+            "raw_names": [
+              "Sal",
+              "Mason",
+              "@SalVeti",
+              "@MasonDodd",
+              "Cooked",
+              "Sal's Barber"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "7"
+              },
+              {
+                "name": "score",
+                "value": "Sal 133.02, Mason 61.26"
+              },
+              {
+                "name": "win probability",
+                "value": "Sal 98%, Mason 2%"
+              },
+              {
+                "name": "players remaining",
+                "value": "Mason had 4 players yet to play; Sal had none"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 427.1,
+                "end_seconds": 440.8,
+                "details": "The '*PRE MNF*' matchup display shows Sal/@SalVeti 133.02 versus Mason/@MasonDodd 61.26, with 98% and 2% probabilities and four Mason players still to play. The speaker says he is up more than 70 points on Mason."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Mason was reported to be sending Anthony Richardson to waivers after starting him in the Week 7 matchup against Sal.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Mason",
+              "Anthony Richardson"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Anthony Richardson"
+              },
+              {
+                "name": "action",
+                "value": "Send to waivers"
+              },
+              {
+                "name": "context",
+                "value": "Mason started Richardson in Week 7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 445.7,
+                "end_seconds": 476.0,
+                "details": "The narrator quotes Mason: 'I started Anthony Richardson this week. First thing I do after the game is send him to waivers.' The lineup display shows A. Richardson on Mason's side."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window is explicitly labeled pre-MNF, so neither displayed score should be treated as a final matchup result.",
+          "The quoted Richardson waiver action is not accompanied by a transaction confirmation screen; it may represent Mason's stated/claimed move rather than independently verified processing.",
+          "A speaker says Zach 'gets taken down by a Dev,' but the pre-MNF matchup display still shows an unfinished Austin–Zach matchup; the statement is not recorded as a confirmed final result."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Pre-Monday Night Football reactions include a claimed win over Mason, an Aiyuk injury report, and a George Pickens roster addition.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified league member says he defeated Mason; no final score is provided.",
+            "status": "confirmed",
+            "confidence": 0.76,
+            "raw_names": [
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "score",
+                "value": "Not provided"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 685.92,
+                "end_seconds": 692.56,
+                "details": "The speaker refers to Mason's earlier claim that “winners win and losers lose,” then says, “Well, I just won, so what does that make you, Mason?”"
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Brandon Aiyuk is said to have torn his ACL and likely be out for the year; the fantasy owner affected is not identified in this window.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Brandon Aiyuk"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Brandon Aiyuk"
+              },
+              {
+                "name": "reported_injury",
+                "value": "Torn ACL"
+              },
+              {
+                "name": "reported_outlook",
+                "value": "Probably done for the year"
+              },
+              {
+                "name": "affected_owner",
+                "value": "Unidentified speaker"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 661.04,
+                "end_seconds": 668.08,
+                "details": "A speaker says, “Brandon Aiyuk's probably done for the year. He tore his ACL,” while describing his own league outlook."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "An unidentified league member announces that George Pickens has joined his team. The acquisition method is not stated.",
+            "status": "confirmed",
+            "confidence": 0.74,
+            "raw_names": [
+              "George Pickens"
+            ],
+            "facts": [
+              {
+                "name": "player_added",
+                "value": "George Pickens"
+              },
+              {
+                "name": "team_owner",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "acquisition_method",
+                "value": "Not stated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 717.76,
+                "end_seconds": 720.0,
+                "details": "The speaker says, “George Pickens, welcome to the team.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speaker who says he beat Mason, has Brandon Aiyuk, and added George Pickens is not identified by name in this window.",
+          "The final score and the exact method of acquiring George Pickens are not shown or stated."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Zach completed a Week 7 comeback victory after trailing by 75 points, but Chris Godwin—on Zach’s roster—was reported as possibly out for the season following the catch that clinched the fantasy result.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Zach won his Week 7 fantasy matchup after previously trailing by 75 points. The final matchup display shows 133.96–130.26, though the opponent’s owner is not identified clearly in this window.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach",
+              "Henry's 3rd Leg",
+              "Cash me in Week 5"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "7"
+              },
+              {
+                "name": "winner",
+                "value": "Zach"
+              },
+              {
+                "name": "final_score",
+                "value": "133.96–130.26"
+              },
+              {
+                "name": "comeback_deficit",
+                "value": "75 points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 782.16,
+                "end_seconds": 787.16,
+                "details": "The speaker says they came back from 75 points down and won; the on-screen fantasy matchup shows a 133.96–130.26 result."
+              },
+              {
+                "source": "both",
+                "start_seconds": 797.64,
+                "end_seconds": 810.68,
+                "details": "A narrator explicitly says Zach's players went off and he won; a post-MNF meme states, 'Did you win in Week 7? YES.'"
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Chris Godwin, a player on Zach’s winning roster, was reported as potentially out for the year after making the catch that secured Zach’s matchup win. The season-ending prognosis is not confirmed in this window.",
+            "status": "reported",
+            "confidence": 0.86,
+            "raw_names": [
+              "Chris Godwin",
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Chris Godwin"
+              },
+              {
+                "name": "fantasy_owner",
+                "value": "Zach"
+              },
+              {
+                "name": "reported_status",
+                "value": "Might be out for the year"
+              },
+              {
+                "name": "fantasy_context",
+                "value": "Godwin's catch was described as the catch needed to win Zach's matchup"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 772.48,
+                "end_seconds": 778.52,
+                "details": "The speaker says Godwin was hurt, then says they came back and won."
+              },
+              {
+                "source": "both",
+                "start_seconds": 816.24,
+                "end_seconds": 823.28,
+                "details": "The speaker says Godwin made the catch needed to win the matchup and that 'they're saying he might be out for the year.'"
+              },
+              {
+                "source": "both",
+                "start_seconds": 842.16,
+                "end_seconds": 855.9,
+                "details": "The post-MNF meme says Zach's Week 7 win cost 'Chris Godwin'; the fantasy player page shows Godwin marked Questionable."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The opposing owner in Zach's 133.96–130.26 matchup is not legible/identified clearly enough in this window.",
+          "Godwin's exact injury and whether he was ultimately ruled out for the season are not confirmed here."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 7 results and standings: Sal beat Mason; Nathan and Badake also report wins. Zach and Badake lead the league at 6-1 and 5-2, respectively.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Sal defeated Mason, 133.02–116.06, improving to 3-4.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Sal",
+              "Mason",
+              "@SalVetrI",
+              "@MasonDodd",
+              "Cooked",
+              "Sal's Barber"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "7"
+              },
+              {
+                "name": "winner",
+                "value": "Sal"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "winner_score",
+                "value": "133.02"
+              },
+              {
+                "name": "loser_score",
+                "value": "116.06"
+              },
+              {
+                "name": "Sal_record_after_game",
+                "value": "3-4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 909.767,
+                "end_seconds": 922.519,
+                "details": "The matchup screen shows @SalVetrI/Cooked over @MasonDodd/Sal's Barber, 133.02 to 116.06, and the transcript says Sal has won and moved to 3-4."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Nathan reports beating Joe; he says Joe had multiple players on bye.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Nathan",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Nathan"
+              },
+              {
+                "name": "loser",
+                "value": "Joe"
+              },
+              {
+                "name": "context",
+                "value": "Nathan says Joe had many players on bye"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 984.68,
+                "end_seconds": 998.96,
+                "details": "The speaker credits Nathan, then says he took care of business against Joe and expected the win because Joe had many players on bye."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1023.575,
+                "end_seconds": 1023.575,
+                "details": "The standings screen lists Worked By Waivers (Nathan...) at 3-4 and #stole-issues (OwenVodcast...) at 2-5; it supports the reported result but does not itself display the matchup."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Badake's Micky Mouse League defeated Good Evening, Cowards, 111.29–93.04, to reach 5-2.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Badake",
+              "Micky Mouse League",
+              "Good Evening, Cowards",
+              "StevenSwagal"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "7"
+              },
+              {
+                "name": "winner",
+                "value": "Badake"
+              },
+              {
+                "name": "winner_team",
+                "value": "Micky Mouse League"
+              },
+              {
+                "name": "loser_team",
+                "value": "Good Evening, Cowards"
+              },
+              {
+                "name": "winner_score",
+                "value": "111.29"
+              },
+              {
+                "name": "loser_score",
+                "value": "93.04"
+              },
+              {
+                "name": "Badake_record_after_game",
+                "value": "5-2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1012.92,
+                "end_seconds": 1016.759,
+                "details": "The speaker says he got the win and went from 4-2 to 5-2."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1019.575,
+                "end_seconds": 1023.575,
+                "details": "The matchup display shows Micky Mouse League, identified on the standings as Badake's team, scoring 111.29 against Good Evening, Cowards' 93.04; the standings list Micky Mouse League/Badake at 5-2."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Zach was first at 6-1 and Badake was second at 5-2 following Week 7.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Zach",
+              "Badake",
+              "Henry's 3rd Leg",
+              "Micky Mouse League"
+            ],
+            "facts": [
+              {
+                "name": "rank_1_owner",
+                "value": "Zach"
+              },
+              {
+                "name": "rank_1_record",
+                "value": "6-1"
+              },
+              {
+                "name": "rank_2_owner",
+                "value": "Badake"
+              },
+              {
+                "name": "rank_2_record",
+                "value": "5-2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1020.8,
+                "end_seconds": 1045.52,
+                "details": "The speaker identifies Zach as 6-1 in first and himself as 5-2 in second; the standings screen shows Henry's 3rd Leg (Zach...) 6-1 and Micky Mouse League (Badake) 5-2."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Zach says his winning streak reached six straight games.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "winning_streak",
+                "value": "6 games"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1051.12,
+                "end_seconds": 1060.0,
+                "details": "A speaker says, “the streak continues, it is now six in a row.” The contemporaneous standings identify Zach as 6-1."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The loser in Badake's matchup is displayed as Good Evening, Cowards/@StevenSwagal; its team-owner identity is not clear from this window.",
+          "The transcript begins a statement that someone “take[s] down Thomas” at 17:56, but cuts off before the result is sufficiently complete to record."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 7 results and standings are reviewed. Avery’s 178-point win over Danny is highlighted, and Zach remains first in the standings at 6-1.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery defeated Danny in Week 7, 178.04–115.04.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Avery",
+              "Danny",
+              "Mason's Daddy",
+              "Wounded Warriors"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "7"
+              },
+              {
+                "name": "winner",
+                "value": "Avery"
+              },
+              {
+                "name": "loser",
+                "value": "Danny"
+              },
+              {
+                "name": "winner_score",
+                "value": "178.04"
+              },
+              {
+                "name": "loser_score",
+                "value": "115.04"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1111.919,
+                "end_seconds": 1124.4,
+                "details": "Danny says he took a loss to Avery and that Avery scored 178-plus points; the Week 7 matchup screen shows 178.04–115.04."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified speaker says he beat Thomas and improved to 3-4; Mike Evans leaving his NFL game early was cited as a factor.",
+            "status": "confirmed",
+            "confidence": 0.8,
+            "raw_names": [
+              "Thomas",
+              "Mike Evans"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "loser",
+                "value": "Thomas"
+              },
+              {
+                "name": "winner_record_after_game",
+                "value": "3-4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1078.919,
+                "end_seconds": 1090.559,
+                "details": "The speaker says, \"I take down Thomas,\" attributes the result in part to Mike Evans leaving early, and says, \"I'm three and four again.\""
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Mike Evans left his NFL game early; an unidentified league member says this affected his win over Thomas.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Mike Evans",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "NFL_game_status",
+                "value": "Left game early"
+              },
+              {
+                "name": "fantasy_impact_claimed",
+                "value": "Contributed to the speaker defeating Thomas"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1084.2,
+                "end_seconds": 1089.6,
+                "details": "Speaker says Mike Evans leaving the game early resulted in his win over Thomas."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Zach is said to have lost Chris Godwin, though the speaker still considers Zach's team very good.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Zach",
+              "Chris Godwin"
+            ],
+            "facts": [
+              {
+                "name": "affected_owner",
+                "value": "Zach"
+              },
+              {
+                "name": "player",
+                "value": "Chris Godwin"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1093.76,
+                "end_seconds": 1097.28,
+                "details": "Speaker says Zach's team is very good \"despite losing Godwin.\""
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "A speaker expects Nico Collins to return, but gives no timetable or definitive status update.",
+            "status": "speculative",
+            "confidence": 0.7,
+            "raw_names": [
+              "Nico Collins"
+            ],
+            "facts": [
+              {
+                "name": "expected_update",
+                "value": "Speaker says Collins will come back"
+              },
+              {
+                "name": "timeline",
+                "value": "Not specified"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1143.799,
+                "end_seconds": 1148.2,
+                "details": "Speaker says, \"once my boy Nico Collins comes back.\""
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Week 7 standings: Zach leads at 6-1; Badake is second at 5-2; Avery, Danny, Austin, and Mason are 4-3; Sal, Nathan, and Bush are 3-4; Thomas, Tom, and Joe are 2-5.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Zach",
+              "Badake",
+              "Avery",
+              "Danny",
+              "Austin",
+              "Mason",
+              "Sal",
+              "Nathan",
+              "Bush",
+              "Thomas",
+              "Tom",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "1",
+                "value": "Zach, 6-1"
+              },
+              {
+                "name": "2",
+                "value": "Badake, 5-2"
+              },
+              {
+                "name": "3",
+                "value": "Avery, 4-3"
+              },
+              {
+                "name": "4",
+                "value": "Danny, 4-3"
+              },
+              {
+                "name": "5",
+                "value": "Austin, 4-3"
+              },
+              {
+                "name": "6",
+                "value": "Mason, 4-3"
+              },
+              {
+                "name": "7",
+                "value": "Sal, 3-4"
+              },
+              {
+                "name": "8",
+                "value": "Nathan, 3-4"
+              },
+              {
+                "name": "9",
+                "value": "Bush, 3-4"
+              },
+              {
+                "name": "10",
+                "value": "Thomas, 2-5"
+              },
+              {
+                "name": "11",
+                "value": "Tom, 2-5"
+              },
+              {
+                "name": "12",
+                "value": "Joe, 2-5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1189.12,
+                "end_seconds": 1221.32,
+                "details": "Narration identifies the standings order, while the on-screen standings list the corresponding records."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The Week 7 matchup screen shows Avery over Danny 178.04–115.04, while the transcript’s later Venmo-challenge discussion appears to say 115.22; the visual score was used because it is clearer and takes precedence.",
+          "The owner of Mike Evans is not established within this window.",
+          "The unidentified speaker who says he beat Thomas is not reliably identifiable from the supplied material."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1284.0,
+      "transient_image_count": 9,
+      "review": {
+        "window_summary": "An unidentified speaker says his fantasy team scored 175 points (178 without Jayden Daniels) and disparages Danny's team; no complete head-to-head result is shown.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified speaker reports that his fantasy team scored 175 points; he adds that it would have scored 178 without Jayden Daniels.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Danny",
+              "Jaden Daniels"
+            ],
+            "facts": [
+              {
+                "name": "speaker team score",
+                "value": "175 points (reported)"
+              },
+              {
+                "name": "score stated without Jaden Daniels",
+                "value": "178 points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1273.0,
+                "end_seconds": 1279.76,
+                "details": "Speaker says, 'my team scored 175 points actually 178 without Jaden Daniels.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speaker/team owner is not identified in this window, so the 175-point score cannot be assigned to a known owner.",
+          "No opponent, final matchup score, or winner is provided. It is unclear what 'without Jaden Daniels' means (for example, whether he was excluded from the calculation or scored negatively)."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "Who was Zach’s opponent in the confirmed 133.96–130.26 comeback win? The supplied final-result evidence does not identify the owner clearly enough.",
+    "Was “S” in the Anthony Richardson discussion Sal, and what was the exact mechanism that moved Richardson to Mason?",
+    "Was Mason’s stated Richardson waiver move actually processed? No transaction confirmation is shown.",
+    "What is Danny’s full renamed team name? The ending is unclear/censored.",
+    "Which owner was affected by Brandon Aiyuk’s injury, and what was Aiyuk’s official diagnosis/outlook?",
+    "Who added George Pickens, and how was he acquired?",
+    "Who defeated Thomas and moved to 3-4, and who rostered Mike Evans?",
+    "The episode shows a pre-Monday Night Football Austin–Zach score of 122.26–46.80, but only Zach’s final 133.96–130.26 win is confirmed; the opponent linkage should be reviewed."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Use team-owner identities rather than changing team names where supported.",
+      "status": "fulfilled",
+      "details": "Named owners are used for confirmed matchups and standings; unidentified owners remain explicitly unidentified rather than inferred from team names."
+    },
+    {
+      "instruction": "Track head-to-head results, scores, injuries, trades, and waiver actions.",
+      "status": "fulfilled",
+      "details": "Supported Week 7 results, scores, standings, injuries, the Amari Cooper trade mention, roster moves, and the stated Richardson waiver action are included."
+    },
+    {
+      "instruction": "Do not treat projections, claims, rumors, or incomplete information as confirmed facts.",
+      "status": "fulfilled",
+      "details": "Pre-MNF matchup snapshots were not recorded as final results; reported injuries and the unverified waiver processing are labeled reported, and unresolved identities are retained as open questions."
+    },
+    {
+      "instruction": "Honor recap exclusions while retaining excluded facts in structured events or supplemental outputs.",
+      "status": "not_applicable",
+      "details": "No episode-specific recap exclusions or supplemental-output declarations were provided."
+    }
+  ],
+  "supplemental_outputs": []
+}

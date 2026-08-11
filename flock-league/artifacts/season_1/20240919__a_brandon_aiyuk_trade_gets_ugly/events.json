@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "video_id": "H1v_pca2E4Y",
+  "video_title": "A Brandon Aiyuk Trade Gets UGLY",
+  "season": "Season 1",
+  "week": null,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "A Brandon Aiyuk Trade Gets UGLY",
+      "upload_date": "20240919",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "trade",
+      "summary": "Zach completed a trade with Bush: Zach sent D'Onta Foreman, Brandon Aiyuk, and Jalen Tolbert; Bush sent Amari Cooper, Kareem Hunt, Jaxon Smith-Njigba, Bucky Irving, and $30 FAAB.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [
+        {
+          "role": "team owner sending Foreman, Aiyuk, and Tolbert",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner sending Cooper, Hunt, Smith-Njigba, Irving, and FAAB",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Zach team label",
+          "value": "zaxavage"
+        },
+        {
+          "name": "Bush team label",
+          "value": "BuschLeaguee"
+        },
+        {
+          "name": "Zach sent",
+          "value": "D'Onta Foreman; Brandon Aiyuk; Jalen Tolbert"
+        },
+        {
+          "name": "Bush sent",
+          "value": "Amari Cooper; Kareem Hunt; Jaxon Smith-Njigba; Bucky Irving; $30 FAAB"
+        },
+        {
+          "name": "Trade status",
+          "value": "Accepted and made official"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 90.0,
+          "end_seconds": 112.0,
+          "details": "Trade graphic identifies Foreman, Aiyuk, and Tolbert moving from zaxavage, with Cooper, Hunt, Smith-Njigba, Irving, and $30 FAAB moving to zaxavage; the team headers are zaxavage and BuschLeaguee."
+        },
+        {
+          "source": "both",
+          "start_seconds": 94.72,
+          "end_seconds": 102.08,
+          "details": "The negotiators add Hunt and $30 FAAB to the package, then agree: “I think you have a deal” and “let's do it.”"
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 663.84,
+          "end_seconds": 674.48,
+          "details": "The JSN/Amari Cooper side is described as ultimately accepted and the deal is made official."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Danny offered Zach Rashee Rice and Kyle Pitts for Brandon Aiyuk and Trey McBride, but the offer was not accepted.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "proposing owner",
+          "name": "Danny"
+        },
+        {
+          "role": "offer recipient",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Danny offered",
+          "value": "Rashee Rice; Kyle Pitts"
+        },
+        {
+          "name": "Danny requested",
+          "value": "Brandon Aiyuk; Trey McBride"
+        },
+        {
+          "name": "Outcome",
+          "value": "Not accepted; proposal only"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 463.44,
+          "end_seconds": 472.56,
+          "details": "Danny says he offered Rice and Pitts for Aiyuk and McBride, and characterizes it as a better deal than the trade Zach accepted."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 471.734,
+          "end_seconds": 485.3,
+          "details": "An on-screen trade graphic shows the proposed McBride/Aiyuk-for-Pitts/Rice package between zaxavage and BuschLeaguee."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Danny acquired Carson Steele on waivers, outbidding Avery by $1.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "waiver claimant",
+          "name": "Danny"
+        },
+        {
+          "role": "outbid league member",
+          "name": "Avery"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Waiver acquisition",
+          "value": "Carson Steele"
+        },
+        {
+          "name": "Bid margin over Avery",
+          "value": "$1"
+        },
+        {
+          "name": "Exact winning bid",
+          "value": "Not stated"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 497.4,
+          "end_seconds": 521.92,
+          "details": "The group says Danny obtained Steele on waivers, and Danny clarifies that he outbid Avery by $1."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Danny proposed sending Rashee Rice and Carson Steele for Brian Robinson and Brandon Aiyuk; Danny says the proposal received no response and was not completed.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "proposing owner",
+          "name": "Danny"
+        },
+        {
+          "role": "offer recipient",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Danny offered",
+          "value": "Rashee Rice; Carson Steele"
+        },
+        {
+          "name": "Danny requested",
+          "value": "Brian Robinson; Brandon Aiyuk"
+        },
+        {
+          "name": "Outcome",
+          "value": "No response; not completed"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 486.48,
+          "end_seconds": 495.76,
+          "details": "Danny says he sent the Rice/Steele-for-Robinson/Aiyuk offer and that it did not warrant a response."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "A claimed straight-up Ja'Marr Chase-for-Brandon Aiyuk offer was disputed: one speaker says he made the offer, while the purported recipient says it never reached his inbox.",
+      "season": "Season 1",
+      "week": null,
+      "status": "unclear",
+      "confidence": 0.86,
+      "participants": [],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Claimed proposal",
+          "value": "Ja'Marr Chase for Brandon Aiyuk, straight up"
+        },
+        {
+          "name": "Dispute",
+          "value": "The purported recipient says the offer never reached his inbox."
+        },
+        {
+          "name": "Outcome",
+          "value": "Not established"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 326.88,
+          "end_seconds": 339.84,
+          "details": "One speaker says, “I offered you Jamar Chase for iuk straight up”; another responds that the trade never hit his inbox."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "During trade discussion, a speaker said Deebo was missing time; the episode does not establish an injury diagnosis, timeline, or private-league roster impact.",
+      "season": "Season 1",
+      "week": null,
+      "status": "unclear",
+      "confidence": 0.6,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Deebo"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Context",
+          "value": "NFL context only; no fantasy-team owner was identified."
+        },
+        {
+          "name": "Reason and duration",
+          "value": "Not established"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 601.6,
+          "end_seconds": 608.32,
+          "details": "A speaker says Aiyuk's good games may be coming, “especially with Debo missing time.”"
+        }
+      ]
+    }
+  ]
+}

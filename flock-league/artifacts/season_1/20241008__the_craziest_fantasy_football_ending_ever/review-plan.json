@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "video_id": "E-u7SYYPtpU",
+  "video_title": "The Craziest Fantasy Football Ending Ever",
+  "raw_sample_counts": {
+    "scene": 143,
+    "periodic": 58,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Craziest Fantasy Football Ending Ever",
+      "upload_date": "20241008",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        8.933,
+        22.874,
+        24.874,
+        40.035,
+        60.0,
+        81.275,
+        95.195,
+        107.167,
+        123.367,
+        142.1,
+        160.1,
+        174.433
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        187.375,
+        189.375,
+        201.867,
+        224.154,
+        228.154,
+        254.667,
+        264.933,
+        274.433,
+        287.267,
+        308.567,
+        338.395,
+        356.667
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        360.0,
+        399.567,
+        415.867,
+        422.6,
+        431.895,
+        433.895,
+        435.895,
+        464.767,
+        472.467,
+        490.667,
+        500.067,
+        516.233
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        549.333,
+        560.167,
+        573.667,
+        590.515,
+        600.0,
+        616.4,
+        639.9,
+        657.4,
+        660.0,
+        683.4,
+        690.0,
+        717.933
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        726.4,
+        744.333,
+        750.0,
+        778.914,
+        788.094,
+        800.294,
+        810.0,
+        833.133,
+        840.0,
+        857.1,
+        870.0,
+        893.334
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        900.355,
+        906.134,
+        930.0,
+        954.134,
+        963.875,
+        984.267,
+        996.855,
+        1014.833,
+        1020.9,
+        1043.067,
+        1052.167,
+        1065.8
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1080.0,
+        1104.495,
+        1106.495,
+        1110.0,
+        1147.667,
+        1164.475,
+        1170.0,
+        1192.655,
+        1210.7,
+        1227.555,
+        1236.635,
+        1246.4
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1273.267,
+        1302.733,
+        1316.433,
+        1320.0,
+        1347.6,
+        1354.5,
+        1371.2,
+        1393.615,
+        1395.615,
+        1397.615,
+        1417.3,
+        1437.6
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1440.0,
+        1456.467,
+        1470.0,
+        1487.834,
+        1489.834,
+        1491.834,
+        1512.367,
+        1540.767,
+        1553.233,
+        1566.395,
+        1603.975,
+        1607.975
+      ]
+    },
+    {
+      "index": 9,
+      "start": 1620.0,
+      "end": 1723.0,
+      "transient_sample_count": 9,
+      "sample_timestamps": [
+        1620.0,
+        1650.0,
+        1675.733,
+        1680.0,
+        1703.067,
+        1706.055,
+        1708.055,
+        1709.033,
+        1710.055
+      ]
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T19:33:57.822019+00:00",
+  "fingerprint": "b8634be0db83fb5103acbea6eb10cb1a3bc6ea4fd5a59f41d5656cc7cafe9320",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "H1v_pca2E4Y",
+  "video_title": "A Brandon Aiyuk Trade Gets UGLY",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "A Brandon Aiyuk Trade Gets UGLY",
+      "upload_date": "20240919",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed multi-player/FAAB trade between Zach (zaxavage) and Bush (BuschLeaguee) is shown and discussed; league members react negatively to Zach's side of the deal.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Zach traded D'Onta Foreman, Brandon Aiyuk, and Jalen Tolbert to Bush for Amari Cooper, Kareem Hunt, Jaxon Smith-Njigba, Bucky Irving, and $30 FAAB.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Zach",
+              "Bush",
+              "zaxavage",
+              "BuschLeaguee",
+              "D'Onta Foreman",
+              "Brandon Aiyuk",
+              "Jalen Tolbert",
+              "Amari Cooper",
+              "Kareem Hunt",
+              "Jaxon Smith-Njigba",
+              "Bucky Irving"
+            ],
+            "facts": [
+              {
+                "name": "Zach sent",
+                "value": "D'Onta Foreman; Brandon Aiyuk; Jalen Tolbert"
+              },
+              {
+                "name": "Bush sent",
+                "value": "Amari Cooper; Kareem Hunt; Jaxon Smith-Njigba; Bucky Irving; $30 FAAB"
+              },
+              {
+                "name": "Zach team label",
+                "value": "zaxavage"
+              },
+              {
+                "name": "Bush team label",
+                "value": "BuschLeaguee"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 94.72,
+                "end_seconds": 102.08,
+                "details": "The negotiators agree to the revised package: Hunt and $30 FAAB are added, followed by “I think you have a deal” and “let's do it.”"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 90.0,
+                "end_seconds": 112.0,
+                "details": "Trade graphic identifies D'Onta Foreman, Brandon Aiyuk, and Jalen Tolbert as moving from zaxavage, and Amari Cooper, Kareem Hunt, Jaxon Smith-Njigba, Bucky Irving, and $30 FAAB as moving to zaxavage; team headers are zaxavage and BuschLeaguee."
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed multi-asset trade involving Brandon Aiyuk and Amari Cooper is displayed and debated; a separate claimed Ja'Marr Chase-for-Aiyuk offer is disputed.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "A trade sent D'Onta Foreman, Brandon Aiyuk, and Jalen Tolbert from team \"zaxavage\"; it sent Amari Cooper, Kareem Hunt, Jaxon Smith-Njigba, Bucky Irving, and $30 FAAB to \"zaxavage.\"",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "zaxavage",
+              "D'Onta Foreman",
+              "Brandon Aiyuk",
+              "Jalen Tolbert",
+              "Amari Cooper",
+              "Kareem Hunt",
+              "Jaxon Smith-Njigba",
+              "Bucky Irving"
+            ],
+            "facts": [
+              {
+                "name": "from_team_raw",
+                "value": "zaxavage"
+              },
+              {
+                "name": "from_zaxavage",
+                "value": "D'Onta Foreman; Brandon Aiyuk; Jalen Tolbert"
+              },
+              {
+                "name": "to_zaxavage",
+                "value": "Amari Cooper; Kareem Hunt; Jaxon Smith-Njigba; Bucky Irving; $30 FAAB"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 208.4,
+                "end_seconds": 230.0,
+                "details": "The on-screen transaction graphic explicitly lists the players and $30 FAAB moving from/to \"zaxavage.\""
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 270.56,
+                "end_seconds": 298.72,
+                "details": "Discussion identifies the core exchange as JSN and Amari Cooper in return for Brandon Aiyuk, while also referencing Hunt, Irving, and $30 FAAB."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A claimed straight-up offer of Ja'Marr Chase for Aiyuk was disputed: one speaker says he offered it, while another says it never reached his inbox.",
+            "status": "unclear",
+            "confidence": 0.86,
+            "raw_names": [
+              "Jamar Chase",
+              "Aiyuk"
+            ],
+            "facts": [
+              {
+                "name": "claimed_offer",
+                "value": "Ja'Marr Chase for Aiyuk, straight up"
+              },
+              {
+                "name": "dispute",
+                "value": "The purported recipient says the offer never hit his inbox."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 326.88,
+                "end_seconds": 339.84,
+                "details": "One speaker says, \"I offered you Jamar Chase for iuk straight up\"; another replies that the trade \"never hit my Ino [inbox].\""
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not reliably identify which team owner corresponds to the displayed team name \"zaxavage.\"",
+          "The claimed Ja'Marr Chase-for-Aiyuk proposal requires trade-log or inbox evidence to determine whether it was actually sent."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Discussion centers on a completed multi-asset trade involving Brandon Aiyuk, plus Danny’s rejected alternative offers and his Carson Steele waiver acquisition.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "A completed trade is displayed: zaxavage sent D’Onta Foreman, Brandon Aiyuk, and Jalen Tolbert, and received Amari Cooper, Kareem Hunt, Jaxon Smith-Njigba, Bucky Irving, and $30 FAAB. The conversation also identifies Zach as the manager who received Aiyuk, but the supplied window does not identify zaxavage’s owner.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "zaxavage",
+              "Zach",
+              "D'Onta Foreman",
+              "Brandon Aiyuk",
+              "Jalen Tolbert",
+              "Amari Cooper",
+              "Kareem Hunt",
+              "Jaxon Smith-Njigba",
+              "Bucky Irving"
+            ],
+            "facts": [
+              {
+                "name": "Sent by zaxavage",
+                "value": "D'Onta Foreman, Brandon Aiyuk, Jalen Tolbert"
+              },
+              {
+                "name": "Received by zaxavage",
+                "value": "Amari Cooper, Kareem Hunt, Jaxon Smith-Njigba, Bucky Irving, $30 FAAB"
+              },
+              {
+                "name": "Aiyuk recipient mentioned in discussion",
+                "value": "Zach"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 367.035,
+                "end_seconds": 411.435,
+                "details": "Trade graphic explicitly lists the players and $30 FAAB as 'From zaxavage' and 'To zaxavage.'"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 427.04,
+                "end_seconds": 432.56,
+                "details": "Speakers address Zach and say, 'seeing you get Brandon Aiyuk.'"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Danny says he offered a trade of Rashee Rice and Kyle Pitts for Brandon Aiyuk and Trey McBride; it was not accepted.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Danny",
+              "Rashee Rice",
+              "Kyle Pitts",
+              "Brandon Aiyuk",
+              "Trey McBride",
+              "zaxavage",
+              "BuschLeaguee"
+            ],
+            "facts": [
+              {
+                "name": "Offer from BuschLeaguee",
+                "value": "Rashee Rice and Kyle Pitts"
+              },
+              {
+                "name": "Requested from zaxavage",
+                "value": "Brandon Aiyuk and Trey McBride"
+              },
+              {
+                "name": "Outcome",
+                "value": "Not accepted / alternative offer only"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 463.44,
+                "end_seconds": 472.56,
+                "details": "Danny describes offering Rice and Pitts for Aiyuk and McBride and says it was a better deal than the one accepted."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 471.734,
+                "end_seconds": 485.3,
+                "details": "On-screen trade graphic shows Trey McBride and Brandon Aiyuk from zaxavage for Kyle Pitts and Rashee Rice to BuschLeaguee."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Danny acquired Carson Steele on waivers, saying he outbid Avery by $1. He subsequently proposed packaging Steele with Rashee Rice for Brian Robinson and Brandon Aiyuk; this offer received no response.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Danny",
+              "Carson Steele",
+              "Avery",
+              "Rashee Rice",
+              "Brian Robinson",
+              "Brandon Aiyuk"
+            ],
+            "facts": [
+              {
+                "name": "Waiver result",
+                "value": "Danny acquired Carson Steele"
+              },
+              {
+                "name": "Bid margin over Avery",
+                "value": "$1"
+              },
+              {
+                "name": "Proposed offer",
+                "value": "Rashee Rice and Carson Steele for Brian Robinson and Brandon Aiyuk"
+              },
+              {
+                "name": "Offer outcome",
+                "value": "No response; not completed"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 486.48,
+                "end_seconds": 495.76,
+                "details": "Danny says he sent the Rice/Steele-for-Robinson/Aiyuk offer and that it did not warrant a response."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 497.4,
+                "end_seconds": 521.92,
+                "details": "The group says Danny obtained Steele on waivers; Danny clarifies that he outbid Avery by $1."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Who is the Season 1 owner behind the team/account name “zaxavage”?",
+          "The window does not show the exact dollar amount Danny bid for Carson Steele, only that it exceeded Avery’s bid by $1."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 715.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed multi-player trade involving Zach’s team is discussed; a separate Brian Robinson–Carson Steele idea is only floated, not confirmed as a transaction.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Zach’s team (displayed as “zaxavage”) completed a trade: it sent D’Onta Foreman, Brandon Aiyuk, and Jalen Tolbert, and received Amari Cooper, Kareem Hunt, Jaxon Smith-Njigba, Bucky Irving, and $30 FAAB. The participants identify Amari Cooper as having come from Mason in the first deal, but the other manager/owner mapping is not fully clear in this window.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "zaxavage",
+              "D'Onta Foreman",
+              "Brandon Aiyuk",
+              "Jalen Tolbert",
+              "Amari Cooper",
+              "Kareem Hunt",
+              "Jaxon Smith-Njigba",
+              "Bucky Irving",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "Sent by zaxavage",
+                "value": "D'Onta Foreman; Brandon Aiyuk; Jalen Tolbert"
+              },
+              {
+                "name": "Received by zaxavage",
+                "value": "Amari Cooper; Kareem Hunt; Jaxon Smith-Njigba; Bucky Irving; $30 FAAB"
+              },
+              {
+                "name": "Trade status",
+                "value": "Accepted / made official"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 551.3,
+                "end_seconds": 557.0,
+                "details": "Transaction graphic lists Foreman, Aiyuk, and Tolbert as “From zaxavage,” and Cooper, Hunt, Smith-Njigba, Irving, and $30 FAAB as “To zaxavage.”"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 663.84,
+                "end_seconds": 674.48,
+                "details": "Speaker says the JSN/Amari Cooper side “was ultimately accepted” and they are going to “seal the deal.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not fully establish which owner(s) besides Zach/Mason were on the other side(s) of the completed transaction.",
+          "Brian Robinson for Carson Steele is mentioned at 00:11:47–00:11:52 as a possible/comment-driven idea, not a confirmed trade."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "The claimed Ja'Marr Chase-for-Brandon Aiyuk proposal requires trade-log or inbox evidence to determine whether it was actually sent.",
+    "Danny's exact winning waiver bid for Carson Steele is not shown; only the $1 margin over Avery is established.",
+    "The episode does not establish why Deebo was missing time, how long he would be out, or which league owner rostered him.",
+    "No matchup scores or definitive episode week are provided in the supplied evidence."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize team owners over NFL athletes and use stable owner names where supported.",
+      "status": "fulfilled",
+      "details": "The recap identifies Zach, Bush, Danny, and Avery for league transactions. NFL players are treated as trade assets or contextual injury information."
+    },
+    {
+      "instruction": "Track trades, waiver actions, injuries, and head-to-head results where available.",
+      "status": "fulfilled",
+      "details": "Completed and proposed trades, Danny's Carson Steele waiver acquisition, and the limited Deebo availability mention are recorded. No supported matchup result or score was available."
+    },
+    {
+      "instruction": "Do not convert proposals, jokes, rumors, or disputed claims into confirmed transactions.",
+      "status": "fulfilled",
+      "details": "Danny's unaccepted and unanswered offers are marked as proposals, the Chase-for-Aiyuk claim is marked unclear, and the Brian Robinson-for-Steele comment is not recorded as a completed trade."
+    },
+    {
+      "instruction": "Record items requiring review.",
+      "status": "fulfilled",
+      "details": "Open questions preserve the disputed Chase offer, unknown Steele bid amount, unclear Deebo context, and missing matchup/week information."
+    }
+  ],
+  "supplemental_outputs": []
+}

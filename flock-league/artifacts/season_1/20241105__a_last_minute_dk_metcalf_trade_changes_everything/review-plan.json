@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "video_id": "Q5mr-3MYhTI",
+  "video_title": "A Last Minute DK Metcalf Trade Changes Everything",
+  "raw_sample_counts": {
+    "scene": 111,
+    "periodic": 50,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "A Last Minute DK Metcalf Trade Changes Everything",
+      "upload_date": "20241105",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        8.794,
+        10.794,
+        25.055,
+        36.6,
+        52.667,
+        63.767,
+        87.7,
+        90.0,
+        113.667,
+        121.6,
+        149.233,
+        150.0
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        180.0,
+        197.7,
+        212.467,
+        231.1,
+        243.867,
+        280.714,
+        282.714,
+        286.233,
+        307.433,
+        322.314,
+        330.0,
+        357.833
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        364.1,
+        400.115,
+        402.115,
+        404.115,
+        409.515,
+        425.333,
+        444.433,
+        450.0,
+        484.0,
+        506.2,
+        512.833,
+        536.167
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        545.7,
+        557.7,
+        578.533,
+        593.354,
+        595.354,
+        600.0,
+        644.314,
+        648.314,
+        665.235,
+        686.1,
+        698.6,
+        711.167
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        732.4,
+        736.8,
+        756.4,
+        768.167,
+        788.267,
+        812.574,
+        816.574,
+        834.0,
+        854.067,
+        860.7,
+        881.4,
+        893.695
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        901.234,
+        907.055,
+        916.155,
+        933.894,
+        948.167,
+        960.0,
+        977.467,
+        997.154,
+        1017.375,
+        1026.455,
+        1050.933,
+        1076.715
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1080.715,
+        1098.655,
+        1110.0,
+        1131.655,
+        1152.035,
+        1156.035,
+        1183.333,
+        1199.5,
+        1209.934,
+        1220.133,
+        1230.0,
+        1254.033
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1267.515,
+        1282.695,
+        1297.155,
+        1310.467,
+        1320.0,
+        1342.767,
+        1358.875,
+        1374.433,
+        1389.567,
+        1398.033,
+        1417.867,
+        1429.633
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1440.0,
+      "end": 1473.0,
+      "transient_sample_count": 6,
+      "sample_timestamps": [
+        1440.167,
+        1451.533,
+        1458.774,
+        1460.774,
+        1462.774,
+        1470.0
+      ]
+    }
+  ]
+}

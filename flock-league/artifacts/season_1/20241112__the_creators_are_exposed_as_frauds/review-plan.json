@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "video_id": "RUW4MnGTMr4",
+  "video_title": "The Creators Are Exposed As Frauds",
+  "raw_sample_counts": {
+    "scene": 140,
+    "periodic": 45,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Creators Are Exposed As Frauds",
+      "upload_date": "20241112",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        6.067,
+        24.015,
+        26.015,
+        40.0,
+        53.367,
+        72.733,
+        78.333,
+        95.833,
+        113.275,
+        124.167,
+        148.033,
+        155.374
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        186.755,
+        198.633,
+        223.455,
+        231.834,
+        247.755,
+        258.135,
+        276.715,
+        293.135,
+        302.154,
+        324.5,
+        330.0,
+        354.474
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        366.067,
+        376.8,
+        401.9,
+        409.633,
+        427.175,
+        436.475,
+        463.995,
+        473.195,
+        486.875,
+        500.755,
+        510.0,
+        529.794
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        540.0,
+        570.0,
+        598.567,
+        600.0,
+        614.967,
+        630.0,
+        655.533,
+        660.0,
+        681.833,
+        690.033,
+        695.4,
+        707.7
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        720.0,
+        748.467,
+        750.0,
+        780.0,
+        817.733,
+        827.455,
+        829.455,
+        831.455,
+        850.733,
+        862.0,
+        871.667,
+        892.0
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        900.0,
+        922.914,
+        934.2,
+        959.167,
+        963.267,
+        980.933,
+        1000.135,
+        1009.855,
+        1026.833,
+        1041.667,
+        1051.8,
+        1079.075
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1081.075,
+        1083.075,
+        1086.794,
+        1097.0,
+        1124.667,
+        1133.767,
+        1148.1,
+        1182.433,
+        1195.567,
+        1201.633,
+        1216.533,
+        1230.0
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1343.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1260.0,
+        1278.333,
+        1286.433,
+        1290.8,
+        1295.067,
+        1303.5,
+        1305.967,
+        1312.7,
+        1320.0,
+        1323.767,
+        1326.3,
+        1328.633
+      ]
+    }
+  ]
+}

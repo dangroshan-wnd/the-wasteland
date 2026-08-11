@@ -1,0 +1,1396 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T20:42:18.259020+00:00",
+  "fingerprint": "3bb89960405c05f917ce559e75b9ab75bc8a720228f787846bf0b706eec9ca1b",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "vPJPpjwvKAw",
+  "video_title": "Win or You Don't Make The Playoffs",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Win or You Don't Make The Playoffs",
+      "upload_date": "20241205",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 14 waiver processing is shown, with Tom and Austin making notable moves before their matchup; the episode frames playoff stakes as high.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Tom acquired Isaac Guerendo for $76 and added the New Orleans Saints defense for $8.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Tom",
+              "StevenSwagal",
+              "Isaac Guerendo",
+              "New Orleans Saints"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Tom"
+              },
+              {
+                "name": "add",
+                "value": "Isaac Guerendo (RB, SF)"
+              },
+              {
+                "name": "FAAB bid",
+                "value": "$76"
+              },
+              {
+                "name": "add",
+                "value": "New Orleans Saints defense (DEF, NO)"
+              },
+              {
+                "name": "FAAB bid",
+                "value": "$8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 106.99,
+                "end_seconds": 122.0,
+                "details": "The waiver-results screen lists Isaac Guerendo to StevenSwagal's roster for $76 and the Saints defense for $8; narration identifies Steve/StevenSwagal as Tom and calls these Tom's pickups."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Austin acquired Chris Rodriguez for $34.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Austin",
+              "AustinHood",
+              "Chris Rodriguez"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Austin"
+              },
+              {
+                "name": "add",
+                "value": "Chris Rodriguez (RB, WAS)"
+              },
+              {
+                "name": "FAAB bid",
+                "value": "$34"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 106.99,
+                "end_seconds": 157.48,
+                "details": "The processed-waivers screen lists Chris Rodriguez to AustinHood's roster for $34, and narration explicitly attributes the $34 acquisition to Austin."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Zach added Sincere McCormick for $7 and dropped Kimani Vidal.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Zach",
+              "zaxavage",
+              "Sincere McCormick",
+              "Kimani Vidal"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Zach"
+              },
+              {
+                "name": "add",
+                "value": "Sincere McCormick (RB, LV)"
+              },
+              {
+                "name": "FAAB bid",
+                "value": "$7"
+              },
+              {
+                "name": "drop",
+                "value": "Kimani Vidal (RB, LAC)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 115.43,
+                "end_seconds": 121.0,
+                "details": "The processed-waivers screen visibly lists Sincere McCormick added to zaxavage's roster for $7 and Kimani Vidal removed."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Sal added Tua Tagovailoa for $7 and dropped Jameis Winston.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Sal",
+              "SalVetri",
+              "Tua Tagovailoa",
+              "Jameis Winston"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Sal"
+              },
+              {
+                "name": "add",
+                "value": "Tua Tagovailoa (QB, MIA)"
+              },
+              {
+                "name": "FAAB bid",
+                "value": "$7"
+              },
+              {
+                "name": "drop",
+                "value": "Jameis Winston (QB, CLE)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 115.43,
+                "end_seconds": 121.0,
+                "details": "The processed-waivers screen visibly lists Tua Tagovailoa added to SalVetri's roster for $7 and Jameis Winston removed."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "The narration says Christian McCaffrey is done for the year, leaving Austin without him for Week 14.",
+            "status": "reported",
+            "confidence": 0.85,
+            "raw_names": [
+              "Austin",
+              "Christian McCaffrey"
+            ],
+            "facts": [
+              {
+                "name": "fantasy owner affected",
+                "value": "Austin"
+              },
+              {
+                "name": "player",
+                "value": "Christian McCaffrey"
+              },
+              {
+                "name": "reported status",
+                "value": "Done for the year; unavailable in Week 14"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 135.72,
+                "end_seconds": 147.48,
+                "details": "Narration says Austin does not have Christian McCaffrey this week and that McCaffrey was done for the year."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The opening says Week 14 has major playoff implications, but this window does not provide standings, clinching/elimination scenarios, or any completed matchup result.",
+          "The video presents Austin's Chris Rodriguez waiver claim as an Anonymous sabotage skit; the transaction itself is confirmed, but the claimed account compromise should not be treated as factual."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 14 begins with the playoff field still unsettled; the standings show six teams at 6-7, while Zach has clinched the No. 1 seed.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Zach has locked up the league's No. 1 seed and will have the first-round playoff bye.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "seed",
+                "value": "No. 1"
+              },
+              {
+                "name": "record",
+                "value": "10-3"
+              },
+              {
+                "name": "playoff status",
+                "value": "Clinched No. 1 seed / first-round bye"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 292.6,
+                "end_seconds": 307.16,
+                "details": "Speakers state that Zach has already locked up the No. 1 seed; the standings screen lists “Do It For Chris Zach… ” at 10-3 in first place."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The standings entering Week 14 have Mason in second at 8-5; Avery and Austin are third and fourth at 7-6; Badake, Thomas, Sal, Danny, Steven, and Joe are each 6-7; Nathan and Bush are 5-8.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Mason",
+              "Avery",
+              "Austin",
+              "Badake",
+              "Thomas",
+              "Sal",
+              "Danny",
+              "Steven",
+              "Joe",
+              "Nathan",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "Mason record and place",
+                "value": "8-5, 2nd"
+              },
+              {
+                "name": "Avery record and place",
+                "value": "7-6, 3rd"
+              },
+              {
+                "name": "Austin record and place",
+                "value": "7-6, 4th"
+              },
+              {
+                "name": "Badake record",
+                "value": "6-7"
+              },
+              {
+                "name": "Thomas record",
+                "value": "6-7"
+              },
+              {
+                "name": "Sal record",
+                "value": "6-7"
+              },
+              {
+                "name": "Danny record",
+                "value": "6-7"
+              },
+              {
+                "name": "Steven record",
+                "value": "6-7"
+              },
+              {
+                "name": "Joe record",
+                "value": "6-7"
+              },
+              {
+                "name": "Nathan record",
+                "value": "5-8"
+              },
+              {
+                "name": "Bush record",
+                "value": "5-8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 274.96,
+                "end_seconds": 296.0,
+                "details": "Narration says six teams are 6-7, and the standings screen visibly lists the owners' records and order."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "An unidentified manager says his season is over, that he will miss the playoffs, and that he is playing Week 14 for pride/the turkey rather than playoff qualification.",
+            "status": "reported",
+            "confidence": 0.74,
+            "raw_names": [
+              "Anonymous"
+            ],
+            "facts": [
+              {
+                "name": "playoff status",
+                "value": "Claims eliminated from playoff contention"
+              },
+              {
+                "name": "Week 14 objective",
+                "value": "Playing for pride/the turkey"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 182.36,
+                "end_seconds": 205.08,
+                "details": "The speaker says his season is over and later says, “I'm not going to be in the playoffs. I'm playing for pride this week. I'm playing for the turkey.” The supplied material does not reliably identify the speaker."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The manager claiming elimination and turkey punishment is not reliably identified in this window; the transcript labels a name as “Anonymous,” but it is unclear whether that is the speaker, a team name, or transcript error.",
+          "Mason's claim that a Pat Freiermuth fumble/stat correction could have made him the No. 1 seed is hypothetical, not a completed standings change."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Pre-week playoff race: Zach leads at 10-3; Mason is 8-5 and says a win would secure the No. 2 seed/first-round bye. Nathan is criticized for a Brock Bowers trade.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "League standings shown: Zach is first at 10-3, Mason second at 8-5, and Avery and Austin are tied behind them at 7-6. Mason says that winning this week would guarantee the No. 2 seed and a playoff bye; losses by both Avery and Austin would also preserve Mason's bye.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Zach",
+              "Mason",
+              "Avery",
+              "Austin"
+            ],
+            "facts": [
+              {
+                "name": "Zach record",
+                "value": "10-3"
+              },
+              {
+                "name": "Mason record",
+                "value": "8-5"
+              },
+              {
+                "name": "Avery record",
+                "value": "7-6"
+              },
+              {
+                "name": "Austin record",
+                "value": "7-6"
+              },
+              {
+                "name": "Mason playoff scenario",
+                "value": "A win guarantees the No. 2 seed/bye; if Mason loses, losses by both Avery and Austin would still keep the bye."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 360.0,
+                "end_seconds": 362.0,
+                "details": "Standings graphic lists Zach 10-3, Mason 8-5, Avery 7-6, and Austin 7-6."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 441.92,
+                "end_seconds": 482.96,
+                "details": "Mason says he is 8-5, calls it the league's second-best record, and explains the win/bye and Avery-Austin loss scenarios."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Nathan traded away Brock Bowers; the trade is presented as one of Nathan's worst decisions. The other side and return are not supplied in this window.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Nathan",
+              "Brock Bowers"
+            ],
+            "facts": [
+              {
+                "name": "Player moved",
+                "value": "Brock Bowers"
+              },
+              {
+                "name": "Manager who moved player",
+                "value": "Nathan"
+              },
+              {
+                "name": "Trade return",
+                "value": "Not shown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 466.56,
+                "end_seconds": 472.84,
+                "details": "Speaker says Nathan traded away Brock Bowers 'for a bag of chips'; on-screen text reads 'NATHAN'S WORST DECISIONS — 1. BROCK BOWERS TRADE.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The Brock Bowers trade's counterparty, return package, and date are not shown.",
+          "The exact playoff-bye format is discussed but not fully established in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Pre-week playoff-race review: the standings show Zach and Mason leading, with six teams at 6-7 competing around the final playoff places. Upcoming matchups include Badake vs. Zach and Nathan vs. Thomas.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "League standings shown: Zach is first at 10-3; Mason is second at 8-5; Avery and Austin are third and fourth at 7-6; Badake and Thomas occupy the fifth and sixth positions at 6-7.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Zach",
+              "Mason",
+              "Avery",
+              "Austin",
+              "Badake",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "Zach record / standing",
+                "value": "10-3, 1st"
+              },
+              {
+                "name": "Mason record / standing",
+                "value": "8-5, 2nd"
+              },
+              {
+                "name": "Avery record / standing",
+                "value": "7-6, 3rd"
+              },
+              {
+                "name": "Austin record / standing",
+                "value": "7-6, 4th"
+              },
+              {
+                "name": "Badake record / standing",
+                "value": "6-7, 5th"
+              },
+              {
+                "name": "Thomas record / standing",
+                "value": "6-7, 6th"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 577.067,
+                "end_seconds": 578.833,
+                "details": "Standings screen lists the top six owners and records."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 577.12,
+                "end_seconds": 583.72,
+                "details": "Commentator states Avery and Austin are 7-6 and describes Badake and Thomas as the two 6-7 teams currently in playoff positions."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Four additional owners—Sal, Danny, an owner/team displayed as \"StevenSwag...\", and Joe—are tied at 6-7, making six total 6-7 teams in the league. Nathan and Bush are 5-8.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Sal",
+              "Danny",
+              "StevenSwag...",
+              "Joe",
+              "Nathan",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "6-7 teams outside displayed 5th/6th positions",
+                "value": "Sal (7th), Danny (8th), StevenSwag... (9th), Joe (10th)"
+              },
+              {
+                "name": "Nathan record / standing",
+                "value": "5-8, 11th"
+              },
+              {
+                "name": "Bush record / standing",
+                "value": "5-8, 12th"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 577.067,
+                "end_seconds": 578.833,
+                "details": "Standings screen lists ranks 7-12 and their records; the rank-9 owner identifier is visually unclear beyond \"StevenSwag...\"."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 616.68,
+                "end_seconds": 626.56,
+                "details": "Commentator says six teams are 6-7 and identifies Nathan as playing Thomas."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Upcoming matchup: Badake faces Zach. The commentator says Zach has Derrick Henry, Joe Mixon, Jonathan Taylor, and Terry McLaurin on bye, framing Badake as strongly positioned to retain the fifth seed; this is pregame commentary, not a completed result.",
+            "status": "reported",
+            "confidence": 0.93,
+            "raw_names": [
+              "Badake",
+              "Zach",
+              "Derrick Henry",
+              "Joe Mixon",
+              "Jonathan Taylor",
+              "Terry McLaurin"
+            ],
+            "facts": [
+              {
+                "name": "Matchup",
+                "value": "Badake vs. Zach"
+              },
+              {
+                "name": "Zach players stated to be on bye",
+                "value": "Derrick Henry; Joe Mixon; Jonathan Taylor; Terry McLaurin"
+              },
+              {
+                "name": "Badake current standing",
+                "value": "5th, 6-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 627.92,
+                "end_seconds": 658.16,
+                "details": "Commentator identifies Badake vs. Zach, lists Zach's players on bye, and discusses Badake's playoff outlook."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 636.9,
+                "end_seconds": 645.767,
+                "details": "Fantasy matchup screen displays Badake's team versus Zach's \"Do It For Chris\" team."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Upcoming matchup: Nathan faces Thomas, who is currently sixth at 6-7. The speaker roots for Nathan; no result is provided.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Nathan",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "Matchup",
+                "value": "Nathan vs. Thomas"
+              },
+              {
+                "name": "Thomas current standing",
+                "value": "6th, 6-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 693.167,
+                "end_seconds": 700.0,
+                "details": "Matchup screen visibly shows \"The Chosen One\" (Nathan) versus \"Team ThomasWoodde\" (Thomas)."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 678.0,
+                "end_seconds": 718.0,
+                "details": "Commentator identifies Nathan playing Thomas, notes Thomas is the six seed, and expresses support for Nathan."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The rank-9 6-7 owner is shown with the identifier \"StevenSwag...\"; the supplied window does not establish which listed team owner this corresponds to.",
+          "The assertion that Avery and Austin are \"locked\" into the playoffs is commentator assessment before the week, rather than a confirmed clinching event."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Pre-week playoff-race discussion: Sal is 6-7 after a three-game winning streak and faces Austin; the standings show several teams clustered at 6-7.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "The displayed standings place Mason at 8-5; Avery and Austin at 7-6; and Badake, Thomas, Sal, Danny, and one additional 6-7 team in the playoff-race cluster. Nathan and Bush are each 5-8.",
+            "status": "confirmed",
+            "confidence": 0.83,
+            "raw_names": [
+              "Mason",
+              "Avery",
+              "Austin",
+              "Badake",
+              "Thomas",
+              "Sal",
+              "Danny",
+              "Nathan",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "Mason record",
+                "value": "8-5"
+              },
+              {
+                "name": "Avery record",
+                "value": "7-6"
+              },
+              {
+                "name": "Austin record",
+                "value": "7-6"
+              },
+              {
+                "name": "Badake record",
+                "value": "6-7"
+              },
+              {
+                "name": "Thomas record",
+                "value": "6-7"
+              },
+              {
+                "name": "Sal record",
+                "value": "6-7"
+              },
+              {
+                "name": "Danny record",
+                "value": "6-7"
+              },
+              {
+                "name": "Nathan record",
+                "value": "5-8"
+              },
+              {
+                "name": "Bush record",
+                "value": "5-8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 750.2,
+                "end_seconds": 780.0,
+                "details": "Standings screen lists the records; some team-name/owner text is blurry, but the named owners and records above are legible or corroborated by narration."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 752.199,
+                "end_seconds": 759.199,
+                "details": "Narration identifies Sal as having risen from last place and being able to sneak into the playoffs."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Sal reported winning three straight, including a 180-point win over Avery the previous week, improving from 3-7 to 6-7.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Sal",
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "Sal prior record",
+                "value": "3-7"
+              },
+              {
+                "name": "Sal current record",
+                "value": "6-7"
+              },
+              {
+                "name": "Sal winning streak",
+                "value": "3 games"
+              },
+              {
+                "name": "Previous-week opponent beaten",
+                "value": "Avery"
+              },
+              {
+                "name": "Sal score versus Avery",
+                "value": "180 points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 807.36,
+                "end_seconds": 827.36,
+                "details": "Speaker says 'we were three and seven,' 'won out three weeks in a row,' and says the team beat Avery last week with 180 points."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Sal is projected to face Austin in a roughly 50-50 upcoming matchup; it has not yet been played.",
+            "status": "speculative",
+            "confidence": 0.87,
+            "raw_names": [
+              "Sal",
+              "Austin",
+              "Team Anonymous"
+            ],
+            "facts": [
+              {
+                "name": "Matchup",
+                "value": "Sal vs. Austin"
+              },
+              {
+                "name": "Pre-game assessment",
+                "value": "Approximately 50-50 coin flip"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 786.24,
+                "end_seconds": 790.4,
+                "details": "Narration calls the Team Anonymous/Austin matchup a '50-50 coin flip.'"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 810.0,
+                "end_seconds": 838.0,
+                "details": "Lineup screen says 'Yet to play' for rostered players, confirming this is pre-game."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Austin's roster is described as affected by injuries, chiefly Christian McCaffrey; the speaker says this has Austin starting Blake Corum. CeeDee Lamb is described as banged up but expected to play.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Austin",
+              "Christian McCaffrey",
+              "Blake Corum",
+              "CeeDee Lamb"
+            ],
+            "facts": [
+              {
+                "name": "Affected fantasy owner",
+                "value": "Austin"
+              },
+              {
+                "name": "Injured player described as biggest issue",
+                "value": "Christian McCaffrey"
+              },
+              {
+                "name": "Replacement/start mentioned",
+                "value": "Blake Corum"
+              },
+              {
+                "name": "Additional injury concern",
+                "value": "CeeDee Lamb, expected to play"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 814.48,
+                "end_seconds": 827.84,
+                "details": "Speaker says Austin has dealt with injuries, calls McCaffrey the major one, says Austin has to play Blake Corum, and describes Lamb as banged up but likely to play."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Sal said Bucky Irving and Rico Dowdle were acquired from waivers and were being started for the upcoming matchup.",
+            "status": "reported",
+            "confidence": 0.85,
+            "raw_names": [
+              "Sal",
+              "Bucky Irving",
+              "Rico Dowdle"
+            ],
+            "facts": [
+              {
+                "name": "Waiver additions",
+                "value": "Bucky Irving; Rico Dowdle"
+              },
+              {
+                "name": "Planned lineup use",
+                "value": "Both starters"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 839.68,
+                "end_seconds": 846.64,
+                "details": "Speaker says 'two off the waivers' and names Bucky Irving and Rico Dowdle as players he is forced to start."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 810.0,
+                "end_seconds": 838.0,
+                "details": "Matchup lineup visibly includes B. Irving and R. Dowdle on the left-side roster."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Sal's playoff path was described as requiring a win over Austin plus at least one loss by Badake or Thomas; the claimed playoff odds with a win were only an estimate, not a settled outcome.",
+            "status": "speculative",
+            "confidence": 0.9,
+            "raw_names": [
+              "Sal",
+              "Austin",
+              "Badake",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "Stated playoff condition",
+                "value": "Sal must win and needs Badake or Thomas to lose"
+              },
+              {
+                "name": "Estimated playoff odds if Sal wins",
+                "value": "About 60-something percent"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 854.16,
+                "end_seconds": 858.0,
+                "details": "Speaker says Sal cannot only win; he needs Badake or Thomas to lose."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 840.16,
+                "end_seconds": 854.12,
+                "details": "Speaker estimates a '60-something percent' playoff chance if he wins this week."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the additional 6-7 team shown in the standings is unclear because its owner/team text is blurry.",
+          "Sal's 180-point result against Avery is stated in narration but no final matchup scoreboard is shown in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 14 playoff-clinching scenarios and Danny's must-win matchup against Joe are discussed; no matchup result occurs in this window.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Entering Week 14, Danny says he must win and needs help to reach the playoffs. His stated path requires Nathan to beat Thomas, then either Danny to outscore \"S\" by about 26 points or Sal to lose.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Danny",
+              "Nathan",
+              "Thomas the editor",
+              "S",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "14"
+              },
+              {
+                "name": "Danny playoff condition",
+                "value": "Must win; needs Nathan to defeat Thomas, plus either outscore S by about 26 points or have Sal lose"
+              },
+              {
+                "name": "points tiebreaker margin",
+                "value": "About 25.5-26 points over S"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 922.079,
+                "end_seconds": 959.079,
+                "details": "Danny describes his required Week 14 results and points-tiebreaker alternative."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Danny says he needs to beat Joe in Week 14, noting Joe has just had a four-game winning streak.",
+            "status": "reported",
+            "confidence": 0.92,
+            "raw_names": [
+              "Danny",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "14"
+              },
+              {
+                "name": "upcoming matchup",
+                "value": "Danny vs. Joe"
+              },
+              {
+                "name": "Joe recent streak",
+                "value": "Four-game winning streak"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 959.079,
+                "end_seconds": 966.16,
+                "details": "Danny says the first priority is to 'take down Joe' and references Joe's four-game win streak."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Danny's roster includes Tyreek Hill and Breece Hall; both are described as questionable for the upcoming NFL week. Danny says it sounds like Tyreek will play, while expressing concern about Breece.",
+            "status": "reported",
+            "confidence": 0.88,
+            "raw_names": [
+              "Tyreek Hill",
+              "Breece Hall",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "players",
+                "value": "Tyreek Hill; Breece Hall"
+              },
+              {
+                "name": "availability",
+                "value": "Both described as questionable; Tyreek expected by Danny to play"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 966.16,
+                "end_seconds": 976.6,
+                "details": "Danny names Hill and Hall as questionable and says Tyreek sounds likely to play; the on-screen roster also lists T. Hill and B. Hall."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Danny says he plans to start Nick Westbrook-Ikhine after leaving him on the bench the prior week; the displayed Week 14 starters list includes N. Westbrook-Ikhine.",
+            "status": "speculative",
+            "confidence": 0.88,
+            "raw_names": [
+              "Nick Westbrook-Ikhine",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "roster decision",
+                "value": "Intends to start Nick Westbrook-Ikhine in Week 14"
+              },
+              {
+                "name": "prior-week context",
+                "value": "Danny says Westbrook-Ikhine was on his bench last week"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1032.039,
+                "end_seconds": 1062.559,
+                "details": "Danny says he has to put Westbrook-Ikhine in the lineup; the on-screen fantasy lineup shows N. Westbrook-Ikhine among starters."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the team/owner referred to only as \"S\" should be verified.",
+          "The exact final Week 14 lineup and whether Danny's intended Westbrook-Ikhine start was actually locked are not established here."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The window reviews the final-week playoff race: Danny is a long-shot contender, while the displayed standings show Zach leading at 10–3 and several teams clustered at 6–7.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Displayed standings show Zach in first place at 10–3, Mason second at 8–5, Avery and Austin at 7–6, and Badake, Thomas, Sal, and Danny each at 6–7.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach",
+              "Mason",
+              "Avery",
+              "Austin",
+              "Badake",
+              "Thomas",
+              "Sal",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "Zach record",
+                "value": "10-3"
+              },
+              {
+                "name": "Mason record",
+                "value": "8-5"
+              },
+              {
+                "name": "Avery record",
+                "value": "7-6"
+              },
+              {
+                "name": "Austin record",
+                "value": "7-6"
+              },
+              {
+                "name": "Badake record",
+                "value": "6-7"
+              },
+              {
+                "name": "Thomas record",
+                "value": "6-7"
+              },
+              {
+                "name": "Sal record",
+                "value": "6-7"
+              },
+              {
+                "name": "Danny record",
+                "value": "6-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1088.254,
+                "end_seconds": 1088.254,
+                "details": "Standings graphic lists the owners and records."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Danny's stated playoff path is to win his matchup and have two of Badake, Thomas, or Sal lose; the speaker characterizes Danny as a long shot. Badake is described as seemingly likely to beat Zach, leaving probably only one playoff place open.",
+            "status": "speculative",
+            "confidence": 0.91,
+            "raw_names": [
+              "Danny",
+              "Badake",
+              "Thomas",
+              "Sal",
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "Danny playoff scenario",
+                "value": "Win his matchup plus losses by two of Badake, Thomas, and Sal"
+              },
+              {
+                "name": "Badake vs. Zach",
+                "value": "Described as a seemingly guaranteed Badake win; not a completed result"
+              },
+              {
+                "name": "Open playoff spots",
+                "value": "Speaker estimates probably one remains"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1080.039,
+                "end_seconds": 1102.96,
+                "details": "Speaker lays out Danny's required results and frames Badake over Zach and the number of remaining spots as expectations."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The exact current Week 14 matchups and eventual playoff qualification are not shown in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Nathan recounts roster/lineup mistakes while standings show Joe at 6-7 and Nathan and Bush tied at 5-8 near the bottom.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Nathan identifies missing the Ray Davis waiver claim as one of his worst decisions.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Nathan",
+              "Ray Davis"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "waiver outcome",
+                "value": "Did not claim Ray Davis"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1293.72,
+                "end_seconds": 1299.64,
+                "details": "Nathan says that not claiming Ray Davis off waivers was a mistake; on-screen list reads “NATHAN'S WORST DECISIONS ... 4. MISS RAY DAVIS WAIVER.”"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A Brock Bowers trade is listed as Nathan's worst decision, but the trade's terms and completion details are not shown.",
+            "status": "unclear",
+            "confidence": 0.76,
+            "raw_names": [
+              "Nathan",
+              "Brock Bowers"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "trade detail",
+                "value": "Brock Bowers trade (terms not provided)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1296.214,
+                "end_seconds": 1300.214,
+                "details": "On-screen list titled “NATHAN'S WORST DECISIONS” includes “1. BROCK BOWERS TRADE.”"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The standings display Joe at 6-7, while Nathan and Bush are each 5-8 in the bottom two positions.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Joe",
+              "Nathan",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "Joe record",
+                "value": "6-7"
+              },
+              {
+                "name": "Nathan record",
+                "value": "5-8"
+              },
+              {
+                "name": "Bush record",
+                "value": "5-8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1343.919,
+                "end_seconds": 1376.12,
+                "details": "Transcript says Joe is 6-7 and Nathan and Bush are battling near the bottom; the standings graphic visibly lists Nathan 11th at 5-8 and Bush 12th at 5-8."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Nathan says he benched Jerry Jeudy in a week when Jeudy scored 40 points.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Nathan",
+              "Jerry Jeudy"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "lineup decision",
+                "value": "Benched Jerry Jeudy"
+              },
+              {
+                "name": "Jeudy points mentioned",
+                "value": "40"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1401.64,
+                "end_seconds": 1421.36,
+                "details": "The speaker says, “I benched Jerry Judy ... when he dropped 40 points.” The preceding on-screen segment identifies the speaker/context as Nathan."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The Brock Bowers trade's counterpart, timing, and exchanged players/assets are not provided in this window.",
+          "The standings graphic does not show the current week's matchup results or playoff outcomes."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1533.0,
+      "transient_image_count": 8,
+      "review": {
+        "window_summary": "Zach discusses a prior fantasy-football moment in which a Pat Freiermuth lateral affected Mason's result; no current-week matchup details, roster moves, trades, or injuries are provided.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "A prior Pat Freiermuth lateral fumble forced Mason to lose a fantasy matchup, which Zach calls an all-time league moment.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Pat Freiermuth",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "result",
+                "value": "Mason lost after the Pat Freiermuth lateral fumble."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1522.0,
+                "end_seconds": 1532.48,
+                "details": "Zach reads the winning comment referencing 'Pat Freiermuth’s lateral fumble forcing Mason to lose' and responds that it is 'definitely an all-time moment.' The on-screen comment likewise says the lateral forced Mason to lose."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window does not identify the specific week, opponent, or fantasy score for Mason's loss."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "The exact counterparty, return package, and timing of Nathan's Brock Bowers trade are not provided.",
+    "Week 14 outcomes, final playoff qualifiers, and final playoff seeding are not shown.",
+    "Danny's references to a team or owner as \"S\" and \"Thomas the editor\" should be verified against the league's owner identities.",
+    "The specific week, opponent, and score for Mason's loss affected by the Pat Freiermuth lateral fumble are not identified."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Create a concise evidence-linked recap centered on team owners and private-league developments.",
+      "status": "fulfilled",
+      "details": "The recap prioritizes owners, standings, waiver moves, playoff stakes, and owner-specific NFL injury effects."
+    },
+    {
+      "instruction": "Track available matchup results, scores, trades, injuries, and waivers without inventing missing details.",
+      "status": "fulfilled",
+      "details": "Confirmed and reported transactions, injuries, trade context, and the available prior-week score are included; unavailable terms, scores, and Week 14 outcomes are retained as open questions."
+    },
+    {
+      "instruction": "Treat transcript material as supporting evidence and avoid promoting jokes, skits, predictions, or proposals to fact.",
+      "status": "fulfilled",
+      "details": "The Anonymous hacking storyline, playoff predictions, and proposed outcomes were not recorded as confirmed events."
+    },
+    {
+      "instruction": "Honor episode-specific instructions.",
+      "status": "not_applicable",
+      "details": "No episode-specific instructions or recap exclusions were supplied."
+    }
+  ],
+  "supplemental_outputs": []
+}

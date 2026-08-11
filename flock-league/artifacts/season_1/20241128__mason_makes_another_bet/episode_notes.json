@@ -1,0 +1,1554 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T20:37:00.427097+00:00",
+  "fingerprint": "651abb9fd6373535b14f93476253aff33c6bd6c42c7657cc44db70be407f8b13",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "C0wHMfHGrw4",
+  "video_title": "Mason Makes Another Bet",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Mason Makes Another Bet",
+      "upload_date": "20241128",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 13 opens with a tightly packed league: Zach leads at 9-3, while Bush is last at 4-8 and on a four-game skid.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Zach is in first place at 9-3 and is described as likely having clinched a playoff berth.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "9-3"
+              },
+              {
+                "name": "standing",
+                "value": "1st place"
+              },
+              {
+                "name": "playoff status",
+                "value": "Described as most likely clinched"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 142.23,
+                "end_seconds": 180.0,
+                "details": "The standings screen lists the top team at 9-3; narration identifies Zach as 9-3 and says he is most likely clinched."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Bush is in 12th (last) place at 4-8 and on a four-game losing streak entering Week 13.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Bush",
+              "Corey (Busch)"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "4-8"
+              },
+              {
+                "name": "standing",
+                "value": "12th / last place"
+              },
+              {
+                "name": "losing streak",
+                "value": "4 games"
+              },
+              {
+                "name": "week",
+                "value": "Entering Week 13"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 142.23,
+                "end_seconds": 168.0,
+                "details": "Narration says the speaker is in dead last, 4-8, on a four-game losing streak; the standings screen shows 'Mickey Mouse Analyst' / Busch in 12th at 4-8."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The displayed standings show Avery, Austin, and Mason tied at 7-5; Thomas and Danny at 6-6; and Badake, Nathan, Sal, and the owner displayed as StevenSwagal at 5-7.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Avery",
+              "Austin",
+              "Mason",
+              "Thomas",
+              "Danny",
+              "Badake",
+              "Nathan",
+              "Sal",
+              "StevenSwagal"
+            ],
+            "facts": [
+              {
+                "name": "7-5 teams",
+                "value": "Avery, Austin, Mason"
+              },
+              {
+                "name": "6-6 teams",
+                "value": "Thomas, Danny, owner displayed as GreenMambaMoney"
+              },
+              {
+                "name": "5-7 teams",
+                "value": "Badake, Nathan, Sal, owner displayed as StevenSwagal"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 143.074,
+                "end_seconds": 177.775,
+                "details": "The standings display lists the records and associated owner/team labels."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The host says 11 of 12 teams are either currently in the postseason or one game out with two regular-season games remaining; Bush is presented as the exception.",
+            "status": "reported",
+            "confidence": 0.88,
+            "raw_names": [
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "teams in postseason or one game back",
+                "value": "11 of 12"
+              },
+              {
+                "name": "games remaining",
+                "value": "2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 142.2,
+                "end_seconds": 155.959,
+                "details": "The host states that 11 of 12 teams are in the postseason or one game back, with two games left, and says 'rip Bush.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "A teaser mentions a possible bet involving Devin Singletary at 00:00:19.1-00:00:25.9, but no terms or completed bet are established in this window.",
+          "The standings screen uses several changing team names/handles; the owner identity of the displayed 'GreenMambaMoney' entry is not established in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 13 playoff-race context, upcoming matchups, and a confirmed waiver acquisition by Avery.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Zach was shown in first place at 9-3; Austin, Avery, and Mason were each shown at 7-5.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach",
+              "Austin",
+              "Avery",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "Zach record",
+                "value": "9-3"
+              },
+              {
+                "name": "Austin record",
+                "value": "7-5"
+              },
+              {
+                "name": "Avery record",
+                "value": "7-5"
+              },
+              {
+                "name": "Mason record",
+                "value": "7-5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 214.715,
+                "end_seconds": 220.0,
+                "details": "League standings screen shows Zach at 9-3 and Austin, Avery, and Mason at 7-5."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Avery, Austin, and Mason were said to be in position to make the playoffs with a win this week.",
+            "status": "reported",
+            "confidence": 0.86,
+            "raw_names": [
+              "Avery",
+              "Austin",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "condition",
+                "value": "A win this week would essentially put each owner into the playoffs"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 209.28,
+                "end_seconds": 214.96,
+                "details": "Speaker says Avery, Austin, and Mason would all essentially be making the playoffs if they win this week."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Upcoming matchup: Mason vs. Nathan.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Mason",
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Mason vs. Nathan"
+              },
+              {
+                "name": "state",
+                "value": "Upcoming"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 274.68,
+                "end_seconds": 281.28,
+                "details": "Speaker states that Mason is going against Nathan."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Upcoming matchup: Zach vs. Joe; Zach said a win would secure the number-one playoff bye.",
+            "status": "reported",
+            "confidence": 0.91,
+            "raw_names": [
+              "Zach",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Zach vs. Joe"
+              },
+              {
+                "name": "playoff implication",
+                "value": "Zach says a win secures the number-one bye"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 247.52,
+                "end_seconds": 263.2,
+                "details": "Zach says 'if I beat Joe this week' he will 'secure the number one bye.'"
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Avery acquired Denver WR Devaughn Vele for $32 in waiver bidding and dropped Kayshon Boutte.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Avery",
+              "Devaughn Vele",
+              "Kayshon Boutte"
+            ],
+            "facts": [
+              {
+                "name": "add",
+                "value": "Devaughn Vele (WR, DEN)"
+              },
+              {
+                "name": "drop",
+                "value": "Kayshon Boutte (WR, NE)"
+              },
+              {
+                "name": "FAAB spent",
+                "value": "$32"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 322.395,
+                "end_seconds": 346.314,
+                "details": "Waiver-processing screen lists averyhuffman's roster adding Devaughn Vele for $32 and dropping Kayshon Boutte."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 321.56,
+                "end_seconds": 331.64,
+                "details": "Avery says he won Devaughn Vele and spent $32."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript says Nathan was the next-closest $3 bidder for Devaughn Vele, while the on-screen bidding popup identifies a $3 bid from 'Dannylad21'; bidder identity requires review."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Mason and Nathan confirm a wager tied to their upcoming fantasy matchup: the loser must wear a turkey hat in the next midweek video.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Mason and Nathan agreed to a matchup wager: whoever loses their fantasy matchup must wear a turkey hat in the following week's midweek video.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Mason",
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "participants",
+                "value": "Mason and Nathan"
+              },
+              {
+                "name": "condition",
+                "value": "Loser of their matchup wears a turkey hat"
+              },
+              {
+                "name": "fulfillment_timing",
+                "value": "Next week's midweek video"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 457.72,
+                "end_seconds": 469.4,
+                "details": "Mason proposes the turkey-hat consequence; Nathan explicitly accepts the bet. The displayed Amazon listing visually shows the turkey hat."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 523.2,
+                "end_seconds": 529.4,
+                "details": "Mason restates: 'the loser of our matchup has to wear this beautiful turkey hat in next week's midweek video.'"
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Nathan said that T.J. Hockenson is back healthy; he also contrasted this matchup with a prior meeting when he did not have Puka Nacua and Josh Jacobs was not performing well.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Nathan",
+              "T.J. Hockenson",
+              "Puka Nacua",
+              "Josh Jacobs",
+              "George Pickens",
+              "Justin Fields"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "T.J. Hockenson"
+              },
+              {
+                "name": "update",
+                "value": "Nathan says Hockenson is back healthy"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 406.16,
+                "end_seconds": 416.24,
+                "details": "Nathan describes being stronger than in the prior Mason matchup and says, 'Hockenson is back healthy too.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The outcome of Mason versus Nathan's turkey-hat wager is not available in this window.",
+          "Nathan's claim that he previously scored 118 points against Mason is retrospective trash talk; no completed matchup scorecard is shown here to independently verify it."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The episode previews a tight Week 13 playoff race, including the upcoming Danny–Badake matchup, and references proposed league bets.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Standings shown before the week's games: Zach is 9-3; Thomas, Austin, and Mason are 7-5; Thomas, Danny, and one additional owner/team are 6-6; Badake, Nathan, Sal, and StevenSwagal are 5-7; Bush is 4-8.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Zackxrage",
+              "averynuffman",
+              "AustinHood",
+              "MasonDodd",
+              "ThomasWodde",
+              "DannyVets21",
+              "GreenM...?",
+              "Badake",
+              "NathanSchmidt",
+              "SalVert",
+              "StevenSwagal",
+              "Bush..."
+            ],
+            "facts": [
+              {
+                "name": "standings_context",
+                "value": "12-team PPR league standings displayed"
+              },
+              {
+                "name": "Zach record",
+                "value": "9-3"
+              },
+              {
+                "name": "Thomas record",
+                "value": "6-6 or 7-5 depending on which on-screen Thomas-associated team is intended; owner mapping is unclear"
+              },
+              {
+                "name": "Austin record",
+                "value": "7-5"
+              },
+              {
+                "name": "Mason record",
+                "value": "7-5"
+              },
+              {
+                "name": "Danny record",
+                "value": "6-6"
+              },
+              {
+                "name": "Badake record",
+                "value": "5-7"
+              },
+              {
+                "name": "Nathan record",
+                "value": "5-7"
+              },
+              {
+                "name": "Sal record",
+                "value": "5-7"
+              },
+              {
+                "name": "Bush record",
+                "value": "4-8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 584.24,
+                "end_seconds": 617.36,
+                "details": "Narration describes the clustered standings; the standings screen visibly lists records and team/account labels."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Danny is scheduled to face Badake this week. The narration frames it as a pivotal upcoming matchup: a Danny loss would leave him 6-7 and likely out of the playoffs, while Badake would move to 6-7; this is conditional, not a completed result.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Danny",
+              "Baki",
+              "Badake"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Danny vs. Badake"
+              },
+              {
+                "name": "timing",
+                "value": "Upcoming this week (Week 13 context)"
+              },
+              {
+                "name": "conditional outcome",
+                "value": "If Danny loses, Danny falls to 6-7; Badake rises to 6-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 600.36,
+                "end_seconds": 616.72,
+                "details": "Speaker explicitly identifies Danny versus 'Baki' as the key matchup and gives the conditional record implications."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 617.36,
+                "end_seconds": 620.0,
+                "details": "Fantasy matchup screen shows Danny's team 'Hit with the Nico' against Badake's 'Playoff Bound.'"
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "The discussion references proposed league bets: Nathan suggested a bet in which someone wears a turkey hat, while Mason is described as proposing to tattoo another person's name on his butt. Neither bet is shown as accepted or completed.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Nathan",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "Nathan bet proposal",
+                "value": "One participant has to wear a turkey hat"
+              },
+              {
+                "name": "Mason bet proposal",
+                "value": "Tattoo another person's name on his butt"
+              },
+              {
+                "name": "completion",
+                "value": "Not established"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 562.2,
+                "end_seconds": 577.36,
+                "details": "Speaker contrasts Nathan's turkey-hat bet with Mason saying he wants to tattoo the other person's name on his butt."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The standings screenshot uses changing team/account labels, so several owner-to-team mappings—especially the two Thomas-associated entries and the 6-6 team labeled 'GreenM...?'—cannot be resolved from this window alone.",
+          "The precise terms, acceptance, and eventual outcome of Nathan's and Mason's proposed bets are not established here."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Pre-week discussion: Badake needs a win against Danny amid a five-game skid; Breece Hall's practice status drives a disputed Braelon Allen waiver pickup and an uncompleted trade discussion. Zach vs. Joe is previewed only.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Badake says he is facing Danny this week and needs a win to keep his playoff hopes alive; he reports being on a five-game losing streak.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Badake",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Badake vs. Danny"
+              },
+              {
+                "name": "reported_losing_streak",
+                "value": "5 games"
+              },
+              {
+                "name": "playoff_context",
+                "value": "Badake says he needs to win to reach the playoffs"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 720.8,
+                "end_seconds": 743.36,
+                "details": "Badake says, “I'm going against Danny,” needs to win/get to the playoffs, and is on a five-game losing streak. The on-screen league notification identifies the speaker's team owner as Badake."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Breece Hall reportedly did not practice on Wednesday following the bye because of knee soreness; Danny is described as rostering Hall. His availability for Sunday is uncertain.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Breece Hall",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Breece Hall"
+              },
+              {
+                "name": "reported_practice_status",
+                "value": "DNP Wednesday after bye"
+              },
+              {
+                "name": "reported_issue",
+                "value": "knee soreness / knee injury"
+              },
+              {
+                "name": "fantasy_owner",
+                "value": "Danny"
+              },
+              {
+                "name": "game_status",
+                "value": "uncertain for Sunday"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 775.72,
+                "end_seconds": 801.68,
+                "details": "Speaker says news dropped Wednesday that “Bree Hall” DNP after the bye with knee soreness/injury and might not play Sunday; this is framed as affecting Danny."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "A last-place manager referred to as “Bo” reportedly picked up Braelon Allen after the Breece Hall practice news, before Danny could add Allen.",
+            "status": "reported",
+            "confidence": 0.7,
+            "raw_names": [
+              "Bo",
+              "Braelon Allen",
+              "Breece Hall",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "player_added",
+                "value": "Braelon Allen"
+              },
+              {
+                "name": "manager_identity",
+                "value": "Bo (as spoken; uncertain)"
+              },
+              {
+                "name": "waiver_context",
+                "value": "Added after Breece Hall's DNP news, ahead of Danny"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 787.64,
+                "end_seconds": 806.08,
+                "details": "Speaker says the last-place team, “Bo,” picked up “Brillan/Bran Allen” when Breece Hall potentially might not play, and that Allen was taken just before he got to waivers."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Danny says he offered the manager who added Braelon Allen the Buccaneers D/ST plus a receiver for Allen, but reports the other manager would only trade Allen for a starting running back. No trade completion is stated.",
+            "status": "reported",
+            "confidence": 0.81,
+            "raw_names": [
+              "Danny",
+              "Braelon Allen",
+              "Bucs defense"
+            ],
+            "facts": [
+              {
+                "name": "offer",
+                "value": "Buccaneers D/ST plus a receiver for Braelon Allen"
+              },
+              {
+                "name": "reported_counter_or_asking_price",
+                "value": "a starting running back"
+              },
+              {
+                "name": "completion_status",
+                "value": "not completed / no accepted trade stated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 826.08,
+                "end_seconds": 837.04,
+                "details": "Danny describes offering “the Bucks defense plus a receiver for [Braelon] Allen”; he says the other manager would only trade him for a starting running back."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Zach is set to play Joe; commentary predicts Zach will win, but this is only a pre-matchup opinion, not a result.",
+            "status": "speculative",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Zach vs. Joe"
+              },
+              {
+                "name": "prediction",
+                "value": "Commentator says Joe has a 0% chance to win"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 869.68,
+                "end_seconds": 898.48,
+                "details": "The speaker says Zach is playing Joe and predicts Joe has “a 0% chance” to win."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The waiver claimant is spoken as “Bo”; review needed to determine whether this identifies a specific listed league owner.",
+          "The transcript varies on Braelon Allen's name (“Brillan/Bran”); the intended NFL player appears to be Braelon Allen, but no clear on-screen transaction log is shown in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 13 discussion includes Joe’s reported winning streak and a standings screen showing the league’s current records.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Joe is reported to be on a four-game winning streak.",
+            "status": "reported",
+            "confidence": 0.88,
+            "raw_names": [
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "winning_streak",
+                "value": "4 games"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 979.72,
+                "end_seconds": 985.0,
+                "details": "Speaker says, “Joe's on a 4-game winning streak.”"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The standings screen shows Zach (@zaxavage) in first place at 9-3; Avery, Austin, and Mason are each shown at 7-5.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Zach",
+              "@zaxavage",
+              "Avery",
+              "Austin",
+              "Mason",
+              "@averybetter?",
+              "Austinhood",
+              "MasonDodd"
+            ],
+            "facts": [
+              {
+                "name": "Zach record",
+                "value": "9-3 (1st)"
+              },
+              {
+                "name": "Avery record",
+                "value": "7-5 (2nd shown)"
+              },
+              {
+                "name": "Austin record",
+                "value": "7-5 (3rd shown)"
+              },
+              {
+                "name": "Mason record",
+                "value": "7-5 (4th shown)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1079.367,
+                "end_seconds": 1080.0,
+                "details": "Standings screen lists Do It For Chris / @zaxavage at 9-3 in first, followed by entries associated on-screen with Avery, Austin, and MasonDodd at 7-5."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The exact owner mappings for several standings entries below the top four are not fully legible in this window.",
+          "A speaker says he is on a five-game losing streak, but the speaker identity is not established clearly enough here to assign that streak to an owner."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 13 setup focuses on Sal's upcoming matchup with Avery, current standings, and an uncompleted trade offer from Joe.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "The standings display Zach in first place at 9-3. Avery, Austin, and Mason are each 7-5; Sal is 5-7 in 10th; Bush is last at 4-8.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach",
+              "Avery",
+              "Austin",
+              "Mason",
+              "Sal",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "Zach record/rank",
+                "value": "9-3, 1st"
+              },
+              {
+                "name": "Avery record/rank",
+                "value": "7-5, 2nd"
+              },
+              {
+                "name": "Austin record/rank",
+                "value": "7-5, 3rd"
+              },
+              {
+                "name": "Mason record/rank",
+                "value": "7-5, 4th"
+              },
+              {
+                "name": "Sal record/rank",
+                "value": "5-7, 10th"
+              },
+              {
+                "name": "Bush record/rank",
+                "value": "4-8, 12th"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1089.575,
+                "end_seconds": 1090.5,
+                "details": "On-screen standings list shows the records and ranks."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Sal is set to face Avery in Week 13. Avery is projected for 136.30 points (60%) against Sal's 122.52 (40%).",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Sal",
+              "Avery",
+              "Bane",
+              "@SalVetri",
+              "@averyhuffman"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "Week 13"
+              },
+              {
+                "name": "Sal projected points / win probability",
+                "value": "122.52 / 40%"
+              },
+              {
+                "name": "Avery projected points / win probability",
+                "value": "136.30 / 60%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1144.12,
+                "end_seconds": 1146.84,
+                "details": "Transcript identifies the Avery-versus-Sal matchup and says Avery is projected for 136; matchup screen identifies @SalVetri (Bane) versus @averyhuffman and supplies exact projections/probabilities."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A trade offer from Joe to Sal was discussed; no terms or acceptance/rejection are provided in this window.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Joe",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "trade status",
+                "value": "Offer only; completion not shown"
+              },
+              {
+                "name": "trade terms",
+                "value": "Not provided"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1163.08,
+                "end_seconds": 1173.2,
+                "details": "The speaker says Joe sent him a trade offer and that he is considering it; the screen does not show offer terms or an outcome."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Sal reports being on a two-game winning streak, with the prior two opponents described as Nathan and Bush. No scores are given.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Sal",
+              "Nathan",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "Sal streak",
+                "value": "Two wins"
+              },
+              {
+                "name": "opponents referenced",
+                "value": "Nathan (two weeks earlier); Bush (last week)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1194.64,
+                "end_seconds": 1218.96,
+                "details": "The speaker says 'we are on a two-game win streak' and later references beating Nathan two weeks ago and Bush last week."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The Joe-to-Sal trade's players/terms and whether it was accepted are not shown.",
+          "The transcript uses 'S' for Sal and contains a likely transcription error in the statement about whom Sal is ahead of in the standings; rely on the displayed standings for records/ranks."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A proposed Josh Allen-for-three-player trade was shown as rejected; the rest of the window is mainly banter about Avery/Sal adopting Batman-themed names.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "A trade proposal was rejected: user \"zaxavage\" would receive Josh Allen from \"GreenMeansMoney\" and send Baker Mayfield, Terry McLaurin, and Jonathan Taylor to GreenMeansMoney.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "zaxavage",
+              "GreenMeansMoney",
+              "Josh Allen",
+              "Baker Mayfield",
+              "Terry McLaurin",
+              "Jonathan Taylor",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "transaction status",
+                "value": "Trade Rejected"
+              },
+              {
+                "name": "zaxavage receives",
+                "value": "Josh Allen (QB, BUF), from GreenMeansMoney"
+              },
+              {
+                "name": "zaxavage sends",
+                "value": "Baker Mayfield (QB, TB); Terry McLaurin (WR, WAS); Jonathan Taylor (RB, IND), to GreenMeansMoney"
+              },
+              {
+                "name": "commentary attribution",
+                "value": "The speaker characterizes the proposal as Joe's doing and says it is a terrible trade; this is opinion, not an assessment of trade value."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1310.633,
+                "end_seconds": 1340.0,
+                "details": "The fantasy app's trade panel explicitly reads \"Trade Rejected\" and lists zaxavage receiving Josh Allen while sending Baker Mayfield, Terry McLaurin, and Jonathan Taylor; GreenMeansMoney is the counterparty."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1319.88,
+                "end_seconds": 1340.2,
+                "details": "Speaker says, \"Joe sends me Josh Allen\" and names Terry McLaurin, Jonathan Taylor, and Baker Mayfield as the return package, then calls it a terrible trade."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not establish which season team owner corresponds to the usernames \"zaxavage\" and \"GreenMeansMoney,\" nor does it conclusively establish that either username belongs to Joe."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Discussion centers on Bush’s last-place situation, the toilet-bowl format, and his upcoming matchup with Austin.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Bush is shown in 12th/last place at 4-8. Mason is shown 11th at 5-7; Sal and Nathan are also shown at 5-7.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Bush",
+              "Mason",
+              "Sal",
+              "Nathan",
+              "Mickey Mouse Analyst",
+              "Mason's Granddaddy",
+              "The Chosen One",
+              "Bane"
+            ],
+            "facts": [
+              {
+                "name": "Bush record",
+                "value": "4-8"
+              },
+              {
+                "name": "Bush standing",
+                "value": "12th / last"
+              },
+              {
+                "name": "Mason record",
+                "value": "5-7"
+              },
+              {
+                "name": "Mason standing",
+                "value": "11th"
+              },
+              {
+                "name": "Sal record",
+                "value": "5-7"
+              },
+              {
+                "name": "Nathan record",
+                "value": "5-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1521.559,
+                "end_seconds": 1532.24,
+                "details": "Transcript calls Bush's team 4-8 and says he is in 12th; the standings screen visibly lists Bush at No. 12 (4-8), Mason at No. 11 (5-7), Nathan at No. 9 (5-7), and Sal at No. 10 (5-7)."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "The speakers describe the toilet-bowl stakes: the 11th- and 12th-place teams receive byes, and a team must win a toilet-bowl game to avoid being its loser; the loser wears a T-shirt featuring the league winner.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Bush",
+              "Mason",
+              "StevenSwagal"
+            ],
+            "facts": [
+              {
+                "name": "Toilet-bowl bye recipients",
+                "value": "11th and 12th seeds, as described"
+              },
+              {
+                "name": "Toilet-bowl consequence",
+                "value": "Loser wears a T-shirt of the league winner"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1492.159,
+                "end_seconds": 1523.12,
+                "details": "Bush says he can avoid a bye by winning his last two games; another speaker says the 12th-place team and 11 seed receive byes, then explains that winning one game avoids being the toilet-bowl loser, who wears a shirt of the league winner."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Bush is scheduled to face Austin this week and calls himself a major underdog. He says Austin's roster includes Christian McCaffrey, Bijan Robinson, CeeDee Lamb, and Jalen Hurts.",
+            "status": "reported",
+            "confidence": 0.86,
+            "raw_names": [
+              "Bush",
+              "Austin",
+              "maccaffrey",
+              "bjon",
+              "CD lamb",
+              "Jaylen Herz"
+            ],
+            "facts": [
+              {
+                "name": "Upcoming matchup",
+                "value": "Bush vs. Austin"
+              },
+              {
+                "name": "Austin players named",
+                "value": "Christian McCaffrey, Bijan Robinson, CeeDee Lamb, Jalen Hurts"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1557.6,
+                "end_seconds": 1591.84,
+                "details": "Bush says he is going up against Austin this week, calls Austin's team the best and himself a big underdog, and names McCaffrey, Bijan, CeeDee Lamb, and Jalen Hurts as Austin players."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Bush says he may need to start Braelon Allen at RB2 if Breece Hall does not play; this is a contingency, not confirmation that Hall is inactive or injured.",
+            "status": "speculative",
+            "confidence": 0.76,
+            "raw_names": [
+              "brillan Allen",
+              "breall"
+            ],
+            "facts": [
+              {
+                "name": "Potential RB2",
+                "value": "Braelon Allen"
+              },
+              {
+                "name": "Condition",
+                "value": "Only if Breece Hall does not play"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1605.88,
+                "end_seconds": 1611.32,
+                "details": "Bush says they are hoping to have 'brillan Allen' at RB2 if 'breall' does not end up playing."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The exact toilet-bowl bracket and whether the stated 11th/12th-seed byes are automatic under all circumstances are not fully shown.",
+          "Breece Hall's actual availability is not established in this window; it is only discussed as a possibility."
+        ]
+      }
+    },
+    {
+      "window_index": 9,
+      "start": 1620.0,
+      "end": 1800.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "An unnamed manager discusses the Thanksgiving-week trade deadline and says they will decline Sal’s proposed Brian Robinson/Evan Engram-for-Travis Kelce trade.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "A proposed trade between an unnamed manager and Sal is not expected to be completed: Sal would send Brian Robinson and Evan Engram for Travis Kelce, but the other manager says they will not accept it.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "S",
+              "Sal",
+              "Brian Robinson",
+              "Evan Ingram",
+              "Travis Kelce"
+            ],
+            "facts": [
+              {
+                "name": "Sal sends",
+                "value": "Brian Robinson and Evan Engram"
+              },
+              {
+                "name": "Other manager sends",
+                "value": "Travis Kelce"
+              },
+              {
+                "name": "Proposal status",
+                "value": "The other manager states they will not do the deal; no completed trade is shown."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1673.32,
+                "end_seconds": 1703.88,
+                "details": "The speaker describes the offer and says they are not going to do the deal."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "The speaker says the league’s trade deadline was moved back to Thanksgiving week, making the current week the deadline.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "Trade deadline",
+                "value": "Thanksgiving week / the current week, according to the speaker"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1626.8,
+                "end_seconds": 1638.12,
+                "details": "The speaker says the league pushed the trade deadline back and that it is now Thanksgiving week."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window does not identify the manager declining Sal’s offer; the episode title suggests Mason but the trade discussion itself does not name the speaker.",
+          "No league-platform confirmation shows whether the proposal was formally withdrawn or declined after the speaker’s stated intention."
+        ]
+      }
+    },
+    {
+      "window_index": 10,
+      "start": 1800.0,
+      "end": 1980.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Thanksgiving-themed league banter includes references to a completed Aiyuk trade and draft selections.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Bush is said to have traded for Brandon Aiyuk from the speaker.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Bush",
+              "Brandon Aiyuk"
+            ],
+            "facts": [
+              {
+                "name": "acquiring owner",
+                "value": "Bush"
+              },
+              {
+                "name": "player",
+                "value": "Brandon Aiyuk"
+              },
+              {
+                "name": "sending owner",
+                "value": "Unidentified speaker"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1956.44,
+                "end_seconds": 1960.0,
+                "details": "The speaker says, “I just want to thank Bush for trading for Brandon Aiyuk from me.”"
+              }
+            ]
+          },
+          {
+            "category": "draft",
+            "summary": "Derrick Henry was drafted at 2.10 by the speaker; the on-screen draft board places Henry under Zach's column.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Derrick Henry",
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Derrick Henry"
+              },
+              {
+                "name": "draft slot",
+                "value": "2.10"
+              },
+              {
+                "name": "owner",
+                "value": "Zach"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1931.68,
+                "end_seconds": 1937.76,
+                "details": "The speaker thanks the league for letting him draft Derrick Henry “at the 2.10.”"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1932.4,
+                "end_seconds": 1940.0,
+                "details": "The displayed draft board shows D. Henry in the column headed “Zach.”"
+              }
+            ]
+          },
+          {
+            "category": "draft",
+            "summary": "Bush drafted Travis Kelce in the third round and Patrick Mahomes in the fourth round.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Bush",
+              "Travis Kelce",
+              "Patrick Mahomes"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Bush"
+              },
+              {
+                "name": "player",
+                "value": "Travis Kelce"
+              },
+              {
+                "name": "round",
+                "value": "3rd"
+              },
+              {
+                "name": "player",
+                "value": "Patrick Mahomes"
+              },
+              {
+                "name": "round",
+                "value": "4th"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1972.12,
+                "end_seconds": 1976.56,
+                "details": "The speaker thanks Bush for drafting Travis Kelce and Patrick Mahomes in the third and fourth rounds."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1932.4,
+                "end_seconds": 1940.0,
+                "details": "The draft board shows T. Kelce and P. Mahomes in the column headed “Bush.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The trade timing and any other assets involved in the Brandon Aiyuk trade are not provided in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 11,
+      "start": 1980.0,
+      "end": 2025.0,
+      "transient_image_count": 3,
+      "review": {
+        "window_summary": "An unidentified league participant gives a Thanksgiving-style statement claiming a win over Nathan and a secured playoff bye; no standings or matchup screen corroborates either claim.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified speaker says he is thankful to have beaten Nathan “this week.”",
+            "status": "reported",
+            "confidence": 0.66,
+            "raw_names": [
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "loser",
+                "value": "Nathan"
+              },
+              {
+                "name": "timing",
+                "value": "This week"
+              },
+              {
+                "name": "score",
+                "value": "Not shown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2015.279,
+                "end_seconds": 2017.559,
+                "details": "Speaker says, “I'm thankful to beat Nathan this week.”"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The same unidentified speaker claims to have secured a bye, presumably a playoff bye.",
+            "status": "reported",
+            "confidence": 0.61,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "standing_outcome",
+                "value": "Claimed secured bye"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2017.559,
+                "end_seconds": 2020.0,
+                "details": "Speaker says, “I'm thankful to secure the buy [likely ‘bye’].”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speaker is not identified in the supplied visuals or transcript, so the owner who claims the win and bye cannot be determined.",
+          "No matchup score, standings display, or other visual confirmation is shown; the comments may be celebratory rhetoric rather than independently verified results."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "The owner identity of the league account GreenMeansMoney is not conclusively established by the supplied evidence.",
+    "The manager spoken as “Bo” in the Braelon Allen waiver discussion needs owner-identity review.",
+    "The terms and final platform outcomes of Joe’s offer to Sal and Sal’s Brian Robinson/Evan Engram-for-Kelce offer are not fully shown; only the latter is verbally declined.",
+    "The outcome of Mason versus Nathan’s turkey-hat wager is not available in this episode.",
+    "The end-of-episode unidentified speaker claims to have beaten Nathan and secured a bye, but no identity, score, or corroborating standings screen is provided.",
+    "Some standings screens use changing team names and handles; owner mappings below the clearly identified entries remain uncertain."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize team owners over NFL players and use static owner names where supported.",
+      "status": "fulfilled",
+      "details": "Recap and events center on owners; NFL players are included only for roster, waiver, injury, draft, and trade context."
+    },
+    {
+      "instruction": "Track available head-to-head matchups, scores, injuries, trades, and waiver actions.",
+      "status": "fulfilled",
+      "details": "Available Week 13 matchups, the confirmed waiver, reported injury context, and confirmed or proposed trades are retained. No matchup scores were supported."
+    },
+    {
+      "instruction": "Treat transcript and visuals as evidence, defer to visuals when they conflict, and avoid unsupported claims.",
+      "status": "fulfilled",
+      "details": "Platform-confirmed transactions are marked confirmed; unverified ownership mappings, waiver identity, trade outcomes, and the final celebratory claim remain qualified or open."
+    },
+    {
+      "instruction": "Honor recap exclusions in episode guidance.",
+      "status": "not_applicable",
+      "details": "No recap exclusions or supplemental-output declarations were provided in the episode guidance."
+    }
+  ],
+  "supplemental_outputs": []
+}

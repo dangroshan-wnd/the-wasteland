@@ -1,0 +1,683 @@
+{
+  "schema_version": 1,
+  "video_id": "WGyHzTpPRJU",
+  "video_title": "Sal Finally Trades Away Josh Allen",
+  "season": "Season 1",
+  "week": 11,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Sal Finally Trades Away Josh Allen",
+      "upload_date": "20241114",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "standings",
+      "summary": "Week 11 standings showed Zach first at 8-2 and Sal last at 3-7.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "team owner",
+          "name": "Tom"
+        },
+        {
+          "role": "team owner",
+          "name": "Joe"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "records",
+          "value": "Zach 8-2; Austin 7-3; Mason 6-4; Avery, Badake, Thomas, and Danny 5-5; Nathan, Bush, Tom, and Joe 4-6; Sal 3-7"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 94.633,
+          "end_seconds": 98.233,
+          "details": "On-screen standings list all owners and records."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Joe added Detroit Lions D/ST for $19 FAAB and dropped Tua Tagovailoa.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Joe"
+        },
+        {
+          "role": "added player",
+          "name": "Detroit Lions D/ST"
+        },
+        {
+          "role": "dropped player",
+          "name": "Tua Tagovailoa"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "FAAB bid",
+          "value": "$19"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 240.84,
+          "end_seconds": 248.72,
+          "details": "Waiver display and narration identify the add, drop, and $19 bid."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Bush added Jordan Mason for $11 FAAB and dropped Antonio Gibson.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "added player",
+          "name": "Jordan Mason"
+        },
+        {
+          "role": "dropped player",
+          "name": "Antonio Gibson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "FAAB bid",
+          "value": "$11"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 273.833,
+          "end_seconds": 298.4,
+          "details": "Waiver list shows Bush's roster adding Jordan Mason, dropping Antonio Gibson, for $11."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Zach added Mike Williams for $9 FAAB.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "added player",
+          "name": "Mike Williams"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "FAAB bid",
+          "value": "$9"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 295.64,
+          "end_seconds": 311.0,
+          "details": "Waiver display and transcript identify Zach's $9 acquisition."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Austin added Alec Pierce for $5 FAAB and dropped Jonnu Smith.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "added player",
+          "name": "Alec Pierce"
+        },
+        {
+          "role": "dropped player",
+          "name": "Jonnu Smith"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "FAAB bid",
+          "value": "$5"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 273.833,
+          "end_seconds": 298.4,
+          "details": "Waiver list shows Austin's add, drop, and $5 bid."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Danny received Tyreek Hill from Zach in exchange for Malik Nabers.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "player to Danny",
+          "name": "Tyreek Hill"
+        },
+        {
+          "role": "player to Zach",
+          "name": "Malik Nabers"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "trade status",
+          "value": "Accepted"
+        },
+        {
+          "name": "displayed trade date",
+          "value": "Nov 13, 2024"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 364.48,
+          "end_seconds": 370.0,
+          "details": "Transcript and accepted trade display identify the exchange."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 426.833,
+          "end_seconds": 429.0,
+          "details": "Trade dialog shows the accepted Nov. 13 transaction and both sides."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Sal acquired Bo Nix from Zach for $10 FAAB.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "player to Sal",
+          "name": "Bo Nix"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Sal sends",
+          "value": "$10 FAAB"
+        },
+        {
+          "name": "trade status",
+          "value": "Accepted"
+        },
+        {
+          "name": "displayed trade date",
+          "value": "Nov 13, 2024"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 624.8,
+          "end_seconds": 633.519,
+          "details": "Narration and accepted Sleeper trade card confirm Bo Nix for $10 FAAB."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Avery rejected a proposed trade with Sal; it did not complete.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Avery would receive",
+          "value": "Amari Cooper; Gus Edwards; Drake London"
+        },
+        {
+          "name": "Sal would receive",
+          "value": "DeAndre Hopkins; Jakobi Meyers; Tee Higgins; Tank Bigsby"
+        },
+        {
+          "name": "outcome",
+          "value": "Rejected by Avery"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1239.0,
+          "end_seconds": 1260.0,
+          "details": "Trade card marks Avery as REJECTED and Sal as ACCEPTED, with all assets shown."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Sal traded Drake London to Austin for Zay Flowers, Brian Thomas, and Jauan Jennings.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "player to Austin",
+          "name": "Drake London"
+        },
+        {
+          "role": "player to Sal",
+          "name": "Zay Flowers"
+        },
+        {
+          "role": "player to Sal",
+          "name": "Brian Thomas"
+        },
+        {
+          "role": "player to Sal",
+          "name": "Jauan Jennings"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "trade structure",
+          "value": "Austin sent three players for Drake London"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1290.96,
+          "end_seconds": 1306.88,
+          "details": "Commentary says Austin completed a three-for-one deal for Drake London."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1328.0,
+          "end_seconds": 1347.76,
+          "details": "Speakers explicitly name Zay Flowers, Brian Thomas, and Jauan Jennings as Sal's return."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Joe acquired Josh Allen, Gus Edwards, Javonte Williams, Jalen Coker, and $20 FAAB from Sal. Sal received Sam Darnold, Nick Chubb, Courtland Sutton, and Rico Dowdle.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Joe"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "player to Joe",
+          "name": "Josh Allen"
+        },
+        {
+          "role": "player to Joe",
+          "name": "Gus Edwards"
+        },
+        {
+          "role": "player to Joe",
+          "name": "Javonte Williams"
+        },
+        {
+          "role": "player to Joe",
+          "name": "Jalen Coker"
+        },
+        {
+          "role": "player to Sal",
+          "name": "Sam Darnold"
+        },
+        {
+          "role": "player to Sal",
+          "name": "Nick Chubb"
+        },
+        {
+          "role": "player to Sal",
+          "name": "Courtland Sutton"
+        },
+        {
+          "role": "player to Sal",
+          "name": "Rico Dowdle"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Joe also receives",
+          "value": "$20 FAAB"
+        },
+        {
+          "name": "trade status",
+          "value": "Accepted"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1464.64,
+          "end_seconds": 1471.0,
+          "details": "Accepted trade card lists the full exchange; narration identifies Joe as acquiring Josh Allen."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Zach reported that Malik Nabers, Trey McBride, Mike Evans, and Chris Olave were unavailable for his Week 11 matchup with Mason; he considered Mike Williams at WR and Tyjae Spears at flex.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "reported",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "opponent",
+          "name": "Mason"
+        },
+        {
+          "role": "unavailable player",
+          "name": "Malik Nabers"
+        },
+        {
+          "role": "unavailable player",
+          "name": "Trey McBride"
+        },
+        {
+          "role": "unavailable player",
+          "name": "Mike Evans"
+        },
+        {
+          "role": "unavailable player",
+          "name": "Chris Olave"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "possible replacements",
+          "value": "Mike Williams at WR; Tyjae Spears at flex"
+        },
+        {
+          "name": "availability cause",
+          "value": "Not individually specified; may include bye or injury"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1825.159,
+          "end_seconds": 1848.12,
+          "details": "Zach lists the unavailable players and possible replacements."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Zach and Mason agreed to a Week 11 matchup wager: Mason would sing the U.S. national anthem if he lost, while Zach would sing Chili's 'Baby Back Ribs' song if he lost.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "wager outcome",
+          "value": "Performance in Monday's video by the matchup loser"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1891.919,
+          "end_seconds": 1924.12,
+          "details": "The participants specify both performances and agree to the wager."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Danny added JuJu Smith-Schuster and dropped Marquez Valdes-Scantling.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "added player",
+          "name": "JuJu Smith-Schuster"
+        },
+        {
+          "role": "dropped player",
+          "name": "Marquez Valdes-Scantling"
+        }
+      ],
+      "scores": [],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 2019.194,
+          "end_seconds": 2021.0,
+          "details": "League activity panel explicitly shows Danny's free-agent move."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Danny reported that Tee Higgins had a quad injury and was uncertain to play in Week 11.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Tee Higgins"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Quad"
+        },
+        {
+          "name": "Week 11 availability",
+          "value": "Uncertain"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 2073.24,
+          "end_seconds": 2082.28,
+          "details": "Danny discusses uncertainty over Higgins playing through a quad injury."
+        }
+      ]
+    }
+  ]
+}

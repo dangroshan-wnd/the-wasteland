@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "video_id": "FKFRHyok5QI",
+  "video_title": "The Flock League Goes Crazy After This Trade",
+  "raw_sample_counts": {
+    "scene": 23,
+    "periodic": 20,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Flock League Goes Crazy After This Trade",
+      "upload_date": "20240831",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1.295,
+        5.295,
+        30.013,
+        57.941,
+        64.475,
+        82.295,
+        99.182,
+        118.235,
+        120.053,
+        139.84,
+        152.352,
+        174.057
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        180.08,
+        207.234,
+        209.234,
+        211.234,
+        233.015,
+        240.107,
+        259.954,
+        282.249,
+        292.115,
+        311.415,
+        323.274,
+        332.435
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        367.054,
+        376.214,
+        395.915,
+        412.315,
+        427.635,
+        436.835,
+        457.795,
+        467.375,
+        482.232,
+        502.914,
+        512.115,
+        538.115
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 586.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        540.115,
+        542.115,
+        548.674,
+        550.674,
+        552.674,
+        553.675,
+        555.675,
+        557.675,
+        561.475,
+        563.475,
+        570.475,
+        572.475
+      ]
+    }
+  ]
+}

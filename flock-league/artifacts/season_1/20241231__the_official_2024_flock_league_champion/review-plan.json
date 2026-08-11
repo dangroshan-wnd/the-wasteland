@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "video_id": "s9aEz8IiLps",
+  "video_title": "The Official 2024 Flock League Champion...",
+  "raw_sample_counts": {
+    "scene": 92,
+    "periodic": 53,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Official 2024 Flock League Champion...",
+      "upload_date": "20241231",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        2.794,
+        6.794,
+        16.715,
+        30.0,
+        51.033,
+        62.333,
+        84.067,
+        97.815,
+        112.875,
+        127.374,
+        150.0,
+        172.733
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        188.133,
+        210.0,
+        229.115,
+        233.115,
+        251.8,
+        260.733,
+        279.695,
+        289.435,
+        312.614,
+        321.695,
+        336.695,
+        355.474
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        360.575,
+        364.575,
+        383.254,
+        401.233,
+        431.214,
+        440.714,
+        453.833,
+        469.1,
+        492.194,
+        496.194,
+        515.267,
+        536.535
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        540.535,
+        544.167,
+        565.595,
+        567.595,
+        569.595,
+        600.0,
+        641.833,
+        647.567,
+        664.3,
+        688.333,
+        690.0,
+        717.4
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        720.915,
+        724.915,
+        742.094,
+        762.2,
+        778.433,
+        788.154,
+        798.655,
+        816.715,
+        848.834,
+        868.833,
+        874.033,
+        887.533
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        902.033,
+        909.733,
+        921.7,
+        930.0,
+        948.433,
+        966.767,
+        988.1,
+        997.6,
+        1017.067,
+        1020.0,
+        1050.0,
+        1066.367
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1080.0,
+        1116.5,
+        1117.767,
+        1120.1,
+        1140.0,
+        1165.867,
+        1175.133,
+        1193.067,
+        1209.833,
+        1225.333,
+        1239.833,
+        1248.533
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1261.8,
+        1273.267,
+        1276.633,
+        1282.033,
+        1296.167,
+        1313.3,
+        1320.0,
+        1341.1,
+        1357.7,
+        1384.133,
+        1398.3,
+        1412.667
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1440.0,
+      "end": 1571.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1440.0,
+        1448.833,
+        1470.0,
+        1477.833,
+        1486.4,
+        1488.367,
+        1500.0,
+        1502.467,
+        1515.3,
+        1530.0,
+        1544.367,
+        1560.0
+      ]
+    }
+  ]
+}

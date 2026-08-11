@@ -1,0 +1,2507 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T20:47:45.698753+00:00",
+  "fingerprint": "761acd438582a2fd0a1d29a9daf824e09c3a26fca75c20d9eba4407f71f729c2",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "TDe1t1rNmnM",
+  "video_title": "The Flock Playoffs Are Officially Set",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Flock Playoffs Are Officially Set",
+      "upload_date": "20241210",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 14 is stated to have ended the Flock League regular season; the window then shows Thursday/Saturday updates on still-unfinished Week 14 matchups and Avery’s injury/waiver decisions.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "The Flock League regular season officially ended after Week 14.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "week",
+                "value": "14"
+              },
+              {
+                "name": "season phase",
+                "value": "Regular season ended"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2.55,
+                "end_seconds": 4.56,
+                "details": "Speaker states that Week 14 is over and marks the official end of the Flock League regular season."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Sal (Team Anonymous) said his playoff outlook required a Week 14 win with high scoring and likely a loss by Badake and/or Thomas; this was a conditional scenario, not a clinch.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Sal",
+              "Team Anonymous",
+              "bedaki",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "14"
+              },
+              {
+                "name": "playoff condition",
+                "value": "Sal said he needed to win and score heavily, with Badake and/or Thomas likely needing to lose"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 39.6,
+                "end_seconds": 47.6,
+                "details": "Sal, labeled on-screen, describes the conditional playoff scenario for Team Anonymous."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "In the Thursday-night portion of Badake versus Sal/Team Anonymous, Sal reported 13 points from Tucker Kraft, while Badake had 25 points from Jordan Love, Jayden Reed, and a kicker. The matchup was still in progress.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "bedaki",
+              "Team Anonymous",
+              "Tucker craft",
+              "Jordan love",
+              "Jaden Reed"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Badake vs. Team Anonymous"
+              },
+              {
+                "name": "Team Anonymous Thursday points",
+                "value": "13"
+              },
+              {
+                "name": "Team Anonymous player played",
+                "value": "Tucker Kraft"
+              },
+              {
+                "name": "Badake Thursday points",
+                "value": "25"
+              },
+              {
+                "name": "Badake players played",
+                "value": "Jordan Love, Jayden Reed, kicker"
+              },
+              {
+                "name": "Jayden Reed points",
+                "value": "0"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 61.12,
+                "end_seconds": 34.72,
+                "details": "Sal reports the Thursday-night scoring snapshot and explicitly says it is through one game; this is not a final matchup result."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "The Thomas–Nathan Week 14 matchup was described as an unresolved near coin-flip after Thursday night, with Nathan receiving three Josh Jacobs touchdowns and Thomas getting a solid David Montgomery game.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Thomas",
+              "Nathan",
+              "Josh Jacobs",
+              "David Montgomery"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Thomas vs. Nathan"
+              },
+              {
+                "name": "status at time of update",
+                "value": "Unresolved; described as a 50-50 coin flip likely coming down to Monday Night Football"
+              },
+              {
+                "name": "Nathan player event",
+                "value": "Josh Jacobs scored 3 touchdowns"
+              },
+              {
+                "name": "Thomas player event",
+                "value": "David Montgomery had a solid game"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 97.52,
+                "end_seconds": 120.2,
+                "details": "Sal identifies Thomas versus Nathan as closely watched, reports the NFL player performances, and says the fantasy matchup remained essentially a coin flip."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Avery said Breece Hall was ruled out for Sunday, removing him from Avery’s Week 14 lineup options.",
+            "status": "reported",
+            "confidence": 0.93,
+            "raw_names": [
+              "Avery",
+              "Bree Hall"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Breece Hall"
+              },
+              {
+                "name": "fantasy owner",
+                "value": "Avery"
+              },
+              {
+                "name": "availability",
+                "value": "Ruled out for Sunday"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 124.2,
+                "end_seconds": 136.8,
+                "details": "Avery says Breece Hall was ruled out and identifies Hall as his first-round, sixth-overall selection; he will not play in the Sunday slate."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Avery said he added Isaiah Davis off waivers as a possible replacement for Breece Hall; he had not yet decided whether to start Davis or the player referred to as “Brayan/Brilin Allen.”",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Avery",
+              "Isaiah Davis",
+              "Brayan Allen",
+              "Brilin Allen",
+              "Bree Hall"
+            ],
+            "facts": [
+              {
+                "name": "waiver add",
+                "value": "Isaiah Davis"
+              },
+              {
+                "name": "added by",
+                "value": "Avery"
+              },
+              {
+                "name": "purpose",
+                "value": "Potential Week 14 replacement following Breece Hall being ruled out"
+              },
+              {
+                "name": "start decision",
+                "value": "Undecided between Isaiah Davis and the player referred to as Brayan/Brilin Allen"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 153.8,
+                "end_seconds": 179.88,
+                "details": "Avery explicitly says he picked up Isaiah Davis on waivers and discusses an unresolved choice between Davis and Allen."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript spells Badake as “bedaki”; the owner identity is likely Badake from season guidance, but the on-screen matchup details in this window are too blurry to independently verify it.",
+          "The transcript inconsistently renders Breece Hall as “Bree Hall” and Braelon Allen as “Brayan/Brilin Allen”; raw wording has been preserved where relevant.",
+          "No final Week 14 matchup winners, scores, playoff seeds, or qualifiers are established in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "An in-progress Bush (@BuschLeaguee) vs. Avery (@averyhuffman) fantasy matchup is shown, with Avery holding a large live lead. Kenneth Walker being ruled out is discussed as elevating Zach Charbonnet, who is on Bush’s displayed roster.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery is leading Bush in their still-live fantasy matchup, 123.82 to 50.80; the display gives Avery a 63% win probability. This is not a final result.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Avery",
+              "Bush",
+              "@averyhuffman",
+              "@BuschLeaguee",
+              "Mickey Mouse Analyst"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Bush (@BuschLeaguee) vs. Avery (@averyhuffman)"
+              },
+              {
+                "name": "live score",
+                "value": "Bush 50.80, Avery 123.82"
+              },
+              {
+                "name": "displayed win probability",
+                "value": "Bush 37%, Avery 63%"
+              },
+              {
+                "name": "completion status",
+                "value": "In progress"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 262.915,
+                "end_seconds": 264.5,
+                "details": "The matchup card identifies @BuschLeaguee versus @averyhuffman and displays 50.80–123.82 with 37% and 63% win probabilities."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 256.68,
+                "end_seconds": 267.0,
+                "details": "The speaker says Avery is up 73 points and projected to win, consistent with an ongoing matchup rather than a completed result."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Kenneth Walker was reported out for the week. The speaker says this makes Zach Charbonnet Seattle's starting running back; Charbonnet is listed on Bush's displayed roster.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Kenneth Walker",
+              "Zach Charbonnet",
+              "Zack shanet"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Kenneth Walker"
+              },
+              {
+                "name": "update",
+                "value": "Reported out this week"
+              },
+              {
+                "name": "fantasy impact",
+                "value": "Zach Charbonnet described as Seattle's starting running back"
+              },
+              {
+                "name": "roster association",
+                "value": "Z. Charbonnet appears on @BuschLeaguee's displayed roster"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 199.84,
+                "end_seconds": 225.36,
+                "details": "The speaker says Kenneth Walker is out this week and that Zach Charbonnet is again the Seahawks' starting running back."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 187.234,
+                "end_seconds": 196.874,
+                "details": "The @BuschLeaguee lineup display includes 'Z. Charbonnet' in the starters list."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Zach Charbonnet had 28 points by halftime in his NFL game, per the speaker. This is player/game context, not a final fantasy-matchup result.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Zach Charbonnet",
+              "Zack shanet"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Zach Charbonnet"
+              },
+              {
+                "name": "reported scoring point",
+                "value": "28 fantasy points in the first half"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 288.96,
+                "end_seconds": 306.92,
+                "details": "The speaker emphatically says Charbonnet has 28 points in the first half."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speaker refers to 'Cory/Corey,' but that identity is not clearly established in this window and does not match the supplied season owner list.",
+          "Kenneth Walker's specific reason for the current-week absence is not established here; the transcript only mentions a hip injury from an earlier Week 3 absence."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Late-week matchup monitoring shows Tom projected to beat an unnamed speaker, Bush leading Avery while awaiting Tee Higgins, and Sal leading Austin. Sal reports Bucky Irving’s back-injury aggravation and a lineup switch from Ladd McConkey to Amari Cooper.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "An unnamed speaker says he will lose his matchup to Tom, which would move Tom to 7-7.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Tom"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Tom"
+              },
+              {
+                "name": "loser",
+                "value": "Unnamed speaker"
+              },
+              {
+                "name": "Tom stated record after win",
+                "value": "7-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 376.12,
+                "end_seconds": 380.96,
+                "details": "Speaker says, “I am going to fall to Tom. Tom's going to move to seven and seven.”"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Bush was leading Avery 145.86-131.82 in an in-progress Week 14 matchup; Bush still had Tee Higgins remaining and said he needed 22 points from him.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Bush",
+              "Avery",
+              "Tee Higgins"
+            ],
+            "facts": [
+              {
+                "name": "current score",
+                "value": "Bush 145.86, Avery 131.82"
+              },
+              {
+                "name": "Bush record displayed",
+                "value": "5-8"
+              },
+              {
+                "name": "Avery record displayed",
+                "value": "7-6"
+              },
+              {
+                "name": "Bush player remaining",
+                "value": "Tee Higgins"
+              },
+              {
+                "name": "points Bush said he needed from Higgins",
+                "value": "22"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 404.3,
+                "end_seconds": 407.19,
+                "details": "Fantasy matchup display shows @BuschLeague/Mickey Mouse Analyst at 145.86 versus @averyhuffman at 131.82, with records 5-8 and 7-6 respectively."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 386.919,
+                "end_seconds": 410.0,
+                "details": "Speaker identifies Mahomes and Kelce as Bush's players, then says he needs 22 from Tee Higgins and could potentially win Monday night."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Sal was ahead of Austin 121.14-110.72 in an in-progress matchup; the display favored Sal 63% to win.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Sal",
+              "Austin"
+            ],
+            "facts": [
+              {
+                "name": "current score",
+                "value": "Sal 121.14, Austin 110.72"
+              },
+              {
+                "name": "win probability displayed",
+                "value": "Sal 63%, Austin 37%"
+              },
+              {
+                "name": "Austin record displayed",
+                "value": "7-6"
+              },
+              {
+                "name": "Sal record displayed",
+                "value": "6-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 471.133,
+                "end_seconds": 473.0,
+                "details": "Matchup display shows @AustinHood/Atlanta 49ers at 110.72 versus @SalVertl/Anonymous at 121.14, with 37% and 63% win probabilities."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 411.24,
+                "end_seconds": 425.0,
+                "details": "The discussion identifies the matchup as Sal versus Austin and says Sal is expected to win."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Sal reports that Bucky Irving left with a re-aggravated back injury and was doubtful to return.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Sal",
+              "Bucky Irving"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Bucky Irving"
+              },
+              {
+                "name": "injury",
+                "value": "Back injury re-aggravation"
+              },
+              {
+                "name": "game status reported",
+                "value": "Doubtful to return"
+              },
+              {
+                "name": "fantasy owner affected",
+                "value": "Sal"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 498.96,
+                "end_seconds": 510.64,
+                "details": "Sal describes his matchup with Austin and says, “Bucky Irving leaves with a back injury, re-aggravated, and doubtful to return.”"
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Sal says he started Amari Cooper over the highly questionable Ladd McConkey for Sunday night, avoiding a waiver pickup.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Sal",
+              "Amari Cooper",
+              "Ladd McConkey",
+              "Jaylen Tolbert"
+            ],
+            "facts": [
+              {
+                "name": "lineup decision",
+                "value": "Started Amari Cooper over Ladd McConkey"
+              },
+              {
+                "name": "reason stated",
+                "value": "McConkey was highly questionable for Sunday night"
+              },
+              {
+                "name": "waiver alternative mentioned but not used",
+                "value": "Jaylen Tolbert"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 513.12,
+                "end_seconds": 526.52,
+                "details": "Sal says Ladd McConkey was highly questionable and that he chose to start Amari Cooper over him rather than make a waiver-wire pickup such as Jaylen Tolbert."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speaker who says he will lose to Tom is not identified in this window, so Tom’s opponent cannot be mapped to a team owner.",
+          "The Bush-Avery and Sal-Austin displays are live/in-progress snapshots, not final matchup results."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Monday-night playoff-race update: one matchup was tied entering MNF, while Badake was said to have lost a must-win matchup to Zach despite Zach's multiple bye-week absences.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Badake reportedly lost a must-win fantasy matchup to Zach, even though Zach had Derrick Henry, Joe Mixon, Jonathan Taylor, and Terry McLaurin unavailable on bye.",
+            "status": "confirmed",
+            "confidence": 0.87,
+            "raw_names": [
+              "Badake",
+              "Zach",
+              "Henry",
+              "Mixon",
+              "Taylor",
+              "McLaren"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Zach"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "matchup importance",
+                "value": "Must-win for Badake"
+              },
+              {
+                "name": "Zach bye-week absences",
+                "value": "Henry, Mixon, Taylor, McLaren"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 639.88,
+                "end_seconds": 688.96,
+                "details": "Narrator says Badake had 'the absolute bye' against Zach because Zach had several players on bye, then explicitly says, 'Badake loses' and calls it a must-win matchup."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 678.1,
+                "end_seconds": 719.0,
+                "details": "On-screen label identifies Badake; a fantasy matchup screen shows his lineup and low point totals, consistent with the narrated loss."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "An unnamed narrator's matchup was tied at approximately 121 points apiece entering Monday Night Football; the narrator had Rico Dowdle remaining and the opponent had CeeDee Lamb remaining.",
+            "status": "confirmed",
+            "confidence": 0.85,
+            "raw_names": [
+              "Rico",
+              "CD Lamb"
+            ],
+            "facts": [
+              {
+                "name": "score at update",
+                "value": "Approximately 121–121"
+              },
+              {
+                "name": "narrator remaining player",
+                "value": "Rico"
+              },
+              {
+                "name": "opponent remaining player",
+                "value": "CD Lamb"
+              },
+              {
+                "name": "narrator estimated win probability",
+                "value": "38–40%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 607.36,
+                "end_seconds": 631.84,
+                "details": "Speaker says it is Monday morning, both teams have 121 points with nearly identical decimals, and that the opponent has CD Lamb while he has Rico; he estimates a 38–40% chance to win."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the unnamed narrator and their opponent in the 121–121 Monday-night matchup is not established within this window.",
+          "The final score of Badake versus Zach is not shown or stated in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Nathan defeated Thomas in a high-scoring completed matchup, dropping Thomas to 6-8 and, per the discussion, out of playoff contention. Several remaining Monday-night matchups were still unresolved and would determine the remaining playoff berths.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Nathan defeated Thomas, 186.28-171.88, in a completed matchup.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Nathan",
+              "Thomas",
+              "One of Five",
+              "Team ThomasWadde"
+            ],
+            "facts": [
+              {
+                "name": "winner_owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "loser_owner",
+                "value": "Thomas"
+              },
+              {
+                "name": "winner_score",
+                "value": "186.28"
+              },
+              {
+                "name": "loser_score",
+                "value": "171.88"
+              },
+              {
+                "name": "winner_record_after_matchup",
+                "value": "6-8"
+              },
+              {
+                "name": "loser_record_after_matchup",
+                "value": "6-8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 765.56,
+                "end_seconds": 789.84,
+                "details": "Transcript says Nathan's team scored 185 (rounded commentary), took down Thomas, and that both teams move to 6-8; the matchup screen visibly shows Nathan's 'One of Five' over Team ThomasWadde, 186.28 to 171.88."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Thomas was stated to be eliminated from playoff contention after the loss and move to 6-8.",
+            "status": "reported",
+            "confidence": 0.86,
+            "raw_names": [
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Thomas"
+              },
+              {
+                "name": "record_after_matchup",
+                "value": "6-8"
+              },
+              {
+                "name": "playoff_status",
+                "value": "out of playoffs"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 855.92,
+                "end_seconds": 868.64,
+                "details": "Speaker says Thomas will move to 6-8 and, after checking points scored, concludes that he is out of the playoffs."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The remaining Monday-night games involving Zach/Badake and Austin/Sal were still in progress; this window provides scenarios rather than final results.",
+          "Nathan verbally calls his score '185,' while the visible matchup screen shows 186.28; the on-screen score was used."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 14 Monday-night update: Joe held a substantial live lead over Danny, while several playoff outcomes remained conditional on the remaining games.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Joe was leading Danny 131.38–88.16 in an in-progress Week 14 matchup; the narrator said Danny was likely to lose, but the result was not final.",
+            "status": "speculative",
+            "confidence": 0.9,
+            "raw_names": [
+              "Joe",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "14"
+              },
+              {
+                "name": "live_score",
+                "value": "Joe 131.38, Danny 88.16"
+              },
+              {
+                "name": "matchup_status",
+                "value": "In progress; Joe was projected to win"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 900.0,
+                "end_seconds": 907.7,
+                "details": "Transcript says Danny was 'looking like he's going to lose' halfway through the game; the on-screen Week 14 matchup shows 88.16 versus 131.38."
+              },
+              {
+                "source": "both",
+                "start_seconds": 1031.0,
+                "end_seconds": 1035.3,
+                "details": "Narrator says Joe is going to take down Danny 'presumably' and that they will see what happens; this confirms the matchup was still unresolved."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "The narrator said Joe had previously traded heavily to acquire Josh Allen; exact trade terms were not provided.",
+            "status": "reported",
+            "confidence": 0.77,
+            "raw_names": [
+              "Joe",
+              "Josh Allen"
+            ],
+            "facts": [
+              {
+                "name": "acquired_player",
+                "value": "Josh Allen"
+              },
+              {
+                "name": "trade_terms",
+                "value": "Not specified; described hyperbolically as trading his 'entire team'"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 921.6,
+                "end_seconds": 926.0,
+                "details": "Narrator: 'Joe traded his entire team for Josh Allen and it worked out.'"
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Will Dissly left the Sunday-night NFL game at halftime with an apparent shoulder injury.",
+            "status": "reported",
+            "confidence": 0.74,
+            "raw_names": [
+              "Will Dissly"
+            ],
+            "facts": [
+              {
+                "name": "injury",
+                "value": "Apparent shoulder injury"
+              },
+              {
+                "name": "game_status",
+                "value": "Left at halftime"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 968.8,
+                "end_seconds": 972.2,
+                "details": "Narrator says 'Will Dissly leaving at half on the apparent shoulder injury.'"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "The narrator's team needed 35.2 combined PPR points from Chase Brown and Brandon Aubrey on Monday night to beat Joe; this was a pending requirement, not a completed result.",
+            "status": "speculative",
+            "confidence": 0.88,
+            "raw_names": [
+              "Joe",
+              "Chase Brown",
+              "Brandon Aubrey"
+            ],
+            "facts": [
+              {
+                "name": "points_needed",
+                "value": "35.2 combined PPR points"
+              },
+              {
+                "name": "players_needed",
+                "value": "Chase Brown and Brandon Aubrey"
+              },
+              {
+                "name": "matchup_status",
+                "value": "Pending Monday night"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 980.8,
+                "end_seconds": 1006.8,
+                "details": "Narrator says they need '35.2 PPR points combined from Chase Brown and Brandon Aubrey tonight' to win the matchup with Joe."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The narrator stated that Joe beating Danny, together with Tom finishing off the narrator, would put Joe and Tom in the fantasy playoffs. Danny's playoff spot was therefore at risk, but these outcomes were unresolved.",
+            "status": "speculative",
+            "confidence": 0.83,
+            "raw_names": [
+              "Joe",
+              "Danny",
+              "Tom"
+            ],
+            "facts": [
+              {
+                "name": "playoff_condition",
+                "value": "Joe beats Danny and Tom finishes off the narrator"
+              },
+              {
+                "name": "conditional_playoff_teams",
+                "value": "Joe and Tom"
+              },
+              {
+                "name": "at_risk_team_owner",
+                "value": "Danny"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1031.0,
+                "end_seconds": 1058.7,
+                "details": "Narrator says Danny may lose his playoff spot and that 'if [the narrator] loses [and] Joe beats Danny,' Joe and Tom make the playoffs."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not identify the narrator/team owner who needed Chase Brown and Brandon Aubrey, so that pending matchup cannot be assigned to a named owner with confidence.",
+          "Joe-Danny was still in progress in this window; confirm the final result and score elsewhere.",
+          "The exact players and terms in Joe's Josh Allen trade are not stated."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A late Ja'Marr Chase touchdown in the Bengals-Cowboys Monday night game swung a Flock matchup to Mason by about two points and secured Mason a playoff bye. The on-screen matchup board also shows several other completed results, though their team-owner identities are not established in this window.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason won a Monday-night fantasy matchup by roughly two points after a Ja'Marr Chase touchdown; the win secured Mason a playoff bye.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Mason",
+              "Ja'Marr Chase",
+              "Team of Destiny",
+              "Mason's Greedaddy"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Mason"
+              },
+              {
+                "name": "margin",
+                "value": "Approximately 2 points (speaker also says 1.8 points)"
+              },
+              {
+                "name": "playoff_effect",
+                "value": "Secured a bye"
+              },
+              {
+                "name": "decisive_player/event",
+                "value": "Ja'Marr Chase late touchdown in Bengals-Cowboys"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 119.24,
+                "end_seconds": 128.28,
+                "details": "Speaker says a Cowboys muffed punt led to a Joe Burrow touchdown pass to Ja'Marr Chase, 'that gives Mason a two point win.'"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 144.32,
+                "end_seconds": 147.28,
+                "details": "A speaker celebrates the Chase touchdown and says, 'that's the bye we just got.'"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1178.567,
+                "end_seconds": 1200.0,
+                "details": "Matchup-board overlay shows Team of Destiny narrowly ahead of Mason's Greedaddy; displayed scores appear to be separated by about 1.8 points."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "The on-screen board shows Hit with the Nico defeating WE BELIEVE, 190.52 to 172.38.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Hit with the Nico",
+              "WE BELIEVE"
+            ],
+            "facts": [
+              {
+                "name": "winner_team_name",
+                "value": "Hit with the Nico"
+              },
+              {
+                "name": "loser_team_name",
+                "value": "WE BELIEVE"
+              },
+              {
+                "name": "score",
+                "value": "190.52–172.38"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1178.567,
+                "end_seconds": 1200.0,
+                "details": "The second row of the matchup-board overlay displays Hit with the Nico 190.52 vs WE BELIEVE 172.38, with the winner bar on Hit with the Nico."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "The on-screen board shows Do It For Chris defeating I NEED to WIN., 94.39 to 87.76.",
+            "status": "confirmed",
+            "confidence": 0.72,
+            "raw_names": [
+              "I NEED to WIN.",
+              "Do It For Chris"
+            ],
+            "facts": [
+              {
+                "name": "winner_team_name",
+                "value": "Do It For Chris"
+              },
+              {
+                "name": "loser_team_name",
+                "value": "I NEED to WIN."
+              },
+              {
+                "name": "score",
+                "value": "94.39–87.76"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1178.567,
+                "end_seconds": 1200.0,
+                "details": "The third row of the matchup-board overlay displays I NEED to WIN. 87.76 vs Do It For Chris 94.39, with the winner bar on Do It For Chris."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "The on-screen board shows Atlanta 49ers defeating Anonymous, 141.33 to 136.34.",
+            "status": "confirmed",
+            "confidence": 0.72,
+            "raw_names": [
+              "Atlanta 49ers",
+              "Anonymous"
+            ],
+            "facts": [
+              {
+                "name": "winner_team_name",
+                "value": "Atlanta 49ers"
+              },
+              {
+                "name": "loser_team_name",
+                "value": "Anonymous"
+              },
+              {
+                "name": "score",
+                "value": "141.33–136.34"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1178.567,
+                "end_seconds": 1200.0,
+                "details": "The fourth row of the matchup-board overlay displays Atlanta 49ers 141.33 vs Anonymous 136.34, with the winner bar on Atlanta 49ers."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not reliably identify the owner behind Team of Destiny or Mason's Greedaddy, nor the owners behind the other displayed team names.",
+          "The exact displayed scores on the matchup board are somewhat small; the first matchup's precise totals should be reviewed if needed."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 14 regular-season results are shown; Mason clinches a playoff bye, while Avery finishes 7-7 after a loss to Cory.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason defeated Tom in Week 14, 147.70 to 145.06.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Mason",
+              "Tom",
+              "@MasonDood",
+              "@StevenSwagal",
+              "Team of Destiny",
+              "Mason's Granddaddy"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "14"
+              },
+              {
+                "name": "winner",
+                "value": "Mason (@MasonDood / Team of Destiny)"
+              },
+              {
+                "name": "loser",
+                "value": "Tom (@StevenSwagal / Mason's Granddaddy)"
+              },
+              {
+                "name": "winner_score",
+                "value": "147.70"
+              },
+              {
+                "name": "loser_score",
+                "value": "145.06"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1399.467,
+                "end_seconds": 1400.2,
+                "details": "The Week 14 league matchup screen displays @MasonDood / Team of Destiny 147.70 over @StevenSwagal / Mason's Granddaddy 145.06."
+              },
+              {
+                "source": "both",
+                "start_seconds": 1395.52,
+                "end_seconds": 1404.48,
+                "details": "The speaker says his team won and moved to 9-5; the visual matchup screen identifies the winning team as Mason's."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Mason says his win moved him to 9-5 and secured a playoff berth with a first-round bye.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "9-5"
+              },
+              {
+                "name": "playoff_status",
+                "value": "Clinched playoff berth"
+              },
+              {
+                "name": "playoff_seed_status",
+                "value": "First-round bye"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1395.52,
+                "end_seconds": 1408.88,
+                "details": "The speaker states, \"we win,\" \"move on to nine and five,\" and says, \"we are in not only the playoffs but we have a bye.\""
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1399.467,
+                "end_seconds": 1400.2,
+                "details": "The Week 14 league screen shows Mason (@MasonDood) winning."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Avery says he lost to Cory in the regular-season finale and finished 7-7.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Avery",
+              "Cory"
+            ],
+            "facts": [
+              {
+                "name": "loser",
+                "value": "Avery"
+              },
+              {
+                "name": "winner",
+                "value": "Cory"
+              },
+              {
+                "name": "Avery_final_regular_season_record",
+                "value": "7-7"
+              },
+              {
+                "name": "matchup_score",
+                "value": "Not provided"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1289.919,
+                "end_seconds": 1324.64,
+                "details": "Avery says, \"I am seven and seven ending the regular season,\" then addresses Cory: \"you played well\" and says Cory's team had a \"generational week against mine.\""
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Nathan defeated Thomas in Week 14, 186.26 to 177.38.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Nathan",
+              "Thomas",
+              "@NathanSchmidt",
+              "@ThomasWaddle",
+              "The Chosen One",
+              "Team ThomasWaddle"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "14"
+              },
+              {
+                "name": "winner",
+                "value": "Nathan (@NathanSchmidt / The Chosen One)"
+              },
+              {
+                "name": "loser",
+                "value": "Thomas (@ThomasWaddle / Team ThomasWaddle)"
+              },
+              {
+                "name": "winner_score",
+                "value": "186.26"
+              },
+              {
+                "name": "loser_score",
+                "value": "177.38"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1399.467,
+                "end_seconds": 1400.2,
+                "details": "The Week 14 league matchup screen displays @NathanSchmidt / The Chosen One 186.26 versus @ThomasWaddle / Team ThomasWaddle 177.38, with Nathan's side marked as the winner."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Avery says he finished roughly 10 points behind Zach for the season lead in total points scored.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Avery",
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "statistic",
+                "value": "Season total points scored"
+              },
+              {
+                "name": "gap",
+                "value": "Approximately 10 points"
+              },
+              {
+                "name": "leader",
+                "value": "Zach"
+              },
+              {
+                "name": "runner_up",
+                "value": "Avery"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1293.6,
+                "end_seconds": 1306.36,
+                "details": "Avery says he finished \"about 10 points off\" the season points lead and was behind Zach by about 10 points when all was said and done."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Cory is mentioned as Avery's opponent but is not one of the supplied Season 1 owner names; confirm Cory's identity and corresponding team owner.",
+          "No final score is supplied for Cory's win over Avery."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Zach defeated Badake in Week 14, eliminating Badake from playoff contention.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Zach beat Badake 104.76–97.74 in Week 14.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Zach",
+              "Badake",
+              "@zacragg",
+              "@Badake"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "14"
+              },
+              {
+                "name": "winner",
+                "value": "Zach"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "score",
+                "value": "104.76–97.74"
+              },
+              {
+                "name": "Zach record shown",
+                "value": "11-3"
+              },
+              {
+                "name": "Badake record shown",
+                "value": "6-8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1500.44,
+                "end_seconds": 1511.92,
+                "details": "Narration says Zach defeated Badake after Badake scored 97 points."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1561.3,
+                "end_seconds": 1590.0,
+                "details": "Week 14 matchup display shows @zacragg's Do It For Chris defeating @Badake's I NEED to WIN, 104.76 to 97.74, with records 11-3 and 6-8 respectively."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Badake was eliminated from playoff contention following the loss to Zach.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Badake",
+              "Daniel kku badaki"
+            ],
+            "facts": [
+              {
+                "name": "team owner",
+                "value": "Badake"
+              },
+              {
+                "name": "playoff status",
+                "value": "eliminated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1500.44,
+                "end_seconds": 1505.32,
+                "details": "Narrator says Badake loses and misses the playoffs."
+              },
+              {
+                "source": "both",
+                "start_seconds": 1567.559,
+                "end_seconds": 1575.039,
+                "details": "Speaker explicitly states that Daniel/Badake was eliminated from playoff contention; the preceding matchup display establishes the loss."
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 9,
+      "start": 1620.0,
+      "end": 1800.0,
+      "transient_image_count": 10,
+      "review": {
+        "window_summary": "A Week 14 Flock League matchup screen shows Badake’s team against a team labeled “Do It For Chris,” while commentary focuses on Badake’s poor player performances.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Week 14 matchup displayed: @Badake (“I NEED to WIN.”) versus @zazrage (“Do It For Chris”). The visible matchup totals are 97.74 and 104.76, respectively; however, the screen also displays a yellow “WIN” badge on Badake’s side, making the actual winner unclear from this window alone.",
+            "status": "unclear",
+            "confidence": 0.62,
+            "raw_names": [
+              "Badake",
+              "@Badake",
+              "@zazrage",
+              "I NEED to WIN.",
+              "Do It For Chris"
+            ],
+            "facts": [
+              {
+                "name": "Week",
+                "value": "14"
+              },
+              {
+                "name": "Displayed matchup score (Badake side)",
+                "value": "97.74"
+              },
+              {
+                "name": "Displayed matchup score (opponent side)",
+                "value": "104.76"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1620.0,
+                "end_seconds": 1620.8,
+                "details": "League matchup screen shows @Badake versus @zazrage, team labels, 97.74–104.76 displayed totals, and a conflicting yellow WIN badge on Badake’s side."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Badake’s displayed Week 14 lineup included Jordan Love (14.54), Saquon Barkley (14.40), James Cook (4.90), Jayden Reed (0.00), and the Bills D/ST (-4.00); the speaker criticizes these outputs. This is player/NFL scoring context, not independently a fantasy matchup result.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Jordan Love",
+              "Saquon Barkley",
+              "James Cook",
+              "Jayden Reed",
+              "Buffalo Bills"
+            ],
+            "facts": [
+              {
+                "name": "Jordan Love fantasy points shown",
+                "value": "14.54"
+              },
+              {
+                "name": "Saquon Barkley fantasy points shown",
+                "value": "14.40"
+              },
+              {
+                "name": "James Cook fantasy points shown",
+                "value": "4.90"
+              },
+              {
+                "name": "Jayden Reed fantasy points shown",
+                "value": "0.00"
+              },
+              {
+                "name": "Bills D/ST fantasy points shown",
+                "value": "-4.00"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1688.08,
+                "end_seconds": 1798.24,
+                "details": "Transcript criticizes Love, Barkley, Cook, Reed, and Bills D/ST scoring; the Week 14 matchup lineup visually shows their corresponding point totals."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The Week 14 winner needs review: the displayed score favors @zazrage 104.76–97.74, but Badake’s side simultaneously carries a yellow “WIN” badge."
+        ]
+      }
+    },
+    {
+      "window_index": 10,
+      "start": 1800.0,
+      "end": 1980.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 14 review includes Austin defeating an opponent referred to as “S,” eliminating S from playoff contention and sending him to the toilet bowl. The speaker also discusses S’s depleted roster and recent trades.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Austin defeated the manager referred to as “S”/“Anonymous,” 142.52–136.24. The loss eliminated S from playoff contention and placed him in the toilet bowl.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Austin",
+              "S",
+              "Anonymous"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "14"
+              },
+              {
+                "name": "winner",
+                "value": "Austin"
+              },
+              {
+                "name": "loser",
+                "value": "S / Anonymous"
+              },
+              {
+                "name": "score",
+                "value": "142.52–136.24"
+              },
+              {
+                "name": "playoff consequence",
+                "value": "S missed the playoffs and entered the toilet bowl"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1876.399,
+                "end_seconds": 1879.799,
+                "details": "Transcript states that if S had won he would have made the playoffs, but S instead lost; the matchup display shows AustinHood/Atlanta 49ers 142.52 versus S/Anonymous 136.24 at 00:31:22."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1913.399,
+                "end_seconds": 1916.96,
+                "details": "Speaker says S's anonymous/masked run got him into the toilet bowl."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1882.067,
+                "end_seconds": 1890.0,
+                "details": "Week 14 matchup display identifies @AustinHood's Atlanta 49ers and @Sal? / Anonymous, with final scores 142.52 and 136.24."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "S reported that Ladd McConkey did not play and that Bucky Irving exited essentially after the first quarter during the week.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "S",
+              "Ladd McConkey",
+              "Bucky Irving"
+            ],
+            "facts": [
+              {
+                "name": "affected fantasy manager",
+                "value": "S (identity not fully clear)"
+              },
+              {
+                "name": "player",
+                "value": "Ladd McConkey"
+              },
+              {
+                "name": "update",
+                "value": "Did not play"
+              },
+              {
+                "name": "player",
+                "value": "Bucky Irving"
+              },
+              {
+                "name": "update",
+                "value": "Left essentially after the first quarter"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1930.76,
+                "end_seconds": 1937.279,
+                "details": "Speaker says their team had four players on bye, that 'Ladd McConkey ends up not playing,' and 'Bucky Irving leaves basically after the first quarter.'"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "The manager referred to as S said his team made a couple of trades in the prior three weeks, improving from a brutal team to one he considered among the league’s top teams when healthy.",
+            "status": "reported",
+            "confidence": 0.72,
+            "raw_names": [
+              "S"
+            ],
+            "facts": [
+              {
+                "name": "affected fantasy manager",
+                "value": "S (identity not fully clear)"
+              },
+              {
+                "name": "trade details",
+                "value": "A couple of trades; players not specified"
+              },
+              {
+                "name": "timing",
+                "value": "Within the prior three weeks"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1921.08,
+                "end_seconds": 1930.76,
+                "details": "Speaker says that three weeks earlier they had a brutal team and that 'we made a couple of trades,' then characterizes the current roster as arguably top-three or top-two when healthy."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The losing manager is called “S” in the transcript; the visual handle appears to begin with “Sal,” but the exact owner identity should be verified before normalizing the name.",
+          "The specific players and terms in S’s recent trades are not provided in this window.",
+          "A separate matchup display around 00:30:46 shows @Badake versus @zach? with conflicting/unclear winner presentation; no result is recorded from it."
+        ]
+      }
+    },
+    {
+      "window_index": 11,
+      "start": 1980.0,
+      "end": 2160.0,
+      "transient_image_count": 11,
+      "review": {
+        "window_summary": "Week 14 results and tiebreaker chaos determined the playoff field: Joe secured a playoff berth after a win and multiple needed losses; Avery was identified as the No. 4 seed at 7-7, while Bush was last at 6-8 entering Week 15.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Nathan defeated Thomas, 186.26-177.38. Thomas had been guaranteed a playoff spot with a win, but lost.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Nathan",
+              "Thomas",
+              "@BenjaminSchmidt",
+              "@ThomasWadde"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Nathan"
+              },
+              {
+                "name": "loser",
+                "value": "Thomas"
+              },
+              {
+                "name": "score",
+                "value": "186.26-177.38"
+              },
+              {
+                "name": "playoff implication",
+                "value": "A Thomas win would have guaranteed a playoff berth; the loss left his status unresolved in this window."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1987.84,
+                "end_seconds": 1998.32,
+                "details": "The speaker introduces Nathan vs. Thomas and says Thomas loses after noting a win would have guaranteed a playoff spot."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1988.967,
+                "end_seconds": 1988.967,
+                "details": "League screen shows The Chosen One (@BenjaminSchmidt) 186.26 versus Team ThomasWadde (@ThomasWadde) 177.38."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Danny lost 130.52-132.38 to the team shown as @GreenMeansMoney / “WE BELIEVE.”",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Danny",
+              "@GreenMeansMoney",
+              "WE BELIEVE"
+            ],
+            "facts": [
+              {
+                "name": "loser",
+                "value": "Danny"
+              },
+              {
+                "name": "winner",
+                "value": "@GreenMeansMoney / WE BELIEVE"
+              },
+              {
+                "name": "score",
+                "value": "130.52-132.38"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2134.28,
+                "end_seconds": 2155.04,
+                "details": "Joe's playoff scenario required Danny to lose; the speaker then says Joe won and the four people ahead of him lost."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 2129.967,
+                "end_seconds": 2135.2,
+                "details": "League screen shows @Danny... / Hit with the Nico at 130.52 versus @GreenMeansMoney / WE BELIEVE at 132.38."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Badake lost, 97.74-104.76, in a result necessary for Joe's playoff scenario.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Badake",
+              "@Badake"
+            ],
+            "facts": [
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "score",
+                "value": "97.74-104.76"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2134.28,
+                "end_seconds": 2155.04,
+                "details": "The speaker says Joe needed Badake to lose, then confirms that Joe won and all four creators ahead of him lost."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 2129.967,
+                "end_seconds": 2135.2,
+                "details": "League screen shows @Badake's team at 97.74 versus an opposing total of 104.76."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Joe made the playoffs after winning and getting the four required losses from teams ahead of him, including Danny, Tom, and Badake.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Joe",
+              "Danny",
+              "Tom",
+              "Badake"
+            ],
+            "facts": [
+              {
+                "name": "Joe result",
+                "value": "Won"
+              },
+              {
+                "name": "playoff outcome",
+                "value": "Made playoffs"
+              },
+              {
+                "name": "needed losses explicitly named",
+                "value": "Danny, Tom, Badake; one additional name is unclear in the transcript"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2134.28,
+                "end_seconds": 2159.84,
+                "details": "The speaker says Joe needed a win plus losses by Danny, Tom, Badake, and another unclear person; Joe won, the four ahead of him lost, and Joe made the playoffs."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Avery was the No. 4 playoff seed at 7-7.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "seed",
+                "value": "4"
+              },
+              {
+                "name": "record",
+                "value": "7-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2031.12,
+                "end_seconds": 2040.68,
+                "details": "The speaker states that Avery, at 7-7, was the four seed in the playoffs."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Bush was in last place entering Week 15 at 6-8.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "standing",
+                "value": "Last place entering Week 15"
+              },
+              {
+                "name": "record",
+                "value": "6-8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2028.2,
+                "end_seconds": 2034.52,
+                "details": "The speaker identifies Bush as the dead-last team entering Week 15 with a 6-8 record."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The owner identity behind @GreenMeansMoney / “WE BELIEVE” is not established in this window.",
+          "Joe's Week 14 opponent and final score are not shown or stated here.",
+          "Thomas's ultimate playoff qualification is not resolved within this window.",
+          "The fourth required loss in Joe's scenario sounds like “S” in the transcript; it may be Sal, but the audio/transcript is insufficiently clear to confirm."
+        ]
+      }
+    },
+    {
+      "window_index": 12,
+      "start": 2160.0,
+      "end": 2340.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 14 concluded the Flock League regular season, with playoff positions and several final standings discussed.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Joe officially made the playoffs with a 7-7 record; he was fifth in the final standings shown.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Joe",
+              "GreenMeansMoney"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "7-7"
+              },
+              {
+                "name": "final standing",
+                "value": "5th"
+              },
+              {
+                "name": "playoff status",
+                "value": "Qualified"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 2214.2,
+                "end_seconds": 2216.56,
+                "details": "Speaker states Joe is 7-7 and officially in the playoffs; standings display also places GreenMeansMoney fifth at 7-7."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Danny finished 10th at 6-8 and missed the playoffs.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Danny",
+              "DannyIsac21",
+              "Hit with the Nico"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "6-8"
+              },
+              {
+                "name": "final standing",
+                "value": "10th"
+              },
+              {
+                "name": "playoff status",
+                "value": "Missed playoffs"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 2183.24,
+                "end_seconds": 2185.68,
+                "details": "Speaker says Danny lost to miss the playoffs; the final standings display lists DannyIsac21/Hit with the Nico in 10th at 6-8."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 2278.0,
+                "end_seconds": 2282.52,
+                "details": "Speaker says Danny was close to the fifth seed but instead finished 10th."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Zach and Mason received first-round playoff byes.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Zach",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "playoff status",
+                "value": "First-round bye"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2331.84,
+                "end_seconds": 2337.92,
+                "details": "Speaker says Joe made the playoffs and that Zach and Mason had first-round byes."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 2262.967,
+                "end_seconds": 2264.333,
+                "details": "Final standings display shows Zach in first place at 11-3 and Mason in second at 9-5, consistent with the bye statement."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Austin finished third in the standings at 8-6.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Austin",
+              "AustinHood",
+              "Atlanta 49ers"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "8-6"
+              },
+              {
+                "name": "final standing",
+                "value": "3rd"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 2262.967,
+                "end_seconds": 2264.333,
+                "details": "Final standings display lists AustinHood/Atlanta 49ers third at 8-6."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript cuts off just after stating that Austin 'makes it,' so Austin's exact playoff seed/round assignment is not established in this window.",
+          "The specific Week 14 matchup Danny lost is not identified in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 13,
+      "start": 2340.0,
+      "end": 2520.0,
+      "transient_image_count": 11,
+      "review": {
+        "window_summary": "The playoff field and first-round seeding are discussed: Zach and Mason receive byes, while Avery is set to face Joe, the No. 5 seed. Mason’s comeback over Tom reportedly pushed Tom out and put Joe into the playoffs.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Zach and Mason have first-round playoff byes.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Zach",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "playoff_bye_recipients",
+                "value": "Zach; Mason"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 2489.84,
+                "end_seconds": 2492.84,
+                "details": "Speaker says, “Zach gets the bye, Mason gets the bye”; the league standings visually show Zach first at 11-3 and Mason second at 9-5."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Mason reportedly came back to beat Tom after “Demar” scored 46 points, despite Tom having a stated 99% win probability.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Mason",
+              "Tom",
+              "Demar"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Mason"
+              },
+              {
+                "name": "loser",
+                "value": "Tom"
+              },
+              {
+                "name": "reported_player_points",
+                "value": "Demar: 46"
+              },
+              {
+                "name": "reported_Tom_win_probability",
+                "value": "99%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2501.64,
+                "end_seconds": 2510.96,
+                "details": "Speaker says Mason came back, “Demar had 46 points,” and Mason “beat Tom”; Tom had a “99% chance to win.”"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Joe made the playoffs as the No. 5 seed after Tom was bumped from the field.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Joe",
+              "Tom"
+            ],
+            "facts": [
+              {
+                "name": "playoff_seed",
+                "value": "Joe: 5"
+              },
+              {
+                "name": "playoff_status",
+                "value": "Joe qualified; Tom eliminated/bumped from playoffs"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2517.96,
+                "end_seconds": 2531.36,
+                "details": "Speaker states that Joe got into the playoffs and, because Tom was bumped, “Joe is the five seed.”"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 2340.0,
+                "end_seconds": 2340.97,
+                "details": "League standings display WE BELIEVE / GreenMeansMoney (Joe) in fifth place at 7-7."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Avery is set to play Joe in the first playoff round.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Avery",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "first_round_matchup",
+                "value": "Avery vs Joe"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2512.32,
+                "end_seconds": 2515.52,
+                "details": "Speaker explicitly says, “it’s Avery versus Joe, since Joe is the five seed.”"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The visible final standings show Austin third (8-6), Avery fourth (7-7), Joe fifth (7-7), and Thomas sixth (6-8).",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Austin",
+              "Avery",
+              "Joe",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "third_place",
+                "value": "Austin, 8-6"
+              },
+              {
+                "name": "fourth_place",
+                "value": "Avery, 7-7"
+              },
+              {
+                "name": "fifth_place",
+                "value": "Joe, 7-7"
+              },
+              {
+                "name": "sixth_place",
+                "value": "Thomas, 6-8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 2440.967,
+                "end_seconds": 2450.0,
+                "details": "League standings visibly list Austin third at 8-6, Avery fourth at 7-7, WE BELIEVE/GreenMeansMoney (Joe) fifth at 7-7, and ThomasWaddle sixth at 6-8."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The player called “Demar” in the transcript is not clearly identifiable from this window; preserve the raw name rather than resolving it to a specific NFL player."
+        ]
+      }
+    },
+    {
+      "window_index": 14,
+      "start": 2520.0,
+      "end": 2700.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The playoff bracket is shown and the consolation/toilet-bowl format is explained; no completed playoff results occur in this window.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "The championship playoff bracket shows Zach and Mason with first-round byes. First-round matchups are Avery vs. Joe and Thomas vs. Austin; the winners advance to face Zach and Mason, respectively, in the semifinals.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "zaxavage",
+              "averyhuffman",
+              "GreenMeansMoney",
+              "MasonDodd",
+              "ThomasWadde",
+              "AustinHood"
+            ],
+            "facts": [
+              {
+                "name": "Playoff bye owners",
+                "value": "Zach; Mason"
+              },
+              {
+                "name": "First-round matchups",
+                "value": "Avery vs. Joe; Thomas vs. Austin"
+              },
+              {
+                "name": "Semifinal paths",
+                "value": "Zach vs. Avery/Joe winner; Mason vs. Thomas/Austin winner"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 2534.633,
+                "end_seconds": 2536.5,
+                "details": "On-screen playoff bracket displays Zach and Mason as BYE teams, with Avery/GreenMeansMoney and Thomas/Austin first-round pairings feeding into their respective semifinals."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 2536.2,
+                "end_seconds": 2540.599,
+                "details": "Speaker describes Avery vs. Zach as a potential semifinal and says Austin or Thomas would face Mason."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "The displayed bracket lists Avery at 142.23 and Joe (GreenMeansMoney) at 92.51, and Thomas at 130.53 and Austin at 122.41. The screen does not label these as final playoff results, so they should not be treated as wins.",
+            "status": "unclear",
+            "confidence": 0.62,
+            "raw_names": [
+              "averyhuffman",
+              "GreenMeansMoney",
+              "ThomasWadde",
+              "AustinHood"
+            ],
+            "facts": [
+              {
+                "name": "Displayed Avery score",
+                "value": "142.23"
+              },
+              {
+                "name": "Displayed Joe/GreenMeansMoney score",
+                "value": "92.51"
+              },
+              {
+                "name": "Displayed Thomas score",
+                "value": "130.53"
+              },
+              {
+                "name": "Displayed Austin score",
+                "value": "122.41"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 2534.633,
+                "end_seconds": 2536.5,
+                "details": "Bracket visibly shows the four scores beside the first-round teams, while subsequent matchup slots remain TBD."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "In the toilet bowl/losers bracket, Badake is scheduled to play Danny for the third time this season, while Bush and Tom have byes into the toilet-bowl semifinals.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "badaki",
+              "Danny",
+              "Bush",
+              "Tom"
+            ],
+            "facts": [
+              {
+                "name": "Toilet-bowl matchup",
+                "value": "Badake vs. Danny"
+              },
+              {
+                "name": "Prior meetings this season",
+                "value": "Third meeting"
+              },
+              {
+                "name": "Toilet-bowl semifinal byes",
+                "value": "Bush; Tom"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2662.359,
+                "end_seconds": 2673.28,
+                "details": "Speaker says Badake is taking on Danny for the third time and that Bush and Tom receive byes into the toilet-bowl semifinal."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Losers-bracket rule: winning any game makes a team safe from the season punishment; the team that loses through to the final is the overall loser and receives the punishment.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Nathan",
+              "Sal",
+              "Tom"
+            ],
+            "facts": [
+              {
+                "name": "Safety condition",
+                "value": "Win one losers-bracket game"
+              },
+              {
+                "name": "Ultimate-loser condition",
+                "value": "Lose through the final game"
+              },
+              {
+                "name": "Example path given",
+                "value": "Nathan loses to Sal, then Tom, then the final"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2673.28,
+                "end_seconds": 2697.52,
+                "details": "Speaker explicitly explains that a losers-bracket win removes punishment risk and gives Nathan losing to Sal, Tom, and then the final as the example of the ultimate loser."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The bracket's displayed point totals are not clearly identified as final results versus projected/current scores; do not infer winners from them.",
+          "The speaker refers to Nathan playing \"s\" in the transcript; this appears likely to be Sal based on the season owner list, but the raw spoken identity is unclear."
+        ]
+      }
+    },
+    {
+      "window_index": 15,
+      "start": 2700.0,
+      "end": 2745.0,
+      "transient_image_count": 4,
+      "review": {
+        "window_summary": "The episode transitions into the playoffs; a bracket is shown while the narrator discusses remaining win requirements for several teams.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "A playoff bracket is displayed: StevenSwagal and BuschLeague have byes, while NathanSchmidt faces SalVetri and Badake faces DannyJadz21 in the other visible matchups. The narrator says it is now playoff time.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "StevenSwagal",
+              "BuschLeague",
+              "NathanSchmidt",
+              "SalVetri",
+              "Badake",
+              "DannyJadz21"
+            ],
+            "facts": [
+              {
+                "name": "bye teams shown",
+                "value": "StevenSwagal; BuschLeague"
+              },
+              {
+                "name": "visible matchup",
+                "value": "NathanSchmidt vs SalVetri"
+              },
+              {
+                "name": "visible matchup",
+                "value": "Badake vs DannyJadz21"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 2700.0,
+                "end_seconds": 2713.0,
+                "details": "The on-screen bracket shows StevenSwagal and BuschLeague marked BYE, plus NathanSchmidt vs SalVetri and Badake vs DannyJadz21."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 2740.68,
+                "end_seconds": 2740.68,
+                "details": "Narrator says, 'it's playoff time now.'"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The narrator says Nathan, Badake, and Danny each need one win over the next three weeks; Bush has two games remaining and needs one win, which the narrator characterizes as difficult.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Nathan",
+              "Badake",
+              "Danny",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "Nathan/Badake/Danny requirement",
+                "value": "One win over the next three weeks"
+              },
+              {
+                "name": "Bush requirement",
+                "value": "One win in two remaining games"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2700.8,
+                "end_seconds": 2713.44,
+                "details": "Narrator states the respective remaining-win requirements; the word immediately after 'Nathan' is unclear in the transcript, but Nathan, Badake, Danny, and Bush are otherwise audible."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The bracket provides team names, but this window alone does not establish the corresponding owners for StevenSwagal, BuschLeague, NathanSchmidt, SalVetri, or DannyJadz21.",
+          "The context for the stated remaining-game requirements is unclear: the visible bracket and the narration do not establish whether they concern playoff seeding, a consolation/loser bracket, or another format."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "Nathan-Thomas has conflicting reported final scores: an earlier display showed Nathan 186.28 and Thomas 171.88, while later Week 14 displays show Nathan 186.26 and Thomas 177.38. The winner is consistently Nathan, but the final score should be reviewed.",
+    "Thomas was described as out of the playoffs in an earlier update, but the final standings and playoff bracket place him sixth and schedule him against Austin. The final bracket has been treated as the controlling playoff evidence.",
+    "Cory, Avery's Week 14 opponent, is not included in the supplied Season 1 owner list; the corresponding owner identity is unresolved.",
+    "Joe's Week 14 opponent is not independently named in the final matchup display, though the visual and surrounding narration support Joe's 132.38-130.52 win over Danny.",
+    "The exact assets in Joe's Josh Allen trade and Sal's recent trades were not provided."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Create a concise evidence-linked recap focused on team owners, Week 14 results, playoff implications, injuries, trades, and waiver activity.",
+      "status": "fulfilled",
+      "details": "The recap prioritizes named league owners and preserves NFL players as roster/injury context. Key standings, matchup results, playoff bracket details, injuries, trade mention, and waiver move are included with timestamped evidence."
+    },
+    {
+      "instruction": "Do not treat live updates, predictions, jokes, or conditional scenarios as final results.",
+      "status": "fulfilled",
+      "details": "Only completed outcomes with later confirmation are presented as final. Earlier live scores, win probabilities, and conditional playoff scenarios were not recorded as final matchup results."
+    },
+    {
+      "instruction": "Preserve evidence conflicts and uncertainties for review.",
+      "status": "fulfilled",
+      "details": "The Nathan-Thomas score discrepancy, Thomas's conflicting elimination commentary, Cory's unresolved owner identity, and unspecified trade details are listed as open questions."
+    },
+    {
+      "instruction": "Honor episode-specific instructions and declared supplemental outputs.",
+      "status": "not_applicable",
+      "details": "No episode-specific instructions or supplemental output declarations were provided."
+    }
+  ],
+  "supplemental_outputs": []
+}

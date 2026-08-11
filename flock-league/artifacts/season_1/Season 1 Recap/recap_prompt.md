@@ -1,0 +1,5 @@
+Read every season_1 episode recap.md file, as well as the relevant files mentioned in review-guidance.toml
+
+Prepare a narrative script that condenses the story of season_1 into a single document.
+
+Keep the focus on Team Owner narratives: trades, waiver wire moves, injuries, upsets, trends, and momentum. The ultimate point is, who wins the season_1 championship? But we also want to establish the outcome for every Team Owner. It's interesting if a team was performing very well until derailed by a critical injury. It's also interesting if a different team performed poorly throughout the entire season. It's not necesary or interesting to recap every individual result from week-to-week. Establishing broader trends across the first month, or half of the season, is interesting. Listing points scored for every matchup is overkill, but highlighting points scored in especially high- or low-scoring performances, is valuable. Elaborating on playoff matchups in slightly more detail is worthwhile.

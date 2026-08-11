@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "video_id": "WGyHzTpPRJU",
+  "video_title": "Sal Finally Trades Away Josh Allen",
+  "raw_sample_counts": {
+    "scene": 115,
+    "periodic": 70,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Sal Finally Trades Away Josh Allen",
+      "upload_date": "20241114",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        10.033,
+        29.214,
+        33.214,
+        54.314,
+        60.0,
+        82.394,
+        94.633,
+        118.233,
+        120.0,
+        138.5,
+        158.033,
+        171.735
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        180.0,
+        201.033,
+        210.0,
+        234.533,
+        247.533,
+        255.833,
+        273.833,
+        298.4,
+        300.0,
+        323.433,
+        341.135,
+        353.495
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        370.533,
+        398.533,
+        406.5,
+        426.833,
+        449.267,
+        457.715,
+        459.715,
+        461.715,
+        469.4,
+        480.0,
+        516.767,
+        533.667
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        554.133,
+        564.934,
+        566.934,
+        570.0,
+        607.055,
+        620.0,
+        630.0,
+        652.294,
+        669.6,
+        680.667,
+        695.367,
+        719.333
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        725.967,
+        750.533,
+        761.467,
+        775.5,
+        787.6,
+        800.815,
+        802.815,
+        804.815,
+        814.467,
+        830.967,
+        848.933,
+        870.0
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        900.0,
+        930.0,
+        960.0,
+        990.0,
+        1025.594,
+        1027.594,
+        1029.594,
+        1044.933,
+        1054.435,
+        1056.435,
+        1058.435,
+        1072.233
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1080.0,
+        1107.435,
+        1109.435,
+        1111.435,
+        1115.135,
+        1117.135,
+        1129.675,
+        1140.0,
+        1170.0,
+        1213.867,
+        1225.275,
+        1239.0
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1260.0,
+        1286.333,
+        1290.0,
+        1331.267,
+        1338.567,
+        1350.0,
+        1379.2,
+        1387.235,
+        1389.235,
+        1391.235,
+        1413.514,
+        1417.514
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1440.0,
+        1462.035,
+        1464.035,
+        1466.035,
+        1469.167,
+        1470.0,
+        1482.6,
+        1500.0,
+        1530.0,
+        1567.767,
+        1573.867,
+        1589.433
+      ]
+    },
+    {
+      "index": 9,
+      "start": 1620.0,
+      "end": 1800.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1628.267,
+        1645.833,
+        1655.555,
+        1657.555,
+        1659.555,
+        1687.354,
+        1707.667,
+        1711.2,
+        1740.0,
+        1769.7,
+        1778.967,
+        1798.433
+      ]
+    },
+    {
+      "index": 10,
+      "start": 1800.0,
+      "end": 1980.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1811.767,
+        1825.133,
+        1830.0,
+        1857.267,
+        1860.0,
+        1901.667,
+        1925.833,
+        1934.094,
+        1936.094,
+        1938.094,
+        1957.967,
+        1972.833
+      ]
+    },
+    {
+      "index": 11,
+      "start": 1980.0,
+      "end": 2094.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1989.014,
+        1991.014,
+        1993.014,
+        1994.415,
+        1996.415,
+        1998.415,
+        2013.275,
+        2019.195,
+        2030.755,
+        2045.333,
+        2070.0,
+        2086.667
+      ]
+    }
+  ]
+}

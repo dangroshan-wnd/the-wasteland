@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "video_id": "vPJPpjwvKAw",
+  "video_title": "Win or You Don't Make The Playoffs",
+  "season": "Season 1",
+  "week": 14,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Win or You Don't Make The Playoffs",
+      "upload_date": "20241205",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "waiver",
+      "summary": "Tom added Isaac Guerendo for $76 and the New Orleans Saints defense for $8.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Tom"
+        },
+        {
+          "role": "added player",
+          "name": "Isaac Guerendo"
+        },
+        {
+          "role": "added defense",
+          "name": "New Orleans Saints"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Guerendo FAAB bid",
+          "value": "$76"
+        },
+        {
+          "name": "Saints defense FAAB bid",
+          "value": "$8"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 106.99,
+          "end_seconds": 122.0,
+          "details": "Waiver-results screen lists Guerendo to StevenSwagal for $76 and Saints DEF for $8; narration identifies StevenSwagal as Tom."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Austin added Chris Rodriguez for $34.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "added player",
+          "name": "Chris Rodriguez"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "FAAB bid",
+          "value": "$34"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 106.99,
+          "end_seconds": 157.48,
+          "details": "Processed-waivers screen and narration attribute Chris Rodriguez's $34 acquisition to Austin."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Zach added Sincere McCormick for $7 and dropped Kimani Vidal.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "added player",
+          "name": "Sincere McCormick"
+        },
+        {
+          "role": "dropped player",
+          "name": "Kimani Vidal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "FAAB bid",
+          "value": "$7"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 115.43,
+          "end_seconds": 121.0,
+          "details": "Processed-waivers screen lists McCormick added to Zach's roster for $7 and Vidal removed."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Sal added Tua Tagovailoa for $7 and dropped Jameis Winston.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "added player",
+          "name": "Tua Tagovailoa"
+        },
+        {
+          "role": "dropped player",
+          "name": "Jameis Winston"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "FAAB bid",
+          "value": "$7"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 115.43,
+          "end_seconds": 121.0,
+          "details": "Processed-waivers screen lists Tagovailoa added to Sal's roster for $7 and Winston removed."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Christian McCaffrey was described as done for the year, leaving Austin without him for Week 14.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "reported",
+      "confidence": 0.85,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "NFL player",
+          "name": "Christian McCaffrey"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported availability",
+          "value": "Done for the year; unavailable for Week 14"
+        },
+        {
+          "name": "replacement option mentioned",
+          "value": "Blake Corum"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 135.72,
+          "end_seconds": 147.48,
+          "details": "Narration says Austin does not have McCaffrey this week and that McCaffrey was done for the year."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Zach clinched the No. 1 seed and a first-round playoff bye entering Week 14.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "record",
+          "value": "10-3"
+        },
+        {
+          "name": "seed",
+          "value": "No. 1"
+        },
+        {
+          "name": "playoff status",
+          "value": "Clinched first-round bye"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 292.6,
+          "end_seconds": 307.16,
+          "details": "Speakers say Zach has locked up the No. 1 seed; the standings screen shows Zach at 10-3 in first."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Entering Week 14, Mason was second at 8-5; Avery and Austin were 7-6; Badake, Thomas, Sal, Danny, Tom, and Joe were 6-7; Nathan and Bush were 5-8.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "team owner",
+          "name": "Tom"
+        },
+        {
+          "role": "team owner",
+          "name": "Joe"
+        },
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "team owner",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Mason",
+          "value": "8-5, 2nd"
+        },
+        {
+          "name": "Avery",
+          "value": "7-6, 3rd"
+        },
+        {
+          "name": "Austin",
+          "value": "7-6, 4th"
+        },
+        {
+          "name": "Badake",
+          "value": "6-7, 5th"
+        },
+        {
+          "name": "Thomas",
+          "value": "6-7, 6th"
+        },
+        {
+          "name": "Sal",
+          "value": "6-7, 7th"
+        },
+        {
+          "name": "Danny",
+          "value": "6-7, 8th"
+        },
+        {
+          "name": "Tom",
+          "value": "6-7, 9th"
+        },
+        {
+          "name": "Joe",
+          "value": "6-7, 10th"
+        },
+        {
+          "name": "Nathan",
+          "value": "5-8, 11th"
+        },
+        {
+          "name": "Bush",
+          "value": "5-8, 12th"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 274.96,
+          "end_seconds": 296.0,
+          "details": "Narration states six teams are 6-7, while the standings screen displays the records and ordering."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Nathan traded away Brock Bowers; the counterparty and return were not shown.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "team owner who moved player",
+          "name": "Nathan"
+        },
+        {
+          "role": "traded player",
+          "name": "Brock Bowers"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "trade return",
+          "value": "Not shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 466.56,
+          "end_seconds": 472.84,
+          "details": "A speaker says Nathan traded away Brock Bowers, while on-screen text labels it Nathan's worst decision."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Sal reported a three-game winning streak from 3-7 to 6-7, including a 180-point win over Avery the previous week.",
+      "season": "Season 1",
+      "week": null,
+      "status": "reported",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Sal"
+        },
+        {
+          "role": "opponent",
+          "name": "Avery"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Sal",
+          "score": 180.0
+        }
+      ],
+      "facts": [
+        {
+          "name": "Sal prior record",
+          "value": "3-7"
+        },
+        {
+          "name": "Sal current record",
+          "value": "6-7"
+        },
+        {
+          "name": "winning streak",
+          "value": "3 games"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 807.36,
+          "end_seconds": 827.36,
+          "details": "Sal says his team was 3-7, won three straight, and beat Avery with 180 points the prior week."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Danny reported Tyreek Hill and Breece Hall as questionable for Week 14; Danny expected Hill to play and expressed greater concern about Hall.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "reported",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Tyreek Hill"
+        },
+        {
+          "role": "NFL player",
+          "name": "Breece Hall"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported availability",
+          "value": "Both questionable"
+        },
+        {
+          "name": "Danny's expectation",
+          "value": "Hill likely to play"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 966.16,
+          "end_seconds": 976.6,
+          "details": "Danny names Hill and Hall as questionable, says Hill sounds likely to play, and the roster display lists both players."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Danny intended to start Nick Westbrook-Ikhine in Week 14 after having benched him the prior week.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "speculative",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Nick Westbrook-Ikhine"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "prior-week context",
+          "value": "Danny said Westbrook-Ikhine was on his bench"
+        },
+        {
+          "name": "Week 14 decision",
+          "value": "Intended starter"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1032.039,
+          "end_seconds": 1062.559,
+          "details": "Danny says he has to put Westbrook-Ikhine in his lineup, and the displayed lineup includes him among starters."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Nathan said missing the Ray Davis waiver claim was one of his major season mistakes.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "unclaimed player",
+          "name": "Ray Davis"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "waiver outcome",
+          "value": "Nathan did not claim Ray Davis"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1293.72,
+          "end_seconds": 1299.64,
+          "details": "Nathan says not claiming Davis off waivers was a mistake; on-screen text lists 'MISS RAY DAVIS WAIVER.'"
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Nathan said he benched Jerry Jeudy in a week when Jeudy scored 40 points.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "NFL player",
+          "name": "Jerry Jeudy"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "lineup decision",
+          "value": "Benched Jerry Jeudy"
+        },
+        {
+          "name": "Jeudy points mentioned",
+          "value": "40"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1401.64,
+          "end_seconds": 1421.36,
+          "details": "Nathan says he benched Jerry Jeudy when Jeudy scored 40 points."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "A prior Pat Freiermuth lateral fumble was said to have forced Mason to lose a fantasy matchup.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "NFL player",
+          "name": "Pat Freiermuth"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "result",
+          "value": "Mason lost the matchup"
+        },
+        {
+          "name": "specific week, opponent, and score",
+          "value": "Not provided"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1522.0,
+          "end_seconds": 1532.48,
+          "details": "Zach reads and endorses a comment stating Freiermuth's lateral fumble forced Mason to lose."
+        }
+      ]
+    }
+  ]
+}

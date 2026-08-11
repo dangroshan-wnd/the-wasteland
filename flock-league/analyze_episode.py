@@ -742,7 +742,10 @@ def main() -> None:
     video_title = metadata.get("title")
     if not isinstance(video_title, str) or not video_title.strip():
         raise SystemExit(f"Episode {args.video_id} does not have a usable video title.")
-    output_dir = artifact_directory(video_title, season_id).resolve()
+    upload_date = metadata.get("upload_date")
+    if not isinstance(upload_date, str):
+        raise SystemExit(f"Episode {args.video_id} does not have a usable upload date.")
+    output_dir = artifact_directory(video_title, season_id, upload_date).resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
     notes_path = output_dir / "episode_notes.json"
     events_path = output_dir / "events.json"

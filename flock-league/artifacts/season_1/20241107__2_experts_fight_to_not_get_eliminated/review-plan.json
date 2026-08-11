@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "video_id": "PvDpOviLy9k",
+  "video_title": "2 \"Experts\" Fight To Not Get Eliminated",
+  "raw_sample_counts": {
+    "scene": 84,
+    "periodic": 33,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "2 \"Experts\" Fight To Not Get Eliminated",
+      "upload_date": "20241107",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        14.755,
+        18.755,
+        37.475,
+        53.355,
+        67.095,
+        75.4,
+        95.415,
+        112.115,
+        131.267,
+        141.4,
+        156.874,
+        172.154
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        184.635,
+        207.774,
+        219.055,
+        228.154,
+        243.667,
+        258.367,
+        271.4,
+        287.567,
+        309.367,
+        316.033,
+        337.255,
+        356.633
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        367.775,
+        383.733,
+        402.375,
+        412.155,
+        427.555,
+        443.367,
+        464.335,
+        468.335,
+        483.767,
+        507.714,
+        518.155,
+        532.633
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        540.234,
+        542.234,
+        544.234,
+        547.635,
+        555.567,
+        577.0,
+        609.333,
+        621.533,
+        653.074,
+        663.274,
+        679.733,
+        690.0
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        729.833,
+        736.733,
+        755.9,
+        769.2,
+        780.0,
+        804.467,
+        810.0,
+        833.633,
+        852.267,
+        865.667,
+        881.133,
+        891.795
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 978.0,
+      "transient_sample_count": 8,
+      "sample_timestamps": [
+        900.0,
+        905.433,
+        914.967,
+        930.0,
+        935.067,
+        946.6,
+        960.0,
+        961.067
+      ]
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "schema_version": 1,
+  "video_id": "E-u7SYYPtpU",
+  "video_title": "The Craziest Fantasy Football Ending Ever",
+  "season": "Season 1",
+  "week": 5,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Craziest Fantasy Football Ending Ever",
+      "upload_date": "20241008",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery defeated Mason in Week 5 after a Sleeper scoring correction assigned a late fumble to Pat Freiermuth and removed two points from Mason’s lineup.",
+      "season": "Season 1",
+      "week": 5,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Avery"
+        },
+        {
+          "role": "loser",
+          "name": "Mason"
+        },
+        {
+          "role": "NFL player affecting correction",
+          "name": "Pat Freiermuth"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Avery",
+          "score": 156.02
+        },
+        {
+          "name": "Mason (implied corrected score)",
+          "score": 155.16
+        }
+      ],
+      "facts": [
+        {
+          "name": "initial displayed score",
+          "value": "Mason 157.16, Avery 156.02"
+        },
+        {
+          "name": "scoring correction",
+          "value": "Mason lost 2 points because the fumble was attributed to Pat Freiermuth"
+        },
+        {
+          "name": "final-score qualification",
+          "value": "Mason’s 155.16 total is inferred from the displayed pre-correction score and reported two-point deduction; a final corrected matchup screen was not supplied"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1170.08,
+          "end_seconds": 1176.08,
+          "details": "Narration and screen establish that the correction changed the result to an Avery win, while the screen shows the pre-correction 157.16–156.02 score."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1216.76,
+          "end_seconds": 1233.12,
+          "details": "Narration states that the fumble was attributed to Freiermuth rather than Pickens, Mason lost two points, and Avery won."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1248.96,
+          "end_seconds": 1253.4,
+          "details": "Narration says Sleeper officially ruled the play a Pat Freiermuth fumble and took two points from Mason."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Mason changed his team name from Domains Daddy to Avery’s Son during the Week 5 matchup.",
+      "season": "Season 1",
+      "week": 5,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "team name change",
+          "value": "Domains Daddy → Avery’s Son"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 823.84,
+          "end_seconds": 829.24,
+          "details": "The speaker says he will update the team name to Avery’s Son."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 857.1,
+          "end_seconds": 870.0,
+          "details": "The Sleeper matchup display labels the team Avery’s Son."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Zach acquired Packers tight end Tucker Kraft for $31 FAAB.",
+      "season": "Season 1",
+      "week": 5,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "acquiring owner",
+          "name": "Zach"
+        },
+        {
+          "role": "acquired player",
+          "name": "Tucker Kraft"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "position/team",
+          "value": "TE, GB"
+        },
+        {
+          "name": "winning bid",
+          "value": "$31"
+        },
+        {
+          "name": "other visible bids",
+          "value": "Mason $7; Bush $4; Danny $0"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 156.2,
+          "end_seconds": 179.0,
+          "details": "The waiver display lists Zach’s $31 winning bid for Tucker Kraft, alongside the other visible bids."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Bush added Trey Sermon for $27 FAAB and dropped Jaylen Wright.",
+      "season": "Season 1",
+      "week": 5,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "acquiring owner",
+          "name": "Bush"
+        },
+        {
+          "role": "added player",
+          "name": "Trey Sermon"
+        },
+        {
+          "role": "dropped player",
+          "name": "Jaylen Wright"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning FAAB bid",
+          "value": "$27"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 198.519,
+          "end_seconds": 203.0,
+          "details": "The transaction display shows Bush adding Trey Sermon, dropping Jaylen Wright, for $27."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Danny added Cade Otton and dropped Carson Steele in a free-agent move.",
+      "season": "Season 1",
+      "week": 5,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "manager",
+          "name": "Danny"
+        },
+        {
+          "role": "added player",
+          "name": "Cade Otton"
+        },
+        {
+          "role": "dropped player",
+          "name": "Carson Steele"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "move type",
+          "value": "Free-agent move"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 264.933,
+          "end_seconds": 274.433,
+          "details": "League chat explicitly identifies Danny’s free-agent move, showing Cade Otton added and Carson Steele dropped."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Devin Singletary was reported not to have practiced; Danny said he added Tyrone Tracy midweek in response.",
+      "season": "Season 1",
+      "week": 5,
+      "status": "reported",
+      "confidence": 0.83,
+      "participants": [
+        {
+          "role": "fantasy owner",
+          "name": "Danny"
+        },
+        {
+          "role": "injured player",
+          "name": "Devin Singletary"
+        },
+        {
+          "role": "related addition",
+          "name": "Tyrone Tracy"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported status",
+          "value": "Had not practiced yet"
+        },
+        {
+          "name": "related action",
+          "value": "Danny said he added Tyrone Tracy midweek"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 258.72,
+          "end_seconds": 264.0,
+          "details": "A speaker cites reports that Singletary had not practiced and says Tyrone Tracy was added in the middle of the week."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Rashee Rice was reported as potentially unavailable for Danny, with an uncertain possible return in a few weeks discussed.",
+      "season": "Season 1",
+      "week": 5,
+      "status": "reported",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "fantasy owner",
+          "name": "Danny"
+        },
+        {
+          "role": "injured player",
+          "name": "Rashee Rice"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "availability",
+          "value": "Potentially out; possible return in a few weeks was described as uncertain"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 416.88,
+          "end_seconds": 421.68,
+          "details": "The discussion says Danny potentially lost Rashee Rice and that any return in a few weeks was up in the air."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Bush defeated Joe in Week 5 and improved to 2-3; the recap described Bush as roughly doubling Joe’s score.",
+      "season": "Season 1",
+      "week": 5,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Bush"
+        },
+        {
+          "role": "loser",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Bush record after matchup",
+          "value": "2-3"
+        },
+        {
+          "name": "margin description",
+          "value": "Bush roughly doubled Joe’s points"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1460.64,
+          "end_seconds": 1462.68,
+          "details": "Bush says his team is now 2-3."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1484.48,
+          "end_seconds": 1495.84,
+          "details": "Another speaker celebrates Bush’s win and says Bush doubled Joe’s points."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Badake defeated Nathan in Week 5.",
+      "season": "Season 1",
+      "week": 5,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Badake"
+        },
+        {
+          "role": "loser",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Nathan reported score",
+          "value": "About 130"
+        },
+        {
+          "name": "Badake reported score",
+          "value": "More than 150"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1548.4,
+          "end_seconds": 1571.28,
+          "details": "Nathan congratulates Badake and says his team scored about 130 while Badake’s scored 150-plus."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Zach reported a Week 5 win preserved by Dak Prescott’s touchdown pass to Jalen Tolbert.",
+      "season": "Season 1",
+      "week": 5,
+      "status": "confirmed",
+      "confidence": 0.85,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Zach"
+        },
+        {
+          "role": "decisive NFL players",
+          "name": "Dak Prescott and Jalen Tolbert"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "decisive NFL play",
+          "value": "Dak Prescott touchdown pass to Jalen Tolbert"
+        },
+        {
+          "name": "opponent",
+          "value": "Not established"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1625.56,
+          "end_seconds": 1649.2,
+          "details": "Zach calls it a fantasy win, says he would have lost without Dak Prescott’s touchdown pass to Jalen Tolbert, and says his team is 4-1."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "An unidentified manager said Pat Freiermuth was off his fantasy team following a loss.",
+      "season": "Season 1",
+      "week": 5,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "removed player",
+          "name": "Pat Freiermuth"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "manager",
+          "value": "Unidentified"
+        },
+        {
+          "name": "action",
+          "value": "Removed from team"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1611.04,
+          "end_seconds": 1615.72,
+          "details": "The speaker says, “Pat Freiermuth, you’re off the team.”"
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Badake was described as getting A.J. Brown and Saquon Barkley back healthy ahead of Week 6.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "reported",
+      "confidence": 0.8,
+      "participants": [
+        {
+          "role": "fantasy owner",
+          "name": "Badake"
+        },
+        {
+          "role": "player",
+          "name": "A.J. Brown"
+        },
+        {
+          "role": "player",
+          "name": "Saquon Barkley"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "update",
+          "value": "Described as coming back healthy"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1625.88,
+          "end_seconds": 1630.92,
+          "details": "A speaker says Badake is coming back healthy with A.J. Brown and Saquon Barkley."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Entering Week 6, Danny and Zach were tied for first at 4-1.",
+      "season": "Season 1",
+      "week": 6,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "co-leader",
+          "name": "Danny"
+        },
+        {
+          "role": "co-leader",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Danny record",
+          "value": "4-1"
+        },
+        {
+          "name": "Zach record",
+          "value": "4-1"
+        },
+        {
+          "name": "named 3-2 teams",
+          "value": "Avery, Badake, Austin, Mason"
+        },
+        {
+          "name": "named 2-3 teams",
+          "value": "Thomas, Bush, Nathan, Tom"
+        },
+        {
+          "name": "1-4 teams",
+          "value": "Sal, Joe"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1628.0,
+          "end_seconds": 1643.0,
+          "details": "The standings overlay and commentary show Danny and Zach at 4-1 atop the league; the overlay also shows the named lower-record groups."
+        }
+      ]
+    }
+  ]
+}

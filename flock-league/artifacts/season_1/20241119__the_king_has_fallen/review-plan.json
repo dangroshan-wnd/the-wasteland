@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "video_id": "Wm0p0Ftj50s",
+  "video_title": "The King Has Fallen",
+  "raw_sample_counts": {
+    "scene": 110,
+    "periodic": 50,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The King Has Fallen",
+      "upload_date": "20241119",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        6.733,
+        29.495,
+        31.495,
+        33.495,
+        59.035,
+        68.734,
+        90.0,
+        111.954,
+        120.0,
+        142.695,
+        150.0,
+        166.733
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        193.235,
+        203.234,
+        218.094,
+        233.395,
+        247.115,
+        264.533,
+        276.674,
+        292.395,
+        307.355,
+        321.755,
+        341.215,
+        345.215
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        366.633,
+        383.533,
+        396.867,
+        413.6,
+        422.667,
+        442.233,
+        454.654,
+        478.367,
+        487.233,
+        498.3,
+        515.315,
+        533.475
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        540.0,
+        561.267,
+        570.0,
+        587.333,
+        599.533,
+        627.933,
+        630.0,
+        648.4,
+        660.0,
+        685.6,
+        690.0,
+        712.267
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        721.6,
+        738.5,
+        755.154,
+        757.154,
+        759.154,
+        780.0,
+        803.394,
+        817.733,
+        827.867,
+        840.0,
+        860.867,
+        878.794
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        900.0,
+        918.833,
+        930.0,
+        969.695,
+        971.695,
+        973.695,
+        987.394,
+        991.394,
+        1017.414,
+        1021.414,
+        1051.033,
+        1072.133
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1080.0,
+        1084.867,
+        1105.0,
+        1118.233,
+        1123.1,
+        1140.0,
+        1161.2,
+        1172.933,
+        1195.467,
+        1214.767,
+        1237.3,
+        1247.167
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1260.0,
+        1273.5,
+        1284.533,
+        1290.0,
+        1320.0,
+        1324.7,
+        1361.267,
+        1363.033,
+        1369.033,
+        1371.033,
+        1394.967,
+        1423.8
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1440.0,
+      "end": 1499.0,
+      "transient_sample_count": 11,
+      "sample_timestamps": [
+        1440.0,
+        1453.367,
+        1461.167,
+        1462.533,
+        1466.933,
+        1470.0,
+        1471.633,
+        1473.5,
+        1480.1,
+        1482.3,
+        1485.267
+      ]
+    }
+  ]
+}

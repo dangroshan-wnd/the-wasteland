@@ -1,0 +1,1207 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T19:54:59.051355+00:00",
+  "fingerprint": "ac990592bd3999c91751c8169268d916af6f2f4fdc3b9711215466401b6f0d3f",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "mg7wnMVJ68g",
+  "video_title": "A Mike Evans Trade Creates Enemies",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "A Mike Evans Trade Creates Enemies",
+      "upload_date": "20241024",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Waiver processing: Zach added Jalen McMillan after releasing Chris Godwin; Nathan and Bush made secondary WR pickups. A trade is teased, but its terms are not provided in this window.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Zach released Chris Godwin from his roster.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Zach",
+              "Chris Godwin"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Zach"
+              },
+              {
+                "name": "player",
+                "value": "Chris Godwin"
+              },
+              {
+                "name": "move",
+                "value": "released/dropped"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 50.0,
+                "end_seconds": 57.0,
+                "details": "Transcript says Zach drops Chris Godwin; the league activity panel also shows the Zach-associated account making a free-agent move involving Godwin."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Zach added Jalen McMillan for $42 FAAB, outbidding Nathan by four dollars.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Zach",
+              "Jalen McMillan",
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Zach"
+              },
+              {
+                "name": "player",
+                "value": "Jalen McMillan"
+              },
+              {
+                "name": "winning_bid",
+                "value": "$42"
+              },
+              {
+                "name": "runner_up_owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "runner_up_bid",
+                "value": "$38"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 95.68,
+                "end_seconds": 102.8,
+                "details": "Transcript states a $42 winning bid beat Nathan by four; on-screen league activity lists Jalen McMillan added for $42."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Nathan added Trey Palmer for $11 FAAB and released Colby Parkinson.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Nathan",
+              "Trey Palmer",
+              "Colby Parkinson"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "player_added",
+                "value": "Trey Palmer"
+              },
+              {
+                "name": "player_released",
+                "value": "Colby Parkinson"
+              },
+              {
+                "name": "winning_bid",
+                "value": "$11"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 147.575,
+                "end_seconds": 151.575,
+                "details": "On-screen waiver-bid detail lists Nathan at $11 for Trey Palmer, and league activity shows Trey Palmer added and Colby Parkinson released from Nathan's roster."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 134.4,
+                "end_seconds": 141.2,
+                "details": "Transcript identifies Nathan as spending $11 on Trey Palmer."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Bush added Cedric Tillman for $8 FAAB and released Brandon Aiyuk.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Bush",
+              "Cedric Tillman",
+              "Brandon Aiyuk"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Bush"
+              },
+              {
+                "name": "player_added",
+                "value": "Cedric Tillman"
+              },
+              {
+                "name": "player_released",
+                "value": "Brandon Aiyuk"
+              },
+              {
+                "name": "winning_bid",
+                "value": "$8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 166.0,
+                "end_seconds": 177.8,
+                "details": "Transcript says Bush spent $8 on Cedric Tillman after losing Brandon Aiyuk; on-screen league activity shows Tillman added and Aiyuk released."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "A trade is introduced at 00:00:01–00:00:18, but this window does not identify the parties or players involved, so no trade terms can be recorded."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Waivers included Cedric Tillman to Bush and the 49ers D/ST to Zach. A completed Zach–Thomas trade sent Mike Evans and Chris Olave to Zach for Kareem Hunt and Jaxon Smith-Njigba; league members criticized the deal.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Bush acquired Cedric Tillman for $8 in waiver bidding.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Bush",
+              "Cedric Tillman"
+            ],
+            "facts": [
+              {
+                "name": "acquiring_owner",
+                "value": "Bush"
+              },
+              {
+                "name": "player",
+                "value": "Cedric Tillman"
+              },
+              {
+                "name": "waiver_cost",
+                "value": "$8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 180.959,
+                "end_seconds": 186.959,
+                "details": "Transcript says Bush gets Tillman for eight dollars; waiver screen shows Cedric Tillman added to BushLeaguepc for $8."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Zach added the San Francisco 49ers D/ST for $0 and dropped the New York Jets D/ST.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Zach",
+              "San Francisco 49ers",
+              "New York Jets"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Zach"
+              },
+              {
+                "name": "added",
+                "value": "San Francisco 49ers D/ST"
+              },
+              {
+                "name": "dropped",
+                "value": "New York Jets D/ST"
+              },
+              {
+                "name": "waiver_cost",
+                "value": "$0"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 206.233,
+                "end_seconds": 212.48,
+                "details": "Waiver screen lists Zach's roster adding San Francisco 49ers DEF and dropping New York Jets D/ST for $0; transcript says he got the 49ers defense for free."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Zach was in first place at 6-1 when the trade was shown.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Zach",
+              "zaxavage"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Zach"
+              },
+              {
+                "name": "record",
+                "value": "6-1"
+              },
+              {
+                "name": "standing",
+                "value": "1st"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 217.667,
+                "end_seconds": 221.36,
+                "details": "Standings screen shows zaxavage in first at 6-1; transcript also says Zach is 6-1."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Zach and Thomas completed a two-for-two trade: Zach received Mike Evans and Chris Olave; Thomas received Kareem Hunt and Jaxon Smith-Njigba.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Zach",
+              "Thomas",
+              "zaxavage",
+              "ThomasWadde",
+              "Mike Evans",
+              "Chris Olave",
+              "Kareem Hunt",
+              "Jaxon Smith-Njigba"
+            ],
+            "facts": [
+              {
+                "name": "team_1_owner",
+                "value": "Zach"
+              },
+              {
+                "name": "team_1_received",
+                "value": "Mike Evans; Chris Olave"
+              },
+              {
+                "name": "team_1_sent",
+                "value": "Kareem Hunt; Jaxon Smith-Njigba"
+              },
+              {
+                "name": "team_2_owner",
+                "value": "Thomas"
+              },
+              {
+                "name": "team_2_received",
+                "value": "Kareem Hunt; Jaxon Smith-Njigba"
+              },
+              {
+                "name": "team_2_sent",
+                "value": "Mike Evans; Chris Olave"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 219.36,
+                "end_seconds": 282.0,
+                "details": "Transcript says the league's third trade was completed and identifies Zach and Thomas; the on-screen 'Trade Accepted' panel explicitly lists the two sides and all four players."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "The Zach–Thomas trade prompted complaints in the league chat, with commentators characterizing it as heavily favoring Zach.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Zach",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "subject",
+                "value": "Zach–Thomas trade"
+              },
+              {
+                "name": "reaction",
+                "value": "League-chat complaints; commentators said Zach won decisively"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 222.64,
+                "end_seconds": 229.04,
+                "details": "Speaker says messages in league chat were people complaining about the trade."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 270.64,
+                "end_seconds": 307.84,
+                "details": "Commentators call the trade a 'fleece' and say Zach wins it by a mile; this is opinion, not an objective valuation."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript mentions a Chargers D/ST acquisition and a Lions D/ST discussion, but the supplied visuals do not clearly establish the acquiring owner or the completed transaction.",
+          "Mike Evans's expected absence and a possible Week 11 return are discussed as uncertain at recording time; no definitive injury duration is established in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The league discusses a completed Zach–Thomas trade: Zach acquires Mike Evans and Chris Olave, while Thomas receives Kareem Hunt and Jaxon Smith-Njigba. The deal draws criticism, and Zach is described as 6-1.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Zach traded Kareem Hunt and Jaxon Smith-Njigba to Thomas for Mike Evans and Chris Olave.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Zach",
+              "Thomas",
+              "Zaxavage",
+              "Kareem Hunt",
+              "Jaxon Smith-Njigba",
+              "Mike Evans",
+              "Chris Olave"
+            ],
+            "facts": [
+              {
+                "name": "Zach receives",
+                "value": "Mike Evans; Chris Olave"
+              },
+              {
+                "name": "Zach sends",
+                "value": "Kareem Hunt; Jaxon Smith-Njigba"
+              },
+              {
+                "name": "Thomas receives",
+                "value": "Kareem Hunt; Jaxon Smith-Njigba"
+              },
+              {
+                "name": "Thomas sends",
+                "value": "Mike Evans; Chris Olave"
+              },
+              {
+                "name": "Zach screen name shown",
+                "value": "Zaxavage"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 371.6,
+                "end_seconds": 398.0,
+                "details": "Trade card shows the receiving side gets Kareem Hunt and Jaxon Smith-Njigba, both marked \"From Zaxavage,\" and sends Mike Evans and Chris Olave, both marked \"To Zaxavage.\" Transcript identifies the managers as Zach and Thomas and discusses the exchange as having occurred."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Zach is stated to be 6-1.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "Record",
+                "value": "6-1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 371.84,
+                "end_seconds": 378.56,
+                "details": "Speaker says Zach is \"six-one\" and can wait for players to return."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Mike Evans is discussed as out with a hamstring injury for at least some upcoming time.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Mike Evans"
+            ],
+            "facts": [
+              {
+                "name": "Injury",
+                "value": "Hamstring"
+              },
+              {
+                "name": "Return timeline",
+                "value": "Speaker says he might miss a few weeks; no confirmed timetable"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 418.84,
+                "end_seconds": 422.0,
+                "details": "Speaker says, \"Mike Evans might be out for a few weeks with that hamstring injury.\""
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "DK Metcalf is reported to have a knee injury and may miss one to two weeks.",
+            "status": "reported",
+            "confidence": 0.72,
+            "raw_names": [
+              "DK Metcalf"
+            ],
+            "facts": [
+              {
+                "name": "Injury",
+                "value": "Knee"
+              },
+              {
+                "name": "Possible absence",
+                "value": "One to two weeks"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 389.04,
+                "end_seconds": 392.96,
+                "details": "Speaker says DK Metcalf is hurt and \"probably\" will miss one to two weeks with a knee injury."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The trade card identifies Zach as \"Zaxavage,\" but Thomas's screen name is not visible in this window.",
+          "The statements about Mike Evans's and DK Metcalf's expected absences are commentary rather than confirmed medical timetables."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed four-player trade is shown, followed by creator reactions and a claim that Mason lost to the speaker the prior week; the speaker says he will face Mason in Week 8.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "A four-player trade is shown: the unspecified receiving side gets Kareem Hunt and Jaxon Smith-Njigba from raw team/account name \"Zaxasavage,\" while \"Zaxasavage\" gets Mike Evans and Chris Olave.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Zaxasavage",
+              "Kareem Hunt",
+              "Jaxon Smith-Njigba",
+              "Mike Evans",
+              "Chris Olave"
+            ],
+            "facts": [
+              {
+                "name": "received",
+                "value": "Kareem Hunt (RB, KC); Jaxon Smith-Njigba (WR, SEA)"
+              },
+              {
+                "name": "sent",
+                "value": "Mike Evans (WR, TB); Chris Olave (WR, NO)"
+              },
+              {
+                "name": "counterparty",
+                "value": "Zaxasavage"
+              },
+              {
+                "name": "trade-side owner",
+                "value": "Not identified in this window"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 541.915,
+                "end_seconds": 548.035,
+                "details": "Trade graphic explicitly lists Hunt and Smith-Njigba as received from Zaxasavage, and Evans and Olave as sent to Zaxasavage."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "The speaker says he beat Mason the previous week, describing it as an \"absolute beatdown.\" No score or speaker identity is provided in this window.",
+            "status": "reported",
+            "confidence": 0.74,
+            "raw_names": [
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "week",
+                "value": "Previous week; described immediately before Week 8 discussion"
+              },
+              {
+                "name": "score",
+                "value": "Not provided"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 667.0,
+                "end_seconds": 682.24,
+                "details": "Speaker says Mason is coming off \"an absolute Beatdown\" from him and that he \"gave him that beat down last week.\""
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The owner/team identity of the non-Zaxasavage side of the trade is not shown.",
+          "The speaker who says he defeated Mason is not identified, and no matchup score is provided."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 8 fantasy matchup previews: Badake vs. Mason and Zach vs. an ambiguously transcribed opponent (“s”). No matchup results are shown.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Badake’s Week 8 matchup against Mason was previewed as nearly even: Badake was stated to be 5-2, Mason 4-3, with projections of 127-125 and win odds of 51% for Badake versus 49% for Mason. This is a pre-game projection, not a completed result.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Badake",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "8"
+              },
+              {
+                "name": "Badake record",
+                "value": "5-2"
+              },
+              {
+                "name": "Mason record",
+                "value": "4-3"
+              },
+              {
+                "name": "projected score",
+                "value": "Badake 127, Mason 125"
+              },
+              {
+                "name": "win probability",
+                "value": "Badake 51%, Mason 49%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 762.68,
+                "end_seconds": 796.68,
+                "details": "Speaker states the records, matchup players, projections, and win probabilities; the Sleeper matchup screen visually shows Badake’s team against Mason’s."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "The projected Badake–Mason starters shown included Jordan Love vs. Anthony Richardson, Saquon Barkley vs. D’Andre Swift, James Cook vs. Javonte Williams, A.J. Brown vs. Ja’Marr Chase, Jayden Reed vs. DeVonta Smith, and Jake Ferguson vs. Cole Kmet.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Badake",
+              "Mason",
+              "Jordan Love",
+              "Anthony Richardson",
+              "Saquon Barkley",
+              "D'Andre Swift",
+              "James Cook",
+              "Javonte Williams",
+              "A.J. Brown",
+              "Ja'Marr Chase",
+              "Jayden Reed",
+              "DeVonta Smith",
+              "Jake Ferguson",
+              "Cole Kmet"
+            ],
+            "facts": [
+              {
+                "name": "context",
+                "value": "Week 8 projected lineup comparison"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 766.4,
+                "end_seconds": 786.0,
+                "details": "The speaker recites the positional player comparisons while the Sleeper matchup lineup is visible."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Zach was stated to be facing “s” in Week 8; the opponent’s name is unclear in the supplied transcript, so no owner identity is assigned.",
+            "status": "confirmed",
+            "confidence": 0.74,
+            "raw_names": [
+              "Zach",
+              "s"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "8"
+              },
+              {
+                "name": "matchup",
+                "value": "Zach vs. s (opponent name unclear)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 855.36,
+                "end_seconds": 865.84,
+                "details": "The speaker says, “you have Zach going up against s” and then, “it’s week eight and we’re facing s.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Confirm whether the transcript’s opponent name “s” in Zach’s Week 8 matchup is Sal."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 8 preview centers on the Zach–Sal matchup and their earlier Amari Cooper/Jonathan Taylor trade.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Sal entered Week 8 at 3-4 on a two-game winning streak, one spot outside the postseason; he was set to face Zach, who was 6-1 with six straight wins.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Sal",
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "8"
+              },
+              {
+                "name": "Sal record",
+                "value": "3-4"
+              },
+              {
+                "name": "Sal streak",
+                "value": "2 wins"
+              },
+              {
+                "name": "Sal standings position",
+                "value": "one spot outside postseason"
+              },
+              {
+                "name": "Zach record",
+                "value": "6-1"
+              },
+              {
+                "name": "Zach streak",
+                "value": "6 wins"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 970.319,
+                "end_seconds": 994.8,
+                "details": "Transcript gives both records, streaks, and the upcoming matchup; the on-screen fantasy matchup displays Sal at 3-4 versus Zach at 6-1."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Zach had lost Chris Godwin, prompting Terry McLaurin to be placed in Zach's Week 8 lineup.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Zach",
+              "Chris Godwin",
+              "Terry McLaurin"
+            ],
+            "facts": [
+              {
+                "name": "affected owner",
+                "value": "Zach"
+              },
+              {
+                "name": "player lost",
+                "value": "Chris Godwin"
+              },
+              {
+                "name": "replacement in lineup",
+                "value": "Terry McLaurin"
+              },
+              {
+                "name": "week",
+                "value": "8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 984.319,
+                "end_seconds": 990.24,
+                "details": "Speaker says Zach 'just lost Chris Godwin' but can put Terry McLaurin into his lineup; the matchup screen lists T. McLaurin on Zach's side."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Zach and Sal previously completed a trade: Sal received Amari Cooper and Zach received Jonathan Taylor.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Zach",
+              "Sal",
+              "Amari Cooper",
+              "Jonathan Taylor"
+            ],
+            "facts": [
+              {
+                "name": "team owner receiving Amari Cooper",
+                "value": "Sal"
+              },
+              {
+                "name": "team owner receiving Jonathan Taylor",
+                "value": "Zach"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1002.44,
+                "end_seconds": 1040.32,
+                "details": "The narration describes Sal's trade with Zach for Amari Cooper and says Jonathan Taylor was traded from Sal to Zach; the matchup screen shows Cooper on Sal's roster and Taylor on Zach's roster."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Zach said he had just traded away Kareem Hunt; the receiving owner and return were not stated in this window.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach",
+              "Kareem Hunt"
+            ],
+            "facts": [
+              {
+                "name": "player moved away from",
+                "value": "Zach"
+              },
+              {
+                "name": "player",
+                "value": "Kareem Hunt"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1043.84,
+                "end_seconds": 1047.76,
+                "details": "During Zach's discussion of the Sal matchup, he states, 'I also just trade away Kareem Hunt.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Chris Godwin's specific injury/status is not provided.",
+          "The recipient and compensation in Zach's Kareem Hunt trade are not provided.",
+          "The Zach–Sal Week 8 matchup is only previewed here; no final result is shown."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 8 previews focus on the upcoming Bush/Corey vs. Mason matchup and Bush’s matchup with Danny; injuries and a prior quarterback transaction are discussed.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Week 8 matchup preview: Bush/Corey (“Cinderella Story”) is facing Mason (“Mason’s Wee Taddies”). The matchup screen shows Mason projected ahead, 68% to 32%.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Bush",
+              "Corey",
+              "Cinderella Story",
+              "Mason",
+              "Mason’s Wee Taddies"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "8"
+              },
+              {
+                "name": "matchup",
+                "value": "Bush/Corey (Cinderella Story) vs Mason (Mason’s Wee Taddies)"
+              },
+              {
+                "name": "projection",
+                "value": "Mason 68%, Bush/Corey 32%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1198.84,
+                "end_seconds": 1204.0,
+                "details": "Speaker identifies the Week 8 game as against “Cinderella Story himself bushy boy”; the on-screen Sleeper matchup identifies Cinderella Story vs Mason’s Wee Taddies and displays 32%/68% projections."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Bush/Corey says his roster “just suffered a big injury” with Brandon Aiyuk before his Week 8 matchup with Danny.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Bush",
+              "Corey",
+              "Brandon Aiyuk",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "affected_owner",
+                "value": "Bush/Corey"
+              },
+              {
+                "name": "player",
+                "value": "Brandon Aiyuk"
+              },
+              {
+                "name": "week",
+                "value": "8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1132.56,
+                "end_seconds": 1144.0,
+                "details": "The speaker says that he and Danny are playing this week and that his team suffered a big injury with Brandon Aiyuk."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Danny reportedly dropped Dak Prescott during Dak’s bye week in order to add Drake Maye.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Danny",
+              "Dak Prescott",
+              "Drake Maye"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Danny"
+              },
+              {
+                "name": "dropped_player",
+                "value": "Dak Prescott"
+              },
+              {
+                "name": "added_player",
+                "value": "Drake Maye"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1156.0,
+                "end_seconds": 1161.84,
+                "details": "Speaker says he can start Dak Prescott against Danny because Danny “famously dropped Dak Prescott during the bye to pick up Drake Maye.”"
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "A speaker says Jameson Williams (“J Mo”) is unavailable for the opponent’s lineup, which is contributing to a current 133–106 projection; he expects Cooper Kupp to replace him later. The opponent/owner is not identified clearly in this window.",
+            "status": "reported",
+            "confidence": 0.67,
+            "raw_names": [
+              "J Mo",
+              "Jameson Williams",
+              "Cooper Kupp",
+              "Mason’s Daddy",
+              "Good Evening, Edwards"
+            ],
+            "facts": [
+              {
+                "name": "player_unavailable",
+                "value": "Jameson Williams (J Mo)"
+              },
+              {
+                "name": "potential_lineup_replacement",
+                "value": "Cooper Kupp"
+              },
+              {
+                "name": "current_projection",
+                "value": "133 to 106"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1083.88,
+                "end_seconds": 1111.88,
+                "details": "Speaker says the opponent “just lose J Mo,” still has an unclear player in the starting lineup, and will probably plug Cooper Kupp back in; the Sleeper screen shows a matchup between Mason’s Daddy and Good Evening, Edwards, but the owner identities and some roster text are too blurry to resolve."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Confirm which team owners correspond to the team names “Mason’s Daddy” and “Good Evening, Edwards,” and the exact player currently occupying the opponent’s lineup in that matchup.",
+          "The Aiyuk-injury speaker is treated as Bush/Corey based on the contiguous Week 8/Danny matchup segment, but the speaker’s identity is not explicitly stated in the transcript."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1433.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Nathan discusses his upcoming matchup with Austin and his roster. A separate speaker says he rosters Tyreek Hill and expresses concern over Hill's quarterback situation; he also says his kicker Brandon Aubrey's jury duty is a lineup problem after a recent, incompletely described kicker trade.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Nathan says Kyren Williams is playing Thursday and that he is facing Austin this week.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Nathan",
+              "Austin",
+              "K Williams"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Nathan vs. Austin"
+              },
+              {
+                "name": "planned starter",
+                "value": "K Williams (Kyren Williams) is playing Thursday"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1260.48,
+                "end_seconds": 1275.84,
+                "details": "The speaker says K Williams plays Thursday and that he is against Austin this week; the fantasy app display shows a Nathan-versus-Austin matchup."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "An unidentified manager, calling himself “Mike honcho,” says he owns Tyreek Hill and is hoping Tua Tagovailoa returns this week because Hill has struggled without him.",
+            "status": "reported",
+            "confidence": 0.67,
+            "raw_names": [
+              "Mike honcho",
+              "Tyreek Hill",
+              "Tua"
+            ],
+            "facts": [
+              {
+                "name": "roster claim",
+                "value": "Speaker says he owns Tyreek Hill"
+              },
+              {
+                "name": "NFL context",
+                "value": "Speaker is concerned about Tua Tagovailoa's possible return affecting Tyreek Hill"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1276.24,
+                "end_seconds": 1307.84,
+                "details": "The speaker states, “I own Tyreek Hill in this league,” and says he hopes Tua comes back this week."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Brandon Aubrey's reported jury-duty absence is presented as a fantasy lineup concern by an unidentified manager who calls Aubrey “my kicker.”",
+            "status": "reported",
+            "confidence": 0.66,
+            "raw_names": [
+              "Brandon Aubrey"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Brandon Aubrey"
+              },
+              {
+                "name": "availability context",
+                "value": "Reportedly selected for jury duty; timetable unclear"
+              },
+              {
+                "name": "fantasy roster claim",
+                "value": "Speaker calls Aubrey “my kicker”"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1323.76,
+                "end_seconds": 1346.32,
+                "details": "Speaker complains that his kicker has jury duty; an on-screen post reports Cowboys K Brandon Aubrey was selected for a 12-person jury and that there is no clear timetable."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The owner identity behind the “Mike honcho” Tyreek Hill and Brandon Aubrey roster claims is not established within this window.",
+          "The speaker says he had just traded a player whose name is unclear in the transcript (“will rker”); the player, trade partner, and terms cannot be determined from this window."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "No Week 8 matchup final scores or winners are shown in the supplied evidence.",
+    "Confirm whether the unclear opponent name in Zach's Week 8 preview is Sal; the later segment explicitly previews Zach versus Sal.",
+    "The acquiring owner and completed details for the discussed Chargers D/ST and Lions D/ST moves are not clearly established.",
+    "Chris Godwin is confirmed dropped by Zach, but the specific injury or availability status behind the move is not established here.",
+    "The recipient and return for Zach's Kareem Hunt trade are established by the Zach–Thomas trade, but the later standalone reference does not independently name the terms.",
+    "The owner identities behind the 'Mason's Daddy' and 'Good Evening, Edwards' team names, plus the unidentified Tyreek Hill and Brandon Aubrey manager, are unresolved.",
+    "The player described unclearly as having been traded immediately before the Aubrey discussion, as well as that trade's terms, cannot be determined."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Use team-owner names where established and prioritize private-league events over NFL context.",
+      "status": "fulfilled",
+      "details": "Events identify established owners such as Zach, Thomas, Sal, Bush, Danny, Nathan, Badake, Mason, and Austin. NFL injury context is retained only where it affects a known roster or is explicitly framed as a fantasy concern."
+    },
+    {
+      "instruction": "Track mentioned trades, waivers, injuries, and head-to-head matchups without inventing missing details.",
+      "status": "fulfilled",
+      "details": "Confirmed waiver moves and trades are recorded with supported terms. Week 8 items are explicitly labeled as previews when no result is available; uncertain ownership, trade terms, and injury timelines remain open questions or reported events."
+    },
+    {
+      "instruction": "Defer to visual evidence when transcript and visual evidence differ, and retain strongest timestamps.",
+      "status": "fulfilled",
+      "details": "Trade, waiver, standings, and matchup facts supported by on-screen panels use visual or both-source evidence; commentary-only medical timelines are labeled reported."
+    },
+    {
+      "instruction": "Honor recap exclusions while retaining excluded facts in structured outputs.",
+      "status": "not_applicable",
+      "details": "No recap exclusions or supplemental-output declarations were provided in the trusted guidance."
+    }
+  ],
+  "supplemental_outputs": []
+}

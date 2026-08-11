@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "video_id": "1Er6FYX-6Go",
+  "video_title": "A Horrible Trade RUINS Masons Team",
+  "season": "Season 1",
+  "week": 2,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "A Horrible Trade RUINS Masons Team",
+      "upload_date": "20240912",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "trade",
+      "summary": "Mason completed the league’s second official trade, receiving Hollywood Brown and Javonte Williams from BuschLeague for Amari Cooper, Justice Hill, and $5 FAAB.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "receiving owner",
+          "name": "Mason"
+        },
+        {
+          "role": "trade partner team label",
+          "name": "BuschLeague"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Mason receives",
+          "value": "Hollywood Brown; Javonte Williams"
+        },
+        {
+          "name": "Mason sends",
+          "value": "Amari Cooper; Justice Hill; $5 FAAB"
+        },
+        {
+          "name": "trade sequence",
+          "value": "Second official trade in the league"
+        },
+        {
+          "name": "opposing owner",
+          "value": "Not reliably identified; the trade graphic labels the team BuschLeague"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 396.0,
+          "end_seconds": 407.0,
+          "details": "Discussion identifies Mason’s trade, and the transaction graphic lists Hollywood Brown and Javonte Williams to Mason’s side for Amari Cooper, Justice Hill, and $5 FAAB to BuschLeague."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 404.794,
+          "end_seconds": 417.414,
+          "details": "Legible transaction graphic confirms the complete player and FAAB exchange."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Hollywood Brown was reported as injured and still not back at practice on Wednesday after Mason acquired him; Mason had Brown on his bench.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "reported",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "fantasy owner",
+          "name": "Mason"
+        },
+        {
+          "role": "NFL player",
+          "name": "Hollywood Brown"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported practice status",
+          "value": "Still not back at practice on Wednesday"
+        },
+        {
+          "name": "injury detail",
+          "value": "Unspecified; no diagnosis or return timeline provided"
+        },
+        {
+          "name": "Mason roster placement shown",
+          "value": "Bench"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 418.24,
+          "end_seconds": 427.599,
+          "details": "Speaker says Brown was still not back at practice on Wednesday and identifies him among Mason’s bench players."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 429.855,
+          "end_seconds": 448.694,
+          "details": "Mason’s roster display shows H. Brown on the bench."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "An offer involving MasonDodd and BuschLeague was shown: Mason would receive Bucky Irving and Jaxon Smith-Njigba for Amari Cooper and Tyjae Spears. It was an offer only; no completion was established.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "offering/receiving team label",
+          "name": "MasonDodd"
+        },
+        {
+          "role": "trade partner team label",
+          "name": "BuschLeague"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "stage",
+          "value": "Offer/proposal; not established as completed"
+        },
+        {
+          "name": "Mason receives",
+          "value": "Bucky Irving; Jaxon Smith-Njigba"
+        },
+        {
+          "name": "Mason sends",
+          "value": "Amari Cooper; Tyjae Spears"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 30.0,
+          "end_seconds": 45.36,
+          "details": "Trade graphic identifies both sides and the proposed player package; discussion calls it an offer."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 67.655,
+          "end_seconds": 70.875,
+          "details": "Trade graphic again shows MasonDodd receiving Irving and Smith-Njigba for Cooper and Spears."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "MasonDodd proposed sending Terry McLaurin to NathanSchmidt for Puka Nacua, but Nathan rejected the offer.",
+      "season": "Season 1",
+      "week": 2,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "proposing owner",
+          "name": "Mason"
+        },
+        {
+          "role": "receiving owner",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Mason sends",
+          "value": "Terry McLaurin"
+        },
+        {
+          "name": "Mason receives",
+          "value": "Puka Nacua"
+        },
+        {
+          "name": "outcome",
+          "value": "Rejected"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 480.0,
+          "end_seconds": 492.635,
+          "details": "The trade card shows NathanSchmidt receiving Terry McLaurin from MasonDodd and sending Puka Nacua to MasonDodd, labeled REJECTED."
+        },
+        {
+          "source": "both",
+          "start_seconds": 473.36,
+          "end_seconds": 495.479,
+          "details": "Discussion covers the proposed McLaurin-for-Nacua deal while the on-screen card establishes the direction and rejected outcome."
+        }
+      ]
+    }
+  ]
+}

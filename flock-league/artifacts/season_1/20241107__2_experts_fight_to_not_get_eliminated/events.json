@@ -1,0 +1,832 @@
+{
+  "schema_version": 1,
+  "video_id": "PvDpOviLy9k",
+  "video_title": "2 \"Experts\" Fight To Not Get Eliminated",
+  "season": "Season 1",
+  "week": 10,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "2 \"Experts\" Fight To Not Get Eliminated",
+      "upload_date": "20241107",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "trade",
+      "summary": "Zach said he traded for Chris Olave; the other trade side and assets are not provided.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "player acquired",
+          "name": "Chris Olave"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "team_owner",
+          "value": "Zach"
+        },
+        {
+          "name": "player_acquired",
+          "value": "Chris Olave"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 92.28,
+          "end_seconds": 101.2,
+          "details": "Zach is identified on screen and says, “I just traded for Chris Olave.”"
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Zach reported that Chris Olave suffered a concussion and went to the hospital shortly after Zach acquired him.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "reported",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "NFL player",
+          "name": "Chris Olave"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Concussion"
+        },
+        {
+          "name": "reported_outcome",
+          "value": "Went to hospital"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 92.28,
+          "end_seconds": 102.56,
+          "details": "Zach says Olave was hit in the helmet and “goes to the hospital for concussion.”"
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Zach said Tyreek Hill had underperformed since Tua Tagovailoa’s concussion absence, despite Tagovailoa having returned.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "reported",
+      "confidence": 0.8,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "fantasy player",
+          "name": "Tyreek Hill"
+        },
+        {
+          "role": "NFL context",
+          "name": "Tua Tagovailoa"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "NFL_context",
+          "value": "Tagovailoa previously missed time with a concussion and had returned"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 82.4,
+          "end_seconds": 92.28,
+          "details": "Zach attributes Hill’s poor production to Tua’s concussion absence and says Tua is back."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Danny added Demarcus Robinson for $8 and Khalil Herbert for $7.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "player added",
+          "name": "Demarcus Robinson"
+        },
+        {
+          "role": "player added",
+          "name": "Khalil Herbert"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Demarcus Robinson bid",
+          "value": "$8"
+        },
+        {
+          "name": "Khalil Herbert bid",
+          "value": "$7"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 131.267,
+          "end_seconds": 141.4,
+          "details": "Waiver-results screen lists DannyIad21's roster adding Demarcus Robinson for $8 and Khalil Herbert for $7."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Avery added Mike Gesicki for $2 and dropped the Tennessee Titans D/ST.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "player added",
+          "name": "Mike Gesicki"
+        },
+        {
+          "role": "player dropped",
+          "name": "Tennessee Titans D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "bid",
+          "value": "$2"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 140.92,
+          "end_seconds": 146.92,
+          "details": "Waiver screen lists Avery adding Mike Gesicki for $2 and dropping Tennessee Titans DEF."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Sal added Chris Boswell for $2.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "player added",
+          "name": "Chris Boswell"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "bid",
+          "value": "$2"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 141.4,
+          "end_seconds": 146.92,
+          "details": "Waiver-results screen lists SalVetri's roster adding Chris Boswell for $2."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Thomas added the Buffalo Bills D/ST for $1.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "confirmed",
+      "confidence": 0.78,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "player added",
+          "name": "Buffalo Bills D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "bid",
+          "value": "$1"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 141.4,
+          "end_seconds": 146.92,
+          "details": "Partly cropped lower portion of waiver-results screen shows ThomasWaddle's roster adding Buffalo Bills DEF for $1."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Mason added the Arizona Cardinals D/ST and Gabe Davis; Gabe Davis was described as a free pickup.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "player added",
+          "name": "Arizona Cardinals D/ST"
+        },
+        {
+          "role": "player added",
+          "name": "Gabe Davis"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Gabe Davis acquisition type",
+          "value": "Free pickup"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 203.92,
+          "end_seconds": 246.44,
+          "details": "Commentary identifies the Cardinals defense as Mason’s selection and describes Gabe Davis as a free pickup."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Nathan and Sal were each displayed at 3-6, tied with another team for the lowest record shown.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Nathan record",
+          "value": "3-6"
+        },
+        {
+          "name": "Sal record",
+          "value": "3-6"
+        },
+        {
+          "name": "standing context",
+          "value": "Tied with another 3-6 team for lowest record displayed"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 316.03,
+          "end_seconds": 331.2,
+          "details": "Standings display lists Nathan and Sal at 3-6; narration identifies them as at risk of elimination."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Sal was shown facing StevenSwagal in Week 10; both displayed records were 3-6, with Sal at 53% projected win probability and StevenSwagal at 47%.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "opposing displayed team",
+          "name": "StevenSwagal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Sal record",
+          "value": "3-6"
+        },
+        {
+          "name": "StevenSwagal record",
+          "value": "3-6"
+        },
+        {
+          "name": "displayed win probabilities",
+          "value": "Sal 53%, StevenSwagal 47%"
+        },
+        {
+          "name": "matchup status",
+          "value": "Upcoming"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 402.374,
+          "end_seconds": 412.155,
+          "details": "Week 10 matchup screen shows Sal versus StevenSwagal, both 3-6, with 53% and 47% displayed."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "An unidentified participant reported sending Nico Collins and receiving Jaylen Waddle and Rhamondre Stevenson.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "reported",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "player sent",
+          "name": "Nico Collins"
+        },
+        {
+          "role": "player received",
+          "name": "Jaylen Waddle"
+        },
+        {
+          "role": "player received",
+          "name": "Rhamondre Stevenson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "sending manager",
+          "value": "Unidentified"
+        },
+        {
+          "name": "sent",
+          "value": "Nico Collins"
+        },
+        {
+          "name": "received",
+          "value": "Jaylen Waddle; Rhamondre Stevenson"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 500.92,
+          "end_seconds": 508.56,
+          "details": "Speaker says, “I sent Nico Collins and got back Jaylen Waddle and Rhamondre Stevenson.”"
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Austin was said to have traded for Christian McCaffrey earlier in the season.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "player acquired",
+          "name": "Christian McCaffrey"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "timing",
+          "value": "Earlier in the season"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 585.68,
+          "end_seconds": 589.28,
+          "details": "Speaker says Austin “traded for McCaffrey earlier in the season.”"
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Joe was credited with a prior win over Mason, characterized as one of the year’s biggest upsets; no score is provided.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.83,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Joe"
+        },
+        {
+          "role": "loser",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "characterization",
+          "value": "One of the biggest upsets of the year"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 622.48,
+          "end_seconds": 626.28,
+          "details": "Joe is described as fresh off a victory against Mason, “one of the biggest upsets of the year.”"
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 891.52,
+          "end_seconds": 895.56,
+          "details": "Another speaker refers to Mason as “the guy who lost to Joe.”"
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Austin was presented as 6-3 and in second place, Avery as 5-4, and Mason as 5-6.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Austin record",
+          "value": "6-3"
+        },
+        {
+          "name": "Austin standing",
+          "value": "Second place"
+        },
+        {
+          "name": "Avery record",
+          "value": "5-4"
+        },
+        {
+          "name": "Mason record",
+          "value": "5-6"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 577.44,
+          "end_seconds": 580.56,
+          "details": "Austin is introduced as “a 6 and 3 second place in the league.”"
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 633.0,
+          "end_seconds": 635.28,
+          "details": "Speaker says Avery is “5-4.”"
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 752.72,
+          "end_seconds": 754.48,
+          "details": "Speaker says Mason is “five and six.”"
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "A proposed offer involving Sal was discussed: Jordan Love, Jayden Reed, Darnell Mooney, and Rome Odunze for Josh Allen, Drake London, and DK Metcalf. No acceptance is established.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "reported",
+      "confidence": 0.77,
+      "participants": [
+        {
+          "role": "trade recipient",
+          "name": "Sal"
+        },
+        {
+          "role": "asset offered",
+          "name": "Jordan Love"
+        },
+        {
+          "role": "asset offered",
+          "name": "Jayden Reed"
+        },
+        {
+          "role": "asset offered",
+          "name": "Darnell Mooney"
+        },
+        {
+          "role": "asset offered",
+          "name": "Rome Odunze"
+        },
+        {
+          "role": "asset requested",
+          "name": "Josh Allen"
+        },
+        {
+          "role": "asset requested",
+          "name": "Drake London"
+        },
+        {
+          "role": "asset requested",
+          "name": "DK Metcalf"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "completion",
+          "value": "Proposed or attempted; not confirmed accepted"
+        },
+        {
+          "name": "offering manager",
+          "value": "Unidentified"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 810.2,
+          "end_seconds": 824.12,
+          "details": "Speaker says someone “sent Sal or tried to” make the stated offer and was upset it was not accepted."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Drake London was said to have been injured after the proposed trade offer; no injury type, timing, or fantasy owner is identified.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "reported",
+      "confidence": 0.74,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Drake London"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury details",
+          "value": "Not provided"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 840.16,
+          "end_seconds": 847.08,
+          "details": "Speaker describes the offer as occurring “before Drake London gets injured.”"
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Zach solicited a two-for-one trade or FAAB return for Bo Nix from QB-needy teams; no transaction is shown.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "asset offered",
+          "name": "Bo Nix"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "requested return",
+          "value": "Two-for-one trade or FAAB"
+        },
+        {
+          "name": "transaction status",
+          "value": "Solicitation only"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 838.56,
+          "end_seconds": 849.84,
+          "details": "On-screen league chat reads, “QB needy teams, looking for a 2 for 1 or FAAB for Bo Nix.”"
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Mason and Danny were shown as an upcoming Week 10 matchup; no result is shown.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Danny"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "matchup status",
+          "value": "Upcoming/scheduled"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 878.8,
+          "end_seconds": 885.2,
+          "details": "Transcript says Mason is going up against Danny, while the fantasy display shows Week 10 MasonDodd versus Dannylad21 with future game times."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Mason reported losing an unnamed top-five wide receiver for the season.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "reported",
+      "confidence": 0.8,
+      "participants": [
+        {
+          "role": "affected team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "unidentified player",
+          "name": "Unnamed top-five wide receiver"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported duration",
+          "value": "For the year"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 925.28,
+          "end_seconds": 932.8,
+          "details": "Mason says, “I lost a top five wide receiver for the year.”"
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "A possible punishment bet for the Mason–Danny Week 10 matchup was solicited from viewers; no terms were agreed.",
+      "season": "Season 1",
+      "week": 10,
+      "status": "unclear",
+      "confidence": 0.92,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Danny"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "bet status",
+          "value": "Proposed; viewers asked to suggest terms"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 961.28,
+          "end_seconds": 976.4,
+          "details": "Mason asks commenters what the bet and Danny’s punishment should be after the anticipated matchup."
+        }
+      ]
+    }
+  ]
+}

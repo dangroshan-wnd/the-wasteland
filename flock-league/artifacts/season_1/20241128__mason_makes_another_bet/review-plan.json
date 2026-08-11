@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "video_id": "C0wHMfHGrw4",
+  "video_title": "Mason Makes Another Bet",
+  "raw_sample_counts": {
+    "scene": 154,
+    "periodic": 68,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Mason Makes Another Bet",
+      "upload_date": "20241128",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        8.133,
+        20.8,
+        30.867,
+        52.567,
+        71.935,
+        75.935,
+        90.0,
+        118.633,
+        120.0,
+        143.075,
+        157.214,
+        177.775
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        187.115,
+        202.633,
+        214.715,
+        231.333,
+        247.514,
+        263.494,
+        280.255,
+        292.495,
+        306.934,
+        322.395,
+        338.275,
+        346.314
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        369.8,
+        385.435,
+        387.435,
+        397.754,
+        405.833,
+        423.7,
+        456.5,
+        472.533,
+        483.133,
+        500.967,
+        521.195,
+        525.195
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        549.167,
+        554.7,
+        584.7,
+        613.355,
+        615.355,
+        617.355,
+        630.0,
+        656.2,
+        661.7,
+        687.033,
+        690.0,
+        719.2
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        727.555,
+        729.555,
+        731.555,
+        757.3,
+        781.833,
+        803.033,
+        817.255,
+        838.0,
+        844.933,
+        865.395,
+        870.5,
+        893.967
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        900.0,
+        929.633,
+        932.9,
+        942.033,
+        960.0,
+        974.2,
+        987.033,
+        990.0,
+        998.6,
+        1020.0,
+        1050.0,
+        1079.367
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1089.575,
+        1099.8,
+        1112.233,
+        1130.4,
+        1144.767,
+        1169.715,
+        1178.315,
+        1191.695,
+        1206.0,
+        1216.3,
+        1234.0,
+        1245.933
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1260.0,
+        1263.367,
+        1270.367,
+        1288.3,
+        1291.233,
+        1310.633,
+        1320.0,
+        1340.967,
+        1350.0,
+        1365.467,
+        1379.5,
+        1413.167
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1440.0,
+        1472.367,
+        1474.433,
+        1478.633,
+        1488.6,
+        1507.467,
+        1544.4,
+        1557.6,
+        1560.0,
+        1579.6,
+        1592.067,
+        1605.6
+      ]
+    },
+    {
+      "index": 9,
+      "start": 1620.0,
+      "end": 1800.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1620.0,
+        1642.114,
+        1644.114,
+        1646.114,
+        1650.0,
+        1670.414,
+        1672.414,
+        1680.0,
+        1704.9,
+        1710.0,
+        1740.0,
+        1770.0
+      ]
+    },
+    {
+      "index": 10,
+      "start": 1800.0,
+      "end": 1980.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1800.0,
+        1817.867,
+        1830.0,
+        1860.0,
+        1866.5,
+        1892.767,
+        1903.967,
+        1909.633,
+        1932.4,
+        1940.067,
+        1956.733,
+        1960.533
+      ]
+    },
+    {
+      "index": 11,
+      "start": 1980.0,
+      "end": 2025.0,
+      "transient_sample_count": 3,
+      "sample_timestamps": [
+        1980.633,
+        1993.533,
+        2010.0
+      ]
+    }
+  ]
+}

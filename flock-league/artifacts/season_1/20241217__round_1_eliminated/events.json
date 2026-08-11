@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "video_id": "BQ7x15-Pj9s",
+  "video_title": "Round 1 Eliminated...",
+  "season": "Season 1",
+  "week": 15,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Round 1 Eliminated...",
+      "upload_date": "20241217",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery defeated Joe, ending Joe's postseason run.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Avery"
+        },
+        {
+          "role": "loser",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "competition stage",
+          "value": "Postseason"
+        },
+        {
+          "name": "score",
+          "value": "Not provided"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 469.2,
+          "end_seconds": 488.8,
+          "details": "Narration says Joe's run had to end and explicitly celebrates that Joe lost after discussing the Joe–Avery matchup."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Thomas defeated Austin 157.04–144.50 and was shown advancing to face Mason.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Thomas"
+        },
+        {
+          "role": "loser",
+          "name": "Austin"
+        },
+        {
+          "role": "next opponent",
+          "name": "Mason"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Thomas",
+          "score": 157.04
+        },
+        {
+          "name": "Austin",
+          "score": 144.5
+        }
+      ],
+      "facts": [
+        {
+          "name": "next matchup",
+          "value": "Thomas vs. Mason"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 687.92,
+          "end_seconds": 695.0,
+          "details": "Commentary says Thomas beat Austin; the displayed bracket lists ThomasWadde 157.04 and AustinHood 144.50 and shows Thomas as Mason's next opponent."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "The displayed bracket shows Zach defeating Avery 175.34–159.54 and advancing.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Zach"
+        },
+        {
+          "role": "loser",
+          "name": "Avery"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Zach",
+          "score": 175.34
+        },
+        {
+          "name": "Avery",
+          "score": 159.54
+        }
+      ],
+      "facts": [
+        {
+          "name": "displayed outcome",
+          "value": "Zach advanced"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 652.4,
+          "end_seconds": 656.0,
+          "details": "The displayed playoff bracket shows @zaxavage 175.34 over @averyhuffman 159.54, with Zach advancing."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Narration later identifies Zach vs. Avery and Mason vs. Thomas as the upcoming championship semifinals.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "unclear",
+      "confidence": 0.72,
+      "participants": [
+        {
+          "role": "semifinalist",
+          "name": "Zach"
+        },
+        {
+          "role": "semifinalist",
+          "name": "Avery"
+        },
+        {
+          "role": "semifinalist",
+          "name": "Mason"
+        },
+        {
+          "role": "semifinalist",
+          "name": "Thomas"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "semifinal 1",
+          "value": "Zach vs. Avery"
+        },
+        {
+          "name": "semifinal 2",
+          "value": "Mason vs. Thomas"
+        },
+        {
+          "name": "conflict",
+          "value": "This conflicts with the earlier displayed Zach-over-Avery result."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1389.6,
+          "end_seconds": 1397.44,
+          "details": "Narrator explicitly states the two semifinal matchups for next week."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 652.4,
+          "end_seconds": 656.0,
+          "details": "Earlier bracket display instead depicts Zach defeating Avery."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "David Montgomery, on Thomas's roster, was reported out for the season with a torn MCL.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "fantasy owner affected",
+          "name": "Thomas"
+        },
+        {
+          "role": "NFL player",
+          "name": "David Montgomery"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Torn MCL"
+        },
+        {
+          "name": "availability",
+          "value": "Out for season"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 704.36,
+          "end_seconds": 710.0,
+          "details": "Commentary says Montgomery is confirmed out for the season, and Thomas's displayed roster includes D. Montgomery."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 729.56,
+          "end_seconds": 744.28,
+          "details": "Speaker describes the injury as a torn MCL and says Thomas has lost Montgomery."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Alvin Kamara, on Thomas's roster, was said to be unlikely to play the following week, but this was not confirmed.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "speculative",
+      "confidence": 0.68,
+      "participants": [
+        {
+          "role": "fantasy owner affected",
+          "name": "Thomas"
+        },
+        {
+          "role": "NFL player",
+          "name": "Alvin Kamara"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported expectation",
+          "value": "Speaker does not think Kamara will play next week"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 703.0,
+          "end_seconds": 706.44,
+          "details": "Speaker says Thomas lost Kamara and adds, 'I don't think he plays next week'; Kamara is visible on Thomas's roster."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Danny defeated Badake 125.64–121.46 in the first round of the Toilet Bowl.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Danny"
+        },
+        {
+          "role": "loser",
+          "name": "Badake"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Danny",
+          "score": 125.64
+        },
+        {
+          "name": "Badake",
+          "score": 121.46
+        }
+      ],
+      "facts": [
+        {
+          "name": "round",
+          "value": "Toilet Bowl, first round"
+        },
+        {
+          "name": "deciding context",
+          "value": "Badake needed roughly 4–4.5 points from Darnell Mooney on Monday night, but Mooney did not reach the needed total."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 907.88,
+          "end_seconds": 933.16,
+          "details": "Narration says Badake needed four points from Darnell Mooney and lost to Danny; the matchup display shows the 125.64–121.46 result."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1181.333,
+          "end_seconds": 1184.0,
+          "details": "Matchup display shows Badake at 121.46 and Danny at 125.64."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Badake, Nathan, and Bush are scheduled for a three-way Week 16 Toilet Bowl scoring contest; the high scorer is safe and the two lower scorers play for last place in Week 17.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "Toilet Bowl participant",
+          "name": "Badake"
+        },
+        {
+          "role": "Toilet Bowl participant",
+          "name": "Nathan"
+        },
+        {
+          "role": "Toilet Bowl participant",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Week 16 format",
+          "value": "Three-way scoring contest; highest scorer is safe"
+        },
+        {
+          "name": "Week 17 format",
+          "value": "The two lower Week 16 scorers play for last place"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1398.84,
+          "end_seconds": 1439.679,
+          "details": "Narrator explains the format and explicitly names Badake, Nathan, and Bush."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Danny proposed that the loser of the Danny–Badake matchup shave, but Badake rejected it; it was not an agreed punishment.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "proposer",
+          "name": "Danny"
+        },
+        {
+          "role": "rejecting participant",
+          "name": "Badake"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "proposal",
+          "value": "Loser of the matchup shaves"
+        },
+        {
+          "name": "outcome",
+          "value": "Rejected by Badake"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1221.2,
+          "end_seconds": 1247.08,
+          "details": "Badake recounts Danny's loser-shaves proposal and his response, 'hell no'; the Discord screenshot shows the exchange."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "A speaker said he previously traded “JJ” for Kyren Williams and called it a lateral move; the owner and the identity of “JJ” were not established.",
+      "season": "Season 1",
+      "week": null,
+      "status": "reported",
+      "confidence": 0.72,
+      "participants": [
+        {
+          "role": "NFL player acquired",
+          "name": "Kyren Williams"
+        },
+        {
+          "role": "asset traded away",
+          "name": "JJ"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "speaker assessment",
+          "value": "“A lateral move”"
+        },
+        {
+          "name": "owner attribution",
+          "value": "Unknown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 451.76,
+          "end_seconds": 459.04,
+          "details": "Speaker says he traded 'JJ' for Kyren Williams and characterizes it as a lateral move."
+        }
+      ]
+    }
+  ]
+}

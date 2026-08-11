@@ -1,0 +1,652 @@
+{
+  "schema_version": 1,
+  "video_id": "Mph1sql7rIU",
+  "video_title": "Week 9 Could End These \"Experts\"",
+  "season": "Season 1",
+  "week": 9,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Week 9 Could End These \"Experts\"",
+      "upload_date": "20241031",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "waiver",
+      "summary": "Nathan added Parker Washington (WR, JAX) for a $6 winning waiver bid and dropped Trey Palmer (WR, TB).",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "added player",
+          "name": "Parker Washington"
+        },
+        {
+          "role": "dropped player",
+          "name": "Trey Palmer"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning waiver bid",
+          "value": "$6"
+        },
+        {
+          "name": "total bids",
+          "value": "5"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 600.054,
+          "end_seconds": 613.519,
+          "details": "The waiver-claims card identifies Nathan's roster adding Parker Washington for $6 and dropping Trey Palmer; narration says Nathan outbid everyone."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Thomas added Matthew Stafford (QB, LAR) for $6 and dropped Andrei Iosivas (WR, CIN).",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "added player",
+          "name": "Matthew Stafford"
+        },
+        {
+          "role": "dropped player",
+          "name": "Andrei Iosivas"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning waiver bid",
+          "value": "$6"
+        },
+        {
+          "name": "total bids",
+          "value": "4"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 926.7,
+          "end_seconds": 929.0,
+          "details": "The league transaction log shows Thomas's roster adding Matthew Stafford, dropping Andrei Iosivas, for $6."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Sal added Jalen Coker (WR, CAR) for $4 and dropped Christian Kirk (WR, JAX).",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "added player",
+          "name": "Jalen Coker"
+        },
+        {
+          "role": "dropped player",
+          "name": "Christian Kirk"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning waiver bid",
+          "value": "$4"
+        },
+        {
+          "name": "total bids",
+          "value": "4"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 750.0,
+          "end_seconds": 754.56,
+          "details": "The Sleeper waiver display shows Sal's roster adding Jalen Coker, dropping Christian Kirk, for $4."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Christian Kirk was reported to be out for the remainder of the season; Sal dropped him in the confirmed waiver transaction.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "reported",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Christian Kirk"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported availability",
+          "value": "Out for the rest of the season"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 613.519,
+          "end_seconds": 616.279,
+          "details": "Narration says Kirk is out for the rest of the season; the immediately preceding waiver display shows Sal dropping him."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Mason added Caleb Williams (QB, CHI) for $3; the corresponding drop is not visible in the supplied evidence.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "added player",
+          "name": "Caleb Williams"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning waiver bid",
+          "value": "$3"
+        },
+        {
+          "name": "total bids",
+          "value": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 754.56,
+          "end_seconds": 791.64,
+          "details": "The Sleeper display shows Mason's roster adding Caleb Williams for $3, and narration says Mason picked him back up."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Zach added Bo Nix (QB, DEN) for $1.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "added player",
+          "name": "Bo Nix"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning waiver bid",
+          "value": "$1"
+        },
+        {
+          "name": "total bids",
+          "value": "4"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 811.64,
+          "end_seconds": 842.4,
+          "details": "Narration says Zach grabbed Bo Nix, and the Sleeper display shows Zach's roster adding him for $1."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Danny added John Metchie (WR, HOU) for $0 and dropped Isaac Guerendo (RB, SF).",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "added player",
+          "name": "John Metchie"
+        },
+        {
+          "role": "dropped player",
+          "name": "Isaac Guerendo"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning waiver bid",
+          "value": "$0"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 848.56,
+          "end_seconds": 852.16,
+          "details": "Narration and the Sleeper display show Danny adding John Metchie and dropping Isaac Guerendo for $0."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Badake was described as having injury-affected roster circumstances, including Jordan Love going down.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "reported",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "NFL player",
+          "name": "Jordan Love"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported issue",
+          "value": "Jordan Love went down with an unspecified injury"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 416.56,
+          "end_seconds": 422.32,
+          "details": "Speakers say Badake has had untimely injuries and specifically cite Jordan Love going down; the on-screen label identifies Badake."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Badake said he lost Brandon Aiyuk and had injuries to overcome.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "reported",
+      "confidence": 0.83,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "NFL player",
+          "name": "Brandon Aiyuk"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported issue",
+          "value": "Badake said he lost Brandon Aiyuk"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 471.68,
+          "end_seconds": 481.28,
+          "details": "Badake says, 'I lost Brandon Aiyuk,' while discussing injuries he has had to overcome."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Nathan listed seven players as questionable ahead of his Week 9 matchup with Avery.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "reported",
+      "confidence": 0.92,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "opponent",
+          "name": "Avery"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "questionable players",
+          "value": "Jayden Daniels; Tee Higgins; Jakobi Meyers; Jared Goff; Travis Etienne; Tank Bigsby; Quentin Johnston"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1104.76,
+          "end_seconds": 1117.52,
+          "details": "Nathan lists all seven players as questionable after Avery says he is favored by about 25."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1151.474,
+          "end_seconds": 1155.474,
+          "details": "The displayed lineup visibly shows questionable-status icons for Tee Higgins and Jakobi Meyers."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "An unidentified speaker said he received Justin Jefferson in a trade for 'essentially nothing'; neither the recipient nor the return package is established by the evidence.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "acquired player",
+          "name": "Justin Jefferson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "compensation",
+          "value": "Described only as 'essentially nothing'"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 897.959,
+          "end_seconds": 903.04,
+          "details": "A speaker says, 'the dude gave me Justin Jefferson for essentially nothing'; the on-screen topic list includes 'JJ TRADE'."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "An unidentified speaker said he added Jameis Winston from waivers for quarterback insurance because Drake Maye was dealing with a concussion.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "reported",
+      "confidence": 0.75,
+      "participants": [
+        {
+          "role": "added player",
+          "name": "Jameis Winston"
+        },
+        {
+          "role": "injured player",
+          "name": "Drake Maye"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reason for move",
+          "value": "Quarterback insurance"
+        },
+        {
+          "name": "reported Drake Maye issue",
+          "value": "Concussion"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 915.12,
+          "end_seconds": 920.36,
+          "details": "The speaker says he secured Jameis Winston off the wire for quarterback insurance 'with Drake May dealing with that concussion.'"
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Danny was reported to have lost three straight games and four of his past five entering Week 9.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "reported",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "Week 9 opponent",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "recent record",
+          "value": "Lost 3 straight and 4 of the last 5 games"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1219.08,
+          "end_seconds": 1226.84,
+          "details": "Narration introduces Danny versus Sal and says Danny has lost three straight and four of his last five."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Week 9 matchup preview: Sal (3-5) versus Danny (4-4), with Sal projected to win 121.05–108.30.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "team owner",
+          "name": "Danny"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Sal record",
+          "value": "3-5"
+        },
+        {
+          "name": "Danny record",
+          "value": "4-4"
+        },
+        {
+          "name": "projected score",
+          "value": "Sal 121.05, Danny 108.30"
+        },
+        {
+          "name": "win probability",
+          "value": "Sal 60%, Danny 40%"
+        },
+        {
+          "name": "result status",
+          "value": "Pregame projection; no final result shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1260.0,
+          "end_seconds": 1265.04,
+          "details": "The Week 9 matchup screen displays Sal vs. Danny, their records, projection, and win probabilities."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Week 9 matchup preview: Zach (7-1) versus Bush (4-4), with Zach projected to win 145.24–125.54.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Zach record",
+          "value": "7-1"
+        },
+        {
+          "name": "Bush record",
+          "value": "4-4"
+        },
+        {
+          "name": "projected score",
+          "value": "Zach 145.24, Bush 125.54"
+        },
+        {
+          "name": "win probability",
+          "value": "Zach 63%, Bush 37%"
+        },
+        {
+          "name": "result status",
+          "value": "Pregame projection; no final result shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1276.84,
+          "end_seconds": 1324.56,
+          "details": "The Week 9 matchup screen displays Zach vs. Bush, their records, projection, and win probabilities."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "A speaker said an unidentified manager spent approximately $37 in free-agent bidding on Tyler Johnson.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "reported",
+      "confidence": 0.65,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Tyler Johnson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported FAAB bid",
+          "value": "Approximately $37"
+        },
+        {
+          "name": "manager",
+          "value": "Not identified"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1387.04,
+          "end_seconds": 1399.72,
+          "details": "The speaker says someone 'dropped what $37 I think on Tyler Johnson'; the graphic also reads '$37...'."
+        }
+      ]
+    }
+  ]
+}

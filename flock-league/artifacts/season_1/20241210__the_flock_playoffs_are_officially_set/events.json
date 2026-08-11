@@ -1,0 +1,824 @@
+{
+  "schema_version": 1,
+  "video_id": "TDe1t1rNmnM",
+  "video_title": "The Flock Playoffs Are Officially Set",
+  "season": "Season 1",
+  "week": 14,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Flock Playoffs Are Officially Set",
+      "upload_date": "20241210",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "standings",
+      "summary": "Week 14 concluded the Flock League regular season.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [],
+      "scores": [],
+      "facts": [
+        {
+          "name": "season phase",
+          "value": "Regular season complete"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 2.55,
+          "end_seconds": 4.56,
+          "details": "The speaker states that Week 14 marks the official end of the Flock League regular season."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 2247.52,
+          "end_seconds": 2251.92,
+          "details": "The regular season is again stated to be over."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Mason defeated Tom 147.70-145.06 in Week 14.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Mason"
+        },
+        {
+          "role": "loser",
+          "name": "Tom"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Mason",
+          "score": 147.7
+        },
+        {
+          "name": "Tom",
+          "score": 145.06
+        }
+      ],
+      "facts": [
+        {
+          "name": "Mason record after matchup",
+          "value": "9-5"
+        },
+        {
+          "name": "playoff effect",
+          "value": "Mason secured a first-round bye"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1399.467,
+          "end_seconds": 1400.2,
+          "details": "The Week 14 matchup display shows Mason's Team of Destiny defeating Tom's Mason's Granddaddy, 147.70-145.06."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1395.52,
+          "end_seconds": 1408.88,
+          "details": "Mason says the win moved him to 9-5 and into the playoffs with a bye."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Zach defeated Badake 104.76-97.74 in Week 14.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Zach"
+        },
+        {
+          "role": "loser",
+          "name": "Badake"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Zach",
+          "score": 104.76
+        },
+        {
+          "name": "Badake",
+          "score": 97.74
+        }
+      ],
+      "facts": [
+        {
+          "name": "Zach record after matchup",
+          "value": "11-3"
+        },
+        {
+          "name": "Badake record after matchup",
+          "value": "6-8"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1561.3,
+          "end_seconds": 1590.0,
+          "details": "The Week 14 matchup display shows Zach's Do It For Chris defeating Badake's I NEED to WIN., 104.76-97.74."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1500.44,
+          "end_seconds": 1505.32,
+          "details": "The narrator says Badake lost and missed the playoffs."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Badake was eliminated from playoff contention after the Week 14 loss to Zach.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "eliminated owner",
+          "name": "Badake"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "playoff status",
+          "value": "Eliminated"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1567.559,
+          "end_seconds": 1575.039,
+          "details": "The speaker explicitly states Badake was eliminated, following the displayed loss to Zach."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Austin defeated Sal/Anonymous 142.52-136.24 in Week 14.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Austin"
+        },
+        {
+          "role": "loser",
+          "name": "Sal"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Austin",
+          "score": 142.52
+        },
+        {
+          "name": "Sal",
+          "score": 136.24
+        }
+      ],
+      "facts": [
+        {
+          "name": "losing team name",
+          "value": "Anonymous"
+        },
+        {
+          "name": "playoff consequence",
+          "value": "Sal/Anonymous missed the playoffs and entered the toilet bowl"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1882.067,
+          "end_seconds": 1890.0,
+          "details": "The final Week 14 display identifies AustinHood's Atlanta 49ers against Sal/Anonymous and shows 142.52-136.24."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1913.399,
+          "end_seconds": 1916.96,
+          "details": "The speaker says Anonymous entered the toilet bowl."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Danny lost 132.38-130.52 to Joe's WE BELIEVE team in Week 14.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Joe"
+        },
+        {
+          "role": "loser",
+          "name": "Danny"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Joe",
+          "score": 132.38
+        },
+        {
+          "name": "Danny",
+          "score": 130.52
+        }
+      ],
+      "facts": [
+        {
+          "name": "Joe team name",
+          "value": "WE BELIEVE"
+        },
+        {
+          "name": "Danny playoff consequence",
+          "value": "Missed playoffs"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 2129.967,
+          "end_seconds": 2135.2,
+          "details": "The league screen shows Danny's Hit with the Nico at 130.52 against GreenMeansMoney's WE BELIEVE at 132.38."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 2183.24,
+          "end_seconds": 2185.68,
+          "details": "The speaker says Danny lost and missed the playoffs."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery reported losing his regular-season finale to Cory and finishing 7-7.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "loser",
+          "name": "Avery"
+        },
+        {
+          "role": "winner",
+          "name": "Cory"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Avery final regular-season record",
+          "value": "7-7"
+        },
+        {
+          "name": "final score",
+          "value": "Not provided"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1289.919,
+          "end_seconds": 1324.64,
+          "details": "Avery says he finished 7-7 and addresses Cory after Cory's strong week."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "The final playoff field was Zach, Mason, Austin, Avery, Joe, and Thomas; Zach and Mason earned first-round byes.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "No. 1 seed / bye",
+          "name": "Zach"
+        },
+        {
+          "role": "No. 2 seed / bye",
+          "name": "Mason"
+        },
+        {
+          "role": "No. 3 seed",
+          "name": "Austin"
+        },
+        {
+          "role": "No. 4 seed",
+          "name": "Avery"
+        },
+        {
+          "role": "No. 5 seed",
+          "name": "Joe"
+        },
+        {
+          "role": "No. 6 seed",
+          "name": "Thomas"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Zach record",
+          "value": "11-3"
+        },
+        {
+          "name": "Mason record",
+          "value": "9-5"
+        },
+        {
+          "name": "Austin record",
+          "value": "8-6"
+        },
+        {
+          "name": "Avery record",
+          "value": "7-7"
+        },
+        {
+          "name": "Joe record",
+          "value": "7-7"
+        },
+        {
+          "name": "Thomas record",
+          "value": "6-8"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 2440.967,
+          "end_seconds": 2450.0,
+          "details": "Final standings show Austin third, Avery fourth, Joe fifth, and Thomas sixth; accompanying standings show Zach first and Mason second."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 2489.84,
+          "end_seconds": 2492.84,
+          "details": "The speaker states that Zach and Mason receive byes."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Joe qualified for the playoffs as the No. 5 seed after winning in Week 14 and receiving the needed losses from teams ahead of him.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [
+        {
+          "role": "qualified owner",
+          "name": "Joe"
+        },
+        {
+          "role": "displaced owner",
+          "name": "Tom"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Joe record",
+          "value": "7-7"
+        },
+        {
+          "name": "Joe seed",
+          "value": "5"
+        },
+        {
+          "name": "explicitly named needed losses",
+          "value": "Danny, Tom, and Badake; one additional owner was unclear in the audio"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 2134.28,
+          "end_seconds": 2159.84,
+          "details": "The speaker says Joe won, all four people ahead of him lost, and Joe made the playoffs."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 2517.96,
+          "end_seconds": 2531.36,
+          "details": "The speaker identifies Joe as the five seed after Tom was bumped."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "The opening championship-playoff matchups are Avery versus Joe and Thomas versus Austin; Zach and Mason have byes.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "bye",
+          "name": "Zach"
+        },
+        {
+          "role": "bye",
+          "name": "Mason"
+        },
+        {
+          "role": "first-round participant",
+          "name": "Avery"
+        },
+        {
+          "role": "first-round participant",
+          "name": "Joe"
+        },
+        {
+          "role": "first-round participant",
+          "name": "Thomas"
+        },
+        {
+          "role": "first-round participant",
+          "name": "Austin"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "first-round matchup",
+          "value": "Avery vs Joe"
+        },
+        {
+          "name": "first-round matchup",
+          "value": "Thomas vs Austin"
+        },
+        {
+          "name": "semifinal path",
+          "value": "Zach faces the Avery-Joe winner"
+        },
+        {
+          "name": "semifinal path",
+          "value": "Mason faces the Thomas-Austin winner"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 2534.633,
+          "end_seconds": 2536.5,
+          "details": "The playoff bracket shows the two byes and both first-round pairings."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "The toilet-bowl opening matchup is Badake versus Danny, while Bush and Tom have semifinal byes.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "toilet-bowl participant",
+          "name": "Badake"
+        },
+        {
+          "role": "toilet-bowl participant",
+          "name": "Danny"
+        },
+        {
+          "role": "toilet-bowl semifinal bye",
+          "name": "Bush"
+        },
+        {
+          "role": "toilet-bowl semifinal bye",
+          "name": "Tom"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Badake-Danny meetings this season",
+          "value": "Third meeting"
+        },
+        {
+          "name": "punishment rule",
+          "value": "Winning one losers-bracket game removes punishment risk; the team that loses through the final is the Ultimate Loser"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 2662.359,
+          "end_seconds": 2697.52,
+          "details": "The speaker describes the Badake-Danny matchup, Bush and Tom's byes, and the losers-bracket safety/punishment rules."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Avery reported Breece Hall was ruled out for Sunday in Week 14.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "reported",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "affected fantasy owner",
+          "name": "Avery"
+        },
+        {
+          "role": "NFL player",
+          "name": "Breece Hall"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "availability",
+          "value": "Ruled out for Sunday"
+        },
+        {
+          "name": "fantasy impact",
+          "value": "Removed from Avery's Week 14 lineup options"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 124.2,
+          "end_seconds": 136.8,
+          "details": "Avery says Hall was ruled out and would not play in the Sunday slate."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Avery added Isaiah Davis off waivers as a possible Week 14 replacement for Breece Hall.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "adding owner",
+          "name": "Avery"
+        },
+        {
+          "role": "waiver addition",
+          "name": "Isaiah Davis"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "purpose",
+          "value": "Potential replacement after Breece Hall was ruled out"
+        },
+        {
+          "name": "start decision",
+          "value": "Avery had not decided between Davis and the player referred to as Brayan/Brilin Allen"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 153.8,
+          "end_seconds": 179.88,
+          "details": "Avery explicitly says he picked up Isaiah Davis on waivers and discusses the unresolved start decision."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Sal reported that Bucky Irving re-aggravated a back injury and was doubtful to return; Sal also said Ladd McConkey ultimately did not play.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "reported",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "affected fantasy owner",
+          "name": "Sal"
+        },
+        {
+          "role": "NFL player",
+          "name": "Bucky Irving"
+        },
+        {
+          "role": "NFL player",
+          "name": "Ladd McConkey"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Bucky Irving update",
+          "value": "Back injury re-aggravation; doubtful to return"
+        },
+        {
+          "name": "Ladd McConkey update",
+          "value": "Did not play"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 498.96,
+          "end_seconds": 510.64,
+          "details": "Sal reports Irving's re-aggravated back injury and doubtful status."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1930.76,
+          "end_seconds": 1937.279,
+          "details": "The speaker says McConkey did not play and Irving left essentially after the first quarter."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Sal started Amari Cooper over the highly questionable Ladd McConkey.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "fantasy owner",
+          "name": "Sal"
+        },
+        {
+          "role": "started player",
+          "name": "Amari Cooper"
+        },
+        {
+          "role": "benched/unavailable alternative",
+          "name": "Ladd McConkey"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reason stated",
+          "value": "McConkey was highly questionable for Sunday night"
+        },
+        {
+          "name": "waiver alternative mentioned but not used",
+          "value": "Jaylen Tolbert"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 513.12,
+          "end_seconds": 526.52,
+          "details": "Sal says he chose Cooper over McConkey rather than use a waiver pickup."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Kenneth Walker was reported out for the week, making Zach Charbonnet Seattle's starting running back; Charbonnet appeared on Bush's roster.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "reported",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Kenneth Walker"
+        },
+        {
+          "role": "NFL player / Bush rostered player",
+          "name": "Zach Charbonnet"
+        },
+        {
+          "role": "affected fantasy owner",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Kenneth Walker status",
+          "value": "Reported out this week"
+        },
+        {
+          "name": "fantasy impact",
+          "value": "Charbonnet described as Seattle's starting running back"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 199.84,
+          "end_seconds": 225.36,
+          "details": "The speaker says Walker is out and Charbonnet is again Seattle's starting running back."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 187.234,
+          "end_seconds": 196.874,
+          "details": "Bush's displayed lineup includes Z. Charbonnet."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Joe was reported to have acquired Josh Allen in a prior trade, but the trade terms were not provided.",
+      "season": "Season 1",
+      "week": 14,
+      "status": "reported",
+      "confidence": 0.77,
+      "participants": [
+        {
+          "role": "acquiring owner",
+          "name": "Joe"
+        },
+        {
+          "role": "acquired NFL player",
+          "name": "Josh Allen"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "trade terms",
+          "value": "Not specified; 'traded his entire team' was hyperbolic commentary"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 921.6,
+          "end_seconds": 926.0,
+          "details": "The narrator says Joe 'traded his entire team for Josh Allen,' without identifying assets."
+        }
+      ]
+    }
+  ]
+}

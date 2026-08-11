@@ -1,0 +1,1380 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T20:29:16.237229+00:00",
+  "fingerprint": "a4ff27094b124e1ff4e3d21340cecce1c460e4ac5810c0fa31862c0698cf3ea7",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "1hpWz-XPC6Q",
+  "video_title": "Lose & You're Eliminated",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Lose & You're Eliminated",
+      "upload_date": "20241121",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "League waiver/free-agent activity is shown, along with an 11-week standings snapshot. A Jonathan Taylor-for-Breece Hall offer to Danny was discussed but not shown as completed.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "An unidentified speaker says he sent Danny a proposed straight-up Jonathan Taylor-for-Breece Hall trade. No acceptance or completed trade is shown.",
+            "status": "reported",
+            "confidence": 0.86,
+            "raw_names": [
+              "Danny",
+              "Jonathan Taylor",
+              "Breece Hall"
+            ],
+            "facts": [
+              {
+                "name": "proposal",
+                "value": "Jonathan Taylor for Breece Hall, straight up"
+              },
+              {
+                "name": "completion_status",
+                "value": "Not confirmed; described only as an offer"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1.63,
+                "end_seconds": 7.48,
+                "details": "Speaker says he messaged Danny offering Jonathan Taylor straight up for Breece Hall."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The on-screen standings show Zach first at 8-3; Austin and Mason tied next at 7-4. Danny and Thomas are 6-5, while Badake, ThomasWadde, StevenSwagal, and GreenMeansMoney are 5-6.",
+            "status": "confirmed",
+            "confidence": 0.89,
+            "raw_names": [
+              "Do it For Chris",
+              "zaxavage",
+              "Atlanta 49ers",
+              "AustinHood",
+              "Flight For Freedom",
+              "MasonDodd",
+              "everythThomas",
+              "Hit with the Nico",
+              "DannyLad21",
+              "Playoff Bound",
+              "Badake",
+              "ThomasWadde",
+              "Mason's Granddaddy",
+              "StevenSwagal",
+              "Allen and some JAQs",
+              "GreenMeansMoney"
+            ],
+            "facts": [
+              {
+                "name": "Zach record",
+                "value": "8-3 (1st)"
+              },
+              {
+                "name": "Austin record",
+                "value": "7-4 (2nd)"
+              },
+              {
+                "name": "Mason record",
+                "value": "7-4 (3rd)"
+              },
+              {
+                "name": "Thomas record",
+                "value": "6-5 (4th)"
+              },
+              {
+                "name": "Danny record",
+                "value": "6-5 (5th)"
+              },
+              {
+                "name": "Badake record",
+                "value": "5-6 (6th)"
+              },
+              {
+                "name": "ThomasWadde record",
+                "value": "5-6 (7th)"
+              },
+              {
+                "name": "StevenSwagal record",
+                "value": "5-6 (8th)"
+              },
+              {
+                "name": "GreenMeansMoney record",
+                "value": "5-6 (9th)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 27.475,
+                "end_seconds": 31.475,
+                "details": "League page displays matchups and the standings table, including team names/handles and records."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Danny added Nick Westbrook-Ikhine and dropped the Los Angeles Rams D/ST for a $3 waiver bid.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Danny",
+              "DannyLad21",
+              "Nick Westbrook-Ikhine",
+              "Los Angeles Rams"
+            ],
+            "facts": [
+              {
+                "name": "added",
+                "value": "Nick Westbrook-Ikhine"
+              },
+              {
+                "name": "dropped",
+                "value": "Los Angeles Rams D/ST"
+              },
+              {
+                "name": "FAAB bid",
+                "value": "$3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 50.875,
+                "end_seconds": 56.6,
+                "details": "The processed-waivers panel lists DannyLad21 adding Nick Westbrook-Ikhine, dropping Los Angeles Rams D/ST, for $3."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "ThomasWadde added Ameer Abdullah and dropped Dawson Knox for $1; Badake added Darius Slayton and dropped the Cleveland Browns D/ST for $0.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "ThomasWadde",
+              "Ameer Abdullah",
+              "Dawson Knox",
+              "Badake",
+              "Darius Slayton",
+              "Cleveland Browns"
+            ],
+            "facts": [
+              {
+                "name": "ThomasWadde transaction",
+                "value": "Added Ameer Abdullah; dropped Dawson Knox; $1 bid"
+              },
+              {
+                "name": "Badake transaction",
+                "value": "Added Darius Slayton; dropped Cleveland Browns D/ST; $0 bid"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 50.875,
+                "end_seconds": 56.6,
+                "details": "Processed-waivers panel displays both transactions and bid amounts."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Zach added the Arizona Cardinals D/ST and dropped the Green Bay Packers D/ST for $0. Bush added the Chicago Bears D/ST and dropped the New York Jets D/ST for $0.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Zach",
+              "zaxavage",
+              "Arizona Cardinals",
+              "Green Bay Packers",
+              "Bush",
+              "BushLeague",
+              "Chicago Bears",
+              "New York Jets"
+            ],
+            "facts": [
+              {
+                "name": "Zach transaction",
+                "value": "Added Arizona Cardinals D/ST; dropped Green Bay Packers D/ST; $0 bid"
+              },
+              {
+                "name": "Bush transaction",
+                "value": "Added Chicago Bears D/ST; dropped New York Jets D/ST; $0 bid"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 50.875,
+                "end_seconds": 56.6,
+                "details": "Processed-waivers panel lists the Cardinals/Packers and Bears/Jets D/ST moves."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Joe's team (GreenMeansMoney) made several free-agent moves: Zach Ertz for Dalton Kincaid, Jake Elliott for Younghoe Koo, then Wil Lutz for Elliott; the Philadelphia Eagles D/ST was also dropped.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Joe",
+              "GreenMeansMoney",
+              "Zach Ertz",
+              "Dalton Kincaid",
+              "Jake Elliott",
+              "Younghoe Koo",
+              "Wil Lutz",
+              "Philadelphia Eagles"
+            ],
+            "facts": [
+              {
+                "name": "move 1",
+                "value": "Added Zach Ertz; dropped Dalton Kincaid"
+              },
+              {
+                "name": "move 2",
+                "value": "Added Jake Elliott; dropped Younghoe Koo"
+              },
+              {
+                "name": "move 3",
+                "value": "Added Wil Lutz; dropped Jake Elliott"
+              },
+              {
+                "name": "move 4",
+                "value": "Dropped Philadelphia Eagles D/ST"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 84.234,
+                "end_seconds": 95.874,
+                "details": "League chat identifies GreenMeansMoney free-agent transactions: Ertz/Kincaid, Elliott/Koo, and Lutz/Elliott."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 95.874,
+                "end_seconds": 101.2,
+                "details": "The subsequent league-chat entry shows GreenMeansMoney dropping Philadelphia Eagles D/ST."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Austin added Justice Hill and dropped Jalen Tolbert in a free-agent move.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Austin",
+              "AustinHood",
+              "Justice Hill",
+              "Jalen Tolbert"
+            ],
+            "facts": [
+              {
+                "name": "added",
+                "value": "Justice Hill"
+              },
+              {
+                "name": "dropped",
+                "value": "Jalen Tolbert"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 95.874,
+                "end_seconds": 101.2,
+                "details": "League chat shows AustinHood adding Justice Hill and dropping Jalen Tolbert."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Mason added Roschon Johnson as a free agent.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Mason",
+              "MasonDodd",
+              "Roschon Johnson"
+            ],
+            "facts": [
+              {
+                "name": "added",
+                "value": "Roschon Johnson"
+              },
+              {
+                "name": "acquisition_type",
+                "value": "Free agent"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 127.834,
+                "end_seconds": 138.855,
+                "details": "On-screen notification reads: 'MasonDodd made a free agent move' and shows Roschon Johnson."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The standings screenshot does not make the underlying owner identity for the displayed handles everythThomas, ThomasWadde, StevenSwagal, and GreenMeansMoney fully explicit.",
+          "The window ends as commentary says Tom picked up three kickers, but the players and transaction log are not shown clearly enough here to record the moves precisely."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Sal discusses a rejected trade with Tom and the crowded Week 12 standings; Sal and Bush are both 4-7 entering their matchup.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Tom's team (StevenSwagal) made free-agent additions including three kickers: Jake Elliott, Jason Myers, and Joshua Karty. The league activity panel also shows an Indianapolis Colts D/ST addition.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Tom",
+              "StevenSwagal",
+              "Jake Elliott",
+              "Jason Myers",
+              "Joshua Karty",
+              "Indianapolis Colts"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Tom"
+              },
+              {
+                "name": "transaction_type",
+                "value": "free-agent additions"
+              },
+              {
+                "name": "players_added",
+                "value": "Jake Elliott; Jason Myers; Joshua Karty; Indianapolis Colts D/ST"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 185.315,
+                "end_seconds": 187.315,
+                "details": "League Chat lists StevenSwagal free-agent moves for the Colts D/ST, Jake Elliott, Jason Myers, and Joshua Karty."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A trade proposal between Sal and Tom (StevenSwagal) was rejected. Sal's shown offer was Cooper Kupp and Isiah Pacheco for Amari Cooper, Nick Chubb, and Zay Flowers; Sal says Tom responded with three kickers rather than engaging in the trade discussion.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Sal",
+              "Tom",
+              "StevenSwagal",
+              "SalVetrl",
+              "Cooper Kupp",
+              "Isiah Pacheco",
+              "Amari Cooper",
+              "Nick Chubb",
+              "Zay Flowers",
+              "Jake Elliott",
+              "Jason Myers",
+              "Joshua Karty"
+            ],
+            "facts": [
+              {
+                "name": "outcome",
+                "value": "rejected; no trade completed"
+              },
+              {
+                "name": "Sal_offer",
+                "value": "Cooper Kupp and Isiah Pacheco"
+              },
+              {
+                "name": "requested_from_Tom",
+                "value": "Amari Cooper, Nick Chubb, and Zay Flowers"
+              },
+              {
+                "name": "reported_counter",
+                "value": "three kickers"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 193.68,
+                "end_seconds": 224.599,
+                "details": "Sal says he sent Tom an initial trade discussion offer and received three kickers back; the on-screen trade panel is labeled 'Trade Rejected' and displays SalVetrl receiving Cooper Kupp and Isiah Pacheco while sending Amari Cooper, Nick Chubb, and Zay Flowers."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Week 12 standings snapshot: Zach leads at 8-3; Austin and Mason are 7-4; Avery and Danny are 6-5; Badake, Thomas, Tom, and Joe are 5-6; Nathan, Bush, and Sal are 4-7.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Zach",
+              "Austin",
+              "Mason",
+              "Avery",
+              "Danny",
+              "Badake",
+              "Thomas",
+              "Tom",
+              "Joe",
+              "Nathan",
+              "Bush",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "Zach_record",
+                "value": "8-3"
+              },
+              {
+                "name": "Austin_record",
+                "value": "7-4"
+              },
+              {
+                "name": "Mason_record",
+                "value": "7-4"
+              },
+              {
+                "name": "Avery_record",
+                "value": "6-5"
+              },
+              {
+                "name": "Danny_record",
+                "value": "6-5"
+              },
+              {
+                "name": "Badake_record",
+                "value": "5-6"
+              },
+              {
+                "name": "Thomas_record",
+                "value": "5-6"
+              },
+              {
+                "name": "Tom_record",
+                "value": "5-6"
+              },
+              {
+                "name": "Joe_record",
+                "value": "5-6"
+              },
+              {
+                "name": "Nathan_record",
+                "value": "4-7"
+              },
+              {
+                "name": "Bush_record",
+                "value": "4-7"
+              },
+              {
+                "name": "Sal_record",
+                "value": "4-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 285.68,
+                "end_seconds": 300.96,
+                "details": "Sal recites the middle/lower standings, and the on-screen standings list corroborates all 12 owner records."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Sal and Bush are scheduled to face each other in Week 12; the discussion frames it as a battle to avoid being in last place, not a completed matchup.",
+            "status": "confirmed",
+            "confidence": 0.89,
+            "raw_names": [
+              "Sal",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "12"
+              },
+              {
+                "name": "matchup",
+                "value": "Sal vs. Bush"
+              },
+              {
+                "name": "pre_matchup_records",
+                "value": "Sal 4-7; Bush 4-7"
+              },
+              {
+                "name": "result",
+                "value": "not yet determined"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 306.759,
+                "end_seconds": 325.12,
+                "details": "The speaker introduces the Sal-Bush matchup and states that its winner will escape dead last going into Week 12."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 315.233,
+                "end_seconds": 315.233,
+                "details": "Matchup screen shows Bush's team 'Covid Cuts' versus Sal's team 'Not Like Us.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "An unidentified manager on a four-game losing streak previews a must-win matchup against Bush, discusses a still-live but conditional playoff path, and taunts Bush over roster/trade decisions.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "An unidentified manager said they are on a four-game losing streak and will face Bush; they changed their team name to \"Kendrick Lamar\" as matchup-related trash talk.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Bush",
+              "Kendrick Lamar"
+            ],
+            "facts": [
+              {
+                "name": "manager identity",
+                "value": "Unidentified in this window"
+              },
+              {
+                "name": "current losing streak",
+                "value": "Four games"
+              },
+              {
+                "name": "upcoming opponent",
+                "value": "Bush"
+              },
+              {
+                "name": "team name",
+                "value": "Kendrick Lamar"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 426.04,
+                "end_seconds": 437.84,
+                "details": "The speaker says they are on a four-game losing streak, have one game left, and need to beat \"s\" (identity unclear)."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 460.08,
+                "end_seconds": 477.84,
+                "details": "The same speaker says, \"we're facing Bush\" and that they changed their team name to Kendrick Lamar."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The unidentified manager said they are not mathematically eliminated from the playoffs, but suggested they would need to win out and likely need Mason to lose out; Mason was described as the current playoff team's lowest scorer in points-for.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "manager identity",
+                "value": "Unidentified in this window"
+              },
+              {
+                "name": "playoff status",
+                "value": "Not mathematically eliminated, per speaker"
+              },
+              {
+                "name": "suggested path",
+                "value": "Win out; Mason loses out"
+              },
+              {
+                "name": "Mason points-for standing",
+                "value": "Lowest among the current playoff teams, per speaker"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 432.88,
+                "end_seconds": 451.44,
+                "details": "Speaker says they are still not mathematically eliminated, would need to win out, and says the easiest scenario is Mason losing out because Mason has the lowest points-for among current playoff teams."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "In a taunting verse directed at Bush, the speaker claimed Bush traded half his roster for a player who cannot score and is now \"stuck with DJ Moore.\" The exact trade and counterpart are not provided.",
+            "status": "reported",
+            "confidence": 0.62,
+            "raw_names": [
+              "Bush",
+              "DJ Moore",
+              "Patrick Mahomes"
+            ],
+            "facts": [
+              {
+                "name": "manager",
+                "value": "Bush"
+              },
+              {
+                "name": "player reportedly acquired or held after trade",
+                "value": "DJ Moore"
+              },
+              {
+                "name": "trade terms",
+                "value": "Not specified"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 511.88,
+                "end_seconds": 520.2,
+                "details": "The verse addresses Bush and says, \"you reached on that trade now you're stuck with DJ Moore / you traded half your roster for a guy who can't score.\""
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the manager facing Bush is not stated in this window; earlier references to opponent \"s\" are ambiguous.",
+          "The actual teams, timing, and terms of the trade involving DJ Moore are not supplied; the claim occurs in a taunting rap and should be verified."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 12 matchup previews: Mason faces Thomas; Sal (team name Kendrick Lamar) faces Bush (Covid Cuts); and Nathan, 4-7, previews a matchup against Mason while arguing he still has a playoff path.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason is set to play Thomas; the speaker says he is rooting for Mason because a Thomas loss would help the speaker pursue the final playoff seed.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Mason",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "12 (inferred from the concurrent matchup screen)"
+              },
+              {
+                "name": "matchup",
+                "value": "Mason vs. Thomas"
+              },
+              {
+                "name": "playoff implication",
+                "value": "A Thomas loss is said to help the speaker's pursuit of the last playoff seed"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 600.0,
+                "end_seconds": 613.2,
+                "details": "The speaker explicitly says Mason is taking on Thomas and that a Thomas loss would move him closer to the last playoff seed."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Sal's Kendrick Lamar team is matched up with Bush's Covid Cuts in Week 12; the displayed projections are 113.5 for Kendrick Lamar and 116.5 for Covid Cuts.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Sal",
+              "Bush",
+              "Kendrick Lamar",
+              "Covid Cuts"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "12"
+              },
+              {
+                "name": "matchup",
+                "value": "Kendrick Lamar vs. Covid Cuts"
+              },
+              {
+                "name": "left-team projected points",
+                "value": "113.5"
+              },
+              {
+                "name": "right-team projected points",
+                "value": "116.5"
+              },
+              {
+                "name": "projection favorite",
+                "value": "Covid Cuts (53% shown)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 614.12,
+                "end_seconds": 624.92,
+                "details": "Transcript says the Kendrick Lamar/Covid Cuts matchup starts tonight and identifies Bush as the opponent; the visual matchup screen identifies the teams, Week 12, and the displayed projections/percentages."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Bush is expected to start Cedric Tillman in the Week 12 matchup, while Sal says Chris Boswell is his only player playing that night.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Bush",
+              "Cedric Tillman",
+              "Chris Boswell",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "Bush player",
+                "value": "Cedric Tillman"
+              },
+              {
+                "name": "Sal player playing tonight",
+                "value": "Chris Boswell"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 617.96,
+                "end_seconds": 632.44,
+                "details": "The speaker says Bush has Cedric Tillman and that Chris Boswell is the speaker's only player tonight; the associated matchup screen identifies the speaker's team as Kendrick Lamar under Sal."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Nathan says he is 4-7 and believes his playoff odds are poor, but says he still has some hope of making the playoffs.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "4-7"
+              },
+              {
+                "name": "playoff outlook",
+                "value": "Nathan says odds are stacked against him but he retains hope"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 663.08,
+                "end_seconds": 685.76,
+                "details": "Nathan explicitly states he is 4-7, calls his playoff odds poor, and says he is not without hope."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Nathan's Week 12 team, The Chosen One, is matched up against Mason's Grandaddy.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Nathan",
+              "Mason",
+              "The Chosen One",
+              "Mason's Grandaddy"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "12"
+              },
+              {
+                "name": "matchup",
+                "value": "The Chosen One vs. Mason's Grandaddy"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 700.37,
+                "end_seconds": 713.0,
+                "details": "The on-screen fantasy matchup display shows The Chosen One versus Mason's Grandaddy; the handle/name above the left team is partially visible and consistent with Nathan, while the transcript segment is Nathan's self-description."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The exact owner identity of the Kendrick Lamar speaker is inferred from a small on-screen handle and should be reviewed if owner-to-team mapping is required.",
+          "Nathan's visual matchup screen is somewhat blurry; team names are readable, but the left-side handle is only partially legible."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 12 preview: upcoming Avery–Austin and Zach–Danny matchups, plus roster/availability discussion. No matchup results are shown.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Nathan reportedly spent $27 on Tyler Johnson in Week 1.",
+            "status": "reported",
+            "confidence": 0.86,
+            "raw_names": [
+              "Nathan",
+              "Tyler Johnson"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "player",
+                "value": "Tyler Johnson"
+              },
+              {
+                "name": "amount",
+                "value": "$27"
+              },
+              {
+                "name": "week",
+                "value": "Week 1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 727.079,
+                "end_seconds": 730.44,
+                "details": "Speaker says, “Nathan spent $27 [on] Tyler Johnson week one.”"
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Avery is scheduled to face Austin in the Week 12 matchup slate; the discussion frames an Avery win as helpful for another team's playoff-bye chances.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Avery",
+              "Austin"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Avery vs. Austin"
+              },
+              {
+                "name": "week",
+                "value": "Week 12"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 795.72,
+                "end_seconds": 808.04,
+                "details": "Speaker introduces “Avery going up against Austin” and discusses the playoff-bye implications of Avery defeating Austin."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Zach is scheduled to play Danny in Week 12. Danny is described as having a 6–5 record.",
+            "status": "confirmed",
+            "confidence": 0.83,
+            "raw_names": [
+              "Zach",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Zach vs. Danny"
+              },
+              {
+                "name": "week",
+                "value": "Week 12"
+              },
+              {
+                "name": "Danny record",
+                "value": "6-5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 851.44,
+                "end_seconds": 860.199,
+                "details": "Speaker says, “our next matchup we have Zack and Danny playing each other,” then refers to Danny as “six and five.”"
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "An unidentified manager says Mike Evans, Malik Nabers, and Trey McBride are returning, giving that manager a fully healthy lineup after several weeks.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Mike Evans",
+              "Malik Nabers",
+              "Trey McBride"
+            ],
+            "facts": [
+              {
+                "name": "players returning",
+                "value": "Mike Evans; Malik Nabers; Trey McBride"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 874.759,
+                "end_seconds": 888.96,
+                "details": "Speaker says this is the first time in three or four weeks with a “fully healthy squad” and says, “we get Mike Evans back, we get Malik Nabers back, we get Trey McBride back.”"
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "An unidentified manager says Breece Hall, Chase Brown, and Kyle Pitts will be unavailable to that fantasy lineup in Week 12 because of bye weeks.",
+            "status": "reported",
+            "confidence": 0.86,
+            "raw_names": [
+              "Breece Hall",
+              "Chase Brown",
+              "Kyle Pitts"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "Week 12"
+              },
+              {
+                "name": "unavailable players",
+                "value": "Breece Hall; Chase Brown; Kyle Pitts"
+              },
+              {
+                "name": "reason",
+                "value": "Bye weeks"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 889.199,
+                "end_seconds": 899.04,
+                "details": "Speaker says, “Bye weeks are really catching up to me in week 12. We are going to be without Breece Hall, Chase Brown and Kyle Pitts in week 12.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Which team owner made the roster statements about Mike Evans, Malik Nabers, Trey McBride, Breece Hall, Chase Brown, and Kyle Pitts? The supplied window does not identify the speakers by name.",
+          "The transcript describes a projected advantage and player absences in the Avery–Austin discussion, but the exact speaker/team ownership is unclear; no result is established in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A manager says he offered Danny a Jonathan Taylor-for-Breece Hall swap; the window otherwise contains pregame standings talk and a retrospective complaint about kicker-driven losses.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "An unidentified speaker says he offered Danny Jonathan Taylor straight up for Breece Hall, presenting it as a way to improve Danny's chances that week. The exchange is described as an offer only; no acceptance or completed trade is shown.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Danny",
+              "Jonathan Taylor",
+              "Breece Hall"
+            ],
+            "facts": [
+              {
+                "name": "offering party",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "recipient",
+                "value": "Danny"
+              },
+              {
+                "name": "offered",
+                "value": "Jonathan Taylor"
+              },
+              {
+                "name": "requested",
+                "value": "Breece Hall"
+              },
+              {
+                "name": "trade status",
+                "value": "Proposed; not confirmed completed"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 900.6,
+                "end_seconds": 917.6,
+                "details": "Speaker says, “I sent Danny a message” offering “Jonathan Taylor straight up for Breece Hall,” and frames it as giving Danny a better chance to win that week."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "A speaker retrospectively says he lost to Bush in Week 1, attributing the defeat to an opposing kicker's scoring.",
+            "status": "reported",
+            "confidence": 0.74,
+            "raw_names": [
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "Week 1"
+              },
+              {
+                "name": "winner",
+                "value": "Bush"
+              },
+              {
+                "name": "loser",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "score",
+                "value": "Not provided"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1051.52,
+                "end_seconds": 1055.16,
+                "details": "During a compilation of kicker complaints, the speaker says, “just like week one when I lost to Bush, lose to a kicker.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the speaker who made Danny the Jonathan Taylor-for-Breece Hall offer is not established in this window.",
+          "The Week 1 result against Bush has no score, and the losing manager is not identified in this window.",
+          "Claims that Danny would jump Zach in the standings if Danny won and Zach lost are conditional pregame discussion, not a confirmed standings change."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 12 preview of a 5-6 Badake vs. 5-6 Joe matchup, including Badake’s recent roster moves and Joe’s Josh Allen bye-week issue.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Badake (5-6) is set to face Joe (5-6) in a must-win Week 12 matchup; this is a preview, not a completed result.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "bedaki",
+              "Joe the dev",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "12"
+              },
+              {
+                "name": "Badake record",
+                "value": "5-6"
+              },
+              {
+                "name": "Joe record",
+                "value": "5-6"
+              },
+              {
+                "name": "event state",
+                "value": "upcoming matchup"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1099.799,
+                "end_seconds": 1111.159,
+                "details": "The speakers introduce 'bedaki 5 and six' facing another 5-6 team, 'Joe the dev,' and call it a must-win week."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Badake says he traded Rome Odunze for Cade Otton the previous week.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "romad dunesday",
+              "K Aon",
+              "C. Otton"
+            ],
+            "facts": [
+              {
+                "name": "team owner",
+                "value": "Badake"
+              },
+              {
+                "name": "sent",
+                "value": "Rome Odunze"
+              },
+              {
+                "name": "received",
+                "value": "Cade Otton"
+              },
+              {
+                "name": "timing",
+                "value": "last week"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1135.28,
+                "end_seconds": 1139.36,
+                "details": "The speaker says, 'I just traded for Cade Otton last week' and 'traded away Rome Odunze for Cade Otton'; the displayed lineup visually includes C. Otton."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Badake says he picked up Darius Slayton.",
+            "status": "confirmed",
+            "confidence": 0.83,
+            "raw_names": [
+              "Darius Slayton",
+              "D. Slayton"
+            ],
+            "facts": [
+              {
+                "name": "team owner",
+                "value": "Badake"
+              },
+              {
+                "name": "player added",
+                "value": "Darius Slayton"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1125.64,
+                "end_seconds": 1130.0,
+                "details": "The speaker says he made moves by picking up Darius Slayton; D. Slayton is visible in the displayed lineup."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Badake expects to start Raheem Mostert plus two tight ends, Cade Otton and Hunter Henry, in Week 12 because James Cook, Garrett Wilson, and Darnell Mooney are unavailable to him that week.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "James Cook",
+              "Garrett Wilson",
+              "darell Mooney",
+              "Raheem mostard",
+              "K Allon",
+              "Hunter Henry"
+            ],
+            "facts": [
+              {
+                "name": "team owner",
+                "value": "Badake"
+              },
+              {
+                "name": "planned starters",
+                "value": "Raheem Mostert; Cade Otton; Hunter Henry"
+              },
+              {
+                "name": "not starting/available as stated",
+                "value": "James Cook; Garrett Wilson; Darnell Mooney"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1111.159,
+                "end_seconds": 1134.88,
+                "details": "He says he does not have Cook, Wilson, or Mooney starting, will have to start Mostert, and will most likely start two tight ends—Cade Otton and Hunter Henry."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Joe has Josh Allen on bye in Week 12; the discussion says Joe acquired Allen a couple of weeks earlier.",
+            "status": "reported",
+            "confidence": 0.85,
+            "raw_names": [
+              "Josh Allen",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "team owner",
+                "value": "Joe"
+              },
+              {
+                "name": "player",
+                "value": "Josh Allen"
+              },
+              {
+                "name": "status",
+                "value": "bye week"
+              },
+              {
+                "name": "acquisition timing",
+                "value": "a couple weeks ago"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1144.36,
+                "end_seconds": 1148.919,
+                "details": "A speaker states that Josh Allen is on bye for Joe and that Joe acquired him a couple weeks ago."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not establish whether the Week 12 Badake–Joe matchup was ultimately played or its final score.",
+          "Badake’s planned starting lineup is described as likely/expected and should not be treated as a finalized lineup."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1339.0,
+      "transient_image_count": 5,
+      "review": {
+        "window_summary": "League-chat banter about Joe/Sal and a video; no confirmed fantasy matchup, transaction, injury, waiver, standings, or roster event is shown.",
+        "observations": [],
+        "open_questions": []
+      }
+    }
+  ],
+  "open_questions": [
+    "The Week 12 matchup evidence conflicts over Mason's opponent: the visual identifies Nathan's The Chosen One versus Mason's Grandaddy, while a separate segment says Mason is taking on Thomas.",
+    "The owner making the Jonathan Taylor-for-Breece Hall offer to Danny is not identified.",
+    "The owner identities for the roster comments about Mike Evans, Malik Nabers, Trey McBride, Breece Hall, Chase Brown, and Kyle Pitts are not established in the supplied evidence.",
+    "No Week 12 matchup final scores or results are shown.",
+    "A rap taunt claims Bush made an unfavorable trade and was left with DJ Moore, but its terms and factual basis are not established and it is not recorded as a confirmed transaction."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize team owners over NFL athletes and use static owner names where supported.",
+      "status": "fulfilled",
+      "details": "Events identify owners where the evidence supports the mapping; unidentified speakers and unresolved mappings are retained as uncertainties."
+    },
+    {
+      "instruction": "Track matchup outcomes, scores, injuries, trades, waivers, and roster moves without inventing missing details.",
+      "status": "fulfilled",
+      "details": "Recorded supported transactions, trade proposals/rejections, availability notes, and matchup previews. No unshown Week 12 results, scores, or trade completions were inferred."
+    },
+    {
+      "instruction": "Treat transcript as supplementary evidence and preserve visual/transcript conflicts for review.",
+      "status": "fulfilled",
+      "details": "The conflicting Week 12 evidence about Mason's opponent is explicitly preserved as an open question."
+    },
+    {
+      "instruction": "Keep the recap concise and identify items requiring review.",
+      "status": "fulfilled",
+      "details": "The recap is limited to supported episode developments, and unresolved owner identities, matchup conflict, and missing outcomes are listed in open questions."
+    }
+  ],
+  "supplemental_outputs": []
+}

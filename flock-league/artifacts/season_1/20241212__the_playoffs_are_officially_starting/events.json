@@ -1,0 +1,635 @@
+{
+  "schema_version": 1,
+  "video_id": "GAc_HbwkO0c",
+  "video_title": "The Playoffs Are Officially Starting",
+  "season": "Season 1",
+  "week": 15,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Playoffs Are Officially Starting",
+      "upload_date": "20241212",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery is scheduled to play Joe in the Week 15 playoff opening round; Zach will play the winner.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner",
+          "name": "Joe"
+        },
+        {
+          "role": "next-round opponent",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "bracket",
+          "value": "playoffs"
+        },
+        {
+          "name": "next-round path",
+          "value": "Winner faces Zach"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 40.6,
+          "end_seconds": 58.8,
+          "details": "The playoff bracket discussion identifies Zach as facing the winner of Avery or Joe; the on-screen bracket labels Avery vs. Joe."
+        },
+        {
+          "source": "both",
+          "start_seconds": 1536.399,
+          "end_seconds": 1545.279,
+          "details": "Week 15 matchup display shows Avery vs. Joe."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Avery was projected to beat Joe 71%–29% in their Week 15 matchup; this was a pregame projection, not a result.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "projection",
+          "value": "Avery 71%, Joe 29%"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1536.399,
+          "end_seconds": 1545.279,
+          "details": "Avery states the Sleeper projection, and the matchup screen shows the same 71%–29% split."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Joe previously defeated Avery 113.24–87.78 in their regular-season meeting.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Joe"
+        },
+        {
+          "role": "loser",
+          "name": "Avery"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Joe",
+          "score": 113.24
+        },
+        {
+          "name": "Avery",
+          "score": 87.78
+        }
+      ],
+      "facts": [
+        {
+          "name": "matchup type",
+          "value": "regular season"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 305.0,
+          "end_seconds": 313.0,
+          "details": "The speaker says Avery lost to Joe in the regular season; the matchup graphic displays Avery 87.78 and Joe 113.24."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Thomas is scheduled to play Austin in the Week 15 playoffs.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "team owner",
+          "name": "Austin"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "bracket",
+          "value": "playoffs"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 475.44,
+          "end_seconds": 505.794,
+          "details": "The discussion identifies Thomas vs. Austin, and the on-screen graphic explicitly reads THOMAS (VS AUSTIN)."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Mason and Zach have Week 15 playoff byes.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "bracket",
+          "value": "playoffs"
+        },
+        {
+          "name": "outcome",
+          "value": "bye"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 58.8,
+          "end_seconds": 80.0,
+          "details": "The speaker says Mason and Zach get byes; the bracket visibly labels Mason as BYE."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Nathan is scheduled to face Sal in the Week 15 Toilet Bowl.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "bracket",
+          "value": "Toilet Bowl / loser bracket"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 67.267,
+          "end_seconds": 72.0,
+          "details": "The on-screen bracket reads NATHAN (VS SAL)."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1587.595,
+          "end_seconds": 1598.374,
+          "details": "Bracket display lists NathanSchmidt and SalVetri as paired; the displayed numbers conflict with the episode’s pregame framing and are not treated as final scores."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Danny is scheduled to face Badake in the Week 15 Toilet Bowl; one of them will be safe after the week.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.92,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "team owner",
+          "name": "Badake"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "bracket",
+          "value": "Toilet Bowl / loser bracket"
+        },
+        {
+          "name": "stakes",
+          "value": "One participant will be safe after the week"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 609.64,
+          "end_seconds": 633.16,
+          "details": "The speaker says Danny and 'Baki' are playing each other and that one will be safe after the week."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1587.595,
+          "end_seconds": 1598.374,
+          "details": "Bracket display lists Dannylad21 and Badake as paired; displayed point figures are not treated as completed scores."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Thomas reports reaching the playoffs at 6–8, ranking third in points scored.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "reported",
+      "confidence": 0.83,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "comparison",
+          "name": "Zach"
+        },
+        {
+          "role": "comparison",
+          "name": "Avery"
+        },
+        {
+          "role": "comparison",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Thomas record",
+          "value": "6-8"
+        },
+        {
+          "name": "points-scored rank",
+          "value": "3rd"
+        },
+        {
+          "name": "comparison to Zach and Avery",
+          "value": "Less than 100 points behind"
+        },
+        {
+          "name": "comparison to Joe",
+          "value": "More than 130 points ahead"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 487.08,
+          "end_seconds": 511.68,
+          "details": "Thomas states his record, playoff qualification, points rank, and point-total comparisons."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Thomas says he traded Christian McCaffrey to Austin; the return and timing were not provided.",
+      "season": "Season 1",
+      "week": null,
+      "status": "reported",
+      "confidence": 0.67,
+      "participants": [
+        {
+          "role": "sending owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "receiving owner",
+          "name": "Austin"
+        },
+        {
+          "role": "NFL player",
+          "name": "Christian McCaffrey"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "asset sent by Thomas",
+          "value": "Christian McCaffrey"
+        },
+        {
+          "name": "return",
+          "value": "Not stated"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 529.56,
+          "end_seconds": 535.76,
+          "details": "Thomas says he drafted Christian McCaffrey and traded him to Austin, his Week 15 opponent."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Badake traded Chris Olave to Zach for Jaxon Smith-Njigba.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "sending owner",
+          "name": "Badake"
+        },
+        {
+          "role": "receiving owner",
+          "name": "Zach"
+        },
+        {
+          "role": "NFL player sent",
+          "name": "Chris Olave"
+        },
+        {
+          "role": "NFL player sent",
+          "name": "Jaxon Smith-Njigba"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Badake sent",
+          "value": "Chris Olave"
+        },
+        {
+          "name": "Zach sent",
+          "value": "Jaxon Smith-Njigba"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 650.96,
+          "end_seconds": 658.92,
+          "details": "Badake says he traded Chris Olave to Zach for Jaxon Smith-Njigba."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Thomas won waiver additions of Patrick Taylor ($34), Tank Bigsby ($3), and Jerome Ford ($1).",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "NFL player added",
+          "name": "Patrick Taylor"
+        },
+        {
+          "role": "NFL player added",
+          "name": "Tank Bigsby"
+        },
+        {
+          "role": "NFL player added",
+          "name": "Jerome Ford"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Patrick Taylor bid",
+          "value": "$34 FAAB; dropped Jake Elliott"
+        },
+        {
+          "name": "Tank Bigsby bid",
+          "value": "$3 FAAB; dropped C.J. Stroud"
+        },
+        {
+          "name": "Jerome Ford bid",
+          "value": "$1 FAAB"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1226.0,
+          "end_seconds": 1233.0,
+          "details": "Thomas says he acquired the three players; the waiver graphic shows the corresponding claims, bids, and listed drops."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Other processed waivers: Nathan added Israel Abanikanda for $21, Mason added the Lions D/ST for $15, and Bush added the Raiders D/ST for $0.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.83,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Nathan move",
+          "value": "Added Israel Abanikanda for $21; dropped Dallas Goedert"
+        },
+        {
+          "name": "Mason move",
+          "value": "Added Detroit Lions D/ST for $15; dropped Khalil Herbert"
+        },
+        {
+          "name": "Bush move",
+          "value": "Added Las Vegas Raiders D/ST for $0; dropped Seattle Seahawks D/ST"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1230.0,
+          "end_seconds": 1232.0,
+          "details": "The waiver-claims graphic lists the additions, bids, and drops under Nathan Schmidt, Mason Dodd, and Bush Leagues."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Avery said Kenneth Walker was still questionable and that Travis Etienne would replace him if necessary.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "NFL player",
+          "name": "Kenneth Walker"
+        },
+        {
+          "role": "contingency player",
+          "name": "Travis Etienne"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury status",
+          "value": "Questionable"
+        },
+        {
+          "name": "contingency",
+          "value": "Avery would start Travis Etienne if Walker cannot play"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1490.679,
+          "end_seconds": 1512.24,
+          "details": "Avery says Walker remains questionable and that he may plug in Etienne; Walker carries a Q designation on the lineup screen."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "An unidentified manager said Breece Hall, their RB2, was questionable with a knee injury.",
+      "season": "Season 1",
+      "week": 15,
+      "status": "reported",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Breece Hall"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Knee"
+        },
+        {
+          "name": "status",
+          "value": "Questionable"
+        },
+        {
+          "name": "fantasy roster context",
+          "value": "Unidentified speaker had Hall at RB2"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 837.92,
+          "end_seconds": 850.24,
+          "details": "The speaker says Hall is at RB2 and is questionable with a knee injury."
+        }
+      ]
+    }
+  ]
+}

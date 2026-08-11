@@ -1,0 +1,1699 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T19:40:50.799371+00:00",
+  "fingerprint": "d2ddd6bde34acf4bbceff60ddc22092161ecd2f32907d3c33f575f63451fd634",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "ETKlwr3lVSQ",
+  "video_title": "The Flock League Has Never Been So Close",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Flock League Has Never Been So Close",
+      "upload_date": "20241001",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 4 begins. The window establishes pre-Week-4 standings, previews several matchups, and shows an accepted multi-player trade involving GreenMeansMoney and SaSvetri.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Pre-Week-4 standings show Danny alone in first place at 3-0. Zach, Austin, Avery, and Mason are 2-1; Badake, Sal, Thomas, Bush, and Nathan are 1-2; Joe is 0-3.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Danny",
+              "Zach",
+              "Austin",
+              "Avery",
+              "Mason",
+              "Badake",
+              "Sal",
+              "Thomas",
+              "Bush",
+              "Nathan",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "timing",
+                "value": "Before Week 4"
+              },
+              {
+                "name": "Danny record",
+                "value": "3-0"
+              },
+              {
+                "name": "Zach record",
+                "value": "2-1"
+              },
+              {
+                "name": "Austin record",
+                "value": "2-1"
+              },
+              {
+                "name": "Avery record",
+                "value": "2-1"
+              },
+              {
+                "name": "Mason record",
+                "value": "2-1"
+              },
+              {
+                "name": "Badake record",
+                "value": "1-2"
+              },
+              {
+                "name": "Sal record",
+                "value": "1-2"
+              },
+              {
+                "name": "Thomas record",
+                "value": "1-2"
+              },
+              {
+                "name": "Bush record",
+                "value": "1-2"
+              },
+              {
+                "name": "Nathan record",
+                "value": "1-2"
+              },
+              {
+                "name": "Joe record",
+                "value": "0-3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 111.554,
+                "end_seconds": 118.5,
+                "details": "The on-screen standings list records for all named owners."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Week 4 matchup preview: undefeated Danny is scheduled to face Nathan; Bush is scheduled to face Badake.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Danny",
+              "Nathan",
+              "Bush",
+              "Badake"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "4"
+              },
+              {
+                "name": "matchup",
+                "value": "Danny vs Nathan"
+              },
+              {
+                "name": "matchup",
+                "value": "Bush vs Badake"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 100.399,
+                "end_seconds": 109.68,
+                "details": "Speaker identifies Danny (3-0) as facing Nathan."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 111.92,
+                "end_seconds": 130.399,
+                "details": "Speaker identifies Bush (1-2) as facing Badake (1-2)."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Thomas was expected to be without Davante Adams in Week 4, according to the speaker.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Thomas",
+              "Devonte Adams"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "4"
+              },
+              {
+                "name": "availability",
+                "value": "Expected to be without Davante Adams"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 170.72,
+                "end_seconds": 178.32,
+                "details": "Speaker says Thomas is ninth and 'looks like he's going to be without Devonte Adams this week.'"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "An accepted trade shows GreenMeansMoney receiving Courtland Sutton and Xavier Worthy from SaSvetri, while SaSvetri receives Mark Andrews, Anthony Richardson, and Ladd McConkey.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "GreenMeansMoney",
+              "SaSvetri",
+              "Courtland Sutton",
+              "Xavier Worthy",
+              "Mark Andrews",
+              "Anthony Richardson",
+              "Ladd McConkey"
+            ],
+            "facts": [
+              {
+                "name": "status",
+                "value": "Accepted"
+              },
+              {
+                "name": "GreenMeansMoney receives",
+                "value": "Courtland Sutton; Xavier Worthy"
+              },
+              {
+                "name": "GreenMeansMoney sends",
+                "value": "Mark Andrews; Anthony Richardson; Ladd McConkey"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 177.4,
+                "end_seconds": 180.0,
+                "details": "Accepted trade panel visibly lists GreenMeansMoney's incoming Sutton and Worthy and outgoing Andrews, Richardson, and McConkey; player destination labels show SaSvetri."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 132.159,
+                "end_seconds": 140.4,
+                "details": "Speaker says a trade was completed and says he receives Mark Andrews and Anthony Richardson."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The accepted-trade graphic identifies the teams as GreenMeansMoney and SaSvetri; this window does not independently establish their corresponding owner names.",
+          "The transcript calls Davante Adams 'Devonte Adams'; spelling/identity should be verified from a clearer roster or transaction screen."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 4 previews: Sal faces Joe, and Joe previews a matchup with Thomas. A potential Anthony Richardson trade involving Mason is discussed but not completed in this window.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Sal renamed his fantasy team to “John Cena.”",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "SalVetri",
+              "John Cena"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Sal"
+              },
+              {
+                "name": "new_team_name",
+                "value": "John Cena"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 192.0,
+                "end_seconds": 195.12,
+                "details": "Sal says he changed his name to John Cena; the on-screen league notification reads “SalVetri has updated their team name. John Cena.”"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Entering Week 4, Sal was 1-2 and Joe was 0-3.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "SalVetri",
+              "GreenMeansMoney",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "4"
+              },
+              {
+                "name": "Sal record",
+                "value": "1-2"
+              },
+              {
+                "name": "Joe record",
+                "value": "0-3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 294.16,
+                "end_seconds": 307.04,
+                "details": "The Week 4 matchup screen shows SalVetri/John Cena at 1-2 and GreenMeansMoney at 0-3; Sal identifies the 0-3 opponent as Joe."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Sal’s Week 4 matchup against Joe was projected at 59% for Sal, with 122.06 projected points versus Joe’s 92.80.",
+            "status": "speculative",
+            "confidence": 0.97,
+            "raw_names": [
+              "SalVetri",
+              "John Cena",
+              "GreenMeansMoney",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "4"
+              },
+              {
+                "name": "matchup",
+                "value": "Sal vs. Joe"
+              },
+              {
+                "name": "Sal win probability",
+                "value": "59%"
+              },
+              {
+                "name": "Sal projected points",
+                "value": "122.06"
+              },
+              {
+                "name": "Joe projected points",
+                "value": "92.80"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 293.275,
+                "end_seconds": 295.275,
+                "details": "Week 4 matchup screen shows John Cena (SalVetri) versus #site-issues (GreenMeansMoney), with 59%, 122.06, and 92.80 displayed."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 300.64,
+                "end_seconds": 307.04,
+                "details": "Sal says he has a 59% win percentage and is facing Joe, who is 0-3."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Joe said he was facing Thomas in Week 4 and expected his team to be healthier; this is a pregame statement, not a result.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Joe",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "4"
+              },
+              {
+                "name": "matchup",
+                "value": "Joe vs. Thomas"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 309.04,
+                "end_seconds": 318.8,
+                "details": "Speaker says, “Week four, we’ve got Thomas this week,” then says his team should finally be healthy."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Mason asked about the price of Anthony Richardson, whom Sal hoped to trade away; no transaction is confirmed.",
+            "status": "speculative",
+            "confidence": 0.96,
+            "raw_names": [
+              "Mason",
+              "Sal",
+              "Anthony Richardson"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Anthony Richardson"
+              },
+              {
+                "name": "potential seller",
+                "value": "Sal"
+              },
+              {
+                "name": "potential buyer",
+                "value": "Mason"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 320.24,
+                "end_seconds": 338.4,
+                "details": "Sal says he wanted to acquire Anthony Richardson to “dish him away,” and recounts Mason asking, “what’s the real price of Anthony Richardson?” He says transactions might occur later."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The terms and completion status of any Anthony Richardson trade are not shown in this window.",
+          "An Amari Cooper trade is mentioned at 262.96–268.88, but this window does not establish its participants or terms."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed trade between Mason and Sal is shown; Week 4 Nathan–Danny matchup talk is pregame prediction only.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Mason and Sal completed a trade: Mason received Anthony Richardson, Ladd McConkey, and $18 FAB; Sal received Terry McLaurin and Tyjae Spears.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "MasonDodd",
+              "SalVetri",
+              "Anthony Richardson",
+              "Ladd McConkey",
+              "Terry McLaurin",
+              "Tyjae Spears"
+            ],
+            "facts": [
+              {
+                "name": "team_owner_receiving",
+                "value": "Mason"
+              },
+              {
+                "name": "team_owner_sending",
+                "value": "Sal"
+              },
+              {
+                "name": "Mason receives",
+                "value": "Anthony Richardson; Ladd McConkey; $18 FAB"
+              },
+              {
+                "name": "Sal receives",
+                "value": "Terry McLaurin; Tyjae Spears"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 412.8,
+                "end_seconds": 438.0,
+                "details": "Speakers say the deal is done, and the on-screen trade panel is marked ACCEPTED, listing MasonDodd receiving Anthony Richardson, Ladd McConkey, and $18 FAB from SalVetri for Terry McLaurin and Tyjae Spears."
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 4 begins with a recap of Mason’s accumulated trades, a last-minute Corey–Danny trade, and early Thursday-night fantasy scoring; no head-to-head result is final in this window.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Mason’s completed trades, in aggregate, sent away Nico Collins, Amari Cooper, Terry McLaurin, Tyjae Spears, and Trey Benson, while bringing in Jaylen Waddle, Rhamondre Stevenson, “AR,” “Lad,” and Javonte.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Mason",
+              "Nico",
+              "Amari Cooper",
+              "Terry McLaren",
+              "Tai Spears",
+              "Benson",
+              "Jaylen Waddle",
+              "Raandre Stevenson",
+              "AR",
+              "Lad",
+              "Javante"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Mason"
+              },
+              {
+                "name": "sent (aggregate trade recap)",
+                "value": "Nico Collins; Amari Cooper; Terry McLaurin; Tyjae Spears; Trey Benson"
+              },
+              {
+                "name": "received (aggregate trade recap)",
+                "value": "Jaylen Waddle; Rhamondre Stevenson; AR; Lad; Javonte"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 544.32,
+                "end_seconds": 567.04,
+                "details": "Narrator says he compiled all of Mason’s trades and lists the players given up and received."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Hollywood Brown is said to be out for the season and no longer on Mason’s roster.",
+            "status": "reported",
+            "confidence": 0.88,
+            "raw_names": [
+              "Hollywood Brown",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Hollywood Brown"
+              },
+              {
+                "name": "injury status",
+                "value": "Out for the season"
+              },
+              {
+                "name": "fantasy roster relation",
+                "value": "No longer on Mason's roster"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 568.56,
+                "end_seconds": 573.52,
+                "details": "Narrator explicitly excludes Hollywood Brown from Mason’s trade recap because Brown is no longer on Mason’s roster and is 'out for the season.'"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Corey made a last-minute trade with Danny to acquire Wan'Dale Robinson.",
+            "status": "confirmed",
+            "confidence": 0.83,
+            "raw_names": [
+              "Corey",
+              "Danny",
+              "Wando Robinson"
+            ],
+            "facts": [
+              {
+                "name": "acquiring party",
+                "value": "Corey"
+              },
+              {
+                "name": "trade partner",
+                "value": "Danny"
+              },
+              {
+                "name": "acquired player",
+                "value": "Wan'Dale Robinson"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 602.64,
+                "end_seconds": 609.76,
+                "details": "Narrator says Corey made a last-minute trade with Danny to acquire 'Wando Robinson' (Wan'Dale Robinson)."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "After the trade, Wan'Dale Robinson recorded 11 catches on 14 targets for 71 yards and just over 18 fantasy points in Thursday night’s NFL game.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Wando Robinson",
+              "Corey"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Wan'Dale Robinson"
+              },
+              {
+                "name": "receiving line",
+                "value": "11 receptions on 14 targets, 71 yards"
+              },
+              {
+                "name": "fantasy points",
+                "value": "Just over 18"
+              },
+              {
+                "name": "fantasy relevance",
+                "value": "Recently acquired by Corey"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 607.6,
+                "end_seconds": 617.12,
+                "details": "The speaker reports Robinson’s Thursday stat line and fantasy total immediately after describing Corey’s acquisition."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Jake Ferguson scored 11 fantasy points in the Thursday-night game for the manager speaking; their Week 4 matchup remains in progress.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Jake Ferguson",
+              "Bake"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Jake Ferguson"
+              },
+              {
+                "name": "fantasy points",
+                "value": "11"
+              },
+              {
+                "name": "matchup state",
+                "value": "Early Thursday-night scoring only; no final result"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 617.68,
+                "end_seconds": 634.16,
+                "details": "Speaker says Jake Ferguson was their tight end and scored 11 points, then says the week is not off to a good start."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript identifies one trade participant only as Corey, who is not among the supplied Season 1 team-owner names; review is needed to map this person to a league owner if applicable.",
+          "The identities behind the abbreviated trade-return names “AR,” “Lad,” and “Javante” are not fully stated in the window.",
+          "The manager who says Jake Ferguson scored 11 points is not explicitly identified by a supplied team-owner name in the transcript."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Mason Dodd recounts several completed player acquisitions followed by injuries and says Jonathan Taylor later left a game injured; no fantasy matchup result is confirmed in this window.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Mason Dodd says he traded for Hollywood Brown, Jaylen Waddle, and raw name \"Anthony Richson.\"",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Mason Dodd",
+              "Hollywood Brown",
+              "Jaylen Waddle",
+              "Anthony Richson"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Mason"
+              },
+              {
+                "name": "acquired_players",
+                "value": "Hollywood Brown; Jaylen Waddle; Anthony Richson"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 762.0,
+                "end_seconds": 782.56,
+                "details": "Speaker recounts, in past tense, trading for all three players; the fantasy app shown in the accompanying sequence is labeled Mason's Legion Of Doom."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Mason says Hollywood Brown went on injured reserve four days after Mason traded for him; he also says Tua Tagovailoa was hurt two weeks after Mason acquired Jaylen Waddle and raw name \"Anthony Richson\" was hurt four days after Mason acquired him.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Mason Dodd",
+              "Hollywood Brown",
+              "Tua",
+              "Jaylen Waddle",
+              "Anthony Richson"
+            ],
+            "facts": [
+              {
+                "name": "team_owner_affected",
+                "value": "Mason"
+              },
+              {
+                "name": "Hollywood Brown injury status",
+                "value": "IR, per Mason"
+              },
+              {
+                "name": "timing",
+                "value": "Four days after Mason's trade for Hollywood Brown"
+              },
+              {
+                "name": "Tua injury timing",
+                "value": "Two weeks after Mason acquired Jaylen Waddle"
+              },
+              {
+                "name": "Anthony Richson injury timing",
+                "value": "Four days after Mason acquired him"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 766.88,
+                "end_seconds": 782.56,
+                "details": "Mason directly describes the injury/IR sequence following his trades."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Mason cites raw name \"Nvant Smith\" and Austin Ekeler among the injuries affecting his roster.",
+            "status": "reported",
+            "confidence": 0.68,
+            "raw_names": [
+              "Mason Dodd",
+              "Nvant Smith",
+              "Austin Eckler"
+            ],
+            "facts": [
+              {
+                "name": "team_owner_affected",
+                "value": "Mason"
+              },
+              {
+                "name": "injured_players_mentioned",
+                "value": "Nvant Smith; Austin Eckler"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 785.68,
+                "end_seconds": 790.8,
+                "details": "Speaker says, 'Not to mention Nvant Smith. Not to mention Austin Eckler,' while discussing his team's injuries."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Jonathan Taylor left late with an injury and displayed a questionable tag, according to the speaker; the speaker expects not to have him going forward.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Jonathan Taylor"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Jonathan Taylor"
+              },
+              {
+                "name": "reported_status",
+                "value": "Left late with an injury; Q tag shown"
+              },
+              {
+                "name": "fantasy_implication",
+                "value": "Speaker says he does not expect to have Taylor going forward"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 883.44,
+                "end_seconds": 890.16,
+                "details": "Speaker explicitly says Taylor left late with an injury and refers to the visible Q tag."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript renders \"Anthony Richson\" and \"Nvant Smith\" unclearly; verify their intended player identities before normalizing names.",
+          "The window contains an in-progress projection of falling to 2-2, not a completed fantasy matchup outcome."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Sal recounts a poor Sunday Night Football fantasy output; Danny is affected by Rashee Rice’s reported injury, has Carson Steele from waivers, and previously had a trade offer rejected by Zach.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Sal said his Josh Allen, Mark Andrews, and Bills D/ST combined for only about eight fantasy points in Sunday Night Football after he needed roughly 20–25 points.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Sal",
+              "Josh Allen",
+              "Mark Andrews",
+              "Bills defense"
+            ],
+            "facts": [
+              {
+                "name": "Josh Allen fantasy points",
+                "value": "7.3"
+              },
+              {
+                "name": "Mark Andrews fantasy points",
+                "value": "0 on 1 target"
+              },
+              {
+                "name": "Bills D/ST fantasy points",
+                "value": "1"
+              },
+              {
+                "name": "Combined output described by Sal",
+                "value": "8 fantasy points (individual values shown total 8.3)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 930.0,
+                "end_seconds": 957.12,
+                "details": "Sal describes needing 20–25 points from Allen, Andrews, and Bills D/ST; says Allen scored 7.3, Andrews scored zero, Bills D/ST scored one, and summarizes the output as eight."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Rashee Rice was reported as more than likely having a torn ACL; Danny was identified as rostering Rice.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Rashee Rice",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "Player",
+                "value": "Rashee Rice"
+              },
+              {
+                "name": "Reported injury",
+                "value": "More than likely torn ACL"
+              },
+              {
+                "name": "Fantasy owner affected",
+                "value": "Danny"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 947.12,
+                "end_seconds": 969.92,
+                "details": "Speaker says Rice was 'more than likely torn ACL' and calls Rice probably the best player on Danny's roster."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Danny acquired Carson Steele for $37 on waivers.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Danny",
+              "Carson Steele"
+            ],
+            "facts": [
+              {
+                "name": "Player",
+                "value": "Carson Steele"
+              },
+              {
+                "name": "Waiver cost",
+                "value": "$37"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 974.32,
+                "end_seconds": 980.0,
+                "details": "Speaker says Danny has Carson Steele and paid $37 for him on the waiver wire."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A trade between Zach and Danny was rejected: Zach would have received Kyle Pitts and Rashee Rice, while Danny would have received Brandon Aiyuk and Trey McBride.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Zach Savage",
+              "Danny",
+              "Kyle Pitts",
+              "Rashee Rice",
+              "Brandon Aiyuk",
+              "Trey McBride"
+            ],
+            "facts": [
+              {
+                "name": "Status",
+                "value": "Rejected"
+              },
+              {
+                "name": "Zach receives",
+                "value": "Kyle Pitts; Rashee Rice"
+              },
+              {
+                "name": "Danny receives",
+                "value": "Brandon Aiyuk; Trey McBride"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1016.88,
+                "end_seconds": 1030.0,
+                "details": "Narration describes the offer, and the on-screen trade panel explicitly labels it 'Trade Rejected' with the respective packages."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "This window does not identify Sal's matchup opponent or establish whether his low Sunday-night output resulted in a loss.",
+          "Rice's ACL diagnosis is presented as a likelihood/report rather than confirmed medical status."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Sal (@SalVetri; team name John Cena) was trailing heading into Monday night with DK Metcalf and Jake Bates remaining. He also says he lost to Bush in Week 1 because of an opposing kicker. A reported injury to Rashee Rice is discussed, but the ownership/team reference is not fully clear from the transcript.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Sal states that Bush defeated him in Week 1; he attributes the loss to an opposing kicker's unusually high score.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Sal",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "Week 1"
+              },
+              {
+                "name": "winner",
+                "value": "Bush"
+              },
+              {
+                "name": "loser",
+                "value": "Sal"
+              },
+              {
+                "name": "score",
+                "value": "Not provided"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1127.36,
+                "end_seconds": 1132.4,
+                "details": "Sal says, “just like week one when I lost to Bush,” while describing being beaten by a kicker."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Sal's team, John Cena, was trailing 93.00 to 119.3 with DK Metcalf and kicker Jake Bates still to play on Monday night; Sal said he needed 26.5 points from them. This was an in-progress matchup, not a final result.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Sal",
+              "@SalVetri",
+              "John Cena",
+              "D. Metcalf",
+              "Jake Bates"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Sal"
+              },
+              {
+                "name": "team_name",
+                "value": "John Cena"
+              },
+              {
+                "name": "current_score",
+                "value": "93.00"
+              },
+              {
+                "name": "opponent_current_score",
+                "value": "119.3"
+              },
+              {
+                "name": "remaining_players",
+                "value": "DK Metcalf and Jake Bates"
+              },
+              {
+                "name": "points_needed_claimed",
+                "value": "26.5"
+              },
+              {
+                "name": "win_probability",
+                "value": "36%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1132.96,
+                "end_seconds": 1140.4,
+                "details": "Sal says he had a 36% chance and needed 26.5 points from DK Metcalf and his kicker; the matchup screen at 00:18:53.900 identifies @SalVetri / John Cena, shows 93.00 versus 119.3, 36%, and two players yet to play (WR, K)."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1146.5,
+                "end_seconds": 1148.5,
+                "details": "Matchup lineup display lists D. Metcalf (SEA) as yet to play Monday at Detroit."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "A speaker reports that Rashee Rice would most likely be unavailable going forward. The transcript's wording is imperfect and the player/team ownership is not visually verified in this window.",
+            "status": "reported",
+            "confidence": 0.61,
+            "raw_names": [
+              "St. rice",
+              "Malik Neighbors",
+              "Nico Collins",
+              "Danny Lad 21"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Likely Rashee Rice (transcript renders name as “St. rice”)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1199.84,
+                "end_seconds": 1220.0,
+                "details": "The speaker addresses Malik Nabers and Nico Collins and says their “fallen brother” “St. rice” will most likely be unavailable going forward, followed by an unclear team reference."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Review the 00:20:00–00:20:20 audio/visuals to confirm that the injured player is Rashee Rice and whether he belonged to Danny; the supplied transcript is garbled around the player and team names.",
+          "The opponent of Sal's John Cena team is cropped from the visible matchup screen, and the final result is not available in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A San Francisco 49ers D/ST-for-FAAB trade offer from Mason to Zach was rejected; Danny was said to have lost Rashee Rice as a fantasy option.",
+        "observations": [
+          {
+            "category": "injury",
+            "summary": "Danny was said to have lost Rashee Rice, removing a top fantasy option from his roster.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Danny",
+              "Rasheed Rice"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Danny"
+              },
+              {
+                "name": "player",
+                "value": "Rashee Rice"
+              },
+              {
+                "name": "impact",
+                "value": "Described as losing a top option"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1331.44,
+                "end_seconds": 1336.56,
+                "details": "Speaker says Danny 'loses Rasheed Rice' and calls him 'a top option.' No medical details are supplied in this window."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Zach rejected Mason's offer of the San Francisco 49ers D/ST for $12 FAAB.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "MasonDodd",
+              "zaxavage",
+              "San Francisco 49ers",
+              "Mason",
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "offering_owner",
+                "value": "Mason"
+              },
+              {
+                "name": "receiving_owner",
+                "value": "Zach"
+              },
+              {
+                "name": "asset_offered",
+                "value": "San Francisco 49ers D/ST"
+              },
+              {
+                "name": "requested_compensation",
+                "value": "$12 FAAB"
+              },
+              {
+                "name": "outcome",
+                "value": "Rejected by Zach"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1383.12,
+                "end_seconds": 1400.0,
+                "details": "Transcript says Mason put the 49ers defense on the trade block for waiver dollars. The on-screen trade panel labels the offer 'Trade Rejected,' shows MasonDodd accepted and zaxavage rejected, and displays the 49ers D/ST exchanged for $12 FAAB."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window shows live/pre-Monday-night matchup discussion, but it does not establish any final Week 4 matchup result or final scores."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A league member says he beat Danny and discusses having traded Rico Dowdle to Joe; he also says he acquired Jonathan Brooks in a trade. The rest is Sleeper-chat banter unrelated to league transactions or results.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Danny was beaten in a fantasy matchup; the opposing owner and final score are not clearly established in this window.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "result",
+                "value": "Danny lost a matchup"
+              },
+              {
+                "name": "opponent",
+                "value": "Not identified clearly"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1450.4,
+                "end_seconds": 1451.52,
+                "details": "A speaker says the tie \"tastes almost as good as beating Danny.\""
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1445.7,
+                "end_seconds": 1446.955,
+                "details": "A Sleeper matchup screen is visible, but the team labels and score details are too blurry to reliably transcribe."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Joe received Rico Dowdle in a trade from an unidentified league member; the speaker credits Dowdle’s points in Joe’s lineup with potentially helping Joe beat an opponent.",
+            "status": "confirmed",
+            "confidence": 0.8,
+            "raw_names": [
+              "Joe",
+              "Rico Dattle",
+              "S"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Rico Dowdle (transcript renders name as \"Rico Dattle\")"
+              },
+              {
+                "name": "acquiring_owner",
+                "value": "Joe"
+              },
+              {
+                "name": "sending_owner",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "other_trade_return",
+                "value": "Not stated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1472.96,
+                "end_seconds": 1485.84,
+                "details": "The speaker says he traded Rico Dowdle, that Dowdle scored 13-plus PPR points, and that he \"gave [Joe] basically that win\" by putting/giving Dowdle’s points into Joe’s lineup. Joe beating \"S\" is framed as still pending."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "An unidentified league member says he traded for Jonathan Brooks, viewing him as a high-upside player upon his return.",
+            "status": "confirmed",
+            "confidence": 0.83,
+            "raw_names": [
+              "Jonathan Brooks"
+            ],
+            "facts": [
+              {
+                "name": "player_acquired",
+                "value": "Jonathan Brooks"
+              },
+              {
+                "name": "acquiring_owner",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "trade_return",
+                "value": "Not stated"
+              },
+              {
+                "name": "player_outlook",
+                "value": "Speaker predicts RB1-level upside when he returns"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1490.56,
+                "end_seconds": 1497.92,
+                "details": "The speaker states, \"The reason why I traded for Jonathan Brooks\" and calls his RB1-level upside and comparison to Breece Hall a prediction."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Who was Danny’s opponent, and what was the final matchup score?",
+          "Who sent Rico Dowdle to Joe, and what did that manager receive in return?",
+          "Who acquired Jonathan Brooks, and what was exchanged for him?",
+          "Whether Joe ultimately beat the opponent referred to in the transcript as \"S\" is not resolved in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 9,
+      "start": 1620.0,
+      "end": 1800.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 4 matchup recaps show Danny losing to Nathan, while Sal says he lost a close matchup to Joe and references acquiring Mark Andrews in a trade package. Several displayed Week 4 scores are visible.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Danny lost to Nathan in Week 4, 83.34–125.68.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Danny",
+              "Nathan",
+              "Tier of his own",
+              "Mason's Worst Nightmare"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Nathan"
+              },
+              {
+                "name": "loser",
+                "value": "Danny"
+              },
+              {
+                "name": "score",
+                "value": "125.68–83.34"
+              },
+              {
+                "name": "week",
+                "value": "4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1636.96,
+                "end_seconds": 1640.56,
+                "details": "Transcript says Danny lost and immediately credits Nathan for taking out Danny's best player; the matchup display shows Danny's team 'Tier of his own' at 83.34 versus 'Mason's Worst Nightmare' at 125.68."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1787.4,
+                "end_seconds": 1790.0,
+                "details": "Week 4 league matchup board clearly displays 83.34 versus 125.68 for the same teams."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Sal said he lost to Joe by roughly five points; this appears to have given Joe his first win after Joe had entered the matchup winless.",
+            "status": "reported",
+            "confidence": 0.74,
+            "raw_names": [
+              "S",
+              "Sal",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Joe"
+              },
+              {
+                "name": "loser",
+                "value": "Sal"
+              },
+              {
+                "name": "margin",
+                "value": "approximately 5 points"
+              },
+              {
+                "name": "Joe pre-matchup record",
+                "value": "0 wins"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1691.52,
+                "end_seconds": 1703.76,
+                "details": "A speaker says that, in his matchup with Joe, he was 'losing by five or whatever it was' and would have won by one if DK Metcalf had scored on a near-touchdown."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1691.52,
+                "end_seconds": 1697.28,
+                "details": "The speaker identifies the matchup as 'between me and Joe.'"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1697.28,
+                "end_seconds": 1712.32,
+                "details": "He discusses players and scoring on his own roster, including Mark Andrews, his defense, and Joe's kicker."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Sal reported acquiring Mark Andrews in a package trade and trading away Xavier Worthy; he characterized Andrews as having come from Joe, but the complete terms are not provided.",
+            "status": "reported",
+            "confidence": 0.72,
+            "raw_names": [
+              "Mark Andrews",
+              "Xavier Worthy",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "acquired player",
+                "value": "Mark Andrews"
+              },
+              {
+                "name": "traded away player",
+                "value": "Xavier Worthy"
+              },
+              {
+                "name": "reported counterparty",
+                "value": "Joe"
+              },
+              {
+                "name": "trade terms",
+                "value": "package deal; other assets unspecified"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1705.68,
+                "end_seconds": 1721.92,
+                "details": "The speaker says Mark Andrews 'comes to my team' in a 'package deal,' calls him 'the Trojan horse that Joe put onto my roster,' and says Xavier Worthy was traded away."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript refers to the losing manager against Joe as 'me' rather than naming him. It is likely Sal based on the surrounding discussion of 'S,' but the supplied visual does not make the owner identity fully legible.",
+          "The Mark Andrews package trade's full assets and exact counterparty should be verified from a transaction screen or another window.",
+          "The exact final Sal–Joe score is not legible in the supplied evidence; only an approximately five-point margin is stated."
+        ]
+      }
+    },
+    {
+      "window_index": 10,
+      "start": 1800.0,
+      "end": 1947.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 4 concludes with Danny, Zach, and Mason at 3-1; the middle of the standings is clustered at 2-2, while Sal and Bush are among the 1-3 teams. Badake beat Bush, and Avery lost despite scoring 157 points.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "After Week 4, Danny, Zach, and Mason were each 3-1. Mason had substantially fewer points for than Danny and Zach despite the same record.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Danny",
+              "Zach",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "Danny record",
+                "value": "3-1"
+              },
+              {
+                "name": "Zach record",
+                "value": "3-1"
+              },
+              {
+                "name": "Mason record",
+                "value": "3-1"
+              },
+              {
+                "name": "Danny points for",
+                "value": "576.56"
+              },
+              {
+                "name": "Zach points for",
+                "value": "557.5"
+              },
+              {
+                "name": "Mason points for",
+                "value": "445.96"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1800.0,
+                "end_seconds": 1823.44,
+                "details": "Standings display lists the three teams at 3-1 and their points-for totals; narration notes Danny and the speaker are above 550 points, while Mason is at roughly 445."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Badake said he secured a Week 4 win over Bush, moving Badake to 2-2; Bush fell to 1-3.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Badake",
+              "Bush",
+              "Mickey Mouse League",
+              "Respectfully Not Jettas"
+            ],
+            "facts": [
+              {
+                "name": "Week",
+                "value": "4"
+              },
+              {
+                "name": "Winner",
+                "value": "Badake"
+              },
+              {
+                "name": "Loser",
+                "value": "Bush"
+              },
+              {
+                "name": "Badake record after matchup",
+                "value": "2-2"
+              },
+              {
+                "name": "Bush record after matchup",
+                "value": "1-3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1827.679,
+                "end_seconds": 1837.84,
+                "details": "Narration says, “we solidified the dub… coming out being two and two. Shout out to Bush”; the standings display identifies Mickey Mouse League as Badake at 2-2 and Respectfully Not Jettas as Bush at 1-3."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Avery, Thomas, Austin, Nathan, and Tom were listed at 2-2 after Week 4. Sal was listed at 1-3.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Avery",
+              "Thomas",
+              "Austin",
+              "Nathan",
+              "Tom",
+              "Sal",
+              "the betting favorite",
+              "ThomasWadde",
+              "Cash me in Week 7",
+              "Mason's Worst Nightmare",
+              "Good Evening, Cowards",
+              "John Cena"
+            ],
+            "facts": [
+              {
+                "name": "Avery record",
+                "value": "2-2"
+              },
+              {
+                "name": "Thomas record",
+                "value": "2-2"
+              },
+              {
+                "name": "Austin record",
+                "value": "2-2"
+              },
+              {
+                "name": "Nathan record",
+                "value": "2-2"
+              },
+              {
+                "name": "Tom record",
+                "value": "2-2"
+              },
+              {
+                "name": "Sal record",
+                "value": "1-3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1835.533,
+                "end_seconds": 1860.0,
+                "details": "The standings screen lists Avery, Thomas, Austin, Nathan, and Tom at 2-2, and Sal at 1-3; owner usernames are visible beside the changing team names."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1835.679,
+                "end_seconds": 1843.679,
+                "details": "A speaker states that he and Sal are the only creators at 1-3; this supports Sal's displayed record but does not identify the speaker with certainty."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Avery reported scoring 157 points in Week 4 but losing the matchup.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "Week",
+                "value": "4"
+              },
+              {
+                "name": "Avery points scored",
+                "value": "157"
+              },
+              {
+                "name": "Result",
+                "value": "Loss"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1900.88,
+                "end_seconds": 1911.279,
+                "details": "Avery's recap says, “I scored 157 points this week and I lost.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the other 1-3 manager described as the speaker alongside Sal is not established by this window.",
+          "The exact Week 4 score and opponent in Avery's 157-point loss are not provided."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "The exact final score of Joe's Week 4 win over Sal is not provided; only an approximate five-point margin is stated.",
+    "Avery's Week 4 opponent and the exact score of his 157-point loss are not provided.",
+    "A last-minute trade in which Corey acquired Wan'Dale Robinson from Danny is described, but Corey's identity is not mapped to a supplied Season 1 owner and the return is unknown.",
+    "The sender and return in Joe's Rico Dowdle trade, as well as the owner and terms of the Jonathan Brooks acquisition, are not established.",
+    "Several Mason injury references are transcription-unclear, including “Nvant Smith”; the player identity should be verified before normalization."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize team owners over NFL players and use stable owner names where supported.",
+      "status": "fulfilled",
+      "details": "Recap and structured events identify affected owners for key trades, waiver moves, injuries, and matchup results. Unmapped identities were retained as open questions rather than assigned."
+    },
+    {
+      "instruction": "Track mentioned injuries, trades, waiver actions, and available head-to-head results.",
+      "status": "fulfilled",
+      "details": "Confirmed and reported transactions, injuries, waiver activity, and supported matchup outcomes are captured with evidence timestamps."
+    },
+    {
+      "instruction": "Treat predictions, rumors, and in-progress projections as non-final.",
+      "status": "fulfilled",
+      "details": "Pregame projections and trade talk were not recorded as completed results or transactions. Rice's diagnosis remains reported rather than confirmed."
+    },
+    {
+      "instruction": "Record items requiring review.",
+      "status": "fulfilled",
+      "details": "Uncertain owner mappings, incomplete trade terms, unclear player transcription, and missing matchup details are listed in open questions."
+    },
+    {
+      "instruction": "Use visual evidence over transcript where they conflict.",
+      "status": "fulfilled",
+      "details": "Accepted/rejected transaction panels, standings, and displayed scores were used as the strongest evidence where available."
+    }
+  ],
+  "supplemental_outputs": []
+}

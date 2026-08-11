@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "video_id": "gD_Zr6Z6_ME",
+  "video_title": "Massive Upsets Change The Standings",
+  "raw_sample_counts": {
+    "scene": 129,
+    "periodic": 52,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Massive Upsets Change The Standings",
+      "upload_date": "20241126",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        9.233,
+        21.995,
+        36.375,
+        58.075,
+        62.075,
+        87.355,
+        97.095,
+        113.433,
+        128.415,
+        136.633,
+        157.755,
+        167.034
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        180.0,
+        200.7,
+        217.3,
+        229.033,
+        244.5,
+        260.5,
+        282.267,
+        295.633,
+        311.9,
+        317.674,
+        321.674,
+        335.933
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        372.867,
+        380.033,
+        400.9,
+        417.135,
+        421.135,
+        448.6,
+        454.8,
+        475.435,
+        491.6,
+        497.767,
+        510.0,
+        536.034
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        540.034,
+        570.933,
+        589.375,
+        591.375,
+        593.375,
+        600.0,
+        618.333,
+        630.0,
+        650.567,
+        667.315,
+        690.0,
+        713.8
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        725.315,
+        727.315,
+        729.315,
+        757.133,
+        775.9,
+        784.8,
+        817.367,
+        831.333,
+        849.967,
+        863.7,
+        881.975,
+        891.675
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        905.814,
+        924.067,
+        942.433,
+        957.433,
+        968.294,
+        987.355,
+        991.355,
+        1009.933,
+        1022.767,
+        1045.733,
+        1050.0,
+        1072.767
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1108.534,
+        1110.534,
+        1112.534,
+        1126.433,
+        1140.0,
+        1164.1,
+        1179.1,
+        1189.567,
+        1200.0,
+        1238.794,
+        1240.794,
+        1247.914
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1264.767,
+        1277.054,
+        1279.054,
+        1282.274,
+        1297.354,
+        1322.9,
+        1339.4,
+        1360.867,
+        1391.133,
+        1397.9,
+        1414.733,
+        1435.233
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1440.0,
+      "end": 1534.0,
+      "transient_sample_count": 7,
+      "sample_timestamps": [
+        1440.0,
+        1441.733,
+        1470.0,
+        1499.374,
+        1501.374,
+        1503.374,
+        1530.0
+      ]
+    }
+  ]
+}

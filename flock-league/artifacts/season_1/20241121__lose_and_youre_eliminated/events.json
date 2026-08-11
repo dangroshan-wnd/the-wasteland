@@ -1,0 +1,833 @@
+{
+  "schema_version": 1,
+  "video_id": "1hpWz-XPC6Q",
+  "video_title": "Lose & You're Eliminated",
+  "season": "Season 1",
+  "week": 12,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Lose & You're Eliminated",
+      "upload_date": "20241121",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "standings",
+      "summary": "Week 12 standings: Zach led at 8-3; Austin and Mason were 7-4; Avery and Danny were 6-5; Badake, Thomas, Tom, and Joe were 5-6; Nathan, Bush, and Sal were 4-7.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "team owner",
+          "name": "Tom"
+        },
+        {
+          "role": "team owner",
+          "name": "Joe"
+        },
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "records",
+          "value": "Zach 8-3; Austin 7-4; Mason 7-4; Avery 6-5; Danny 6-5; Badake 5-6; Thomas 5-6; Tom 5-6; Joe 5-6; Nathan 4-7; Bush 4-7; Sal 4-7"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 285.68,
+          "end_seconds": 300.96,
+          "details": "On-screen standings and discussion corroborate all 12 owner records."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Danny added Nick Westbrook-Ikhine and dropped the Los Angeles Rams D/ST for a $3 waiver bid.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "added player",
+          "name": "Nick Westbrook-Ikhine"
+        },
+        {
+          "role": "dropped player",
+          "name": "Los Angeles Rams D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "FAAB bid",
+          "value": "$3"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 50.875,
+          "end_seconds": 56.6,
+          "details": "Processed-waivers panel lists the transaction and $3 bid."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Thomas added Ameer Abdullah for $1 and dropped Dawson Knox; Badake added Darius Slayton for $0 and dropped the Cleveland Browns D/ST.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "added player",
+          "name": "Ameer Abdullah"
+        },
+        {
+          "role": "dropped player",
+          "name": "Dawson Knox"
+        },
+        {
+          "role": "added player",
+          "name": "Darius Slayton"
+        },
+        {
+          "role": "dropped player",
+          "name": "Cleveland Browns D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Thomas transaction",
+          "value": "Added Ameer Abdullah; dropped Dawson Knox; $1 bid"
+        },
+        {
+          "name": "Badake transaction",
+          "value": "Added Darius Slayton; dropped Cleveland Browns D/ST; $0 bid"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 50.875,
+          "end_seconds": 56.6,
+          "details": "Processed-waivers panel displays both transactions and bid amounts."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Zach added the Arizona Cardinals D/ST and dropped the Green Bay Packers D/ST; Bush added the Chicago Bears D/ST and dropped the New York Jets D/ST.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "added player",
+          "name": "Arizona Cardinals D/ST"
+        },
+        {
+          "role": "dropped player",
+          "name": "Green Bay Packers D/ST"
+        },
+        {
+          "role": "added player",
+          "name": "Chicago Bears D/ST"
+        },
+        {
+          "role": "dropped player",
+          "name": "New York Jets D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Zach bid",
+          "value": "$0"
+        },
+        {
+          "name": "Bush bid",
+          "value": "$0"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 50.875,
+          "end_seconds": 56.6,
+          "details": "Processed-waivers panel lists both D/ST moves."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Joe made multiple free-agent moves: added Zach Ertz for Dalton Kincaid, added Jake Elliott for Younghoe Koo, then added Wil Lutz for Elliott; he also dropped the Philadelphia Eagles D/ST.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Joe"
+        },
+        {
+          "role": "added player",
+          "name": "Zach Ertz"
+        },
+        {
+          "role": "dropped player",
+          "name": "Dalton Kincaid"
+        },
+        {
+          "role": "added player",
+          "name": "Jake Elliott"
+        },
+        {
+          "role": "dropped player",
+          "name": "Younghoe Koo"
+        },
+        {
+          "role": "added player",
+          "name": "Wil Lutz"
+        },
+        {
+          "role": "dropped player",
+          "name": "Philadelphia Eagles D/ST"
+        }
+      ],
+      "scores": [],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 84.234,
+          "end_seconds": 101.2,
+          "details": "League-chat entries show the Ertz/Kincaid, Elliott/Koo, Lutz/Elliott, and Eagles D/ST moves."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Austin added Justice Hill and dropped Jalen Tolbert; Mason added Roschon Johnson as a free agent.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "added player",
+          "name": "Justice Hill"
+        },
+        {
+          "role": "dropped player",
+          "name": "Jalen Tolbert"
+        },
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "added player",
+          "name": "Roschon Johnson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Mason acquisition type",
+          "value": "Free agent"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 95.874,
+          "end_seconds": 101.2,
+          "details": "League chat shows Austin's Justice Hill/Jalen Tolbert move."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 127.834,
+          "end_seconds": 138.855,
+          "details": "Notification shows Mason adding Roschon Johnson."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Tom added Indianapolis Colts D/ST, Jake Elliott, Jason Myers, and Joshua Karty as free agents.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Tom"
+        },
+        {
+          "role": "added player",
+          "name": "Indianapolis Colts D/ST"
+        },
+        {
+          "role": "added player",
+          "name": "Jake Elliott"
+        },
+        {
+          "role": "added player",
+          "name": "Jason Myers"
+        },
+        {
+          "role": "added player",
+          "name": "Joshua Karty"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "transaction type",
+          "value": "Free-agent additions"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 185.315,
+          "end_seconds": 187.315,
+          "details": "League Chat lists StevenSwagal's additions; transcript identifies StevenSwagal as Tom."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Sal's proposed trade with Tom was rejected: Sal offered Cooper Kupp and Isiah Pacheco for Amari Cooper, Nick Chubb, and Zay Flowers. No trade was completed.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "proposing owner",
+          "name": "Sal"
+        },
+        {
+          "role": "recipient owner",
+          "name": "Tom"
+        },
+        {
+          "role": "offered player",
+          "name": "Cooper Kupp"
+        },
+        {
+          "role": "offered player",
+          "name": "Isiah Pacheco"
+        },
+        {
+          "role": "requested player",
+          "name": "Amari Cooper"
+        },
+        {
+          "role": "requested player",
+          "name": "Nick Chubb"
+        },
+        {
+          "role": "requested player",
+          "name": "Zay Flowers"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "outcome",
+          "value": "Rejected; no trade completed"
+        },
+        {
+          "name": "reported response",
+          "value": "Tom sent three kickers rather than a trade discussion response"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 193.68,
+          "end_seconds": 224.599,
+          "details": "The trade panel is labeled Trade Rejected and shows the offered packages; Sal describes receiving three kickers back."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "An unidentified manager proposed sending Jonathan Taylor to Danny for Breece Hall; the offer was not shown as accepted or completed.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "reported",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "recipient owner",
+          "name": "Danny"
+        },
+        {
+          "role": "offered player",
+          "name": "Jonathan Taylor"
+        },
+        {
+          "role": "requested player",
+          "name": "Breece Hall"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "completion status",
+          "value": "Proposed only; no completed trade shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 900.6,
+          "end_seconds": 917.6,
+          "details": "Speaker says he messaged Danny offering Jonathan Taylor straight up for Breece Hall."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Badake said he traded Rome Odunze for Cade Otton the previous week.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "sent player",
+          "name": "Rome Odunze"
+        },
+        {
+          "role": "received player",
+          "name": "Cade Otton"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "timing",
+          "value": "Previous week, per Badake"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1135.28,
+          "end_seconds": 1139.36,
+          "details": "Badake says he traded away Rome Odunze for Cade Otton; Otton is visible in the displayed lineup."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Sal and Bush were scheduled to play in Week 12, with both entering at 4-7. The matchup was a preview; no result was shown.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.89,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "team owner",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "team names",
+          "value": "Kendrick Lamar vs. Covid Cuts"
+        },
+        {
+          "name": "displayed projections",
+          "value": "Kendrick Lamar 113.5; Covid Cuts 116.5"
+        },
+        {
+          "name": "displayed projection favorite",
+          "value": "Covid Cuts, 53%"
+        },
+        {
+          "name": "result",
+          "value": "Not determined in this episode"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 614.12,
+          "end_seconds": 624.92,
+          "details": "Matchup screen identifies Sal's Kendrick Lamar against Bush's Covid Cuts, including projections; discussion says it starts that night."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery was scheduled to face Austin, Zach was scheduled to face Danny, and Badake was scheduled to face Joe in Week 12; no results were shown.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "team owner",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Badake and Joe pre-matchup records",
+          "value": "Both 5-6"
+        },
+        {
+          "name": "result",
+          "value": "No final results shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 795.72,
+          "end_seconds": 808.04,
+          "details": "Avery versus Austin is introduced as an upcoming matchup."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 851.44,
+          "end_seconds": 860.199,
+          "details": "Zach and Danny are introduced as the next matchup."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1099.799,
+          "end_seconds": 1111.159,
+          "details": "Badake and Joe are introduced as 5-6 teams in a must-win week."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "The supplied evidence identifies Nathan's The Chosen One against Mason's Grandaddy as a Week 12 matchup, but another episode segment describes Mason facing Thomas; the conflicting Mason opponent requires review.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "unclear",
+      "confidence": 0.78,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Nathan-Mason evidence",
+          "value": "The Chosen One vs. Mason's Grandaddy displayed"
+        },
+        {
+          "name": "conflicting evidence",
+          "value": "Separate dialogue says Mason is taking on Thomas"
+        },
+        {
+          "name": "result",
+          "value": "No final result shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 700.37,
+          "end_seconds": 713.0,
+          "details": "Matchup display shows The Chosen One versus Mason's Grandaddy."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 600.0,
+          "end_seconds": 613.2,
+          "details": "Speaker says Mason is taking on Thomas."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Badake expected to start Raheem Mostert, Cade Otton, and Hunter Henry in Week 12 because James Cook, Garrett Wilson, and Darnell Mooney were unavailable to his lineup; this was a projected lineup, not a confirmed final start.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "reported",
+      "confidence": 0.8,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "planned starter",
+          "name": "Raheem Mostert"
+        },
+        {
+          "role": "planned starter",
+          "name": "Cade Otton"
+        },
+        {
+          "role": "planned starter",
+          "name": "Hunter Henry"
+        },
+        {
+          "role": "unavailable player",
+          "name": "James Cook"
+        },
+        {
+          "role": "unavailable player",
+          "name": "Garrett Wilson"
+        },
+        {
+          "role": "unavailable player",
+          "name": "Darnell Mooney"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "lineup status",
+          "value": "Expected/likely, not finalized"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1111.159,
+          "end_seconds": 1134.88,
+          "details": "Badake says he will have to start Mostert and will most likely start Otton and Hunter Henry."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Joe had Josh Allen on bye in Week 12; discussion said Joe acquired Allen a couple of weeks earlier.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "reported",
+      "confidence": 0.85,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Joe"
+        },
+        {
+          "role": "player",
+          "name": "Josh Allen"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "availability",
+          "value": "Bye week"
+        },
+        {
+          "name": "reported acquisition timing",
+          "value": "A couple of weeks earlier"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1144.36,
+          "end_seconds": 1148.919,
+          "details": "Speaker states that Josh Allen is on bye for Joe and was acquired a couple weeks ago."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "An unidentified manager said Mike Evans, Malik Nabers, and Trey McBride were returning, giving that fantasy roster a fully healthy lineup after several weeks.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Mike Evans"
+        },
+        {
+          "role": "NFL player",
+          "name": "Malik Nabers"
+        },
+        {
+          "role": "NFL player",
+          "name": "Trey McBride"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "manager identity",
+          "value": "Unidentified"
+        },
+        {
+          "name": "context",
+          "value": "Fantasy roster availability claim"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 874.759,
+          "end_seconds": 888.96,
+          "details": "Speaker says the team gets Evans, Nabers, and McBride back and is fully healthy."
+        }
+      ]
+    }
+  ]
+}

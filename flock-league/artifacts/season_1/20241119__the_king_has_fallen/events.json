@@ -1,0 +1,654 @@
+{
+  "schema_version": 1,
+  "video_id": "Wm0p0Ftj50s",
+  "video_title": "The King Has Fallen",
+  "season": "Season 1",
+  "week": 11,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The King Has Fallen",
+      "upload_date": "20241119",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "roster_move",
+      "summary": "Sal acquired Tyreek Hill before Week 11; the transaction type, trade partner, and compensation were not provided.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "NFL player acquired",
+          "name": "Tyreek Hill"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "move",
+          "value": "Acquired"
+        },
+        {
+          "name": "transaction details",
+          "value": "Not stated"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 79.56,
+          "end_seconds": 85.0,
+          "details": "Sal says he made a big-time move in the prior vlog by acquiring Tyreek Hill."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Sal changed his team name to Bug Spray.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "new team name",
+          "value": "Bug Spray"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 113.72,
+          "end_seconds": 120.0,
+          "details": "Sal announces the change, and the league notification reads that SalVetri updated the team name to Bug Spray."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Mason defeated Zach, 145.76-113.34.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Mason"
+        },
+        {
+          "role": "loser",
+          "name": "Zach"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Mason",
+          "score": 145.76
+        },
+        {
+          "name": "Zach",
+          "score": 113.34
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 930.0,
+          "end_seconds": 931.0,
+          "details": "The Week 11 matchup screen shows Fight For Freedom (Mason) at 145.76 versus Do It For Chris (Zach) at 113.34."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Joe defeated Austin, 133.20-131.34.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Joe"
+        },
+        {
+          "role": "loser",
+          "name": "Austin"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Joe",
+          "score": 133.2
+        },
+        {
+          "name": "Austin",
+          "score": 131.34
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 980.12,
+          "end_seconds": 996.0,
+          "details": "Commentary says Joe beat Austin; the Week 11 display shows Joe's team at 133.20 over Austin's at 131.34."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery defeated Badake, 172.34-133.94.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Avery"
+        },
+        {
+          "role": "loser",
+          "name": "Badake"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Avery",
+          "score": 172.34
+        },
+        {
+          "name": "Badake",
+          "score": 133.94
+        }
+      ],
+      "facts": [
+        {
+          "name": "margin",
+          "value": "38.40"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 987.394,
+          "end_seconds": 989.0,
+          "details": "The Week 11 matchup list shows everyhuffman (Avery) at 172.34 over Micky Mouse League (Badake) at 133.94."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Sal defeated Nathan, 155.88-121.10.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Sal"
+        },
+        {
+          "role": "loser",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Sal",
+          "score": 155.88
+        },
+        {
+          "name": "Nathan",
+          "score": 121.1
+        }
+      ],
+      "facts": [
+        {
+          "name": "Sal team name",
+          "value": "Bug Spray"
+        },
+        {
+          "name": "Nathan team label",
+          "value": "Worked By Waivers"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 930.0,
+          "end_seconds": 931.0,
+          "details": "The Week 11 results screen shows Bug Spray (Sal) at 155.88 over Worked By Waivers (Nathan) at 121.10."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Tom defeated Bush, 139.43-107.34.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Tom"
+        },
+        {
+          "role": "loser",
+          "name": "Bush"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Tom",
+          "score": 139.43
+        },
+        {
+          "name": "Bush",
+          "score": 107.34
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 930.0,
+          "end_seconds": 931.0,
+          "details": "The Week 11 results screen shows Mason's Grandaddy (Tom) at 139.43 over Cinderella Story (Bush) at 107.34."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Danny defeated Thomas, 143.03-123.78, moving Danny to 6-5 and Thomas to 5-6.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Danny"
+        },
+        {
+          "role": "loser",
+          "name": "Thomas"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Danny",
+          "score": 143.03
+        },
+        {
+          "name": "Thomas",
+          "score": 123.78
+        }
+      ],
+      "facts": [
+        {
+          "name": "Danny record entering Week 12",
+          "value": "6-5"
+        },
+        {
+          "name": "Thomas record",
+          "value": "5-6"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 930.0,
+          "end_seconds": 931.0,
+          "details": "The Week 11 matchup card shows Hit with the Nico (Danny) at 143.03 versus Team ThomasWadde (Thomas) at 123.78."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 860.04,
+          "end_seconds": 878.0,
+          "details": "Danny's win and the 6-5 record entering Week 12 are stated in the recap."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Chris Boswell scored 24.00 fantasy points for Sal in Week 11.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "NFL player",
+          "name": "Chris Boswell"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "fantasy points",
+          "value": "24.00"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 186.48,
+          "end_seconds": 199.16,
+          "details": "The speaker identifies Boswell as Sal's kicker, and the on-screen stat card displays 24.00."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Breece Hall scored 31.1 PPR points for Danny on 23 touches with two touchdowns.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Breece Hall"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "fantasy points",
+          "value": "31.1 PPR"
+        },
+        {
+          "name": "touches",
+          "value": "23"
+        },
+        {
+          "name": "touchdowns",
+          "value": "2"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 238.48,
+          "end_seconds": 257.28,
+          "details": "Danny is identified on screen; commentary gives Hall's 31.1 PPR points, 23 touches, and two touchdowns."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Tyjae Spears was reported to have sustained a concussion during the week.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "reported",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Tyjae Spears"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Concussion"
+        },
+        {
+          "name": "fantasy points mentioned",
+          "value": "2.80"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 542.0,
+          "end_seconds": 549.84,
+          "details": "The speaker says 'Taj Spears concussion' and the on-screen lineup lists T. Spears with 2.80 points."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Nico Collins was back in Danny's lineup and was said to have had a good week in Danny's win over Thomas.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Nico Collins"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "update",
+          "value": "Back in lineup"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 867.84,
+          "end_seconds": 871.04,
+          "details": "The recap says Danny had Collins back and that Nico Collins had a good week."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Joe was said to have traded Jonathan Brooks for a player referred to only as 'Rico D.'",
+      "season": "Season 1",
+      "week": 11,
+      "status": "reported",
+      "confidence": 0.8,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Joe"
+        },
+        {
+          "role": "NFL player traded away",
+          "name": "Jonathan Brooks"
+        },
+        {
+          "role": "NFL player received",
+          "name": "Rico D"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "player identity",
+          "value": "The received player is only identified by an abbreviation in the source."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 914.96,
+          "end_seconds": 918.96,
+          "details": "A speaker says, 'I can't believe you traded Jonathan Brooks for Rico D.'"
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "After Week 11, Zach led at 8-3; Austin and Mason were 7-4; Avery and Danny were 6-5; Badake, Thomas, Tom, and Joe were 5-6; Nathan, Bush, and Sal were 4-7.",
+      "season": "Season 1",
+      "week": 11,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [
+        {
+          "role": "standings leader",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Zach",
+          "value": "8-3"
+        },
+        {
+          "name": "Austin",
+          "value": "7-4"
+        },
+        {
+          "name": "Mason",
+          "value": "7-4"
+        },
+        {
+          "name": "Avery",
+          "value": "6-5"
+        },
+        {
+          "name": "Danny",
+          "value": "6-5"
+        },
+        {
+          "name": "Badake",
+          "value": "5-6"
+        },
+        {
+          "name": "Thomas",
+          "value": "5-6"
+        },
+        {
+          "name": "Tom",
+          "value": "5-6"
+        },
+        {
+          "name": "Joe",
+          "value": "5-6"
+        },
+        {
+          "name": "Nathan",
+          "value": "4-7"
+        },
+        {
+          "name": "Bush",
+          "value": "4-7"
+        },
+        {
+          "name": "Sal",
+          "value": "4-7"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 929.12,
+          "end_seconds": 1031.0,
+          "details": "The standings screen lists all 12 owners and records; commentary confirms Zach remains on top at 8-3."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Bush and Sal were scheduled to play in Week 12; Sal's Bug Spray was a 53% pregame projection favorite over Bush's Cinderella Story at 47%.",
+      "season": "Season 1",
+      "week": 12,
+      "status": "confirmed",
+      "confidence": 0.87,
+      "participants": [
+        {
+          "role": "scheduled participant",
+          "name": "Bush"
+        },
+        {
+          "role": "scheduled participant",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Bush projected win probability",
+          "value": "47%"
+        },
+        {
+          "name": "Sal projected win probability",
+          "value": "53%"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 817.733,
+          "end_seconds": 827.0,
+          "details": "The Week 12 matchup screen shows Cinderella Story versus Bug Spray with 47% and 53% projected win probabilities."
+        }
+      ]
+    }
+  ]
+}

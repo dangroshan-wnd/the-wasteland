@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "video_id": "wK4L-00YtOI",
+  "video_title": "It All Comes Down To This...",
+  "raw_sample_counts": {
+    "scene": 46,
+    "periodic": 39,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "It All Comes Down To This...",
+      "upload_date": "20241224",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        6.634,
+        29.114,
+        38.415,
+        59.933,
+        65.354,
+        82.654,
+        94.515,
+        112.855,
+        126.835,
+        141.695,
+        161.034,
+        165.034
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        180.0,
+        204.394,
+        206.394,
+        208.394,
+        210.0,
+        236.333,
+        251.433,
+        258.333,
+        287.533,
+        300.0,
+        315.454,
+        319.454
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        373.455,
+        375.455,
+        382.795,
+        396.714,
+        405.5,
+        423.167,
+        442.454,
+        450.767,
+        476.667,
+        491.235,
+        503.315,
+        512.754
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        540.0,
+        548.4,
+        570.0,
+        581.533,
+        597.567,
+        600.0,
+        625.067,
+        630.0,
+        660.0,
+        679.133,
+        690.0,
+        702.133
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        720.0,
+        736.733,
+        750.0,
+        783.967,
+        819.033,
+        840.0,
+        862.967,
+        868.795,
+        870.795,
+        872.795,
+        875.0,
+        895.1
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        900.0,
+        922.234,
+        924.234,
+        926.234,
+        930.0,
+        960.0,
+        984.1,
+        1004.633,
+        1020.0,
+        1046.6,
+        1053.035,
+        1057.035
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1170.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1080.0,
+        1110.0,
+        1112.1,
+        1116.574,
+        1118.574,
+        1120.574,
+        1122.155,
+        1124.155,
+        1126.155,
+        1131.967,
+        1140.0,
+        1161.733
+      ]
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "schema_version": 1,
+  "video_id": "wK4L-00YtOI",
+  "video_title": "It All Comes Down To This...",
+  "season": "Season 1",
+  "week": 17,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "It All Comes Down To This...",
+      "upload_date": "20241224",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "injury_update",
+      "summary": "Thomas reported that Alvin Kamara and David Montgomery were unavailable ahead of his Week 16 semifinal against Mason, leaving Tank Bigsby in his lineup.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "reported",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "affected owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "opponent",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "unavailable players",
+          "value": "Alvin Kamara; David Montgomery"
+        },
+        {
+          "name": "starter mentioned",
+          "value": "Tank Bigsby"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 3.03,
+          "end_seconds": 20.0,
+          "details": "Thomas says he lost Kamara and David Montgomery and was already starting Tank Bigsby; the matchup graphic identifies Thomas versus Mason."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Mason started the Los Angeles Chargers D/ST in Week 16; it scored 2.00 fantasy points on Thursday night.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "starting unit",
+          "value": "Los Angeles Chargers D/ST"
+        },
+        {
+          "name": "fantasy points",
+          "value": "2.00"
+        },
+        {
+          "name": "game timing",
+          "value": "Thursday night"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 59.52,
+          "end_seconds": 64.84,
+          "details": "Thomas says Mason started the Chargers defense and it scored two points; the on-screen scoring card shows Chargers D/ST at 2.00."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Thomas started Patrick Taylor and Alexander Mattison in his flex spots rather than Jaylen Warren and Kareem Hunt; he said the two starters nearly combined for 20 points.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Thomas"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "flex starters",
+          "value": "Patrick Taylor; Alexander Mattison"
+        },
+        {
+          "name": "alternatives not started",
+          "value": "Jaylen Warren; Kareem Hunt"
+        },
+        {
+          "name": "combined flex points",
+          "value": "almost 20"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 64.84,
+          "end_seconds": 80.0,
+          "details": "Thomas identifies both flex starters and alternatives and says his flexes almost combined for 20 points."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Thomas defeated Mason 189.04–143.82 in the Week 16 playoff semifinal and advanced to the championship.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Thomas"
+        },
+        {
+          "role": "loser",
+          "name": "Mason"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Thomas",
+          "score": 189.04
+        },
+        {
+          "name": "Mason",
+          "score": 143.82
+        }
+      ],
+      "facts": [
+        {
+          "name": "round",
+          "value": "playoff semifinal"
+        },
+        {
+          "name": "result",
+          "value": "Thomas advanced to the championship"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 422.9,
+          "end_seconds": 445.6,
+          "details": "The Week 16 final scoreboard and league matchup screen show Thomas 189.04 over Mason 143.82; narration congratulates Thomas."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery defeated Zach in the Week 16 playoff semifinal and advanced to the championship. The supplied visuals conflict on Zach’s exact score.",
+      "season": "Season 1",
+      "week": 16,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Avery"
+        },
+        {
+          "role": "loser",
+          "name": "Zach"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Avery",
+          "score": 185.82
+        }
+      ],
+      "facts": [
+        {
+          "name": "round",
+          "value": "playoff semifinal"
+        },
+        {
+          "name": "result",
+          "value": "Avery advanced to the championship"
+        },
+        {
+          "name": "conflicting displayed Zach scores",
+          "value": "164.48 on the Week 16 final scoreboard; 145.48 on a later playoff bracket"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 236.333,
+          "end_seconds": 271.44,
+          "details": "The Week 16 final scoreboard shows Avery 185.82 and Zach 164.48; narration confirms Zach is out of the championship."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 862.967,
+          "end_seconds": 868.0,
+          "details": "A later playoff bracket shows Avery 185.82 over Zach 145.48."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Thomas and Avery are the Week 17 championship participants; the matchup was displayed at 0.0–0.0 before play.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "championship participant",
+          "name": "Thomas"
+        },
+        {
+          "role": "championship participant",
+          "name": "Avery"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Thomas",
+          "score": 0.0
+        },
+        {
+          "name": "Avery",
+          "score": 0.0
+        }
+      ],
+      "facts": [
+        {
+          "name": "round",
+          "value": "Championship"
+        },
+        {
+          "name": "status",
+          "value": "unstarted"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1120.57,
+          "end_seconds": 1126.15,
+          "details": "The Week 17 lower-third explicitly reads Championship — Thomas 0.0 — Avery 0.0."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "The Week 17 Toilet Bowl was displayed as Corey versus Nathan, at 0.0–0.0 before play.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "Toilet Bowl participant",
+          "name": "Corey"
+        },
+        {
+          "role": "Toilet Bowl participant",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Corey",
+          "score": 0.0
+        },
+        {
+          "name": "Nathan",
+          "score": 0.0
+        }
+      ],
+      "facts": [
+        {
+          "name": "round",
+          "value": "Toilet Bowl"
+        },
+        {
+          "name": "status",
+          "value": "unstarted"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1120.57,
+          "end_seconds": 1126.15,
+          "details": "The Week 17 lower-third reads Toilet Bowl — Corey 0.0 — Nathan 0.0."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Thomas added Alexander Mattison for $4 and dropped David Montgomery ahead of Week 17.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Thomas"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "add",
+          "value": "Alexander Mattison (RB, LV)"
+        },
+        {
+          "name": "drop",
+          "value": "David Montgomery (RB, DET)"
+        },
+        {
+          "name": "FAAB bid",
+          "value": "$4"
+        },
+        {
+          "name": "total bids shown",
+          "value": "3"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 690.0,
+          "end_seconds": 702.0,
+          "details": "ThomasWadde’s waiver panel shows Mattison added, Montgomery dropped, a $4 bid, and Total bids: 3."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Thomas added Jacksonville Jaguars D/ST for $4 and dropped Denver Broncos D/ST ahead of Week 17.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.97,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Thomas"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "add",
+          "value": "Jacksonville Jaguars D/ST"
+        },
+        {
+          "name": "drop",
+          "value": "Denver Broncos D/ST"
+        },
+        {
+          "name": "FAAB bid",
+          "value": "$4"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 690.0,
+          "end_seconds": 702.0,
+          "details": "ThomasWadde’s waiver panel shows Jacksonville Jaguars D/ST added and Denver Broncos D/ST dropped for $4."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Danny traded Rico Dowdle to Joe for Jonathan Brooks in an earlier transaction.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "sent Rico Dowdle",
+          "name": "Danny"
+        },
+        {
+          "role": "received Rico Dowdle",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "player to Joe",
+          "value": "Rico Dowdle"
+        },
+        {
+          "name": "player to Danny",
+          "value": "Jonathan Brooks"
+        },
+        {
+          "name": "timing",
+          "value": "Prior to this episode; exact date not stated"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 759.56,
+          "end_seconds": 773.6,
+          "details": "The speaker explicitly states that Danny gave Joe Rico D for Jonathan Brooks."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Cory identified himself as the league commissioner, while clarifying that Mason is not commissioner.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.92,
+      "participants": [
+        {
+          "role": "commissioner",
+          "name": "Cory"
+        },
+        {
+          "role": "not commissioner",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "commissioner",
+          "value": "Cory"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 807.36,
+          "end_seconds": 827.6,
+          "details": "The discussion states Mason is not commissioner, and Cory says he is in charge as commissioner."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Kenneth Walker was listed as questionable entering Week 17.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [],
+      "scores": [],
+      "facts": [
+        {
+          "name": "player",
+          "value": "Kenneth Walker"
+        },
+        {
+          "name": "status",
+          "value": "Questionable"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 921.12,
+          "end_seconds": 924.96,
+          "details": "The speaker says Kenneth Walker is questionable again, and the fantasy display shows the questionable designation."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Thomas recalled beating Avery in Week 4 by approximately 170–160, with Kenneth Walker scoring 33 points. The spoken totals appear rounded relative to the displayed detailed score.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Thomas"
+        },
+        {
+          "role": "loser",
+          "name": "Avery"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "spoken score",
+          "value": "Thomas 170; Avery 160"
+        },
+        {
+          "name": "displayed detailed score",
+          "value": "Thomas 169.90; Avery 157.90"
+        },
+        {
+          "name": "Kenneth Walker points",
+          "value": "33"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1046.92,
+          "end_seconds": 1062.48,
+          "details": "Thomas says Walker scored 33 and that he beat Avery 170 to 160; the historical matchup display shows 169.90–157.90."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,805 @@
+{
+  "schema_version": 1,
+  "video_id": "ETKlwr3lVSQ",
+  "video_title": "The Flock League Has Never Been So Close",
+  "season": "Season 1",
+  "week": 4,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Flock League Has Never Been So Close",
+      "upload_date": "20241001",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "standings",
+      "summary": "Entering Week 4, Danny led the league at 3-0; Zach, Austin, Avery, and Mason were 2-1; Badake, Sal, Thomas, Bush, and Nathan were 1-2; and Joe was 0-3.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Badake"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "team owner",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Danny record",
+          "value": "3-0"
+        },
+        {
+          "name": "Zach record",
+          "value": "2-1"
+        },
+        {
+          "name": "Austin record",
+          "value": "2-1"
+        },
+        {
+          "name": "Avery record",
+          "value": "2-1"
+        },
+        {
+          "name": "Mason record",
+          "value": "2-1"
+        },
+        {
+          "name": "Badake record",
+          "value": "1-2"
+        },
+        {
+          "name": "Sal record",
+          "value": "1-2"
+        },
+        {
+          "name": "Thomas record",
+          "value": "1-2"
+        },
+        {
+          "name": "Bush record",
+          "value": "1-2"
+        },
+        {
+          "name": "Nathan record",
+          "value": "1-2"
+        },
+        {
+          "name": "Joe record",
+          "value": "0-3"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 111.554,
+          "end_seconds": 118.5,
+          "details": "On-screen pre-Week-4 standings list all owner records."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Joe and Sal completed a trade: Joe received Courtland Sutton and Xavier Worthy, while Sal received Mark Andrews, Anthony Richardson, and Ladd McConkey.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "receiving owner",
+          "name": "Joe"
+        },
+        {
+          "role": "receiving owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "status",
+          "value": "Accepted"
+        },
+        {
+          "name": "Joe receives",
+          "value": "Courtland Sutton; Xavier Worthy"
+        },
+        {
+          "name": "Sal receives",
+          "value": "Mark Andrews; Anthony Richardson; Ladd McConkey"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 177.4,
+          "end_seconds": 180.0,
+          "details": "Accepted trade panel shows GreenMeansMoney receiving Sutton and Worthy and SaSvetri receiving Andrews, Richardson, and McConkey."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 1705.68,
+          "end_seconds": 1721.92,
+          "details": "Sal says Mark Andrews came to his team in a package deal and that he traded away Xavier Worthy."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Sal changed his team name to John Cena.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "new team name",
+          "value": "John Cena"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 192.0,
+          "end_seconds": 195.12,
+          "details": "Sal states the name change, and the league notification reads that SalVetri updated the team name to John Cena."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Mason and Sal completed a trade: Mason received Anthony Richardson, Ladd McConkey, and $18 FAAB; Sal received Terry McLaurin and Tyjae Spears.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "receiving owner",
+          "name": "Mason"
+        },
+        {
+          "role": "receiving owner",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Mason receives",
+          "value": "Anthony Richardson; Ladd McConkey; $18 FAAB"
+        },
+        {
+          "name": "Sal receives",
+          "value": "Terry McLaurin; Tyjae Spears"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 412.8,
+          "end_seconds": 438.0,
+          "details": "Accepted trade panel and discussion list the complete Mason-Sal exchange."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Hollywood Brown was reported out for the season and no longer on Mason's roster.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "reported",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "affected owner",
+          "name": "Mason"
+        },
+        {
+          "role": "NFL player",
+          "name": "Hollywood Brown"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported injury status",
+          "value": "Out for the season"
+        },
+        {
+          "name": "roster status",
+          "value": "No longer on Mason's roster"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 568.56,
+          "end_seconds": 573.52,
+          "details": "Narrator excludes Brown from Mason's roster recap because Brown is no longer on the roster and is said to be out for the season."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Mason reported that Jonathan Taylor left late with an injury and carried a questionable tag.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "affected owner",
+          "name": "Mason"
+        },
+        {
+          "role": "NFL player",
+          "name": "Jonathan Taylor"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported status",
+          "value": "Left late with an injury; questionable tag displayed"
+        },
+        {
+          "name": "fantasy implication",
+          "value": "Mason said he did not expect to have Taylor going forward"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 883.44,
+          "end_seconds": 890.16,
+          "details": "Mason says Taylor left late with an injury and refers to the visible Q tag."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Rashee Rice was reported as likely having a torn ACL, removing a top option from Danny's roster.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "reported",
+      "confidence": 0.78,
+      "participants": [
+        {
+          "role": "affected owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Rashee Rice"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported diagnosis",
+          "value": "More than likely torn ACL"
+        },
+        {
+          "name": "roster impact",
+          "value": "Described as losing a top option"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 947.12,
+          "end_seconds": 969.92,
+          "details": "Speaker reports Rice was more than likely suffering a torn ACL and identifies Danny as the affected fantasy manager."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Danny acquired Carson Steele for $37 FAAB.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "acquiring owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Carson Steele"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "waiver cost",
+          "value": "$37 FAAB"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 974.32,
+          "end_seconds": 980.0,
+          "details": "Speaker says Danny paid $37 for Carson Steele on waivers."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Zach rejected Danny's offer of Kyle Pitts and Rashee Rice for Brandon Aiyuk and Trey McBride.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "offering owner",
+          "name": "Danny"
+        },
+        {
+          "role": "receiving owner",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "status",
+          "value": "Rejected"
+        },
+        {
+          "name": "Zach would receive",
+          "value": "Kyle Pitts; Rashee Rice"
+        },
+        {
+          "name": "Danny would receive",
+          "value": "Brandon Aiyuk; Trey McBride"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1016.88,
+          "end_seconds": 1030.0,
+          "details": "On-screen panel labels the offer Trade Rejected and displays the two packages."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Bush defeated Sal in Week 1; Sal attributed the loss to an opposing kicker's unusually high score.",
+      "season": "Season 1",
+      "week": 1,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Bush"
+        },
+        {
+          "role": "loser",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "score",
+          "value": "Not provided"
+        },
+        {
+          "name": "decisive context",
+          "value": "Sal attributed the loss to an opposing kicker"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1127.36,
+          "end_seconds": 1132.4,
+          "details": "Sal says he lost to Bush in Week 1 while discussing another kicker-driven loss."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Zach rejected Mason's offer of the San Francisco 49ers D/ST for $12 FAAB.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "offering owner",
+          "name": "Mason"
+        },
+        {
+          "role": "receiving owner",
+          "name": "Zach"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "status",
+          "value": "Rejected"
+        },
+        {
+          "name": "asset offered",
+          "value": "San Francisco 49ers D/ST"
+        },
+        {
+          "name": "requested compensation",
+          "value": "$12 FAAB"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1383.12,
+          "end_seconds": 1400.0,
+          "details": "Trade panel shows MasonDodd accepting, zaxavage rejecting, and 49ers D/ST for $12 FAAB."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Nathan defeated Danny in Week 4, 125.68-83.34.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Nathan"
+        },
+        {
+          "role": "loser",
+          "name": "Danny"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Nathan",
+          "score": 125.68
+        },
+        {
+          "name": "Danny",
+          "score": 83.34
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1636.96,
+          "end_seconds": 1640.56,
+          "details": "Discussion identifies Danny's loss to Nathan, and the matchup display shows 83.34 versus 125.68."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1787.4,
+          "end_seconds": 1790.0,
+          "details": "Week 4 matchup board again displays the 83.34-125.68 result."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Joe defeated Sal in Week 4 by approximately five points.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "reported",
+      "confidence": 0.74,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Joe"
+        },
+        {
+          "role": "loser",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "margin",
+          "value": "Approximately 5 points"
+        },
+        {
+          "name": "Joe pre-matchup record",
+          "value": "0-3"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1691.52,
+          "end_seconds": 1703.76,
+          "details": "Sal describes his matchup with Joe and says he was losing by five or so; he says a DK Metcalf touchdown would have changed the outcome."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "After Week 4, Danny, Zach, and Mason were 3-1; Avery, Thomas, Austin, Nathan, and Tom were 2-2; Sal and Bush were 1-3.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        },
+        {
+          "role": "team owner",
+          "name": "Zach"
+        },
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "team owner",
+          "name": "Avery"
+        },
+        {
+          "role": "team owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "team owner",
+          "name": "Austin"
+        },
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "team owner",
+          "name": "Tom"
+        },
+        {
+          "role": "team owner",
+          "name": "Sal"
+        },
+        {
+          "role": "team owner",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Danny record",
+          "value": "3-1"
+        },
+        {
+          "name": "Zach record",
+          "value": "3-1"
+        },
+        {
+          "name": "Mason record",
+          "value": "3-1"
+        },
+        {
+          "name": "Avery record",
+          "value": "2-2"
+        },
+        {
+          "name": "Thomas record",
+          "value": "2-2"
+        },
+        {
+          "name": "Austin record",
+          "value": "2-2"
+        },
+        {
+          "name": "Nathan record",
+          "value": "2-2"
+        },
+        {
+          "name": "Tom record",
+          "value": "2-2"
+        },
+        {
+          "name": "Sal record",
+          "value": "1-3"
+        },
+        {
+          "name": "Bush record",
+          "value": "1-3"
+        },
+        {
+          "name": "Danny points for",
+          "value": "576.56"
+        },
+        {
+          "name": "Zach points for",
+          "value": "557.5"
+        },
+        {
+          "name": "Mason points for",
+          "value": "445.96"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1800.0,
+          "end_seconds": 1823.44,
+          "details": "Standings display lists Danny, Zach, and Mason at 3-1 with their points-for totals."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1835.533,
+          "end_seconds": 1860.0,
+          "details": "Standings display lists the 2-2 cluster and Sal at 1-3; Bush is identified at 1-3 alongside the Badake-Bush matchup recap."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Badake defeated Bush in Week 4, moving to 2-2 while Bush fell to 1-3.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Badake"
+        },
+        {
+          "role": "loser",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Badake record after matchup",
+          "value": "2-2"
+        },
+        {
+          "name": "Bush record after matchup",
+          "value": "1-3"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1827.679,
+          "end_seconds": 1837.84,
+          "details": "Badake says he secured the win and reached 2-2; the standings identify Bush at 1-3."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery scored 157 points but lost in Week 4.",
+      "season": "Season 1",
+      "week": 4,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "loser",
+          "name": "Avery"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Avery",
+          "score": 157.0
+        }
+      ],
+      "facts": [
+        {
+          "name": "opponent",
+          "value": "Not provided"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1900.88,
+          "end_seconds": 1911.279,
+          "details": "Avery says, “I scored 157 points this week and I lost.”"
+        }
+      ]
+    }
+  ]
+}

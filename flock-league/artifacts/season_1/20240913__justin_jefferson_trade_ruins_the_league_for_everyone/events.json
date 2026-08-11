@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "video_id": "RP0Ad-ITeos",
+  "video_title": "Justin Jefferson Trade RUINS The League For Everyone",
+  "season": "Season 1",
+  "week": null,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Justin Jefferson Trade RUINS The League For Everyone",
+      "upload_date": "20240913",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "trade",
+      "summary": "Avery acquired Aaron Jones, Justin Jefferson, Tank Bigsby, and Brock Bowers from Nathan; Nathan acquired Dallas Goedert, Tony Pollard, Michael Pittman, and Kyren Williams from Avery.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "receiving owner",
+          "name": "Avery"
+        },
+        {
+          "role": "sending owner",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Avery received",
+          "value": "Aaron Jones; Justin Jefferson; Tank Bigsby; Brock Bowers"
+        },
+        {
+          "name": "Nathan received",
+          "value": "Dallas Goedert; Tony Pollard; Michael Pittman; Kyren Williams"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 187.533,
+          "end_seconds": 196.033,
+          "details": "The trade graphic explicitly lists Aaron Jones, Justin Jefferson, Tank Bigsby, and Brock Bowers going to Avery, with Dallas Goedert, Tony Pollard, Michael Pittman, and Kyren Williams going to NathanSchmidt."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 479.28,
+          "end_seconds": 486.52,
+          "details": "A speaker says he “got it done” in reference to the Nathan trade."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Nathan said Puka Nacua’s injury hurt his fantasy roster.",
+      "season": "Season 1",
+      "week": null,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "affected owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "NFL player",
+          "name": "Puka Nacua"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Roster impact",
+          "value": "Nathan said the Puka Nacua injury hurt his team."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 60.84,
+          "end_seconds": 67.36,
+          "details": "Nathan says “the Puka injury hurt,” while the roster display shows P. Nacua on NathanSchmidt’s team."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "A commentator said Puka Nacua would miss at least four weeks and speculated that his return might not come until Week 8, Week 9, or later.",
+      "season": "Season 1",
+      "week": null,
+      "status": "speculative",
+      "confidence": 0.66,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Puka Nacua"
+        },
+        {
+          "role": "affected owner",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Reported absence",
+          "value": "At least four weeks, according to a commentator."
+        },
+        {
+          "name": "Return projection",
+          "value": "Week 8, Week 9, or later was framed as the speaker’s guess."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 388.44,
+          "end_seconds": 405.28,
+          "details": "The speaker says Puka will miss “at least four weeks” and explicitly labels the longer timetable as “my guess.”"
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Commentary alleged that Nathan made a substantial FAAB bid or expenditure on a player transcribed as Tyler Johnson, but the exact player, amount, and transaction outcome are unclear.",
+      "season": "Season 1",
+      "week": null,
+      "status": "unclear",
+      "confidence": 0.45,
+      "participants": [
+        {
+          "role": "owner discussed",
+          "name": "Nathan"
+        },
+        {
+          "role": "player name as transcribed",
+          "name": "Tyler Johnson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Claim 1",
+          "value": "A speaker said Nathan bid $32 on Tyler Johnson."
+        },
+        {
+          "name": "Claim 2",
+          "value": "A speaker later said Nathan spent 33% of his FAAB budget on Tyler Johnson."
+        },
+        {
+          "name": "Claim 3",
+          "value": "A later speaker alleged Nathan put $49 of FAAB into unspecified poor waiver additions."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 75.48,
+          "end_seconds": 83.36,
+          "details": "A speaker says, “Nathan bid $32 on Tyler Johnson.”"
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 258.16,
+          "end_seconds": 263.24,
+          "details": "A speaker says Nathan “blew 33%” of his FAAB budget on Tyler Johnson."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 945.16,
+          "end_seconds": 952.08,
+          "details": "A speaker alleges Nathan put $49 of FAAB into unspecified “useless crap.”"
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Avery’s displayed lineup included Amon-Ra St. Brown and Justin Jefferson after the trade.",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Avery"
+        },
+        {
+          "role": "NFL player",
+          "name": "Amon-Ra St. Brown"
+        },
+        {
+          "role": "NFL player",
+          "name": "Justin Jefferson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Displayed starters",
+          "value": "Amon-Ra St. Brown; Justin Jefferson"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 638.4,
+          "end_seconds": 650.5,
+          "details": "Avery’s lineup screen includes A. St. Brown and J. Jefferson as starters."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Avery changed his team name to “the betting favorite.”",
+      "season": "Season 1",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Avery"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "New team name",
+          "value": "the betting favorite"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 628.214,
+          "end_seconds": 638.4,
+          "details": "A league notification reads: “averyhuffman has updated their team name. the betting favorite.”"
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 622.44,
+          "end_seconds": 628.84,
+          "details": "Avery says the team name will be changed to “the betting favorite.”"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1446 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T20:33:44.010013+00:00",
+  "fingerprint": "0558567500533ed05382eadbf393818a70ed46e5b6045693bdb5d3ec0492aa53",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "gD_Zr6Z6_ME",
+  "video_title": "Massive Upsets Change The Standings",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Massive Upsets Change The Standings",
+      "upload_date": "20241126",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 12 is underway after Thursday Night Football; only live/provisional fantasy scores are shown. Bush’s roster was affected by Cedric Tillman leaving with a concussion.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Bush’s Week 12 fantasy team is shown as “Sorry Corey,” following his stated decision to rename it back to that name.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Bush",
+              "Sorry Corey"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Bush"
+              },
+              {
+                "name": "team_name",
+                "value": "Sorry Corey"
+              },
+              {
+                "name": "week",
+                "value": "12"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 142.0,
+                "end_seconds": 169.0,
+                "details": "The matchup display identifies Bush’s side as “Sorry Corey,” while Bush says he changed his team name back to “Sorry Corey.”"
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Cedric Tillman, on Bush’s active Week 12 roster, left Thursday’s Browns-Steelers game with a concussion. He finished with 2.8 fantasy points after two receptions for 28 yards and a lost fumble.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Bush",
+              "Cedric Tillman",
+              "C. Tillman"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Bush"
+              },
+              {
+                "name": "player",
+                "value": "Cedric Tillman"
+              },
+              {
+                "name": "injury",
+                "value": "concussion"
+              },
+              {
+                "name": "fantasy_points",
+                "value": "2.8"
+              },
+              {
+                "name": "stat_line",
+                "value": "2 receptions on 4 targets, 28 receiving yards, 1 fumble lost"
+              },
+              {
+                "name": "week",
+                "value": "12"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 113.52,
+                "end_seconds": 127.0,
+                "details": "Narration says Tillman had a concussion and left early after fumbling; the matchup screen lists C. Tillman with 2.80 points and “2/4 REC, 28 YD, 1 FUM LOST” on Bush’s side."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "The live Week 12 matchup between Sal and Bush was shown at 6.50–7.00 after Thursday night, with players still remaining; it was not complete.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Sal",
+              "Bush",
+              "Covid Cuts",
+              "Sorry Corey"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "12"
+              },
+              {
+                "name": "team_name_1",
+                "value": "Covid Cuts"
+              },
+              {
+                "name": "team_1_live_score",
+                "value": "6.50"
+              },
+              {
+                "name": "team_name_2",
+                "value": "Sorry Corey"
+              },
+              {
+                "name": "team_2_live_score",
+                "value": "7.00"
+              },
+              {
+                "name": "matchup_status",
+                "value": "in progress; players yet to play"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 96.9,
+                "end_seconds": 112.0,
+                "details": "The Week 12 matchup display shows “Covid Cuts” versus “Sorry Corey,” 6.50 versus 7.00, and indicates players are yet to play."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Thomas led Mason 15.40–7.40 in their live Week 12 matchup after Jaylen Warren outscored Najee Harris on Thursday night; the matchup remained in progress.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Thomas",
+              "Mason",
+              "Team ThomasWaddle",
+              "Fight For Freedom",
+              "Jaylen Warren",
+              "Najee Harris"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "12"
+              },
+              {
+                "name": "team_owner_1",
+                "value": "Mason"
+              },
+              {
+                "name": "team_owner_2",
+                "value": "Thomas"
+              },
+              {
+                "name": "Mason_live_score",
+                "value": "7.40"
+              },
+              {
+                "name": "Thomas_live_score",
+                "value": "15.40"
+              },
+              {
+                "name": "Najee_Harris_fantasy_points",
+                "value": "7.40"
+              },
+              {
+                "name": "Jaylen_Warren_fantasy_points",
+                "value": "15.40"
+              },
+              {
+                "name": "matchup_status",
+                "value": "in progress"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 80.0,
+                "end_seconds": 87.0,
+                "details": "Narration states that Thomas’s Jaylen Warren outscored Najee Harris on Thursday night; the matchup display identifies Mason’s “Fight For Freedom” versus Thomas’s “Team ThomasWaddle” at 7.40–15.40."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied transcript’s first-person description of the Sal-Bush score appears inconsistent with the on-screen 6.50–7.00 display; the visual was used for the live-score observation.",
+          "Isaiah Pacheco is said to be ruled out, but the referenced beneficiary/manager is not reliably intelligible or identifiable in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Sunday matchup check-ins: one manager says DeVonta Smith is unavailable against Bush, and another matchup versus Thomas is shown in progress. No matchup is completed in this window.",
+        "observations": [
+          {
+            "category": "injury",
+            "summary": "DeVonta Smith was unavailable for an unnamed manager’s matchup against Bush; the speaker says he had to start Jaylen Waddle instead.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "DeVonta Smith",
+              "Jaylen Waddle",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "Affected fantasy matchup",
+                "value": "Unnamed speaker vs. Bush"
+              },
+              {
+                "name": "Lineup impact",
+                "value": "Speaker says Waddle replaced unavailable DeVonta Smith"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 219.08,
+                "end_seconds": 227.6,
+                "details": "Speaker says, “your boy has no DeVonta Smith” and “I get the luxury of playing Jaylen freaking Waddle now,” while discussing Bush’s lineup."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "A matchup involving Thomas was still underway Sunday; the opposing speaker says their Sunday was “not going well” because they had to face Thomas.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "Matchup status",
+                "value": "In progress during Sunday games"
+              },
+              {
+                "name": "Opponent",
+                "value": "Thomas"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 244.0,
+                "end_seconds": 259.68,
+                "details": "Speaker says the Sunday was not going well and that he “had to go up against Thomas.”"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 244.5,
+                "end_seconds": 250.0,
+                "details": "Fantasy matchup screen is visible while the speaker discusses facing Thomas; it shows a live/in-progress lineup view, but the small score text is not reliable enough to transcribe."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identities of the speakers/managers in the Bush and Thomas matchup updates are not explicitly established in this window.",
+          "The Thomas matchup’s final result and reliable final score are not shown."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Late-Week 12 matchup discussion and waiver recap: Mason added Dalton Kincaid for $21; Bush was described as falling to 5-7 and outside the playoff field; Avery's team posted 143 points despite a 4-point Justin Jefferson game.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Mason (shown as MasonDodd) claimed Bills TE Dalton Kincaid off waivers for $21.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Mason",
+              "MasonDodd",
+              "Dalton Kincaid"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Dalton Kincaid"
+              },
+              {
+                "name": "position/team",
+                "value": "TE, BUF"
+              },
+              {
+                "name": "acquiring owner",
+                "value": "Mason (MasonDodd)"
+              },
+              {
+                "name": "waiver cost",
+                "value": "$21"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 491.44,
+                "end_seconds": 499.4,
+                "details": "Narration says Mason bid $21 on Dalton Kincaid; the on-screen waiver notification reads 'A player was claimed off waivers,' 'MasonDodd's Roster,' 'Dalton Kincaid TE - BUF,' and '$21.'"
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Danny said he acquired Will Dissly for free the prior week, then challenged whether Kincaid would outscore Dissly for the rest of the season. The rest-of-season comparison is only a prediction.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Danny",
+              "Will Dissly",
+              "Dalton Kincaid"
+            ],
+            "facts": [
+              {
+                "name": "player acquired",
+                "value": "Will Dissly"
+              },
+              {
+                "name": "acquiring owner",
+                "value": "Danny"
+              },
+              {
+                "name": "cost",
+                "value": "free"
+              },
+              {
+                "name": "timing",
+                "value": "last week"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 521.04,
+                "end_seconds": 526.88,
+                "details": "Danny says, 'I got Will Dissly for free last week'; the on-screen league-chat message displays the same statement and his proposed Dissly-versus-Kincaid comparison."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Bush said his team would fall to 5-7, one game out of this league's fantasy postseason, after Courtland Sutton's second touchdown on Sunday night. This is presented during live Sunday-night action rather than as a finalized post-week result.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Bush",
+              "Courtland Sutton",
+              "Bo Nix"
+            ],
+            "facts": [
+              {
+                "name": "record if result holds",
+                "value": "5-7"
+              },
+              {
+                "name": "playoff position if result holds",
+                "value": "one game out of postseason"
+              },
+              {
+                "name": "NFL context",
+                "value": "Bo Nix threw two touchdowns to Courtland Sutton; Sutton's second was said to hurt Bush's fantasy season"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 381.0,
+                "end_seconds": 402.32,
+                "details": "Speaker says Sunday Night Football is ongoing, says Sutton's second touchdown 'buries Bush's fantasy season,' and states, 'we'll be moving to five-seven,' one game out of the postseason."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Avery's team was said to have scored 143 points despite Justin Jefferson scoring four points; the speaker describes the team as having 'overcome' Jayden Daniels, but the opponent and final matchup result are not clear in this window.",
+            "status": "reported",
+            "confidence": 0.79,
+            "raw_names": [
+              "Avery",
+              "Justin Jefferson",
+              "Jayden Daniels"
+            ],
+            "facts": [
+              {
+                "name": "Avery team points",
+                "value": "143"
+              },
+              {
+                "name": "Justin Jefferson points",
+                "value": "4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 462.96,
+                "end_seconds": 481.04,
+                "details": "The discussion turns to Avery; speaker says the team scored 143 points 'with just Jefferson at four points' and references overcoming Jayden Daniels. The displayed matchup board is too small to reliably identify all teams and final scores."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Bush's exact opponent, final Week 12 score, and whether the stated 5-7 record was finalized are not established in this window.",
+          "The matchup board shown around 00:07:28 contains additional results, but the small text is insufficient here to reliably map every team name to an owner and score.",
+          "The exact wording/name immediately before 'Jayden Daniels' in the Avery discussion is unclear."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week matchup recap shows Nathan, Thomas, Avery, and Sal winning their displayed head-to-heads; Nathan also describes adding Green Bay D/ST before Brock Purdy was ruled out.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Nathan defeated Mason, 143.60–129.88.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Nathan",
+              "Mason",
+              "The Chosen One",
+              "Mason's Granddaddy"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Nathan"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "score",
+                "value": "143.60–129.88"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 618.333,
+                "end_seconds": 627.315,
+                "details": "League matchup board displays @NathanSchmidt's The Chosen One at 143.60 over Mason's Granddaddy at 129.88."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 619.32,
+                "end_seconds": 623.04,
+                "details": "Narration says Mason was beaten by his video editor."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Nathan says he acquired the Green Bay Packers D/ST before news that Brock Purdy was officially out for the week.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Nathan",
+              "Green Bay Packers defense",
+              "Brock Purdy"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "move",
+                "value": "Added/acquired Green Bay Packers D/ST"
+              },
+              {
+                "name": "context",
+                "value": "Before Brock Purdy was officially ruled out for the week"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 607.959,
+                "end_seconds": 619.32,
+                "details": "The speaker says Green Bay's defense was his best D/ST move and that he got them before the Purdy-out news; the accompanying matchup screen identifies the roster as @NathanSchmidt's."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 589.375,
+                "end_seconds": 600.0,
+                "details": "Nathan's matchup/roster is displayed under @NathanSchmidt / The Chosen One."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "A player transcribed as “Josh JS” reportedly left Nathan's lineup game with an injury; the player identity is unclear.",
+            "status": "reported",
+            "confidence": 0.58,
+            "raw_names": [
+              "Josh JS",
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "player_identity",
+                "value": "Unclear; transcript renders the name as “Josh JS”"
+              },
+              {
+                "name": "update",
+                "value": "Left with an injury"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 596.96,
+                "end_seconds": 598.72,
+                "details": "Speaker says, “Josh JS leaves with an injury,” while discussing his roster."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 589.375,
+                "end_seconds": 600.0,
+                "details": "The on-screen matchup identifies the speaker's roster as @NathanSchmidt's, but the relevant player text is not sufficiently clear to resolve the name."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Thomas defeated Mason; the recap states the score as 141–126, while the board visibly shows Mason at 126.52 and Thomas's exact decimal is unclear.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Thomas",
+              "Mason",
+              "Figure For Freedom",
+              "Team ThomasWaddle"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Thomas"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "score",
+                "value": "Thomas 141–Mason 126.52 (exact Thomas decimal unclear)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 644.04,
+                "end_seconds": 656.0,
+                "details": "Speakers state that Thomas is beating Mason “141 126” and describe it as Mason being beaten."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 650.567,
+                "end_seconds": 667.315,
+                "details": "League board shows @MasonDodd's Figure For Freedom at 126.52 versus @ThomasWaddle's Team ThomasWaddle, with Thomas's side winning; Thomas's decimal score is not legible enough to transcribe precisely."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Avery defeated Austin, 142.90–84.96.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Avery",
+              "Austin",
+              "Atlanta 49ers"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Avery"
+              },
+              {
+                "name": "loser",
+                "value": "Austin"
+              },
+              {
+                "name": "score",
+                "value": "142.90–84.96"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 650.567,
+                "end_seconds": 667.315,
+                "details": "League board displays @averyhuffman at 142.90 over @Austin's Atlanta 49ers at 84.96."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Sal defeated Bush, 167.82–134.46.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Sal",
+              "Bush",
+              "Covid Cuts",
+              "Sorry Corey"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Sal"
+              },
+              {
+                "name": "loser",
+                "value": "Bush"
+              },
+              {
+                "name": "score",
+                "value": "167.82–134.46"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 650.567,
+                "end_seconds": 667.315,
+                "details": "League board displays @BushFLB... / Covid Cuts at 134.46 versus @SalVenti / Sorry Corey at 167.82."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The injured player rendered in the transcript as “Josh JS” cannot be reliably identified from this window; the roster screen may suggest a Josh-named player, but its text is too blurry to confirm.",
+          "Thomas's exact decimal score against Mason is not legible on the matchup board; only the recap's rounded 141–126 and Mason's visible 126.52 are supported."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 12 matchup: Joe upset Badake, reversing their recent trajectories in the standings.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Joe defeated Badake in Week 12, 166.28–115.02.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Joe",
+              "Badake",
+              "GreenMeansMoney",
+              "Playoff Bound"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "12"
+              },
+              {
+                "name": "winner",
+                "value": "Joe"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "winner_score",
+                "value": "166.28"
+              },
+              {
+                "name": "loser_score",
+                "value": "115.02"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 852.8,
+                "end_seconds": 862.28,
+                "details": "Transcript says Badake fell to 5-7 while Joe moved to 6-6; the on-screen Week 12 matchup display identifies Badake's team as \"Playoff Bound\" (115.02) and Joe's as \"Actually playoff bound\" / @GreenMeansMoney (166.28)."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Following the matchup, Badake was 5-7 and Joe was 6-6.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Badake",
+              "Joe",
+              "GreenMeansMoney"
+            ],
+            "facts": [
+              {
+                "name": "Badake_record",
+                "value": "5-7"
+              },
+              {
+                "name": "Joe_record",
+                "value": "6-6"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 757.079,
+                "end_seconds": 759.519,
+                "details": "The transcript explicitly states that Badake fell to 5-7 and Joe moved up to 6-6; these records also appear beneath their teams on the Week 12 matchup display."
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 12 recap shows three completed matchup scores, including Badake’s 115.02–166.28 loss to the team labeled @GreenMeansMoney; narration attributes another win and an Amir Abdullah acquisition to Joe, but the screen does not explicitly link Joe to that handle.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery defeated Austin, 142.90–84.86.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Avery",
+              "Austin",
+              "@averyhuffman",
+              "@AustinHood"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Avery (@averyhuffman)"
+              },
+              {
+                "name": "loser",
+                "value": "Austin (@AustinHood)"
+              },
+              {
+                "name": "score",
+                "value": "142.90–84.86"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 905.814,
+                "end_seconds": 905.814,
+                "details": "League matchup screen displays @averyhuffman 142.90 versus @AustinHood 84.86, with the win indicator on Avery's side."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Sal defeated Bush, 157.82–134.46.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Sal",
+              "Bush",
+              "@BuschLeague",
+              "@SalVetri",
+              "Covid Cuts",
+              "Sorry Corey"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Sal (@SalVetri; team shown as Sorry Corey)"
+              },
+              {
+                "name": "loser",
+                "value": "Bush (@BuschLeague; team shown as Covid Cuts)"
+              },
+              {
+                "name": "score",
+                "value": "157.82–134.46"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 905.814,
+                "end_seconds": 905.814,
+                "details": "League matchup screen displays Covid Cuts/@BuschLeague at 134.46 versus Sorry Corey/@SalVetri at 157.82, with the win indicator on Sal's side."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Badake lost 115.02–166.28 to the team labeled @GreenMeansMoney in Week 12. The narration separately says Joe got another win, but the owner-handle connection is not explicit on screen.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Badake",
+              "@Badake",
+              "@GreenMeansMoney",
+              "Joe",
+              "Playoff Bound",
+              "Actually playoff bound"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "12"
+              },
+              {
+                "name": "winner",
+                "value": "@GreenMeansMoney (team shown as Actually playoff bound)"
+              },
+              {
+                "name": "loser",
+                "value": "Badake (@Badake; team shown as Playoff Bound)"
+              },
+              {
+                "name": "score",
+                "value": "166.28–115.02"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 942.433,
+                "end_seconds": 942.433,
+                "details": "Week 12 matchup screen shows @Badake/Playoff Bound at 115.02 versus @GreenMeansMoney/Actually playoff bound at 166.28."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 943.319,
+                "end_seconds": 969.36,
+                "details": "Narration says Badake scored 115 and asks how Joe got another win, adding that Joe's lineup scored nearly 165."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Narration reports that Joe acquired Amir Abdullah via trade; the other side and timing of the trade are not provided.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Joe",
+              "Amir Abdullah",
+              "A. Abdullah"
+            ],
+            "facts": [
+              {
+                "name": "acquiring_owner",
+                "value": "Joe"
+              },
+              {
+                "name": "player_acquired",
+                "value": "Amir Abdullah"
+              },
+              {
+                "name": "transaction_type",
+                "value": "Trade"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 993.36,
+                "end_seconds": 1000.8,
+                "details": "Speaker says Joe 'goes out and trades for Amir Abdullah.'"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1022.767,
+                "end_seconds": 1022.767,
+                "details": "Week 12 lineup display shows A. Abdullah on the @GreenMeansMoney side, scoring 17.50."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not explicitly show that @GreenMeansMoney is Joe’s team, though narration describes Joe as getting the win shown in the adjacent recap.",
+          "Amir Abdullah’s trade partner and exact transaction date are not shown."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A matchup result involving Zach and Danny is discussed; an unidentified speaker also says they and “madaki” are both 5–7.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "An unidentified speaker says they and “madaki” have identical 5–7 records.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "madaki"
+            ],
+            "facts": [
+              {
+                "name": "speaker_record",
+                "value": "5-7"
+              },
+              {
+                "name": "madaki_record",
+                "value": "5-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1109.52,
+                "end_seconds": 1113.68,
+                "details": "Speaker: “me and madaki have the same record at 5 and seven.”"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Zach defeated Danny; commentary states the loss drops Danny to 6–6.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Zach"
+              },
+              {
+                "name": "loser",
+                "value": "Danny"
+              },
+              {
+                "name": "Danny_record_after_result",
+                "value": "6-6"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1168.08,
+                "end_seconds": 1172.0,
+                "details": "Host states, “you have Zach taking down Danny” and “Danny gets smoked from Zach.”"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1185.92,
+                "end_seconds": 1189.6,
+                "details": "Commentary explicitly says, “Zach does beat Danny... Danny lad's going to drop to six and six.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "“madaki” is likely a transcription/identity ambiguity; the speaker is not identified in this window, so their owner name cannot be reliably assigned.",
+          "The on-screen fantasy app shows a matchup and scores around 00:19:39–00:20:40, but team-owner mapping and exact score readability are insufficient to attribute a final score to Zach versus Danny."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "League standings and Week 12 matchup results are shown; discussion confirms Bush is last at 4-8 and notes a crowded race for the final playoff berth.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Zach is in first place at 9-3.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Zach",
+              "Do It For Chris"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "9-3"
+              },
+              {
+                "name": "standing",
+                "value": "1st"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1339.4,
+                "end_seconds": 1360.867,
+                "details": "League standings display shows 'Do It For Chris' associated with Zach at No. 1, 9-3."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Avery, Austin, and Mason are tied at 7-5 in second through fourth place, respectively.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Avery",
+              "averyhuffman",
+              "Austin",
+              "AustinHood",
+              "Mason",
+              "MasonDodd",
+              "Atlanta 49ers",
+              "Fight For Freedom"
+            ],
+            "facts": [
+              {
+                "name": "Avery record",
+                "value": "7-5 (2nd)"
+              },
+              {
+                "name": "Austin record",
+                "value": "7-5 (3rd)"
+              },
+              {
+                "name": "Mason record",
+                "value": "7-5 (4th)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1339.4,
+                "end_seconds": 1360.867,
+                "details": "Standings list shows averyhuffman second, Atlanta 49ers/AustinHood third, and Fight For Freedom/MasonDodd fourth, all 7-5."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Thomas is fifth at 6-6.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Thomas",
+              "ThomasWaddle"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "6-6"
+              },
+              {
+                "name": "standing",
+                "value": "5th"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1339.4,
+                "end_seconds": 1360.867,
+                "details": "Standings display lists ThomasWaddle in fifth place at 6-6."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Bush is reported to be 4-8, the league's worst record.",
+            "status": "reported",
+            "confidence": 0.83,
+            "raw_names": [
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "4-8"
+              },
+              {
+                "name": "standing context",
+                "value": "worst record in league, per speaker"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1364.679,
+                "end_seconds": 1375.2,
+                "details": "Speaker says Bush is '4 and 8' and has 'the worst record of anybody in the league.'"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Fight For Freedom lost to Team ThomasWaddle, 126.12-161.34.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Fight For Freedom",
+              "Team ThomasWaddle"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Team ThomasWaddle"
+              },
+              {
+                "name": "loser",
+                "value": "Fight For Freedom"
+              },
+              {
+                "name": "score",
+                "value": "161.34-126.12"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1435.233,
+                "end_seconds": 1440.0,
+                "details": "Matchup board shows Fight For Freedom at 126.12 versus Team ThomasWaddle at 161.34."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Do It For Chris defeated Hit with the Nico, 131.94-110.36.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Do It For Chris",
+              "Hit with the Nico"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Do It For Chris"
+              },
+              {
+                "name": "loser",
+                "value": "Hit with the Nico"
+              },
+              {
+                "name": "score",
+                "value": "131.94-110.36"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1435.233,
+                "end_seconds": 1440.0,
+                "details": "Matchup board shows Hit with the Nico at 110.36 versus Do It For Chris at 131.94."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "One manager says his roster was without Breece Hall and Chase Brown because of bye weeks; this is not presented as an injury update.",
+            "status": "reported",
+            "confidence": 0.77,
+            "raw_names": [
+              "Breece Hall",
+              "Chase Brown",
+              "Kyle Pitts",
+              "Trey Benson",
+              "Xavier Worthy"
+            ],
+            "facts": [
+              {
+                "name": "roster context",
+                "value": "Breece Hall and Chase Brown unavailable during the week, described alongside bye weeks"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1272.84,
+                "end_seconds": 1303.559,
+                "details": "Speaker says they were without Hall and Brown and had 'a couple bye weeks'; roster screen shows Hall and Brown on the bench."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The owner identity of the manager discussing Hall, Brown, Pitts, Benson, and Worthy is not established in this window.",
+          "The visible matchup board contains additional matchups, but several team names and/or scores are too blurry to record confidently."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1534.0,
+      "transient_image_count": 7,
+      "review": {
+        "window_summary": "The episode recaps a tightly packed Flock League standings table with two weeks remaining in the regular season.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Zach leads the league at 9-3; Avery is tied for second at 7-5; Tom is 5-7 and one game outside the playoffs, according to the recap.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Zach",
+              "Avery",
+              "Tom",
+              "StevenSwagal",
+              "Do It For Chris"
+            ],
+            "facts": [
+              {
+                "name": "Zach record",
+                "value": "9-3 (1st place)"
+              },
+              {
+                "name": "Avery record",
+                "value": "7-5 (tied for 2nd)"
+              },
+              {
+                "name": "Tom record",
+                "value": "5-7 (shown as the team name StevenSwagal/Mason's Granddaddy)"
+              },
+              {
+                "name": "Tom playoff position",
+                "value": "One game out of the playoffs"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1472.399,
+                "end_seconds": 1504.76,
+                "details": "Speaker states Zach is 9-3 and likely to get the one seed, Avery is second at 7-5, and Tom/StevenSwagal is 5-7 and one game out of the playoffs."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1503.374,
+                "end_seconds": 1530.0,
+                "details": "On-screen standings show Do It For Chris at 9-3, a 7-5 second-place entry associated with Avery, and Mason's Granddaddy/StevenSwagal at 5-7."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The displayed standings show three teams tied at 7-5 behind the 9-3 leader, three teams at 6-6, four at 5-7, and the last-place team at 4-8.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Do It For Chris",
+              "averyuffman",
+              "Atlanta 49ers",
+              "Flight For Freedom",
+              "ThomasWodde",
+              "Hit with the Nico",
+              "Actually playoff bound",
+              "Playoff Bound",
+              "The Chosen One",
+              "Sorry Corey",
+              "Mason's Granddaddy",
+              "Covid Cuts"
+            ],
+            "facts": [
+              {
+                "name": "1st place",
+                "value": "Do It For Chris — 9-3"
+              },
+              {
+                "name": "2nd-4th place",
+                "value": "averyuffman, Atlanta 49ers, and Flight For Freedom — 7-5"
+              },
+              {
+                "name": "5th-7th place",
+                "value": "ThomasWodde, Hit with the Nico, and Actually playoff bound — 6-6"
+              },
+              {
+                "name": "8th-11th place",
+                "value": "Playoff Bound, The Chosen One, Sorry Corey, and Mason's Granddaddy — 5-7"
+              },
+              {
+                "name": "12th place",
+                "value": "Covid Cuts — 4-8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1503.374,
+                "end_seconds": 1530.0,
+                "details": "The full on-screen league standings list ranks 1-12 and records. Some display names/usernames are partially blurred, so they are preserved as shown."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "With two games remaining, the speaker reports that no playoff berth is secured outside of the top four being 'pretty much solid'; the remaining playoff race is described as very close.",
+            "status": "reported",
+            "confidence": 0.81,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "Games remaining",
+                "value": "2"
+              },
+              {
+                "name": "Playoff-race assessment",
+                "value": "Top four are 'pretty much solid,' but no team has officially secured a playoff spot according to the speaker"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1504.76,
+                "end_seconds": 1510.64,
+                "details": "Speaker says the top four teams are pretty much solid, but nobody has secured a playoff spot with two games remaining and everybody is still live."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The visual identifies the 4-8 last-place team as Covid Cuts/BushLeague, while the transcript calls 'Cory' 4-8; the owner identity for that entry is not clear from this window.",
+          "Several on-screen usernames beside team names are blurred or truncated, so exact owner-to-team mappings beyond Zach, Avery, and Tom should be reviewed."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "Sal-Bush has conflicting reviewed final-score readings: Sal is shown at both 167.82 and 157.82, while Bush is 134.46 in both readings.",
+    "Avery-Austin has conflicting reviewed Austin totals: 84.96 versus 84.86.",
+    "The Week 12 Mason result is internally inconsistent across reviewed material: a later board shows Thomas over Mason 161.34-126.12, while earlier material describes both a Nathan-over-Mason result and Thomas winning near 141-126.52.",
+    "The transcript renders one injured player on Nathan's roster as \"Josh JS\"; the player cannot be reliably identified.",
+    "Joe's Amir Abdullah trade partner and exact transaction date are not shown.",
+    "The manager who said DeVonta Smith was unavailable and Jaylen Waddle had to start against Bush is not reliably identified."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Use owner names rather than changing team names where owner identity is reliable.",
+      "status": "fulfilled",
+      "details": "The recap and structured events use known owners. Ambiguous team-handle mappings were not converted into unsupported owner identities."
+    },
+    {
+      "instruction": "Track matchup winners and scores where available, while preserving uncertainty.",
+      "status": "fulfilled",
+      "details": "Confirmed Week 12 results were recorded. Conflicting score readings and the conflicting Mason matchup material are retained as open questions rather than forced into a single unsupported result."
+    },
+    {
+      "instruction": "Record injuries, trades, waivers, and roster moves.",
+      "status": "fulfilled",
+      "details": "Tillman's concussion, Kincaid and Dissly acquisitions, Abdullah trade report, and Nathan's Green Bay D/ST addition were included; the unidentified \"Josh JS\" injury remains unresolved."
+    },
+    {
+      "instruction": "Keep the recap concise and distinguish league events from NFL context.",
+      "status": "fulfilled",
+      "details": "NFL player details are included only where they affected a fantasy roster, lineup, transaction, or matchup."
+    },
+    {
+      "instruction": "Report items requiring review.",
+      "status": "fulfilled",
+      "details": "Score discrepancies, the Mason matchup conflict, owner-identity ambiguity, and incomplete transaction details are listed in open_questions."
+    }
+  ],
+  "supplemental_outputs": []
+}

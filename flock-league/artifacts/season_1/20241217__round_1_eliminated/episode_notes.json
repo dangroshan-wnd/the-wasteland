@@ -1,0 +1,1109 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T20:53:24.972267+00:00",
+  "fingerprint": "ffe689dbbb62ba0ea24a14db2d1fcfc075706495e19c58c9b1320c090899977f",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "BQ7x15-Pj9s",
+  "video_title": "Round 1 Eliminated...",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Round 1 Eliminated...",
+      "upload_date": "20241217",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Early playoff-week update: Mason is on a bye; the winner-side matchups involving Joe/Avery and Nathan/Sal are still in progress after Thursday night.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason has a playoff bye this week.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "playoff status",
+                "value": "Bye week"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 21.68,
+                "end_seconds": 24.88,
+                "details": "A speaker says that when on a bye week, this is what one gets to do instead of watching a sport that breaks their heart; Mason is identified on screen shortly afterward."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 34.733,
+                "end_seconds": 34.733,
+                "details": "On-screen label identifies the speaker as MASON."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Joe and Avery are playing a winner-side-bracket matchup. As of Friday night, neither had a player in Thursday night's game, so the matchup had not yet begun scoring.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Joe",
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "bracket side",
+                "value": "Winner side"
+              },
+              {
+                "name": "matchup status",
+                "value": "In progress; no Thursday-night players for either side"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 50.719,
+                "end_seconds": 56.6,
+                "details": "The speaker says there are two matchups on the winner side and identifies Joe and Avery as playing each other."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 57.28,
+                "end_seconds": 64.32,
+                "details": "The speaker says this was recorded Friday night and that nothing happened in Joe and Avery's game because neither had players playing Thursday night."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Nathan led Sal 33–5 after Thursday night in their playoff matchup; the outcome remained undecided.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Nathan",
+              "Sal",
+              "Puka Nacua",
+              "Kyren Williams",
+              "Jauan Jennings"
+            ],
+            "facts": [
+              {
+                "name": "live score",
+                "value": "Nathan 33 – Sal 5 (as stated after Thursday night)"
+              },
+              {
+                "name": "Nathan players mentioned",
+                "value": "Puka Nacua: 17 points; Kyren Williams: 13 points"
+              },
+              {
+                "name": "Sal player mentioned",
+                "value": "Jauan Jennings: 5 points"
+              },
+              {
+                "name": "matchup status",
+                "value": "In progress"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 20.84,
+                "end_seconds": 37.88,
+                "details": "The speaker says that in the matchup with Nathan, Jauan Jennings scored five points while Puka Nacua scored 17 and Kyren Williams scored 13."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 57.2,
+                "end_seconds": 64.32,
+                "details": "The speaker states, “now I’m down 33 to 5,” and says the matchup will be tough, indicating it is still underway."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 90.0,
+                "end_seconds": 90.0,
+                "details": "The fantasy matchup screen is labeled NATHAN and shows Nathan's roster including Kyren Williams and Puka Nacua versus Sal's roster including J. Jennings."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Mason said his Week 16 opponent would be either Austin or Thomas, pending their matchup; this is a future bracket possibility, not a settled opponent.",
+            "status": "speculative",
+            "confidence": 0.89,
+            "raw_names": [
+              "Mason",
+              "Austin",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "potential Week 16 opponent",
+                "value": "Austin or Thomas"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 36.6,
+                "end_seconds": 42.0,
+                "details": "Mason says, “my Week 16 opponent, it’s going to come down to Austin or Thomas.”}]}],"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 36.6,
+                "end_seconds": 42.0,
+                "details": "Mason says, “my Week 16 opponent, it’s going to come down to Austin or Thomas.”}]}],"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 36.6,
+                "end_seconds": 42.0,
+                "details": "Mason says, “my Week 16 opponent, it’s going to come down to Austin or Thomas.”}]}],"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied transcript contains rapid speaker edits around the Nathan–Sal discussion. The visual confirms the matchup pairing and player rosters, but a later window should confirm the final score and winner.",
+          "The exact displayed decimal score in Nathan versus Sal is difficult to read from the supplied frame; the narration supports the rounded 33–5 score."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Bush/“Corey (Busch)” discusses his still-unresolved fantasy matchup with Nathan entering/after Monday night, including lineup scoring swings and Sal benching Brian Thomas Jr.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Bush reported leading Nathan by 40 points before Nathan’s Monday-night players Josh Jacobs and T.J. Hockenson played; the matchup was not confirmed finished within this window.",
+            "status": "unclear",
+            "confidence": 0.82,
+            "raw_names": [
+              "Bush",
+              "Corey (Busch)",
+              "Nathan",
+              "Josh Jacobs",
+              "T.J. Hockenson"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Bush vs. Nathan"
+              },
+              {
+                "name": "pre-Monday-night margin",
+                "value": "Bush led by 40 points"
+              },
+              {
+                "name": "Nathan players remaining",
+                "value": "Josh Jacobs and T.J. Hockenson"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 270.16,
+                "end_seconds": 284.48,
+                "details": "The speaker says Nathan had Jacobs and Hockenson remaining on Monday night and that he had a 40-point lead; on-screen identification labels a prior clip as “COREY (BUSCH)” at 233.433."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Bush said he had Bo Nix and Courtland Sutton in his lineup; their 20-yard touchdown connection added 15 fantasy points and changed his lead from 25 to 40 points before Sunday night.",
+            "status": "reported",
+            "confidence": 0.87,
+            "raw_names": [
+              "Bush",
+              "Bo Nix",
+              "Courtland Sutton"
+            ],
+            "facts": [
+              {
+                "name": "players started",
+                "value": "Bo Nix; Courtland Sutton"
+              },
+              {
+                "name": "fantasy-points from touchdown",
+                "value": "15"
+              },
+              {
+                "name": "lead change",
+                "value": "25 points to 40 points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 297.36,
+                "end_seconds": 274.16,
+                "details": "Bush says his team had been “Bo and Sutton,” then says their touchdown was worth 15 fantasy points and increased his lead from 25 to 40. Timestamp range is spoken in reverse chronological order in the transcript context; the relevant continuous segment is 297.36–274.16? Review needed for precise ordering."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Sal reportedly benched Brian Thomas Jr., who scored 32 fantasy points.",
+            "status": "reported",
+            "confidence": 0.91,
+            "raw_names": [
+              "Sal",
+              "Brian Thomas Jr."
+            ],
+            "facts": [
+              {
+                "name": "roster decision",
+                "value": "Brian Thomas Jr. left on bench"
+              },
+              {
+                "name": "points",
+                "value": "32"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 284.48,
+                "end_seconds": 290.0,
+                "details": "Speaker thanks Sal for not starting Brian Thomas Jr., saying he was left on the bench and scored 32 points."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Josh Jacobs reportedly finished with roughly 20–21 fantasy points after scoring 13 on the first drive; this was discussed as part of Nathan’s Monday-night comeback attempt.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Josh Jacobs",
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "Josh Jacobs reported final points",
+                "value": "approximately 20–21"
+              },
+              {
+                "name": "Josh Jacobs first-drive points",
+                "value": "13"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 291.28,
+                "end_seconds": 299.96,
+                "details": "Speaker says on Monday morning that Jacobs had 13 points on the first drive and finished with “like 20 or 21 points overall.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The matchup’s final winner and final score are not stated in this window; T.J. Hockenson’s final output is also not provided.",
+          "The Bush identification is supported by the on-screen “COREY (BUSCH)” label, but the narration itself only refers to “me.”",
+          "One evidence timestamp for the Bo Nix/Courtland Sutton sequence needs correction because the supplied transcript ordering spans 00:04:57–00:05:14, not the reversed range shown above."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A Monday-night fantasy matchup was decided after T.J. Hockenson fell short of the points needed to overtake an unidentified opponent; Avery defeated Joe, ending Joe's postseason run. A prior Justin Jefferson-for-Kyren Williams trade is mentioned without clear owner attribution.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified speaker says he won his matchup after T.J. Hockenson failed to score enough points on Monday night. He had needed 11 more points from Hockenson to overtake an opponent referred to only as “S.”",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "T.J. Hockenson",
+              "S"
+            ],
+            "facts": [
+              {
+                "name": "result",
+                "value": "Speaker won; opponent is referred to as “S”"
+              },
+              {
+                "name": "deciding player",
+                "value": "T.J. Hockenson"
+              },
+              {
+                "name": "needed_points_at_halftime",
+                "value": "11 more points to take the lead"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 411.4,
+                "end_seconds": 415.96,
+                "details": "Speaker says Hockenson has 6.5 points and that he needs 11 more to take over “S” and win."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 446.44,
+                "end_seconds": 449.92,
+                "details": "After the clock hits zero, speaker says “the bug spray has worked for the second straight week,” indicating the matchup win."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Avery beat Joe, ending Joe's run in the fantasy postseason.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Avery",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Avery"
+              },
+              {
+                "name": "loser",
+                "value": "Joe"
+              },
+              {
+                "name": "competition_stage",
+                "value": "fantasy postseason"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 469.2,
+                "end_seconds": 488.8,
+                "details": "The narration references the possibility of Joe beating Avery, then states that “Joe's run had to come to an end”; it later says explicitly, “Thank God Joe lost,” and describes Joe's team as having reached the fantasy postseason."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A speaker says he previously traded “JJ” for Kyren Williams, characterizing it as a lateral move. The speaker/owner and exact identity of “JJ” are not established in this window.",
+            "status": "confirmed",
+            "confidence": 0.72,
+            "raw_names": [
+              "JJ",
+              "Kyren Williams"
+            ],
+            "facts": [
+              {
+                "name": "assets_mentioned",
+                "value": "JJ for Kyren Williams"
+              },
+              {
+                "name": "speaker_assessment",
+                "value": "“a lateral move”"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 451.76,
+                "end_seconds": 459.04,
+                "details": "Speaker asks whether Kevin O'Connell is mad that he “traded JJ for Kyren Williams,” then calls it “a lateral move.”}]}],"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Who is the speaker who won the Hockenson-based matchup, and who is the opponent transcribed as “S”?",
+          "Does “JJ” specifically refer to Justin Jefferson, and which team owner completed the trade for Kyren Williams?",
+          "No final matchup score is supplied for either result in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 15 playoff results shown: Zach defeated Avery, and Thomas defeated Austin to advance into a semifinal against Mason. Thomas's roster was also affected by injuries to Alvin Kamara and David Montgomery.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Zach defeated Avery in a Week 15 playoff matchup, 175.34–159.54, and advanced in the bracket.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Zach",
+              "Avery",
+              "zaxavage",
+              "averyhuffman"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Zach (@zaxavage)"
+              },
+              {
+                "name": "loser",
+                "value": "Avery (@averyhuffman)"
+              },
+              {
+                "name": "score",
+                "value": "175.34–159.54"
+              },
+              {
+                "name": "week",
+                "value": "15"
+              },
+              {
+                "name": "outcome",
+                "value": "Zach advanced"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 652.4,
+                "end_seconds": 656.0,
+                "details": "The playoff bracket displays @zaxavage 175.34 over @averyhuffman 159.54, with @zaxavage advancing."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Thomas defeated Austin in Week 15, 157.04–144.50, and advanced to face Mason next week.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Thomas",
+              "Austin",
+              "ThomasWadde",
+              "AustinHood"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Thomas (@ThomasWadde)"
+              },
+              {
+                "name": "loser",
+                "value": "Austin (@AustinHood)"
+              },
+              {
+                "name": "score",
+                "value": "157.04–144.50"
+              },
+              {
+                "name": "week",
+                "value": "15"
+              },
+              {
+                "name": "next_opponent",
+                "value": "Mason"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 687.92,
+                "end_seconds": 695.0,
+                "details": "Commentary says Thomas beat Austin and advances; the bracket visibly lists ThomasWadde 157.04 over AustinHood 144.50 and shows Mason's next matchup as ThomasWadde/AustinHood."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "David Montgomery, on Thomas's roster, was said to be confirmed out for the season.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "David Montgomery",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "David Montgomery"
+              },
+              {
+                "name": "fantasy_owner",
+                "value": "Thomas"
+              },
+              {
+                "name": "status",
+                "value": "Out for season"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 704.36,
+                "end_seconds": 710.0,
+                "details": "The speaker says Montgomery is 'confirmed out for the season'; the on-screen Thomas roster includes D. Montgomery."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Alvin Kamara, on Thomas's roster, was described as unlikely to play the following week, though this was presented as the speaker's expectation rather than confirmation.",
+            "status": "speculative",
+            "confidence": 0.68,
+            "raw_names": [
+              "Alvin Kamara",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Alvin Kamara"
+              },
+              {
+                "name": "fantasy_owner",
+                "value": "Thomas"
+              },
+              {
+                "name": "expected_availability",
+                "value": "Speaker does not think he will play next week"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 703.0,
+                "end_seconds": 706.44,
+                "details": "The speaker says Thomas 'just lost Alvin Kamara' and 'I don't think he plays next week'; Kamara appears on Thomas's visible roster."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The commentary calls Zach's victory a 36-point win, but the displayed final score is 175.34–159.54 (a 15.80-point margin). The on-screen score was used for the recorded result.",
+          "Kamara's availability for the next week was not confirmed in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Discussion of the upcoming fantasy semifinals centers on Mason facing Thomas after injuries to Thomas’s running backs; later commentary references Nathan and the toilet bowl without a clear, verifiable outcome.",
+        "observations": [
+          {
+            "category": "injury",
+            "summary": "David Montgomery is said to have suffered a torn MCL and to be out for the year. The speakers frame this as a loss affecting Thomas’s fantasy roster, alongside Alvin Kamara.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "David Montgomery",
+              "Thomas",
+              "Alvin Kamara"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "David Montgomery"
+              },
+              {
+                "name": "reported injury",
+                "value": "torn MCL"
+              },
+              {
+                "name": "reported availability",
+                "value": "out for the year"
+              },
+              {
+                "name": "fantasy owner affected",
+                "value": "Thomas"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 729.56,
+                "end_seconds": 744.28,
+                "details": "Speaker says Montgomery's injury is now a torn MCL and he is 'out for the year,' then says Thomas has lost Alvin Kamara and David Montgomery."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Mason is stated to be playing Thomas in the fantasy-football semifinals.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Mason",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "round",
+                "value": "fantasy semifinals"
+              },
+              {
+                "name": "matchup",
+                "value": "Mason vs. Thomas"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 736.8,
+                "end_seconds": 743.44,
+                "details": "Speaker says Mason 'gets to play Thomas' and refers to being in the championship, establishing the matchup as a semifinal."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 798.68,
+                "end_seconds": 801.28,
+                "details": "Speaker explicitly refers to putting his team in position for success in the 'fantasy football semis.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window mentions Nathan in connection with the toilet bowl, but does not clearly establish his exact matchup, result, or elimination status.",
+          "Thomas’s roster ownership of Montgomery and Kamara is discussed by speakers but is not independently shown in a readable lineup here."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "First-round toilet-bowl result: Danny narrowly defeated Badake after Badake needed four points from Darnell Mooney on Monday night.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Danny defeated Badake 125.64–121.46 in the first round of the toilet bowl. Badake entered Monday night needing roughly four points from Darnell Mooney, but Mooney failed to reach that total.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Danny",
+              "Badake",
+              "Darnell Mooney"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Danny"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "score",
+                "value": "125.64–121.46"
+              },
+              {
+                "name": "round",
+                "value": "Toilet bowl, first round"
+              },
+              {
+                "name": "deciding player",
+                "value": "Darnell Mooney"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 907.88,
+                "end_seconds": 933.16,
+                "details": "Narration states that Badake needed four points from Darnell Mooney and lost to Danny; the matchup display shows 125.64–121.46 for Badake's matchup."
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Badake lost a close Week 15 consolation/toilet-bowl matchup to Danny, 125.64–121.46. A proposed loser-shaves wager for the matchup was rejected by Badake.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Danny defeated Badake 125.64–121.46 in their Week 15 matchup.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Badake",
+              "Danny",
+              "Back Stronger",
+              "Ban QB and TE 2025"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "15"
+              },
+              {
+                "name": "winner",
+                "value": "Danny"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "winner_score",
+                "value": "125.64"
+              },
+              {
+                "name": "loser_score",
+                "value": "121.46"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1181.333,
+                "end_seconds": 1184.0,
+                "details": "The fantasy matchup display identifies @Badake's team as “Back Stronger” with 121.46 and @Danny...’s “Ban QB and TE 2025” with 125.64."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1204.44,
+                "end_seconds": 1213.92,
+                "details": "Badake says it was fitting that they “did end up coming down with the W,” but this conflicts with the on-screen finalized score; visual evidence is used for the result."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Danny proposed that the loser of his matchup with Badake shave; Badake explicitly rejected the proposal, saying he holds too much identity in his hair.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Danny",
+              "Badake"
+            ],
+            "facts": [
+              {
+                "name": "proposal",
+                "value": "Loser of the Danny–Badake matchup shaves"
+              },
+              {
+                "name": "outcome",
+                "value": "Rejected by Badake; not an agreed punishment"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1221.2,
+                "end_seconds": 1247.08,
+                "details": "Badake recounts Danny tagging him with “the loser of our matchup has to shave,” then quotes his response: “hell no, I hold too much identity in my hair.” The Discord screenshot visibly shows the same exchange."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Badake refers to this as the “toilet ball,” but the exact bracket designation and the consequence of the season-ending T-shirt are not fully established within this window."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The league sets its championship semifinal bracket and outlines the Week 16/17 Toilet Bowl format. A manager also regrets a defensive lineup choice that would have changed a loss to Danny.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified manager says Danny defeated them; they claim that starting either Atlanta D/ST or Kansas City D/ST instead of Baltimore D/ST would have reversed the result.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Danny",
+              "Baltimore Ravens D/ST",
+              "Atlanta D/ST",
+              "Kansas City D/ST"
+            ],
+            "facts": [
+              {
+                "name": "result",
+                "value": "Danny beat the unidentified speaker"
+              },
+              {
+                "name": "started_defense",
+                "value": "Baltimore Ravens D/ST, 6.00 points"
+              },
+              {
+                "name": "bench_defenses",
+                "value": "Atlanta D/ST, 21.00 points; Kansas City D/ST, 23.00 points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1263.04,
+                "end_seconds": 1292.88,
+                "details": "Speaker says Baltimore scored six in their lineup and either Atlanta or KC on the bench would have let them beat Danny."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1284.814,
+                "end_seconds": 1284.814,
+                "details": "FantasyLand roster display shows ATL D/ST on the bench for 21.00 and KC D/ST on the bench for 23.00."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Sal (transcribed as “S”) is said to be safe from the shirt/last-place danger. Badake, Nathan, and Bush are assigned to the Toilet Bowl; the narrator and Danny say their seasons are over.",
+            "status": "confirmed",
+            "confidence": 0.76,
+            "raw_names": [
+              "S",
+              "Sal",
+              "Badake",
+              "Nathan",
+              "Bush",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "safe_from_last_place_danger",
+                "value": "S (possibly Sal)"
+              },
+              {
+                "name": "toilet_bowl_participants",
+                "value": "Badake, Nathan, Bush"
+              },
+              {
+                "name": "seasons_over",
+                "value": "Narrator and Danny"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1363.24,
+                "end_seconds": 1386.16,
+                "details": "Narrator says “S” is out of danger, names Badake, Nathan, and Bush for the Toilet Bowl, and says “me and Danny” are done."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The championship semifinals are Zach vs. Avery and Mason vs. Thomas.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Zach",
+              "Avery",
+              "Mason",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "semifinal_1",
+                "value": "Zach vs. Avery"
+              },
+              {
+                "name": "semifinal_2",
+                "value": "Mason vs. Thomas"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1389.6,
+                "end_seconds": 1397.44,
+                "details": "Narrator explicitly sets the two semifinal matchups for next week."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "For the Toilet Bowl, Badake, Nathan, and Bush are scheduled to all compete in Week 16. The highest Week 16 scorer is safe; the two lower scorers will play in Week 17 for last place.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Badake",
+              "Nathan",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "week_16_toilet_bowl_format",
+                "value": "Three-way scoring contest; highest scorer is safe"
+              },
+              {
+                "name": "week_17_toilet_bowl_format",
+                "value": "The two lower Week 16 scorers play for last place"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1398.84,
+                "end_seconds": 1439.679,
+                "details": "Narrator explains the three-person Week 16 format, specifies Badake/Nathan/Bush, and says the two lower scorers advance to a Week 17 last-place matchup."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The manager who lost to Danny after starting Baltimore D/ST is not identified in this window.",
+          "The transcript calls the manager safe from shirt danger “S”; this may be Sal, but the name is not fully clear.",
+          "At 00:23:49, another speaker says “me, Nathan and Badake” will compete in Week 16, whereas the earlier explanation names Badake, Nathan, and Bush. Review the edit/speaker identity to resolve whether Bush is the third participant."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1511.0,
+      "transient_image_count": 5,
+      "review": {
+        "window_summary": "The speaker confirms Badake lost a matchup after needing only 4.5 fantasy points from Mooney, and says two losers advance to Week 17.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Badake lost his matchup; the speaker says he needed only 4.5 points from Mooney but did not get enough.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Badake",
+              "Mooney"
+            ],
+            "facts": [
+              {
+                "name": "result",
+                "value": "Badake lost his matchup"
+              },
+              {
+                "name": "decisive context",
+                "value": "Badake needed 4.5 fantasy points from Mooney"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1451.72,
+                "end_seconds": 1458.84,
+                "details": "Speaker says he feels bad for Badake because Badake lost despite only needing four and a half from Mooney."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Two losers are stated to be moving on to Week 17, apparently in the league's loser-side competition.",
+            "status": "confirmed",
+            "confidence": 0.83,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "Week 17 advancement",
+                "value": "Two losers move on"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1439.679,
+                "end_seconds": 1441.12,
+                "details": "Speaker states, 'two losers will be moving on to week 17.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not identify Badake's opponent, final score, or which other loser advances to Week 17."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "The displayed Week 15 bracket shows Zach defeating Avery 175.34–159.54, but later narration calls Zach vs. Avery an upcoming semifinal. Confirm the correct bracket/result.",
+    "The transcript has conflicting references to the third Week 16 Toilet Bowl participant: the formal explanation names Bush, while a later speaker says “me, Nathan and Badake.”",
+    "The winner, final score, and participant identities for the Monday-night T.J. Hockenson matchup are not sufficiently clear from the supplied evidence.",
+    "Confirm whether “JJ” in the Kyren Williams trade refers to Justin Jefferson and identify the owner who made the trade.",
+    "Kamara's following-week availability was only a speaker expectation, not a confirmed status."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize team owners and retain key matchup results, injuries, trades, and loser-side actions.",
+      "status": "fulfilled",
+      "details": "The synthesis records owner-linked results and roster impacts, plus the reported trade and rejected wager."
+    },
+    {
+      "instruction": "Use on-screen evidence over conflicting transcript claims.",
+      "status": "fulfilled",
+      "details": "The Danny–Badake final score and Zach–Avery displayed result use visual evidence; the contradictory narration is retained as an open question rather than silently overwritten."
+    },
+    {
+      "instruction": "Do not turn predictions, jokes, proposals, or uncertain claims into confirmed facts.",
+      "status": "fulfilled",
+      "details": "Kamara's availability remains speculative, the shave proposal is recorded as rejected, and unidentified/ambiguous claims are flagged."
+    },
+    {
+      "instruction": "Provide concise notes and review items.",
+      "status": "fulfilled",
+      "details": "The recap is concise and unresolved source conflicts are listed in open_questions."
+    }
+  ],
+  "supplemental_outputs": []
+}

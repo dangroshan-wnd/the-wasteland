@@ -1,0 +1,1321 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T20:50:45.490535+00:00",
+  "fingerprint": "d7a33c74a771c8c5e0864e8e060bf2acfb4c34d0e379a3fd283893adc13d857a",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "GAc_HbwkO0c",
+  "video_title": "The Playoffs Are Officially Starting",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Playoffs Are Officially Starting",
+      "upload_date": "20241212",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The league’s Week 15 postseason brackets are introduced. Zach and Mason are stated to have playoff byes; Avery plays Joe for the right to face Zach. The toilet-bowl side includes Nathan vs. Sal and Badake vs. Danny, with a bye shown for Corey (raw on-screen label).",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery is scheduled to face Joe in the Week 15 playoff bracket; the winner will face Zach in the next round.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Avery",
+              "Joe",
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "round",
+                "value": "Week 15 / playoff opening round"
+              },
+              {
+                "name": "next-round opponent",
+                "value": "Zach"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 40.6,
+                "end_seconds": 58.8,
+                "details": "Speaker identifies the Flock League playoff bracket, says Zach will face the winner of Avery or Joe, and expresses concern about facing the 'team of destiny.' On-screen label at 00:00:37 reads 'AVERY (VS JOE).'"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Mason and Zach have playoff byes.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Mason",
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "round",
+                "value": "Week 15"
+              },
+              {
+                "name": "bracket",
+                "value": "playoffs"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 58.8,
+                "end_seconds": 80.0,
+                "details": "Speaker says, 'Mason and Zach get byes.' On-screen label at 00:01:17 reads 'MASON (BYE).'"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Badake is scheduled to face Danny in the toilet bowl / last-place bracket.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Badake",
+              "Danny",
+              "Dannylad21"
+            ],
+            "facts": [
+              {
+                "name": "round",
+                "value": "Week 15"
+              },
+              {
+                "name": "bracket",
+                "value": "toilet bowl / last-place bracket"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 53.095,
+                "end_seconds": 54.5,
+                "details": "On-screen label reads 'BADAKE (VS DANNY)' over a postseason bracket."
+              },
+              {
+                "source": "both",
+                "start_seconds": 83.0,
+                "end_seconds": 95.0,
+                "details": "The narration refers to participants having to play 'this week' and specifically calls the lower bracket the 'toilet bowl'; on-screen label at 00:01:32 reads 'DANNY (VS BADAKE).'"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Nathan is scheduled to face Sal in the toilet bowl / last-place bracket.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Nathan",
+              "Sal",
+              "NathanSchmidt",
+              "SalVetri"
+            ],
+            "facts": [
+              {
+                "name": "round",
+                "value": "Week 15"
+              },
+              {
+                "name": "bracket",
+                "value": "toilet bowl / last-place bracket"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 67.267,
+                "end_seconds": 72.0,
+                "details": "On-screen label reads 'NATHAN (VS SAL).'"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 143.135,
+                "end_seconds": 178.2,
+                "details": "Bracket display lists NathanSchmidt vs SalVetri under the Week 15 round. The displayed 130.52 and 125.58 appear to be bracket values/projections, not a confirmed completed result."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "A bye in the lower/last-place bracket is shown for the raw on-screen name \"Corey.\"",
+            "status": "confirmed",
+            "confidence": 0.72,
+            "raw_names": [
+              "Corey"
+            ],
+            "facts": [
+              {
+                "name": "round",
+                "value": "Week 15"
+              },
+              {
+                "name": "bracket",
+                "value": "lower/last-place bracket"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 143.135,
+                "end_seconds": 178.2,
+                "details": "A bracket display labels a bye entry, and the overlay reads 'COREY (BYE).' The underlying team/owner identity is not established in this window."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The bye participant shown as \"Corey\" is not among the supplied Season 1 owner list; verify whether Corey is an owner, a nickname, or an editing label.",
+          "The visible bracket point totals (NathanSchmidt 130.52, SalVetri 125.58, Badake 122.72, Dannylad21 131.07) should not be treated as final scores without confirming whether they are projections or results.",
+          "The on-screen team labels StevenSwagal and BuschLeaguee are shown with byes, but their owner mappings are not established by this window."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 15 fantasy playoffs are beginning. Avery is matched with Joe (shown as @GreenMeansMoney); the window also recalls Joe's regular-season win over Avery.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Joe/@GreenMeansMoney previously defeated Avery in their regular-season meeting, 113.24 to 87.78.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Avery",
+              "Joe",
+              "@GreenMeansMoney",
+              "@averyhuffman"
+            ],
+            "facts": [
+              {
+                "name": "matchup_type",
+                "value": "regular season"
+              },
+              {
+                "name": "winner",
+                "value": "Joe / @GreenMeansMoney"
+              },
+              {
+                "name": "loser",
+                "value": "Avery / @averyhuffman"
+              },
+              {
+                "name": "score",
+                "value": "113.24-87.78"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 305.0,
+                "end_seconds": 313.0,
+                "details": "The speaker says Avery lost to Joe in the regular season; the on-screen matchup graphic displays @averyhuffman 87.78 vs @GreenMeansMoney 113.24."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Avery and Joe/@GreenMeansMoney are scheduled to face one another in the Week 15 fantasy playoffs; this is a preview, not a completed playoff result.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Avery",
+              "Joe",
+              "@GreenMeansMoney",
+              "@averyhuffman"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "15"
+              },
+              {
+                "name": "matchup_type",
+                "value": "fantasy playoffs"
+              },
+              {
+                "name": "teams",
+                "value": "Avery vs Joe / @GreenMeansMoney"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 255.76,
+                "end_seconds": 264.64,
+                "details": "The speaker identifies the first fantasy-playoff matchup as Avery versus Joe; the Week 15 league screen shows @averyhuffman vs @GreenMeansMoney."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Avery is stated to have scored more than 400 more season points than Joe entering their playoff matchup.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Avery",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "comparison",
+                "value": "Avery has 400+ more points for than Joe on the season"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 227.68,
+                "end_seconds": 234.64,
+                "details": "Speaker says Avery is 'literally 400 points for more than Joe on the season.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The visual bracket around 00:03:35 shows scores alongside playoff pairings but marks the advancing slots TBD; its numbers appear to be projections rather than final results, so no result was recorded from it."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Playoff setup is discussed: Avery is preparing for Joe, while Thomas is shown facing Austin. Thomas reports reaching the playoffs despite a 6–8 record and describes a past Christian McCaffrey trade to Austin as part of his strategy.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery is set to face Joe in a playoff matchup this week.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Avery",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Avery vs. Joe"
+              },
+              {
+                "name": "stage",
+                "value": "playoffs"
+              },
+              {
+                "name": "timing",
+                "value": "this week"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 427.16,
+                "end_seconds": 440.32,
+                "details": "The speaker says his simulator runs 'Joe and I's playoff matchup this week' and that he needs to beat Joe."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Thomas is set to play Austin in a playoff game.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Thomas",
+              "Austin"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Thomas vs. Austin"
+              },
+              {
+                "name": "stage",
+                "value": "playoffs"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 475.44,
+                "end_seconds": 479.6,
+                "details": "The speaker says, 'You got Thomas and Austin in the other game this week.'"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 489.935,
+                "end_seconds": 505.794,
+                "details": "On-screen graphic explicitly reads 'THOMAS (VS AUSTIN)' and shows the ThomasWadde and AustinHood matchup."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Thomas reports that he made the fantasy playoffs despite a 6–8 record; he says he was third in points scored, fewer than 100 points behind Zach and Avery, and more than 130 points ahead of fifth-seed Joe.",
+            "status": "reported",
+            "confidence": 0.83,
+            "raw_names": [
+              "Thomas",
+              "Zach",
+              "Avery",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "Thomas record",
+                "value": "6-8"
+              },
+              {
+                "name": "Thomas points-scored rank",
+                "value": "3rd"
+              },
+              {
+                "name": "comparison to Zach and Avery",
+                "value": "Less than 100 points behind"
+              },
+              {
+                "name": "comparison to fifth-seed Joe",
+                "value": "More than 130 points ahead"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 487.08,
+                "end_seconds": 511.68,
+                "details": "Thomas says this is his first appearance since the draft, says he is in the fantasy playoffs, and gives his record and points-scored comparisons."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 505.794,
+                "end_seconds": 510.0,
+                "details": "The roster screen is labeled 'Team ThomasWadde' and Week 15, supporting that the speaker is Thomas and is setting a playoff lineup."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Thomas says he drafted Christian McCaffrey and traded him to Austin, describing it as part of a long-term plan to face Austin in Week 15.",
+            "status": "reported",
+            "confidence": 0.67,
+            "raw_names": [
+              "Thomas",
+              "Christian McCaffrey",
+              "Austin"
+            ],
+            "facts": [
+              {
+                "name": "sending owner",
+                "value": "Thomas"
+              },
+              {
+                "name": "receiving owner",
+                "value": "Austin"
+              },
+              {
+                "name": "player",
+                "value": "Christian McCaffrey"
+              },
+              {
+                "name": "stated context",
+                "value": "Thomas says Austin became his Week 15 opponent"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 529.56,
+                "end_seconds": 535.76,
+                "details": "Thomas says, 'I would then draft Christian McCaffrey and trade him to Austin who just so happens to be my Week 15 opponent.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window does not establish the exact terms or timing of the reported Christian McCaffrey-for-Austin trade.",
+          "A bracket graphic shows numerical values beside several teams around 00:08:09, but this window does not clearly establish whether they are completed scores, projections, or another bracket display; no results are recorded from it."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Discussion shifts to the Week 15 loser/toilet-bowl bracket, including the Danny–Badaki matchup, plus a confirmed Olave-for-Jaxon Smith-Njigba trade involving Zach. A historical Chuba Hubbard waiver bidding screen is shown.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Historical waiver bidding shown for Chuba Hubbard: ThomasWadde bid $3 and BuschLeaguee bid $1.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Chuba Hubbard",
+              "ThomasWadde",
+              "BuschLeaguee",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Chuba Hubbard"
+              },
+              {
+                "name": "bidder",
+                "value": "ThomasWadde"
+              },
+              {
+                "name": "bid",
+                "value": "$3 FAAB"
+              },
+              {
+                "name": "bidder",
+                "value": "BuschLeaguee (referred to in speech as Bush)"
+              },
+              {
+                "name": "bid",
+                "value": "$1 FAAB"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 540.0,
+                "end_seconds": 545.04,
+                "details": "Transcript states “I bid three Fab dollars and Bush bid one”; the on-screen waiver card identifies Chuba Hubbard and displays ThomasWadde $3 and BuschLeaguee $1."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified speaker says he scored 185 points and narrowly beat Thomas in the prior week.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "loser",
+                "value": "Thomas"
+              },
+              {
+                "name": "winner_score",
+                "value": "185"
+              },
+              {
+                "name": "margin",
+                "value": "barely (exact opponent score not stated)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 619.52,
+                "end_seconds": 626.48,
+                "details": "The speaker says, “I end up pulling it off with 185 points still barely beating Thomas.”"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Danny and Badaki are set to play each other in the toilet/loser bowl; the winner will be safe after the week.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Danny",
+              "Badaki",
+              "Baki"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "Week 15"
+              },
+              {
+                "name": "bracket",
+                "value": "toilet bowl / loser bracket"
+              },
+              {
+                "name": "team_owner_1",
+                "value": "Danny"
+              },
+              {
+                "name": "team_owner_2",
+                "value": "Badaki"
+              },
+              {
+                "name": "stakes",
+                "value": "One of Danny or Badaki will be safe after this week"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 609.64,
+                "end_seconds": 633.16,
+                "details": "Speaker says one of “baki or Danny” will be safe and that Danny and Badaki are taking on each other that week."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 686.0,
+                "end_seconds": 693.2,
+                "details": "Speaker identifies it as Week 15, first round of the loser bracket/toilet bowl and says he and “Baki” are participating."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Badaki states that he traded Chris Olave to Zach for Jaxon Smith-Njigba.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Badaki",
+              "Zach",
+              "Chris Olave",
+              "Jackson Smith and jiga"
+            ],
+            "facts": [
+              {
+                "name": "trader_1",
+                "value": "Badaki"
+              },
+              {
+                "name": "trader_1_sent",
+                "value": "Chris Olave"
+              },
+              {
+                "name": "trader_2",
+                "value": "Zach"
+              },
+              {
+                "name": "trader_2_sent",
+                "value": "Jaxon Smith-Njigba"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 650.96,
+                "end_seconds": 658.92,
+                "details": "Speaker says, “I took Chris Olave and traded him to Zach for Jackson Smith and jiga.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The 185-point winner is not identified by name in this window, so the opponent/result cannot be assigned to a specific team owner.",
+          "The speaker/team-owner spelling varies between “Badaki” and “Baki”; project guidance lists the owner as Badake.",
+          "The Chuba Hubbard screen establishes the two bids, but this window does not explicitly state whether ThomasWadde’s $3 bid won the player."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "An unidentified league member discusses a current playoff-related matchup and a separate unidentified speaker previews a projected matchup with Danny; Breece Hall’s knee status is a concern for the latter speaker’s lineup.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified speaker said they were currently in a playoff spot and playing Avery, but no score or completed result was provided.",
+            "status": "reported",
+            "confidence": 0.72,
+            "raw_names": [
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "matchup_status",
+                "value": "Current matchup; speaker said they were in a playoff spot"
+              },
+              {
+                "name": "opponent",
+                "value": "Avery"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 720.279,
+                "end_seconds": 724.48,
+                "details": "Speaker says, “I am in the playoff spot right now… I'm playing against Avery right now.”"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "A separate unidentified speaker said their head-to-head series with Danny was tied 1–1: Danny beat them in Week 2, and they beat Danny in Week 13.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "week_2_result",
+                "value": "Danny beat the speaker"
+              },
+              {
+                "name": "week_13_result",
+                "value": "Speaker beat Danny"
+              },
+              {
+                "name": "head_to_head_record",
+                "value": "1-1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 786.72,
+                "end_seconds": 795.0,
+                "details": "Speaker says Danny beat them in Week 2 and they beat Danny in Week 13, “that means we are one and one.”"
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Danny was projected to win 56% to 44% over an unidentified speaker; this was a pre-game projection, not a matchup result.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "Danny_win_probability",
+                "value": "56%"
+              },
+              {
+                "name": "opponent_win_probability",
+                "value": "44%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 823.68,
+                "end_seconds": 829.28,
+                "details": "Speaker says, “Danny is favored 56% and I have 44%.”"
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Breece Hall, whom an unidentified speaker had in their RB2 slot, was described as questionable with a knee injury for the upcoming week.",
+            "status": "reported",
+            "confidence": 0.88,
+            "raw_names": [
+              "Breece Hall"
+            ],
+            "facts": [
+              {
+                "name": "fantasy_roster_context",
+                "value": "Speaker said Hall was in their RB2 spot"
+              },
+              {
+                "name": "injury",
+                "value": "Knee"
+              },
+              {
+                "name": "status",
+                "value": "Questionable"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 837.92,
+                "end_seconds": 850.24,
+                "details": "Speaker says, “I have Breece Hall here at my RB2 spot… he's questionable with the knee injury yet again.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speakers/owners in this window are not explicitly identified, so Avery and Danny cannot be reliably mapped to a specific opposing owner beyond their raw names.",
+          "The opening Avery matchup and the later Danny preview appear to come from different edited speaker segments; their relationship is unclear."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A league member discusses a forthcoming matchup and their Toilet Bowl position, announces a team-name change, and another member previews a matchup against Sal after Puka Nacua and Kyren Williams scored 60 combined the prior week.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "An unidentified league member says they finished dead last in the regular season but secured a first-round bye in the Toilet Bowl; they expect to need a win in Week 16 to avoid the season-ending T-shirt punishment.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Danny",
+              "Baki",
+              "Toilet Bowl"
+            ],
+            "facts": [
+              {
+                "name": "regular-season finish",
+                "value": "dead last"
+              },
+              {
+                "name": "Toilet Bowl seed outcome",
+                "value": "first-round bye"
+              },
+              {
+                "name": "stated Week 16 objective",
+                "value": "win and exit the Toilet Bowl"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 960.0,
+                "end_seconds": 984.4,
+                "details": "Speaker says the matchup involving them and “Baki” is in Weeks 16 and 17, and that they were dead last in the regular season but secured a first-round Toilet Bowl bye."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "An unidentified manager announces that they are changing their fantasy team name to “Ball Knower.”",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Ball Knower"
+            ],
+            "facts": [
+              {
+                "name": "team-name change",
+                "value": "Ball Knower"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1001.76,
+                "end_seconds": 1011.4,
+                "details": "Speaker says they are “finally changing my team name to ball knower.”"
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "An unidentified manager says Puka Nacua and Kyren Williams, who were on their roster, combined for 60 points the previous week. They preview an upcoming matchup against Sal, with Nacua, Williams, and opponent Jauan Jennings all playing Thursday night.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Puka Nacua",
+              "Kyren Williams",
+              "Sal",
+              "Jauan Jennings"
+            ],
+            "facts": [
+              {
+                "name": "prior-week combined fantasy points",
+                "value": "Puka Nacua and Kyren Williams: 60"
+              },
+              {
+                "name": "upcoming opponent",
+                "value": "Sal"
+              },
+              {
+                "name": "Thursday-night players mentioned",
+                "value": "Puka Nacua, Kyren Williams, Jauan Jennings"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1042.88,
+                "end_seconds": 1070.68,
+                "details": "Speaker says Puka and Kyren Williams combined for 60 points on their team last week, then identifies a matchup against “Sal” and notes that Puka, Kyren, and Sal's Jauan Jennings play Thursday night. The matchup screen is visible around 1053.3 seconds."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the speaker who states they were last in the regular season, received the Toilet Bowl bye, and changed their team name is not established in this window.",
+          "“Baki” is heard in the transcript but cannot be conclusively resolved to the season owner Badake from this window alone."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A playoff-progression tattoo wager involving Mason and Nathan is announced, followed by waiver claims that include several additions to Thomas Waddle's roster.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "A speaker says he and Mason agreed to a playoff-progression wager: if either goes farther in the playoffs, Nathan is supposed to get that person's name tattooed on his butt; if both are eliminated at the same stage, it would be a draw. Nathan says he was not aware of it and references an earlier “domain partnership agreement,” so the wager's enforceability is unclear.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Mason",
+              "Nathan",
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "wager condition",
+                "value": "Whichever of Mason and the unnamed speaker goes farther in the playoffs determines whose name Nathan must tattoo on his butt."
+              },
+              {
+                "name": "tie condition",
+                "value": "If both are knocked out at the same point, the speaker says it would be a draw."
+              },
+              {
+                "name": "Nathan response",
+                "value": "Nathan says he did not know about the wager and says a prior pact already involved Avery's name tattooed on him."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1086.4,
+                "end_seconds": 1157.0,
+                "details": "The speaker announces the Mason playoff bet and tattoo terms; Nathan objects and cites a prior agreement."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Waiver processing shows Thomas Waddle's roster adding Patrick Taylor for $34, Tank Bigsby for $3, and Jerome Ford for $1. The speaker also says he acquired Patrick Taylor, Tank Bigsby, and Jerome Ford.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Thomas Waddle",
+              "Patrick Taylor",
+              "Tank Bigsby",
+              "Jerome Ford",
+              "Jake Elliott",
+              "C.J. Stroud"
+            ],
+            "facts": [
+              {
+                "name": "waiver processing",
+                "value": "11 new waiver claims have been processed."
+              },
+              {
+                "name": "Thomas Waddle add",
+                "value": "Patrick Taylor, $34"
+              },
+              {
+                "name": "Thomas Waddle drop",
+                "value": "Jake Elliott"
+              },
+              {
+                "name": "Thomas Waddle add",
+                "value": "Tank Bigsby, $3"
+              },
+              {
+                "name": "Thomas Waddle drop",
+                "value": "C.J. Stroud"
+              },
+              {
+                "name": "Thomas Waddle add",
+                "value": "Jerome Ford, $1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1226.0,
+                "end_seconds": 1233.0,
+                "details": "Speaker says he got Patrick Taylor, Tank Bigsby, and Jerome Ford; waiver graphic at 00:20:30 shows the corresponding Thomas Waddle roster claims and bids."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Other processed waiver claims shown include Nathan Schmidt adding Israel Abanikanda for $21, Mason Dodd adding the Detroit Lions D/ST for $15, and Bush Leagues adding the Las Vegas Raiders D/ST for $0.",
+            "status": "confirmed",
+            "confidence": 0.83,
+            "raw_names": [
+              "Nathan Schmidt",
+              "Israel Abanikanda",
+              "Dallas Goedert",
+              "Mason Dodd",
+              "Detroit Lions",
+              "Khalil Herbert",
+              "Bush Leagues",
+              "Las Vegas Raiders",
+              "Seattle Seahawks"
+            ],
+            "facts": [
+              {
+                "name": "Nathan Schmidt add",
+                "value": "Israel Abanikanda, $21"
+              },
+              {
+                "name": "Nathan Schmidt drop",
+                "value": "Dallas Goedert"
+              },
+              {
+                "name": "Mason Dodd add",
+                "value": "Detroit Lions D/ST, $15"
+              },
+              {
+                "name": "Mason Dodd drop",
+                "value": "Khalil Herbert"
+              },
+              {
+                "name": "Bush Leagues add",
+                "value": "Las Vegas Raiders D/ST, $0"
+              },
+              {
+                "name": "Bush Leagues drop",
+                "value": "Seattle Seahawks D/ST"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1230.0,
+                "end_seconds": 1232.0,
+                "details": "Waiver-claims graphic lists these roster moves and bids."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speaker making the playoff wager is not identified in this window, and Nathan disputes knowing about or consenting to its terms.",
+          "The roster labels on the waiver graphic use names such as “Thomas Waddle,” “Nathan Schmidt,” and “Mason Dodd”; confirm their mapping to the season's owner names if needed."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Playoff-bracket discussion suggests a possible second-round matchup involving Zach and the unnamed speaker; a later Avery-versus-Joe segment is explicitly presented as simulated joke material, not a real result.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "A speaker says Zach’s playoff run could lead to a second-round matchup against the speaker. The speaker recounts Zach saying that, if Avery and Thomas advance, Zach should face Thomas; this indicates a possible bracket path, not a completed matchup or confirmed advancement.",
+            "status": "speculative",
+            "confidence": 0.68,
+            "raw_names": [
+              "Zach",
+              "Avery",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "potential_round",
+                "value": "second round"
+              },
+              {
+                "name": "conditional_path",
+                "value": "Avery and Thomas advancing is stated as the condition in the quoted playoff-seeding discussion"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1294.36,
+                "end_seconds": 1322.64,
+                "details": "Speaker discusses Zach’s concern over whether the No. 1 seed should play the weakest advancing team, then says Zach’s run may come down to a second-round matchup with the speaker and quotes: 'if Avery [and] Thomas advance, I should definitely be facing Thomas.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speaker’s identity is not established within this window, so the claimed potential Zach-versus-speaker second-round matchup cannot safely be assigned to a specific owner.",
+          "The actual playoff seeding rule and first-round matchups are not shown clearly enough here to confirm the bracket path.",
+          "The Avery-versus-Joe statements at 00:23:04–00:23:36 are generated by an 'Avery Victory Simulator' and include explicit joking language; they should not be treated as a real lineup omission, score, or matchup result."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 15 playoff/last-place-bracket setup: Avery is favored over Joe, Kenneth Walker is questionable for Avery, and the bracket display shows byes plus prior lower-bracket scores.",
+        "observations": [
+          {
+            "category": "injury",
+            "summary": "Avery said Kenneth Walker remained questionable; he would use Travis Etienne as a replacement if needed.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Avery",
+              "Kenneth Walker",
+              "Travis Etienne"
+            ],
+            "facts": [
+              {
+                "name": "fantasy_team_owner",
+                "value": "Avery"
+              },
+              {
+                "name": "player",
+                "value": "Kenneth Walker"
+              },
+              {
+                "name": "status",
+                "value": "Questionable"
+              },
+              {
+                "name": "contingency",
+                "value": "Travis Etienne would be inserted if Walker cannot play"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1490.679,
+                "end_seconds": 1512.24,
+                "details": "Avery says Walker is still questionable and that he may need to plug in Travis Etienne; the lineup screen also marks K. Walker with a Q designation."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Avery's Week 15 matchup against Joe was projected in Sleeper as a 71%–29% advantage for Avery; this was a pregame projection, not a result.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Avery",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "15"
+              },
+              {
+                "name": "projection",
+                "value": "Avery 71%, Joe 29%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1536.399,
+                "end_seconds": 1545.279,
+                "details": "Avery lists his lineup and says Sleeper projects Avery to win 71% to 29%; the Week 15 matchup display shows the same 71%/29% split."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "The bracket display records Nathan over Sal, 130.52–125.58.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "NathanSchmidt",
+              "SalVetri",
+              "Nathan",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Nathan"
+              },
+              {
+                "name": "loser",
+                "value": "Sal"
+              },
+              {
+                "name": "score",
+                "value": "130.52-125.58"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1587.595,
+                "end_seconds": 1598.374,
+                "details": "Bracket screen lists NathanSchmidt at 130.52 and SalVetri at 125.58, with the next opponent slot labeled TBD NathanSchmidt / SalVetri."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "The bracket display records Danny over Badake, 131.07–122.72.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Dannylad21",
+              "Badake",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Danny"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "score",
+                "value": "131.07-122.72"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1587.595,
+                "end_seconds": 1598.374,
+                "details": "Bracket screen lists Badake at 122.72 and Dannylad21 at 131.07, with the next opponent slot labeled TBD Badake / Dannylad21."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "The bracket display shows byes for StevenSwagal and BuschLeaguee.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "StevenSwagal",
+              "BuschLeaguee",
+              "Zach",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "bye",
+                "value": "StevenSwagal"
+              },
+              {
+                "name": "bye",
+                "value": "BuschLeaguee"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1440.76,
+                "end_seconds": 1457.2,
+                "details": "Transcript addresses Zach and tells him to rest before the playoffs; later the bracket visibly labels StevenSwagal and BuschLeaguee as BYE. The owner-to-team-name mappings are not fully established in this window."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1587.595,
+                "end_seconds": 1598.374,
+                "details": "Bracket screen explicitly shows BYE under StevenSwagal and BuschLeaguee."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window suggests StevenSwagal may be Zach and BuschLeaguee may be Bush, but those owner-to-team-name mappings are not explicitly verified here.",
+          "The exact bracket type and the consequences of the referenced 'shirt' punishment are not explained in this window."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "The bracket’s displayed 130.52–125.58 and 131.07–122.72 values appear alongside Week 15 pairings, but the episode’s pregame framing conflicts with treating them as completed scores; verify whether they are projections or later results before recording winners.",
+    "A lower-bracket bye is labeled “Corey,” who is not on the supplied Season 1 owner list. Verify whether this is an owner, nickname, or editing label.",
+    "The owner mapping for the on-screen team names StevenSwagal and BuschLeaguee is not explicitly established, though they are shown with byes.",
+    "The exact return and date of Thomas’s Christian McCaffrey trade to Austin are unknown.",
+    "The manager who said they finished last, earned a Toilet Bowl bye, and renamed their team “Ball Knower” is not identified in the available evidence.",
+    "The reported 185-point win over Thomas cannot be assigned to an identified winner from this episode."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize team owners and preserve NFL-player roster context.",
+      "status": "fulfilled",
+      "details": "Recap and events center owners; player references are retained for trades, waivers, and injuries."
+    },
+    {
+      "instruction": "Track supported matchups, scores, injuries, trades, and waiver actions.",
+      "status": "fulfilled",
+      "details": "Supported Week 15 pairings, the confirmed regular-season Avery–Joe score, transactions, and injury updates are included."
+    },
+    {
+      "instruction": "Do not turn projections, jokes, rumors, or unclear displays into confirmed results.",
+      "status": "fulfilled",
+      "details": "Pregame projections and simulator jokes are excluded from results. Conflicting bracket point displays are retained as an open question rather than recorded as final scores."
+    },
+    {
+      "instruction": "Record uncertainties requiring human review.",
+      "status": "fulfilled",
+      "details": "Unresolved identities, team-name mappings, trade terms, and bracket-score interpretation are listed in open_questions."
+    },
+    {
+      "instruction": "Honor recap exclusions and provide declared supplemental outputs.",
+      "status": "not_applicable",
+      "details": "No episode-specific exclusions or supplemental outputs were declared."
+    }
+  ],
+  "supplemental_outputs": []
+}

@@ -1,0 +1,1737 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T20:23:34.394039+00:00",
+  "fingerprint": "8c413f48b7afbfb40343f5bd1cd1d3e57b38d0f5040b543f80c9aa1cd144283c",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "WGyHzTpPRJU",
+  "video_title": "Sal Finally Trades Away Josh Allen",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Sal Finally Trades Away Josh Allen",
+      "upload_date": "20241114",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 11 is presented as having major playoff implications. A standings screen shows Zach leading at 8-2 and Sal last at 3-7; several owners are clustered at 4-6 or 5-5. The opening teaser reports trade activity but does not confirm the terms of the Josh Allen-to-Mason discussion.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Standings shown: Zach is first at 8-2; Austin is 7-3; Mason is 6-4; Avery, Badake, Thomas, and Danny are 5-5; Nathan, Bush, Tom, and Joe are 4-6; Sal is last at 3-7.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Zach",
+              "Austin",
+              "Mason",
+              "Avery",
+              "Badake",
+              "Thomas",
+              "Danny",
+              "Nathan",
+              "Bush",
+              "Tom",
+              "Joe",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "Week 11 (shown shortly afterward in the league interface)"
+              },
+              {
+                "name": "Zach record",
+                "value": "8-2"
+              },
+              {
+                "name": "Austin record",
+                "value": "7-3"
+              },
+              {
+                "name": "Mason record",
+                "value": "6-4"
+              },
+              {
+                "name": "Avery record",
+                "value": "5-5"
+              },
+              {
+                "name": "Badake record",
+                "value": "5-5"
+              },
+              {
+                "name": "Thomas record",
+                "value": "5-5"
+              },
+              {
+                "name": "Danny record",
+                "value": "5-5"
+              },
+              {
+                "name": "Nathan record",
+                "value": "4-6"
+              },
+              {
+                "name": "Bush record",
+                "value": "4-6"
+              },
+              {
+                "name": "Tom record",
+                "value": "4-6"
+              },
+              {
+                "name": "Joe record",
+                "value": "4-6"
+              },
+              {
+                "name": "Sal record",
+                "value": "3-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 94.633,
+                "end_seconds": 98.233,
+                "details": "The on-screen standings list each owner/team handle and record."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "The teaser says three trades 'just' occurred, but no trade terms are supplied in this window.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "number of trades mentioned",
+                "value": "3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 38.8,
+                "end_seconds": 42.76,
+                "details": "Narrator says, 'we just had three trades go down.'"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Josh Allen is said to look likely to go to Mason, but this is phrased as an expectation rather than confirmation of a completed trade.",
+            "status": "speculative",
+            "confidence": 0.62,
+            "raw_names": [
+              "Josh Allen",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Josh Allen"
+              },
+              {
+                "name": "potential destination owner",
+                "value": "Mason"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 10.84,
+                "end_seconds": 14.16,
+                "details": "Teaser states, 'it looks like Josh Allen is going to go to Mason.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Were the three referenced trades completed, and what were their full terms?",
+          "Did Josh Allen ultimately move to Mason? This window only presents it as likely.",
+          "The waiver 'crown jewel' is mentioned without identifying the player or owner."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 11 setup: several 5-5 teams are in pivotal matchups; waivers processed and an accepted Tyreek Hill/Malik Nabers trade is shown.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Avery and Badake were both 5-5 entering their Week 11 matchup; Thomas and Danny were also both 5-5 and scheduled to play each other.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Avery",
+              "Badake",
+              "Thomas",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "Avery record",
+                "value": "5-5"
+              },
+              {
+                "name": "Badake record",
+                "value": "5-5"
+              },
+              {
+                "name": "Thomas record",
+                "value": "5-5"
+              },
+              {
+                "name": "Danny record",
+                "value": "5-5"
+              },
+              {
+                "name": "Week 11 matchups",
+                "value": "Avery vs. Badake; Thomas vs. Danny"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 201.033,
+                "end_seconds": 218.84,
+                "details": "Standings display lists Avery, Badake, Thomas, and Danny at 5-5; transcript states Avery plays Badake and Thomas plays Danny."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Joe added the Detroit Lions D/ST for $19 and dropped Tua Tagovailoa.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Joe",
+              "Detroit Lions",
+              "Tua Tagovailoa",
+              "GreenMeansMoney's Roster"
+            ],
+            "facts": [
+              {
+                "name": "Add",
+                "value": "Detroit Lions D/ST"
+              },
+              {
+                "name": "Drop",
+                "value": "Tua Tagovailoa"
+              },
+              {
+                "name": "FAAB bid",
+                "value": "$19"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 240.84,
+                "end_seconds": 248.72,
+                "details": "Transcript says Joe spent $19 on Detroit Lions defense; waiver display identifies the add and Tua Tagovailoa drop."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Bush added Jordan Mason for $11 and dropped Antonio Gibson.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Bush",
+              "Jordan Mason",
+              "Antonio Gibson",
+              "BuschLeaguee's Roster"
+            ],
+            "facts": [
+              {
+                "name": "Add",
+                "value": "Jordan Mason"
+              },
+              {
+                "name": "Drop",
+                "value": "Antonio Gibson"
+              },
+              {
+                "name": "FAAB bid",
+                "value": "$11"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 273.833,
+                "end_seconds": 298.4,
+                "details": "Waiver list shows BuschLeaguee's Roster adding Jordan Mason, dropping Antonio Gibson, for $11. Standings identify BuschLeaguee as Bush."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Zach added Mike Williams for $9.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Zach",
+              "Mike Williams",
+              "zaxavage's Roster"
+            ],
+            "facts": [
+              {
+                "name": "Add",
+                "value": "Mike Williams"
+              },
+              {
+                "name": "FAAB bid",
+                "value": "$9"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 295.64,
+                "end_seconds": 311.0,
+                "details": "Waiver display lists zaxavage's Roster adding Mike Williams for $9; transcript identifies the manager as Zach."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Austin added Alec Pierce for $5 and dropped Jonnu Smith.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Austin",
+              "Alec Pierce",
+              "Jonnu Smith",
+              "AustinHood's Roster"
+            ],
+            "facts": [
+              {
+                "name": "Add",
+                "value": "Alec Pierce"
+              },
+              {
+                "name": "Drop",
+                "value": "Jonnu Smith"
+              },
+              {
+                "name": "FAAB bid",
+                "value": "$5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 273.833,
+                "end_seconds": 298.4,
+                "details": "Waiver list shows AustinHood's Roster adding Alec Pierce and dropping Jonnu Smith for $5."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Danny added Marquez Valdes-Scantling for $2 and dropped Jalen Tolbert.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Danny",
+              "Marquez Valdes-Scantling",
+              "Jalen Tolbert",
+              "Dannylad21's Roster"
+            ],
+            "facts": [
+              {
+                "name": "Add",
+                "value": "Marquez Valdes-Scantling"
+              },
+              {
+                "name": "Drop",
+                "value": "Jalen Tolbert"
+              },
+              {
+                "name": "FAAB bid",
+                "value": "$2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 273.833,
+                "end_seconds": 298.4,
+                "details": "Waiver list shows Dannylad21's Roster adding Marquez Valdes-Scantling and dropping Jalen Tolbert for $2."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Danny and Zach completed a one-for-one trade: Danny received Tyreek Hill and sent Malik Nabers to Zach.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Danny",
+              "Zach",
+              "Tyreek Hill",
+              "Malik Nabers",
+              "Dannylad21",
+              "zaxavage"
+            ],
+            "facts": [
+              {
+                "name": "Danny receives",
+                "value": "Tyreek Hill"
+              },
+              {
+                "name": "Danny sends",
+                "value": "Malik Nabers"
+              },
+              {
+                "name": "Trade status",
+                "value": "Accepted"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 341.134,
+                "end_seconds": 353.495,
+                "details": "Accepted trade card identifies Dannylad21 receiving Tyreek Hill from zaxavage and sending Malik Nabers to zaxavage."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 324.639,
+                "end_seconds": 339.0,
+                "details": "Transcript describes a Malik Nabers-for-Tyreek Hill swap."
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed one-for-one fantasy trade is reviewed: Danny receives Tyreek Hill from Zach in exchange for Malik Nabers. Zach notes Nabers is on bye and says this weakens his immediate matchup with Mason, while framing the move as preparation for later in the season/playoffs.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Danny and Zach completed a trade: Danny received Tyreek Hill, while Zach received Malik Nabers.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Danny",
+              "Zach",
+              "Tyreek Hill",
+              "Malik Nabers",
+              "Dannylad21",
+              "zaxavage"
+            ],
+            "facts": [
+              {
+                "name": "Danny receives",
+                "value": "Tyreek Hill"
+              },
+              {
+                "name": "Danny sends",
+                "value": "Malik Nabers"
+              },
+              {
+                "name": "Zach receives",
+                "value": "Malik Nabers"
+              },
+              {
+                "name": "Zach sends",
+                "value": "Tyreek Hill"
+              },
+              {
+                "name": "trade status",
+                "value": "Accepted"
+              },
+              {
+                "name": "trade date displayed",
+                "value": "Nov 13, 2024"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 364.48,
+                "end_seconds": 370.0,
+                "details": "Transcript explicitly states Danny was sent Tyreek Hill and Zach sent Malik Nabers; the on-screen fantasy platform trade dialog displays both accepted sides."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 426.833,
+                "end_seconds": 429.0,
+                "details": "Trade dialog clearly shows 'Trade Accepted,' received Nov 13, 2024, with zaxavage receiving Malik Nabers from Dannylad21 and Dannylad21 receiving Tyreek Hill from zaxavage."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Zach says Malik Nabers is on bye, so he cannot be started in Zach's current-week matchup against Mason.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Zach",
+              "Malik Nabers",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Malik Nabers"
+              },
+              {
+                "name": "availability",
+                "value": "Bye week"
+              },
+              {
+                "name": "fantasy implication",
+                "value": "Zach says the bye hurts his chances versus Mason this week"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 439.759,
+                "end_seconds": 446.279,
+                "details": "Zach says, 'Malik neighbors is on a buy. This is going to hurt my chances versus Mason,' followed by discussion that Danny acquired a player he can start this week."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The standings graphic mentioned around 00:06:00 is not shown in the supplied visual samples, so no standings were recorded.",
+          "The comments that Tyreek Hill could be shut down and that Tua is not targeting him are opinions/speculation, not recorded as confirmed injury or roster information."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Two accepted fantasy trades are shown: Malik Nabers for Tyreek Hill, and Bo Nix for $10 FAAB. League members then speculate that Sal may trade Josh Allen to Mason; no Josh Allen deal is completed in this window.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "An accepted trade sent Malik Nabers from account zaxavage to DannyJad21 in exchange for Tyreek Hill.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "DannyJad21",
+              "zaxavage",
+              "Tyreek Hill",
+              "Malik Nabers"
+            ],
+            "facts": [
+              {
+                "name": "recipient_account",
+                "value": "DannyJad21"
+              },
+              {
+                "name": "recipient_received",
+                "value": "Tyreek Hill (WR, MIA)"
+              },
+              {
+                "name": "sender_account",
+                "value": "zaxavage"
+              },
+              {
+                "name": "sender_received",
+                "value": "Malik Nabers (WR, NYG)"
+              },
+              {
+                "name": "trade_status",
+                "value": "Accepted"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 554.133,
+                "end_seconds": 564.934,
+                "details": "Sleeper trade card is marked ACCEPTED and lists DannyJad21 receiving Tyreek Hill from zaxavage, while sending Malik Nabers to zaxavage."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "SalVetri acquired Bo Nix from zaxavage for $10 FAAB in an accepted trade.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "SalVetri",
+              "zaxavage",
+              "Bo Nix"
+            ],
+            "facts": [
+              {
+                "name": "recipient_owner_account",
+                "value": "SalVetri"
+              },
+              {
+                "name": "recipient_received",
+                "value": "Bo Nix (QB, DEN)"
+              },
+              {
+                "name": "recipient_sent",
+                "value": "$10 FAAB"
+              },
+              {
+                "name": "counterparty_account",
+                "value": "zaxavage"
+              },
+              {
+                "name": "trade_status",
+                "value": "Accepted"
+              },
+              {
+                "name": "trade_received_date",
+                "value": "Nov 13, 2024"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 624.8,
+                "end_seconds": 633.519,
+                "details": "Transcript says Sal traded Bo Nix for $10 FAAB; the on-screen Sleeper card confirms the accepted exchange between SalVetri and zaxavage."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 630.0,
+                "end_seconds": 633.0,
+                "details": "Trade card states: zaxavage receives $10 FAAB from SalVetri and sends Bo Nix; SalVetri receives Bo Nix and sends $10 FAAB."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Avery speculated in league chat that Sal trading for Bo Nix could mean Josh Allen would be sent to Mason; this was not a completed trade.",
+            "status": "speculative",
+            "confidence": 0.87,
+            "raw_names": [
+              "Avery",
+              "Sal",
+              "Josh Allen",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "speculated_destination",
+                "value": "Mason"
+              },
+              {
+                "name": "player",
+                "value": "Josh Allen"
+              },
+              {
+                "name": "basis",
+                "value": "Avery's league-chat reaction to Sal acquiring Bo Nix"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 700.44,
+                "end_seconds": 719.84,
+                "details": "Narration recounts Avery saying, 'I fear this means Josh Allen is going to Mason,' followed by concern from others not to let Mason get Allen."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not establish the real-name owner identity behind account zaxavage, so account name is preserved.",
+          "No accepted Josh Allen trade is shown in this window; Mason acquiring him remains speculation here."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "League members discuss a possible Josh Allen trade from Sal to Mason; no completed transaction is shown or confirmed.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Mason says he already has a deal with Sal involving Josh Allen, but the trade terms are still being discussed and no completion is confirmed in this window.",
+            "status": "reported",
+            "confidence": 0.86,
+            "raw_names": [
+              "Mason",
+              "Sal",
+              "Josh Allen",
+              "Jaylen Waddle",
+              "Rhamondre Stevenson"
+            ],
+            "facts": [
+              {
+                "name": "reported trade direction",
+                "value": "Josh Allen from Sal to Mason"
+              },
+              {
+                "name": "previously discussed Mason offer",
+                "value": "Jaylen Waddle and Rhamondre Stevenson; Mason says this was the offer until Waddle's performance the prior night"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 864.8,
+                "end_seconds": 880.88,
+                "details": "On the group call, a participant says they are discussing ways to get Josh Allen off Sal's team; Mason replies that he already has a deal with Sal, and identifies Waddle and Stevenson as the prior terms before revisiting them."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Was a Josh Allen trade between Sal and Mason ultimately accepted and processed? The window only documents discussion of a prospective deal.",
+          "What revised compensation, if any, replaced the Waddle-and-Stevenson proposal?"
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "League members debate several unaccepted trade offers involving running backs, receivers, and Sal's quarterback situation; no completed trade is confirmed in this window.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Mason reportedly offered Corey a package of Jaylen Waddle and Najee Harris for De'Von Achane.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Mason",
+              "Cory",
+              "Waddle",
+              "Najee",
+              "Devon hm"
+            ],
+            "facts": [
+              {
+                "name": "offering_owner",
+                "value": "Mason"
+              },
+              {
+                "name": "receiving_owner_raw",
+                "value": "Cory"
+              },
+              {
+                "name": "offered_players",
+                "value": "Jaylen Waddle; Najee Harris"
+              },
+              {
+                "name": "requested_player",
+                "value": "De'Von Achane"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 922.16,
+                "end_seconds": 929.72,
+                "details": "A speaker says, “Waddle and Nai was offered to Cory for Devon hm by Mason.” The discussion treats it as an offer, not an accepted transaction."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Danny was criticized for a Cedric Tillman-for-DeAndre Swift trade offer; it was discussed as an offer/counteroffer rather than a completed trade.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Danny",
+              "Cedric Tillman",
+              "DeAndre Swift"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Danny"
+              },
+              {
+                "name": "offer_terms",
+                "value": "Cedric Tillman for DeAndre Swift"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 902.0,
+                "end_seconds": 911.52,
+                "details": "The speakers criticize Danny's trade pricing and cite “Tillman for DeAndre Swift”; the next speaker calls it an “encounter”/counter relative to an initial offer. No acceptance is stated."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Sal is said to have paid $10 for Bo Nix, after which other managers began approaching him about trades.",
+            "status": "reported",
+            "confidence": 0.74,
+            "raw_names": [
+              "Sal",
+              "bow Knicks"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Sal"
+              },
+              {
+                "name": "player",
+                "value": "Bo Nix"
+              },
+              {
+                "name": "amount",
+                "value": "$10"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 995.52,
+                "end_seconds": 1005.68,
+                "details": "Sal says that after “paying $10 for Bow Knicks,” he began receiving trade interest."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Corey/Cory is mentioned as a trade participant but is not among the supplied Season 1 owner names; identity requires review.",
+          "The window ends while a speaker says Sal is asking for Jayden Reed and Darnell Mooney and may take another manager's deal; the exact proposal and whether it was accepted are not available.",
+          "A discussed alternative involving Sal, Badake, Drake London, Josh Allen, and DK Metcalf is counterfactual/too incomplete to record as a trade transaction."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "League members debate playoff positioning, then discuss Sal’s trade negotiations. A proposed Sal–Avery trade is shown as rejected by Avery.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Mason is described during the discussion as having a 6-4 record; the group says the standings are tightly packed, with two games separating third place from 11th.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Mason",
+              "Badake",
+              "Danny",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "Mason record",
+                "value": "6-4"
+              },
+              {
+                "name": "Standings spread",
+                "value": "Two games separate 3rd place from 11th"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1140.159,
+                "end_seconds": 1157.72,
+                "details": "The speakers correct a stated record to 'six and four' and say two games separate third from 11th."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Avery rejected a proposed trade with Sal. The proposal would have sent Amari Cooper, Gus Edwards, and Drake London to Avery, with DeAndre Hopkins, Jakobi Meyers, Tee Higgins, and Tank Bigsby going to Sal.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "averyhuffman",
+              "SalVettri",
+              "Amari Cooper",
+              "Gus Edwards",
+              "Drake London",
+              "DeAndre Hopkins",
+              "Jakobi Meyers",
+              "Tee Higgins",
+              "Tank Bigsby"
+            ],
+            "facts": [
+              {
+                "name": "Trade status",
+                "value": "Rejected by Avery; Sal accepted"
+              },
+              {
+                "name": "Avery receives",
+                "value": "Amari Cooper, Gus Edwards, Drake London"
+              },
+              {
+                "name": "Sal receives",
+                "value": "DeAndre Hopkins, Jakobi Meyers, Tee Higgins, Tank Bigsby"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1244.52,
+                "end_seconds": 1259.68,
+                "details": "Sal says he and Avery had a deal 'agreed to in principle' and outlines the three-for-two receiver framework plus a Tank Bigsby/Gus Edwards swap."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1239.0,
+                "end_seconds": 1260.0,
+                "details": "On-screen trade card labels 'averyhuffman' as 'REJECTED' and 'SalVettri' as 'ACCEPTED,' with the listed players on each side."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Sal says the Avery deal was 'done' and ready to proceed, but the on-screen proposal is explicitly rejected. This window does not establish whether they later revised and completed a different trade.",
+          "The transcript’s mention of an earlier Austin negotiation says it 'falls apart,' but provides no player package or enough detail to log it."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Avery rejected a proposed six-player swap with Sal. Sal then completed a trade with Austin centered on Drake London, receiving three wide receivers for London.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Avery rejected Sal's proposed six-player trade: Avery would receive Amari Cooper, Gus Edwards, and Drake London, while Sal would receive DeAndre Hopkins, Jakobi Meyers, Tee Higgins, and Tank Bigsby.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "averyhuffman",
+              "SalVetri",
+              "Amari Cooper",
+              "Gus Edwards",
+              "Drake London",
+              "DeAndre Hopkins",
+              "Jakobi Meyers",
+              "Tee Higgins",
+              "Tank Bigsby"
+            ],
+            "facts": [
+              {
+                "name": "proposing/accepted side",
+                "value": "SalVetri"
+              },
+              {
+                "name": "rejected side",
+                "value": "averyhuffman (Avery)"
+              },
+              {
+                "name": "Avery would receive",
+                "value": "Amari Cooper; Gus Edwards; Drake London"
+              },
+              {
+                "name": "Sal would receive",
+                "value": "DeAndre Hopkins; Jakobi Meyers; Tee Higgins; Tank Bigsby"
+              },
+              {
+                "name": "outcome",
+                "value": "Rejected; trade did not complete"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1260.0,
+                "end_seconds": 1265.84,
+                "details": "Trade interface labels Avery's side 'REJECTED' and SalVetri's side 'ACCEPTED'; the transcript says the deal was considered but declined because of upcoming bye-week roster issues."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Sal traded Drake London to Austin and received Zay Flowers, Brian Thomas, and Jauan Jennings, giving Sal additional wide-receiver depth.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Sal",
+              "Austin",
+              "Drake London",
+              "Z Flowers",
+              "Brian Thomas",
+              "Jauan Jennings"
+            ],
+            "facts": [
+              {
+                "name": "Sal sent",
+                "value": "Drake London"
+              },
+              {
+                "name": "Sal received",
+                "value": "Zay Flowers; Brian Thomas; Jauan Jennings"
+              },
+              {
+                "name": "Austin received",
+                "value": "Drake London"
+              },
+              {
+                "name": "trade structure",
+                "value": "Three players for one"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1290.96,
+                "end_seconds": 1306.88,
+                "details": "Commentary describes Austin accepting and later completing a deal for Drake London from Sal, characterizing it as three players for one."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1328.0,
+                "end_seconds": 1347.76,
+                "details": "The speakers explicitly identify Sal's return as 'Z Flowers plus Brian Thomas plus Jauan Jennings' and say Sal now has depth / can start four wide receivers."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window begins mention of a separate proposed 'mega trade' involving Sal and Joe, but its terms and completion status are not provided before the window ends.",
+          "A garbled transcript phrase around 00:23:07–00:23:14 mentions Josh Allen, but does not reliably establish that he was part of the Austin–Sal trade."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "An accepted multi-player trade sent Josh Allen to Joe/GreenMeansMoney from SalVettri; Joe was described as 4–6 and one game outside the postseason.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Joe (team shown as GreenMeansMoney) completed a trade with SalVettri, acquiring Josh Allen, Gus Edwards, Javonte Williams, Jalen Coker, and $20 FAAB. SalVettri received Sam Darnold, Nick Chubb, Courtland Sutton, and Rico Dowdle.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Joe",
+              "GreenMeansMoney",
+              "SalVettri",
+              "Josh Allen",
+              "Gus Edwards",
+              "Javonte Williams",
+              "Jalen Coker",
+              "Sam Darnold",
+              "Nick Chubb",
+              "Courtland Sutton",
+              "Rico Dowdle"
+            ],
+            "facts": [
+              {
+                "name": "Joe/GreenMeansMoney receives",
+                "value": "Josh Allen; Gus Edwards; Javonte Williams; Jalen Coker; $20 FAAB"
+              },
+              {
+                "name": "SalVettri receives",
+                "value": "Sam Darnold; Nick Chubb; Courtland Sutton; Rico Dowdle"
+              },
+              {
+                "name": "Trade status",
+                "value": "Accepted"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1464.64,
+                "end_seconds": 1471.0,
+                "details": "Transcript says Joe gets Josh Allen and had sent his depth away; the on-screen accepted trade card lists the complete exchange."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Joe was stated to be 4–6 and one game out of the postseason at that time.",
+            "status": "reported",
+            "confidence": 0.86,
+            "raw_names": [
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "Record",
+                "value": "4-6"
+              },
+              {
+                "name": "Postseason position",
+                "value": "One game out"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1444.56,
+                "end_seconds": 1451.04,
+                "details": "Speaker says Joe is '4 and six' and 'only one game out of the postseason.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The visual identifies Joe's team as GreenMeansMoney, but it does not explicitly display Joe's owner name; the owner-team association is supported by the narration."
+        ]
+      }
+    },
+    {
+      "window_index": 9,
+      "start": 1620.0,
+      "end": 1800.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 11 previews show Sal’s rebuilt roster entering a close projected matchup with Nathan, plus a projected Zach–Mason matchup. No completed matchup result is shown.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Week 11 matchup preview: Nathan (@NathanSchmidt, 4-6) vs. Sal (@SalVetri, 3-7). Nathan is projected 52% to win, 117.88–115.55; all 10 players for each side are still yet to play.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Nathan",
+              "Sal",
+              "@NathanSchmidt",
+              "@SalVetri"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "11"
+              },
+              {
+                "name": "team_owner_1",
+                "value": "Nathan"
+              },
+              {
+                "name": "record_1",
+                "value": "4-6"
+              },
+              {
+                "name": "projected_win_probability_1",
+                "value": "52%"
+              },
+              {
+                "name": "projected_points_1",
+                "value": "117.88"
+              },
+              {
+                "name": "team_owner_2",
+                "value": "Sal"
+              },
+              {
+                "name": "record_2",
+                "value": "3-7"
+              },
+              {
+                "name": "projected_win_probability_2",
+                "value": "48%"
+              },
+              {
+                "name": "projected_points_2",
+                "value": "115.55"
+              },
+              {
+                "name": "status",
+                "value": "Upcoming; 10 players yet to play for each team"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1657.555,
+                "end_seconds": 1668.0,
+                "details": "Week 11 matchup screen identifies Nathan and Sal, records, projections, probabilities, and that both sides have 10 players yet to play."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1677.0,
+                "end_seconds": 1682.6,
+                "details": "Speaker says Sal needs wins and that this week begins with a matchup against him; the visual identifies the opponent as Nathan."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Sal’s Week 11 starting lineup shown against Nathan includes Bo Nix, Nick Chubb, Brian Robinson, Zay Flowers, Courtland Sutton, and Evan Engram. The screen also shows Jauan Jennings and additional players lower in the lineup/bench, but not all roles are fully visible.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Sal",
+              "B. Nix",
+              "N. Chubb",
+              "B. Robinson",
+              "Z. Flowers",
+              "C. Sutton",
+              "E. Engram",
+              "Jauan Jennings"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "11"
+              },
+              {
+                "name": "team_owner",
+                "value": "Sal"
+              },
+              {
+                "name": "starter_qb",
+                "value": "Bo Nix"
+              },
+              {
+                "name": "starter_rb",
+                "value": "Nick Chubb"
+              },
+              {
+                "name": "starter_rb",
+                "value": "Brian Robinson"
+              },
+              {
+                "name": "starter_wr",
+                "value": "Zay Flowers"
+              },
+              {
+                "name": "starter_wr",
+                "value": "Courtland Sutton"
+              },
+              {
+                "name": "starter_te",
+                "value": "Evan Engram"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1657.555,
+                "end_seconds": 1688.0,
+                "details": "The Week 11 matchup screen lists Sal’s starters: B. Nix, N. Chubb, B. Robinson, Z. Flowers, C. Sutton, and E. Engram."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1684.56,
+                "end_seconds": 1702.28,
+                "details": "Speaker reads Sal’s roster, naming Bo Nix, Nick Chubb, Brian Robinson, Zay Flowers, Courtland Sutton, Evan Engram, and Jauan Jennings."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Trevor Lawrence is said to have “gone down” while Sal has Evan Engram at tight end; this is NFL injury context rather than a confirmed fantasy roster transaction.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Trevor Lawrence",
+              "Evan Engram",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "affected_fantasy_owner",
+                "value": "Sal"
+              },
+              {
+                "name": "affected_fantasy_player",
+                "value": "Evan Engram"
+              },
+              {
+                "name": "reported_nfl_context",
+                "value": "Trevor Lawrence 'going down'"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1709.48,
+                "end_seconds": 1718.0,
+                "details": "During the review of Sal’s roster, the speaker says, “we have Evan Ingram at tight end,” then, “rip Trevor Lawrence going down.”"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Week 11 preview shows Zach at 8-2 and Mason at 6-4; their matchup is projected even at 50%–50%, with Zach projected 121.54 points and Mason 120.99.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Zach",
+              "Mason",
+              "@zaxavage",
+              "@MasonDodd"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "11"
+              },
+              {
+                "name": "team_owner_1",
+                "value": "Zach"
+              },
+              {
+                "name": "record_1",
+                "value": "8-2"
+              },
+              {
+                "name": "projected_points_1",
+                "value": "121.54"
+              },
+              {
+                "name": "team_owner_2",
+                "value": "Mason"
+              },
+              {
+                "name": "record_2",
+                "value": "6-4"
+              },
+              {
+                "name": "projected_points_2",
+                "value": "120.99"
+              },
+              {
+                "name": "projected_win_probability",
+                "value": "50%-50%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1778.967,
+                "end_seconds": 1798.433,
+                "details": "Week 11 Zach–Mason matchup display shows Zach 8-2, Mason 6-4, a 50%-50% projection, and projected totals of 121.54 and 120.99."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1787.679,
+                "end_seconds": 1794.48,
+                "details": "Speaker says Zach is first in the league and has lost only two games."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "This window references Sal’s prior trades but does not identify the trade partners or assets, so no specific trade can be recorded from this segment.",
+          "The exact extent/status of Trevor Lawrence’s issue is not stated; only the phrase “going down” is provided."
+        ]
+      }
+    },
+    {
+      "window_index": 10,
+      "start": 1800.0,
+      "end": 1980.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 11 preview: league matchups and records are shown; Zach reports several unavailable players before facing Mason, and Zach/Mason agree to a performance wager.",
+        "observations": [
+          {
+            "category": "injury_update",
+            "summary": "Zach reports that Malik Nabers, Trey McBride, Mike Evans, and Chris Olave are unavailable for his Week 11 matchup with Mason; he says he may need to start Mike Williams at WR and Tyjae Spears at flex.",
+            "status": "reported",
+            "confidence": 0.88,
+            "raw_names": [
+              "Zach",
+              "Mason",
+              "Malik Nabers",
+              "Trey McBride",
+              "Mike Evans",
+              "Chris Olave",
+              "Mike Williams",
+              "Tyjae Spears"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "11"
+              },
+              {
+                "name": "affected_owner",
+                "value": "Zach"
+              },
+              {
+                "name": "opponent",
+                "value": "Mason"
+              },
+              {
+                "name": "reported_unavailable_players",
+                "value": "Malik Nabers; Trey McBride; Mike Evans; Chris Olave"
+              },
+              {
+                "name": "possible_replacement_starters",
+                "value": "Mike Williams at WR; Tyjae Spears at flex"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1825.159,
+                "end_seconds": 1848.12,
+                "details": "Zach says he has no Nabers, McBride, Evans, or Olave and describes possible replacements."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1825.133,
+                "end_seconds": 1830.0,
+                "details": "Week 11 matchup screen shows @zaxsavage (Zach) versus @MasonDodd (Mason)."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Zach and Mason agree to a Week 11 matchup wager: the loser will perform a song—Mason the U.S. national anthem, or Zach Chili's \"Baby Back Ribs\" song—in Monday's video.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach",
+              "Mason",
+              "Chili's Baby Back Ribs"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "11"
+              },
+              {
+                "name": "participants",
+                "value": "Zach and Mason"
+              },
+              {
+                "name": "loser_penalty",
+                "value": "Mason sings the national anthem; Zach sings the Chili's Baby Back Ribs song"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1800.039,
+                "end_seconds": 1809.159,
+                "details": "Mason's DM proposes the national-anthem wager, and Zach accepts."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1891.919,
+                "end_seconds": 1924.12,
+                "details": "The discussion specifies Zach's Baby Back Ribs performance if he loses and ends with both agreeing."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1901.667,
+                "end_seconds": 1901.667,
+                "details": "Discord messages show the national-anthem proposal and a Chili's Baby Back Ribs commercial as the alternative."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The Week 11 matchup board shows Zach (8-2) vs. Mason (6-4), Bush (4-6) vs. Tom (4-6), Nathan (4-6) vs. Sal (3-7), Danny (5-5) vs. Thomas (5-5), and Avery (5-5) vs. Badake (5-5).",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Zach",
+              "Mason",
+              "Bush",
+              "Tom",
+              "Nathan",
+              "Sal",
+              "Danny",
+              "Thomas",
+              "Avery",
+              "Badake"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "11"
+              },
+              {
+                "name": "matchups_and_records",
+                "value": "Zach 8-2 vs Mason 6-4; Bush 4-6 vs Tom 4-6; Nathan 4-6 vs Sal 3-7; Danny 5-5 vs Thomas 5-5; Avery 5-5 vs Badake 5-5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1957.967,
+                "end_seconds": 1957.967,
+                "details": "The Flock League Week 11 matchup board visibly lists all five pairings and their records."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The reported absences for Zach's players are not individually identified as injuries, byes, or another availability reason in this window.",
+          "No Week 11 matchup results are available in this window; the displayed numbers are pre-game projections, not final scores."
+        ]
+      }
+    },
+    {
+      "window_index": 11,
+      "start": 1980.0,
+      "end": 2094.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 11 previews: Danny vs. Thomas and Badake vs. Avery. Danny makes a free-agent swap and discusses lineup/injury considerations.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Danny (Dannylad21) made a free-agent move, adding JuJu Smith-Schuster and dropping Marquez Valdes-Scantling.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Dannylad21",
+              "JuJu Smith-Schuster",
+              "Marquez Valdes-Scantling"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Danny"
+              },
+              {
+                "name": "added",
+                "value": "JuJu Smith-Schuster"
+              },
+              {
+                "name": "dropped",
+                "value": "Marquez Valdes-Scantling"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 2019.194,
+                "end_seconds": 2021.0,
+                "details": "The league-app activity panel explicitly says “Dannylad21 made a free agent move,” with JuJu Smith-Schuster marked + and Marquez Valdes-Scantling marked −."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Danny and Thomas were both 5-5 entering their Week 11 matchup.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Danny",
+              "Thomas",
+              "Dannylad21",
+              "ThomasWadde"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "11"
+              },
+              {
+                "name": "Danny record",
+                "value": "5-5"
+              },
+              {
+                "name": "Thomas record",
+                "value": "5-5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 2036.12,
+                "end_seconds": 2047.639,
+                "details": "Danny states that both teams are 5-5 and calls the game important for the playoff race; the Week 11 matchup display identifies Dannylad21 versus ThomasWadde and shows each at 5-5."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Danny says Tee Higgins has a quad injury and is uncertain to play in Week 11.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Tee Higgins"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Danny"
+              },
+              {
+                "name": "injury",
+                "value": "quad"
+              },
+              {
+                "name": "Week 11 availability",
+                "value": "uncertain"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2073.24,
+                "end_seconds": 2082.28,
+                "details": "Danny says he has Tee Higgins and repeatedly frames whether Higgins will play that week as uncertain, referring to Higgins's quad."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Danny says Anthony Richardson was announced as the Colts' starting quarterback again.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Anthony Richardson"
+            ],
+            "facts": [
+              {
+                "name": "NFL team",
+                "value": "Indianapolis Colts"
+              },
+              {
+                "name": "role",
+                "value": "starting quarterback"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2008.76,
+                "end_seconds": 2013.76,
+                "details": "Danny says it was announced that Anthony Richardson is starting for the Colts again."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Badake and Avery were each 5-5 in their displayed Week 11 matchup.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Badake",
+              "Avery",
+              "averyhuffman"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "11"
+              },
+              {
+                "name": "Badake record",
+                "value": "5-5"
+              },
+              {
+                "name": "Avery record",
+                "value": "5-5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 2030.0,
+                "end_seconds": 2045.333,
+                "details": "The Week 11 league-app matchup display shows @Badake versus @averyhuffman, with both records listed as 5-5."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not show completed Week 11 results; displayed percentages and point totals are pregame projections, not matchup outcomes.",
+          "Danny's exact team name is shown as “Hit with the Nico,” while Thomas's is shown as “Team ThomasWadde”; these are not treated as stable owner identities."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "The opening claim that three trades had occurred is not independently resolved as a complete set; several completed trades are shown, but the exact intended three is unclear.",
+    "Mason discussed a potential Josh Allen deal with Sal involving Jaylen Waddle and Rhamondre Stevenson, but no completed Mason–Sal Josh Allen transaction is shown. Josh Allen ultimately appears in the confirmed Sal–Joe trade.",
+    "A reported Mason offer of Jaylen Waddle and Najee Harris for De'Von Achane involved a person referred to as Cory/Corey, whose identity is not among the supplied Season 1 owner list.",
+    "Week 11 results and final scores are not available; all matchup figures shown in the episode are pregame projections."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize stable team-owner identities over changing team names and distinguish league events from NFL context.",
+      "status": "fulfilled",
+      "details": "Events use supplied owner names where supported; NFL availability and injury discussion is labeled as reported context rather than league transactions."
+    },
+    {
+      "instruction": "Track confirmed matchups, scores, trades, injuries, and waiver actions without inventing details.",
+      "status": "fulfilled",
+      "details": "Recorded supported trades and roster moves with timestamps. No final Week 11 results or scores were invented because the episode only shows previews."
+    },
+    {
+      "instruction": "Treat transcript and visual material as evidence, giving visual evidence priority and retaining uncertainty.",
+      "status": "fulfilled",
+      "details": "Accepted trade cards and waiver screens are marked confirmed; proposals, rumors, and unclear identities are preserved as open questions rather than confirmed events."
+    },
+    {
+      "instruction": "Keep recap concise and identify items requiring review.",
+      "status": "fulfilled",
+      "details": "The recap is limited to the standings, confirmed transactions, and Week 11 setup; unresolved trade and identity issues appear in open_questions."
+    }
+  ],
+  "supplemental_outputs": []
+}

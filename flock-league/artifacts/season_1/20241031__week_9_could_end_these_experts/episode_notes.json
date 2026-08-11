@@ -1,0 +1,1299 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T20:00:42.671838+00:00",
+  "fingerprint": "dd2189226410cd2fa4a5e17768eded6900088a74eb39b359509cfcc2e3f8a0a2",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "Mph1sql7rIU",
+  "video_title": "Week 9 Could End These \"Experts\"",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Week 9 Could End These \"Experts\"",
+      "upload_date": "20241031",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Intro/teaser material features joking NFL-head-coach comparisons among league members; no completed fantasy matchup, transaction, injury, or verified standings result is shown.",
+        "observations": [],
+        "open_questions": [
+          "Mason states he has had a winning record all season (00:01:39.320–00:01:43.280), but no record or standings graphic is provided to verify it."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The segment compares league owners to NFL coaches and mentions roster composition, but contains no completed matchup, trade, waiver, or injury event.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Avery is described as having Justin Jefferson and Amon-Ra St. Brown on his fantasy roster.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Avery",
+              "Justin Jefferson",
+              "Amon-Ra St. Brown"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Avery"
+              },
+              {
+                "name": "roster_players",
+                "value": "Justin Jefferson; Amon-Ra St. Brown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 207.08,
+                "end_seconds": 213.76,
+                "details": "Narrator says, “Avery's got Justin Jefferson and Amon-Ra St. Brown ... on his fantasy team.”"
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Nathan is described as rostering Puka Nacua.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Nathan",
+              "Puka Nacua"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "roster_player",
+                "value": "Puka Nacua"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 262.88,
+                "end_seconds": 289.76,
+                "details": "The speaker identifies the criticized owner as Nathan, then says his players are “pretty mid outside of Puka Nacua.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "At 00:05:59.680, the transcript renders an owner name as “back”; this may refer to Badake, but the identity and the incomplete thought should be reviewed before recording any roster/standing claim."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Discussion centers on Badake's injury-affected fantasy roster; no completed matchup results, trades, or waiver moves are shown.",
+        "observations": [
+          {
+            "category": "injury",
+            "summary": "Badake is described as having suffered untimely roster injuries, including Jordan Love going down.",
+            "status": "reported",
+            "confidence": 0.88,
+            "raw_names": [
+              "Bake",
+              "Badake",
+              "Jordan Love"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Badake"
+              },
+              {
+                "name": "player",
+                "value": "Jordan Love"
+              },
+              {
+                "name": "reported_issue",
+                "value": "Went down/injury"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 416.56,
+                "end_seconds": 422.32,
+                "details": "Speakers say “bake” has had untimely injuries and specifically cite “Jordan Love going down”; the on-screen participant label identifies Badake."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Badake says he has had injuries to overcome and names Brandon Aiyuk among his roster losses.",
+            "status": "reported",
+            "confidence": 0.83,
+            "raw_names": [
+              "Badake",
+              "Brandon Aiyuk"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Badake"
+              },
+              {
+                "name": "player",
+                "value": "Brandon Aiyuk"
+              },
+              {
+                "name": "reported_issue",
+                "value": "Badake says he lost him"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 471.68,
+                "end_seconds": 481.28,
+                "details": "Badake says, “what have I done with my roster? I lost Brandon Aiyuk...” and says he has had injuries to overcome; the speaker is visually labeled BADAAKE earlier in the segment."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript after “Brandon Aiyuk” is garbled. It appears to reference De’Von Achane and Tua Tagovailoa, but the exact roster/injury claim is not clear enough to record."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 9 waiver claims are reviewed; the visible league feed confirms several processed add/drop transactions, including Nathan adding Parker Washington for $6.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Nathan added Parker Washington (WR, JAX) for a $6 waiver bid and dropped Trey Palmer (WR, TB).",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "NathanSchmidt",
+              "Parker Washington",
+              "Trey Palmer"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "add",
+                "value": "Parker Washington (WR, JAX)"
+              },
+              {
+                "name": "drop",
+                "value": "Trey Palmer (WR, TB)"
+              },
+              {
+                "name": "winning_waiver_bid",
+                "value": "$6"
+              },
+              {
+                "name": "total_bids",
+                "value": "5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 600.054,
+                "end_seconds": 613.519,
+                "details": "The league waiver-claims card identifies NathanSchmidt's roster, adding Parker Washington for $6 and dropping Trey Palmer; narration states Nathan outbid everyone for Washington at $6."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Thomas added Matthew Stafford (QB, LAR) for a $6 waiver bid and dropped Andrei Iosivas (WR, CIN).",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "ThomasWadde",
+              "Matthew Stafford",
+              "Andrei Iosivas"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Thomas"
+              },
+              {
+                "name": "add",
+                "value": "Matthew Stafford (QB, LAR)"
+              },
+              {
+                "name": "drop",
+                "value": "Andrei Iosivas (WR, CIN)"
+              },
+              {
+                "name": "winning_waiver_bid",
+                "value": "$6"
+              },
+              {
+                "name": "total_bids",
+                "value": "4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 626.967,
+                "end_seconds": 626.967,
+                "details": "The visible processed-claims list shows ThomasWadde's Roster adding Matthew Stafford for $6 and dropping Andrei Iosivas; it lists four total bids."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Sal added Jalen Coker (WR, CAR) for $4 and dropped Christian Kirk (WR, JAX).",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "SalVedri",
+              "Jalen Coker",
+              "Christian Kirk"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Sal"
+              },
+              {
+                "name": "add",
+                "value": "Jalen Coker (WR, CAR)"
+              },
+              {
+                "name": "drop",
+                "value": "Christian Kirk (WR, JAX)"
+              },
+              {
+                "name": "winning_waiver_bid",
+                "value": "$4"
+              },
+              {
+                "name": "total_bids",
+                "value": "4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 626.967,
+                "end_seconds": 626.967,
+                "details": "The visible processed-claims list shows SalVedri's Roster adding Jalen Coker for $4 and dropping Christian Kirk, with four total bids."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Christian Kirk was said to be out for the rest of the season; Sal had just dropped him in the visible waiver transaction.",
+            "status": "reported",
+            "confidence": 0.88,
+            "raw_names": [
+              "Christian Kirk",
+              "SalVedri"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Christian Kirk"
+              },
+              {
+                "name": "reported_availability",
+                "value": "Out for the rest of the season"
+              },
+              {
+                "name": "fantasy_owner_at_time_of_waiver",
+                "value": "Sal"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 613.519,
+                "end_seconds": 616.279,
+                "details": "Narration says Christian Kirk is out for the rest of the season; the waiver list shown immediately before identifies Kirk as dropped from SalVedri's roster."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Mason added Caleb Williams (QB, CHI) for a $3 waiver bid; the corresponding dropped player is not visible in the supplied frame.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "MasonDodd",
+              "Caleb Williams"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Mason"
+              },
+              {
+                "name": "add",
+                "value": "Caleb Williams (QB, CHI)"
+              },
+              {
+                "name": "winning_waiver_bid",
+                "value": "$3"
+              },
+              {
+                "name": "total_bids",
+                "value": "2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 626.967,
+                "end_seconds": 626.967,
+                "details": "The visible processed-claims list shows MasonDodd's Roster adding Caleb Williams for $3, with two total bids. The lower portion containing any drop is cut off."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Which player did Mason drop in the Caleb Williams waiver transaction?",
+          "The exact visual spelling of Thomas's dropped player appears to be Andrei Iosivas and should be checked against the source-resolution waiver screen."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Waiver activity is shown for Sal, Mason, Zach, Danny, and likely Thomas; the segment also references Nathan's Puka Nacua injury and begins discussing an unelaborated Justin Jefferson trade.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Sal added Jalen Coker and dropped Christian Kirk for a $4 winning waiver bid.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Sal",
+              "Jalen Coker",
+              "Christian Kirk"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Sal"
+              },
+              {
+                "name": "added",
+                "value": "Jalen Coker (WR-CAR)"
+              },
+              {
+                "name": "dropped",
+                "value": "Christian Kirk (WR-JAX)"
+              },
+              {
+                "name": "winning_bid",
+                "value": "$4"
+              },
+              {
+                "name": "total_bids",
+                "value": "4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 750.0,
+                "end_seconds": 754.56,
+                "details": "Transcript says the speaker got Jalen Coker; Sleeper waiver display labels 'SalVetri's Roster' with Coker added, Kirk dropped, $4, and total bids 4."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Mason added Caleb Williams for $3.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Mason",
+              "Caleb Williams"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Mason"
+              },
+              {
+                "name": "added",
+                "value": "Caleb Williams (QB-CHI)"
+              },
+              {
+                "name": "winning_bid",
+                "value": "$3"
+              },
+              {
+                "name": "total_bids",
+                "value": "2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 754.56,
+                "end_seconds": 791.64,
+                "details": "The Sleeper display labels 'MasonDodd's Roster' and shows Caleb Williams added for $3 (two total bids); narration says Mason picked him back up."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Zach added Bo Nix for $1.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Zach",
+              "Bo Nix"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Zach"
+              },
+              {
+                "name": "added",
+                "value": "Bo Nix (QB-DEN)"
+              },
+              {
+                "name": "winning_bid",
+                "value": "$1"
+              },
+              {
+                "name": "total_bids",
+                "value": "4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 811.64,
+                "end_seconds": 842.4,
+                "details": "Narration says Zach grabbed Bo Nix; Sleeper display shows 'zaxavage's Roster' adding Bo Nix for $1, with four total bids."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Danny added John Metchie and dropped Isaac Guerendo for $0.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Danny",
+              "John Metchie",
+              "Isaac Guerendo"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Danny"
+              },
+              {
+                "name": "added",
+                "value": "John Metchie (WR-HOU)"
+              },
+              {
+                "name": "dropped",
+                "value": "Isaac Guerendo (RB-SF)"
+              },
+              {
+                "name": "winning_bid",
+                "value": "$0"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 848.56,
+                "end_seconds": 852.16,
+                "details": "Narration states Danny picked up John Metchie; Sleeper display labels 'Dannylad21's Roster' with Metchie added and Guerendo dropped for $0."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Thomas appears to have added Matthew Stafford and dropped Andrei Iosivas for $6.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Thomas",
+              "Matthew Stafford",
+              "Andrei Iosivas"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Thomas"
+              },
+              {
+                "name": "added",
+                "value": "Matthew Stafford (QB-LAR)"
+              },
+              {
+                "name": "dropped",
+                "value": "Andrei Iosivas (WR-CIN)"
+              },
+              {
+                "name": "winning_bid",
+                "value": "$6"
+              },
+              {
+                "name": "total_bids",
+                "value": "4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 774.77,
+                "end_seconds": 776.77,
+                "details": "Sleeper waiver list visibly shows a roster label beginning 'ThomasWadde...' with Matthew Stafford added, Andrei Iosivas dropped, a $6 bid, and four total bids. The roster-label suffix is slightly unclear, but it corresponds to league owner Thomas."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Puka Nacua's Week 1 injury is referenced as having affected Nathan, who had been talking up the player.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Nathan",
+              "Puka Nacua"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Puka Nacua"
+              },
+              {
+                "name": "injury_timing",
+                "value": "Week 1"
+              },
+              {
+                "name": "fantasy_owner_association",
+                "value": "Nathan (implied by narration)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 739.64,
+                "end_seconds": 746.4,
+                "details": "Narration and the on-screen ranked-item graphic state that Puka was injured in Week 1 and immediately refer to Nathan having bragged about Puka. No injury type is supplied."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "A Justin Jefferson trade is introduced at 00:14:55.44, but the supplied window ends before any trade terms or participating owner are provided.",
+          "The reference that a 'Ray Davis miss' cost Nathan a win (00:13:31.64–00:13:36.40) does not identify the relevant waiver details, matchup, or score."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Waiver activity is shown, including several processed claims; a speaker says he acquired Justin Jefferson and separately secured Jameis Winston for QB insurance because Drake Maye has a concussion. Sal and Danny are discussed only as an upcoming Week 9 matchup.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "A speaker says he received Justin Jefferson in a trade for “essentially nothing.” The recipient's owner identity is not established in this window.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Justin Jefferson"
+            ],
+            "facts": [
+              {
+                "name": "acquired_player",
+                "value": "Justin Jefferson"
+              },
+              {
+                "name": "compensation",
+                "value": "Described only as “essentially nothing”; no specific return is supplied."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 897.959,
+                "end_seconds": 903.04,
+                "details": "Transcript: “the dude gave me Justin Jefferson for essentially nothing.” The on-screen topic list includes “JJ TRADE” at 900.994."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Nathan added Parker Washington and dropped Trey Palmer for $6 in processed waivers.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "NathanSchmitt's Roster",
+              "Parker Washington",
+              "Trey Palmer"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "add",
+                "value": "Parker Washington"
+              },
+              {
+                "name": "drop",
+                "value": "Trey Palmer"
+              },
+              {
+                "name": "waiver_cost",
+                "value": "$6"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 926.7,
+                "end_seconds": 929.0,
+                "details": "League chat waiver log shows NathanSchmitt's Roster adding Parker Washington, dropping Trey Palmer, for $6."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Thomas added Matthew Stafford and dropped Andrei Iosivas for $6 in processed waivers.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "ThomasWaddle's Roster",
+              "Matthew Stafford",
+              "Andrei Iosivas"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Thomas"
+              },
+              {
+                "name": "add",
+                "value": "Matthew Stafford"
+              },
+              {
+                "name": "drop",
+                "value": "Andrei Iosivas"
+              },
+              {
+                "name": "waiver_cost",
+                "value": "$6"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 926.7,
+                "end_seconds": 929.0,
+                "details": "League chat waiver log shows ThomasWaddle's Roster adding Matthew Stafford, dropping Andrei Iosivas, for $6."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Sal added Jalen Coker and dropped Christian Kirk for $4 in processed waivers.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "SalVetri's Roster",
+              "Jalen Coker",
+              "Christian Kirk"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Sal"
+              },
+              {
+                "name": "add",
+                "value": "Jalen Coker"
+              },
+              {
+                "name": "drop",
+                "value": "Christian Kirk"
+              },
+              {
+                "name": "waiver_cost",
+                "value": "$4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 926.7,
+                "end_seconds": 929.0,
+                "details": "League chat waiver log shows SalVetri's Roster adding Jalen Coker, dropping Christian Kirk, for $4."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "An unidentified speaker says he secured Jameis Winston from waivers as quarterback insurance.",
+            "status": "confirmed",
+            "confidence": 0.75,
+            "raw_names": [
+              "jamus Winson",
+              "Drake May"
+            ],
+            "facts": [
+              {
+                "name": "add",
+                "value": "Jameis Winston"
+              },
+              {
+                "name": "reason",
+                "value": "Quarterback insurance"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 915.12,
+                "end_seconds": 919.12,
+                "details": "Transcript: “we also do secure jamus Winson off the wire again do need some quarterback insurance.”"
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Drake Maye is said to be dealing with a concussion; this is cited as the reason for the speaker's quarterback-insurance waiver move.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Drake May"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Drake Maye"
+              },
+              {
+                "name": "reported_issue",
+                "value": "Concussion"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 917.16,
+                "end_seconds": 920.36,
+                "details": "Transcript says the speaker needs QB insurance “with Drake May dealing with that concussion.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The owner who says he acquired Justin Jefferson and Jameis Winston is not explicitly identified in this window.",
+          "The on-screen waiver list also includes partially legible entries for MasonDodd's Roster and zachary's Roster; their corresponding dropped players are not clear enough here to record."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 9 matchup previews, injury concerns, and several visible free-agent transactions.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason predicted an easy upcoming matchup against Joe; this was pregame trash talk, not a result.",
+            "status": "speculative",
+            "confidence": 0.91,
+            "raw_names": [
+              "Mason",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Mason vs. Joe"
+              },
+              {
+                "name": "claim",
+                "value": "Mason called the matchup effectively a bye and said Joe was the league's worst team."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1087.96,
+                "end_seconds": 1104.04,
+                "details": "Mason says he will put a 'Beatdown' on Joe and calls the matchup effectively a bye."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Nathan listed seven players on his fantasy roster as questionable ahead of his matchup with Avery.",
+            "status": "reported",
+            "confidence": 0.92,
+            "raw_names": [
+              "Nathan",
+              "Avery",
+              "Jayden Daniels",
+              "Tee Higgins",
+              "Jakobi Meyers",
+              "Jared Goff",
+              "Travis Etienne",
+              "Tank Bigsby",
+              "Quentin Johnston"
+            ],
+            "facts": [
+              {
+                "name": "fantasy matchup",
+                "value": "Nathan vs. Avery"
+              },
+              {
+                "name": "questionable players",
+                "value": "Jayden Daniels; Tee Higgins; Jakobi Meyers; Jared Goff; Travis Etienne; Tank Bigsby; Quentin Johnston"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1104.76,
+                "end_seconds": 1117.52,
+                "details": "Avery says he is favored by about 25 over Nathan; Nathan then lists the seven players as questionable."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1151.474,
+                "end_seconds": 1155.474,
+                "details": "A matchup lineup is displayed alongside Nathan's comments; Tee Higgins and J. Meyers visibly carry questionable-status icons."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "ThomasWaddle’s roster added Matthew Stafford and dropped Andrei Iosivas for $6 in free-agent bidding.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "ThomasWaddle",
+              "Matthew Stafford",
+              "Andrei Iosivas"
+            ],
+            "facts": [
+              {
+                "name": "added",
+                "value": "Matthew Stafford"
+              },
+              {
+                "name": "dropped",
+                "value": "Andrei Iosivas"
+              },
+              {
+                "name": "bid",
+                "value": "$6"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1180.0,
+                "end_seconds": 1182.0,
+                "details": "League-chat transaction log visibly lists ThomasWaddle’s Roster: Matthew Stafford added, Andrei Iosivas dropped, $6."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "SalVert’s roster added Jalen Coker and dropped Christian Kirk for $4 in free-agent bidding.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "SalVert",
+              "Jalen Coker",
+              "Christian Kirk"
+            ],
+            "facts": [
+              {
+                "name": "added",
+                "value": "Jalen Coker"
+              },
+              {
+                "name": "dropped",
+                "value": "Christian Kirk"
+              },
+              {
+                "name": "bid",
+                "value": "$4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1180.0,
+                "end_seconds": 1182.0,
+                "details": "League-chat transaction log visibly lists SalVert’s Roster: Jalen Coker added, Christian Kirk dropped, $4."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Other visible free-agent transactions: Parker Washington for Tony Pollard ($6), Caleb Williams added by MasonDodd ($3), Bo Nix added by zaxvage ($1), and John Metchie added for Isaac Guerendo by Dannyyd421 ($0).",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Parker Washington",
+              "Tony Pollard",
+              "MasonDodd",
+              "Caleb Williams",
+              "zaxvage",
+              "Bo Nix",
+              "Dannyyd421",
+              "John Metchie",
+              "Isaac Guerendo"
+            ],
+            "facts": [
+              {
+                "name": "transaction",
+                "value": "Parker Washington added; Tony Pollard dropped; $6 bid; roster label is not legible."
+              },
+              {
+                "name": "transaction",
+                "value": "MasonDodd added Caleb Williams for $3."
+              },
+              {
+                "name": "transaction",
+                "value": "zaxvage added Bo Nix for $1."
+              },
+              {
+                "name": "transaction",
+                "value": "Dannyyd421 added John Metchie and dropped Isaac Guerendo for $0."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1180.0,
+                "end_seconds": 1182.0,
+                "details": "League-chat transaction log shows the Parker Washington/Tony Pollard, MasonDodd/Caleb Williams, zaxvage/Bo Nix, and Dannyyd421/John Metchie/Isaac Guerendo transactions."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Danny was said to have lost three straight games and four of his past five entering his Week 9 matchup with Sal.",
+            "status": "reported",
+            "confidence": 0.93,
+            "raw_names": [
+              "Danny",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Danny vs. Sal"
+              },
+              {
+                "name": "recent record",
+                "value": "Lost 3 straight and 4 of the last 5 games"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1219.08,
+                "end_seconds": 1226.84,
+                "details": "Narration identifies Danny versus Sal and says Danny has lost three straight and four of his last five."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "A possible injury to raw name \"Ral\" was mentioned; the speaker said the player was currently on Danny's team.",
+            "status": "unclear",
+            "confidence": 0.45,
+            "raw_names": [
+              "Ral",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "roster association",
+                "value": "Ral was said to be on Danny's team for the time being."
+              },
+              {
+                "name": "injury status",
+                "value": "Possible injury only; no diagnosis or confirmed player identity was provided."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1226.84,
+                "end_seconds": 1231.16,
+                "details": "Speaker says, 'we may or may not be looking at an injury for Ral,' and says the player is on Danny's team."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript renders Danny's possible injured player as \"Ral\"; player identity requires review.",
+          "The owner/team associated with the Parker Washington-for-Tony Pollard transaction is unreadable in the supplied visual."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1415.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 9 matchup previews show Sal vs. Danny and Zach vs. Bush; the window also mentions a reported $37 Tyler Johnson free-agent bid without clearly identifying the manager.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Week 9 scheduled matchup: Sal versus Danny. The displayed records are Sal 3-5 and Danny 4-4, with Sal projected ahead 121.05 to 108.30 (60% to 40%). This is a pregame projection, not a result.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "@SalVettri",
+              "@DannyVd21",
+              "Cooked",
+              "The Infirmary"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "9"
+              },
+              {
+                "name": "owner_1",
+                "value": "Sal"
+              },
+              {
+                "name": "owner_1_record",
+                "value": "3-5"
+              },
+              {
+                "name": "owner_2",
+                "value": "Danny"
+              },
+              {
+                "name": "owner_2_record",
+                "value": "4-4"
+              },
+              {
+                "name": "projected_score",
+                "value": "Sal 121.05, Danny 108.30"
+              },
+              {
+                "name": "win_probability",
+                "value": "Sal 60%, Danny 40%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1260.0,
+                "end_seconds": 1265.04,
+                "details": "The matchup screen displays @SalVettri vs @DannyVd21, their records, and the 121.05-108.30 projection; transcript discusses the possible resulting records depending on who wins."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Week 9 scheduled matchup: Zach versus Bush. Zach is 7-1 and Bush is 4-4; Zach is projected ahead 145.24 to 125.54, with a 63% to 37% win probability. This is a pregame projection, not a result.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "@zachvague",
+              "@BushLeaguee",
+              "Do it For Chris",
+              "Cinderella Story"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "9"
+              },
+              {
+                "name": "owner_1",
+                "value": "Zach"
+              },
+              {
+                "name": "owner_1_record",
+                "value": "7-1"
+              },
+              {
+                "name": "owner_2",
+                "value": "Bush"
+              },
+              {
+                "name": "owner_2_record",
+                "value": "4-4"
+              },
+              {
+                "name": "projected_score",
+                "value": "Zach 145.24, Bush 125.54"
+              },
+              {
+                "name": "win_probability",
+                "value": "Zach 63%, Bush 37%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1276.84,
+                "end_seconds": 1324.56,
+                "details": "Transcript introduces Bush against Zach and calls Zach the likely winner; the Week 9 matchup screen shows @zachvague (7-1) vs @BushLeaguee (4-4), 145.24-125.54 and 63%-37%."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "A speaker says someone spent about $37 in free-agent bidding on Tyler Johnson, criticizing it as an excessive bid. The responsible manager is not identified in this window, and the amount is stated uncertainly ('I think').",
+            "status": "reported",
+            "confidence": 0.65,
+            "raw_names": [
+              "Tyler Johnson"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Tyler Johnson"
+              },
+              {
+                "name": "reported_faab_bid",
+                "value": "approximately $37"
+              },
+              {
+                "name": "manager",
+                "value": "not identified in this window"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1387.04,
+                "end_seconds": 1399.72,
+                "details": "Transcript: 'he came out and he dropped what $37 I think on Tyler Johnson'; the on-screen ranked-item graphic reads '$37...'."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Who made the Tyler Johnson free-agent bid, and what was the exact bid amount?",
+          "The displayed matchup numbers are Week 9 projections rather than final scores; results are not available in this window."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "Who acquired Justin Jefferson, who traded him away, and what assets were exchanged?",
+    "Which manager added Jameis Winston, and can the transaction be verified on the league log?",
+    "Which player did Mason drop when adding Caleb Williams?",
+    "Who made the Tyler Johnson bid, and what was the exact FAAB amount?",
+    "The transcript renders Danny's possible injured player as 'Ral'; the player's identity and injury status require review.",
+    "No final Week 9 matchup results or final scores are shown in this episode."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize team owners over NFL players and use stable owner names.",
+      "status": "fulfilled",
+      "details": "Events identify owners where evidence establishes them; unidentified managers remain unidentified rather than inferred."
+    },
+    {
+      "instruction": "Track matchup outcomes and scores when available, and distinguish previews from results.",
+      "status": "fulfilled",
+      "details": "The recap records only the available Week 9 projections and explicitly notes that final results are not shown."
+    },
+    {
+      "instruction": "Record mentioned injuries, trades, and waiver activity.",
+      "status": "fulfilled",
+      "details": "Confirmed and reported transactions, injuries, and the incomplete Justin Jefferson trade are retained with evidence and uncertainty."
+    },
+    {
+      "instruction": "Keep notes concise and surface items requiring review.",
+      "status": "fulfilled",
+      "details": "The recap is concise, while unresolved identities, incomplete trade terms, and unavailable final results are listed as open questions."
+    },
+    {
+      "instruction": "Honor episode-specific instructions.",
+      "status": "not_applicable",
+      "details": "No episode-specific instructions or supplemental-output declarations were provided."
+    }
+  ],
+  "supplemental_outputs": []
+}

@@ -1,0 +1,1386 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T20:08:43.255391+00:00",
+  "fingerprint": "699052e7874a18988896df5ba74e0c21a6e77cea7c2ce344403b503556262829",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "RUW4MnGTMr4",
+  "video_title": "The Creators Are Exposed As Frauds",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Creators Are Exposed As Frauds",
+      "upload_date": "20241112",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Preview montage: Mason adds Jaylen Wright, leads Danny after Thursday night behind Ja'Marr Chase, and says a recently acquired Chris Olave was injured; a Josh Allen deal is discussed but not confirmed.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Mason made a free-agent addition of Jaylen Wright.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "MasonDodd",
+              "Jaylen Wright"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Mason"
+              },
+              {
+                "name": "action",
+                "value": "free-agent move"
+              },
+              {
+                "name": "player_added",
+                "value": "Jaylen Wright"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 6.067,
+                "end_seconds": 10.0,
+                "details": "League Chat visibly states: “MasonDodd made a free agent move” and shows “+ Jaylen Wright.”"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Mason led Danny 55.40–22.40 after Thursday Night Football; the matchup was still ongoing, not final.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Mason",
+              "Danny",
+              "J. Chase"
+            ],
+            "facts": [
+              {
+                "name": "owner_1",
+                "value": "Mason"
+              },
+              {
+                "name": "owner_1_score",
+                "value": "55.40"
+              },
+              {
+                "name": "owner_2",
+                "value": "Danny"
+              },
+              {
+                "name": "owner_2_score",
+                "value": "22.40"
+              },
+              {
+                "name": "matchup_state",
+                "value": "ongoing after Thursday Night Football"
+              },
+              {
+                "name": "Mason win probability shown",
+                "value": "73%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 83.0,
+                "end_seconds": 92.519,
+                "details": "Mason says Thursday Night Football has ended and asserts Danny cannot win; the lineup screen shows Mason at 55.40 versus Danny at 22.40, with 73% and 27% win probabilities and multiple players yet to play."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Ja'Marr Chase scored 55.40 fantasy points for Mason in the Thursday-night game, on 11 receptions, 264 yards, and 3 touchdowns.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "J. Chase",
+              "Ja'Marr Chase",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "fantasy owner",
+                "value": "Mason"
+              },
+              {
+                "name": "player",
+                "value": "Ja'Marr Chase"
+              },
+              {
+                "name": "fantasy_points",
+                "value": "55.40"
+              },
+              {
+                "name": "stat_line",
+                "value": "11 receptions, 264 yards, 3 touchdowns"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 78.0,
+                "end_seconds": 91.0,
+                "details": "Mason celebrates Chase's three touchdowns and 55 points; the visible fantasy lineup lists “J. Chase WR - CIN,” 55.40, and “11/17 REC, 264 YD, 3 TD.”"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Mason said Chris Olave had just been traded to his team; the other side and terms were not provided.",
+            "status": "reported",
+            "confidence": 0.79,
+            "raw_names": [
+              "Mason",
+              "Chris Olave"
+            ],
+            "facts": [
+              {
+                "name": "acquiring owner",
+                "value": "Mason"
+              },
+              {
+                "name": "player_acquired",
+                "value": "Chris Olave"
+              },
+              {
+                "name": "trade_counterparty",
+                "value": "not shown"
+              },
+              {
+                "name": "trade_terms",
+                "value": "not shown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 151.72,
+                "end_seconds": 164.0,
+                "details": "The speaker labeled MASON says, “guy we just traded for Chris Olave…”; he then discusses lineup options."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Mason reported that Chris Olave took a head impact after the trade, raising a possible concussion concern.",
+            "status": "reported",
+            "confidence": 0.75,
+            "raw_names": [
+              "Chris Olave",
+              "Derek Carr",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Mason"
+              },
+              {
+                "name": "player",
+                "value": "Chris Olave"
+              },
+              {
+                "name": "reported_issue",
+                "value": "head impact / possible concussion"
+              },
+              {
+                "name": "injury_status",
+                "value": "not confirmed in this window"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 156.0,
+                "end_seconds": 166.0,
+                "details": "Mason says, “unfortunately guy we just traded for Chris Olave smacked into [the] head,” immediately after mentioning concussion research."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The Josh Allen chat contains trade discussion and a stated deadline, but this window does not establish that any Josh Allen trade was completed.",
+          "Chris Olave's trade partner and return are not shown.",
+          "Olave's actual diagnosis and availability are not confirmed; Mason only reports a head impact.",
+          "Mason's lead over Danny was live after TNF, so no final matchup winner can be recorded from this window."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Avery’s team is shown trailing Joe’s team during the week; Avery states he is renaming his team “garbage.” A separate live matchup display shows Austin ahead of Badake, but neither displayed matchup is clearly final.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Avery says he has adopted “garbage” as his new fantasy team name.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Avery",
+              "garbage"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Avery"
+              },
+              {
+                "name": "new_team_name",
+                "value": "garbage"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 230.44,
+                "end_seconds": 246.0,
+                "details": "Avery says, “my new team name is garbage”; the matchup display also labels @averyhuffman’s team “garbage.”"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "A live matchup display shows Avery’s team, “garbage,” trailing a team called “Daddy of 2: Mason & Avery,” 87.78 to 113.24. The transcript identifies Avery’s opponent as Joe, but the display does not clearly show a final result.",
+            "status": "unclear",
+            "confidence": 0.82,
+            "raw_names": [
+              "Avery",
+              "Joe",
+              "garbage",
+              "Daddy of 2: Mason & Avery",
+              "@averyhuffman",
+              "@GreenMeansMoney"
+            ],
+            "facts": [
+              {
+                "name": "displayed_score",
+                "value": "garbage 87.78, Daddy of 2: Mason & Avery 113.24"
+              },
+              {
+                "name": "displayed_win_probability",
+                "value": "garbage 1%, Daddy of 2: Mason & Avery 99%"
+              },
+              {
+                "name": "matchup_state",
+                "value": "In progress / not clearly final"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 211.56,
+                "end_seconds": 225.08,
+                "details": "Speaker says Joe has a chance of beating Avery and discusses the 1:00-game slate; the matchup screen shows garbage at 87.78 versus Daddy of 2: Mason & Avery at 113.24, with 1% and 99% indicators."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "A live matchup display shows Austin’s team ahead of Badake’s team, 142.48 to 90.64; it is not clearly marked final.",
+            "status": "unclear",
+            "confidence": 0.86,
+            "raw_names": [
+              "Austin",
+              "Badake",
+              "@AustinHood",
+              "@Badake",
+              "Cash me in Week 7",
+              "Micky Mouse League"
+            ],
+            "facts": [
+              {
+                "name": "displayed_score",
+                "value": "Cash me in Week 7 142.48, Micky Mouse League 90.64"
+              },
+              {
+                "name": "displayed_win_probability",
+                "value": "Cash me in Week 7 99%, Micky Mouse League 1%"
+              },
+              {
+                "name": "matchup_state",
+                "value": "Not clearly final"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 293.134,
+                "end_seconds": 302.154,
+                "details": "League screen identifies @AustinHood’s Cash me in Week 7 at 142.48 and @Badake’s Micky Mouse League at 90.64, with 99% versus 1% indicators."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The score displays use percentage indicators and are not visibly labeled final, so Avery–Joe and Austin–Badake should not be recorded as completed results from this window alone.",
+          "The team named “Daddy of 2: Mason & Avery” is visually associated with @GreenMeansMoney; the supplied window does not independently establish that account’s owner as Joe."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week results shown: Mason beat Danny; Nathan beat Bush/Corey; Sal fell to 3-7 after another loss. A standings screen confirms the involved records.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason defeated Danny in their “Fight for Freedom” matchup.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Danny",
+              "Mason",
+              "Fight for Freedom"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Mason"
+              },
+              {
+                "name": "loser",
+                "value": "Danny"
+              },
+              {
+                "name": "winner_record",
+                "value": "6-4"
+              },
+              {
+                "name": "loser_record",
+                "value": "5-5"
+              },
+              {
+                "name": "score",
+                "value": "Not shown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 372.08,
+                "end_seconds": 381.08,
+                "details": "Danny, identified on screen, says Mason’s Canada-versus-US “Fight for Freedom” matchup ended with him losing. The standings screen later shows Mason at 6-4 and Danny at 5-5."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 473.195,
+                "end_seconds": 473.195,
+                "details": "Standings screen lists Fight For Freedom (Mason) at 6-4 and Hit with the Nice (Danny) at 5-5."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Nathan defeated Bush (Corey) 161.94–113.54.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Nathan",
+              "Corey (Busch)",
+              "Bush",
+              "Cinderella Story",
+              "Worked By Waivers"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Nathan"
+              },
+              {
+                "name": "loser",
+                "value": "Bush (Corey)"
+              },
+              {
+                "name": "winner_score",
+                "value": "161.94"
+              },
+              {
+                "name": "loser_score",
+                "value": "113.54"
+              },
+              {
+                "name": "winner_record",
+                "value": "4-6"
+              },
+              {
+                "name": "loser_record",
+                "value": "4-6"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 406.28,
+                "end_seconds": 435.599,
+                "details": "Bush says he is going to lose to Nathan; Nathan then says, “I do get the win comfortably.” The on-screen matchup identifies Cinderella Story versus Worked By Waivers and displays 113.54–161.94."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 427.175,
+                "end_seconds": 436.475,
+                "details": "Matchup screen labels Corey (Busch) and shows Cinderella Story at 113.54 versus Worked By Waivers at 161.94."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 473.195,
+                "end_seconds": 473.195,
+                "details": "Standings screen lists Worked By Waivers (Nathan) and Cinderella Story (Busch) both at 4-6."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Sal reported another loss; his record is 3-7.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Sal",
+              "Cooked"
+            ],
+            "facts": [
+              {
+                "name": "loser",
+                "value": "Sal"
+              },
+              {
+                "name": "record",
+                "value": "3-7"
+              },
+              {
+                "name": "opponent",
+                "value": "Not identified in this window"
+              },
+              {
+                "name": "score",
+                "value": "Not shown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 439.0,
+                "end_seconds": 478.199,
+                "details": "The discussion identifies Sal as 3-7, and Sal subsequently says, “we caught another L.” The standings screen lists Cooked (Sal) at 3-7."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Sal’s Week 10 opponent and matchup score are not shown in this window.",
+          "No player names are given for Sal’s statement that two or three starters were injured and another was benched; no specific injury or roster move can be recorded."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Mason added Jaylen Wright and was in discussions to acquire Josh Allen; the proposed deal was not confirmed as completed. Zach’s eight-game winning streak ended with a loss to Thomas.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Mason added Jaylen Wright (RB, MIA) via free agency.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "MasonDood",
+              "Jaylen Wright"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Mason"
+              },
+              {
+                "name": "transaction",
+                "value": "Free-agent addition"
+              },
+              {
+                "name": "player",
+                "value": "Jaylen Wright"
+              },
+              {
+                "name": "position/team",
+                "value": "RB, MIA"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 615.0,
+                "end_seconds": 630.0,
+                "details": "The league-chat panel states, “MasonDood made a free agent move,” followed by “+ Jaylen Wright, RB - MIA.”"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A trade discussion had Josh Allen potentially going to Mason, but it was contingent on other offers and was not shown as completed.",
+            "status": "reported",
+            "confidence": 0.92,
+            "raw_names": [
+              "SalVettri",
+              "MasonDood",
+              "Josh Allen"
+            ],
+            "facts": [
+              {
+                "name": "potential recipient",
+                "value": "Mason"
+              },
+              {
+                "name": "player",
+                "value": "Josh Allen"
+              },
+              {
+                "name": "condition",
+                "value": "Could remain with Mason by Thursday unless another offer was made"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 612.0,
+                "end_seconds": 625.0,
+                "details": "Transcript and league chat quote Sal saying, “Josh Allen is yours @MasonDood,” then that Allen would remain with Mason by Thursday unless another offer was made. No accepted/completed trade is displayed."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Thomas defeated Zach, ending Zach’s eight-game winning streak.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Zach",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Thomas"
+              },
+              {
+                "name": "loser",
+                "value": "Zach"
+              },
+              {
+                "name": "Zach winning streak entering matchup",
+                "value": "8 games"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 675.12,
+                "end_seconds": 686.56,
+                "details": "The speaker says Zach “won eight games straight” and “gets taken down by Thomas this week,” adding that “the streak is over.”"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 707.7,
+                "end_seconds": 712.0,
+                "details": "Fantasy matchup screen shows Zach’s team, “Do It For Chili,” against “Team Thomas,” with Team Thomas ahead 138.83 to 121.13."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The Josh Allen-to-Mason trade was discussed but this window does not establish that it was accepted or processed.",
+          "The on-screen matchup display suggests a 138.83–121.13 Thomas win, but the exact finality/state of the displayed score is not fully legible."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 10 recap: Austin beat Badake, dropping Badake to 5-5. A manager’s Jaylen McMillan start produced zero and prevented Alec Pierce from auto-substituting in.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Austin defeated Badake in Week 10; Badake fell to 5-5.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Austin",
+              "Badake",
+              "@AustinHood",
+              "@Badake"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "10"
+              },
+              {
+                "name": "winner",
+                "value": "Austin"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "Badake record after matchup",
+                "value": "5-5"
+              },
+              {
+                "name": "Austin record shown in standings",
+                "value": "7-3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 842.56,
+                "end_seconds": 853.96,
+                "details": "Narration says Badake was beaten by Austin and 'drops down to five and five.' The matchup screen identifies @Badake versus @AustinHood, and the subsequent standings show Badake 5-5 and AustinHood 7-3."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "An unidentified manager started Jaylen McMillan; Alec Pierce was designated as the auto-sub but did not enter because McMillan was active.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "J. McMillan",
+              "Jaylen McMillan",
+              "A. Pierce",
+              "Alec Pierce"
+            ],
+            "facts": [
+              {
+                "name": "starter",
+                "value": "Jaylen McMillan"
+              },
+              {
+                "name": "auto-substitute",
+                "value": "Alec Pierce"
+              },
+              {
+                "name": "McMillan fantasy points",
+                "value": "0.00"
+              },
+              {
+                "name": "Pierce fantasy points",
+                "value": "18.10"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 749.88,
+                "end_seconds": 775.72,
+                "details": "Speaker says he chose McMillan over Pierce and had Pierce set as the auto-sub. On-screen fantasy UI shows McMillan scored 0.00 and 'A. Pierce not subbed'; a later overlay shows Pierce with 18.10 points."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Jaylen McMillan was active but reportedly did not play any snaps because Tampa Bay later said he was not healthy enough to run routes.",
+            "status": "reported",
+            "confidence": 0.83,
+            "raw_names": [
+              "Jaylen McMillan",
+              "J. McMillan"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Jaylen McMillan"
+              },
+              {
+                "name": "game status",
+                "value": "Active; 0.00 fantasy points"
+              },
+              {
+                "name": "reported reason for no snaps",
+                "value": "Not healthy enough to run routes"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 763.04,
+                "end_seconds": 797.32,
+                "details": "The speaker states McMillan was ruled active but played zero snaps, and attributes this to a later Buccaneers coaching-staff statement. The on-screen UI confirms McMillan's 0.00 score."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Badake started the Jets defense and Rome Odunze in the losing lineup against Austin.",
+            "status": "confirmed",
+            "confidence": 0.75,
+            "raw_names": [
+              "Badake",
+              "Jets defense",
+              "Rome Odunze"
+            ],
+            "facts": [
+              {
+                "name": "manager",
+                "value": "Badake"
+              },
+              {
+                "name": "lineup players mentioned",
+                "value": "Jets defense; Rome Odunze"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 857.32,
+                "end_seconds": 869.44,
+                "details": "During the recap of Badake's loss, narration says, 'you're playing Rome Odunze, you threw the Jets defense in,' followed by Danny praising 'Baki' for the call."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Week 10 standings shown: Austin 7-3; Badake, Thomas, and Danny 5-5; Nathan 4-6.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "AustinHood",
+              "Badake",
+              "ThomasWodde",
+              "DannyLad21",
+              "NathanSchmidt"
+            ],
+            "facts": [
+              {
+                "name": "Austin record",
+                "value": "7-3"
+              },
+              {
+                "name": "Badake record",
+                "value": "5-5"
+              },
+              {
+                "name": "Thomas record",
+                "value": "5-5"
+              },
+              {
+                "name": "Danny record",
+                "value": "5-5"
+              },
+              {
+                "name": "Nathan record",
+                "value": "4-6"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 871.67,
+                "end_seconds": 892.0,
+                "details": "The on-screen Week 10 standings list Cash me in Week 7/AustinHood at 7-3; Badake, ThomasWodde, and DannyLad21 at 5-5; and Worked By Waivers/NathanSchmidt at 4-6."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The manager who started Jaylen McMillan and had Alec Pierce as the auto-sub is not identified in this window.",
+          "Thomas is said to have 'taken [someone] down,' but the opponent and matchup score are not supplied here.",
+          "The opening discussion references a possible Chris Olave trade, but the trade terms and completion cannot be established from this window."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 10 results are reviewed: Austin beat Badake, and Mason beat Avery. Avery fell to 5-5. The window also confirms two earlier trades involving Justin Jefferson and Rico Dowdle/Jonathan Brooks, and previews a Week 11 Badake-Avery matchup.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Austin defeated Badake in their Week 10 matchup, 149.96-90.44.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Austin",
+              "Badake"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "10"
+              },
+              {
+                "name": "winner",
+                "value": "Austin"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "score",
+                "value": "Austin 149.96, Badake 90.44"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 900.0,
+                "end_seconds": 915.88,
+                "details": "The Week 10 matchup screen shows Badake's Micky Mouse League at 90.44 versus Austin's Cash me in Week 7 at 149.96; narration says, \"I got absolutely demolished.\""
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Mason defeated Avery in Week 10, 103.24-87.28.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Mason",
+              "Avery Huffman"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "10"
+              },
+              {
+                "name": "winner",
+                "value": "Mason"
+              },
+              {
+                "name": "loser",
+                "value": "Avery"
+              },
+              {
+                "name": "score",
+                "value": "Mason 103.24, Avery 87.28"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 934.519,
+                "end_seconds": 946.24,
+                "details": "The Week 10 screen shows Avery's garbage at 87.28 against Mason's Daddy of 2 Mason & Avery at 103.24. Avery's poem says Mason \"triumphed.\""
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "After the loss, Avery said his record was 5-5.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Avery Huffman"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Avery"
+              },
+              {
+                "name": "record",
+                "value": "5-5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 947.759,
+                "end_seconds": 951.079,
+                "details": "Avery says, \"we are five and five.\""
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Nathan previously traded Justin Jefferson to Avery; the return is not stated in this window.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Nathan",
+              "Avery",
+              "Justin Jefferson"
+            ],
+            "facts": [
+              {
+                "name": "from_owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "to_owner",
+                "value": "Avery"
+              },
+              {
+                "name": "player",
+                "value": "Justin Jefferson"
+              },
+              {
+                "name": "return",
+                "value": "Not stated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1000.8,
+                "end_seconds": 1003.48,
+                "details": "The poem states that Nathan \"traded me Jefferson,\" spoken from Avery's perspective."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Joe acquired Rico Dowdle in a trade for Jonathan Brooks with an unnamed league member. The unnamed trader said Brooks had not played for him since the deal.",
+            "status": "confirmed",
+            "confidence": 0.83,
+            "raw_names": [
+              "Joe",
+              "Rico D",
+              "Jonathan Brooks"
+            ],
+            "facts": [
+              {
+                "name": "to_owner",
+                "value": "Joe"
+              },
+              {
+                "name": "player_to_joe",
+                "value": "Rico Dowdle"
+              },
+              {
+                "name": "player_away_from_joe",
+                "value": "Jonathan Brooks"
+              },
+              {
+                "name": "other_owner",
+                "value": "Unnamed speaker"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1060.76,
+                "end_seconds": 1071.679,
+                "details": "A speaker says he \"traded him Rico D for Jonathan Brooks,\" then notes Brooks has not played a game for him since the trade; \"him\" is explicitly Joe."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Joe was said to be one game out of a playoff spot.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Joe"
+              },
+              {
+                "name": "playoff_position",
+                "value": "One game out of a playoff spot"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1071.679,
+                "end_seconds": 1076.88,
+                "details": "The speaker says, \"now Joe's one game out of a playoff spot.\""
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Badake is scheduled to face Avery in Week 11.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "Badake",
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "11"
+              },
+              {
+                "name": "matchup",
+                "value": "Badake vs. Avery"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 918.6,
+                "end_seconds": 934.519,
+                "details": "The speaker says, \"in week 11 I'm going against Avery,\" while the Week 11 matchup screen displays Micky Mouse League versus garbage."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The owner speaking about the Rico Dowdle-for-Jonathan Brooks trade is not identified in this window.",
+          "The player return Nathan received for Justin Jefferson is not stated.",
+          "The Week 11 Badake-Avery matchup is scheduled only; no result is available here."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Updated standings are shown: Zach leads at 8-2, followed by Austin (7-3) and Mason (6-4). Mason reports a loss to Joe; injury issues are mentioned for Danny and Sal. The screen also shows several incomplete free-agent transactions (drops without visible additions).",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Updated top-three standings: Zach is first at 8-2, Austin second at 7-3, and Mason third at 6-4.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Zach",
+              "Austin",
+              "Mason",
+              "MasonDodd"
+            ],
+            "facts": [
+              {
+                "name": "Zach record/rank",
+                "value": "1st, 8-2"
+              },
+              {
+                "name": "Austin record/rank",
+                "value": "2nd, 7-3"
+              },
+              {
+                "name": "Mason record/rank",
+                "value": "3rd, 6-4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1127.799,
+                "end_seconds": 1143.08,
+                "details": "The speaker identifies Zach, Austin, and Mason as the top three; the displayed standings list records of 8-2, 7-3, and 6-4."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Avery, Badake, Thomas, and Danny are each shown at 5-5; Sal is last at 3-7.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Avery",
+              "Badake",
+              "Thomas",
+              "Danny",
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "Avery record",
+                "value": "5-5"
+              },
+              {
+                "name": "Badake record",
+                "value": "5-5"
+              },
+              {
+                "name": "Thomas record",
+                "value": "5-5"
+              },
+              {
+                "name": "Danny record",
+                "value": "5-5"
+              },
+              {
+                "name": "Sal record",
+                "value": "3-7"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1134.76,
+                "end_seconds": 1150.799,
+                "details": "The speaker describes the 5-5 cluster and Sal's poor standing; the standings graphic visibly lists Avery, Badake, Thomas, and Danny at 5-5 and Sal at 3-7."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Mason says he lost his week to Joe; no score is provided.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Mason",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Joe"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "score",
+                "value": "Not shown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1201.88,
+                "end_seconds": 1214.2,
+                "details": "After identifying himself with the 6-4 Mason standing, the speaker says his week was 'laid waste' by 'a loss to Joe.'"
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Danny's roster is described as having been heavily damaged by injuries.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "injured players",
+                "value": "Not specified"
+              },
+              {
+                "name": "impact",
+                "value": "Roster described as ruined by injuries"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1080.0,
+                "end_seconds": 1089.44,
+                "details": "The narration says Danny's once-complete roster now 'lays in ruin' and was defeated by injuries."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Sal is said to have dealt with significant injuries.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Sal"
+            ],
+            "facts": [
+              {
+                "name": "injured players",
+                "value": "Not specified"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1179.72,
+                "end_seconds": 1190.799,
+                "details": "While discussing Sal's 3-7 standing, the speaker says Sal has dealt with 'some bad injuries.'"
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Badake made free-agent moves that removed Aaron Rodgers and the New York Jets D/ST; replacement players are not visible.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Badake",
+              "Aaron Rodgers",
+              "New York Jets"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Badake"
+              },
+              {
+                "name": "removed",
+                "value": "Aaron Rodgers (QB, NYJ)"
+              },
+              {
+                "name": "removed",
+                "value": "New York Jets D/ST"
+              },
+              {
+                "name": "additions",
+                "value": "Not visible"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1133.767,
+                "end_seconds": 1182.433,
+                "details": "The activity feed visibly says 'Badake made a free agent move' and shows minus entries for Aaron Rodgers and New York Jets D/ST."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Mason (shown as MasonDodd) made a free-agent move removing the Chicago Bears D/ST; the addition is not visible.",
+            "status": "confirmed",
+            "confidence": 0.8,
+            "raw_names": [
+              "Mason",
+              "MasonDodd",
+              "Chicago Bears"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Mason"
+              },
+              {
+                "name": "removed",
+                "value": "Chicago Bears D/ST"
+              },
+              {
+                "name": "addition",
+                "value": "Not visible"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1133.767,
+                "end_seconds": 1182.433,
+                "details": "The activity feed visibly says 'MasonDodd made a free agent move' with a minus entry for Chicago Bears D/ST."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The free-agent-feed additions for Badake and Mason are off-screen, so the complete transactions cannot be determined.",
+          "No specific injured NFL players or injury diagnoses are given for Danny or Sal."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1343.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A patriotic/national-anthem montage; no fantasy-league information is presented.",
+        "observations": [],
+        "open_questions": []
+      }
+    }
+  ],
+  "open_questions": [
+    "The Josh Allen-to-Mason trade was discussed but not confirmed as accepted or processed.",
+    "Chris Olave’s trade partner and return are not shown, and his injury diagnosis/availability is unconfirmed.",
+    "The owner who started Jaylen McMillan over Alec Pierce is not identified.",
+    "Mason’s reported loss to Joe has no score and its week is not unambiguous in the episode.",
+    "The additions paired with Badake’s and Mason’s displayed defensive/player drops are off-screen.",
+    "Sal’s Week 10 opponent and score are not provided."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize team owners over NFL players and preserve player context only when linked to an owner or a league decision.",
+      "status": "fulfilled",
+      "details": "The recap centers owner results, standings, and transactions; player notes identify the relevant owner when supplied and explicitly mark unidentified managers."
+    },
+    {
+      "instruction": "Track available matchup results, scores, injuries, trades, and waiver actions without inventing missing details.",
+      "status": "fulfilled",
+      "details": "Confirmed results and scores are included where shown. Incomplete trades, injuries, and transactions retain their unknown terms or additions."
+    },
+    {
+      "instruction": "Treat transcript material as supplemental and defer to visual evidence when available.",
+      "status": "fulfilled",
+      "details": "Visual evidence anchors scores, standings, and activity-feed transactions; transcript-only claims are marked reported or bounded by their stated uncertainty."
+    },
+    {
+      "instruction": "Keep notes concise and identify items requiring human review.",
+      "status": "fulfilled",
+      "details": "The recap is condensed, and unresolved trade completion, matchup timing, unidentified managers, and off-screen transaction details are listed as open questions."
+    },
+    {
+      "instruction": "Honor recap exclusions in episode guidance.",
+      "status": "not_applicable",
+      "details": "No episode- or season-specific recap exclusions were provided."
+    }
+  ],
+  "supplemental_outputs": []
+}

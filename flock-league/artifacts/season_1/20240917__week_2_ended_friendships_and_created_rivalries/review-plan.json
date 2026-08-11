@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "video_id": "ZJ0ZvmANWvU",
+  "video_title": "Week 2 Ended Friendships & Created Rivalries",
+  "raw_sample_counts": {
+    "scene": 127,
+    "periodic": 62,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Week 2 Ended Friendships & Created Rivalries",
+      "upload_date": "20240917",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        4.755,
+        6.755,
+        20.867,
+        35.054,
+        46.133,
+        61.133,
+        82.2,
+        101.667,
+        114.3,
+        123.733,
+        142.8,
+        155.575
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        182.5,
+        201.033,
+        219.8,
+        234.0,
+        240.0,
+        264.674,
+        266.674,
+        278.395,
+        297.9,
+        314.834,
+        322.235,
+        335.367
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        360.0,
+        375.267,
+        398.175,
+        408.154,
+        425.8,
+        437.967,
+        463.233,
+        473.5,
+        484.6,
+        499.267,
+        520.1,
+        534.7
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        553.033,
+        569.5,
+        570.535,
+        572.535,
+        574.535,
+        601.233,
+        618.967,
+        632.774,
+        636.774,
+        648.2,
+        698.5,
+        713.3
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        731.467,
+        737.067,
+        750.1,
+        757.767,
+        780.0,
+        816.5,
+        832.133,
+        840.0,
+        861.654,
+        863.654,
+        865.654,
+        872.5
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        903.833,
+        932.834,
+        936.834,
+        952.834,
+        960.0,
+        980.914,
+        996.433,
+        1014.2,
+        1033.755,
+        1037.755,
+        1059.633,
+        1068.367
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1088.515,
+        1098.735,
+        1121.735,
+        1125.735,
+        1140.0,
+        1158.8,
+        1170.0,
+        1196.6,
+        1202.367,
+        1220.833,
+        1242.333,
+        1246.5
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1271.594,
+        1273.594,
+        1275.594,
+        1290.0,
+        1326.5,
+        1350.0,
+        1377.955,
+        1379.955,
+        1381.955,
+        1407.3,
+        1424.875,
+        1428.875
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1454.635,
+        1456.635,
+        1458.635,
+        1478.267,
+        1500.0,
+        1524.3,
+        1543.774,
+        1545.774,
+        1547.774,
+        1552.955,
+        1560.0,
+        1604.333
+      ]
+    },
+    {
+      "index": 9,
+      "start": 1620.0,
+      "end": 1800.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1620.0,
+        1623.3,
+        1640.533,
+        1650.0,
+        1674.933,
+        1680.0,
+        1717.133,
+        1730.367,
+        1743.633,
+        1773.554,
+        1775.554,
+        1777.554
+      ]
+    },
+    {
+      "index": 10,
+      "start": 1800.0,
+      "end": 1831.0,
+      "transient_sample_count": 3,
+      "sample_timestamps": [
+        1800.0,
+        1828.533,
+        1830.0
+      ]
+    }
+  ]
+}

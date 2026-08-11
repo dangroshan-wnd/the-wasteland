@@ -1,0 +1,670 @@
+{
+  "schema_version": 1,
+  "video_id": "Q5mr-3MYhTI",
+  "video_title": "A Last Minute DK Metcalf Trade Changes Everything",
+  "season": "Season 1",
+  "week": 9,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "A Last Minute DK Metcalf Trade Changes Everything",
+      "upload_date": "20241105",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "trade",
+      "summary": "Sal traded DK Metcalf and Najee Harris to Mason for Austin Ekeler, Javonte Williams, Ladd McConkey, and $20 FAAB.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "sender",
+          "name": "Sal"
+        },
+        {
+          "role": "receiver",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "to_mason",
+          "value": "DK Metcalf; Najee Harris"
+        },
+        {
+          "name": "to_sal",
+          "value": "Austin Ekeler; Javonte Williams; Ladd McConkey; $20 FAAB"
+        },
+        {
+          "name": "timing",
+          "value": "Completed shortly before Sunday games, described as at the buzzer"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 222.32,
+          "end_seconds": 231.88,
+          "details": "Visible trade panel and Sal’s discussion list DK Metcalf and Najee Harris from Sal, with Ekeler, Javonte Williams, Ladd McConkey, and $20 FAAB to Sal."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Sal added RB Jeremy McNichols as a free agent.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Sal"
+        },
+        {
+          "role": "added player",
+          "name": "Jeremy McNichols"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "acquisition_type",
+          "value": "Free agent"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 197.7,
+          "end_seconds": 199.5,
+          "details": "Transaction card states that SalVerti made a free-agent move for Jeremy McNichols, RB-WAS."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "DK Metcalf was reported ruled out again, prompting Sal’s last-minute lineup and trade decisions.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "reported",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "affected owner",
+          "name": "Sal"
+        },
+        {
+          "role": "NFL player",
+          "name": "DK Metcalf"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported_status",
+          "value": "Ruled out again"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 183.36,
+          "end_seconds": 187.28,
+          "details": "Sal says, “DK Metcalf gets ruled out again.”"
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Sal reported that Brian Robinson was inactive after earlier indications he would play; Amari Cooper was inactive shortly before kickoff, and Deontay Johnson was expected to play 10–15 snaps.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "reported",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "affected owner",
+          "name": "Sal"
+        },
+        {
+          "role": "NFL player",
+          "name": "Brian Robinson"
+        },
+        {
+          "role": "NFL player",
+          "name": "Amari Cooper"
+        },
+        {
+          "role": "NFL player",
+          "name": "Deontay Johnson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Brian Robinson",
+          "value": "Reported active, then inactive before the game"
+        },
+        {
+          "name": "Amari Cooper",
+          "value": "Inactive about an hour before kickoff"
+        },
+        {
+          "name": "Deontay Johnson",
+          "value": "Expected to play 10–15 snaps"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 149.23,
+          "end_seconds": 180.0,
+          "details": "Sal discusses the late availability changes while his lineup is shown."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Drake London was reported to have left his NFL game with a hip injury after scoring 10 fantasy points in the first quarter.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "reported",
+      "confidence": 0.82,
+      "participants": [
+        {
+          "role": "affected owner",
+          "name": "Sal"
+        },
+        {
+          "role": "NFL player",
+          "name": "Drake London"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "injury",
+          "value": "Hip injury"
+        },
+        {
+          "name": "reported missed time",
+          "value": "Final three quarters"
+        },
+        {
+          "name": "fantasy points at exit",
+          "value": "10"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 399.28,
+          "end_seconds": 408.16,
+          "details": "Speaker says London scored 10 points in the first quarter, left with a hip injury, and missed the final three quarters."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Zach defeated Bush 146.84–145.22 in Week 9.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Zach"
+        },
+        {
+          "role": "loser",
+          "name": "Bush"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Zach",
+          "score": 146.84
+        },
+        {
+          "name": "Bush",
+          "score": 145.22
+        }
+      ],
+      "facts": [
+        {
+          "name": "margin",
+          "value": "1.62"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 960.0,
+          "end_seconds": 965.0,
+          "details": "Matchup screen shows Zach at 146.84 and Bush at 145.22; narration says Zach won by about a point."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Bush started Dak Prescott rather than Patrick Mahomes; Prescott was marked out after getting hurt.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Bush"
+        },
+        {
+          "role": "NFL player",
+          "name": "Dak Prescott"
+        },
+        {
+          "role": "bench alternative",
+          "name": "Patrick Mahomes"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Dak Prescott lineup status",
+          "value": "Started and marked Out"
+        },
+        {
+          "name": "Patrick Mahomes Week 9 points on bench",
+          "value": "22"
+        },
+        {
+          "name": "Dak Prescott Week 9 points in lineup",
+          "value": "12"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 993.84,
+          "end_seconds": 996.48,
+          "details": "Week 9 lineup shows Prescott marked Out; discussion says Bush started Dak rather than Mahomes."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Joe defeated Mason 130.38–122.48 in Week 9.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Joe"
+        },
+        {
+          "role": "loser",
+          "name": "Mason"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Joe",
+          "score": 130.38
+        },
+        {
+          "name": "Mason",
+          "score": 122.48
+        }
+      ],
+      "facts": [
+        {
+          "name": "margin",
+          "value": "7.90"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1297.155,
+          "end_seconds": 1300.0,
+          "details": "Week 9 board displays Joe at 130.38 and Mason at 122.48."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Danny defeated Sal by four points in their Week 9 matchup.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Danny"
+        },
+        {
+          "role": "loser",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "margin",
+          "value": "4 points"
+        },
+        {
+          "name": "exact scores",
+          "value": "Not shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1085.84,
+          "end_seconds": 1097.68,
+          "details": "Discussion identifies Danny as the winner; Sal says he lost to Danny by four points."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Thomas defeated Badake 188.92–153.52 in Week 9.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.96,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Thomas"
+        },
+        {
+          "role": "loser",
+          "name": "Badake"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Thomas",
+          "score": 188.92
+        },
+        {
+          "name": "Badake",
+          "score": 153.52
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1297.155,
+          "end_seconds": 1300.0,
+          "details": "Week 9 board displays Thomas at 188.92 and Badake at 153.52."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Austin defeated Tom 144.30–128.50 in Week 9.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Austin"
+        },
+        {
+          "role": "loser",
+          "name": "Tom"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Austin",
+          "score": 144.3
+        },
+        {
+          "name": "Tom",
+          "score": 128.5
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1297.155,
+          "end_seconds": 1300.0,
+          "details": "Week 9 board displays Austin at 144.30 and Tom at 128.50."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "The supplied reviews conflict about Nathan’s Week 9 matchup: one identifies Mason as defeating Nathan 151.04–89.76, while another visual-board review identifies Avery as defeating Nathan 151.04–83.76. This cannot be resolved from the supplied evidence.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "unclear",
+      "confidence": 0.45,
+      "participants": [
+        {
+          "role": "possible winner",
+          "name": "Mason"
+        },
+        {
+          "role": "possible winner",
+          "name": "Avery"
+        },
+        {
+          "role": "reported loser",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Mason (reported)",
+          "score": 151.04
+        },
+        {
+          "name": "Nathan (reported)",
+          "score": 89.76
+        },
+        {
+          "name": "Avery (reported)",
+          "score": 151.04
+        },
+        {
+          "name": "Nathan (reported)",
+          "score": 83.76
+        }
+      ],
+      "facts": [
+        {
+          "name": "conflict",
+          "value": "Two incompatible Week 9 matchup assignments and Nathan scores appear in the supplied window reviews."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1013.8,
+          "end_seconds": 1019.2,
+          "details": "One review reports a Mason–Nathan matchup at 151.04–89.76."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1297.155,
+          "end_seconds": 1300.0,
+          "details": "Another review reports an Avery–Nathan matchup at 151.04–83.76."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "After Week 9, Zach was first at 8-1, Austin second at 6-3, Avery third at 5-4, and Badake fourth at 5-4.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "first place",
+          "name": "Zach"
+        },
+        {
+          "role": "second place",
+          "name": "Austin"
+        },
+        {
+          "role": "third place",
+          "name": "Avery"
+        },
+        {
+          "role": "fourth place",
+          "name": "Badake"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Zach record",
+          "value": "8-1"
+        },
+        {
+          "name": "Austin record",
+          "value": "6-3"
+        },
+        {
+          "name": "Avery record",
+          "value": "5-4"
+        },
+        {
+          "name": "Badake record",
+          "value": "5-4"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1357.039,
+          "end_seconds": 1366.159,
+          "details": "Standings screen and narration agree on the top four positions and records."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Nathan was shown ninth at 3-6, while Sal was shown 11th at 3-6 after Week 9.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "ninth place",
+          "name": "Nathan"
+        },
+        {
+          "role": "11th place",
+          "name": "Sal"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Nathan record",
+          "value": "3-6"
+        },
+        {
+          "name": "Sal record",
+          "value": "3-6"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1440.167,
+          "end_seconds": 1440.167,
+          "details": "Standings screen lists Nathan’s team ninth at 3-6 and Sal’s team 11th at 3-6."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Danny said Nico Collins would return to his lineup in the upcoming week.",
+      "season": "Season 1",
+      "week": 9,
+      "status": "reported",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "owner",
+          "name": "Danny"
+        },
+        {
+          "role": "NFL player",
+          "name": "Nico Collins"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "expected lineup timing",
+          "value": "Upcoming week"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1200.6,
+          "end_seconds": 1218.52,
+          "details": "Danny says Nico Collins will be back in his lineup the following week."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1215 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T19:58:11.340926+00:00",
+  "fingerprint": "b7c061b3246321aa0b67b8f2973d07cf55e12094f82a7bf4a7ef32b6287884fb",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "BJCWUpdCcUI",
+  "video_title": "There Are Only 3 Winning Teams Left...",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "There Are Only 3 Winning Teams Left...",
+      "upload_date": "20241029",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed Bush–Badake trade is shown; the opening also mentions a Tyrone Tracy waiver pickup and concussion in NFL context.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "An unidentified speaker says they acquired Tyrone Tracy from waivers.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Tyrone Tracy"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Tyrone Tracy"
+              },
+              {
+                "name": "transaction",
+                "value": "Waiver acquisition"
+              },
+              {
+                "name": "manager",
+                "value": "Unidentified speaker"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 4.67,
+                "end_seconds": 9.2,
+                "details": "Speaker says, “I got him off the waiver wire,” referring to Tyrone Tracy."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Tyrone Tracy was said to have left Thursday Night Football with a concussion after scoring 20 points; this is NFL-game context, not a fantasy matchup result.",
+            "status": "reported",
+            "confidence": 0.72,
+            "raw_names": [
+              "Tyrone Tracy"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Tyrone Tracy"
+              },
+              {
+                "name": "injury",
+                "value": "Concussion"
+              },
+              {
+                "name": "context",
+                "value": "Reported to have left Thursday Night Football; speaker says he scored 20 points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 4.67,
+                "end_seconds": 12.88,
+                "details": "The speaker discusses Tyrone Tracy, says he “leaves with a concussion,” and says he scored 20 points on Thursday Night Football."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Bush and Badake completed a trade: Bush received Calvin Ridley, DJ Moore, Alexander Mattison, and $12 FAAB; Badake received Garrett Wilson and Rome Odunze.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Bush",
+              "Badake",
+              "Calvin Ridley",
+              "DJ Moore",
+              "Alexander Mattison",
+              "Garrett Wilson",
+              "Rome Odunze"
+            ],
+            "facts": [
+              {
+                "name": "manager receiving Ridley/Moore/Mattison/FAAB",
+                "value": "Bush"
+              },
+              {
+                "name": "manager receiving Wilson/Odunze",
+                "value": "Badake"
+              },
+              {
+                "name": "Bush receives",
+                "value": "Calvin Ridley; DJ Moore; Alexander Mattison; $12 FAAB"
+              },
+              {
+                "name": "Badake receives",
+                "value": "Garrett Wilson; Rome Odunze"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 63.32,
+                "end_seconds": 84.0,
+                "details": "Transcript states that Bush and Badake are trading and lists the assets. The on-screen completed-trade panel confirms BushLeague receives Ridley, Moore, Mattison, and $12 from Badake, while Badake receives Wilson and Odunze."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 82.754,
+                "end_seconds": 142.754,
+                "details": "Sleeper-style screen explicitly labels the transaction “Trade Accepted,” marks both sides accepted, and lists the same assets."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The manager who claimed Tyrone Tracy off waivers is not identified in this window.",
+          "The transcript calls Bush “Cory,” but the completed-trade interface identifies the roster as BuschLeague; this window does not independently establish whether Cory is Bush’s real name."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed Bush/Badake trade is shown, followed by Thursday-night fantasy scoring in Nathan’s ongoing matchup with Austin.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Corey (Bush) completed a trade with Badake: Bush received Calvin Ridley, DJ Moore, Alexander Mattison, and $12 FAAB; Badake received Garrett Wilson and Rome Odunze.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Corey (Bush)",
+              "Badake",
+              "Calvin Ridley",
+              "DJ Moore",
+              "Alexander Mattison",
+              "Garrett Wilson",
+              "Rome Odunze"
+            ],
+            "facts": [
+              {
+                "name": "Bush received",
+                "value": "Calvin Ridley, DJ Moore, Alexander Mattison, and $12 FAAB"
+              },
+              {
+                "name": "Bush sent",
+                "value": "Garrett Wilson and Rome Odunze"
+              },
+              {
+                "name": "Trade counterpart",
+                "value": "Badake"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 203.1,
+                "end_seconds": 205.0,
+                "details": "On-screen panel states, “A trade has been completed,” listing BuschLeague's additions of Ridley, Moore, Mattison, and $12 (Badake), and departures of Odunze and Wilson; Badake’s reciprocal roster changes are also displayed."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 270.0,
+                "end_seconds": 300.0,
+                "details": "Trade recap labels the manager as “COREY (BUSCH)” and clearly lists receives/sends, including $12 FAAB from Badake."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "In Thursday Night Football, Puka Nacua scored 18.10 fantasy points and Kyren Williams scored 22.60 points for Nathan’s lineup, giving Nathan an early advantage in his ongoing matchup against Austin.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Nathan",
+              "Austin",
+              "Puka Nacua",
+              "Kyren Williams"
+            ],
+            "facts": [
+              {
+                "name": "Matchup",
+                "value": "Nathan vs Austin"
+              },
+              {
+                "name": "Puka Nacua fantasy points",
+                "value": "18.10"
+              },
+              {
+                "name": "Kyren Williams fantasy points",
+                "value": "22.60"
+              },
+              {
+                "name": "Matchup status",
+                "value": "Ongoing; other starters had yet to play"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 345.754,
+                "end_seconds": 359.0,
+                "details": "Fantasy matchup screen identifies @NathanSchmidt / Worked By Waivers versus @AustinHood / Cash me in Week 7. Nathan’s lineup shows P. Nacua at 18.10 and K. Williams at 22.60, while multiple remaining players are marked yet to play."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 343.759,
+                "end_seconds": 359.0,
+                "details": "Speaker says Puka “drops 18 points,” Kyren Williams “go[es] nuts,” and that he has roughly a 40-point cushion heading into the weekend against Austin."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The provided window does not show the final result of Nathan versus Austin.",
+          "The transcript calls the trade partner “Baki,” while the completed-trade graphics identify the manager as Badake; Badake is retained as the confirmed owner identity."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Pre-Sunday lineup discussion followed by a Sunday update in an unresolved matchup; no final fantasy matchup result is shown.",
+        "observations": [
+          {
+            "category": "injury",
+            "summary": "A manager reported that Tee Higgins and Travis Etienne were out, limiting his fantasy options.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Tee Higgins",
+              "Travis Etienne"
+            ],
+            "facts": [
+              {
+                "name": "impact",
+                "value": "The speaker said Higgins being out left him short-handed and Etienne's absence affected his flex decision."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 406.32,
+                "end_seconds": 422.88,
+                "details": "Speaker says Tee Higgins is out and then says Travis Etienne is also out."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "An unidentified manager planned to use Tank Bigsby at flex with Etienne out, give DeAndre Hopkins ('DeHop') a start, and ultimately chose Patrick Mahomes over Dak Prescott at quarterback.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Tank Bigsby",
+              "DeHop",
+              "Patrick Mahomes",
+              "Dak Prescott",
+              "Travis Kelce"
+            ],
+            "facts": [
+              {
+                "name": "flex plan",
+                "value": "Tank Bigsby"
+              },
+              {
+                "name": "wide receiver plan",
+                "value": "DeHop"
+              },
+              {
+                "name": "quarterback decision",
+                "value": "Patrick Mahomes over Dak Prescott"
+              },
+              {
+                "name": "stack consideration",
+                "value": "Speaker noted he rostered Travis Kelce."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 420.0,
+                "end_seconds": 435.36,
+                "details": "Speaker says he will go with Tank Bigsby, give DeHop a shot, briefly switches to Dak Prescott, then says, 'we're going back to the well one more week Patrick.'"
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "A manager said he picked up Drake Maye, though the timing and manager identity are not established in this window.",
+            "status": "confirmed",
+            "confidence": 0.72,
+            "raw_names": [
+              "Drake Maye"
+            ],
+            "facts": [
+              {
+                "name": "action",
+                "value": "Pickup"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 487.12,
+                "end_seconds": 494.0,
+                "details": "Speaker refers to 'the Drake Maye pickup.'"
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "An unidentified manager started Cole Kmet over Sam LaPorta and later regretted the choice; Rhamondre Stevenson, Ladd McConkey, and LaPorta were on his bench.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Cole Kmet",
+              "Sam LaPorta",
+              "Rhamondre Stevenson",
+              "Ladd McConkey"
+            ],
+            "facts": [
+              {
+                "name": "starting tight end",
+                "value": "Cole Kmet"
+              },
+              {
+                "name": "bench players",
+                "value": "Rhamondre Stevenson; Ladd McConkey; Sam LaPorta"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 462.12,
+                "end_seconds": 478.96,
+                "details": "Speaker says he was deciding between LaPorta and Kmet and was 'bullied into starting Kmet over LaPorta.'"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 512.96,
+                "end_seconds": 538.24,
+                "details": "On Sunday, speaker says Stevenson, McConkey, and LaPorta were left on his bench and again confirms starting Kmet over LaPorta."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "A manager's matchup remained undecided on Sunday night: he needed Brock Purdy to outscore Jake Ferguson by about 12 points.",
+            "status": "unclear",
+            "confidence": 0.9,
+            "raw_names": [
+              "Brock Purdy",
+              "Jake Ferguson"
+            ],
+            "facts": [
+              {
+                "name": "needed outcome",
+                "value": "Brock Purdy to outscore Jake Ferguson by about 12 fantasy points"
+              },
+              {
+                "name": "game state",
+                "value": "Sunday night; no final result stated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 496.72,
+                "end_seconds": 509.6,
+                "details": "Speaker says it comes down to Sunday night and that Purdy needs to outscore Ferguson by about 12 points."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 509.074,
+                "end_seconds": 510.5,
+                "details": "Matchup screen shows Brock Purdy opposite Jake Ferguson, with Ferguson still yet to play."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not reliably identify which team owner made each lineup decision or the Drake Maye pickup.",
+          "The final outcome of the Brock Purdy–Jake Ferguson-dependent matchup is not provided."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 8’s Mason–Badake matchup is decided by one point in Mason’s favor. Drake Maye’s concussion is mentioned as hurting Danny, and Mason says he is cutting Anthony Richardson.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason defeated Badake by one point in Week 8.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Mason",
+              "Baki",
+              "Badaki"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "8"
+              },
+              {
+                "name": "winner",
+                "value": "Mason"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "margin",
+                "value": "1 point"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 645.36,
+                "end_seconds": 678.0,
+                "details": "The losing manager says he needed 12 more points from Brock Purdy than Jake Ferguson, then states, “I lose by one point” and “Mason ... won this game.”"
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Mason says he is cutting Anthony Richardson.",
+            "status": "confirmed",
+            "confidence": 0.8,
+            "raw_names": [
+              "Anthony Richardson",
+              "Brock Purdy"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Mason"
+              },
+              {
+                "name": "action",
+                "value": "cut"
+              },
+              {
+                "name": "player",
+                "value": "Anthony Richardson"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 628.48,
+                "end_seconds": 633.12,
+                "details": "After celebrating Purdy taking the lead against Badake, the speaker says, “we are officially cutting Anthony Richardson.”"
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Drake Maye was taken out with a concussion; the host characterizes Danny as upset about it in league chat.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Danny",
+              "Drake Maye"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Drake Maye"
+              },
+              {
+                "name": "injury",
+                "value": "concussion"
+              },
+              {
+                "name": "fantasy_owner_affected",
+                "value": "Danny"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 540.04,
+                "end_seconds": 546.68,
+                "details": "The narrator says Danny is upset in league chat because “Drake Maye got ... taken out with a concussion.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The exact final scores for Mason versus Badake are not legible/supplied in this window.",
+          "A prior trade involving Calvin Ridley is referenced, but its participants and full terms are not provided."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Pre-Monday-night reactions focus on injury setbacks, Danny's losing streak, and Avery's high-scoring week.",
+        "observations": [
+          {
+            "category": "injury",
+            "summary": "Danny said Tyrone Tracy, whom he acquired from waivers as a breakout player, left his game with a concussion.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Danny",
+              "Tyrone Tracy"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Danny"
+              },
+              {
+                "name": "player",
+                "value": "Tyrone Tracy"
+              },
+              {
+                "name": "roster_acquisition",
+                "value": "waiver wire"
+              },
+              {
+                "name": "injury",
+                "value": "concussion"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 792.0,
+                "end_seconds": 805.0,
+                "details": "Narration identifies Danny as losing his new breakout player; the following first-person account says Tracy was acquired off waivers and left with a concussion. Danny is visually labeled on screen."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Danny reported that he had lost four of his last five matchups, including three straight; he cited Avery scoring 164.512 points against him.",
+            "status": "confirmed",
+            "confidence": 0.85,
+            "raw_names": [
+              "Danny",
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "losing_streak",
+                "value": "3 straight losses"
+              },
+              {
+                "name": "recent_record",
+                "value": "1-4 over last five matchups"
+              },
+              {
+                "name": "opponent",
+                "value": "Avery"
+              },
+              {
+                "name": "Avery_points",
+                "value": "164.512"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 871.959,
+                "end_seconds": 898.0,
+                "details": "Danny says, \"we've lost four of our last five,\" and then reacts to \"164.512 from Avery.\""
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speaker who said he beat Danny and would have beaten everyone except Austin was not identified in this window, so that matchup winner is not recorded.",
+          "A pre-Monday-night speaker needed George Pickens and Chris Boswell to combine for 45+ points; the eventual result is not shown in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Avery’s team lost to Tom’s team, which had been renamed Mason’s Granddaddy; Avery discussed the loss and lineup regrets. The visual league board shows Avery at 4-4 and Tom at 3-5 at this point.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery lost his matchup to Tom (described as “Tom the dev”); Tom’s team had rebranded from StevenSwagal to Mason’s Granddaddy.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Avery",
+              "Tom",
+              "StevenSwagal",
+              "Mason's Granddaddy",
+              "Mason's Daddy"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Tom"
+              },
+              {
+                "name": "loser",
+                "value": "Avery"
+              },
+              {
+                "name": "winner_team_name",
+                "value": "Mason's Granddaddy"
+              },
+              {
+                "name": "loser_team_name",
+                "value": "Mason's Daddy"
+              },
+              {
+                "name": "former_winner_team_name",
+                "value": "StevenSwagal"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 919.12,
+                "end_seconds": 935.32,
+                "details": "Transcript says Avery lost to “the dev,” identifies him as Tom, and says StevenSwagal rebranded to Mason’s Granddaddy. The league board visually shows Mason’s Daddy (Avery) versus Mason’s Granddaddy."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The league board displays Avery at 4-4 and Tom at 3-5.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Avery",
+              "Tom",
+              "Mason's Daddy",
+              "Mason's Granddaddy"
+            ],
+            "facts": [
+              {
+                "name": "Avery_record",
+                "value": "4-4"
+              },
+              {
+                "name": "Tom_record",
+                "value": "3-5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 924.8,
+                "end_seconds": 935.32,
+                "details": "The matchup row on the league board lists Mason’s Daddy (Avery) as 4-4 and Mason’s Granddaddy (Tom) as 3-5."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Avery said he started Tank Bigsby and DeAndre Hopkins instead of Keon Coleman and Jakobi Meyers, calling the decision a mistake.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Avery",
+              "Tank Bigsby",
+              "DeAndre Hopkins",
+              "Keon Coleman",
+              "Jakobi Meyers"
+            ],
+            "facts": [
+              {
+                "name": "started_players",
+                "value": "Tank Bigsby; DeAndre Hopkins"
+              },
+              {
+                "name": "bench_alternatives",
+                "value": "Keon Coleman; Jakobi Meyers"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1097.24,
+                "end_seconds": 1107.64,
+                "details": "Avery says he started Tank Bigsby and DeAndre Hopkins over Keon Coleman and Jakobi Meyers."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Avery was described as having reached a 4-3 winning record during Week 8, before the loss shown in this window.",
+            "status": "confirmed",
+            "confidence": 0.8,
+            "raw_names": [
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "Avery_record_at_that_point",
+                "value": "4-3"
+              },
+              {
+                "name": "context",
+                "value": "Week 8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1051.12,
+                "end_seconds": 1065.72,
+                "details": "Speaker says Avery had a winning record in Week 8 and recalls him getting to 4-3."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The exact fantasy-point totals on Avery-versus-Tom’s league-board matchup are too blurry to record reliably."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 8/pre-Monday Night Football discussion: Mason narrowly won a matchup, Bush won with Calvin Ridley, and a completed Bush–Badake trade is shown.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason narrowly defeated Badake; the commentary attributes the margin to a Brock Purdy touchdown.",
+            "status": "confirmed",
+            "confidence": 0.83,
+            "raw_names": [
+              "Mason",
+              "Badake",
+              "Brock Purdy"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Mason"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "margin/context",
+                "value": "Described as a very close matchup; a Brock Purdy touchdown was cited as decisive."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1081.52,
+                "end_seconds": 1090.6,
+                "details": "Transcript says Mason got the win in a very close matchup, essentially because of a Brock Purdy touchdown. The on-screen matchup board is present but its small text is not fully legible."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Bush won this week, with Calvin Ridley described as the reason he was able to get the win after being forced to start him.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Bush",
+              "Calvin Ridley"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Bush"
+              },
+              {
+                "name": "player context",
+                "value": "Calvin Ridley was forced into Bush's lineup and was said to have enabled the win."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1147.08,
+                "end_seconds": 1159.68,
+                "details": "Speaker says Bush's trade forced him to start Calvin Ridley, and that Ridley ended up being why Bush got a win this week."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Bush and Badake completed a trade: Bush received Calvin Ridley, DJ Moore, Alexander Mattison, and $12 FAAB; Badake received Garrett Wilson and Rome Odunze.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "BushLeague",
+              "Badake",
+              "Calvin Ridley",
+              "DJ Moore",
+              "Alexander Mattison",
+              "Garrett Wilson",
+              "Rome Odunze"
+            ],
+            "facts": [
+              {
+                "name": "team/owner receiving",
+                "value": "Bush (shown as BushLeague)"
+              },
+              {
+                "name": "Bush received",
+                "value": "Calvin Ridley; DJ Moore; Alexander Mattison; $12 FAAB"
+              },
+              {
+                "name": "team/owner receiving",
+                "value": "Badake"
+              },
+              {
+                "name": "Badake received",
+                "value": "Garrett Wilson; Rome Odunze"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1164.38,
+                "end_seconds": 1205.56,
+                "details": "Sleeper's 'A trade has been completed' card identifies BushLeague and Badake and displays the exchanged players and $12 FAAB."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1152.68,
+                "end_seconds": 1159.68,
+                "details": "Discussion refers to Bush's prior trade and Calvin Ridley's role in Bush's weekly win."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The exact final score of Mason's win over Badake is not legible in the supplied visual sample.",
+          "A speaker tells Danny, 'you lost this week to me' at 00:19:27–00:19:32, but the winning owner is not reliably identifiable from this window alone."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 8 results shown: Zach routed Sal, and Austin beat Nathan. Sal is dealing with multiple injured fantasy players; Austin is said to have acquired CeeDee Lamb in a trade.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Zach defeated Sal in Week 8, 155.46–89.42.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Zach",
+              "Sal",
+              "Do It For Chris",
+              "Cooked"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Zach"
+              },
+              {
+                "name": "loser",
+                "value": "Sal"
+              },
+              {
+                "name": "winner_score",
+                "value": "155.46"
+              },
+              {
+                "name": "loser_score",
+                "value": "89.42"
+              },
+              {
+                "name": "week",
+                "value": "8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1264.88,
+                "end_seconds": 1269.72,
+                "details": "Commentary says Zach was 'demolishing Sal'; the league screen identifies Do It For Chris versus Cooked and displays 155.46–89.42."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Sal's roster is reportedly short at running back because Jordan Mason is out injured; DK Metcalf is also said to be injured. Sal had to start Sterling Shepard at flex in the referenced week.",
+            "status": "reported",
+            "confidence": 0.88,
+            "raw_names": [
+              "Sal",
+              "Jordan Mason",
+              "DK",
+              "Amari Cooper",
+              "Sterling Shepard"
+            ],
+            "facts": [
+              {
+                "name": "fantasy_owner",
+                "value": "Sal"
+              },
+              {
+                "name": "injured_players",
+                "value": "Jordan Mason; DK Metcalf"
+              },
+              {
+                "name": "lineup_note",
+                "value": "Sterling Shepard was started at flex"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1365.28,
+                "end_seconds": 1378.88,
+                "details": "Speaker says Jordan Mason is out with injury, 'DK' is down with an injury, and Sal had to flex Sterling Shepard."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Austin defeated Nathan in Week 8, 184.14–161.88.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Austin",
+              "Nathan",
+              "Cash me in Week 7",
+              "Worked By Waivers"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Austin"
+              },
+              {
+                "name": "loser",
+                "value": "Nathan"
+              },
+              {
+                "name": "winner_score",
+                "value": "184.14"
+              },
+              {
+                "name": "loser_score",
+                "value": "161.88"
+              },
+              {
+                "name": "week",
+                "value": "8"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1387.56,
+                "end_seconds": 1392.36,
+                "details": "Commentary says Austin put a beatdown on Nathan; the league matchup screen shows @AustinHood's Cash me in Week 7 over @NathanSchmidt's Worked By Waivers, 184.14–161.88."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Austin is said to have acquired CeeDee Lamb immediately before the weekend in a trade characterized as very cheap; the other side and exact return are not established in this window.",
+            "status": "reported",
+            "confidence": 0.74,
+            "raw_names": [
+              "Austin",
+              "CD lamb",
+              "CeeDee Lamb"
+            ],
+            "facts": [
+              {
+                "name": "acquiring_owner",
+                "value": "Austin"
+              },
+              {
+                "name": "acquired_player",
+                "value": "CeeDee Lamb"
+              },
+              {
+                "name": "return",
+                "value": "Described rhetorically as 'a bag of chips'; exact compensation unknown"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1402.28,
+                "end_seconds": 1407.92,
+                "details": "Nathan says Austin 'adds CD Lamb for a bag of chips.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The counterparty and actual assets exchanged for CeeDee Lamb are not identified; 'a bag of chips' may be hyperbole.",
+          "The transcript refers to 'DK' without stating the full name, though it likely means DK Metcalf."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1499.0,
+      "transient_image_count": 7,
+      "review": {
+        "window_summary": "Standings update: Zach leads at 7-1; three other teams are 5-3, three are 4-4, four are 3-5, and Joe is 2-6.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "League standings update: Zach is first at 7-1. Austin, Badake, and Mason are each 5-3; Avery, Danny, and Bush are each 4-4; Thomas, Nathan, Sal, and Tom are each 3-5; Joe is 2-6.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Zach",
+              "Austin",
+              "Baki",
+              "Mason",
+              "Avery",
+              "Danny",
+              "Bush",
+              "Thomas",
+              "Nathan",
+              "Sal",
+              "Tom",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "Zach record",
+                "value": "7-1 (1st place)"
+              },
+              {
+                "name": "Austin record",
+                "value": "5-3"
+              },
+              {
+                "name": "Badake record",
+                "value": "5-3"
+              },
+              {
+                "name": "Mason record",
+                "value": "5-3"
+              },
+              {
+                "name": "Avery record",
+                "value": "4-4"
+              },
+              {
+                "name": "Danny record",
+                "value": "4-4"
+              },
+              {
+                "name": "Bush record",
+                "value": "4-4"
+              },
+              {
+                "name": "Thomas record",
+                "value": "3-5"
+              },
+              {
+                "name": "Nathan record",
+                "value": "3-5"
+              },
+              {
+                "name": "Sal record",
+                "value": "3-5"
+              },
+              {
+                "name": "Tom record",
+                "value": "3-5"
+              },
+              {
+                "name": "Joe record",
+                "value": "2-6"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1441.76,
+                "end_seconds": 1485.04,
+                "details": "The speakers state Zach is 7-1, list the 5-3, 4-4, and 3-5 groups, and identify Joe as the final team."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1472.133,
+                "end_seconds": 1475.0,
+                "details": "The league standings screen visibly lists ranks 2-12 and their records, corroborating the grouped standings."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript refers to a 4-4 team as “Cory,” but the standings screen’s corresponding team appears associated with Bush; the owner identity is treated as Bush based on the visual standings."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "The exact scores of Mason's one-point win over Badake are not legible in the supplied evidence.",
+    "Austin's CeeDee Lamb trade counterparty and actual return are unknown; “a bag of chips” appears rhetorical.",
+    "A speaker says Danny lost to him around 00:19:27-00:19:32, while another segment associates Avery's 164.512-point total with Danny. The evidence does not reliably reconcile Danny's Week 8 opponent.",
+    "The owner identities for the early lineup decisions and the Drake Maye pickup are not reliably established."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Apply evidence-integrity rules and distinguish confirmed league events from commentary, proposals, and NFL context.",
+      "status": "fulfilled",
+      "details": "Completed transactions and displayed matchup results are recorded as confirmed; uncertain trade terms, lineup ownership, and announced-but-not-visually-completed moves are qualified."
+    },
+    {
+      "instruction": "Prioritize team owners, track matchup results, trades, waivers, and injuries, and use stable owner names rather than changing team names.",
+      "status": "fulfilled",
+      "details": "Owner-based events, Week 8 results, the Bush-Badake trade, relevant waiver/injury impacts, and closing standings are included. Tom's team-name change is retained only as context."
+    },
+    {
+      "instruction": "Record items requiring review.",
+      "status": "fulfilled",
+      "details": "Unresolved scores, trade terms, matchup attribution, and unidentified lineup decisions are listed in open_questions."
+    },
+    {
+      "instruction": "Honor episode-specific instructions.",
+      "status": "not_applicable",
+      "details": "No episode-specific instructions or recap exclusions were supplied."
+    }
+  ],
+  "supplemental_outputs": []
+}

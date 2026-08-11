@@ -1,0 +1,676 @@
+{
+  "schema_version": 1,
+  "video_id": "WcWhMGGTC8c",
+  "video_title": "Injuries Are Destroying Entire Teams",
+  "season": "Season 1",
+  "week": 7,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Injuries Are Destroying Entire Teams",
+      "upload_date": "20241022",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "matchup_result",
+      "summary": "Zach won a Week 7 matchup 133.96–130.26 after trailing by 75 points. The opposing owner is not reliably identified.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.9,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Zach"
+        },
+        {
+          "role": "loser",
+          "name": "Unidentified opponent"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Zach",
+          "score": 133.96
+        },
+        {
+          "name": "Unidentified opponent",
+          "score": 130.26
+        }
+      ],
+      "facts": [
+        {
+          "name": "comeback deficit",
+          "value": "75 points"
+        },
+        {
+          "name": "opponent identity",
+          "value": "Not clearly established in the supplied evidence"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 782.16,
+          "end_seconds": 810.68,
+          "details": "The speaker says the team came back from 75 points down and won; the matchup display shows 133.96–130.26, and narration explicitly identifies Zach as the winner."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Chris Godwin, on Zach’s roster, was reported as possibly out for the year after making the catch described as securing Zach’s Week 7 comeback win.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "reported",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "fantasy owner",
+          "name": "Zach"
+        },
+        {
+          "role": "NFL player",
+          "name": "Chris Godwin"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported status",
+          "value": "Might be out for the year"
+        },
+        {
+          "name": "fantasy context",
+          "value": "Godwin's catch was described as the catch needed to win Zach's matchup"
+        },
+        {
+          "name": "official diagnosis",
+          "value": "Not established"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 816.24,
+          "end_seconds": 855.9,
+          "details": "The speaker says Godwin made the catch needed to win the matchup and that people were saying he might be out for the year; the player page shows Godwin marked Questionable."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Sal defeated Mason 133.02–116.06 in Week 7 and improved to 3-4.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Sal"
+        },
+        {
+          "role": "loser",
+          "name": "Mason"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Sal",
+          "score": 133.02
+        },
+        {
+          "name": "Mason",
+          "score": 116.06
+        }
+      ],
+      "facts": [
+        {
+          "name": "Sal record after game",
+          "value": "3-4"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 909.767,
+          "end_seconds": 922.519,
+          "details": "The matchup screen shows Sal/Cooked defeating Mason/Sal's Barber 133.02–116.06, while the narration says Sal moved to 3-4."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Nathan reported defeating Joe in Week 7; Nathan said Joe had multiple players on bye. No final score was provided.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Nathan"
+        },
+        {
+          "role": "loser",
+          "name": "Joe"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "context",
+          "value": "Nathan said Joe had many players on bye"
+        },
+        {
+          "name": "final score",
+          "value": "Not provided"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 984.68,
+          "end_seconds": 998.96,
+          "details": "The speaker credits Nathan with taking care of business against Joe and says Joe had many players on bye."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Badake defeated Good Evening, Cowards 111.29–93.04 in Week 7 to improve to 5-2. The opposing team owner is not established.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Badake"
+        },
+        {
+          "role": "loser",
+          "name": "Unidentified owner of Good Evening, Cowards"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Badake",
+          "score": 111.29
+        },
+        {
+          "name": "Good Evening, Cowards",
+          "score": 93.04
+        }
+      ],
+      "facts": [
+        {
+          "name": "Badake record after game",
+          "value": "5-2"
+        },
+        {
+          "name": "losing team",
+          "value": "Good Evening, Cowards"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1019.575,
+          "end_seconds": 1023.575,
+          "details": "The matchup display shows Micky Mouse League, identified in the standings as Badake's team, winning 111.29–93.04 over Good Evening, Cowards; Badake is listed at 5-2."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery defeated Danny 178.04–115.04 in Week 7.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.92,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Avery"
+        },
+        {
+          "role": "loser",
+          "name": "Danny"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Avery",
+          "score": 178.04
+        },
+        {
+          "name": "Danny",
+          "score": 115.04
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1111.919,
+          "end_seconds": 1124.4,
+          "details": "Danny says he lost to Avery, who scored more than 178 points; the Week 7 matchup screen shows 178.04–115.04."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "An unidentified league member reported defeating Thomas and improving to 3-4; no final score was provided.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.8,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Unidentified speaker"
+        },
+        {
+          "role": "loser",
+          "name": "Thomas"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winner record after game",
+          "value": "3-4"
+        },
+        {
+          "name": "final score",
+          "value": "Not provided"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1078.919,
+          "end_seconds": 1090.559,
+          "details": "The speaker says, “I take down Thomas,” says he is “three and four again,” and cites Mike Evans leaving early as a factor."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Post-Week 7 standings had Zach first at 6-1 and Badake second at 5-2; Avery, Danny, Austin, and Mason were 4-3; Sal, Nathan, and Bush were 3-4; Thomas, Tom, and Joe were 2-5.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "first place",
+          "name": "Zach"
+        },
+        {
+          "role": "second place",
+          "name": "Badake"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Zach record",
+          "value": "6-1"
+        },
+        {
+          "name": "Badake record",
+          "value": "5-2"
+        },
+        {
+          "name": "Avery record",
+          "value": "4-3"
+        },
+        {
+          "name": "Danny record",
+          "value": "4-3"
+        },
+        {
+          "name": "Austin record",
+          "value": "4-3"
+        },
+        {
+          "name": "Mason record",
+          "value": "4-3"
+        },
+        {
+          "name": "Sal record",
+          "value": "3-4"
+        },
+        {
+          "name": "Nathan record",
+          "value": "3-4"
+        },
+        {
+          "name": "Bush record",
+          "value": "3-4"
+        },
+        {
+          "name": "Thomas record",
+          "value": "2-5"
+        },
+        {
+          "name": "Tom record",
+          "value": "2-5"
+        },
+        {
+          "name": "Joe record",
+          "value": "2-5"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 1189.12,
+          "end_seconds": 1221.32,
+          "details": "Narration and the on-screen standings provide the full Week 7 order and records."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Mason said he had previously traded Amari Cooper; the trade partner and return were not stated.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.78,
+      "participants": [
+        {
+          "role": "trader",
+          "name": "Mason"
+        },
+        {
+          "role": "NFL player",
+          "name": "Amari Cooper"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "trade partner",
+          "value": "Not stated"
+        },
+        {
+          "name": "assets received",
+          "value": "Not stated"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 100.159,
+          "end_seconds": 103.399,
+          "details": "Mason says others made fun of him for trading Amari Cooper."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Anthony Richardson was discussed as having moved off Sal's roster and into Mason’s Week 7 starting lineup; the exact transaction mechanism is not stated.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "reported",
+      "confidence": 0.83,
+      "participants": [
+        {
+          "role": "previous roster owner",
+          "name": "Sal"
+        },
+        {
+          "role": "current roster owner",
+          "name": "Mason"
+        },
+        {
+          "role": "NFL player",
+          "name": "Anthony Richardson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "transaction mechanism",
+          "value": "Not stated"
+        },
+        {
+          "name": "Week 7 usage",
+          "value": "Mason started Richardson against Sal"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 183.0,
+          "end_seconds": 201.04,
+          "details": "A speaker says Richardson was on “S's team for two days” before being sent out the door; the Sunday matchup display shows Richardson in Mason's starting lineup opposite Sal."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Mason said he would send Anthony Richardson to waivers after starting him in Week 7; transaction processing is not independently shown.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "reported",
+      "confidence": 0.76,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Mason"
+        },
+        {
+          "role": "NFL player",
+          "name": "Anthony Richardson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "stated action",
+          "value": "Send to waivers"
+        },
+        {
+          "name": "transaction confirmation",
+          "value": "Not shown"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 445.7,
+          "end_seconds": 476.0,
+          "details": "The narrator quotes Mason saying that after starting Richardson, the first thing he would do after the game was send him to waivers; Richardson appears in Mason's lineup."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Danny renamed his fantasy team to a name beginning “Mason’s We Todd...”; the final word is unclear in the evidence.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.84,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Danny"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "new team name raw",
+          "value": "Mason’s We Todd..."
+        },
+        {
+          "name": "full name",
+          "value": "Partially unclear/censored"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 223.36,
+          "end_seconds": 249.52,
+          "details": "Danny says the name is officially rebranded, and the Team Settings screen visibly shows a name beginning “Mason’s We Todd...”."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Brandon Aiyuk was reported to have torn his ACL and likely be out for the year. The affected fantasy owner is not confirmed.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "reported",
+      "confidence": 0.8,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Brandon Aiyuk"
+        },
+        {
+          "role": "affected fantasy owner",
+          "name": "Unidentified"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "reported injury",
+          "value": "Torn ACL"
+        },
+        {
+          "name": "reported outlook",
+          "value": "Probably done for the year"
+        },
+        {
+          "name": "possible affected owner reference",
+          "value": "Earlier discussion referred to Cory, but identity is unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 661.04,
+          "end_seconds": 668.08,
+          "details": "A speaker says, “Brandon Aiyuk's probably done for the year. He tore his ACL,” while discussing his league outlook."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Mike Evans left his NFL game early; an unidentified league member said this contributed to his Week 7 win over Thomas.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "NFL player",
+          "name": "Mike Evans"
+        },
+        {
+          "role": "affected matchup participant",
+          "name": "Unidentified speaker"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "NFL game status",
+          "value": "Left game early"
+        },
+        {
+          "name": "fantasy impact claimed",
+          "value": "Contributed to the speaker defeating Thomas"
+        },
+        {
+          "name": "fantasy roster owner",
+          "value": "Not established"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 1084.2,
+          "end_seconds": 1089.6,
+          "details": "The speaker says Mike Evans leaving the game early resulted in his win over Thomas."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "An unidentified league member announced that George Pickens had joined his team; the acquisition method was not stated.",
+      "season": "Season 1",
+      "week": 7,
+      "status": "confirmed",
+      "confidence": 0.74,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Unidentified speaker"
+        },
+        {
+          "role": "NFL player",
+          "name": "George Pickens"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "acquisition method",
+          "value": "Not stated"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 717.76,
+          "end_seconds": 720.0,
+          "details": "The speaker says, “George Pickens, welcome to the team.”"
+        }
+      ]
+    }
+  ]
+}

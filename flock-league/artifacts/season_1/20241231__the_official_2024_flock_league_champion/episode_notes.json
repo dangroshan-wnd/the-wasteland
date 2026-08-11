@@ -1,0 +1,1034 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T21:01:26.943799+00:00",
+  "fingerprint": "23d5407fff8dad66d2f74a5dfa86ab8bfeb0e712a9b696aab717d57ad0dd415c",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "s9aEz8IiLps",
+  "video_title": "The Official 2024 Flock League Champion...",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Official 2024 Flock League Champion...",
+      "upload_date": "20241231",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 17 opens with Avery vs. Thomas in the league final and an in-progress Toilet Bowl matchup between Bush and Nathan.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery and Thomas are the Week 17 championship finalists; the championship matchup is not yet completed in this window.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Avery",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "17"
+              },
+              {
+                "name": "matchup",
+                "value": "Avery vs Thomas"
+              },
+              {
+                "name": "round",
+                "value": "Final / championship"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 3.189,
+                "end_seconds": 16.48,
+                "details": "Transcript calls this 'championship week' with one game remaining; on-screen label reads 'AVERY (FINAL VS THOMAS)'."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Bush leads Nathan 22.40–8.00 in their in-progress Week 17 Toilet Bowl (last-place) matchup.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Bush",
+              "Nathan",
+              "Busch"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "17"
+              },
+              {
+                "name": "matchup",
+                "value": "Bush vs Nathan"
+              },
+              {
+                "name": "round",
+                "value": "Toilet Bowl / last place"
+              },
+              {
+                "name": "current_score",
+                "value": "Bush 22.40, Nathan 8.00"
+              },
+              {
+                "name": "completion_status",
+                "value": "In progress; both teams have players yet to play"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 89.92,
+                "end_seconds": 103.0,
+                "details": "Speaker says he is checking the Toilet Bowl matchup and is 'up a decent amount'; the fantasy screen shows 22.40–8.00, 57%–43% win odds, and players yet to play. On-screen overlay identifies 'BUSCH (TOILET BOWL VS NATHAN)'."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Bush sat Patrick Mahomes in the Toilet Bowl, choosing Anthony Richardson as his starting quarterback instead.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Bush",
+              "Patrick Mahomes",
+              "Anthony Richardson"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Bush"
+              },
+              {
+                "name": "player_sat",
+                "value": "Patrick Mahomes"
+              },
+              {
+                "name": "starting_quarterback",
+                "value": "Anthony Richardson"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 112.84,
+                "end_seconds": 131.0,
+                "details": "Transcript: 'I did end up sitting Patrick Mahomes.' The visible Week 17 lineup lists A. Richardson in Bush's QB slot; Mahomes is subsequently shown with 26.00 points."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Travis Kelce had 22.4 fantasy points for Bush, while George Pickens had 8 points for Nathan at this point in Week 17.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Travis Kelce",
+              "George Pickens",
+              "Bush",
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "Bush player points",
+                "value": "Travis Kelce: 22.4"
+              },
+              {
+                "name": "Nathan player points",
+                "value": "George Pickens: 8.0"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 96.96,
+                "end_seconds": 105.0,
+                "details": "Transcript explicitly states Kelce scored 22.4 and Pickens scored eight; the matchup screen shows Kelce's 22.40 contribution and G. Pickens' 8.00."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The Toilet Bowl result is unresolved in this window; the 22.40–8.00 score is live rather than final.",
+          "The visual uses the spelling 'BUSCH' while the season owner list uses 'Bush'; this was treated as Bush based on the explicit Toilet Bowl overlay."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Championship-week updates: Nathan made multiple QB free-agent transactions, while Thomas and Avery’s title matchup was underway. Avery benefited from Tee Higgins’ Thursday performance; Thomas faced RB availability issues and reported losing a waiver bid to Avery.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "NathanSchmidt made a series of free-agent moves involving quarterbacks, including adding Justin Herbert, Drake Maye, and Matthew Stafford; the visible transaction log also shows the corresponding drops of Russell Wilson, Israel Abanikanda, Drake Maye, and Romeo Doubs.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "NathanSchmidt",
+              "Justin Herbert",
+              "Drake Maye",
+              "Matthew Stafford",
+              "Russell Wilson",
+              "Israel Abanikanda",
+              "Romeo Doubs"
+            ],
+            "facts": [
+              {
+                "name": "transaction_type",
+                "value": "Free-agent moves"
+              },
+              {
+                "name": "visible_transactions",
+                "value": "Added Justin Herbert / dropped Russell Wilson; added Drake Maye / dropped Israel Abanikanda; added Matthew Stafford / dropped Drake Maye; added Drake Maye / dropped Romeo Doubs"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 210.0,
+                "end_seconds": 233.0,
+                "details": "On-screen transaction log explicitly labels the moves as made by NathanSchmidt and lists the adds/drops."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 193.319,
+                "end_seconds": 226.0,
+                "details": "Speaker says he picked up Herbert, Maye, and Stafford, then dropped them and added other QBs."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Thomas and Avery were in the championship matchup, which was still in progress. The displayed matchup snapshot showed Avery leading 42.10–22.40 after early games; Tee Higgins had 40.10 points for Avery while Jaxon Smith-Njigba had 6.20 for Thomas.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Thomas",
+              "Avery",
+              "Tee Higgins",
+              "J. Smith-Njigba"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Thomas vs Avery — championship"
+              },
+              {
+                "name": "score_snapshot",
+                "value": "Avery 42.10, Thomas 22.40"
+              },
+              {
+                "name": "Tee Higgins points",
+                "value": "40.10"
+              },
+              {
+                "name": "J. Smith-Njigba points",
+                "value": "6.20"
+              },
+              {
+                "name": "matchup_status",
+                "value": "In progress"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 321.695,
+                "end_seconds": 335.0,
+                "details": "The fantasy matchup display is labeled Championship and shows 22.40 versus 42.10, with Thomas identified as 'FINAL VS AVERY.' The lineup rows show J. Smith-Njigba at 6.20 and T. Higgins at 40.10."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 252.4,
+                "end_seconds": 303.92,
+                "details": "Thomas identifies it as the championship game, says Higgins scored three touchdowns/40 points for Avery, and says he is projected to trail Avery entering Sunday."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Thomas reported that Chuba Hubbard was placed on IR and Alvin Kamara was declared out, leaving him struggling to fill his championship lineup.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Thomas",
+              "Chuba Hubbard",
+              "Alvin Kamara"
+            ],
+            "facts": [
+              {
+                "name": "Chuba Hubbard status",
+                "value": "IR"
+              },
+              {
+                "name": "Alvin Kamara status",
+                "value": "Out"
+              },
+              {
+                "name": "fantasy impact",
+                "value": "Thomas reported difficulty filling his lineup"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 323.24,
+                "end_seconds": 338.2,
+                "details": "Thomas says Hubbard was put on IR that morning and Kamara was declared out; on-screen cards identify C. Hubbard as IR and A. Kamara as OUT."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Thomas reported losing a waiver bid to Avery because Avery had one more FAAB dollar; Avery acquired a player whose name is unclear in the transcript. Thomas then spent the rest of his FAAB on the Raiders defense.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Thomas",
+              "Avery",
+              "gendo",
+              "Raiders defense"
+            ],
+            "facts": [
+              {
+                "name": "waiver outcome",
+                "value": "Avery won a bid over Thomas by $1 of FAAB"
+              },
+              {
+                "name": "Thomas acquisition",
+                "value": "Raiders defense"
+              },
+              {
+                "name": "Avery acquisition",
+                "value": "Player transcribed as 'gendo' (identity unclear)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 337.96,
+                "end_seconds": 350.84,
+                "details": "Thomas says Avery had one more dollar and got a player transcribed as 'gendo'; Thomas says he spent the rest of his FAAB on the Raiders defense."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The player Avery acquired is transcribed as 'gendo'; the supplied window does not clearly establish the player’s identity.",
+          "The championship was still underway in this window; no final winner or final score is established here."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Avery is confirmed as the 2024 Flock League champion, defeating Thomas in the championship. Thomas cites a depleted running-back group as a major factor in his loss.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery won the Flock League championship over Thomas.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Avery",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Avery"
+              },
+              {
+                "name": "runner_up",
+                "value": "Thomas"
+              },
+              {
+                "name": "event",
+                "value": "Flock League championship"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 398.24,
+                "end_seconds": 400.52,
+                "details": "The speaker directly says Avery “delivered” and “won the championship.”"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 492.32,
+                "end_seconds": 496.16,
+                "details": "Retrospective narration says Avery was the last creator standing and was playing Thomas."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 530.24,
+                "end_seconds": 534.92,
+                "details": "The narrator credits Avery with a deserved win and a great year."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Thomas said injuries depleted his running-back room entering the championship, naming Kamara, Hubbard, Montgomery, and Ford. The on-screen roster shows Hubbard on IR and Kamara and Montgomery marked out; Ford is marked questionable.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Thomas",
+              "A. Kamara",
+              "C. Hubbard",
+              "D. Montgomery",
+              "J. Ford"
+            ],
+            "facts": [
+              {
+                "name": "affected_owner",
+                "value": "Thomas"
+              },
+              {
+                "name": "players_named",
+                "value": "Alvin Kamara; Chuba Hubbard; David Montgomery; Jerome Ford"
+              },
+              {
+                "name": "roster_status_visible",
+                "value": "Hubbard IR; Kamara OUT; Montgomery OUT; Ford QUES"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 434.6,
+                "end_seconds": 443.92,
+                "details": "Thomas says he lost Kamara, Hubbard, Montgomery, and then Ford, leaving his running-back room gone."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 440.714,
+                "end_seconds": 441.5,
+                "details": "Roster graphic lists J. Ford as QUES, A. Kamara as OUT, D. Montgomery as OUT, and C. Hubbard in IR."
+              }
+            ]
+          },
+          {
+            "category": "draft",
+            "summary": "Thomas said that after winning knockout, he selected the second draft slot and drafted Christian McCaffrey; he then named a second player unclearly transcribed as “chave.”",
+            "status": "confirmed",
+            "confidence": 0.76,
+            "raw_names": [
+              "Thomas",
+              "Christian McCaffrey",
+              "chave"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Thomas"
+              },
+              {
+                "name": "draft_slot",
+                "value": "2nd"
+              },
+              {
+                "name": "confirmed_draft_pick",
+                "value": "Christian McCaffrey"
+              },
+              {
+                "name": "second_player_name",
+                "value": "unclear (transcribed as 'chave')"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 363.8,
+                "end_seconds": 375.84,
+                "details": "The speaker says he won knockout, chose second in the draft order, and took Christian McCaffrey before naming an unclear subsequent player."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The championship’s final score is not established in this window. A live Sunday-night graphic shows 90.18–132.48, while the matchup still had players remaining.",
+          "The second player Thomas says he drafted after Christian McCaffrey is unclear in the transcript ('chave')."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Season 1 concluded with Avery named the 2024 Flock League champion. Zach won the third-place matchup over Mason, and Bush started Aaron Rodgers, who scored 2.48 fantasy points.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Zach defeated Mason in the third-place game, 217.58–149.08.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Zach",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Third-place game"
+              },
+              {
+                "name": "winner",
+                "value": "Zach"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              },
+              {
+                "name": "score",
+                "value": "217.58–149.08"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 558.68,
+                "end_seconds": 569.6,
+                "details": "Speaker says, “we took down Mason in the third place game”; the on-screen fantasy matchup identifies @zaxvace vs @MasonDodd and displays 217.58 vs 149.08."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Avery was announced as the 2024 Flock League champion.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "season",
+                "value": "2024 / Season 1"
+              },
+              {
+                "name": "champion",
+                "value": "Avery"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 665.72,
+                "end_seconds": 678.24,
+                "details": "Narrator states that the Flock League has officially concluded and, “Avery is the 2024 Flock League champion.”"
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Bush was forced to start Aaron Rodgers at quarterback; Rodgers scored 2.48 fantasy points.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Bush",
+              "Aaron Rodgers"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Bush"
+              },
+              {
+                "name": "player",
+                "value": "Aaron Rodgers"
+              },
+              {
+                "name": "position",
+                "value": "QB"
+              },
+              {
+                "name": "fantasy_points",
+                "value": "2.48"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 709.72,
+                "end_seconds": 720.0,
+                "details": "Narration says Bush was forced to start Rodgers and that he scored 2.48 points; the visible fantasy lineup also lists A. Rodgers (QB-NYJ) with 2.48."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Around 00:10:51, a speaker claims a championship victory, but the later explicit season-conclusion announcement names Avery as champion. The earlier statement appears to be a different speaker/montage clip and should not be treated as the final result."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Championship results are shown, alongside recap commentary on Cory’s quarterback decisions and an unverified accusation concerning a prior trade.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "The championship display shows the team labeled “Peaked In Knockout” losing 109.38–166.38; the opposing team name is not legible in the supplied frame.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Peaked In Knockout"
+            ],
+            "facts": [
+              {
+                "name": "round",
+                "value": "Championship"
+              },
+              {
+                "name": "losing score",
+                "value": "109.38"
+              },
+              {
+                "name": "winning score",
+                "value": "166.38"
+              },
+              {
+                "name": "win probability shown",
+                "value": "0% for Peaked In Knockout; 100% for opponent"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 874.033,
+                "end_seconds": 875.5,
+                "details": "A monitor visibly displays a matchup headed “Championship,” with Peaked In Knockout at 109.38, the opposing side at 166.38, and 0%/100% win indicators."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Cory’s roster recap says Aaron Rodgers started and scored 2.48 points, while Patrick Mahomes scored 26 points on Cory’s bench; Anthony Richardson had been slated to start despite not practicing that week.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Cory",
+              "Aaron Rodgers",
+              "Patrick Mahomes",
+              "Anthony Richardson"
+            ],
+            "facts": [
+              {
+                "name": "Aaron Rodgers fantasy points",
+                "value": "2.48"
+              },
+              {
+                "name": "Patrick Mahomes bench fantasy points",
+                "value": "26"
+              },
+              {
+                "name": "Anthony Richardson roster status",
+                "value": "Slated starter, per commentary"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 719.48,
+                "end_seconds": 758.44,
+                "details": "Commentary identifies Cory’s quarterback choices; the roster display visibly lists A. Rodgers at 2.48. The speaker says Mahomes scored 26 on Cory’s bench and Richardson was slated as starter."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Avery alleges that he and Nathan made a “domain trade” characterized as collusion; the window does not provide trade terms or independent confirmation that collusion occurred.",
+            "status": "speculative",
+            "confidence": 0.45,
+            "raw_names": [
+              "Avery",
+              "Nathan",
+              "domain trade"
+            ],
+            "facts": [
+              {
+                "name": "allegation",
+                "value": "Avery says he and Nathan colluded to build a juggernaut"
+              },
+              {
+                "name": "trade details",
+                "value": "Not provided"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 867.92,
+                "end_seconds": 878.2,
+                "details": "Avery says, “Avery colluded with Nathan to build a juggernaut,” and calls the “domain trade” collusion; this is presented as a self-interested/joking allegation rather than substantiated transaction evidence."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The winning team/owner in the 166.38–109.38 championship result is not legible in the supplied visual.",
+          "The terms, timing, and actual completion of the alleged Avery–Nathan “domain trade” are not established in this window.",
+          "Cory is not among the supplied Season 1 owner names; confirm whether “Cory” is an alias or a different participant."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The championship scoreboard is shown, and the segment states that Nathan finished 12th in the league and is depicted with the loser-punishment items.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "The championship matchup shown on screen ended 166.38–109.38, with Peaked in Knockout losing; the scoreboard displays a 100% win probability for the 166.38-point side.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Peaked in Knockout"
+            ],
+            "facts": [
+              {
+                "name": "round",
+                "value": "Championship"
+              },
+              {
+                "name": "losing_team",
+                "value": "Peaked in Knockout"
+              },
+              {
+                "name": "losing_score",
+                "value": "109.38"
+              },
+              {
+                "name": "winning_score",
+                "value": "166.38"
+              },
+              {
+                "name": "displayed_win_probability",
+                "value": "100%"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 902.033,
+                "end_seconds": 904.0,
+                "details": "Championship scoreboard visibly shows Peaked in Knockout at 109.38 versus an opposing side at 166.38, with 100% displayed for the latter; opponent team/owner text is not readable enough to preserve."
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Nathan is said to have been the league's “12th best team” this season; he is also shown wearing a toilet seat and turkey costume.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "season_finish_description",
+                "value": "12th best team in the Flock League"
+              },
+              {
+                "name": "loser-punishment_items_depicted",
+                "value": "toilet seat and turkey costume"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 945.36,
+                "end_seconds": 947.84,
+                "details": "Speaker tells Nathan: “you were the 12th best team in the flock League this year.”"
+              },
+              {
+                "source": "both",
+                "start_seconds": 978.88,
+                "end_seconds": 983.92,
+                "details": "A speaker contrasts their championship crown/bling with Nathan's toilet seat and turkey head; Nathan is visually shown in the turkey costume at 948.433."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The winning championship team/owner name on the scoreboard is too blurry to identify reliably from this window.",
+          "The window establishes Nathan as described as 12th best, but does not explicitly label him the formal Ultimate Loser."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Avery celebrates and states that he won the Flock League, indicating he is the Season 1 champion.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery is presented as the official Flock League champion and says he won the league.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "result",
+                "value": "Flock League champion"
+              },
+              {
+                "name": "season",
+                "value": "Season 1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1107.12,
+                "end_seconds": 1122.28,
+                "details": "A speaker says, “I won the flock League,” then identifies his champion chain while referring to himself as Avery; he is shown celebrating in championship attire."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The championship matchup opponent and final score are not provided in this window.",
+          "The exact Week 17 matchup results are not stated; the discussion only says the two matchups involved the league’s ‘bookends’ (best and worst competitions)."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Avery is celebrated as the 2024 Flock League champion. A prior multi-player/FAAB trade involving team name “zaxavange” is shown and mocked as a costly Brandon Aiyuk acquisition.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery is identified as the Flock League champion.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "result",
+                "value": "Flock League champion"
+              },
+              {
+                "name": "owner",
+                "value": "Avery"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1346.8,
+                "end_seconds": 1350.0,
+                "details": "A speaker says, “I'm the flock League champion,” followed by “Avery you did it” and chants of “King Avery.”"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1397.44,
+                "end_seconds": 1411.88,
+                "details": "Avery is again celebrated with repeated chants of “all hail King Avery.”"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A trade graphic shows team “zaxavange” sending D'Onta Foreman, Brandon Aiyuk, and Jalen Tolbert, and receiving Amari Cooper, Kareem Hunt, Jaxon Smith-Njigba, Bucky Irving, and $30 FAAB.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "zaxavange",
+              "D'Onta Foreman",
+              "Brandon Aiyuk",
+              "Jalen Tolbert",
+              "Amari Cooper",
+              "Kareem Hunt",
+              "Jaxon Smith-Njigba",
+              "Bucky Irving"
+            ],
+            "facts": [
+              {
+                "name": "team shown",
+                "value": "zaxavange"
+              },
+              {
+                "name": "sent by zaxavange",
+                "value": "D'Onta Foreman; Brandon Aiyuk; Jalen Tolbert"
+              },
+              {
+                "name": "received by zaxavange",
+                "value": "Amari Cooper; Kareem Hunt; Jaxon Smith-Njigba; Bucky Irving; $30 FAAB"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1320.0,
+                "end_seconds": 1321.1,
+                "details": "Trade overlay labels Foreman, Aiyuk, and Tolbert “From zaxavange,” while Cooper, Hunt, Smith-Njigba, Irving, and $30 FAAB are labeled “To zaxavange.”"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1313.68,
+                "end_seconds": 1338.88,
+                "details": "Speaker discusses Bush's Brandon Aiyuk move and names Amari Cooper, Kareem Hunt, and Bucky Irving as pieces given up; the on-screen graphic supplies the full trade details."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not establish which season team owner corresponds to the displayed team name “zaxavange.”",
+          "Transcript dialogue characterizes Bush as acquiring Brandon Aiyuk, while the trade overlay labels Brandon Aiyuk “From zaxavange”; the graphic supports the asset directions but not Bush’s mapping to that team name."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1571.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "An unidentified participant celebrates and explicitly declares himself the Flock League champion, ending the season with a champagne celebration.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified on-camera participant states that he has won the Flock League and is its champion; he celebrates by buying and spraying champagne.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "result",
+                "value": "Flock League championship won"
+              },
+              {
+                "name": "winner_identity",
+                "value": "Not identified within this window"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1484.44,
+                "end_seconds": 1499.44,
+                "details": "Speaker says, \"it's official,\" \"I have won the flock League,\" and \"I'm the flock League champion.\""
+              },
+              {
+                "source": "both",
+                "start_seconds": 1502.467,
+                "end_seconds": 1565.919,
+                "details": "The participant shops for champagne, then visibly holds and sprays a bottle while repeating that he is the Flock League champion."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Which Season 1 team owner is the celebrating champion? The winner is not named clearly in this window."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "Is Cory an alias for Bush? Earlier Week 17 evidence identifies Bush in the Toilet Bowl, while later quarterback commentary refers to Cory.",
+    "The final Toilet Bowl score is not shown; Nathan states only that he won by 15 points.",
+    "The player Avery acquired for $1 more FAAB than Thomas is unclear in the transcript (rendered as “gendo”).",
+    "Which listed owner corresponds to the team name “zaxavange”?",
+    "The championship scoreboard’s winning-side label is unreadable. Avery is independently and explicitly confirmed as champion, while Thomas had stated he renamed his team Peaked In Knockout.",
+    "The alleged Avery–Nathan “domain trade” collusion has no established terms or independent substantiation and is not treated as a confirmed trade event."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Produce an evidence-linked, concise Season 1 episode recap focused on team owners and Week 17 league outcomes.",
+      "status": "fulfilled",
+      "details": "The recap identifies confirmed championship, third-place, and Toilet Bowl outcomes, preserving timestamps in structured evidence."
+    },
+    {
+      "instruction": "Record mentioned injuries, trades, and waiver/free-agent actions without inventing missing details.",
+      "status": "fulfilled",
+      "details": "Relevant injury, waiver, free-agent, and trade observations are retained; unclear player identities, owner mappings, and alleged collusion are explicitly qualified."
+    },
+    {
+      "instruction": "Preserve conflicts and uncertainties as review items rather than resolving them without support.",
+      "status": "fulfilled",
+      "details": "The Bush/Cory naming discrepancy, unreadable championship-side label, unclear waiver acquisition, unknown zaxavange owner, and unsubstantiated collusion allegation are listed as open questions."
+    },
+    {
+      "instruction": "Honor recap exclusions in episode guidance.",
+      "status": "not_applicable",
+      "details": "No episode-specific recap exclusions or supplemental-output declarations were provided."
+    }
+  ],
+  "supplemental_outputs": []
+}

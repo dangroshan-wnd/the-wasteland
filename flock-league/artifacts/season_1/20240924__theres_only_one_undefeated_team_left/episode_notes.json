@@ -1,0 +1,1301 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T19:36:46.933948+00:00",
+  "fingerprint": "179e507536f8f6438d7e5793e3bbbe3fc6142cac27fed5c23d72cbfeb7029e64",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "9Lb5mnouNss",
+  "video_title": "There's Only One Undefeated Team Left...",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "There's Only One Undefeated Team Left...",
+      "upload_date": "20240924",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Intro montage includes a completed fantasy-league bet punishment involving Nathan; no confirmed matchup result, trade, waiver, or roster information is shown.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Nathan appears to have lost a bet and performed a Colts-themed anthem/dance as the punishment.",
+            "status": "confirmed",
+            "confidence": 0.85,
+            "raw_names": [
+              "Nathan",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "bet opponent",
+                "value": "Mason (per the setup clip)"
+              },
+              {
+                "name": "punishment",
+                "value": "Reenact a Colts-themed song/anthem"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 60.72,
+                "end_seconds": 67.84,
+                "details": "The speaker says Mason made a bet for their matchup that, if the speaker lost, he would have to reenact the song."
+              },
+              {
+                "source": "both",
+                "start_seconds": 127.36,
+                "end_seconds": 131.36,
+                "details": "The performer says, 'I'm only doing this cuz I lost a bet,' while the video displays 'COLTS ANTHEM WEEK 2 PACKERS.'"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 164.88,
+                "end_seconds": 170.24,
+                "details": "A comedic search voiceover identifies the performer as Nathan from Domain/Fantasy Domain."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window does not explicitly state the fantasy-week matchup result or identify which owner won; it only establishes that Nathan says he lost the bet.",
+          "The visible title says 'Week 2 Packers,' while the sung transcript references beating the Bears, so the exact NFL-game reference in the reenactment is inconsistent."
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 3 previews establish Joe and Mason as 2-0, and Danny wins Carson Steele on waivers for $37.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "Joe is stated to be 2-0 entering Week 3.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "record entering Week 3",
+                "value": "2-0"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 224.959,
+                "end_seconds": 231.44,
+                "details": "Speaker previews playing Joe and says Joe “started 2 and 0.”"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Mason is stated to be 2-0 entering Week 3.",
+            "status": "confirmed",
+            "confidence": 0.87,
+            "raw_names": [
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "record entering Week 3",
+                "value": "2-0"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 269.68,
+                "end_seconds": 272.72,
+                "details": "Speaker says Mason “is 2 and 0.”"
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "A Week 3 matchup between Badake and Zach is shown as upcoming; Badake is 0-2 entering it.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Badake",
+              "Zach"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "3"
+              },
+              {
+                "name": "matchup",
+                "value": "Badake vs. Zach"
+              },
+              {
+                "name": "Badake record entering matchup",
+                "value": "0-2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 245.28,
+                "end_seconds": 259.28,
+                "details": "A speaker addresses “Baky” and says he is currently 0-2; the on-screen fantasy matchup display identifies the teams as @Badake versus @Zach."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Danny acquired Carson Steele via waivers for $37.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Danny",
+              "Carson Steele"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Carson Steele"
+              },
+              {
+                "name": "winning waiver bid",
+                "value": "$37"
+              },
+              {
+                "name": "acquiring owner",
+                "value": "Danny"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 299.759,
+                "end_seconds": 305.28,
+                "details": "Waiver recap says Carson Steele “went for 37.”"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 320.56,
+                "end_seconds": 335.52,
+                "details": "Speaker reacts that “Danny spent $37,” and Danny says, “I ended up bidding $37.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript references further Week 3 opponents (Avery and Bush), but the respective speakers/owners are not reliably identifiable from this window alone.",
+          "A speaker says a Week 2 loss was to a “dev,” but the speaker and the developer opponent are not identified clearly enough to record a matchup result."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Waiver spending, a Mason–Nathan result, injury context affecting fantasy decisions, and a completed Tom/Joe developer trade are discussed/shown.",
+        "observations": [
+          {
+            "category": "waiver",
+            "summary": "Danny acquired Carson Steele for $37 FAAB; Avery's next-highest bid was $36.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Danny",
+              "Carson Steele",
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "acquisition",
+                "value": "Carson Steele"
+              },
+              {
+                "name": "winning_bid",
+                "value": "$37 FAAB"
+              },
+              {
+                "name": "runner_up_bidder",
+                "value": "Avery"
+              },
+              {
+                "name": "runner_up_bid",
+                "value": "$36 FAAB"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 431.84,
+                "end_seconds": 440.72,
+                "details": "Danny says he spent up for Steele; the preceding speaker states Danny spent $37, and Danny says Avery bid $36."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Mason defeated Nathan, 118.46–107.14; the displayed league award labels it the lowest points in a win.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "MasonDodd",
+              "NathanSchmidt",
+              "Mason",
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Mason"
+              },
+              {
+                "name": "loser",
+                "value": "Nathan"
+              },
+              {
+                "name": "winner_score",
+                "value": "118.46"
+              },
+              {
+                "name": "loser_score",
+                "value": "107.14"
+              },
+              {
+                "name": "award",
+                "value": "Lowest Pts in Win"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 465.28,
+                "end_seconds": 473.6,
+                "details": "Speaker says his team won the least-points-in-a-win award in Weeks 1 and 2; the on-screen award card specifically shows MasonDodd 118.46 vs NathanSchmidt 107.14."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Kenneth Walker was not playing due to health, according to the fantasy manager discussing removing his jersey; the manager is not identified in this window.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Kenneth Walker"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Kenneth Walker"
+              },
+              {
+                "name": "availability",
+                "value": "Not playing"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 489.68,
+                "end_seconds": 503.44,
+                "details": "Speaker says, “Kenneth Walker is not playing” and says Walker cannot stay healthy or play games for his fantasy team."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A trade display shows GreenMeansMoney sending CeeDee Lamb and Anthony Richardson to TeeMeansMoney for Lamar Jackson, Jahmyr Gibbs, and Marvin Harrison. A participant says this is a trade between Tom and Joe, but the team-owner mapping is not independently visible.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "GreenMeansMoney",
+              "TeeMeansMoney",
+              "CeeDee Lamb",
+              "Anthony Richardson",
+              "Lamar Jackson",
+              "Jahmyr Gibbs",
+              "Marvin Harrison",
+              "Tom",
+              "Joe"
+            ],
+            "facts": [
+              {
+                "name": "from_team",
+                "value": "GreenMeansMoney"
+              },
+              {
+                "name": "to_team",
+                "value": "TeeMeansMoney"
+              },
+              {
+                "name": "GreenMeansMoney_sent",
+                "value": "CeeDee Lamb; Anthony Richardson"
+              },
+              {
+                "name": "TeeMeansMoney_sent",
+                "value": "Lamar Jackson; Jahmyr Gibbs; Marvin Harrison"
+              },
+              {
+                "name": "reported_owners",
+                "value": "Tom and Joe"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 516.4,
+                "end_seconds": 537.17,
+                "details": "Speaker calls his upcoming opponent Tom and says Joe traded Tom “Gibbs Harrison for Lamb”; the on-screen trade card supplies the complete exchange and team names."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not establish which of GreenMeansMoney and TeeMeansMoney belongs to Tom or Joe.",
+          "The speaker reporting Kenneth Walker's absence is not identified, so Walker's fantasy owner cannot be assigned.",
+          "The transcript mentions $28 for Quentin Johnston and $25 for Samaje Perine, but this window does not unambiguously establish their winning bidders."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Two fantasy trades are discussed/shown; the window also contains Week 3 matchup commentary and Jets–Patriots NFL-game footage.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Tom acquired Lamar Jackson, Jahmyr Gibbs, and Marvin Harrison Jr. for CeeDee Lamb and Anthony Richardson in a trade discussed as having drawn collusion/veto concerns.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Tom",
+              "Joe",
+              "CeeDee Lamb",
+              "Anthony Richardson",
+              "Lamar Jackson",
+              "Jahmyr Gibbs",
+              "Marvin Harrison Jr."
+            ],
+            "facts": [
+              {
+                "name": "Tom received",
+                "value": "Lamar Jackson; Jahmyr Gibbs; Marvin Harrison Jr."
+              },
+              {
+                "name": "Tom sent",
+                "value": "CeeDee Lamb; Anthony Richardson"
+              },
+              {
+                "name": "Other manager identified in discussion",
+                "value": "Joe"
+              },
+              {
+                "name": "League reaction",
+                "value": "Some managers characterized the trade as collusion and supported a veto; the speaker says it was not expected to be vetoed."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 582.399,
+                "end_seconds": 595.2,
+                "details": "The transcript states that Tom got Gibbs, Marvin Harrison Jr., and Lamar Jackson for CeeDee Lamb and Anthony Richardson. The on-screen trade graphic confirms CeeDee Lamb and Anthony Richardson moving from GreenMeansMoney, while Lamar Jackson, Jahmyr Gibbs, and Marvin Harrison move to GreenMeansMoney."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 597.36,
+                "end_seconds": 603.76,
+                "details": "Speakers call the deal collusion and say Zach and another unclear speaker were on the veto train; they also say some league members did not consider it veto-worthy."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "DannyLady21 traded Nico Collins and Trey Benson for Jaylen Waddle and Rhamondre Stevenson; discussion identifies Mason as the other side, though the visible trade card does not show that manager's handle.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [
+              "DannyLady21",
+              "Mason",
+              "Jaylen Waddle",
+              "Rhamondre Stevenson",
+              "Nico Collins",
+              "Trey Benson"
+            ],
+            "facts": [
+              {
+                "name": "DannyLady21 received",
+                "value": "Jaylen Waddle; Rhamondre Stevenson"
+              },
+              {
+                "name": "DannyLady21 sent",
+                "value": "Nico Collins; Trey Benson"
+              },
+              {
+                "name": "Counterparty mentioned in commentary",
+                "value": "Mason"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 704.355,
+                "end_seconds": 708.355,
+                "details": "The on-screen trade card explicitly lists DannyLady21 receiving Jaylen Waddle and Rhamondre Stevenson and sending Nico Collins and Trey Benson."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 703.519,
+                "end_seconds": 707.12,
+                "details": "Commentary says Mason could still win the deal because Rhamondre Stevenson is producing like an RB1."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The account name GreenMeansMoney is shown in the Lamar Jackson/Gibbs/Harrison trade graphic, but the supplied window does not independently establish whether it belongs to Tom or Joe; the spoken commentary identifies Tom as the recipient and Joe as the other manager.",
+          "The trade card for the Waddle/Stevenson-for-Collins/Benson deal only shows DannyLady21's side; Mason is inferred as the counterpart from commentary rather than displayed on the card."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 3 pregame lineup discussion: managers weigh starts, report injuries, and make/consider roster moves before Sunday kickoff.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "An unnamed manager says he picked up Geno Smith while panicking over Brock Purdy, then says he intends to start Smith and D'Andre Swift over Purdy and Terry McLaurin. The final lineup choice is presented as an intention, not a verified locked lineup.",
+            "status": "reported",
+            "confidence": 0.88,
+            "raw_names": [
+              "Geno Smith",
+              "Brock Purdy",
+              "D'Andre Swift",
+              "Terry McLaurin",
+              "Deebo Samuel"
+            ],
+            "facts": [
+              {
+                "name": "move",
+                "value": "Picked up Geno Smith"
+              },
+              {
+                "name": "planned lineup change",
+                "value": "Start Geno Smith and D'Andre Swift over Brock Purdy and Terry McLaurin"
+              },
+              {
+                "name": "reason given",
+                "value": "Concern about Purdy's performance and Deebo Samuel's absence"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 799.279,
+                "end_seconds": 822.88,
+                "details": "Speaker says he picked up Geno Smith and plans to use Swift and Geno over Purdy and McLaurin."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Justin Jefferson is described as having suffered a quad injury on Sunday but being \"full go\" for the upcoming Week 3 slate. This is NFL player-status context, not a fantasy result.",
+            "status": "reported",
+            "confidence": 0.77,
+            "raw_names": [
+              "Justin Jefferson",
+              "Garrett Wilson",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Justin Jefferson"
+              },
+              {
+                "name": "injury",
+                "value": "Quad injury"
+              },
+              {
+                "name": "availability",
+                "value": "Described as full go for Week 3"
+              },
+              {
+                "name": "fantasy context",
+                "value": "Bush is said to face a team starting Justin Jefferson after passing on him for Garrett Wilson"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 806.399,
+                "end_seconds": 848.96,
+                "details": "Narrator says Jefferson had a quad injury Sunday and is full go for Week 3; also says Bush passed on Jefferson for Garrett Wilson."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "An unnamed manager says Travis Kelce will go on the trade block if he does not score more than 12 fantasy points. This is a conditional proposal, not a completed trade or confirmed listing.",
+            "status": "speculative",
+            "confidence": 0.91,
+            "raw_names": [
+              "Travis Kelce",
+              "Patrick Mahomes",
+              "Rome Odunze"
+            ],
+            "facts": [
+              {
+                "name": "condition",
+                "value": "Kelce scores 12 or fewer fantasy points"
+              },
+              {
+                "name": "proposed action",
+                "value": "Place Travis Kelce on the trade block"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 825.12,
+                "end_seconds": 842.32,
+                "details": "Speaker threatens to put Kelce on the trade block if he does not exceed 12 fantasy points."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Joe Mixon is reported out with an ankle injury immediately before kickoff. An unnamed manager facing \"Baki\" says this forces him to start Amari Cooper after having traded away Brandon Aiyuk.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Joe Mixon",
+              "Amari Cooper",
+              "Brandon Aiyuk",
+              "Baki"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Joe Mixon"
+              },
+              {
+                "name": "injury",
+                "value": "Ankle injury"
+              },
+              {
+                "name": "availability",
+                "value": "Out"
+              },
+              {
+                "name": "lineup consequence",
+                "value": "Unnamed manager says he must start Amari Cooper"
+              },
+              {
+                "name": "prior roster action",
+                "value": "Manager says he traded away Brandon Aiyuk"
+              },
+              {
+                "name": "opponent raw name",
+                "value": "Baki"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 864.16,
+                "end_seconds": 894.48,
+                "details": "Speaker reports Mixon is out with an ankle injury, says he is facing Baki, and says he has to start Cooper after trading away Aiyuk."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "A manager addresses Avery on Sunday morning and says, \"May the best man win,\" characterizing their matchup as about to begin; no result is available in this window.",
+            "status": "confirmed",
+            "confidence": 0.76,
+            "raw_names": [
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Unnamed manager vs. Avery"
+              },
+              {
+                "name": "state",
+                "value": "Pregame / Sunday morning"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 895.04,
+                "end_seconds": 899.999,
+                "details": "Speaker says, \"May the best man win, Avery,\" and calls it a fun matchup."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identities of the managers discussing the Geno Smith pickup, Kelce trade-block condition, Joe Mixon/Amari Cooper lineup decision, and matchup against Avery are not established by this window.",
+          "It is unclear whether the stated Swift/Geno lineup intention was ultimately locked in.",
+          "The Aiyuk trade is asserted, but this window does not identify the trade partner or return."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 3 matchup reactions include a completed Zach trade, live matchup projections, and an unaccepted inquiry for Amari Cooper.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Zach had traded Brandon Aiyuk for Jaxon Smith-Njigba (\"JS\") and Amari Cooper.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Zach",
+              "Brandon Aiyuk",
+              "JS",
+              "Amari Cooper"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Zach"
+              },
+              {
+                "name": "sent",
+                "value": "Brandon Aiyuk"
+              },
+              {
+                "name": "received",
+                "value": "Jaxon Smith-Njigba and Amari Cooper"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 945.28,
+                "end_seconds": 955.68,
+                "details": "A speaker says Zach \"traded [Aiyuk] basically for JS and Amari Cooper,\" treating the deal as already completed."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "A manager asked the Amari Cooper rostered manager what he would want in exchange for Cooper after Cooper's two-touchdown game; no deal was confirmed.",
+            "status": "speculative",
+            "confidence": 0.9,
+            "raw_names": [
+              "Amari Cooper"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Amari Cooper"
+              },
+              {
+                "name": "proposal_status",
+                "value": "Informal trade inquiry only; terms not stated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1016.8,
+                "end_seconds": 1032.24,
+                "details": "The speaker says Cooper is on the other manager's roster and repeatedly asks, \"What do you want for him?\""
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Jauan Jennings had two touchdowns and more than 20 fantasy points by halftime of his NFL game, creating a live concern for the opposing fantasy manager.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Jauan Jennings"
+            ],
+            "facts": [
+              {
+                "name": "NFL_game_status",
+                "value": "Halftime"
+              },
+              {
+                "name": "touchdowns_at_halftime",
+                "value": "2"
+              },
+              {
+                "name": "fantasy_points_at_halftime",
+                "value": "Over 20"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1072.16,
+                "end_seconds": 1079.52,
+                "details": "Speaker reports that Jennings scored two touchdowns and had over 20 points by halftime."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1076.795,
+                "end_seconds": 1079.0,
+                "details": "On-screen player card later shows J. Jennings with a final 46.50 fantasy points, 11 receptions, 175 yards, and 3 TD; this confirms the player context but not the manager's identity."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the manager who traded with Zach, and the exact trade structure beyond Zach receiving Jaxon Smith-Njigba and Amari Cooper, are not established in this window.",
+          "The owner of Jauan Jennings and the corresponding Week 3 matchup result are not clearly established here.",
+          "No Week 3 matchup shown in this window is final, so no head-to-head winner should be recorded."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Sal was heavily favored but had not yet completed his matchup with Austin entering Monday night; discussion also referenced Sal's prior Amari Cooper trade and a separate low-scoring Mason matchup.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Sal led Austin 118.90–102.26 and had an 88% win probability entering Monday Night Football; the matchup was still in progress, not a confirmed win.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Sal",
+              "Austin",
+              "Josh Allen",
+              "Brian Thomas"
+            ],
+            "facts": [
+              {
+                "name": "score",
+                "value": "Sal 118.90, Austin 102.26"
+              },
+              {
+                "name": "win_probability",
+                "value": "Sal 88%"
+              },
+              {
+                "name": "remaining_player",
+                "value": "Sal: Josh Allen; Austin: Brian Thomas"
+              },
+              {
+                "name": "game_state",
+                "value": "Entering Monday Night Football"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1177.2,
+                "end_seconds": 1184.0,
+                "details": "Sal says he has an 88% chance entering Monday night and needs Josh Allen to avoid injury and Brian Thomas not to have a huge game; the on-screen matchup identifies @SalVetri and shows 118.90–102.26 with 88%."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Sal stated that he had traded away Amari Cooper; no trade partner or return was provided in this window.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [
+              "Sal",
+              "Amari Cooper"
+            ],
+            "facts": [
+              {
+                "name": "player_traded",
+                "value": "Amari Cooper"
+              },
+              {
+                "name": "trade_details",
+                "value": "Partner and compensation not stated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1086.08,
+                "end_seconds": 1093.44,
+                "details": "The speaker says, 'Amari Cooper goes off when I trade him,' while the accompanying matchup display identifies the speaker's account as @SalVetri."
+              }
+            ]
+          },
+          {
+            "category": "nfl_context",
+            "summary": "Jauan Jennings scored 46.50 fantasy points (11 receptions, 175 yards, 3 TD) in San Francisco's 27–24 loss at the Rams, affecting the ongoing Sal–Austin fantasy matchup context.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Jauan Jennings",
+              "Sal",
+              "Austin"
+            ],
+            "facts": [
+              {
+                "name": "fantasy_points",
+                "value": "46.50"
+              },
+              {
+                "name": "stat_line",
+                "value": "11 receptions, 175 yards, 3 touchdowns"
+              },
+              {
+                "name": "nfl_result",
+                "value": "San Francisco lost 24–27 at Los Angeles Rams"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1103.04,
+                "end_seconds": 1108.32,
+                "details": "Sal says Jennings had 46 fantasy points; the on-screen player card shows 46.50 points, 11/12 REC, 175 YD, 3 TD, and 'Final L 24-27 @ LAR.'"
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Mason was said to have only about 60 points after Sunday’s games; this was commentary on an apparently poor weekly performance, not a final matchup result.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "points_after_sunday",
+                "value": "about 60"
+              },
+              {
+                "name": "completion_status",
+                "value": "Not established as final"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1198.96,
+                "end_seconds": 1216.08,
+                "details": "Speakers say Mason 'scored like 60 points this week' and then clarify that after the Sunday slate he was 'sitting at 60 points.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Austin's final score and the winner of the Sal–Austin matchup are not shown in this window.",
+          "The Amari Cooper trade partner and compensation are not provided.",
+          "It is not established whether Jauan Jennings was rostered by Austin or merely relevant as an NFL/fantasy performance discussed during the matchup."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 3 Monday-night matchup updates culminate in Tom defeating Mason; Danny completes a trade for Jonathan Brooks and Adam Thielen is reported injured.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Tom defeated Mason in their Week 3 fantasy matchup; the video characterizes it as a decisive loss for Mason.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Tom",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "3"
+              },
+              {
+                "name": "winner",
+                "value": "Tom"
+              },
+              {
+                "name": "loser",
+                "value": "Mason"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1375.6,
+                "end_seconds": 1414.0,
+                "details": "Commentary explicitly says, “Tom took you out in week three,” directed at Mason; the on-screen matchup display shows the same matchup, though its small score text is not reliable enough to transcribe."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Danny completed a trade to acquire Jonathan Brooks, sending Adam Thielen and Rico Dowdle away. The other manager is not visible in the supplied evidence.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Danny",
+              "Jonathan Brooks",
+              "Adam Thielen",
+              "Rico Dowdle"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Danny"
+              },
+              {
+                "name": "received",
+                "value": "Jonathan Brooks"
+              },
+              {
+                "name": "sent",
+                "value": "Adam Thielen; Rico Dowdle"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1422.72,
+                "end_seconds": 1439.84,
+                "details": "Narration says another trade “has just happened” and that Danny gets Jonathan Brooks while giving Adam Thielen; the on-screen completed-trade notification additionally clearly lists Rico Dowdle as leaving Dannylad21's roster."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Adam Thielen is reported to have suffered a hamstring injury.",
+            "status": "reported",
+            "confidence": 0.82,
+            "raw_names": [
+              "Adam Thielen"
+            ],
+            "facts": [
+              {
+                "name": "injury",
+                "value": "hamstring"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1437.52,
+                "end_seconds": 1439.84,
+                "details": "Narrator states that Adam Thielen “just suffered a hamstring injury.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The recipient manager for Danny's Jonathan Brooks/Adam Thielen/Rico Dowdle trade is not shown in this window.",
+          "The exact final score of Tom versus Mason is too small/blurry to record confidently."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed trade between Danny and Joe is shown and debated; Danny is described as the league’s remaining 3-0 team with the most points scored.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Completed trade: Danny acquired Jonathan Brooks from Joe/GreenMeansMoney; Joe received Adam Thielen, Rico Dowdle, and $30 FAAB.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Danny",
+              "Joe",
+              "GreenMeansMoney",
+              "Jonathan Brooks",
+              "Adam Thielen",
+              "Rico Dowdle"
+            ],
+            "facts": [
+              {
+                "name": "Danny received",
+                "value": "Jonathan Brooks (RB, CAR)"
+              },
+              {
+                "name": "Joe/GreenMeansMoney received",
+                "value": "Adam Thielen (WR, CAR), Rico Dowdle (RB, DAL), and $30 FAAB"
+              },
+              {
+                "name": "trade status",
+                "value": "Completed"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1440.0,
+                "end_seconds": 1442.4,
+                "details": "On-screen transaction panel says “A trade has been completed” and lists Danny’s roster adding Jonathan Brooks and sending Adam Thielen, Rico Dowdle, and $30. Later discussion identifies the deal as between Danny and Joe."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1499.467,
+                "end_seconds": 1500.5,
+                "details": "Trade overlay explicitly labels Brooks as from GreenMeansMoney and Thielen, Dowdle, and $30 FAAB as going to GreenMeansMoney."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1580.96,
+                "end_seconds": 1584.08,
+                "details": "Speaker refers to “this trade that Danny has done with Joe.”"
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "Danny is reported to be 3-0, in first place, and to have the league’s most points scored.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "record",
+                "value": "3-0"
+              },
+              {
+                "name": "standing",
+                "value": "First place"
+              },
+              {
+                "name": "points distinction",
+                "value": "Most points scored"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1486.08,
+                "end_seconds": 1498.56,
+                "details": "Danny says, “3 and 0, most points scored,” calls himself the best team, and says he is now in first place."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied material does not independently identify Joe’s team name beyond the trade overlay’s GreenMeansMoney label, though the transcript says the trade was with Joe.",
+          "Adam Thielen’s hamstring injury and projected two-plus-week absence are mentioned at 00:23:59.360–00:24:02.000, but the transcript misnames him as “Dylan”; review if an injury note is needed."
+        ]
+      }
+    },
+    {
+      "window_index": 9,
+      "start": 1620.0,
+      "end": 1676.0,
+      "transient_image_count": 8,
+      "review": {
+        "window_summary": "A trade involving Jonathan Brooks is shown, followed by Week 3 matchup reactions including a 48-point win over Cory.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "GreenMeansMoney traded Adam Thielen, Rico Dowdle, and $30 FAAB to acquire Jonathan Brooks.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "GreenMeansMoney",
+              "Jonathan Brooks",
+              "Adam Thielen",
+              "Rico Dowdle"
+            ],
+            "facts": [
+              {
+                "name": "received_by_GreenMeansMoney",
+                "value": "Jonathan Brooks (RB, CAR)"
+              },
+              {
+                "name": "sent_by_GreenMeansMoney",
+                "value": "Adam Thielen (WR, CAR); Rico Dowdle (RB, DAL); $30 FAAB"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1620.0,
+                "end_seconds": 1622.5,
+                "details": "Trade graphic explicitly lists Jonathan Brooks 'From GreenMeansMoney' and Adam Thielen, Rico Dowdle, and $30 FAAB 'To GreenMeansMoney.'"
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Jonathan Brooks was said to be going to miss time.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Jonathan Brooks"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Jonathan Brooks"
+              },
+              {
+                "name": "update",
+                "value": "Going to miss time"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1617.679,
+                "end_seconds": 1620.08,
+                "details": "Speaker says, 'Brooks is going to miss time.'"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "The team called 'the betting favorite' defeated Cory by 48 points; the speaker says his record is now 1-2 after Monday night concluded.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "the betting favorite",
+              "Cory"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "the betting favorite"
+              },
+              {
+                "name": "loser",
+                "value": "Cory"
+              },
+              {
+                "name": "margin",
+                "value": "48 points"
+              },
+              {
+                "name": "winner_record_after_matchup",
+                "value": "1-2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1647.679,
+                "end_seconds": 1656.64,
+                "details": "Speaker says, 'We won by 48 points this week against Cory. The Monday night games are officially over and I am officially one and two.'"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1647.467,
+                "end_seconds": 1650.0,
+                "details": "Fantasy matchup screen is displayed beside the speaker."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not identify the owner behind the team name GreenMeansMoney or the team called 'the betting favorite.'",
+          "The exact final scores of the betting-favorite-versus-Cory matchup are too blurry to reliably record."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "Which owner was behind the “betting favorite” team that beat Cory by 48 points?",
+    "The exact final score of Tom’s Week 3 win over Mason is not readable.",
+    "The counterparty in Zach’s Brandon Aiyuk-for-Jaxon Smith-Njigba-and-Amari Cooper trade is not directly identified. Sal separately said he had traded away Amari Cooper, but the evidence does not explicitly link Sal to Zach’s deal.",
+    "The final result of Sal versus Austin is not shown; Sal only held an 88% win probability entering Monday night.",
+    "The identities of several managers making lineup comments, including the Geno Smith pickup and Joe Mixon/Amari Cooper decision, are not established.",
+    "Nathan confirms losing a bet tied to Mason, but the underlying fantasy matchup result is not explicitly stated."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Create concise, evidence-linked notes centered on team owners while tracking matchup results, trades, waivers, and injuries.",
+      "status": "fulfilled",
+      "details": "The synthesis records supported owner-level events, preserves player context where relevant, and avoids unsupported scores, owners, and trade terms."
+    },
+    {
+      "instruction": "Treat transcript and reviews as evidence; do not promote jokes, proposals, rumors, or accusations into confirmed facts.",
+      "status": "fulfilled",
+      "details": "Collusion allegations, prospective lineup decisions, and trade inquiries are described as commentary or omitted from confirmed events."
+    },
+    {
+      "instruction": "Identify uncertainties requiring human review.",
+      "status": "fulfilled",
+      "details": "Unresolved owner identities, incomplete matchup outcomes, unreadable scores, and ambiguous trade linkage are listed as open questions."
+    },
+    {
+      "instruction": "Honor episode-specific instructions and recap exclusions.",
+      "status": "not_applicable",
+      "details": "No episode-specific instructions or recap exclusions were provided."
+    }
+  ],
+  "supplemental_outputs": []
+}

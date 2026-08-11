@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "video_id": "s9aEz8IiLps",
+  "video_title": "The Official 2024 Flock League Champion...",
+  "season": "Season 1",
+  "week": 17,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Official 2024 Flock League Champion...",
+      "upload_date": "20241231",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "matchup_result",
+      "summary": "Avery won the 2024 Flock League championship over Thomas. A later championship display showed Thomas’s stated team name, “Peaked In Knockout,” losing 109.38–166.38, although the winning-side label was unreadable.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "champion",
+          "name": "Avery"
+        },
+        {
+          "role": "runner-up",
+          "name": "Thomas"
+        },
+        {
+          "role": "losing team label shown",
+          "name": "Peaked In Knockout"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Peaked In Knockout",
+          "score": 109.38
+        },
+        {
+          "name": "Unidentified opposing championship side",
+          "score": 166.38
+        }
+      ],
+      "facts": [
+        {
+          "name": "championship result",
+          "value": "Avery defeated Thomas"
+        },
+        {
+          "name": "displayed championship score",
+          "value": "Peaked In Knockout 109.38, unidentified opponent 166.38"
+        },
+        {
+          "name": "team-name linkage",
+          "value": "Thomas said he was changing his team name to Peaked In Knockout earlier in the episode"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 398.24,
+          "end_seconds": 400.52,
+          "details": "Thomas says Avery delivered and won the championship."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 665.72,
+          "end_seconds": 678.24,
+          "details": "The season-conclusion narration explicitly identifies Avery as the 2024 Flock League champion."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 902.033,
+          "end_seconds": 904.0,
+          "details": "Championship scoreboard shows Peaked In Knockout losing 109.38–166.38; the opponent text is not readable."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Zach defeated Mason 217.58–149.08 in the Week 17 third-place game.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Zach"
+        },
+        {
+          "role": "loser",
+          "name": "Mason"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Zach",
+          "score": 217.58
+        },
+        {
+          "name": "Mason",
+          "score": 149.08
+        }
+      ],
+      "facts": [
+        {
+          "name": "round",
+          "value": "Third-place game"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 558.68,
+          "end_seconds": 569.6,
+          "details": "Zach says he took down Mason in the third-place game; the matchup display shows 217.58–149.08."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Nathan said he defeated Bush by 15 points in the Week 17 Toilet Bowl.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.88,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Nathan"
+        },
+        {
+          "role": "loser",
+          "name": "Bush"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "round",
+          "value": "Toilet Bowl / last-place matchup"
+        },
+        {
+          "name": "margin of victory",
+          "value": "15 points"
+        },
+        {
+          "name": "final score",
+          "value": "Not established"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 781.92,
+          "end_seconds": 799.2,
+          "details": "Nathan says his quarterback-defense strategy won the day and that he won the game by 15."
+        },
+        {
+          "source": "both",
+          "start_seconds": 89.92,
+          "end_seconds": 103.0,
+          "details": "Earlier matchup display identifies the Toilet Bowl as Bush versus Nathan and shows it in progress."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "Nathan was described as the league’s “12th best team” and depicted with a toilet seat and turkey costume.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "12th-place team, as described",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "season finish description",
+          "value": "12th best team in the Flock League"
+        },
+        {
+          "name": "punishment items depicted",
+          "value": "Toilet seat and turkey costume"
+        },
+        {
+          "name": "formal Ultimate Loser designation",
+          "value": "Not explicitly stated"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 945.36,
+          "end_seconds": 947.84,
+          "details": "A speaker tells Nathan he was the 12th best team in the league."
+        },
+        {
+          "source": "both",
+          "start_seconds": 978.88,
+          "end_seconds": 983.92,
+          "details": "Nathan is shown with a turkey costume, and commentary contrasts Avery’s championship items with Nathan’s toilet seat and turkey head."
+        }
+      ]
+    },
+    {
+      "event_type": "roster_move",
+      "summary": "Bush sat Patrick Mahomes and started Anthony Richardson at quarterback in the Toilet Bowl.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "player sat",
+          "name": "Patrick Mahomes"
+        },
+        {
+          "role": "starting quarterback",
+          "name": "Anthony Richardson"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Patrick Mahomes points",
+          "value": "26.00"
+        },
+        {
+          "name": "Anthony Richardson availability context",
+          "value": "Commentary said he was questionable and later had not practiced that week"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 112.84,
+          "end_seconds": 131.0,
+          "details": "Bush says he sat Mahomes; the visible lineup lists Anthony Richardson at QB, and Mahomes is shown with 26.00 points."
+        }
+      ]
+    },
+    {
+      "event_type": "other",
+      "summary": "Bush started Aaron Rodgers at quarterback after the quarterback availability issues; Rodgers scored 2.48 fantasy points.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.92,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Bush"
+        },
+        {
+          "role": "starting quarterback",
+          "name": "Aaron Rodgers"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Aaron Rodgers fantasy points",
+          "value": "2.48"
+        },
+        {
+          "name": "identity caveat",
+          "value": "Later commentary calls the manager Cory, while earlier matchup evidence identifies Bush; whether Cory is an alias is unresolved."
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 709.72,
+          "end_seconds": 720.0,
+          "details": "Narration says Bush was forced to start Rodgers, and the visible lineup lists Rodgers with 2.48 points."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 729.2,
+          "end_seconds": 738.44,
+          "details": "Bush says he had been blocked at quarterback and had to play Aaron Rodgers."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Nathan made a series of quarterback free-agent transactions, adding Justin Herbert, Drake Maye, and Matthew Stafford; the visible log also shows the associated drops.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.95,
+      "participants": [
+        {
+          "role": "team owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "added player",
+          "name": "Justin Herbert"
+        },
+        {
+          "role": "added player",
+          "name": "Drake Maye"
+        },
+        {
+          "role": "added player",
+          "name": "Matthew Stafford"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "visible transactions",
+          "value": "Added Justin Herbert/dropped Russell Wilson; added Drake Maye/dropped Israel Abanikanda; added Matthew Stafford/dropped Drake Maye; added Drake Maye/dropped Romeo Doubs"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 210.0,
+          "end_seconds": 233.0,
+          "details": "The transaction log labels the moves as made by NathanSchmidt and lists the adds and drops."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Thomas entered the championship with a depleted running-back group: Chuba Hubbard was on IR; Alvin Kamara and David Montgomery were out; and Jerome Ford was questionable.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.91,
+      "participants": [
+        {
+          "role": "affected owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "player",
+          "name": "Chuba Hubbard"
+        },
+        {
+          "role": "player",
+          "name": "Alvin Kamara"
+        },
+        {
+          "role": "player",
+          "name": "David Montgomery"
+        },
+        {
+          "role": "player",
+          "name": "Jerome Ford"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "visible statuses",
+          "value": "Hubbard IR; Kamara OUT; Montgomery OUT; Ford QUES"
+        },
+        {
+          "name": "fantasy impact",
+          "value": "Thomas said he was struggling to fill his championship lineup"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 323.24,
+          "end_seconds": 338.2,
+          "details": "Thomas says Hubbard was placed on IR and Kamara was declared out; on-screen roster cards show their statuses."
+        },
+        {
+          "source": "both",
+          "start_seconds": 434.6,
+          "end_seconds": 443.92,
+          "details": "Thomas names Kamara, Hubbard, Montgomery, and Ford as losses; the roster graphic shows Ford questionable, Kamara and Montgomery out, and Hubbard on IR."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Thomas reported that Avery won a waiver bid by $1 of FAAB for an unidentified player; Thomas then spent his remaining FAAB on the Raiders defense.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "reported",
+      "confidence": 0.76,
+      "participants": [
+        {
+          "role": "waiver winner",
+          "name": "Avery"
+        },
+        {
+          "role": "outbid manager",
+          "name": "Thomas"
+        },
+        {
+          "role": "Thomas acquisition",
+          "name": "Raiders defense"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "winning margin",
+          "value": "$1 FAAB"
+        },
+        {
+          "name": "Avery acquisition",
+          "value": "Player name unclear; transcript renders it as “gendo”"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 337.96,
+          "end_seconds": 350.84,
+          "details": "Thomas says Avery had one more FAAB dollar, acquired a player transcribed as gendo, and that Thomas spent the rest of his FAAB on the Raiders defense."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "A trade graphic shows team “zaxavange” sending D’Onta Foreman, Brandon Aiyuk, and Jalen Tolbert for Amari Cooper, Kareem Hunt, Jaxon Smith-Njigba, Bucky Irving, and $30 FAAB.",
+      "season": "Season 1",
+      "week": 17,
+      "status": "confirmed",
+      "confidence": 0.86,
+      "participants": [
+        {
+          "role": "team shown",
+          "name": "zaxavange"
+        },
+        {
+          "role": "sent by zaxavange",
+          "name": "D'Onta Foreman"
+        },
+        {
+          "role": "sent by zaxavange",
+          "name": "Brandon Aiyuk"
+        },
+        {
+          "role": "sent by zaxavange",
+          "name": "Jalen Tolbert"
+        },
+        {
+          "role": "received by zaxavange",
+          "name": "Amari Cooper"
+        },
+        {
+          "role": "received by zaxavange",
+          "name": "Kareem Hunt"
+        },
+        {
+          "role": "received by zaxavange",
+          "name": "Jaxon Smith-Njigba"
+        },
+        {
+          "role": "received by zaxavange",
+          "name": "Bucky Irving"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "sent by zaxavange",
+          "value": "D'Onta Foreman; Brandon Aiyuk; Jalen Tolbert"
+        },
+        {
+          "name": "received by zaxavange",
+          "value": "Amari Cooper; Kareem Hunt; Jaxon Smith-Njigba; Bucky Irving; $30 FAAB"
+        },
+        {
+          "name": "owner mapping",
+          "value": "The evidence does not reliably identify which listed owner used the zaxavange team name"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 1320.0,
+          "end_seconds": 1321.1,
+          "details": "Trade overlay explicitly labels the assets from and to zaxavange."
+        }
+      ]
+    }
+  ]
+}

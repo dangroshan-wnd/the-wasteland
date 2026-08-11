@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T19:09:09.820989+00:00",
+  "fingerprint": "920dc4e8fe728d8e4401d777c545ecd019b657c567cd4a04cc9131391b46cb1a",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "FKFRHyok5QI",
+  "video_title": "The Flock League Goes Crazy After This Trade",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "The Flock League Goes Crazy After This Trade",
+      "upload_date": "20240831",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed preseason trade between Mason and Danny is shown and discussed.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Mason traded Nico Collins and Trey Benson to Danny for Jaylen Waddle and Rhamondre Stevenson.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Mason",
+              "Danny",
+              "Nico Collins",
+              "Trey Benson",
+              "Jaylen Waddle",
+              "Rhamondre Stevenson",
+              "MasonDodd",
+              "DannyIad21"
+            ],
+            "facts": [
+              {
+                "name": "Mason receives",
+                "value": "Jaylen Waddle; Rhamondre Stevenson"
+              },
+              {
+                "name": "Danny receives",
+                "value": "Nico Collins; Trey Benson"
+              },
+              {
+                "name": "trade status",
+                "value": "Accepted"
+              },
+              {
+                "name": "trade received date shown",
+                "value": "Aug 29, 2024"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2.27,
+                "end_seconds": 13.24,
+                "details": "Speaker calls it the league's first official trade and states that Danny received Nico Collins and Trey Benson, while he received Jaylen Waddle and Rhamondre Stevenson."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 5.294,
+                "end_seconds": 30.013,
+                "details": "Trade screen reads 'Trade Accepted' and identifies MasonDodd as receiving Jaylen Waddle and Rhamondre Stevenson from DannyIad21, while sending Nico Collins and Trey Benson to DannyIad21."
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed two-for-two trade between Mason and Danny is shown and discussed.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Mason traded Nico Collins and Trey Benson to Danny for Jaylen Waddle and Rhamondre Stevenson.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "MasonDodd",
+              "DannyaId21",
+              "Jaylen Waddle",
+              "Rhamondre Stevenson",
+              "Nico Collins",
+              "Trey Benson"
+            ],
+            "facts": [
+              {
+                "name": "Mason receives",
+                "value": "Jaylen Waddle; Rhamondre Stevenson"
+              },
+              {
+                "name": "Mason sends",
+                "value": "Nico Collins; Trey Benson"
+              },
+              {
+                "name": "Danny receives",
+                "value": "Nico Collins; Trey Benson"
+              },
+              {
+                "name": "Danny sends",
+                "value": "Jaylen Waddle; Rhamondre Stevenson"
+              },
+              {
+                "name": "Trade status",
+                "value": "Accepted"
+              },
+              {
+                "name": "Trade received date shown",
+                "value": "Aug. 29, 2024"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 180.08,
+                "end_seconds": 184.0,
+                "details": "On-screen 'Trade Accepted' panel identifies MasonDodd and DannyaId21 and explicitly lists the two players Mason receives and sends; the transcript also discusses the Rhamondre Stevenson/Trey Benson and Waddle/Nico Collins swap."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 299.04,
+                "end_seconds": 323.92,
+                "details": "Speakers explicitly characterize it as a trade between Mason and Danny, comparing Waddle for Nico Collins and Trey Benson for Rhamondre Stevenson."
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A completed trade moved Jaylen Waddle and Rhamondre Stevenson to Mason Dodd for Nico Collins and Trey Benson. SalVetri also added Keaton Mitchell and Jordan Mason as free agents; Stevenson was subsequently stated to be on the trade block.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Mason Dodd completed a trade, receiving Jaylen Waddle and Rhamondre Stevenson while sending Trey Benson and Nico Collins.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "MasonDodd",
+              "Jaylen Waddle",
+              "Rhamondre Stevenson",
+              "Trey Benson",
+              "Nico Collins"
+            ],
+            "facts": [
+              {
+                "name": "recipient_roster",
+                "value": "MasonDodd's Roster"
+              },
+              {
+                "name": "received",
+                "value": "Jaylen Waddle; Rhamondre Stevenson"
+              },
+              {
+                "name": "sent",
+                "value": "Trey Benson; Nico Collins"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 457.795,
+                "end_seconds": 467.375,
+                "details": "Trade graphic titled \"MasonDodd's Roster\" shows plus signs beside Jaylen Waddle and Rhamondre Stevenson and minus signs beside Trey Benson and Nico Collins."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 399.64,
+                "end_seconds": 407.999,
+                "details": "Speaker discusses George Pickens and describes giving away a top-10 draft pick in a lateral-ADP trade; this supports discussion of the completed deal but the graphic establishes the exact players."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "SalVetri added Keaton Mitchell and Jordan Mason as free agents.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "SalVetri",
+              "Keaton Mitchell",
+              "Jordan Mason"
+            ],
+            "facts": [
+              {
+                "name": "team_owner_raw",
+                "value": "SalVetri"
+              },
+              {
+                "name": "additions",
+                "value": "Keaton Mitchell; Jordan Mason"
+              },
+              {
+                "name": "transaction_type",
+                "value": "Free-agent additions"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 467.375,
+                "end_seconds": 482.232,
+                "details": "Transaction feed explicitly states twice that \"SalVetri made a free agent move,\" adding Keaton Mitchell (RB-BAL) and Jordan Mason (RB-SF)."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 405.2,
+                "end_seconds": 419.84,
+                "details": "Speaker says he picked up Keaton Mitchell and then Jordan Mason after the Elijah Mitchell news."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Rhamondre Stevenson was stated to be on the trade block, inviting league members to send offers; no subsequent trade is confirmed in this window.",
+            "status": "reported",
+            "confidence": 0.93,
+            "raw_names": [
+              "Rhamondre Stevenson"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Rhamondre Stevenson"
+              },
+              {
+                "name": "availability",
+                "value": "On the trade block"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 644.839,
+                "end_seconds": 652.92,
+                "details": "Speaker says, \"Rhamondre Stevenson officially on the trade block\" and invites league mates to message him."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not establish the real-name identity of the owner shown as \"MasonDodd\" or \"SalVetri,\" so those raw roster/account names are preserved.",
+          "The transcript says Keaton Mitchell was put on IR, but the on-screen transaction feed only confirms the free-agent addition; an IR designation is not recorded."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 586.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Danny states that Trey Benson is on his fantasy team and frames him as a potential later-season breakout; the James Conner injury discussion is NFL-context speculation, not a confirmed injury update.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Danny says Trey Benson will be on his team (“Team Danny Lad 21”), indicating Benson is on Danny's roster.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Danny",
+              "Trey Benson",
+              "Team Danny Lad 21"
+            ],
+            "facts": [
+              {
+                "name": "team_owner",
+                "value": "Danny"
+              },
+              {
+                "name": "player",
+                "value": "Trey Benson"
+              },
+              {
+                "name": "team_name",
+                "value": "Team Danny Lad 21"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 567.2,
+                "end_seconds": 579.16,
+                "details": "Speaker says he is targeting Trey Benson and that, rather than being a future waiver add, “he's going to be on Team Danny Lad 21.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    }
+  ],
+  "open_questions": [
+    "The episode does not establish a specific fantasy week; it appears to be preseason activity following the draft.",
+    "The transcript says Keaton Mitchell was placed in an IR slot, but the on-screen transaction feed confirms only his free-agent addition; an IR designation is not recorded as a confirmed roster move.",
+    "The discussion of a possible James Conner injury is preseason speculation and not a confirmed NFL injury update."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize team owners and record supported trades, waiver activity, and roster-related developments.",
+      "status": "fulfilled",
+      "details": "The recap centers Mason, Danny, and Sal and records the completed trade, Sal’s free-agent additions, and Stevenson’s reported trade availability."
+    },
+    {
+      "instruction": "Treat on-screen information as stronger than transcript where applicable and avoid turning opinions, predictions, or rumors into facts.",
+      "status": "fulfilled",
+      "details": "The accepted trade and free-agent additions rely on visual confirmation. Trade-value debate and James Conner injury speculation are excluded from factual events."
+    },
+    {
+      "instruction": "Track matchup results and scores when available.",
+      "status": "not_applicable",
+      "details": "No head-to-head matchup result or score is provided in this episode."
+    },
+    {
+      "instruction": "Honor recap exclusions in episode-specific guidance.",
+      "status": "not_applicable",
+      "details": "No episode-specific recap exclusions were supplied."
+    }
+  ],
+  "supplemental_outputs": []
+}

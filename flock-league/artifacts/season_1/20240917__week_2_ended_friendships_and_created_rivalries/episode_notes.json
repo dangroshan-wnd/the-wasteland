@@ -1,0 +1,1709 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T19:32:18.690257+00:00",
+  "fingerprint": "b8831a65fbd97dca98581588458a4f79c7898c189b475d8877a165608cde3c9d",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "ZJ0ZvmANWvU",
+  "video_title": "Week 2 Ended Friendships & Created Rivalries",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Avery",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Week 2 Ended Friendships & Created Rivalries",
+      "upload_date": "20240917",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Teaser material identifies a confirmed Nathan waiver add and mentions several injury/trade-related developments; no completed fantasy matchup result is shown.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Nathan added Tyler Johnson and dropped Josh Reynolds via waivers for $32.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Nathan Schmidt",
+              "T. Johnson",
+              "J. Reynolds"
+            ],
+            "facts": [
+              {
+                "name": "owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "transaction_type",
+                "value": "waiver claim"
+              },
+              {
+                "name": "added",
+                "value": "Tyler Johnson (WR, LAR)"
+              },
+              {
+                "name": "dropped",
+                "value": "Josh Reynolds (WR, DEN)"
+              },
+              {
+                "name": "FAAB spent",
+                "value": "$32"
+              },
+              {
+                "name": "transaction date shown",
+                "value": "Sep 11, 9:05 AM"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 61.32,
+                "end_seconds": 81.76,
+                "details": "Commentary says Nathan spent $32 on Tyler Johnson; the on-screen transaction card identifies Nathan Schmidt's team, shows 'WAIVERED $32,' T. Johnson added, and J. Reynolds dropped."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Evan Engram was ruled out shortly before kickoff with a pregame hamstring injury.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Evan Engram"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Evan Engram"
+              },
+              {
+                "name": "injury",
+                "value": "hamstring"
+              },
+              {
+                "name": "availability",
+                "value": "out before kickoff"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 20.4,
+                "end_seconds": 24.92,
+                "details": "Transcript says Engram was ruled out an hour before kickoff; on-screen ESPN headline reads, 'Jags' Engram out after pregame hammy injury.'"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "An unidentified manager said Ja'Marr Chase was on the trade block.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Jamar Chase"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Ja'Marr Chase"
+              },
+              {
+                "name": "status",
+                "value": "on trade block"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1.63,
+                "end_seconds": 7.64,
+                "details": "Speaker criticizes Chase's play and says, 'Jamar Chase on the trade block.'"
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "An unidentified manager said they had lost Puka, apparently due to an injury, about 72 hours earlier.",
+            "status": "reported",
+            "confidence": 0.64,
+            "raw_names": [
+              "puka"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Puka (surname not stated)"
+              },
+              {
+                "name": "reported impact",
+                "value": "manager said they had 'lost' the player"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 93.44,
+                "end_seconds": 105.4,
+                "details": "Speaker says it had been about 72 hours since they 'lost puka,' then describes denial that he was injured."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "A side bet involving Mason and another manager was proposed for their Week 2 matchup: if Mason loses, he would record a one-minute video congratulating the other manager.",
+            "status": "reported",
+            "confidence": 0.72,
+            "raw_names": [
+              "Mason",
+              "Nathan Schmidt"
+            ],
+            "facts": [
+              {
+                "name": "participant",
+                "value": "Mason"
+              },
+              {
+                "name": "stake if Mason loses",
+                "value": "one-minute congratulatory video"
+              },
+              {
+                "name": "acceptance",
+                "value": "unclear"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 46.56,
+                "end_seconds": 57.68,
+                "details": "Transcript describes the proposed condition for Mason if he loses. On-screen Flock message is addressed to Nathan Schmidt and says 'Side bet for this weeks matchup' and 'I win & you have to make this video'; the exact counterpart/acceptance remains unclear."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Who owns Ja'Marr Chase and Puka in this league?",
+          "What were the terms and participants of the referenced Nico Collins deal?",
+          "Did the Mason side bet receive a clear acceptance, and who was Mason's opponent?",
+          "Which fantasy manager rostered Evan Engram?"
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "League members establish rivalries and discuss Week 2 lineup changes; Nathan’s team is shown with a new name.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Danny formally declares Badake (referred to in the dialogue as “the big black guy”) as his league rival.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Danny",
+              "Badake",
+              "Big Black Guy"
+            ],
+            "facts": [
+              {
+                "name": "rivalry",
+                "value": "Danny vs. Badake"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 180.04,
+                "end_seconds": 186.96,
+                "details": "Danny says, “it’s official, my rival in this flock league is the big black guy himself”; the preceding speaker is visually labeled BADake at 201.033."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Avery says Mason is already his rival, declining Danny’s invitation for a new rival.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Avery",
+              "Mason",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "rivalry",
+                "value": "Avery vs. Mason"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 219.36,
+                "end_seconds": 225.68,
+                "details": "Avery says, “I already have a rival, it’s Mason.”"
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Badake says he picked up TE Colby Parkinson for Week 2, while characterizing the move as a question mark.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Badake",
+              "Kobe Parkinson"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Colby Parkinson (transcript renders first name as “Kobe”)"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 300.72,
+                "end_seconds": 306.52,
+                "details": "Speaker says, “my tight end I picked up, uh, Kobe Parkinson.” Visual context immediately prior identifies the speaker as Badake."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Nathan’s team is renamed “Mason’s Biggest Nightmare.”",
+            "status": "confirmed",
+            "confidence": 0.87,
+            "raw_names": [
+              "Nathan",
+              "Mason's Biggest Nightmare"
+            ],
+            "facts": [
+              {
+                "name": "team_name",
+                "value": "Mason's Biggest Nightmare"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 320.12,
+                "end_seconds": 323.68,
+                "details": "Narration says Nathan renames his team “Mason’s biggest nightmare”; the following lineup view displays the same team name."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript calls Colby Parkinson “Kobe”; player identity is likely Colby Parkinson, but the spoken/transcribed first name should be checked against the on-screen roster.",
+          "Claims in the banter about trades, FAAB spending, prior records, and prior matchup outcomes are not sufficiently attributable or independently verified in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Thursday Night Football (Bills 31, Dolphins 10) produced major fantasy outputs: James Cook and De'Von Achane scored heavily, while Tyreek Hill and Jaylen Waddle disappointed. No fantasy head-to-head result is final in this window.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Badake's James Cook scored 28.50 fantasy points in the Bills' 31-10 win over Miami.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Badake",
+              "James Cook"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "James Cook"
+              },
+              {
+                "name": "fantasy_points",
+                "value": "28.50"
+              },
+              {
+                "name": "NFL game result",
+                "value": "Bills won 31-10 at Miami"
+              },
+              {
+                "name": "stat line shown",
+                "value": "11 carries, 78 yards, 2 rushing TD; 1 reception, 17 yards, 1 receiving TD"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 462.8,
+                "end_seconds": 487.9,
+                "details": "Transcript identifies Cook's performance as Badake's team 'going crazy'; on-screen player card confirms Cook's 28.50 points and stat line."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "De'Von Achane scored 29.50 fantasy points for the roster labeled \"Buffoon Leaguemate\" in Miami's 10-31 loss to Buffalo.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "De'Von Achane",
+              "Buffoon Leaguemate"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "De'Von Achane"
+              },
+              {
+                "name": "fantasy_points",
+                "value": "29.50"
+              },
+              {
+                "name": "NFL game result",
+                "value": "Dolphins lost 10-31 vs Buffalo"
+              },
+              {
+                "name": "stat line shown",
+                "value": "22 carries, 96 yards; 7 receptions, 69 yards, 1 TD"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 398.175,
+                "end_seconds": 400.0,
+                "details": "Fantasy matchup screen lists D. Achane on the Buffoon Leaguemate roster."
+              },
+              {
+                "source": "both",
+                "start_seconds": 519.267,
+                "end_seconds": 535.0,
+                "details": "Speaker says he drafted Achane in the second round and the on-screen player card confirms Achane's final 29.50 points and stat line."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Tyreek Hill scored only 6.60 fantasy points for the roster labeled \"Big D & Drunk Joe B\" in the Bills-Dolphins game.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Tyreek Hill",
+              "Big D & Drunk Joe B"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Tyreek Hill"
+              },
+              {
+                "name": "fantasy_points",
+                "value": "6.60"
+              },
+              {
+                "name": "NFL game result",
+                "value": "Dolphins lost 10-31 vs Buffalo"
+              },
+              {
+                "name": "stat line shown",
+                "value": "1 carry, 12 yards; 3 receptions on 6 targets, 24 yards"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 408.154,
+                "end_seconds": 410.0,
+                "details": "Matchup screen shows T. Hill on the Big D & Drunk Joe B roster."
+              },
+              {
+                "source": "both",
+                "start_seconds": 536.279,
+                "end_seconds": 540.0,
+                "details": "On-screen Hill player card gives final 6.60 points and stat line; speaker calls it a rough Week 2 start."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Jaylen Waddle finished with 8.50 fantasy points for the roster labeled \"Buffoon Leaguemate.\"",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Jaylen Waddle",
+              "Buffoon Leaguemate"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Jaylen Waddle"
+              },
+              {
+                "name": "fantasy_points",
+                "value": "8.50"
+              },
+              {
+                "name": "NFL game result",
+                "value": "Dolphins lost 10-31 vs Buffalo"
+              },
+              {
+                "name": "stat line shown",
+                "value": "1 carry, 4 yards; 4 receptions on 4 targets, 41 yards"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 376.479,
+                "end_seconds": 402.0,
+                "details": "Speaker says he needs Waddle production while facing Nathan; the matchup screen places J. Waddle on Buffoon Leaguemate's roster, and the later player card confirms Waddle's 8.50 final points and stat line."
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Tua Tagovailoa's apparent head injury in the Bills-Dolphins game created concern about Miami's quarterback situation and, by extension, Waddle's fantasy outlook; no specific fantasy roster move occurred.",
+            "status": "confirmed",
+            "confidence": 0.83,
+            "raw_names": [
+              "Tua Tagovailoa",
+              "Jaylen Waddle"
+            ],
+            "facts": [
+              {
+                "name": "NFL context",
+                "value": "Speaker says Tagovailoa dove into a defender's head and says it is unclear whether he will play football again."
+              },
+              {
+                "name": "fantasy relevance",
+                "value": "Waddle manager worries whether Waddle will remain a usable fantasy wide receiver."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 427.08,
+                "end_seconds": 461.2,
+                "details": "Speaker discusses Tagovailoa's injury and jokes about replacing him solely to preserve Jaylen Waddle's fantasy value."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied evidence identifies the roster labels \"Buffoon Leaguemate\" and \"Big D & Drunk Joe B,\" but does not conclusively map them to the season's static owner names.",
+          "The visual matchup screens show in-progress projections rather than final head-to-head fantasy results, so the Week 2 matchup winners cannot be determined from this window."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Zach puts Tyreek Hill on the trade block as an experiment after Tua Tagovailoa’s injury; a completed trade later sends Amari Cooper and Justice Hill to BuschLeague for Hollywood Brown and Javonte Williams, with $5 FAAB also going to BuschLeague. Sal reports early-week lineup setbacks including Kenneth Walker being ruled out.",
+        "observations": [
+          {
+            "category": "injury",
+            "summary": "Tua Tagovailoa’s injury prompted Zach to test the trade market for Tyreek Hill; Zach says he does not intend to trade Hill.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach",
+              "Tua Tagovailoa",
+              "Tyreek Hill"
+            ],
+            "facts": [
+              {
+                "name": "fantasy_action",
+                "value": "Tyreek Hill was placed on the trade block by zaxavage/Zach"
+              },
+              {
+                "name": "intent",
+                "value": "Zach characterized the listing as an experiment and said he had no intent to trade Hill"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 569.519,
+                "end_seconds": 589.6,
+                "details": "Zach says he put Tyreek on the block after Tua's injury purely to see offers; the on-screen notification identifies 'zaxavage' and Tyreek Hill as on the trade block."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Sal says Kenneth Walker was ruled out for Sunday versus New England with an oblique injury, worsening Sal’s projected Week 2 matchup outlook.",
+            "status": "reported",
+            "confidence": 0.84,
+            "raw_names": [
+              "Sal",
+              "Kenneth Walker"
+            ],
+            "facts": [
+              {
+                "name": "player_status",
+                "value": "Ruled out / doubtful for Sunday against the Patriots"
+              },
+              {
+                "name": "injury",
+                "value": "Oblique"
+              },
+              {
+                "name": "fantasy_impact",
+                "value": "Sal says he is now projected to lose his matchup"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 625.24,
+                "end_seconds": 648.0,
+                "details": "The speaker labeled SAL discusses his lineup and says Kenneth Walker was ruled out; the on-screen roster view is present but not sufficiently clear to independently read all details."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "A trade was completed: BuschLeague received Amari Cooper, Justice Hill, and $5 FAAB; the other side received Hollywood Brown and Javonte Williams.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Mason",
+              "BuschLeague",
+              "Amari Cooper",
+              "Justice Hill",
+              "Hollywood Brown",
+              "Javonte Williams"
+            ],
+            "facts": [
+              {
+                "name": "received_by_BuschLeague",
+                "value": "Amari Cooper; Justice Hill; $5 FAAB"
+              },
+              {
+                "name": "sent_by_BuschLeague",
+                "value": "Hollywood Brown; Javonte Williams"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 696.68,
+                "end_seconds": 719.0,
+                "details": "Narration says Mason traded Amari Cooper for Hollywood Brown and Javonte Williams; the on-screen completed-trade graphic additionally shows Justice Hill and $5 FAAB going to BuschLeague, and Hollywood Brown/Javonte Williams coming from BuschLeague."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Hollywood Brown was reported to have been placed on IR shortly after the trade discussion.",
+            "status": "reported",
+            "confidence": 0.78,
+            "raw_names": [
+              "Hollywood Brown"
+            ],
+            "facts": [
+              {
+                "name": "player_status",
+                "value": "IR"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 696.68,
+                "end_seconds": 708.84,
+                "details": "A speaker reacts to a phone notification stating that Hollywood Brown 'just hit the IR.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied evidence does not establish which named owner controls the BuschLeague team or whether Mason is the counterparty shown in the completed-trade graphic.",
+          "Kenneth Walker’s exact official designation is inconsistently phrased in the transcript ('ruled out' and 'doubtful'); it should be verified from the league platform if precise status matters."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A trade involving Buschleague is shown, Hollywood Brown’s IR status is discussed, and Mason and Nathan discuss a conditional Week 2 side bet. A separate owner says he is facing Badaki and is projected for the week’s most points, but no matchup result is available.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Buschleague completed a trade: Buschleague received Hollywood Brown and Javonte Williams, while sending Amari Cooper, Justice Hill, and $5 FAAB.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Buschleague",
+              "Hollywood Brown",
+              "Javonte Williams",
+              "Amari Cooper",
+              "Justice Hill"
+            ],
+            "facts": [
+              {
+                "name": "Buschleague received",
+                "value": "Hollywood Brown; Javonte Williams"
+              },
+              {
+                "name": "Buschleague sent",
+                "value": "Amari Cooper; Justice Hill; $5 FAAB"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 731.467,
+                "end_seconds": 737.12,
+                "details": "On-screen transaction graphic explicitly lists Brown and Williams as 'From Buschleague' and Cooper, Hill, and $5 FAAB as 'To Buschleague'; narration calls it a trade involving Mason."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Hollywood Brown is reported to have been placed on IR, negatively affecting the team that acquired him.",
+            "status": "reported",
+            "confidence": 0.9,
+            "raw_names": [
+              "Hollywood Brown"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Hollywood Brown"
+              },
+              {
+                "name": "status",
+                "value": "On IR"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 720.6,
+                "end_seconds": 728.0,
+                "details": "Speaker says he hopes Brown was sold before being put on IR and notes that it is bad for whoever ended up with him."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Mason and Nathan discussed a conditional side bet tied to their Week 2 matchup: if Nathan loses, he would reenact a song; Nathan countered that if Mason loses, Mason must post a one-minute congratulatory video about Nathan.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [
+              "Mason",
+              "Nathan",
+              "Nathan Schmidt"
+            ],
+            "facts": [
+              {
+                "name": "matchup",
+                "value": "Mason vs. Nathan, Week 2"
+              },
+              {
+                "name": "Mason's proposed consequence for Nathan",
+                "value": "Reenact a song in the next video if Nathan loses"
+              },
+              {
+                "name": "Nathan's counter-consequence for Mason",
+                "value": "Record a one-minute congratulatory video if Mason loses"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 768.36,
+                "end_seconds": 814.36,
+                "details": "Transcript describes Mason's bet and Nathan's conditional counteroffer; an on-screen Flock Fantasy message addressed to @Nathan Schmidt says 'Side bet for this weeks matchup' and asks what Nathan's winning condition would be."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified owner said he was projected for the most points entering Week 2 and was facing rival Badaki; this was a pregame projection, not a result.",
+            "status": "reported",
+            "confidence": 0.72,
+            "raw_names": [
+              "Badaki"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "Week 2"
+              },
+              {
+                "name": "opponent/rival",
+                "value": "Badaki"
+              },
+              {
+                "name": "status",
+                "value": "Projected for the most points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 857.16,
+                "end_seconds": 866.04,
+                "details": "Speaker says he is setting his final lineup Sunday morning, is projected for the most points, and is starting Week 2 against rival Badaki."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The owner identity of the person opposing Badaki is not established in this window.",
+          "The window documents the terms of the Mason–Nathan side bet, but does not definitively show Mason accepting Nathan's counter-condition.",
+          "Although narration says the trade looks worse for Mason, the supplied trade graphic only directly identifies Buschleague; Mason's exact trade-side/team association is not fully clear."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A manager reports adding Darnell Mooney, Evan Engram’s late inactive left a zero in the manager’s lineup, and Nathan completed a Justin Jefferson-for-Kyren Williams trade with another unidentified manager.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "An unidentified manager says they picked up Darnell Mooney.",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "raw_names": [
+              "Darnell Mooney"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Darnell Mooney"
+              },
+              {
+                "name": "action",
+                "value": "picked up"
+              },
+              {
+                "name": "manager",
+                "value": "unidentified speaker"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 900.759,
+                "end_seconds": 903.2,
+                "details": "Speaker says, “I picked up Darnell Mooney.”"
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Evan Engram was ruled out shortly before kickoff with a hamstring injury; an unidentified manager had left him in their fantasy lineup and received zero points from the inactive player.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Evan Engram"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Evan Engram"
+              },
+              {
+                "name": "injury",
+                "value": "hamstring"
+              },
+              {
+                "name": "availability",
+                "value": "ruled out before kickoff"
+              },
+              {
+                "name": "fantasy impact",
+                "value": "left in unidentified speaker's lineup for zero points"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 931.56,
+                "end_seconds": 947.56,
+                "details": "Speaker says Engram was ruled out an hour before kickoff due to a hamstring injury and that he had a zero in the speaker’s lineup; on-screen ESPN alert states, “Jags’ Engram out after pregame hammy injury.”"
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Nathan traded Justin Jefferson to an unidentified manager for Kyren Williams.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Nathan",
+              "Justin Jefferson",
+              "Kyren Williams"
+            ],
+            "facts": [
+              {
+                "name": "manager sending Justin Jefferson",
+                "value": "Nathan"
+              },
+              {
+                "name": "manager receiving Justin Jefferson",
+                "value": "unidentified speaker"
+              },
+              {
+                "name": "player sent",
+                "value": "Justin Jefferson"
+              },
+              {
+                "name": "player received",
+                "value": "Kyren Williams"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1008.16,
+                "end_seconds": 1016.8,
+                "details": "The recipient says Nathan “trade[d] Justin Jefferson for Kyren Williams” and “gave me Justin Jefferson.”"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1024.6,
+                "end_seconds": 1037.84,
+                "details": "Nathan responds that he traded the player away and defends the trade, supporting that it was completed rather than merely proposed."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identities of the manager who picked up Darnell Mooney, the manager who rostered Evan Engram, and the manager who received Justin Jefferson are not established in this window.",
+          "The speaker says he expects to beat an opponent transcribed as “s”; this is a prediction, not a confirmed matchup result."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A Week 2 matchup between Mason and Nathan was still in progress, and a completed Danny trade involving Waddle, Stevenson, Collins, and Benson was shown. Joe Mixon was described as day-to-day.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Mason and Nathan's Week 2 head-to-head was shown in progress: Mason (handle @MasonDodd) trailed Nathan (handle @NathanSchmidt), 97.86–100.54, with players still remaining on both sides.",
+            "status": "unclear",
+            "confidence": 0.93,
+            "raw_names": [
+              "@MasonDodd",
+              "@NathanSchmidt",
+              "hungri",
+              "Mason's Worst Nightmares"
+            ],
+            "facts": [
+              {
+                "name": "week",
+                "value": "2"
+              },
+              {
+                "name": "Mason score",
+                "value": "97.86"
+              },
+              {
+                "name": "Nathan score",
+                "value": "100.54"
+              },
+              {
+                "name": "Mason win probability shown",
+                "value": "49%"
+              },
+              {
+                "name": "Nathan win probability shown",
+                "value": "51%"
+              },
+              {
+                "name": "Mason players yet to play",
+                "value": "3"
+              },
+              {
+                "name": "Nathan players yet to play",
+                "value": "2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1121.735,
+                "end_seconds": 1125.735,
+                "details": "Fantasy matchup display shows @MasonDodd versus @NathanSchmidt, scores 97.86 and 100.54, respective 49%/51% odds, and remaining players."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Danny completed a trade: he sent Jaylen Waddle and Rhamondre Stevenson and received Nico Collins and Trey Benson.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Dannylad21",
+              "Jaylen Waddle",
+              "Rhamondre Stevenson",
+              "Nico Collins",
+              "Trey Benson"
+            ],
+            "facts": [
+              {
+                "name": "team owner",
+                "value": "Danny"
+              },
+              {
+                "name": "sent",
+                "value": "Jaylen Waddle; Rhamondre Stevenson"
+              },
+              {
+                "name": "received",
+                "value": "Nico Collins; Trey Benson"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1140.0,
+                "end_seconds": 1141.0,
+                "details": "Trade graphic explicitly labels Waddle and Stevenson 'From Dannylad21' and Collins and Benson 'To Dannylad21'."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1142.24,
+                "end_seconds": 1158.64,
+                "details": "Speaker discusses the completed 'Nico Collins deal' and Nico Collins's fantasy performance."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Nathan's displayed roster included Brock Bowers at tight end at the beginning of Week 2.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "NathanSchmidt",
+              "Brock Bowers"
+            ],
+            "facts": [
+              {
+                "name": "team owner",
+                "value": "Nathan"
+              },
+              {
+                "name": "player",
+                "value": "Brock Bowers"
+              },
+              {
+                "name": "position",
+                "value": "TE"
+              },
+              {
+                "name": "timing",
+                "value": "beginning of Week 2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1202.24,
+                "end_seconds": 1207.52,
+                "details": "Transcript says Nathan had Brock Bowers at tight end at the beginning of the week; the on-screen NathanSchmidt roster lists Brock Bowers at TE."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Joe Mixon was described as day-to-day.",
+            "status": "reported",
+            "confidence": 0.87,
+            "raw_names": [
+              "Joe Mixon"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Joe Mixon"
+              },
+              {
+                "name": "reported status",
+                "value": "day-to-day"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1245.08,
+                "end_seconds": 1249.2,
+                "details": "Speaker states, 'Joe Mixon currently day-to-day.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The Mason–Nathan score display was live rather than final, so the eventual Week 2 winner is not established in this window.",
+          "The supplied evidence does not identify which league owner rostered Joe Mixon."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A confirmed Mason–Bush trade is shown. Danny discusses a $2 Steelers D/ST waiver claim and a still-pending Week 2 matchup against Sal. Other matchup talk remains pre-Monday and unresolved.",
+        "observations": [
+          {
+            "category": "trade",
+            "summary": "Mason and Bush completed a trade: Bush received Hollywood Brown and Javonte Williams; Mason received Amari Cooper, Justice Hill, and $5 FAAB.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Mason",
+              "Bush",
+              "Hollywood Brown",
+              "Javonte Williams",
+              "Amari Cooper",
+              "Justice Hill"
+            ],
+            "facts": [
+              {
+                "name": "Bush received",
+                "value": "Hollywood Brown; Javonte Williams"
+              },
+              {
+                "name": "Mason received",
+                "value": "Amari Cooper; Justice Hill; $5 FAAB"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1260.0,
+                "end_seconds": 1285.0,
+                "details": "Mason discusses having traded away Amari Cooper; the on-screen transaction graphic identifies the full exchange, including the $5 FAAB sent to Bush."
+              }
+            ]
+          },
+          {
+            "category": "waiver",
+            "summary": "Danny says he made a $2 waiver claim for the Steelers D/ST, which scored 13 points in Week 2.",
+            "status": "confirmed",
+            "confidence": 0.88,
+            "raw_names": [
+              "Danny",
+              "Steelers defense",
+              "PIT DEF"
+            ],
+            "facts": [
+              {
+                "name": "Waiver claim",
+                "value": "Steelers D/ST for $2"
+              },
+              {
+                "name": "Week 2 points",
+                "value": "13"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1348.96,
+                "end_seconds": 1358.32,
+                "details": "Danny refers to people seeing his waiver claims and says he put $2 in for a defense; the lineup overlay shows PIT DEF with 13.00 points."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Danny entered Monday night leading Sal by about 25 points; Sal still had Drake London remaining. Danny characterizes the outcome as uncertain.",
+            "status": "unclear",
+            "confidence": 0.9,
+            "raw_names": [
+              "Danny",
+              "Sal",
+              "Drake London"
+            ],
+            "facts": [
+              {
+                "name": "Approximate lead before Monday night",
+                "value": "25 points"
+              },
+              {
+                "name": "Remaining player for Sal",
+                "value": "Drake London"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1366.52,
+                "end_seconds": 1381.0,
+                "details": "Danny says he is up by about 25 against Sal, who has Drake London left to play, then worries London could beat him."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Danny–Sal was still pending at the end of this window; the final matchup result and score are not provided.",
+          "A later speaker describes a possible loss in a Monday-night matchup, but the opponent/owner name is unclear in the transcript and the on-screen matchup labels are not sufficiently legible to identify it reliably."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A speaker celebrates a Week 2 victory over Badake and claims a 2-0 record; Nathan is said to have lost Cooper Kupp and Isaiah Pacheco ahead of Week 3.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "An unidentified team owner says he defeated Badake in Week 2 and improved to 2-0.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Badake",
+              "Baki"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Unidentified speaker"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "week",
+                "value": "2"
+              },
+              {
+                "name": "winner record after matchup",
+                "value": "2-0"
+              },
+              {
+                "name": "score",
+                "value": "Not stated"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1561.159,
+                "end_seconds": 1582.76,
+                "details": "The speaker says, \"able to leave the weekend 2 and 0\" and \"was able to take down my rival bedaki,\" then reiterates, \"I am 2 and 0.\""
+              }
+            ]
+          },
+          {
+            "category": "standings",
+            "summary": "The same unidentified speaker claims to have scored the most fantasy points in the league for Week 2 and for the season to that point.",
+            "status": "reported",
+            "confidence": 0.8,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "claimed Week 2 points rank",
+                "value": "1st in league"
+              },
+              {
+                "name": "claimed season-to-date points rank",
+                "value": "1st in league"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1561.159,
+                "end_seconds": 1568.52,
+                "details": "He says he had the \"most points scored in the league both this week and on the season.\""
+              }
+            ]
+          },
+          {
+            "category": "injury",
+            "summary": "Nathan is said to have lost Cooper Kupp and Isaiah Pacheco before his upcoming Week 3 matchup.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Nathan",
+              "Cooper Kupp",
+              "Isaiah Pacheco"
+            ],
+            "facts": [
+              {
+                "name": "fantasy owner affected",
+                "value": "Nathan"
+              },
+              {
+                "name": "players",
+                "value": "Cooper Kupp; Isaiah Pacheco"
+              },
+              {
+                "name": "context",
+                "value": "Upcoming Week 3 matchup"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1552.64,
+                "end_seconds": 1558.88,
+                "details": "A speaker says that before playing Nathan in Week 3, \"he's lost Cooper Kupp, he's lost Isaiah Pacheco.\""
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The identity of the speaker who claims the Week 2 win over Badake is not established within this window.",
+          "No final score is supplied for the Badake matchup.",
+          "The nature and severity of the reported Kupp and Pacheco absences are not specified."
+        ]
+      }
+    },
+    {
+      "window_index": 9,
+      "start": 1620.0,
+      "end": 1800.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Week 2 results recap: Mason reaches 2-0; Austin, Avery, Thomas, Danny, and Zach are also shown winning. Bush falls to Austin, and a prior Bush–Mason trade involving Amari Cooper and Hollywood Brown is discussed.",
+        "observations": [
+          {
+            "category": "matchup_result",
+            "summary": "Avery defeated Sal, 122.94–115.76, in Week 2. The on-screen matchup shows Avery's team at 2-0 and Sal's at 0-2 after the result.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Avery",
+              "Sal",
+              "the besting favorite",
+              "Sorry Corey"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Avery"
+              },
+              {
+                "name": "loser",
+                "value": "Sal"
+              },
+              {
+                "name": "score",
+                "value": "122.94-115.76"
+              },
+              {
+                "name": "Avery record after matchup",
+                "value": "2-0"
+              },
+              {
+                "name": "Sal record after matchup",
+                "value": "0-2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 1640.533,
+                "end_seconds": 1641.5,
+                "details": "Fantasy matchup display shows @averyHuffman / 'the besting favorite' 122.94 over @SalVetri / 'Sorry Corey' 115.76, with records 2-0 and 0-2."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Zach's \"Baking Bad\" team beat \"#site-issues,\" 141.30–100.08.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Zach",
+              "Baking Bad",
+              "GreenMeansMoney",
+              "#site-issues"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Zach"
+              },
+              {
+                "name": "loser team name",
+                "value": "#site-issues"
+              },
+              {
+                "name": "score",
+                "value": "141.30-100.08"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1644.279,
+                "end_seconds": 1646.36,
+                "details": "The matchup graphic shows Baking Bad leading #site-issues 141.30-100.08; the speaker later explicitly says Zach won."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1776.6,
+                "end_seconds": 1779.399,
+                "details": "Speaker says, 'Zack beats a Dev.'"
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Bush lost to Austin, 135.24–140.82, dropping Bush to 1-1 while Austin improved to 2-0.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Bush",
+              "Austin",
+              "Buffoon Leaguemate",
+              "Jacked Gandalf"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Austin"
+              },
+              {
+                "name": "loser",
+                "value": "Bush"
+              },
+              {
+                "name": "score",
+                "value": "140.82-135.24"
+              },
+              {
+                "name": "Bush record after matchup",
+                "value": "1-1"
+              },
+              {
+                "name": "Austin record after matchup",
+                "value": "2-0"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1716.6,
+                "end_seconds": 1728.32,
+                "details": "Speaker says that Team Buffoon Leaguemate fell to 1-1 and that Jalen Hurts, Jake Elliott, and Bijan Robinson did enough for Austin to beat him; the matchup display shows 135.24 versus 140.82."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Mason defeated Nathan, 118.46–102.14, to move to 2-0; Nathan is shown at 0-2.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Mason",
+              "Nathan",
+              "Mason's Worst Nightmare",
+              "laurgrl"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Mason"
+              },
+              {
+                "name": "loser",
+                "value": "Nathan"
+              },
+              {
+                "name": "score",
+                "value": "118.46-102.14"
+              },
+              {
+                "name": "Mason record after matchup",
+                "value": "2-0"
+              },
+              {
+                "name": "Nathan record after matchup",
+                "value": "0-2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1746.6,
+                "end_seconds": 1751.76,
+                "details": "Mason says he is undefeated at 2-0; the standings/matchup graphic shows Mason's Worst Nightmare 102.14 versus 'laurgrl' 118.46, with 0-2 and 2-0 records respectively."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Thomas defeated the team \"Good Evening, Cowards\" / \"StevenSwagal,\" 153.20–88.46.",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "raw_names": [
+              "Thomas",
+              "StevenSwagal",
+              "Good Evening, Cowards",
+              "Team ThomasWade"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Thomas"
+              },
+              {
+                "name": "loser team name",
+                "value": "Good Evening, Cowards"
+              },
+              {
+                "name": "score",
+                "value": "153.20-88.46"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1766.0,
+                "end_seconds": 1768.679,
+                "details": "Speaker says Thomas 'smacks' his opponent; standings graphic shows Good Evening, Cowards 88.46 versus Team ThomasWade 153.20."
+              }
+            ]
+          },
+          {
+            "category": "matchup_result",
+            "summary": "Danny defeated Badake, 162.12–145.34.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Danny",
+              "Badake",
+              "CEO of FantasyLand",
+              "Big Black Guy"
+            ],
+            "facts": [
+              {
+                "name": "winner",
+                "value": "Danny"
+              },
+              {
+                "name": "loser",
+                "value": "Badake"
+              },
+              {
+                "name": "score",
+                "value": "162.12-145.34"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 1769.68,
+                "end_seconds": 1776.6,
+                "details": "Speaker says Danny beat Badake and scored 162 points; standings graphic shows CEO of FantasyLand 162.12 over Big Black Guy 145.34."
+              }
+            ]
+          },
+          {
+            "category": "trade",
+            "summary": "Mason and Bush are described as having completed a trade involving Hollywood Brown and Amari Cooper. Mason disputes Bush's claim that the trade was motivated by advance knowledge of Brown's injury.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Mason",
+              "Bush",
+              "Hollywood Brown",
+              "Amari Cooper"
+            ],
+            "facts": [
+              {
+                "name": "teams/owners involved",
+                "value": "Mason and Bush"
+              },
+              {
+                "name": "players discussed",
+                "value": "Hollywood Brown; Amari Cooper"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1783.68,
+                "end_seconds": 1796.519,
+                "details": "Mason addresses Bush's claim that he knew Hollywood Brown would be out for the season when he made 'the trade,' then says Bush made it because he thought Amari Cooper would help his team."
+              }
+            ]
+          },
+          {
+            "category": "injury_update",
+            "summary": "Bush is quoted as claiming that Hollywood Brown would be out for the season; this is discussed as part of the rationale Bush gave for his trade with Mason.",
+            "status": "reported",
+            "confidence": 0.7,
+            "raw_names": [
+              "Hollywood Brown",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "reported player status",
+                "value": "out for the season"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1787.84,
+                "end_seconds": 1791.76,
+                "details": "Mason quotes Bush's claimed rationale: 'I somehow knew Hollywood Brown was going to be out for the season.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The supplied window does not establish the owner identity behind Zach's opponent, shown as \"#site-issues\" / @GreenMeansMoney.",
+          "Thomas's Week 2 opponent is displayed as \"Good Evening, Cowards\" / @StevenSwagal, but the owner identity is not explicitly established in this window.",
+          "The exact direction and full terms of the Mason–Bush trade are not explicitly stated; only Amari Cooper and Hollywood Brown are discussed."
+        ]
+      }
+    },
+    {
+      "window_index": 10,
+      "start": 1800.0,
+      "end": 1831.0,
+      "transient_image_count": 3,
+      "review": {
+        "window_summary": "A speaker says Amari Cooper was removed from his team after one week and will be in another participant's Week 3 lineup; the acquisition method and involved owners are not identified.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "A speaker says he got Amari Cooper off his fantasy team after one week, and says Cooper will be in another person's Week 3 lineup.",
+            "status": "reported",
+            "confidence": 0.76,
+            "raw_names": [
+              "Amari Cooper"
+            ],
+            "facts": [
+              {
+                "name": "player",
+                "value": "Amari Cooper"
+              },
+              {
+                "name": "timing",
+                "value": "Removed after one week; referenced for Week 3 lineup"
+              },
+              {
+                "name": "transaction_method",
+                "value": "Not stated"
+              },
+              {
+                "name": "owners",
+                "value": "Speaker and recipient are not identified"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1806.12,
+                "end_seconds": 1818.96,
+                "details": "The speaker says, 'one week in let's just get this guy off the team,' then says 'Amari's going to go into your lineup in week three.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Who removed Amari Cooper, who received him, and whether the move was a trade, waiver claim, or another transaction are not established in this window.",
+          "The on-screen matchup board at 00:30:00 shows scores and win probabilities, but the small text and non-final-looking percentages do not support recording confirmed matchup results."
+        ]
+      }
+    }
+  ],
+  "open_questions": [
+    "Who owns the teams labeled #site-issues / @GreenMeansMoney and Good Evening, Cowards / @StevenSwagal?",
+    "Who was the unidentified manager who received Justin Jefferson from Nathan, picked up Darnell Mooney, and rostered Evan Engram?",
+    "The precise official Week 2 designation for Kenneth Walker is inconsistent in the supplied material: Sal says ruled out, while the transcript also renders doubtful.",
+    "The identity of the speaker who claimed a 2-0 Week 2 victory over Badake and league-leading scoring is not established in that window; the confirmed final result shows Danny defeated Badake.",
+    "Whether Nathan actually completed the side-bet performance is not shown; he only says he will fulfill his end."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Prioritize static team-owner names over changing team names, track available matchup results, and record mentioned trades, injuries, and waiver actions.",
+      "status": "fulfilled",
+      "details": "The recap and structured events use named owners where evidence establishes them, preserve team labels where owner identity is unknown, and include supported Week 2 results, transactions, and injury context."
+    },
+    {
+      "instruction": "Treat transcript and window reviews as evidence, defer to on-screen evidence where available, and avoid unsupported claims.",
+      "status": "fulfilled",
+      "details": "Confirmed results and transaction terms rely on on-screen evidence where supplied. Unidentified owners, non-final live scores, injury designations, and incomplete side-bet fulfillment are retained as uncertainty rather than inferred."
+    },
+    {
+      "instruction": "Provide concise notes and items requiring review.",
+      "status": "fulfilled",
+      "details": "The recap is concise, and unresolved owner mappings, status discrepancies, and unverified outcomes are listed in open_questions."
+    },
+    {
+      "instruction": "Honor episode-specific instructions and declared supplemental outputs.",
+      "status": "not_applicable",
+      "details": "No episode-specific instructions or supplemental outputs were declared."
+    }
+  ],
+  "supplemental_outputs": []
+}
