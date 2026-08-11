@@ -7,12 +7,24 @@
 title = "2024 Fantasy Football Draft Vlog (Flock League)"
 upload_date = "20240826"
 season = "season_1"
+visual_timestamps = ["00:29:42"]
 instructions = """
 1. This episode contains the pre-season draft where Team Owners select their players. Make note of the draft order, each Owner's selections, and any discussion points that stand out if relevant.
 2. At 29:42 there is a full draft board available to parse every selection from. This is the "gospel" for identifying selections. Simply refer to the grid (Team Owners are across the top row, with their selections below them in a column)
 3. Kickers and Defenses are corectly included in the rosters, though not explicitly mentioned in the ruleset.
-4. Save in JSON format each Team Owner's final selections. Save this at artifacts/season_1/draft_results.json -- DO NOT list out selections in recap.md
-5. Moo like a cow if you read and acknowledged these instructions.
+4. Record each Team Owner's final selections in the requested supplemental output. Do not list individual selections in the written recap.
+"""
+
+[episodes."8zrKZTP_QEs".recap]
+exclude_event_types = ["draft"]
+
+[[episodes."8zrKZTP_QEs".outputs]]
+id = "draft_results"
+path = "draft_results.json"
+scope = "season"
+format = "json"
+instructions = """
+Return an object keyed by Team Owner. Each value must be an ordered array of that owner's final selections, including kickers and defenses. Preserve uncertain readings explicitly rather than guessing.
 """
 
 [episodes."FKFRHyok5QI"]
@@ -512,4 +524,3 @@ title = "Flock League Just Changed The Rules"
 upload_date = "20260806"
 season = "season_3"
 instructions = ""
-

@@ -174,6 +174,29 @@ Second instruction.
 """
 ```
 
+Freeform `instructions` guide the review, while actions that Python must enforce
+use structured episode controls. For example:
+
+```toml
+visual_timestamps = ["00:29:42"]
+
+[episodes."VIDEO_ID".recap]
+exclude_event_types = ["draft"]
+
+[[episodes."VIDEO_ID".outputs]]
+id = "draft_results"
+path = "draft_results.json"
+scope = "season" # or "episode"
+format = "json"  # or "markdown"
+instructions = """Describe the required output content here."""
+```
+
+Configured timestamps are always sampled and take priority over automatic
+samples. Supplemental paths are selected by trusted TOML—not by episode
+content—and are restricted to the configured episode or season artifact
+directory. The completed `episode_notes.json` records an instruction-compliance
+report and the supplemental files written by the run.
+
 ## Analysis pipeline plan
 
 The downloaded episodes will eventually feed an evidence-first analysis

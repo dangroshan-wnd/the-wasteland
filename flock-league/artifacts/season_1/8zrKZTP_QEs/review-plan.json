@@ -4,7 +4,8 @@
   "raw_sample_counts": {
     "scene": 72,
     "periodic": 60,
-    "targeted": 90
+    "targeted": 90,
+    "configured": 1
   },
   "retained_image_count": 0,
   "guidance": {
@@ -45,7 +46,24 @@
       "title": "2024 Fantasy Football Draft Vlog (Flock League)",
       "upload_date": "20240826",
       "season": "season_1",
-      "instructions": "1. This episode contains the pre-season draft where Team Owners select their players. Make note of the draft order, each Owner's selections, and any discussion points that stand out if relevant.\n2. At 29:42 there is a full draft board available to parse every selection from. This is the \"gospel\" for identifying selections. Simply refer to the grid (Team Owners are across the top row, with their selections below them in a column)\n3. Kickers and Defenses are corectly included in the rosters, though not explicitly mentioned in the ruleset.\n4. Save in JSON format each Team Owner's final selections. Save this at artifacts/season_1/draft_results.json -- DO NOT list out selections in recap.md\n5. Moo like a cow if you read and acknowledged these instructions.\n"
+      "visual_timestamps": [
+        "00:29:42"
+      ],
+      "instructions": "1. This episode contains the pre-season draft where Team Owners select their players. Make note of the draft order, each Owner's selections, and any discussion points that stand out if relevant.\n2. At 29:42 there is a full draft board available to parse every selection from. This is the \"gospel\" for identifying selections. Simply refer to the grid (Team Owners are across the top row, with their selections below them in a column)\n3. Kickers and Defenses are corectly included in the rosters, though not explicitly mentioned in the ruleset.\n4. Record each Team Owner's final selections in the requested supplemental output. Do not list individual selections in the written recap.\n",
+      "recap": {
+        "exclude_event_types": [
+          "draft"
+        ]
+      },
+      "outputs": [
+        {
+          "id": "draft_results",
+          "path": "draft_results.json",
+          "scope": "season",
+          "format": "json",
+          "instructions": "Return an object keyed by Team Owner. Each value must be an ordered array of that owner's final selections, including kickers and defenses. Preserve uncertain readings explicitly rather than guessing.\n"
+        }
+      ]
     }
   },
   "windows": [
@@ -246,7 +264,7 @@
         1698.314,
         1711.71,
         1741.74,
-        1771.77
+        1782.0
       ]
     }
   ]

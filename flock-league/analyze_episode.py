@@ -23,11 +23,12 @@ from extract_frames import (
     find_episode_files,
     find_ffmpeg,
     parse_vtt,
+    timestamp_seconds,
     timestamp_display,
 )
 
 
-SCRIPT_VERSION = 3
+SCRIPT_VERSION = 4
 DEFAULT_MODEL = "gpt-5.6-terra"
 REPOSITORY_DIR = Path(__file__).resolve().parent.parent
 DEFAULT_GUIDANCE_PATH = Path(__file__).resolve().parent / "config" / "review-guidance.toml"
@@ -110,6 +111,17 @@ class RecapSection(BaseModel):
     body: str
 
 
+class SupplementalOutput(BaseModel):
+    id: str
+    content: str
+
+
+class InstructionCompliance(BaseModel):
+    instruction: str
+    status: Literal["fulfilled", "partial", "unfulfilled", "not_applicable"]
+    details: str
+
+
 class EpisodeSynthesis(BaseModel):
     season: str | None
     week: int | None
@@ -117,6 +129,8 @@ class EpisodeSynthesis(BaseModel):
     sections: list[RecapSection]
     events: list[LeagueEvent]
     open_questions: list[str]
+    supplemental_outputs: list[SupplementalOutput]
+    instruction_compliance: list[InstructionCompliance]
 
 
 WINDOW_SYSTEM_PROMPT = """You review episodes of a private fantasy-football league.
@@ -142,7 +156,11 @@ seasons, or weeks. Merge duplicate observations, preserve conflicts as open ques
 and distinguish private league events from NFL context. An event must retain the strongest
 supporting timestamps. Write a readable episodic recap whose factual claims are supported
 by the notes or transcript. Predictions, proposals, jokes, and rumors must not become
-confirmed events."""
+confirmed events. For every declared supplemental output, return exactly one matching
+supplemental_outputs entry. Its content must be valid JSON text when its configured format
+is json. Never invent a supplemental output path or identifier. Report how the episode
+instructions were handled in instruction_compliance. Honor recap exclusions in the trusted
+guidance while retaining excluded facts in structured events or supplemental outputs."""
 
 
 def parse_args() -> argparse.Namespace:
@@ -243,7 +261,7 @@ def select_window_samples(
     if len(candidates) <= maximum:
         return sorted(candidates, key=lambda sample: sample["timestamp"])
 
-    priority = {"periodic": 1, "scene": 2, "targeted": 3}
+    priority = {"periodic": 1, "scene": 2, "targeted": 3, "configured": 4}
     selected: list[dict[str, Any]] = []
     selected_paths: set[Path] = set()
     width = max((end - start) / maximum, 0.001)
@@ -465,6 +483,66 @@ def trusted_guidance_prompt(guidance: dict[str, Any]) -> str:
     )
 
 
+def structured_episode_controls(
+    guidance: dict[str, Any], duration: float, output_dir: Path
+) -> tuple[list[float], set[str], list[dict[str, Any]]]:
+    episode = guidance.get("episode") or {}
+    raw_timestamps = episode.get("visual_timestamps") or []
+    if not isinstance(raw_timestamps, list):
+        raise SystemExit("episode visual_timestamps must be an array.")
+    try:
+        visual_timestamps = [timestamp_seconds(value) for value in raw_timestamps]
+    except ValueError as error:
+        raise SystemExit(f"Invalid episode visual_timestamps: {error}") from error
+    outside = [value for value in visual_timestamps if value >= duration]
+    if outside:
+        raise SystemExit(
+            f"Episode visual timestamp {outside[0]} is outside the {duration}-second video."
+        )
+
+    recap = episode.get("recap") or {}
+    if not isinstance(recap, dict):
+        raise SystemExit("episode recap controls must be a TOML table.")
+    raw_exclusions = recap.get("exclude_event_types") or []
+    if not isinstance(raw_exclusions, list) or not all(
+        isinstance(value, str) for value in raw_exclusions
+    ):
+        raise SystemExit("episode recap.exclude_event_types must be an array of strings.")
+    recap_exclusions = set(raw_exclusions)
+
+    raw_outputs = episode.get("outputs") or []
+    if not isinstance(raw_outputs, list):
+        raise SystemExit("episode outputs must be an array of tables.")
+    outputs: list[dict[str, Any]] = []
+    seen_ids: set[str] = set()
+    for raw in raw_outputs:
+        if not isinstance(raw, dict):
+            raise SystemExit("Every episode output must be a TOML table.")
+        output_id = raw.get("id")
+        relative_path = raw.get("path")
+        scope = raw.get("scope", "episode")
+        output_format = raw.get("format", "json")
+        if not isinstance(output_id, str) or not output_id or output_id in seen_ids:
+            raise SystemExit(f"Episode output has an invalid or duplicate id: {output_id!r}")
+        if not isinstance(relative_path, str) or not relative_path:
+            raise SystemExit(f"Episode output {output_id!r} must define a path.")
+        if scope not in ("episode", "season"):
+            raise SystemExit(f"Episode output {output_id!r} has invalid scope {scope!r}.")
+        if output_format not in ("json", "markdown"):
+            raise SystemExit(
+                f"Episode output {output_id!r} has invalid format {output_format!r}."
+            )
+        base = (output_dir if scope == "episode" else output_dir.parent).resolve()
+        target = (base / relative_path).resolve()
+        if not target.is_relative_to(base) or target == base:
+            raise SystemExit(
+                f"Episode output {output_id!r} must stay inside its {scope} artifact directory."
+            )
+        seen_ids.add(output_id)
+        outputs.append({**raw, "target": target})
+    return visual_timestamps, recap_exclusions, outputs
+
+
 def review_window(
     client: OpenAI,
     args: argparse.Namespace,
@@ -582,13 +660,18 @@ def write_json(path: Path, value: Any) -> None:
     temporary.replace(path)
 
 
-def recap_markdown(title: str, synthesis: EpisodeSynthesis) -> str:
+def recap_markdown(
+    title: str, synthesis: EpisodeSynthesis, excluded_event_types: set[str]
+) -> str:
     lines = [f"# {title}", "", synthesis.summary.strip(), ""]
     for section in synthesis.sections:
         lines.extend([f"## {section.heading}", "", section.body.strip(), ""])
-    if synthesis.events:
+    recap_events = [
+        event for event in synthesis.events if event.event_type not in excluded_event_types
+    ]
+    if recap_events:
         lines.extend(["## Key league events", ""])
-        for event in synthesis.events:
+        for event in recap_events:
             qualifier = "" if event.status == "confirmed" else f" ({event.status})"
             lines.append(f"- {event.summary}{qualifier}")
         lines.append("")
@@ -598,6 +681,38 @@ def recap_markdown(title: str, synthesis: EpisodeSynthesis) -> str:
         lines.append("")
     lines.append("Detailed evidence timestamps are recorded in `events.json`.")
     return "\n".join(lines) + "\n"
+
+
+def prepare_supplemental_outputs(
+    synthesis: EpisodeSynthesis, requested: list[dict[str, Any]]
+) -> list[tuple[Path, str, Any]]:
+    returned: dict[str, SupplementalOutput] = {}
+    for output in synthesis.supplemental_outputs:
+        if output.id in returned:
+            raise RuntimeError(f"The model returned duplicate output id {output.id!r}.")
+        returned[output.id] = output
+    requested_ids = {item["id"] for item in requested}
+    unexpected = set(returned) - requested_ids
+    missing = requested_ids - set(returned)
+    if unexpected:
+        raise RuntimeError(f"The model returned unrequested outputs: {sorted(unexpected)}")
+    if missing:
+        raise RuntimeError(f"The model omitted requested outputs: {sorted(missing)}")
+
+    prepared: list[tuple[Path, str, Any]] = []
+    for config in requested:
+        content = returned[config["id"]].content
+        if config["format"] == "json":
+            try:
+                value = json.loads(content)
+            except json.JSONDecodeError as error:
+                raise RuntimeError(
+                    f"Supplemental output {config['id']!r} was not valid JSON: {error}"
+                ) from error
+        else:
+            value = content.rstrip() + "\n"
+        prepared.append((config["target"], config["format"], value))
+    return prepared
 
 
 def main() -> None:
@@ -632,6 +747,9 @@ def main() -> None:
     transcript_path = output_dir / "transcript.json"
     episode_metadata_path = output_dir / "metadata.json"
     review_plan_path = output_dir / "review-plan.json"
+    visual_timestamps, recap_exclusions, requested_outputs = structured_episode_controls(
+        guidance, duration, output_dir
+    )
 
     cues = parse_vtt(caption) if caption else []
     segments = transcript_segments(cues)
@@ -677,7 +795,10 @@ def main() -> None:
         },
     }
     run_fingerprint = fingerprint([media, metadata_path, caption], settings)
-    if not args.force and notes_path.exists() and events_path.exists() and recap_path.exists():
+    required_outputs = [notes_path, events_path, recap_path] + [
+        output["target"] for output in requested_outputs
+    ]
+    if not args.force and all(path.exists() for path in required_outputs):
         existing = json.loads(notes_path.read_text(encoding="utf-8"))
         if existing.get("fingerprint") == run_fingerprint and existing.get("complete"):
             print(f"Episode analysis is up to date for {args.video_id}.")
@@ -691,6 +812,7 @@ def main() -> None:
             caption=caption,
             duration=duration,
             temp_dir=Path(temp),
+            configured_timestamps=visual_timestamps,
         )
         for window in windows:
             window["samples"] = select_window_samples(
@@ -785,6 +907,9 @@ def main() -> None:
         synthesis = synthesize_episode(
             client, args, metadata, segments, ordered_reviews, guidance
         )
+        supplemental_outputs = prepare_supplemental_outputs(
+            synthesis, requested_outputs
+        )
         write_json(
             notes_path,
             {
@@ -798,6 +923,16 @@ def main() -> None:
                 "guidance": guidance,
                 "windows": ordered_reviews,
                 "open_questions": synthesis.open_questions,
+                "instruction_compliance": [
+                    item.model_dump(mode="json")
+                    for item in synthesis.instruction_compliance
+                ],
+                "supplemental_outputs": [
+                    str(path.relative_to(output_dir.parent))
+                    if path.is_relative_to(output_dir.parent)
+                    else str(path)
+                    for path, _, _ in supplemental_outputs
+                ],
             },
         )
         write_json(
@@ -812,13 +947,25 @@ def main() -> None:
             },
         )
         recap_path.write_text(
-            recap_markdown(metadata.get("title") or args.video_id, synthesis),
+            recap_markdown(
+                metadata.get("title") or args.video_id,
+                synthesis,
+                recap_exclusions,
+            ),
             encoding="utf-8",
         )
+        for path, output_format, value in supplemental_outputs:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            if output_format == "json":
+                write_json(path, value)
+            else:
+                path.write_text(value, encoding="utf-8")
 
     print(f"Episode notes: {notes_path}")
     print(f"League events: {events_path}")
     print(f"Recap: {recap_path}")
+    for output in requested_outputs:
+        print(f"Supplemental output: {output['target']}")
     print("Retained image files: 0")
 
 

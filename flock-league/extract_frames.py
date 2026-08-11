@@ -113,8 +113,8 @@ def artifact_directory(video_id: str, season_id: str) -> Path:
     return ARTIFACTS_DIR / season_id / video_id
 
 
-def configured_episode_season(video_id: str) -> str:
-    """Look up an episode's season for the standalone sampling command."""
+def configured_episode(video_id: str) -> dict[str, Any]:
+    """Load one episode's structured configuration."""
     try:
         config = tomllib.loads(EPISODES_CONFIG_PATH.read_text(encoding="utf-8"))
     except (OSError, tomllib.TOMLDecodeError) as error:
@@ -122,13 +122,41 @@ def configured_episode_season(video_id: str) -> str:
             f"Could not read episode season mapping {EPISODES_CONFIG_PATH}: {error}"
         ) from error
     episode = (config.get("episodes") or {}).get(video_id)
-    season_id = episode.get("season") if isinstance(episode, dict) else None
+    if not isinstance(episode, dict):
+        raise SystemExit(f"Episode {video_id} has no entry in {EPISODES_CONFIG_PATH}.")
+    return episode
+
+
+def configured_episode_season(video_id: str) -> str:
+    """Look up an episode's season for the standalone sampling command."""
+    season_id = configured_episode(video_id).get("season")
     if not isinstance(season_id, str) or not season_id:
         raise SystemExit(
             f"Episode {video_id} has no season in {EPISODES_CONFIG_PATH}. "
             "Add its mapping or pass --output explicitly."
         )
     return season_id
+
+
+def timestamp_seconds(value: Any) -> float:
+    """Parse a numeric second value or a MM:SS/HH:MM:SS timestamp."""
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        return float(value)
+    if not isinstance(value, str):
+        raise ValueError(f"timestamp must be a number or string, got {value!r}")
+    parts = value.strip().split(":")
+    if not 1 <= len(parts) <= 3:
+        raise ValueError(f"invalid timestamp: {value!r}")
+    try:
+        numbers = [float(part) for part in parts]
+    except ValueError as error:
+        raise ValueError(f"invalid timestamp: {value!r}") from error
+    seconds = 0.0
+    for number in numbers:
+        seconds = seconds * 60 + number
+    if seconds < 0:
+        raise ValueError(f"timestamp cannot be negative: {value!r}")
+    return seconds
 
 
 def find_ffmpeg(explicit_path: str | None) -> str:
@@ -367,7 +395,7 @@ def extract_target_frame(
 
 
 def deduplicate_frames(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    priority = {"periodic": 1, "scene": 2, "targeted": 3}
+    priority = {"periodic": 1, "scene": 2, "targeted": 3, "configured": 4}
     selected: list[dict[str, Any]] = []
     for candidate in sorted(candidates, key=lambda item: item["timestamp"]):
         if selected and candidate["timestamp"] - selected[-1]["timestamp"] <= 0.75:
@@ -402,6 +430,7 @@ def create_temporary_samples(
     max_scene_frames: int = 120,
     max_targeted_frames: int = 90,
     width: int = 1280,
+    configured_timestamps: list[float] | None = None,
 ) -> tuple[list[dict[str, Any]], dict[str, int]]:
     """Create temporary samples for a caller that consumes them before returning."""
     cues = parse_vtt(caption) if caption else []
@@ -461,6 +490,27 @@ def create_temporary_samples(
             )
     raw_counts["targeted"] = len(target_results)
     candidates.extend(target_results)
+
+    configured_results: list[dict[str, Any]] = []
+    for index, timestamp in enumerate(configured_timestamps or [], start=1):
+        if timestamp < 0 or timestamp >= duration:
+            raise ValueError(
+                f"Configured visual timestamp {timestamp} is outside the episode duration."
+            )
+        path = temp_dir / f"configured_{index:06d}.jpg"
+        extract_target_frame(ffmpeg, media, path, timestamp, width)
+        configured_results.append(
+            {
+                "path": path,
+                "timestamp": timestamp,
+                "strategies": {"configured"},
+                "target_evidence": [
+                    {"keywords": [], "evidence": "Configured episode timestamp"}
+                ],
+            }
+        )
+    raw_counts["configured"] = len(configured_results)
+    candidates.extend(configured_results)
     return deduplicate_frames(candidates), raw_counts
 
 
@@ -491,6 +541,17 @@ def main() -> None:
     duration = float(metadata_data.get("duration") or 0)
     if duration <= 0:
         raise SystemExit("Episode metadata does not contain a valid duration.")
+    episode_config = configured_episode(args.video_id)
+    raw_configured_timestamps = episode_config.get("visual_timestamps") or []
+    if not isinstance(raw_configured_timestamps, list):
+        raise SystemExit(f"visual_timestamps for {args.video_id} must be an array.")
+    try:
+        configured_timestamps = [
+            timestamp_seconds(value)
+            for value in raw_configured_timestamps
+        ]
+    except (TypeError, ValueError) as error:
+        raise SystemExit(f"Invalid visual_timestamps for {args.video_id}: {error}") from error
 
     output_path = (
         args.output
@@ -506,6 +567,7 @@ def main() -> None:
         "max_scene_frames": args.max_scene_frames,
         "max_targeted_frames": args.max_targeted_frames,
         "width": args.width,
+        "configured_timestamps": configured_timestamps,
     }
     fingerprint = input_fingerprint(media, metadata, caption, settings)
     if not args.force and output_path.exists():
@@ -535,6 +597,7 @@ def main() -> None:
             max_scene_frames=args.max_scene_frames,
             max_targeted_frames=args.max_targeted_frames,
             width=args.width,
+            configured_timestamps=configured_timestamps,
         )
         manifest_samples = []
         for frame in selected:

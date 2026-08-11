@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-11T16:59:29.601866+00:00",
-  "fingerprint": "7febe9cf028edf42b7e3a99a2abd808bb0defaad9981436ec331c61b4b64a50f",
+  "generated_at": "2026-08-11T17:18:04.075400+00:00",
+  "fingerprint": "31df774c0f7a6a52452260b29e5fb1773ffcb31936f3fc083e06209986ea4bcc",
   "complete": true,
   "model": "gpt-5.6-terra",
   "video_id": "8zrKZTP_QEs",
@@ -44,7 +44,24 @@
       "title": "2024 Fantasy Football Draft Vlog (Flock League)",
       "upload_date": "20240826",
       "season": "season_1",
-      "instructions": "1. This episode contains the pre-season draft where Team Owners select their players. Make note of the draft order, each Owner's selections, and any discussion points that stand out if relevant.\n2. At 29:42 there is a full draft board available to parse every selection from. This is the \"gospel\" for identifying selections. Simply refer to the grid (Team Owners are across the top row, with their selections below them in a column)\n3. Kickers and Defenses are corectly included in the rosters, though not explicitly mentioned in the ruleset.\n4. Save in JSON format each Team Owner's final selections. Save this at artifacts/season_1/draft_results.json -- DO NOT list out selections in recap.md\n5. Moo like a cow if you read and acknowledged these instructions.\n"
+      "visual_timestamps": [
+        "00:29:42"
+      ],
+      "instructions": "1. This episode contains the pre-season draft where Team Owners select their players. Make note of the draft order, each Owner's selections, and any discussion points that stand out if relevant.\n2. At 29:42 there is a full draft board available to parse every selection from. This is the \"gospel\" for identifying selections. Simply refer to the grid (Team Owners are across the top row, with their selections below them in a column)\n3. Kickers and Defenses are corectly included in the rosters, though not explicitly mentioned in the ruleset.\n4. Record each Team Owner's final selections in the requested supplemental output. Do not list individual selections in the written recap.\n",
+      "recap": {
+        "exclude_event_types": [
+          "draft"
+        ]
+      },
+      "outputs": [
+        {
+          "id": "draft_results",
+          "path": "draft_results.json",
+          "scope": "season",
+          "format": "json",
+          "instructions": "Return an object keyed by Team Owner. Each value must be an ordered array of that owner's final selections, including kickers and defenses. Preserve uncertain readings explicitly rather than guessing.\n"
+        }
+      ]
     }
   },
   "windows": [
@@ -54,57 +71,142 @@
       "end": 180.0,
       "transient_image_count": 12,
       "review": {
-        "window_summary": "The inaugural Flock League is introduced, with its roster/scoring format stated and draft order being determined via knockout basketball.",
+        "window_summary": "The inaugural Flock League is introduced; roster/scoring format and portions of the draft-order knockout are established.",
         "observations": [
           {
             "category": "other",
-            "summary": "The Flock League is described as being in its first/inaugural year. Its stated format is 1 QB, 2 RB, 2 WR, 1 TE, 2 FLEX, full PPR, plus kickers and defenses.",
+            "summary": "The Flock League's stated lineup format is 1 QB, 2 RB, 2 WR, 1 TE, and 2 flex, with full-PPR scoring; kickers and defenses are included.",
             "status": "confirmed",
             "confidence": 0.98,
             "raw_names": [],
             "facts": [
               {
-                "name": "league_format",
-                "value": "1 QB, 2 RB, 2 WR, 1 TE, 2 FLEX, full PPR; kickers and defenses included"
+                "name": "lineup",
+                "value": "1 QB, 2 RB, 2 WR, 1 TE, 2 FLEX"
+              },
+              {
+                "name": "scoring",
+                "value": "Full PPR"
+              },
+              {
+                "name": "additional roster positions",
+                "value": "Kicker and defense"
               }
             ],
             "evidence": [
               {
-                "source": "both",
+                "source": "transcript",
                 "start_seconds": 2.629,
-                "end_seconds": 21.32,
-                "details": "Transcript states the lineup, full-PPR scoring, inclusion of kickers/defenses, and that this is the first year; the initial draft-board visual also identifies the league as Flock League."
+                "end_seconds": 18.92,
+                "details": "Host states the league format, full-PPR scoring, and that kickers and defenses were added."
               }
             ]
           },
           {
             "category": "draft",
-            "summary": "Sal Vetri received the 11th pick in the draft-order selection process.",
+            "summary": "Sal received the 11th overall position in the draft order via the knockout contest.",
             "status": "confirmed",
-            "confidence": 0.92,
+            "confidence": 0.88,
             "raw_names": [
               "Sal",
               "Sal Vetri"
             ],
             "facts": [
               {
-                "name": "draft_pick",
+                "name": "draft position",
                 "value": "11"
               }
             ],
             "evidence": [
               {
                 "source": "both",
-                "start_seconds": 58.92,
-                "end_seconds": 65.983,
-                "details": "The speaker says he landed the 11th pick; the on-screen participant label at 65.983 identifies him as SAL / SAL VETRI. The 31.907 visual also captions the draw as 'GOING NUMBER 11.'"
+                "start_seconds": 53.399,
+                "end_seconds": 60.68,
+                "details": "A participant says he landed the 11th pick; the preceding visual labels the participant as SAL / SAL VETRI and displays 'GOING NUMBER 11' at 31.907."
+              }
+            ]
+          },
+          {
+            "category": "draft",
+            "summary": "An unidentified participant says he picked 12th in the draft-order contest.",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "draft position",
+                "value": "12"
+              },
+              {
+                "name": "owner",
+                "value": "Unidentified in this window"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 117.0,
+                "end_seconds": 117.8,
+                "details": "Speaker says, 'I picked, uh, 12.'"
+              }
+            ]
+          },
+          {
+            "category": "draft",
+            "summary": "An unidentified participant says he received draft position 7.",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "draft position",
+                "value": "7"
+              },
+              {
+                "name": "owner",
+                "value": "Unidentified in this window"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 156.92,
+                "end_seconds": 158.6,
+                "details": "Speaker says, 'Oh, team seven, let's go,' followed by 'we get a decent draft pick.'"
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "The participant assigned draft position 7 plans to target running backs in rounds 9–11, naming DeAndre Swift as an example; this is draft strategy, not a completed selection.",
+            "status": "speculative",
+            "confidence": 0.96,
+            "raw_names": [
+              "DeAndre Swift"
+            ],
+            "facts": [
+              {
+                "name": "strategy",
+                "value": "Target running backs in rounds 9–11"
+              },
+              {
+                "name": "example player",
+                "value": "DeAndre Swift"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 158.6,
+                "end_seconds": 175.76,
+                "details": "Speaker describes a plan to obtain running backs such as DeAndre Swift in rounds 9–11."
               }
             ]
           }
         ],
         "open_questions": [
-          "The identity of the participant who says he picked 12 around 1:57 is not established by the supplied evidence.",
-          "A participant says 'team seven' around 2:36, but the evidence does not reliably identify that participant or confirm whether this means draft pick No. 7."
+          "The owners associated with draft positions 7 and 12 are not identified clearly in this window.",
+          "Thomas is accused by another participant of cheating during the knockout, but the claim is presented as an allegation/joke and is not independently verified here."
         ]
       }
     },
@@ -114,247 +216,90 @@
       "end": 360.0,
       "transient_image_count": 12,
       "review": {
-        "window_summary": "The draft’s first eight selections are shown, and the league is described as using two WR and two flex spots.",
+        "window_summary": "The first eight selections of the draft are shown; the league is described as using two WR and two FLEX spots.",
         "observations": [
           {
             "category": "draft",
-            "summary": "Tom selected CeeDee Lamb with the first overall pick.",
+            "summary": "Draft opening picks 1-8: Tom selected CeeDee Lamb; Thomas selected Christian McCaffrey; Zach selected Tyreek Hill; Austin selected Bijan Robinson; Avery selected Amon-Ra St. Brown; Danny selected Breece Hall; Mason selected Ja'Marr Chase; Bush selected Garrett Wilson.",
             "status": "confirmed",
             "confidence": 0.98,
             "raw_names": [
               "Tom",
-              "C. Lamb"
+              "Thomas",
+              "Zach",
+              "Austin",
+              "Avery",
+              "Danny",
+              "Mason",
+              "Bush",
+              "C. Lamb",
+              "C. McCaffrey",
+              "T. Hill",
+              "B. Robinson",
+              "A. St. Brown",
+              "B. Hall",
+              "J. Chase",
+              "G. Wilson"
             ],
             "facts": [
               {
-                "name": "overall_pick",
-                "value": "1"
+                "name": "Pick 1",
+                "value": "Tom — CeeDee Lamb"
               },
               {
-                "name": "player",
-                "value": "CeeDee Lamb"
+                "name": "Pick 2",
+                "value": "Thomas — Christian McCaffrey"
+              },
+              {
+                "name": "Pick 3",
+                "value": "Zach — Tyreek Hill"
+              },
+              {
+                "name": "Pick 4",
+                "value": "Austin — Bijan Robinson"
+              },
+              {
+                "name": "Pick 5",
+                "value": "Avery — Amon-Ra St. Brown"
+              },
+              {
+                "name": "Pick 6",
+                "value": "Danny — Breece Hall"
+              },
+              {
+                "name": "Pick 7",
+                "value": "Mason — Ja'Marr Chase"
+              },
+              {
+                "name": "Pick 8",
+                "value": "Bush — Garrett Wilson"
               }
             ],
             "evidence": [
               {
                 "source": "visual",
                 "start_seconds": 270.27,
-                "end_seconds": 270.27,
-                "details": "The on-screen draft overlay lists Tom’s Round 1 selection as “C. Lamb” in the first slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Thomas selected Christian McCaffrey with the second overall pick.",
-            "status": "confirmed",
-            "confidence": 0.98,
-            "raw_names": [
-              "Thomas",
-              "C. McCaffrey"
-            ],
-            "facts": [
-              {
-                "name": "overall_pick",
-                "value": "2"
-              },
-              {
-                "name": "player",
-                "value": "Christian McCaffrey"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "visual",
-                "start_seconds": 292.334,
-                "end_seconds": 292.334,
-                "details": "The on-screen draft overlay lists Thomas’s Round 1 selection as “C. McCaffr...” in the second slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Zach selected Tyreek Hill with the third overall pick.",
-            "status": "confirmed",
-            "confidence": 0.98,
-            "raw_names": [
-              "Zach",
-              "T. Hill"
-            ],
-            "facts": [
-              {
-                "name": "overall_pick",
-                "value": "3"
-              },
-              {
-                "name": "player",
-                "value": "Tyreek Hill"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 287.0,
-                "end_seconds": 292.334,
-                "details": "Transcript says, “Tyreek Hill I took Tyreek Hill,” and the draft overlay lists “T. Hill” under Zach in the third slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Austin selected Bijan Robinson with the fourth overall pick.",
-            "status": "confirmed",
-            "confidence": 0.98,
-            "raw_names": [
-              "Austin",
-              "B. Robinson"
-            ],
-            "facts": [
-              {
-                "name": "overall_pick",
-                "value": "4"
-              },
-              {
-                "name": "player",
-                "value": "Bijan Robinson"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "visual",
-                "start_seconds": 301.551,
-                "end_seconds": 301.551,
-                "details": "The on-screen draft overlay lists “B. Robinson” under Austin in the fourth slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Avery selected Amon-Ra St. Brown with the fifth overall pick.",
-            "status": "confirmed",
-            "confidence": 0.98,
-            "raw_names": [
-              "Avery",
-              "A. St. Brown"
-            ],
-            "facts": [
-              {
-                "name": "overall_pick",
-                "value": "5"
-              },
-              {
-                "name": "player",
-                "value": "Amon-Ra St. Brown"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 296.72,
-                "end_seconds": 301.551,
-                "details": "Transcript says, “I’m Amon-Ra St. Brown,” and the draft overlay lists “A. St. Brown” under Avery in the fifth slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Danny selected Breece Hall with the sixth overall pick.",
-            "status": "confirmed",
-            "confidence": 0.98,
-            "raw_names": [
-              "Danny",
-              "B. Hall"
-            ],
-            "facts": [
-              {
-                "name": "overall_pick",
-                "value": "6"
-              },
-              {
-                "name": "player",
-                "value": "Breece Hall"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 299.84,
-                "end_seconds": 310.72,
-                "details": "Transcript identifies Breece Hall as the sixth overall selection; the draft overlay lists “B. Hall” under Danny in the sixth slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Mason selected Ja'Marr Chase with the seventh overall pick.",
-            "status": "confirmed",
-            "confidence": 0.98,
-            "raw_names": [
-              "Mason",
-              "J. Chase"
-            ],
-            "facts": [
-              {
-                "name": "overall_pick",
-                "value": "7"
-              },
-              {
-                "name": "player",
-                "value": "Ja'Marr Chase"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 338.12,
                 "end_seconds": 354.688,
-                "details": "Transcript says, “my new favorite player in the NFL Ja'Marr Chase ... get Chase at seven,” and the overlay lists “J. Chase” under Mason in the seventh slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Bush selected Garrett Wilson with the eighth overall pick.",
-            "status": "confirmed",
-            "confidence": 0.95,
-            "raw_names": [
-              "Bush",
-              "G. Wilson",
-              "Cory"
-            ],
-            "facts": [
-              {
-                "name": "overall_pick",
-                "value": "8"
+                "details": "The lower-third draft overlay sequentially shows Lamb under Tom, McCaffrey under Thomas, Hill under Zach, Robinson under Austin, St. Brown under Avery, Hall under Danny, Chase under Mason, and Wilson under Bush."
               },
               {
-                "name": "player",
-                "value": "Garrett Wilson"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 354.88,
-                "end_seconds": 354.88,
-                "details": "Transcript says Garrett Wilson was selected at eight, though it calls the selector “Cory.” The on-screen overlay shows “G. Wilson” under Bush in the eighth draft slot."
+                "source": "transcript",
+                "start_seconds": 281.72,
+                "end_seconds": 359.76,
+                "details": "Commentary identifies Tyreek Hill, Breece Hall at pick six, Ja'Marr Chase at seven, and Garrett Wilson at eight; the visual overlay establishes owner assignment."
               }
             ]
           },
           {
             "category": "other",
-            "summary": "The league format was stated to use two wide receiver slots and two flex slots.",
+            "summary": "The league format is stated to have two wide receiver and two FLEX starting spots.",
             "status": "confirmed",
-            "confidence": 0.94,
+            "confidence": 0.93,
             "raw_names": [],
             "facts": [
               {
-                "name": "wide_receiver_slots",
-                "value": "2"
-              },
-              {
-                "name": "flex_slots",
-                "value": "2"
+                "name": "Roster format mentioned",
+                "value": "2 WR, 2 FLEX"
               }
             ],
             "evidence": [
@@ -362,13 +307,19 @@
                 "source": "transcript",
                 "start_seconds": 197.76,
                 "end_seconds": 199.36,
-                "details": "A speaker states, “it’s only a two wide receiver two Flex League.”"
+                "details": "A speaker says, \"it's only a two wide receiver two Flex League.\""
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 301.04,
+                "end_seconds": 303.64,
+                "details": "The Breece Hall discussion repeats that it is \"only a two wide receiver two Flex League.\""
               }
             ]
           }
         ],
         "open_questions": [
-          "The transcript identifies the Garrett Wilson selector as “Cory,” while the on-screen draft overlay assigns Garrett Wilson to Bush; the visual evidence was used for the owner attribution."
+          "The transcript calls the Garrett Wilson drafter \"Cory,\" but the on-screen draft overlay assigns Garrett Wilson to Bush; Bush is used based on the visual evidence."
         ]
       }
     },
@@ -378,13 +329,13 @@
       "end": 540.0,
       "transient_image_count": 12,
       "review": {
-        "window_summary": "Moo. The first round is completed, and the first four Round 2 selections are shown on the draft overlay.",
+        "window_summary": "The draft completed Round 1 and began Round 2; all first-round selections and the final three second-round selections are visible in the on-screen draft overlay.",
         "observations": [
           {
             "category": "draft",
-            "summary": "Round 1 draft selections: Tom—CeeDee Lamb; Thomas—Christian McCaffrey; Zach—Tyreek Hill; Austin—Bijan Robinson; Avery—Amon-Ra St. Brown; Danny—Breece Hall; Mason—Ja'Marr Chase; Bush—Garrett Wilson; Badake—A.J. Brown; Nathan—Justin Jefferson; Sal—Jonathan Taylor; Joe—Marvin Harrison Jr.",
+            "summary": "Round 1 draft order and selections: Tom—C. Lamb; Thomas—C. McCaffrey; Zach—T. Hill; Austin—B. Robinson; Avery—A. St. Brown; Danny—B. Hall; Mason—J. Chase; Bush—G. Wilson; Badake—A. Brown; Nathan—J. Jefferson; Sal—J. Taylor; Joe—M. Harrison.",
             "status": "confirmed",
-            "confidence": 0.98,
+            "confidence": 0.95,
             "raw_names": [
               "Tom",
               "Thomas",
@@ -424,32 +375,24 @@
             "evidence": [
               {
                 "source": "visual",
-                "start_seconds": 360.36,
-                "end_seconds": 360.36,
-                "details": "Draft overlay shows the first-round selections under each owner; later frames confirm the final four first-round slots."
-              },
-              {
-                "source": "visual",
-                "start_seconds": 464.816,
-                "end_seconds": 464.816,
-                "details": "Overlay clearly shows Nathan—J. Jefferson, Sal—J. Taylor, and Joe—M. Harrison, alongside the earlier first-round selections."
+                "start_seconds": 480.51,
+                "end_seconds": 480.51,
+                "details": "The lower-third draft overlay shows all 12 Round 1 player cards beneath the owner columns."
               }
             ]
           },
           {
             "category": "draft",
-            "summary": "Round 2 begins in snake order: Joe selected Jahmyr Gibbs, Sal selected Marvin Harrison Jr., Nathan selected Puka Nacua, and Badake selected Drake London.",
+            "summary": "Nathan selected Puka Nacua, Sal selected Drake London, and Joe selected Jahmyr Gibbs in Round 2.",
             "status": "confirmed",
-            "confidence": 0.98,
+            "confidence": 0.95,
             "raw_names": [
-              "Joe",
-              "Sal",
               "Nathan",
-              "Badake",
-              "J. Gibbs",
-              "M. Harrison",
+              "Sal",
+              "Joe",
               "P. Nacua",
-              "D. London"
+              "D. London",
+              "J. Gibbs"
             ],
             "facts": [
               {
@@ -457,46 +400,22 @@
                 "value": "2"
               },
               {
-                "name": "pick_2.1",
-                "value": "Joe — Jahmyr Gibbs"
-              },
-              {
-                "name": "pick_2.2",
-                "value": "Sal — Marvin Harrison Jr."
-              },
-              {
-                "name": "pick_2.3",
-                "value": "Nathan — Puka Nacua"
-              },
-              {
-                "name": "pick_2.4",
-                "value": "Badake — Drake London"
+                "name": "selection_order",
+                "value": "Nathan—Puka Nacua; Sal—Drake London; Joe—Jahmyr Gibbs"
               }
             ],
             "evidence": [
               {
-                "source": "visual",
-                "start_seconds": 510.51,
-                "end_seconds": 510.51,
-                "details": "Draft overlay shows Joe—J. Gibbs in the first Round 2 slot and the following Round 2 selections."
-              },
-              {
-                "source": "visual",
-                "start_seconds": 524.816,
-                "end_seconds": 524.816,
-                "details": "Overlay clearly shows Round 2 entries Nathan—P. Nacua, Sal—M. Harrison, Joe—J. Gibbs, and Badake—D. London."
-              },
-              {
-                "source": "transcript",
-                "start_seconds": 510.28,
-                "end_seconds": 518.48,
-                "details": "A speaker states he was considering Drake London in Round 1 and then says he will take Drake London; later speech says Puka Nacua was obtained in the second round."
+                "source": "both",
+                "start_seconds": 518.2,
+                "end_seconds": 524.5,
+                "details": "Transcript announces Gibbs, while the on-screen overlay displays P. Nacua under Nathan, D. London under Sal, and J. Gibbs under Joe."
               }
             ]
           }
         ],
         "open_questions": [
-          "The clip does not reliably identify each on-camera speaker, so speaker commentary was not attributed to a team owner."
+          "The window does not show the Round 2 selections for Tom through Badake, so their final rosters cannot be determined from this segment."
         ]
       }
     },
@@ -506,38 +425,42 @@
       "end": 720.0,
       "transient_image_count": 12,
       "review": {
-        "window_summary": "Draft coverage shows the first two rounds nearing completion, with several second-round selections confirmed on the live draft overlay and in discussion.",
+        "window_summary": "The draft progresses through the second round and into the third. The on-screen roster overlay confirms several owners' first three selections, while the draft board is partially obscured/blurry.",
         "observations": [
           {
             "category": "draft",
-            "summary": "Mason drafted Nico Collins in Round 2 after Danny had hoped Collins would fall to him.",
+            "summary": "Badake drafted Saquon Barkley in Round 2 after opening with A.J. Brown.",
             "status": "confirmed",
-            "confidence": 0.98,
+            "confidence": 0.96,
             "raw_names": [
-              "Mason",
-              "Nico Collins",
-              "Danny"
+              "Badake",
+              "A.J. Brown",
+              "Saquon Barkley"
             ],
             "facts": [
               {
                 "name": "owner",
-                "value": "Mason"
+                "value": "Badake"
               },
               {
                 "name": "selection",
-                "value": "Nico Collins"
+                "value": "Saquon Barkley"
               },
               {
                 "name": "round",
                 "value": "2"
+              },
+              {
+                "name": "prior selection",
+                "value": "A.J. Brown"
               }
             ],
             "evidence": [
               {
                 "source": "both",
-                "start_seconds": 615.12,
-                "end_seconds": 627.44,
-                "details": "Danny says Mason took Nico Collins after Collins was one pick away; the overlay places N. Collins in Mason's second-round slot."
+                "start_seconds": 564.56,
+                "end_seconds": 584.52,
+                "details": "A speaker says he selected an Eagles wide receiver first and then Saquon Barkley; the overlay identifies Badake's roster as A. Brown followed by S. Barkley."
               }
             ]
           },
@@ -545,7 +468,7 @@
             "category": "draft",
             "summary": "Bush drafted De'Von Achane in Round 2.",
             "status": "confirmed",
-            "confidence": 0.98,
+            "confidence": 0.96,
             "raw_names": [
               "Bush",
               "De'Von Achane"
@@ -568,28 +491,28 @@
               {
                 "source": "both",
                 "start_seconds": 587.8,
-                "end_seconds": 610.88,
-                "details": "The speaker announces Achane; the draft overlay shows D. Achane in Bush's Round 2 slot."
+                "end_seconds": 603.96,
+                "details": "The speaker announces 'give me De'Von Achane'; the overlay shows D. Achane in Bush's second roster slot."
               }
             ]
           },
           {
             "category": "draft",
-            "summary": "Badake drafted Saquon Barkley in Round 2.",
+            "summary": "Mason drafted Nico Collins in Round 2.",
             "status": "confirmed",
-            "confidence": 0.98,
+            "confidence": 0.97,
             "raw_names": [
-              "Badake",
-              "Saquon Barkley"
+              "Mason",
+              "Nico Collins"
             ],
             "facts": [
               {
                 "name": "owner",
-                "value": "Badake"
+                "value": "Mason"
               },
               {
                 "name": "selection",
-                "value": "Saquon Barkley"
+                "value": "Nico Collins"
               },
               {
                 "name": "round",
@@ -599,9 +522,9 @@
             "evidence": [
               {
                 "source": "both",
-                "start_seconds": 544.56,
-                "end_seconds": 585.0,
-                "details": "The speaker says he selected Saquon Barkley, and the overlay places S. Barkley in Badake's second-round slot."
+                "start_seconds": 613.0,
+                "end_seconds": 627.44,
+                "details": "Transcript says Mason took Nico Collins, and the overlay shows N. Collins as Mason's second selection."
               }
             ]
           },
@@ -609,7 +532,7 @@
             "category": "draft",
             "summary": "Danny drafted Jaylen Waddle in Round 2.",
             "status": "confirmed",
-            "confidence": 0.98,
+            "confidence": 0.97,
             "raw_names": [
               "Danny",
               "Jaylen Waddle"
@@ -633,7 +556,7 @@
                 "source": "both",
                 "start_seconds": 643.16,
                 "end_seconds": 659.0,
-                "details": "The speaker announces Jaylen Waddle as his second-round pick; the overlay places J. Waddle under Danny."
+                "details": "The pick is announced as Jaylen Waddle; the roster overlay places J. Waddle in Danny's second slot."
               }
             ]
           },
@@ -664,8 +587,8 @@
               {
                 "source": "both",
                 "start_seconds": 660.12,
-                "end_seconds": 678.0,
-                "details": "A speaker says he is taking Kyren Williams, while the overlay shows K. Williams in Avery's second-round slot."
+                "end_seconds": 681.36,
+                "details": "The speaker says he is taking Kyren Williams, and the overlay shows K. Williams as Avery's second selection."
               }
             ]
           },
@@ -673,7 +596,7 @@
             "category": "draft",
             "summary": "Zach drafted Derrick Henry in Round 2.",
             "status": "confirmed",
-            "confidence": 0.98,
+            "confidence": 0.96,
             "raw_names": [
               "Zach",
               "Derrick Henry"
@@ -696,81 +619,113 @@
               {
                 "source": "both",
                 "start_seconds": 683.64,
-                "end_seconds": 697.68,
-                "details": "The speaker announces Derrick Henry; the overlay places D. Henry under Zach in Round 2."
+                "end_seconds": 690.69,
+                "details": "The pick is announced as Derrick Henry; the overlay shows D. Henry as Zach's second selection."
               }
             ]
           },
           {
             "category": "draft",
-            "summary": "Nathan opened the draft with Justin Jefferson and Puka Nacua in the first two rounds.",
+            "summary": "The visible roster overlay shows these additional completed Round 2 picks: Tom—Isiah Pacheco; Thomas—Chris Olave; Austin—Deebo Samuel; Nathan—Puka Nacua; Sal—Drake London; Joe—Jahmyr Gibbs.",
             "status": "confirmed",
-            "confidence": 0.99,
-            "raw_names": [
-              "Nathan",
-              "Justin Jefferson",
-              "Puka Nacua"
-            ],
-            "facts": [
-              {
-                "name": "owner",
-                "value": "Nathan"
-              },
-              {
-                "name": "round_1_selection",
-                "value": "Justin Jefferson"
-              },
-              {
-                "name": "round_2_selection",
-                "value": "Puka Nacua"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 660.12,
-                "end_seconds": 679.4,
-                "details": "The transcript explicitly states Nathan has Justin Jefferson and Puka Nacua; the overlay shows J. Jefferson in Round 1 and P. Nacua in Round 2 under Nathan."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "The visible board confirms the following first two selections: Tom—CeeDee Lamb and Isiah Pacheco; Thomas—Christian McCaffrey and Chris Olave; Zach—Tyreek Hill and Derrick Henry; Austin—Bijan Robinson and Deebo Samuel; Avery—Amon-Ra St. Brown and Kyren Williams; Danny—Breece Hall and Jaylen Waddle; Mason—Ja'Marr Chase and Nico Collins; Bush—Garrett Wilson and De'Von Achane; Badake—A.J. Brown and Saquon Barkley; Nathan—Justin Jefferson and Puka Nacua; Sal—Jonathan Taylor and Drake London; Joe—Marvin Harrison Jr. and Jahmyr Gibbs.",
-            "status": "confirmed",
-            "confidence": 0.95,
+            "confidence": 0.92,
             "raw_names": [
               "Tom",
+              "Isiah Pacheco",
               "Thomas",
-              "Zach",
+              "Chris Olave",
               "Austin",
-              "Avery",
-              "Danny",
-              "Mason",
-              "Bush",
-              "Badake",
+              "Deebo Samuel",
               "Nathan",
+              "Puka Nacua",
               "Sal",
-              "Joe"
+              "Drake London",
+              "Joe",
+              "Jahmyr Gibbs"
             ],
             "facts": [
               {
-                "name": "draft_board_state",
-                "value": "First and second rounds as listed in summary"
+                "name": "round",
+                "value": "2"
+              },
+              {
+                "name": "Tom",
+                "value": "Isiah Pacheco"
+              },
+              {
+                "name": "Thomas",
+                "value": "Chris Olave"
+              },
+              {
+                "name": "Austin",
+                "value": "Deebo Samuel"
+              },
+              {
+                "name": "Nathan",
+                "value": "Puka Nacua"
+              },
+              {
+                "name": "Sal",
+                "value": "Drake London"
+              },
+              {
+                "name": "Joe",
+                "value": "Jahmyr Gibbs"
               }
             ],
             "evidence": [
               {
                 "source": "visual",
                 "start_seconds": 718.694,
-                "end_seconds": 720.0,
-                "details": "The on-screen draft overlay visibly lists the first two selections beneath each owner."
+                "end_seconds": 718.694,
+                "details": "The roster overlay visibly lists each owner's first two selections; the listed players appear in the second slot for these owners."
+              }
+            ]
+          },
+          {
+            "category": "draft",
+            "summary": "The visible roster overlay shows these completed Round 3 picks: Tom—Cooper Kupp; Thomas—Davante Adams; Zach—Brandon Aiyuk.",
+            "status": "confirmed",
+            "confidence": 0.91,
+            "raw_names": [
+              "Tom",
+              "Cooper Kupp",
+              "Thomas",
+              "Davante Adams",
+              "Zach",
+              "Brandon Aiyuk"
+            ],
+            "facts": [
+              {
+                "name": "round",
+                "value": "3"
+              },
+              {
+                "name": "Tom",
+                "value": "Cooper Kupp"
+              },
+              {
+                "name": "Thomas",
+                "value": "Davante Adams"
+              },
+              {
+                "name": "Zach",
+                "value": "Brandon Aiyuk"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 697.84,
+                "end_seconds": 718.694,
+                "details": "The transcript names Chris Olave, Isiah Pacheco, Cooper Kupp, Davante Adams, and Brandon Aiyuk as picks; the 11:58 overlay clearly shows K. Kupp, D. Adams, and B. Aiyuk in the third roster slots for Tom, Thomas, and Zach."
               }
             ]
           }
         ],
         "open_questions": [
-          "Austin's third-round name and several other third-round selections are visible but too small/obscured in this window to transcribe reliably."
+          "Austin's Round 3 card is visible at 00:11:58 but is too blurry/partially obscured to transcribe reliably.",
+          "No complete final-draft roster can be derived from this three-minute window; the full draft board at 00:29:42 would be required for the requested season-level draft-results output."
         ]
       }
     },
@@ -780,122 +735,34 @@
       "end": 900.0,
       "transient_image_count": 12,
       "review": {
-        "window_summary": "The draft board shows the league completing Round 3 and several Round 4 selections.",
+        "window_summary": "The live draft progressed through the third and into the fourth round. Per episode guidance, individual draft selections are omitted from the written recap.",
+        "observations": [],
+        "open_questions": [
+          "A selection announced for Sam LaPorta begins at 00:14:51.639 but is not completed within this window."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The draft completed Round 4 and Round 5 selections; the board and spoken picks identify the owners and players.",
         "observations": [
           {
             "category": "draft",
-            "summary": "Round 3 selections shown on the draft board: Tom—Cooper Kupp; Thomas—Davante Adams; Zach—Brandon Aiyuk; Austin—Mike Evans; Avery—Travis Etienne; Danny—Malik Nabers; Mason—DeVonta Smith; Bush—Travis Kelce; Badake—DJ Moore; Nathan—Josh Jacobs; Sal—Josh Allen.",
+            "summary": "Round 4 selections were confirmed on the draft board.",
             "status": "confirmed",
             "confidence": 0.96,
             "raw_names": [
-              "Cooper Kupp",
-              "Davante Adams",
-              "Brandon Aiyuk",
-              "Mike Evans",
-              "Travis Etienne",
-              "Malik Nabers",
-              "DeVonta Smith",
-              "Travis Kelce",
-              "DJ Moore",
-              "Josh Jacobs",
-              "Josh Allen"
-            ],
-            "facts": [
-              {
-                "name": "round",
-                "value": "3"
-              },
-              {
-                "name": "Tom selection",
-                "value": "Cooper Kupp"
-              },
-              {
-                "name": "Thomas selection",
-                "value": "Davante Adams"
-              },
-              {
-                "name": "Zach selection",
-                "value": "Brandon Aiyuk"
-              },
-              {
-                "name": "Austin selection",
-                "value": "Mike Evans"
-              },
-              {
-                "name": "Avery selection",
-                "value": "Travis Etienne"
-              },
-              {
-                "name": "Danny selection",
-                "value": "Malik Nabers"
-              },
-              {
-                "name": "Mason selection",
-                "value": "DeVonta Smith"
-              },
-              {
-                "name": "Bush selection",
-                "value": "Travis Kelce"
-              },
-              {
-                "name": "Badake selection",
-                "value": "DJ Moore"
-              },
-              {
-                "name": "Nathan selection",
-                "value": "Josh Jacobs"
-              },
-              {
-                "name": "Sal selection",
-                "value": "Josh Allen"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "visual",
-                "start_seconds": 752.254,
-                "end_seconds": 764.867,
-                "details": "The on-screen roster overlay and physical board identify these owners' third-row/round selections; the transcript also explicitly identifies Etienne, Nabers, Smith, Kelce, Moore, Jacobs, and Allen."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Joe's Round 3 board entry is displayed as \"C. Jackson.\" The supplied window does not make the player's full identity legible enough to resolve.",
-            "status": "confirmed",
-            "confidence": 0.62,
-            "raw_names": [
-              "C. Jackson"
-            ],
-            "facts": [
-              {
-                "name": "round",
-                "value": "3"
-              },
-              {
-                "name": "owner",
-                "value": "Joe"
-              },
-              {
-                "name": "selection as displayed",
-                "value": "C. Jackson"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "visual",
-                "start_seconds": 752.254,
-                "end_seconds": 764.867,
-                "details": "Joe's third-row roster card is visible in the lower overlay but only legibly reads \"C. Jackson.\""
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Round 4 selections confirmed on the board: Bush—Patrick Mahomes; Badake—James Cook; Nathan—Rachaad White; Sal—DK Metcalf; Joe—Mark Andrews.",
-            "status": "confirmed",
-            "confidence": 0.97,
-            "raw_names": [
+              "Dalton Kincaid",
+              "Alvin Kamara",
+              "Trey McBride",
+              "Jalen Hurts",
+              "Michael Pittman",
+              "Rashee Rice",
+              "Sam LaPorta",
               "Patrick Mahomes",
               "James Cook",
               "Rachaad White",
@@ -904,8 +771,32 @@
             ],
             "facts": [
               {
-                "name": "round",
-                "value": "4"
+                "name": "Tom selection",
+                "value": "Dalton Kincaid"
+              },
+              {
+                "name": "Thomas selection",
+                "value": "Alvin Kamara"
+              },
+              {
+                "name": "Zach selection",
+                "value": "Trey McBride"
+              },
+              {
+                "name": "Austin selection",
+                "value": "Jalen Hurts"
+              },
+              {
+                "name": "Avery selection",
+                "value": "Michael Pittman"
+              },
+              {
+                "name": "Danny selection",
+                "value": "Rashee Rice"
+              },
+              {
+                "name": "Mason selection",
+                "value": "Sam LaPorta"
               },
               {
                 "name": "Bush selection",
@@ -931,97 +822,17 @@
             "evidence": [
               {
                 "source": "both",
-                "start_seconds": 797.639,
-                "end_seconds": 859.915,
-                "details": "The board/roster overlay displays Mahomes, Cook, White, Metcalf, and Andrews in the respective owners' fourth slots. The transcript independently announces Andrews, Metcalf, White, Cook, and Mahomes."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "An unidentified speaker announced a selection of Sam LaPorta, but the supplied view does not identify the owner or show the corresponding board slot.",
-            "status": "confirmed",
-            "confidence": 0.82,
-            "raw_names": [
-              "Sam LaPorta"
-            ],
-            "facts": [
-              {
-                "name": "selection",
-                "value": "Sam LaPorta"
-              },
-              {
-                "name": "owner",
-                "value": "Unidentified"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "transcript",
-                "start_seconds": 889.759,
-                "end_seconds": 893.48,
-                "details": "Speaker says, \"we're going to go Sam LaPorta.\""
-              }
-            ]
-          }
-        ],
-        "open_questions": [
-          "Resolve Joe's Round 3 selection shown only as \"C. Jackson.\"",
-          "Identify which owner selected Sam LaPorta; the selection is announced at the end of the window without an attributable board view."
-        ]
-      }
-    },
-    {
-      "window_index": 5,
-      "start": 900.0,
-      "end": 1080.0,
-      "transient_image_count": 12,
-      "review": {
-        "window_summary": "Draft board coverage confirms the complete fourth and fifth rounds of the league draft.",
-        "observations": [
-          {
-            "category": "draft",
-            "summary": "Round 4 selections were completed: Tom—Dalton Kincaid; Thomas—Alvin Kamara; Zach—Trey McBride; Austin—Jalen Hurts; Avery—Michael Pittman; Danny—Rashee Rice; Mason—Sam LaPorta; Bush—Patrick Mahomes; Badake—James Cook; Nathan—Rachaad White; Sal—DK Metcalf; Joe—Mark Andrews.",
-            "status": "confirmed",
-            "confidence": 0.98,
-            "raw_names": [
-              "Dalton Kincaid",
-              "Alvin Kamara",
-              "Trey McBride",
-              "Jalen Hurts",
-              "Michael Pittman",
-              "Rashee Rice",
-              "Sam LaPorta",
-              "Patrick Mahomes",
-              "James Cook",
-              "Rachaad White",
-              "DK Metcalf",
-              "Mark Andrews"
-            ],
-            "facts": [
-              {
-                "name": "round",
-                "value": "4"
-              },
-              {
-                "name": "selections",
-                "value": "Tom—Dalton Kincaid; Thomas—Alvin Kamara; Zach—Trey McBride; Austin—Jalen Hurts; Avery—Michael Pittman; Danny—Rashee Rice; Mason—Sam LaPorta; Bush—Patrick Mahomes; Badake—James Cook; Nathan—Rachaad White; Sal—DK Metcalf; Joe—Mark Andrews"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "visual",
-                "start_seconds": 960.96,
+                "start_seconds": 930.475,
                 "end_seconds": 960.96,
-                "details": "On-screen draft overlay shows all 12 owner columns and their Round 4 player cards."
+                "details": "The on-screen board shows each Round 4 player in the respective owner column; the transcript also states many of these picks, including Kincaid, Kamara, McBride, Hurts, Pittman, Rice, LaPorta, Mahomes, Cook, White, Metcalf, and Andrews."
               }
             ]
           },
           {
             "category": "draft",
-            "summary": "Round 5 selections were completed: Tom—Anthony Richardson; Thomas—Stefon Diggs; Zach—Joe Mixon; Austin—Zay Flowers; Avery—Tee Higgins; Danny—Kyle Pitts; Mason—Amari Cooper; Bush—Tank Dell; Badake—Jayden Reed; Nathan—George Pickens; Sal—Xavier Worthy; Joe—Keenan Allen.",
+            "summary": "Round 5 selections were Tom—Anthony Richardson; Thomas—Stefon Diggs; Zach—Joe Mixon; Austin—Zay Flowers; Avery—Tee Higgins; Danny—Kyle Pitts; Mason—Amari Cooper; Bush—Tank Dell; Badake—Jayden Reed; Nathan—George Pickens; Sal—Xavier Worthy; Joe—Keenan Allen.",
             "status": "confirmed",
-            "confidence": 0.98,
+            "confidence": 0.94,
             "raw_names": [
               "Anthony Richardson",
               "Stefon Diggs",
@@ -1038,54 +849,65 @@
             ],
             "facts": [
               {
-                "name": "round",
-                "value": "5"
+                "name": "Tom selection",
+                "value": "Anthony Richardson"
               },
               {
-                "name": "selections",
-                "value": "Tom—Anthony Richardson; Thomas—Stefon Diggs; Zach—Joe Mixon; Austin—Zay Flowers; Avery—Tee Higgins; Danny—Kyle Pitts; Mason—Amari Cooper; Bush—Tank Dell; Badake—Jayden Reed; Nathan—George Pickens; Sal—Xavier Worthy; Joe—Keenan Allen"
+                "name": "Thomas selection",
+                "value": "Stefon Diggs"
+              },
+              {
+                "name": "Zach selection",
+                "value": "Joe Mixon"
+              },
+              {
+                "name": "Austin selection",
+                "value": "Zay Flowers"
+              },
+              {
+                "name": "Avery selection",
+                "value": "Tee Higgins"
+              },
+              {
+                "name": "Danny selection",
+                "value": "Kyle Pitts"
+              },
+              {
+                "name": "Mason selection",
+                "value": "Amari Cooper"
+              },
+              {
+                "name": "Bush selection",
+                "value": "Tank Dell"
+              },
+              {
+                "name": "Badake selection",
+                "value": "Jayden Reed"
+              },
+              {
+                "name": "Nathan selection",
+                "value": "George Pickens"
+              },
+              {
+                "name": "Sal selection",
+                "value": "Xavier Worthy"
+              },
+              {
+                "name": "Joe selection",
+                "value": "Keenan Allen"
               }
             ],
             "evidence": [
               {
                 "source": "both",
-                "start_seconds": 1019.747,
-                "end_seconds": 1079.64,
-                "details": "The on-screen board displays the complete Round 5 row. The transcript also announces the selections, including Mixon, Flowers, Higgins, Pitts, Cooper, Dell, Reed, Pickens, Worthy, and Allen."
-              }
-            ]
-          },
-          {
-            "category": "injury",
-            "summary": "While selecting Tee Higgins, Avery's speaker referenced Higgins having had a knee injury the prior year; this is discussion of a past NFL injury, not a current league roster move or injury update.",
-            "status": "reported",
-            "confidence": 0.8,
-            "raw_names": [
-              "Tee Higgins"
-            ],
-            "facts": [
-              {
-                "name": "fantasy_owner",
-                "value": "Avery"
-              },
-              {
-                "name": "injury",
-                "value": "Knee injury, described as occurring last year"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "transcript",
-                "start_seconds": 1006.12,
-                "end_seconds": 1013.399,
-                "details": "The speaker selects Tee Higgins and says people discuss 'the knee injury last year.'"
+                "start_seconds": 960.96,
+                "end_seconds": 1059.64,
+                "details": "The on-screen board shows Round 5 picks across owner columns, while the transcript announces Richardson through Keenan Allen. Badake's Jayden Reed is supported by the spoken selection and draft sequence, though that board column is partially obscured in later frames."
               }
             ]
           }
         ],
-        "open_questions": [
-          "A speaker states that Rashee Rice would not be suspended, but this is unsupported draft commentary rather than a confirmed NFL status update."
-        ]
+        "open_questions": []
       }
     },
     {
@@ -1094,277 +916,165 @@
       "end": 1260.0,
       "transient_image_count": 12,
       "review": {
-        "window_summary": "Round 6 draft discussion and selections are shown; the on-screen roster overlay identifies several owners' picks.",
+        "window_summary": "The draft completed Round 6 and began Round 7; Mason was noted as still lacking a running back after six rounds.",
         "observations": [
           {
             "category": "draft",
-            "summary": "Joe drafted Keenan Allen (shown as his Round 5 selection).",
-            "status": "confirmed",
-            "confidence": 0.9,
-            "raw_names": [
-              "Joe",
-              "Keenan Allen"
-            ],
-            "facts": [
-              {
-                "name": "owner",
-                "value": "Joe"
-              },
-              {
-                "name": "player",
-                "value": "Keenan Allen"
-              },
-              {
-                "name": "round",
-                "value": "5"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 1079.64,
-                "end_seconds": 1082.96,
-                "details": "Transcript discusses Keenan Allen; on-screen roster overlay lists K. Allen in Joe's fifth roster slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Zach drafted Rome Odunze in Round 6.",
-            "status": "confirmed",
-            "confidence": 0.96,
-            "raw_names": [
-              "Zach",
-              "Rome Odunze"
-            ],
-            "facts": [
-              {
-                "name": "owner",
-                "value": "Zach"
-              },
-              {
-                "name": "player",
-                "value": "Rome Odunze"
-              },
-              {
-                "name": "round",
-                "value": "6"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 1145.12,
-                "end_seconds": 1164.0,
-                "details": "Speaker states, 'round six I end up getting Rome Odunze'; the roster overlay places R. Odunze in Zach's sixth slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Avery drafted Kenneth Walker in Round 6.",
+            "summary": "Round 6 selections were recorded across the league.",
             "status": "confirmed",
             "confidence": 0.94,
             "raw_names": [
-              "Avery",
+              "Ladd McConkey",
+              "Christian Kirk",
+              "Kyler Murray",
+              "Terry McLaurin",
+              "Rome Odunze",
+              "Kenneth Walker",
+              "Brian Thomas",
+              "Diontae Johnson",
+              "Christian Watson",
+              "Jordan Addison",
+              "Chris Godwin",
+              "David Montgomery"
+            ],
+            "facts": [
+              {
+                "name": "Tom Round 6 selection",
+                "value": "Ladd McConkey"
+              },
+              {
+                "name": "Thomas Round 6 selection",
+                "value": "Christian Kirk"
+              },
+              {
+                "name": "Zach Round 6 selection",
+                "value": "Kyler Murray"
+              },
+              {
+                "name": "Austin Round 6 selection",
+                "value": "Terry McLaurin"
+              },
+              {
+                "name": "Avery Round 6 selection",
+                "value": "Rome Odunze"
+              },
+              {
+                "name": "Danny Round 6 selection",
+                "value": "Kenneth Walker"
+              },
+              {
+                "name": "Mason Round 6 selection",
+                "value": "Brian Thomas"
+              },
+              {
+                "name": "Bush Round 6 selection",
+                "value": "Diontae Johnson"
+              },
+              {
+                "name": "Badake Round 6 selection",
+                "value": "Christian Watson"
+              },
+              {
+                "name": "Nathan Round 6 selection",
+                "value": "Jordan Addison"
+              },
+              {
+                "name": "Sal Round 6 selection",
+                "value": "Chris Godwin"
+              },
+              {
+                "name": "Joe Round 6 selection",
+                "value": "David Montgomery"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1082.96,
+                "end_seconds": 1254.76,
+                "details": "The speakers announce these selections, including Odunze as a Round 6 pick and the subsequent selections through Montgomery."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1258.315,
+                "end_seconds": 1258.315,
+                "details": "The on-screen draft-board overlay displays the six completed selection rows under each owner's column."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "After six rounds, Mason had not drafted a running back; the speakers described him as the league's only team without one.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Mason",
               "Kenneth Walker"
             ],
             "facts": [
               {
-                "name": "owner",
-                "value": "Avery"
-              },
-              {
-                "name": "player",
-                "value": "Kenneth Walker"
-              },
-              {
-                "name": "round",
-                "value": "6"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 1166.68,
-                "end_seconds": 1172.0,
-                "details": "A speaker announces Kenneth Walker; roster overlay shows K. Walker in Avery's sixth slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Austin drafted Brian Thomas in Round 6.",
-            "status": "confirmed",
-            "confidence": 0.92,
-            "raw_names": [
-              "Austin",
-              "Brian Thomas"
-            ],
-            "facts": [
-              {
-                "name": "owner",
-                "value": "Austin"
-              },
-              {
-                "name": "player",
-                "value": "Brian Thomas"
-              },
-              {
-                "name": "round",
-                "value": "6"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 1219.88,
-                "end_seconds": 1225.16,
-                "details": "Transcript says, 'I'm picking Brian Thomas'; the roster overlay shows B. Thomas in Austin's sixth slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Danny drafted Diontae Johnson in Round 6.",
-            "status": "confirmed",
-            "confidence": 0.92,
-            "raw_names": [
-              "Danny",
-              "Diontae Johnson"
-            ],
-            "facts": [
-              {
-                "name": "owner",
-                "value": "Danny"
-              },
-              {
-                "name": "player",
-                "value": "Diontae Johnson"
-              },
-              {
-                "name": "round",
-                "value": "6"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 1228.24,
-                "end_seconds": 1230.4,
-                "details": "Transcript says, 'we're taking Deontay [Diontae] Johnson here'; roster overlay shows D. Johnson in Danny's sixth slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Mason drafted Keon Coleman in Round 6.",
-            "status": "confirmed",
-            "confidence": 0.93,
-            "raw_names": [
-              "Mason",
-              "Keon Coleman"
-            ],
-            "facts": [
-              {
-                "name": "owner",
+                "name": "Owner",
                 "value": "Mason"
               },
               {
-                "name": "player",
-                "value": "Keon Coleman"
-              },
-              {
-                "name": "round",
-                "value": "6"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 1254.76,
-                "end_seconds": 1257.28,
-                "details": "Transcript announces Keon Coleman as the sixth rookie WR selected; roster overlay shows K. Coleman in Mason's sixth slot."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Tom drafted Christian Watson and Thomas drafted Jordan Addison, both shown in their sixth roster slots.",
-            "status": "confirmed",
-            "confidence": 0.85,
-            "raw_names": [
-              "Tom",
-              "Christian Watson",
-              "Thomas",
-              "Jordan Addison"
-            ],
-            "facts": [
-              {
-                "name": "owner",
-                "value": "Tom"
-              },
-              {
-                "name": "player",
-                "value": "Christian Watson"
-              },
-              {
-                "name": "round",
-                "value": "6"
-              },
-              {
-                "name": "owner",
-                "value": "Thomas"
-              },
-              {
-                "name": "player",
-                "value": "Jordan Addison"
-              },
-              {
-                "name": "round",
-                "value": "6"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 1238.48,
-                "end_seconds": 1242.8,
-                "details": "Transcript names Christian Watson and Jordan Addison; subsequent roster overlay shows C. Watson in Tom's sixth slot and J. Addison in Thomas's sixth slot."
-              }
-            ]
-          },
-          {
-            "category": "other",
-            "summary": "At this point in the draft, Mason was the league's only owner without a running back.",
-            "status": "confirmed",
-            "confidence": 0.88,
-            "raw_names": [
-              "Mason"
-            ],
-            "facts": [
-              {
-                "name": "owner",
-                "value": "Mason"
-              },
-              {
-                "name": "draft_state",
-                "value": "No running back through six rounds"
+                "name": "Roster status after Round 6",
+                "value": "No running back drafted"
               }
             ],
             "evidence": [
               {
                 "source": "transcript",
                 "start_seconds": 1182.32,
-                "end_seconds": 1201.52,
-                "details": "Narration says the draft is six rounds in and Mason has not taken a running back, and is the only team without one."
+                "end_seconds": 1213.24,
+                "details": "Speakers say Mason had not taken a running back in six rounds and was the only team in the league without one."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1201.2,
+                "end_seconds": 1201.2,
+                "details": "The roster overlay shows Mason's first six selections without a running back."
+              }
+            ]
+          },
+          {
+            "category": "draft",
+            "summary": "Tom opened Round 7 by selecting Keon Coleman.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Keon Coleman"
+            ],
+            "facts": [
+              {
+                "name": "Owner",
+                "value": "Tom"
+              },
+              {
+                "name": "Round",
+                "value": "7"
+              },
+              {
+                "name": "Selection",
+                "value": "Keon Coleman"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1254.76,
+                "end_seconds": 1258.88,
+                "details": "A speaker says, “I’m going to take the sixth rookie wide receiver off the board and take Keon Coleman here.”"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1258.315,
+                "end_seconds": 1258.315,
+                "details": "The draft-board overlay places K. Coleman in Tom's next selection row."
               }
             ]
           }
         ],
-        "open_questions": [
-          "Ladd McConkey is mentioned around 00:18:04, but this window does not provide sufficiently clear evidence to assign that selection to an owner or round."
-        ]
+        "open_questions": []
       }
     },
     {
@@ -1373,147 +1083,38 @@
       "end": 1440.0,
       "transient_image_count": 12,
       "review": {
-        "window_summary": "Draft montage covering late Round 6 through Round 8; several player selections are explicitly announced, but the supplied board views do not reliably establish the selecting owner for each pick.",
+        "window_summary": "During the draft montage, a speaker selected Hollywood Brown while acknowledging an injury.",
         "observations": [
           {
-            "category": "draft",
-            "summary": "Selections announced before the Round 7 marker: Rhamondre Stevenson, James Conner, Hollywood Brown, Raheem Mostert, Aaron Jones, and Najee Harris.",
-            "status": "confirmed",
-            "confidence": 0.9,
-            "raw_names": [
-              "Rre Stevenson",
-              "James Conor",
-              "Hollywood Brown",
-              "Raheem the Dream",
-              "Aaron Jones",
-              "Naji Harris"
-            ],
-            "facts": [
-              {
-                "name": "round_context",
-                "value": "Before the speaker identifies the draft as Round 7 at 00:21:26.520."
-              },
-              {
-                "name": "selecting_owner",
-                "value": "Not reliably readable from the supplied board views."
-              }
-            ],
-            "evidence": [
-              {
-                "source": "transcript",
-                "start_seconds": 1261.76,
-                "end_seconds": 1287.8,
-                "details": "Speakers explicitly announce or request these selections; the draft board is visible but owner-to-pick mapping is not legible enough to assign ownership."
-              }
-            ]
-          },
-          {
             "category": "injury",
-            "summary": "A drafter says Hollywood Brown is injured at the time of his selection; no injury type, timetable, or selecting owner is provided in this window.",
+            "summary": "Hollywood Brown was described as currently injured immediately after being selected in the draft montage.",
             "status": "reported",
-            "confidence": 0.82,
+            "confidence": 0.9,
             "raw_names": [
               "Hollywood Brown"
             ],
             "facts": [
               {
+                "name": "player",
+                "value": "Hollywood Brown"
+              },
+              {
                 "name": "injury_status",
-                "value": "Reported by drafter as injured \"right now\""
-              },
-              {
-                "name": "injury_details",
-                "value": "Not provided"
-              },
-              {
-                "name": "fantasy_context",
-                "value": "Brown was selected despite the reported injury."
+                "value": "Described as injured \"right now\"; no injury type or timetable given."
               }
             ],
             "evidence": [
               {
-                "source": "both",
-                "start_seconds": 1271.72,
+                "source": "transcript",
+                "start_seconds": 1272.0,
                 "end_seconds": 1276.76,
-                "details": "Transcript: \"we'll take Hollywood Brown. I don't care that he's injured right now\"; the draft board is on screen."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Following the Round 7 marker, drafters announce selections of Najee Harris, Jonathan Brooks, Zamir White, Evan Engram, Brock Bowers, Jake Ferguson, Javonte Williams, D'Andre Swift, and Chase Brown.",
-            "status": "confirmed",
-            "confidence": 0.86,
-            "raw_names": [
-              "Naji Harris",
-              "Jonathan Brooks",
-              "zir white",
-              "Evin Ingram",
-              "Brock Bowers",
-              "Jake fuson",
-              "Javonte Williams",
-              "DeAndre Swift",
-              "Chase Brown"
-            ],
-            "facts": [
-              {
-                "name": "round_context",
-                "value": "Round 7 is explicitly identified at 00:21:26.520."
-              },
-              {
-                "name": "selecting_owner",
-                "value": "Not reliably readable from the supplied board views."
-              }
-            ],
-            "evidence": [
-              {
-                "source": "transcript",
-                "start_seconds": 1286.52,
-                "end_seconds": 1380.88,
-                "details": "The montage explicitly labels Round 7, then includes direct selection statements for the listed players. Some transcript spellings are retained as raw names where uncertain."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Round 8 selection announcements include Tony Pollard, David Njoku, Brian Robinson, Curtis Samuel, Jameson Williams, Devin Singletary, Jaylen Warren, Zach Moss, DeAndre Hopkins, Dak Prescott, and Tyjae Spears.",
-            "status": "confirmed",
-            "confidence": 0.84,
-            "raw_names": [
-              "Tony Pard",
-              "njoku",
-              "Brian Robinson",
-              "Curtis Samuel",
-              "Jameson Williams",
-              "Devin single ter",
-              "Jaylen Warren",
-              "Zach Moss",
-              "dehop",
-              "Dak Prescott",
-              "taji Spears"
-            ],
-            "facts": [
-              {
-                "name": "round_context",
-                "value": "A speaker identifies this portion as the eighth round at 00:23:02.919."
-              },
-              {
-                "name": "selecting_owner",
-                "value": "Not reliably readable from the supplied board views."
-              }
-            ],
-            "evidence": [
-              {
-                "source": "transcript",
-                "start_seconds": 1382.92,
-                "end_seconds": 1433.76,
-                "details": "After the eighth-round reference, speakers directly state these selections; transcript spellings are retained in raw_names where applicable."
+                "details": "Speaker says, \"we'll take Hollywood Brown. I don't care that he's injured right now.\""
               }
             ]
           }
         ],
         "open_questions": [
-          "The supplied board images are too low-resolution to safely map these selections to team owners; the authoritative full draft board referenced later in the episode is outside this window.",
-          "The transcript says \"Jake fuson\" and \"Evin Ingram\"; these likely correspond to Jake Ferguson and Evan Engram, but the raw forms are preserved pending review."
+          "The window contains multiple draft-pick declarations, but the supplied transcript does not reliably identify the selecting owner for each; draft selections are excluded from the episode written recap."
         ]
       }
     },
@@ -1523,230 +1124,38 @@
       "end": 1620.0,
       "transient_image_count": 12,
       "review": {
-        "window_summary": "The draft proceeds through Round 9, Round 10, and most/all of Round 11. The on-screen roster grid and pick commentary identify the selections below.",
+        "window_summary": "The live fantasy draft continues, with a participant identifying the sequence as the ninth round while the on-screen draft board tracks each owner’s roster.",
         "observations": [
           {
             "category": "draft",
-            "summary": "Round 9 selections: Tom—Jaylen Polk; Thomas—Jerry Jeudy; Zach—Courtland Sutton; Austin—Josh Palmer; Avery—Xavier Legette; Danny—Jerome Ford; Mason—Romeo Doubs; Bush—Jordan Love; Badake—Dontayvion Wicks; Nathan—Trey Benson; Sal—Adonai Mitchell; Joe—Jakobi Meyers.",
+            "summary": "The draft is confirmed to be in Round 9 during this window; participants continue making selections and the on-screen board updates the owner columns.",
             "status": "confirmed",
-            "confidence": 0.94,
-            "raw_names": [
-              "Jaylen Polk",
-              "Jerry Jeudy",
-              "Courtland Sutton",
-              "Josh Palmer",
-              "Xavier Legette",
-              "Jerome Ford",
-              "Romeo Doubs",
-              "Jordan Love",
-              "Dontayvion Wicks",
-              "Trey Benson",
-              "Adonai Mitchell",
-              "Jakobi Meyers"
-            ],
+            "confidence": 0.98,
+            "raw_names": [],
             "facts": [
               {
-                "name": "Tom pick",
-                "value": "Jaylen Polk"
-              },
-              {
-                "name": "Thomas pick",
-                "value": "Jerry Jeudy"
-              },
-              {
-                "name": "Zach pick",
-                "value": "Courtland Sutton"
-              },
-              {
-                "name": "Austin pick",
-                "value": "Josh Palmer"
-              },
-              {
-                "name": "Avery pick",
-                "value": "Xavier Legette"
-              },
-              {
-                "name": "Danny pick",
-                "value": "Jerome Ford"
-              },
-              {
-                "name": "Mason pick",
-                "value": "Romeo Doubs"
-              },
-              {
-                "name": "Bush pick",
-                "value": "Jordan Love"
-              },
-              {
-                "name": "Badake pick",
-                "value": "Dontayvion Wicks"
-              },
-              {
-                "name": "Nathan pick",
-                "value": "Trey Benson"
-              },
-              {
-                "name": "Sal pick",
-                "value": "Adonai Mitchell"
-              },
-              {
-                "name": "Joe pick",
-                "value": "Jakobi Meyers"
+                "name": "round",
+                "value": "9"
               }
             ],
             "evidence": [
               {
-                "source": "both",
-                "start_seconds": 1445.59,
-                "end_seconds": 1514.16,
-                "details": "Commentary announces the selections in draft order; the roster overlay displays the corresponding owner columns and player rows."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Round 10 selections: Joe—Blake Corum; Sal—Gus Edwards; Nathan—Nick Chubb; Badake—J.K. Dobbins; Bush—Brandin Cooks; Mason—Ezekiel Elliott; Danny—Demario Douglas; Avery—Jaxon Smith-Njigba; Austin—Jayden Daniels; Zach—Rico Dowdle; Thomas—Austin Ekeler; Tom—Zach Charbonnet.",
-            "status": "confirmed",
-            "confidence": 0.93,
-            "raw_names": [
-              "Blake Corum",
-              "Gus Edwards",
-              "Nick Chubb",
-              "J.K. Dobbins",
-              "Brandin Cooks",
-              "Ezekiel Elliott",
-              "Pop Douglas",
-              "Jayden Daniels",
-              "Rico Dowdle",
-              "Austin Ekeler",
-              "Zach Charbonnet"
-            ],
-            "facts": [
-              {
-                "name": "Joe pick",
-                "value": "Blake Corum"
+                "source": "transcript",
+                "start_seconds": 1492.799,
+                "end_seconds": 1494.919,
+                "details": "A participant asks, “what round is this,” and another answers, “the ninth round.”"
               },
               {
-                "name": "Sal pick",
-                "value": "Gus Edwards"
-              },
-              {
-                "name": "Nathan pick",
-                "value": "Nick Chubb"
-              },
-              {
-                "name": "Badake pick",
-                "value": "J.K. Dobbins"
-              },
-              {
-                "name": "Bush pick",
-                "value": "Brandin Cooks"
-              },
-              {
-                "name": "Mason pick",
-                "value": "Ezekiel Elliott"
-              },
-              {
-                "name": "Danny pick",
-                "value": "Demario Douglas"
-              },
-              {
-                "name": "Avery pick",
-                "value": "Jaxon Smith-Njigba"
-              },
-              {
-                "name": "Austin pick",
-                "value": "Jayden Daniels"
-              },
-              {
-                "name": "Zach pick",
-                "value": "Rico Dowdle"
-              },
-              {
-                "name": "Thomas pick",
-                "value": "Austin Ekeler"
-              },
-              {
-                "name": "Tom pick",
-                "value": "Zach Charbonnet"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 1514.16,
-                "end_seconds": 1570.0,
-                "details": "The participants announce these picks, and the roster overlay shows them in the owner columns. The transcript calls Demario Douglas “Pop Douglas” and garbles Jaxon Smith-Njigba."
-              }
-            ]
-          },
-          {
-            "category": "draft",
-            "summary": "Round 11 selections shown: Tom—Gabe Davis; Thomas—Josh Downs; Zach—Ty Chandler; Austin—MarShawn Lloyd; Avery—Tua Tagovailoa; Danny—Mike Williams; Mason—T.J. Hockenson; Bush—Jalen McMillan; Badake—Khalil Herbert.",
-            "status": "confirmed",
-            "confidence": 0.92,
-            "raw_names": [
-              "Gabe Davis",
-              "Josh Downs",
-              "Ty Chandler",
-              "MarShawn Lloyd",
-              "Tua",
-              "Mike Williams",
-              "Hockenson",
-              "Julia mlin",
-              "Khalil Herbert"
-            ],
-            "facts": [
-              {
-                "name": "Tom pick",
-                "value": "Gabe Davis"
-              },
-              {
-                "name": "Thomas pick",
-                "value": "Josh Downs"
-              },
-              {
-                "name": "Zach pick",
-                "value": "Ty Chandler"
-              },
-              {
-                "name": "Austin pick",
-                "value": "MarShawn Lloyd"
-              },
-              {
-                "name": "Avery pick",
-                "value": "Tua Tagovailoa"
-              },
-              {
-                "name": "Danny pick",
-                "value": "Mike Williams"
-              },
-              {
-                "name": "Mason pick",
-                "value": "T.J. Hockenson"
-              },
-              {
-                "name": "Bush pick",
-                "value": "Jalen McMillan"
-              },
-              {
-                "name": "Badake pick",
-                "value": "Khalil Herbert"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "both",
-                "start_seconds": 1570.0,
-                "end_seconds": 1619.32,
-                "details": "Pick commentary and the roster overlay support the listed owner-player assignments. The transcript garbles Jalen McMillan as “Julia mlin.”"
+                "source": "visual",
+                "start_seconds": 1501.5,
+                "end_seconds": 1501.5,
+                "details": "The displayed draft board shows owner columns and populated roster rows."
               }
             ]
           }
         ],
         "open_questions": [
-          "The final spoken fragment at 00:26:59 (“my qb1 still...”) continues beyond this window, so any selection after Badake’s Khalil Herbert is not captured here.",
-          "Courtland Sutton and Josh Palmer are described as having been injured the prior year, but no specific injury details or current injury status are provided."
+          "The provided board views are too small/blurred to reliably transcribe owner-by-owner selections from this window; use the full board at 29:42 for final draft results."
         ]
       }
     },
@@ -1756,135 +1165,85 @@
       "end": 1798.0,
       "transient_image_count": 12,
       "review": {
-        "window_summary": "The final portion of the draft is shown; multiple late picks are announced, and the draft is declared finished. The supplied draft-board view is too low-resolution to reliably assign these picks to individual owners.",
+        "window_summary": "The draft concludes; the only non-draft league-relevant update is a reported injury concern for Jalen McMillan.",
         "observations": [
           {
-            "category": "draft",
-            "summary": "Late-round selections announced during the continuing draft included Caleb Williams, Raheem Mostert, Dallas Goedert, Justin Tucker, Adam Thielen, Jaylen McMillan, Rashid Shaheed, Brock Purdy, Bucky Irving, Quentin Johnston, Tyler Allgeier, Braelon Allen, Roschon Johnson, Tyrone Tracy, Troy Franklin, Jared Goff, Antonio Gibson, Harrison Butker, and the 49ers, Chiefs, Jets, Eagles, and Bengals defenses. Owner assignments cannot be reliably read from the supplied board images.",
-            "status": "confirmed",
-            "confidence": 0.88,
-            "raw_names": [
-              "Caleb Williams",
-              "Raheem Mostert",
-              "Dallas Goedert",
-              "Justin Tucker",
-              "Adam Thielen",
-              "Jaylen McMillan",
-              "Rashid Shaheed",
-              "Brock Purdy",
-              "Bucky Irving",
-              "Quentin Johnston",
-              "Tyler Allgeier",
-              "Braelon Allen",
-              "Roschon Johnson",
-              "Tyrone Tracy",
-              "Troy Franklin",
-              "Jared Goff",
-              "Antonio Gibson",
-              "Harrison Butker",
-              "49ers D/ST",
-              "Chiefs D/ST",
-              "Jets D/ST",
-              "Eagles D/ST",
-              "Bengals D/ST"
-            ],
-            "facts": [
-              {
-                "name": "event",
-                "value": "Late-round draft selections announced"
-              },
-              {
-                "name": "owner_assignment",
-                "value": "Not reliably legible in supplied visuals"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "transcript",
-                "start_seconds": 1621.88,
-                "end_seconds": 1767.44,
-                "details": "A rapid sequence of speakers announces picks, including Caleb Williams through Bengals defense."
-              },
-              {
-                "source": "visual",
-                "start_seconds": 1782.399,
-                "end_seconds": 1782.399,
-                "details": "A full draft board is visible, but the player text is not sufficiently clear in the supplied image to safely map the cited late selections to owners."
-              }
-            ]
-          },
-          {
-            "category": "injury_update",
-            "summary": "Jaylen McMillan was said to be dealing with an injury, though the speaker said reports indicated it did not appear serious; McMillan was then selected in the draft. No specific injury or owner was provided.",
+            "category": "injury",
+            "summary": "A speaker says Jalen McMillan is dealing with an injury, while adding that reports indicate it does not appear serious.",
             "status": "reported",
-            "confidence": 0.76,
+            "confidence": 0.86,
             "raw_names": [
               "Jaylen McMillan"
             ],
             "facts": [
               {
                 "name": "player",
-                "value": "Jaylen McMillan"
+                "value": "Jalen McMillan"
               },
               {
-                "name": "injury_detail",
-                "value": "Unspecified; described as not seeming serious"
+                "name": "reported_condition",
+                "value": "Dealing with an unspecified injury"
               },
               {
-                "name": "league_impact",
-                "value": "Selected during the draft; owner unclear"
+                "name": "reported_severity",
+                "value": "Does not seem serious, according to the speaker"
               }
             ],
             "evidence": [
               {
                 "source": "transcript",
                 "start_seconds": 1667.88,
-                "end_seconds": 1674.0,
-                "details": "Speaker says McMillan may have slipped because he is 'dealing with an injury,' but that it does not seem serious, then says, 'I'm gonna take Jaylen McMillan here.'"
-              }
-            ]
-          },
-          {
-            "category": "other",
-            "summary": "The draft was completed. The hosts said the season would be followed throughout the year and referenced a last-place punishment and first-place rewards to be discussed later.",
-            "status": "confirmed",
-            "confidence": 0.95,
-            "raw_names": [],
-            "facts": [
-              {
-                "name": "event",
-                "value": "Draft finished"
-              },
-              {
-                "name": "last_place_consequence",
-                "value": "Punishment referenced; details not provided in this window"
-              },
-              {
-                "name": "first_place_reward",
-                "value": "Reward referenced; details not provided in this window"
-              }
-            ],
-            "evidence": [
-              {
-                "source": "transcript",
-                "start_seconds": 1778.24,
-                "end_seconds": 1796.08,
-                "details": "Speaker says, 'finished the draft' and mentions a punishment for last place and rewards for first place."
+                "end_seconds": 1675.04,
+                "details": "The speaker says he is taking McMillan, that the player may have slipped because of an injury, and that it does not seem serious by all accounts."
               }
             ]
           }
         ],
         "open_questions": [
-          "The full board is visible around 29:42, but the supplied images are too blurry to reliably transcribe every final roster or associate late picks with individual owners.",
-          "The transcript renders one announced name around 27:10 as 'Jaylen rightside'; its intended player identity is uncertain and was not recorded as a selection."
+          "The supplied final-board image is the authoritative source for the supplemental per-owner draft-results extraction; individual selections are not repeated in this recap per episode guidance."
         ]
       }
     }
   ],
   "open_questions": [
-    "Joe's Round 3 selection is displayed as “C. Jackson,” but the player cannot be safely identified from the supplied evidence.",
-    "Although a full board appears near 29:42, the supplied visual review says it is too blurry to reliably transcribe every late selection and final owner roster. Complete final rosters therefore cannot be verified from this source JSON.",
-    "Several announced selections in Rounds 6-8 and the final rounds lack reliable owner-to-pick mapping in the supplied evidence.",
-    "The transcript calls Bush “Cory” during the Garrett Wilson selection, while the on-screen board assigns Garrett Wilson to Bush; the visual attribution was used."
+    "The supplied evidence identifies 00:29:42 as the authoritative full draft board, but does not provide a readable transcription of that board. Final selections after the reliably recorded portion of each roster cannot be confirmed from the supplied source JSON alone.",
+    "Austin's Round 3 selection is specifically noted as too blurry/obscured to transcribe reliably in the window review.",
+    "The owners associated with the early knockout-contest remarks about draft positions 7 and 12 are not visually identified in that segment, although the later first-round order places Mason seventh and Joe twelfth.",
+    "The transcript spells McMillan's first name inconsistently in supporting notes; the recap uses Jalen McMillan as stated in the transcript."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Record the preseason draft order, selections, and relevant discussion points.",
+      "status": "partial",
+      "details": "The first-round order and reliably supported draft selections are retained in structured events and the supplemental output. Complete final rosters cannot be transcribed without a readable extraction of the authoritative 00:29:42 board."
+    },
+    {
+      "instruction": "Treat the 00:29:42 full draft board as the gospel for final selections.",
+      "status": "partial",
+      "details": "The source JSON identifies that board as authoritative, but does not contain a readable owner-by-owner transcription of it. No unsupported final-board selections were guessed."
+    },
+    {
+      "instruction": "Include kickers and defenses in final roster results.",
+      "status": "partial",
+      "details": "The league's inclusion of kickers and defenses is recorded. Their owner assignments cannot be reliably extracted from the supplied evidence."
+    },
+    {
+      "instruction": "Do not list individual draft selections in the written recap.",
+      "status": "fulfilled",
+      "details": "The recap discusses format, draft completion, and health notes without listing individual selections."
+    },
+    {
+      "instruction": "Return the configured draft_results supplemental output as JSON keyed by Team Owner.",
+      "status": "fulfilled",
+      "details": "Exactly one draft_results output is provided as valid JSON text. Unreadable or unsupported selections are explicitly marked uncertain rather than invented."
+    },
+    {
+      "instruction": "Honor the recap exclusion for draft events while retaining draft facts structurally.",
+      "status": "fulfilled",
+      "details": "Draft facts are retained in events and the supplemental output but omitted from the written recap."
+    }
+  ],
+  "supplemental_outputs": [
+    "draft_results.json"
   ]
 }
