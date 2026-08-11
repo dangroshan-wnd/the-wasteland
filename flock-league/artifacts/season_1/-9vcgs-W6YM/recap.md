@@ -1,41 +1,43 @@
 # Week 1 Changed The Flock League Forever
 
-Week 1 delivered several confirmed results, including wins for Corey, Jacked Gandalf, Badaki, Danny’s Certified Goober, and Good Evening, Cowards. Puka Nacua’s injury status was a major storyline, while Mason and Danny’s preseason James Cook trade and Mason’s later Isaac Guerendo free-agent addition were the notable completed roster transactions. Multiple other trade discussions remained only offers or reports.
+Week 1 ended with confirmed wins for Tom, Mason, Danny, Badake, Austin, and Bush, though several supplied scoreboard values conflict across the episode. Key developments included Nathan losing Puka Nacua during his matchup with Tom, Thomas having Christian McCaffrey ruled inactive before Monday night, active but uncompleted trade discussions, and Mason adding Isaac Guerendo.
 
 ## Week 1 results
 
-Corey’s Sorry Corey team edged Buffoon Leaguemate 102.58–100.84. Nathan’s I Don’t Know Ball lost 129.58–118.98 to Good Evening, Cowards, with Cooper Kupp’s 32.00 points contrasting with Puka Nacua’s 8.20 points before he was marked out. Jacked Gandalf beat flockfantasy.com/joe 141.82–124.48; Badaki’s Big Black Guy defeated GreenMeanMoney’s #site-issues 148.30–99.22; and Danny’s Certified Goober beat Big D & Drunk Joe B 141.56–118.46.
+Tom beat Nathan; Nathan had Puka Nacua ruled out during the Rams game. Mason beat Thomas after Thomas had Christian McCaffrey in his lineup when McCaffrey was declared inactive. Danny beat Zach, Badake beat the manager identified in narration as Joe, Austin beat the manager identified in narration as Joe but shown under an Avery-linked account on the final board, and Bush completed a comeback to beat Sal.
 
-## Injuries and lineup context
+## Roster and injury developments
 
-Puka Nacua was shown as placed on injured reserve early in the episode and later marked out during Week 1. Tee Higgins was listed doubtful for Week 1 with a hamstring injury. Christian McCaffrey was inactive before Monday Night Football while in Thomas the editor’s lineup against Mason; the supplied material does not show that matchup’s final score. Xavier Worthy’s 20.80-point NFL debut was a major factor in the Corey/Sal discussion.
+Nathan rostered Puka Nacua, who was listed out during Week 1; an earlier graphic also labeled Nacua as placed on injured reserve. Christian McCaffrey was inactive before Monday Night Football while rostered by Thomas. Tee Higgins was reported doubtful for Week 1 with a hamstring injury. Jordan Love was described as injured, but the fantasy owner was not established. Mason started Caleb Williams over Justin Fields and later added Isaac Guerendo while dropping Isaiah Davis.
 
-## Transactions and trade talk
+## Trade activity
 
-The confirmed preseason Mason–Danny trade sent James Cook to Mason, with Rhamondre Stevenson and Caleb Williams going to Danny. Mason later added Isaac Guerendo and dropped Isaiah Davis. A reported Justin Fields waiver pickup lacked a confirmed manager identity. Offers involving Kenneth Walker, Saquon Barkley, A.J. Brown, Ja’Marr Chase, Calvin Ridley, and DJ Moore were not established as completed trades.
+No completed in-season trade was established. Avery's offer involving Kenneth Walker for Rhamondre Stevenson and Austin Ekeler was not accepted. Badake put Saquon Barkley and A.J. Brown on the trade block, received an offer of Ja'Marr Chase and Jaylen Waddle for them, and countered with Calvin Ridley and DJ Moore for Chase. Mason offered Rhamondre Stevenson and Caleb Williams for James Cook. A completed pre-season Mason–Danny trade was mentioned, but its terms were not reliably established.
 
 ## Key league events
 
-- Puka Nacua was shown as placed on injured reserve.
-- Avery Huffman’s displayed Week 1 lineup started Jayden Daniels at quarterback and had Jared Goff on the bench; Avery discussed considering Goff instead.
-- Xavier Worthy posted 20.80 fantasy points in his NFL debut, with two touchdowns, in Kansas City’s 27–20 win over Baltimore.
-- A trade offer to Avery Huffman proposed Kenneth Walker for Rhamondre Stevenson and Austin Ekeler; it was not completed.
-- Tee Higgins was listed doubtful for Week 1 with a hamstring injury.
-- Badake placed Saquon Barkley and A.J. Brown on the trade block. Offers involving Ja’Marr Chase, Calvin Ridley, and DJ Moore were discussed but no completed trade is established.
-- An unidentified manager reported adding Justin Fields from waivers after news that Russell Wilson would not play in Week 1. (reported)
-- Before the season, Mason traded Rhamondre Stevenson and Caleb Williams to Danny for James Cook.
-- Corey’s Sorry Corey team defeated Buffoon Leaguemate 102.58–100.84 in Week 1.
-- Nathan’s I Don’t Know Ball lost 118.98–129.58 to Good Evening, Cowards in Week 1.
-- Jacked Gandalf defeated flockfantasy.com/joe 141.82–124.48 in Week 1.
-- Badaki’s Big Black Guy defeated GreenMeanMoney’s #site-issues 148.30–99.22 in Week 1.
-- Danny’s Certified Goober defeated Big D & Drunk Joe B 141.56–118.46 in Week 1.
-- MasonDodd added Isaac Guerendo and dropped Isaiah Davis in a completed free-agent move.
+- Tom defeated Nathan in Week 1, 129.58–118.98.
+- Puka Nacua, rostered by Nathan, was listed out during the Rams game in Week 1.
+- Bush defeated Sal in Week 1; the final matchup board shows 118.84–101.55.
+- Danny defeated Zach in Week 1. Supplied displays conflict on the exact final score.
+- Mason defeated Thomas in Week 1, but supplied displays conflict on the exact score.
+- Christian McCaffrey was declared inactive before Monday Night Football while in Thomas's lineup against Mason.
+- Austin defeated an opponent identified by narration as Joe; the final board instead associates the losing team label with @averyhuffman. Exact score also differs slightly across supplied displays.
+- Badake defeated an opponent identified in narration as Joe, though the supplied score and opponent identification conflict with other Week 1 material.
+- Tee Higgins was reported doubtful for Week 1 with a hamstring injury. (reported)
+- Avery's offer to send Kenneth Walker for Rhamondre Stevenson and Austin Ekeler was not accepted.
+- Badake put Saquon Barkley and A.J. Brown on the trade block; an offer of Ja'Marr Chase and Jaylen Waddle for them was not completed, and Badake countered with Calvin Ridley and DJ Moore for Chase.
+- Mason offered Rhamondre Stevenson and Caleb Williams for James Cook; acceptance was not established. (reported)
+- Mason started Caleb Williams over Justin Fields in Week 1.
+- Mason added Isaac Guerendo and dropped Isaiah Davis in a free-agent transaction.
 
 ## Items requiring review
 
-- The reported early-episode trade involving Danny does not state its assets or clearly establish whether it was the same transaction as the confirmed Mason–Danny preseason James Cook trade.
-- The supplied material does not show a final score for the Mason–Thomas the editor Week 1 matchup. Later comments indicate Mason was 1-0 and a standings view lists ThomasWadde at 0-1, but the team-name mapping and final score are not explicitly shown.
-- It is unclear whether Corey’s opponent in the 102.58–100.84 result was Sal; the episode discusses a Corey–Sal matchup but the completed board labels the opposing team only as Buffoon Leaguemate.
-- No completed trade is shown for the various Kenneth Walker or Badake trade offers, and the manager who reported adding Justin Fields from waivers is not identified.
+- The supplied Week 1 score displays conflict for Mason–Thomas, Danny–Zach, Badake's matchup, and Austin's matchup. A direct league-history or final scoreboard review is needed before retaining exact scores.
+- Joe is identified as the loser in both Austin and Badake narration, which would imply two Week 1 matchups. The final board instead shows Austin's opponent as @averyhuffman / “flockfantasy.com/joe” and Badake's as @GreenMeansMoney; reconcile account, team-label, and owner mappings.
+- The losing account in Danny's final-board matchup is only partially readable, though narration identifies the opponent as Zach.
+- The exact terms of the completed pre-season Mason–Danny trade are not established.
+- The owner of Jordan Love, the identity of the manager who picked up Justin Fields, and the identity of the manager who offered Chase/Waddle to Badake are not established.
+- Puka Nacua is labeled both placed on injured reserve in an early graphic and out during Nathan's Week 1 game; review the graphic/source timing if the precise designation matters.
 
 Detailed evidence timestamps are recorded in `events.json`.

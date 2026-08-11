@@ -9,7 +9,9 @@ upload_date = "20240826"
 season = "season_1"
 instructions = """
 1. This episode contains the pre-season draft where Team Owners select their players. Make note of the draft order, each Owner's selections, and any discussion points that stand out if relevant.
-2. Save in JSON format each Team Owner's final selections. Save this is the artifacts/season_1/ folder.
+2. At 29:42 there is a full draft board available to parse every selection from.
+3. Kickers and Defenses are corectly included in the rosters, though not explicitly mentioned in the ruleset.
+3. Save in JSON format each Team Owner's final selections. Save this at artifacts/season_1/draft_results.json 
 """
 
 [episodes."FKFRHyok5QI"]

@@ -1,163 +1,418 @@
 {
   "schema_version": 1,
   "video_id": "-9vcgs-W6YM",
-  "season": "2024",
+  "season": "Season 1",
   "week": 1,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n"
+    },
+    "season_id": "season_1",
+    "season": {
+      "id": "season_1",
+      "label": "Season 1",
+      "start_date": "2024-08-26",
+      "end_date": "2024-12-31",
+      "team_owners": [
+        "Tom",
+        "Thomas",
+        "Zach",
+        "Austin",
+        "Danny",
+        "Mason",
+        "Bush",
+        "Badake",
+        "Nathan",
+        "Sal",
+        "Joe"
+      ],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "Week 1 Changed The Flock League Forever",
+      "upload_date": "20240910",
+      "season": "season_1",
+      "instructions": ""
+    }
+  },
   "events": [
     {
-      "event_type": "injury_update",
-      "summary": "Puka Nacua was shown as placed on injured reserve.",
-      "season": "2024",
+      "event_type": "matchup_result",
+      "summary": "Tom defeated Nathan in Week 1, 129.58–118.98.",
+      "season": "Season 1",
       "week": 1,
       "status": "confirmed",
       "confidence": 0.96,
       "participants": [
         {
-          "role": "player",
+          "role": "winner",
+          "name": "Tom"
+        },
+        {
+          "role": "loser",
+          "name": "Nathan"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Tom",
+          "score": 129.58
+        },
+        {
+          "name": "Nathan",
+          "score": 118.98
+        }
+      ],
+      "facts": [],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 754.68,
+          "end_seconds": 760.48,
+          "details": "Narration identifies Nathan's matchup against Tom; the Week 1 scoreboard shows Nathan at 118.98 and Tom's displayed team at 129.58."
+        },
+        {
+          "source": "both",
+          "start_seconds": 1080.0,
+          "end_seconds": 1086.16,
+          "details": "Final matchup board again shows Nathan at 118.98 versus the Tom-linked displayed account at 129.58."
+        }
+      ]
+    },
+    {
+      "event_type": "injury_update",
+      "summary": "Puka Nacua, rostered by Nathan, was listed out during the Rams game in Week 1.",
+      "season": "Season 1",
+      "week": 1,
+      "status": "confirmed",
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "fantasy owner",
+          "name": "Nathan"
+        },
+        {
+          "role": "NFL player",
           "name": "Puka Nacua"
         }
       ],
       "scores": [],
       "facts": [
         {
-          "name": "status",
+          "name": "in-game status",
+          "value": "Out"
+        },
+        {
+          "name": "earlier graphic designation",
           "value": "Placed on injured reserve"
         }
       ],
       "evidence": [
         {
+          "source": "both",
+          "start_seconds": 768.68,
+          "end_seconds": 774.32,
+          "details": "Narrator says Nacua was listed out; the matchup display shows P. Nacua on Nathan's side marked out."
+        },
+        {
           "source": "visual",
           "start_seconds": 6.174,
           "end_seconds": 6.174,
-          "details": "Breaking graphic reads: “PLACED ON INJURED RESERVE — PUKA NACUA.”"
+          "details": "Earlier breaking-news graphic reads “PLACED ON INJURED RESERVE — PUKA NACUA.”"
         }
       ]
     },
     {
-      "event_type": "roster_move",
-      "summary": "Avery Huffman’s displayed Week 1 lineup started Jayden Daniels at quarterback and had Jared Goff on the bench; Avery discussed considering Goff instead.",
-      "season": "2024",
+      "event_type": "matchup_result",
+      "summary": "Bush defeated Sal in Week 1; the final matchup board shows 118.84–101.55.",
+      "season": "Season 1",
+      "week": 1,
+      "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Bush"
+        },
+        {
+          "role": "loser",
+          "name": "Sal"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Bush",
+          "score": 118.84
+        },
+        {
+          "name": "Sal",
+          "score": 101.55
+        }
+      ],
+      "facts": [
+        {
+          "name": "Sal Week 1 starter",
+          "value": "Xavier Worthy"
+        },
+        {
+          "name": "Xavier Worthy displayed points",
+          "value": "20.80"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 107.2,
+          "end_seconds": 116.44,
+          "details": "Sal says he started Xavier Worthy against Corey/Bush; the final player panel shows Worthy at 20.80 points."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1080.0,
+          "end_seconds": 1080.5,
+          "details": "Final matchup board lists Bush's team at 118.84 versus Sal's “Sorry Corey” team at 101.55."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Danny defeated Zach in Week 1. Supplied displays conflict on the exact final score.",
+      "season": "Season 1",
       "week": 1,
       "status": "confirmed",
       "confidence": 0.9,
       "participants": [
         {
-          "role": "manager",
-          "name": "Avery Huffman"
+          "role": "winner",
+          "name": "Danny"
         },
         {
-          "role": "starting quarterback shown",
-          "name": "Jayden Daniels"
-        },
-        {
-          "role": "bench quarterback shown",
-          "name": "Jared Goff"
+          "role": "loser",
+          "name": "Zach"
         }
       ],
       "scores": [],
       "facts": [
         {
-          "name": "lineup context",
-          "value": "Avery discussed considering Goff over Daniels, but the displayed lineup showed Daniels starting."
+          "name": "score shown earlier",
+          "value": "Danny 141.56, Zach 118.46"
+        },
+        {
+          "name": "score shown on final board",
+          "value": "Danny 141.36, opponent 119.46"
+        },
+        {
+          "name": "Danny kicker and defense points",
+          "value": "46 combined"
         }
       ],
       "evidence": [
         {
           "source": "both",
-          "start_seconds": 66.4,
-          "end_seconds": 69.56,
-          "details": "Transcript discusses considering Jared Goff over Jayden Daniels; Avery’s roster display shows Daniels at QB and Goff at BN."
+          "start_seconds": 1011.0,
+          "end_seconds": 1039.6,
+          "details": "Narration congratulates Danny on beating Zach and says Danny's kicker and defense combined for 46 points; the displayed matchup gives 141.56–118.46."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1080.0,
+          "end_seconds": 1080.5,
+          "details": "Final board shows Danny's team at 141.36 over a partially unreadable opponent at 119.46."
         }
       ]
     },
     {
-      "event_type": "other",
-      "summary": "Xavier Worthy posted 20.80 fantasy points in his NFL debut, with two touchdowns, in Kansas City’s 27–20 win over Baltimore.",
-      "season": "2024",
+      "event_type": "matchup_result",
+      "summary": "Mason defeated Thomas in Week 1, but supplied displays conflict on the exact score.",
+      "season": "Season 1",
       "week": 1,
       "status": "confirmed",
-      "confidence": 0.94,
+      "confidence": 0.9,
       "participants": [
         {
-          "role": "NFL player",
-          "name": "Xavier Worthy"
+          "role": "winner",
+          "name": "Mason"
+        },
+        {
+          "role": "loser",
+          "name": "Thomas"
         }
       ],
       "scores": [],
       "facts": [
         {
-          "name": "receiving",
-          "value": "2 receptions, 47 yards, 1 touchdown"
+          "name": "score shown in standings",
+          "value": "Mason 126.42, Thomas 93.08"
         },
         {
-          "name": "rushing",
-          "value": "1 carry, 21 yards, 1 touchdown"
-        },
-        {
-          "name": "fantasy points shown",
-          "value": "20.80"
-        },
-        {
-          "name": "NFL result shown",
-          "value": "Kansas City 27, Baltimore 20"
+          "name": "score shown on final board",
+          "value": "Mason 106.42, Thomas 93.69"
         }
       ],
       "evidence": [
         {
           "source": "both",
-          "start_seconds": 169.68,
-          "end_seconds": 174.0,
-          "details": "Transcript says Worthy scored two touchdowns in his debut; overlay shows the detailed stat line, 20.80 points, and KC 27–20 BAL."
-        }
-      ]
-    },
-    {
-      "event_type": "trade",
-      "summary": "A trade offer to Avery Huffman proposed Kenneth Walker for Rhamondre Stevenson and Austin Ekeler; it was not completed.",
-      "season": "2024",
-      "week": 1,
-      "status": "confirmed",
-      "confidence": 0.94,
-      "participants": [
-        {
-          "role": "offer recipient",
-          "name": "Avery Huffman"
+          "start_seconds": 996.88,
+          "end_seconds": 1076.8,
+          "details": "Mason says he is 1-0; standings list Mason at 1-0 with 126.42 PF and 93.08 PA, reversed for Thomas."
         },
         {
-          "role": "player offered to Avery",
-          "name": "Kenneth Walker"
-        },
-        {
-          "role": "players offered in return",
-          "name": "Rhamondre Stevenson and Austin Ekeler"
-        }
-      ],
-      "scores": [],
-      "facts": [
-        {
-          "name": "completion status",
-          "value": "Not completed; no counteroffer was reported."
-        }
-      ],
-      "evidence": [
-        {
-          "source": "both",
-          "start_seconds": 269.56,
-          "end_seconds": 288.475,
-          "details": "Trade panel identifies the proposed Walker-for-Stevenson-and-Ekeler exchange, and the speaker says there was no counteroffer."
+          "source": "visual",
+          "start_seconds": 1080.0,
+          "end_seconds": 1080.5,
+          "details": "Final board lists Mason at 106.42 versus Thomas at 93.69."
         }
       ]
     },
     {
       "event_type": "injury_update",
-      "summary": "Tee Higgins was listed doubtful for Week 1 with a hamstring injury.",
-      "season": "2024",
+      "summary": "Christian McCaffrey was declared inactive before Monday Night Football while in Thomas's lineup against Mason.",
+      "season": "Season 1",
       "week": 1,
       "status": "confirmed",
+      "confidence": 0.93,
+      "participants": [
+        {
+          "role": "fantasy owner",
+          "name": "Thomas"
+        },
+        {
+          "role": "opponent",
+          "name": "Mason"
+        },
+        {
+          "role": "NFL player",
+          "name": "Christian McCaffrey"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "player status",
+          "value": "Inactive"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 947.44,
+          "end_seconds": 967.28,
+          "details": "Narration states McCaffrey was labeled inactive and that Thomas had him in his lineup for the Mason matchup."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Austin defeated an opponent identified by narration as Joe; the final board instead associates the losing team label with @averyhuffman. Exact score also differs slightly across supplied displays.",
+      "season": "Season 1",
+      "week": 1,
+      "status": "confirmed",
+      "confidence": 0.78,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Austin"
+        },
+        {
+          "role": "loser",
+          "name": "Joe / @averyhuffman (identity unresolved)"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "score shown earlier",
+          "value": "Austin 141.82, opponent 124.48"
+        },
+        {
+          "name": "score shown on final board",
+          "value": "Austin 141.82, opponent 124.44"
+        },
+        {
+          "name": "losing team label",
+          "value": "flockfantasy.com/joe"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 900.48,
+          "end_seconds": 930.0,
+          "details": "Speaker says he lost to Austin; the display shows the Joe-labeled team at 124.48 versus Austin's team at 141.82."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1080.0,
+          "end_seconds": 1080.5,
+          "details": "Final board shows Austin at 141.82 over @averyhuffman / “flockfantasy.com/joe” at 124.44."
+        }
+      ]
+    },
+    {
+      "event_type": "matchup_result",
+      "summary": "Badake defeated an opponent identified in narration as Joe, though the supplied score and opponent identification conflict with other Week 1 material.",
+      "season": "Season 1",
+      "week": 1,
+      "status": "confirmed",
+      "confidence": 0.76,
+      "participants": [
+        {
+          "role": "winner",
+          "name": "Badake"
+        },
+        {
+          "role": "loser",
+          "name": "Joe / @GreenMeansMoney (identity unresolved)"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "score shown earlier",
+          "value": "Badake 148.39, opponent 99.22"
+        },
+        {
+          "name": "score shown on final board",
+          "value": "Badake 141.30, @GreenMeansMoney 90.22"
+        },
+        {
+          "name": "Badake claim",
+          "value": "Led the league in Week 1 scoring with 148 points"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 974.68,
+          "end_seconds": 1000.04,
+          "details": "Badake says he faced Joe, had the league's top Week 1 score, and the displayed matchup shows 148.39–99.22."
+        },
+        {
+          "source": "visual",
+          "start_seconds": 1080.0,
+          "end_seconds": 1080.5,
+          "details": "Final board shows Badake at 141.30 over @GreenMeansMoney at 90.22."
+        }
+      ]
+    },
+    {
+      "event_type": "injury",
+      "summary": "Tee Higgins was reported doubtful for Week 1 with a hamstring injury.",
+      "season": "Season 1",
+      "week": 1,
+      "status": "reported",
       "confidence": 0.98,
       "participants": [
         {
-          "role": "player",
+          "role": "NFL player",
           "name": "Tee Higgins"
         }
       ],
@@ -170,426 +425,209 @@
         {
           "name": "Week 1 status",
           "value": "Doubtful"
+        },
+        {
+          "name": "Flock roster owner",
+          "value": "Not established"
         }
       ],
       "evidence": [
         {
           "source": "both",
-          "start_seconds": 378.64,
-          "end_seconds": 382.24,
-          "details": "Transcript and headline identify Higgins as doubtful for Week 1 with a hamstring injury."
+          "start_seconds": 376.84,
+          "end_seconds": 382.0,
+          "details": "Speaker and on-screen headline state that Higgins was doubtful for Week 1 with a hamstring injury."
         }
       ]
     },
     {
       "event_type": "trade",
-      "summary": "Badake placed Saquon Barkley and A.J. Brown on the trade block. Offers involving Ja’Marr Chase, Calvin Ridley, and DJ Moore were discussed but no completed trade is established.",
-      "season": "2024",
+      "summary": "Avery's offer to send Kenneth Walker for Rhamondre Stevenson and Austin Ekeler was not accepted.",
+      "season": "Season 1",
       "week": 1,
       "status": "confirmed",
-      "confidence": 0.96,
+      "confidence": 0.94,
+      "participants": [
+        {
+          "role": "offer recipient",
+          "name": "Avery"
+        },
+        {
+          "role": "offer sender",
+          "name": "Unidentified league member"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "Avery would receive",
+          "value": "Rhamondre Stevenson; Austin Ekeler"
+        },
+        {
+          "name": "Avery would send",
+          "value": "Kenneth Walker"
+        },
+        {
+          "name": "status",
+          "value": "Not accepted; no counter reported"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 278.894,
+          "end_seconds": 288.475,
+          "details": "Trade graphic lists Rhamondre Stevenson and Austin Ekeler to Avery's side and Kenneth Walker from averyhuffman."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 267.04,
+          "end_seconds": 287.04,
+          "details": "Speaker says he offered the package for Walker and did not receive a counter."
+        }
+      ]
+    },
+    {
+      "event_type": "trade",
+      "summary": "Badake put Saquon Barkley and A.J. Brown on the trade block; an offer of Ja'Marr Chase and Jaylen Waddle for them was not completed, and Badake countered with Calvin Ridley and DJ Moore for Chase.",
+      "season": "Season 1",
+      "week": 1,
+      "status": "confirmed",
+      "confidence": 0.93,
       "participants": [
         {
           "role": "manager",
           "name": "Badake"
         },
         {
-          "role": "trade-block player",
-          "name": "Saquon Barkley"
-        },
-        {
-          "role": "trade-block player",
-          "name": "A.J. Brown"
-        },
-        {
-          "role": "offer player",
-          "name": "Ja'Marr Chase"
-        },
-        {
-          "role": "offer player",
-          "name": "Calvin Ridley"
-        },
-        {
-          "role": "offer player",
-          "name": "DJ Moore"
+          "role": "other manager",
+          "name": "Unidentified"
         }
       ],
       "scores": [],
       "facts": [
         {
-          "name": "trade-block players",
+          "name": "players on trade block",
           "value": "Saquon Barkley; A.J. Brown"
         },
         {
-          "name": "proposal shown",
-          "value": "Badake receives Calvin Ridley and DJ Moore; sends Ja'Marr Chase"
+          "name": "unaccepted offer to Badake",
+          "value": "Ja'Marr Chase and Jaylen Waddle for Saquon Barkley and A.J. Brown"
         },
         {
-          "name": "completion status",
-          "value": "Offer/proposal only; no acceptance is shown."
+          "name": "Badake counteroffer",
+          "value": "Calvin Ridley and DJ Moore for Ja'Marr Chase"
+        },
+        {
+          "name": "completion",
+          "value": "No completed trade evidenced"
         }
       ],
       "evidence": [
         {
           "source": "both",
           "start_seconds": 416.4,
-          "end_seconds": 421.12,
-          "details": "Sleeper overlay explicitly lists Barkley and Brown on Badake’s trade block."
-        },
-        {
-          "source": "both",
-          "start_seconds": 439.92,
-          "end_seconds": 445.04,
-          "details": "Trade graphic shows Badake receiving Ridley and Moore and sending Chase; it is presented as an offer."
-        }
-      ]
-    },
-    {
-      "event_type": "waiver",
-      "summary": "An unidentified manager reported adding Justin Fields from waivers after news that Russell Wilson would not play in Week 1.",
-      "season": "2024",
-      "week": 1,
-      "status": "reported",
-      "confidence": 0.82,
-      "participants": [
-        {
-          "role": "added player",
-          "name": "Justin Fields"
-        },
-        {
-          "role": "NFL context",
-          "name": "Russell Wilson"
-        }
-      ],
-      "scores": [],
-      "facts": [
-        {
-          "name": "transaction type",
-          "value": "Waiver pickup"
-        },
-        {
-          "name": "stated reason",
-          "value": "Russell Wilson reportedly would not play in Week 1"
-        },
-        {
-          "name": "manager identity",
-          "value": "Not shown"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "transcript",
-          "start_seconds": 521.12,
-          "end_seconds": 537.76,
-          "details": "Speaker says he went to the waiver wire and picked up Justin Fields after hearing Wilson would not play."
+          "end_seconds": 444.16,
+          "details": "Badake's trade-block notification and the later counteroffer are shown and discussed."
         }
       ]
     },
     {
       "event_type": "trade",
-      "summary": "Before the season, Mason traded Rhamondre Stevenson and Caleb Williams to Danny for James Cook.",
-      "season": "2024",
+      "summary": "Mason offered Rhamondre Stevenson and Caleb Williams for James Cook; acceptance was not established.",
+      "season": "Season 1",
       "week": 1,
-      "status": "confirmed",
-      "confidence": 0.87,
+      "status": "reported",
+      "confidence": 0.9,
       "participants": [
         {
-          "role": "manager receiving James Cook",
+          "role": "offer sender",
           "name": "Mason"
         },
         {
-          "role": "manager receiving Rhamondre Stevenson and Caleb Williams",
-          "name": "Danny"
-        },
-        {
-          "role": "player",
-          "name": "James Cook"
-        },
-        {
-          "role": "player",
-          "name": "Rhamondre Stevenson"
-        },
-        {
-          "role": "player",
-          "name": "Caleb Williams"
+          "role": "offer recipient",
+          "name": "Unidentified"
         }
       ],
       "scores": [],
       "facts": [
         {
-          "name": "timing",
-          "value": "Before the start of the season"
+          "name": "Mason sends",
+          "value": "Rhamondre Stevenson; Caleb Williams"
+        },
+        {
+          "name": "Mason requests",
+          "value": "James Cook"
+        },
+        {
+          "name": "status",
+          "value": "Offer only"
         }
       ],
       "evidence": [
         {
           "source": "transcript",
-          "start_seconds": 637.44,
-          "end_seconds": 653.56,
-          "details": "Speakers explicitly describe the Mason–Danny trade as having happened before the season; earlier trade discussion supplies the assets."
+          "start_seconds": 551.2,
+          "end_seconds": 557.6,
+          "details": "Recipient says they received Mason's offer of Rhamondre Stevenson and Caleb Williams for James Cook."
         }
       ]
     },
     {
-      "event_type": "matchup_result",
-      "summary": "Corey’s Sorry Corey team defeated Buffoon Leaguemate 102.58–100.84 in Week 1.",
-      "season": "2024",
+      "event_type": "roster_move",
+      "summary": "Mason started Caleb Williams over Justin Fields in Week 1.",
+      "season": "Season 1",
       "week": 1,
       "status": "confirmed",
-      "confidence": 0.92,
-      "participants": [
-        {
-          "role": "winner",
-          "name": "Corey / Sorry Corey"
-        },
-        {
-          "role": "loser",
-          "name": "Buffoon Leaguemate"
-        }
-      ],
-      "scores": [
-        {
-          "name": "Sorry Corey",
-          "score": 102.58
-        },
-        {
-          "name": "Buffoon Leaguemate",
-          "score": 100.84
-        }
-      ],
-      "facts": [],
-      "evidence": [
-        {
-          "source": "both",
-          "start_seconds": 732.519,
-          "end_seconds": 738.72,
-          "details": "Narration congratulates Corey and matchup display shows 102.58 for Sorry Corey versus 100.84 for Buffoon Leaguemate."
-        }
-      ]
-    },
-    {
-      "event_type": "matchup_result",
-      "summary": "Nathan’s I Don’t Know Ball lost 118.98–129.58 to Good Evening, Cowards in Week 1.",
-      "season": "2024",
-      "week": 1,
-      "status": "confirmed",
-      "confidence": 0.9,
-      "participants": [
-        {
-          "role": "loser",
-          "name": "Nathan / I Don't Know Ball"
-        },
-        {
-          "role": "winner",
-          "name": "Good Evening, Cowards"
-        }
-      ],
-      "scores": [
-        {
-          "name": "I Don't Know Ball",
-          "score": 118.98
-        },
-        {
-          "name": "Good Evening, Cowards",
-          "score": 129.58
-        }
-      ],
-      "facts": [
-        {
-          "name": "Cooper Kupp fantasy points",
-          "value": "32.00"
-        },
-        {
-          "name": "Puka Nacua fantasy points",
-          "value": "8.20"
-        },
-        {
-          "name": "Puka Nacua game status",
-          "value": "Out"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "both",
-          "start_seconds": 754.68,
-          "end_seconds": 774.32,
-          "details": "Narration identifies Nathan’s matchup with Tom the dev; display shows 118.98–129.58, Kupp’s 32.00, and Nacua’s 8.20 with an out indicator."
-        },
-        {
-          "source": "both",
-          "start_seconds": 1080.0,
-          "end_seconds": 1086.16,
-          "details": "Week 1 matchup board identifies I Don't Know Ball at 118.98 and Good Evening, Cowards at 129.58; transcript says Nathan lost."
-        }
-      ]
-    },
-    {
-      "event_type": "matchup_result",
-      "summary": "Jacked Gandalf defeated flockfantasy.com/joe 141.82–124.48 in Week 1.",
-      "season": "2024",
-      "week": 1,
-      "status": "confirmed",
-      "confidence": 0.94,
-      "participants": [
-        {
-          "role": "winner",
-          "name": "Jacked Gandalf"
-        },
-        {
-          "role": "loser",
-          "name": "flockfantasy.com/joe"
-        }
-      ],
-      "scores": [
-        {
-          "name": "Jacked Gandalf",
-          "score": 141.82
-        },
-        {
-          "name": "flockfantasy.com/joe",
-          "score": 124.48
-        }
-      ],
-      "facts": [],
-      "evidence": [
-        {
-          "source": "visual",
-          "start_seconds": 911.274,
-          "end_seconds": 930.0,
-          "details": "Completed matchup display shows Jacked Gandalf 141.82 and flockfantasy.com/joe 124.48."
-        }
-      ]
-    },
-    {
-      "event_type": "matchup_result",
-      "summary": "Badaki’s Big Black Guy defeated GreenMeanMoney’s #site-issues 148.30–99.22 in Week 1.",
-      "season": "2024",
-      "week": 1,
-      "status": "confirmed",
-      "confidence": 0.95,
-      "participants": [
-        {
-          "role": "winner manager",
-          "name": "Badaki"
-        },
-        {
-          "role": "winner team",
-          "name": "Big Black Guy"
-        },
-        {
-          "role": "loser manager",
-          "name": "Joe / GreenMeanMoney"
-        },
-        {
-          "role": "loser team",
-          "name": "#site-issues"
-        }
-      ],
-      "scores": [
-        {
-          "name": "Big Black Guy",
-          "score": 148.3
-        },
-        {
-          "name": "#site-issues",
-          "score": 99.22
-        }
-      ],
-      "facts": [
-        {
-          "name": "winner record shown",
-          "value": "1-0"
-        },
-        {
-          "name": "league-high claim",
-          "value": "Badaki said 148 was the league’s highest Week 1 score."
-        }
-      ],
-      "evidence": [
-        {
-          "source": "both",
-          "start_seconds": 973.319,
-          "end_seconds": 1000.04,
-          "details": "Transcript says Badaki is 1-0 and scored 148 points against Joe/GreenMeanMoney; board shows 148.30–99.22."
-        }
-      ]
-    },
-    {
-      "event_type": "matchup_result",
-      "summary": "Danny’s Certified Goober defeated Big D & Drunk Joe B 141.56–118.46 in Week 1.",
-      "season": "2024",
-      "week": 1,
-      "status": "confirmed",
-      "confidence": 0.88,
-      "participants": [
-        {
-          "role": "winner manager",
-          "name": "Danny"
-        },
-        {
-          "role": "winner team",
-          "name": "Certified Goober"
-        },
-        {
-          "role": "loser team",
-          "name": "Big D & Drunk Joe B"
-        }
-      ],
-      "scores": [
-        {
-          "name": "Certified Goober",
-          "score": 141.56
-        },
-        {
-          "name": "Big D & Drunk Joe B",
-          "score": 118.46
-        }
-      ],
-      "facts": [
-        {
-          "name": "Danny kicker and defense points",
-          "value": "46 combined, according to the losing speaker"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "both",
-          "start_seconds": 1011.167,
-          "end_seconds": 1039.635,
-          "details": "Matchup display shows 141.56–118.46; transcript credits Danny with the win and says his kicker and defense combined for 46 points."
-        }
-      ]
-    },
-    {
-      "event_type": "waiver",
-      "summary": "MasonDodd added Isaac Guerendo and dropped Isaiah Davis in a completed free-agent move.",
-      "season": "2024",
-      "week": 1,
-      "status": "confirmed",
-      "confidence": 0.98,
+      "confidence": 0.86,
       "participants": [
         {
           "role": "manager",
-          "name": "MasonDodd"
-        },
-        {
-          "role": "added player",
-          "name": "Isaac Guerendo"
-        },
-        {
-          "role": "dropped player",
-          "name": "Isaiah Davis"
+          "name": "Mason"
         }
       ],
       "scores": [],
       "facts": [
         {
-          "name": "added player position/team",
-          "value": "RB - SF"
+          "name": "starter",
+          "value": "Caleb Williams"
         },
         {
-          "name": "dropped player position/team",
-          "value": "RB - NYJ"
+          "name": "benched alternative",
+          "value": "Justin Fields"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "transcript",
+          "start_seconds": 626.0,
+          "end_seconds": 634.32,
+          "details": "Mason says the league chat convinced him to go with Caleb over Fields."
+        }
+      ]
+    },
+    {
+      "event_type": "waiver",
+      "summary": "Mason added Isaac Guerendo and dropped Isaiah Davis in a free-agent transaction.",
+      "season": "Season 1",
+      "week": 1,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "manager",
+          "name": "Mason"
+        }
+      ],
+      "scores": [],
+      "facts": [
+        {
+          "name": "added",
+          "value": "Isaac Guerendo (RB, SF)"
+        },
+        {
+          "name": "dropped",
+          "value": "Isaiah Davis (RB, NYJ)"
         }
       ],
       "evidence": [
@@ -597,7 +635,7 @@
           "source": "visual",
           "start_seconds": 1110.0,
           "end_seconds": 1124.04,
-          "details": "Transaction card states MasonDodd made a free-agent move, adding Guerendo and dropping Davis."
+          "details": "Transaction graphic states that MasonDodd added Isaac Guerendo and dropped Isaiah Davis."
         }
       ]
     }
