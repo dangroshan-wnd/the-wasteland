@@ -1,0 +1,4275 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-11T14:44:16.592383+00:00",
+  "fingerprint": "52f1b07adcff87b5af1052b9b3d178f6e246b9ff4c393739c7a90c2da3ffa0b4",
+  "video": {
+    "id": "-9vcgs-W6YM",
+    "title": "Week 1 Changed The Flock League Forever",
+    "duration": 1128.0,
+    "media": "20240910 - Week 1 Changed The Flock League Forever [-9vcgs-W6YM].mp4",
+    "metadata": "20240910 - Week 1 Changed The Flock League Forever [-9vcgs-W6YM].info.json",
+    "caption": "20240910 - Week 1 Changed The Flock League Forever [-9vcgs-W6YM].en-orig.vtt"
+  },
+  "settings": {
+    "periodic_interval": 30.0,
+    "scene_threshold": 0.35,
+    "max_scene_frames": 120,
+    "max_targeted_frames": 90,
+    "width": 1280
+  },
+  "raw_frame_counts": {
+    "scene": 91,
+    "periodic": 38,
+    "targeted": 90
+  },
+  "selected_sample_count": 198,
+  "retained_image_count": 0,
+  "samples": [
+    {
+      "timestamp_seconds": 0.0,
+      "timestamp": "00:00:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 2.175,
+      "timestamp": "00:00:02.174",
+      "strategies": [
+        "scene",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 2.919,
+          "end": 5.43,
+          "text": "watch this what oh my gosh watch how how many how many points did",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 5.43,
+          "end": 5.44,
+          "text": "watch how how many how many points did",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 5.44,
+          "end": 6.05,
+          "text": "watch how how many how many points did that cost",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 4.175,
+      "timestamp": "00:00:04.174",
+      "strategies": [
+        "scene",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 2.919,
+          "end": 5.43,
+          "text": "watch this what oh my gosh watch how how many how many points did",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 5.43,
+          "end": 5.44,
+          "text": "watch how how many how many points did",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 5.44,
+          "end": 6.05,
+          "text": "watch how how many how many points did that cost",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 6.175,
+      "timestamp": "00:00:06.174",
+      "strategies": [
+        "scene",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 2.919,
+          "end": 5.43,
+          "text": "watch this what oh my gosh watch how how many how many points did",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 5.43,
+          "end": 5.44,
+          "text": "watch how how many how many points did",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 5.44,
+          "end": 6.05,
+          "text": "watch how how many how many points did that cost",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 10.067,
+      "timestamp": "00:00:10.067",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 14.667,
+      "timestamp": "00:00:14.667",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 16.333,
+      "timestamp": "00:00:16.333",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 21.733,
+      "timestamp": "00:00:21.733",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 30.0,
+      "timestamp": "00:00:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 31.267,
+      "timestamp": "00:00:31.267",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 38.667,
+      "timestamp": "00:00:38.667",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 43.335,
+      "timestamp": "00:00:43.335",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 44.16,
+          "end": 46.51,
+          "text": "Channel I'm here to issue a public apology it's week one this week's",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 46.51,
+          "end": 46.52,
+          "text": "apology it's week one this week's",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 46.52,
+          "end": 48.189,
+          "text": "apology it's week one this week's personal too I'm going up against Thomas",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 44.1,
+      "timestamp": "00:00:44.100",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 45.335,
+      "timestamp": "00:00:45.335",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 44.16,
+          "end": 46.51,
+          "text": "Channel I'm here to issue a public apology it's week one this week's",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 46.51,
+          "end": 46.52,
+          "text": "apology it's week one this week's",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 46.52,
+          "end": 48.189,
+          "text": "apology it's week one this week's personal too I'm going up against Thomas",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 47.335,
+      "timestamp": "00:00:47.335",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 44.16,
+          "end": 46.51,
+          "text": "Channel I'm here to issue a public apology it's week one this week's",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 46.51,
+          "end": 46.52,
+          "text": "apology it's week one this week's",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 46.52,
+          "end": 48.189,
+          "text": "apology it's week one this week's personal too I'm going up against Thomas",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 56.175,
+      "timestamp": "00:00:56.174",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 56.96,
+          "end": 59.389,
+          "text": "me focus on the week I already fumbled the bag with waivers I already let s get",
+          "keywords": [
+            "waiver"
+          ]
+        },
+        {
+          "start": 59.389,
+          "end": 59.399,
+          "text": "the bag with waivers I already let s get",
+          "keywords": [
+            "waiver"
+          ]
+        },
+        {
+          "start": 59.399,
+          "end": 61.67,
+          "text": "the bag with waivers I already let s get Jordan all right preparing for week one",
+          "keywords": [
+            "waiver",
+            "week"
+          ]
+        },
+        {
+          "start": 61.67,
+          "end": 61.68,
+          "text": "Jordan all right preparing for week one",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 61.68,
+          "end": 63.67,
+          "text": "Jordan all right preparing for week one of the flock League this week honestly",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 58.175,
+      "timestamp": "00:00:58.174",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 56.96,
+          "end": 59.389,
+          "text": "me focus on the week I already fumbled the bag with waivers I already let s get",
+          "keywords": [
+            "waiver"
+          ]
+        },
+        {
+          "start": 59.389,
+          "end": 59.399,
+          "text": "the bag with waivers I already let s get",
+          "keywords": [
+            "waiver"
+          ]
+        },
+        {
+          "start": 59.399,
+          "end": 61.67,
+          "text": "the bag with waivers I already let s get Jordan all right preparing for week one",
+          "keywords": [
+            "waiver",
+            "week"
+          ]
+        },
+        {
+          "start": 61.67,
+          "end": 61.68,
+          "text": "Jordan all right preparing for week one",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 61.68,
+          "end": 63.67,
+          "text": "Jordan all right preparing for week one of the flock League this week honestly",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 60.175,
+      "timestamp": "00:01:00.174",
+      "strategies": [
+        "periodic",
+        "scene",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 56.96,
+          "end": 59.389,
+          "text": "me focus on the week I already fumbled the bag with waivers I already let s get",
+          "keywords": [
+            "waiver"
+          ]
+        },
+        {
+          "start": 59.389,
+          "end": 59.399,
+          "text": "the bag with waivers I already let s get",
+          "keywords": [
+            "waiver"
+          ]
+        },
+        {
+          "start": 59.399,
+          "end": 61.67,
+          "text": "the bag with waivers I already let s get Jordan all right preparing for week one",
+          "keywords": [
+            "waiver",
+            "week"
+          ]
+        },
+        {
+          "start": 61.67,
+          "end": 61.68,
+          "text": "Jordan all right preparing for week one",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 61.68,
+          "end": 63.67,
+          "text": "Jordan all right preparing for week one of the flock League this week honestly",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 65.215,
+      "timestamp": "00:01:05.215",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 66.4,
+          "end": 68.03,
+          "text": "am in any other leagues so I'm definitely looking at starting Jared",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 68.03,
+          "end": 68.04,
+          "text": "definitely looking at starting Jared",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 68.04,
+          "end": 69.55,
+          "text": "definitely looking at starting Jared golf over Jaden Daniels this week that's",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 67.215,
+      "timestamp": "00:01:07.215",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 66.4,
+          "end": 68.03,
+          "text": "am in any other leagues so I'm definitely looking at starting Jared",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 68.03,
+          "end": 68.04,
+          "text": "definitely looking at starting Jared",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 68.04,
+          "end": 69.55,
+          "text": "definitely looking at starting Jared golf over Jaden Daniels this week that's",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 69.215,
+      "timestamp": "00:01:09.215",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 66.4,
+          "end": 68.03,
+          "text": "am in any other leagues so I'm definitely looking at starting Jared",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 68.03,
+          "end": 68.04,
+          "text": "definitely looking at starting Jared",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 68.04,
+          "end": 69.55,
+          "text": "definitely looking at starting Jared golf over Jaden Daniels this week that's",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 71.3,
+      "timestamp": "00:01:11.300",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 78.415,
+      "timestamp": "00:01:18.414",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 78.08,
+          "end": 82.749,
+          "text": "could bust in week one and Brandon iuk is on that",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 80.415,
+      "timestamp": "00:01:20.414",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 78.08,
+          "end": 82.749,
+          "text": "could bust in week one and Brandon iuk is on that",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 82.415,
+      "timestamp": "00:01:22.414",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 78.08,
+          "end": 82.749,
+          "text": "could bust in week one and Brandon iuk is on that",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 88.267,
+      "timestamp": "00:01:28.267",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 90.155,
+      "timestamp": "00:01:30.155",
+      "strategies": [
+        "periodic",
+        "scene",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 90.72,
+          "end": 93.59,
+          "text": "the game is underway Andre girl takes down Thomas CMC just got hurt perfect",
+          "keywords": [
+            "injury"
+          ]
+        },
+        {
+          "start": 93.59,
+          "end": 93.6,
+          "text": "down Thomas CMC just got hurt perfect",
+          "keywords": [
+            "injury"
+          ]
+        },
+        {
+          "start": 93.6,
+          "end": 98.109,
+          "text": "down Thomas CMC just got hurt perfect and Nathan Dev we go team Dev Danny Zack",
+          "keywords": [
+            "injury"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 92.155,
+      "timestamp": "00:01:32.155",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 90.72,
+          "end": 93.59,
+          "text": "the game is underway Andre girl takes down Thomas CMC just got hurt perfect",
+          "keywords": [
+            "injury"
+          ]
+        },
+        {
+          "start": 93.59,
+          "end": 93.6,
+          "text": "down Thomas CMC just got hurt perfect",
+          "keywords": [
+            "injury"
+          ]
+        },
+        {
+          "start": 93.6,
+          "end": 98.109,
+          "text": "down Thomas CMC just got hurt perfect and Nathan Dev we go team Dev Danny Zack",
+          "keywords": [
+            "injury"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 94.155,
+      "timestamp": "00:01:34.155",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 90.72,
+          "end": 93.59,
+          "text": "the game is underway Andre girl takes down Thomas CMC just got hurt perfect",
+          "keywords": [
+            "injury"
+          ]
+        },
+        {
+          "start": 93.59,
+          "end": 93.6,
+          "text": "down Thomas CMC just got hurt perfect",
+          "keywords": [
+            "injury"
+          ]
+        },
+        {
+          "start": 93.6,
+          "end": 98.109,
+          "text": "down Thomas CMC just got hurt perfect and Nathan Dev we go team Dev Danny Zack",
+          "keywords": [
+            "injury"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 96.855,
+      "timestamp": "00:01:36.854",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 98.119,
+          "end": 99.59,
+          "text": "and Nathan Dev we go team Dev Danny Zack going Danny he made the trade with me",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 99.59,
+          "end": 99.6,
+          "text": "going Danny he made the trade with me",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 99.6,
+          "end": 103.429,
+          "text": "going Danny he made the trade with me Zach didn't it Baki Dev of course we go",
+          "keywords": [
+            "trade"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 98.855,
+      "timestamp": "00:01:38.854",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 98.119,
+          "end": 99.59,
+          "text": "and Nathan Dev we go team Dev Danny Zack going Danny he made the trade with me",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 99.59,
+          "end": 99.6,
+          "text": "going Danny he made the trade with me",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 99.6,
+          "end": 103.429,
+          "text": "going Danny he made the trade with me Zach didn't it Baki Dev of course we go",
+          "keywords": [
+            "trade"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 100.855,
+      "timestamp": "00:01:40.854",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 98.119,
+          "end": 99.59,
+          "text": "and Nathan Dev we go team Dev Danny Zack going Danny he made the trade with me",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 99.59,
+          "end": 99.6,
+          "text": "going Danny he made the trade with me",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 99.6,
+          "end": 103.429,
+          "text": "going Danny he made the trade with me Zach didn't it Baki Dev of course we go",
+          "keywords": [
+            "trade"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 110.367,
+      "timestamp": "00:01:50.367",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 120.0,
+      "timestamp": "00:02:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 122.267,
+      "timestamp": "00:02:02.267",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 128.633,
+      "timestamp": "00:02:08.633",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 143.7,
+      "timestamp": "00:02:23.700",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 150.0,
+      "timestamp": "00:02:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 158.967,
+      "timestamp": "00:02:38.967",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 162.467,
+      "timestamp": "00:02:42.467",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 163.367,
+      "timestamp": "00:02:43.367",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 166.454,
+      "timestamp": "00:02:46.454",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 167.239,
+          "end": 169.67,
+          "text": "Sal vetry himself and guess who Cory plays in week one unfortunately I",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 169.67,
+          "end": 169.68,
+          "text": "plays in week one unfortunately I",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 169.68,
+          "end": 172.27,
+          "text": "plays in week one unfortunately I started Xavier worthy and unfortunately",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 172.28,
+          "end": 173.99,
+          "text": "started Xavier worthy and unfortunately he scored two touchdowns in his NFL",
+          "keywords": [
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 168.454,
+      "timestamp": "00:02:48.454",
+      "strategies": [
+        "scene",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 167.239,
+          "end": 169.67,
+          "text": "Sal vetry himself and guess who Cory plays in week one unfortunately I",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 169.67,
+          "end": 169.68,
+          "text": "plays in week one unfortunately I",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 169.68,
+          "end": 172.27,
+          "text": "plays in week one unfortunately I started Xavier worthy and unfortunately",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 172.28,
+          "end": 173.99,
+          "text": "started Xavier worthy and unfortunately he scored two touchdowns in his NFL",
+          "keywords": [
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 170.454,
+      "timestamp": "00:02:50.454",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 167.239,
+          "end": 169.67,
+          "text": "Sal vetry himself and guess who Cory plays in week one unfortunately I",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 169.67,
+          "end": 169.68,
+          "text": "plays in week one unfortunately I",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 169.68,
+          "end": 172.27,
+          "text": "plays in week one unfortunately I started Xavier worthy and unfortunately",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 172.28,
+          "end": 173.99,
+          "text": "started Xavier worthy and unfortunately he scored two touchdowns in his NFL",
+          "keywords": [
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 171.995,
+      "timestamp": "00:02:51.995",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 173.99,
+          "end": 174.0,
+          "text": "he scored two touchdowns in his NFL",
+          "keywords": [
+            "score"
+          ]
+        },
+        {
+          "start": 174.0,
+          "end": 176.43,
+          "text": "he scored two touchdowns in his NFL debut just kind of unreal I'm really",
+          "keywords": [
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 173.995,
+      "timestamp": "00:02:53.995",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 173.99,
+          "end": 174.0,
+          "text": "he scored two touchdowns in his NFL",
+          "keywords": [
+            "score"
+          ]
+        },
+        {
+          "start": 174.0,
+          "end": 176.43,
+          "text": "he scored two touchdowns in his NFL debut just kind of unreal I'm really",
+          "keywords": [
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 175.995,
+      "timestamp": "00:02:55.995",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 173.99,
+          "end": 174.0,
+          "text": "he scored two touchdowns in his NFL",
+          "keywords": [
+            "score"
+          ]
+        },
+        {
+          "start": 174.0,
+          "end": 176.43,
+          "text": "he scored two touchdowns in his NFL debut just kind of unreal I'm really",
+          "keywords": [
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 179.3,
+      "timestamp": "00:02:59.300",
+      "strategies": [
+        "periodic",
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 201.267,
+      "timestamp": "00:03:21.267",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 202.3,
+      "timestamp": "00:03:22.300",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 203.7,
+      "timestamp": "00:03:23.700",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 205.333,
+      "timestamp": "00:03:25.333",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 210.0,
+      "timestamp": "00:03:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 218.555,
+      "timestamp": "00:03:38.555",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 219.68,
+          "end": 221.429,
+          "text": "but then I looked at his team cuz I was like all right let's see how many points",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 221.429,
+          "end": 221.439,
+          "text": "like all right let's see how many points",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 221.439,
+          "end": 224.07,
+          "text": "like all right let's see how many points worth he scored over 20 crazy but I see",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 224.07,
+          "end": 224.08,
+          "text": "worth he scored over 20 crazy but I see",
+          "keywords": [
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 220.555,
+      "timestamp": "00:03:40.555",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 219.68,
+          "end": 221.429,
+          "text": "but then I looked at his team cuz I was like all right let's see how many points",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 221.429,
+          "end": 221.439,
+          "text": "like all right let's see how many points",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 221.439,
+          "end": 224.07,
+          "text": "like all right let's see how many points worth he scored over 20 crazy but I see",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 224.07,
+          "end": 224.08,
+          "text": "worth he scored over 20 crazy but I see",
+          "keywords": [
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 222.555,
+      "timestamp": "00:03:42.555",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 219.68,
+          "end": 221.429,
+          "text": "but then I looked at his team cuz I was like all right let's see how many points",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 221.429,
+          "end": 221.439,
+          "text": "like all right let's see how many points",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 221.439,
+          "end": 224.07,
+          "text": "like all right let's see how many points worth he scored over 20 crazy but I see",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 224.07,
+          "end": 224.08,
+          "text": "worth he scored over 20 crazy but I see",
+          "keywords": [
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 223.815,
+      "timestamp": "00:03:43.815",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 224.08,
+          "end": 227.55,
+          "text": "worth he scored over 20 crazy but I see that Travis Kelce only scores like I",
+          "keywords": [
+            "score"
+          ]
+        },
+        {
+          "start": 227.55,
+          "end": 227.56,
+          "text": "that Travis Kelce only scores like I",
+          "keywords": [
+            "score"
+          ]
+        },
+        {
+          "start": 227.56,
+          "end": 228.949,
+          "text": "that Travis Kelce only scores like I don't even know like maybe no points",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 228.949,
+          "end": 228.959,
+          "text": "don't even know like maybe no points",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 228.959,
+          "end": 230.83,
+          "text": "don't even know like maybe no points like no points from Travis Kelce I feel",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 225.815,
+      "timestamp": "00:03:45.815",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 224.08,
+          "end": 227.55,
+          "text": "worth he scored over 20 crazy but I see that Travis Kelce only scores like I",
+          "keywords": [
+            "score"
+          ]
+        },
+        {
+          "start": 227.55,
+          "end": 227.56,
+          "text": "that Travis Kelce only scores like I",
+          "keywords": [
+            "score"
+          ]
+        },
+        {
+          "start": 227.56,
+          "end": 228.949,
+          "text": "that Travis Kelce only scores like I don't even know like maybe no points",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 228.949,
+          "end": 228.959,
+          "text": "don't even know like maybe no points",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 228.959,
+          "end": 230.83,
+          "text": "don't even know like maybe no points like no points from Travis Kelce I feel",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 227.815,
+      "timestamp": "00:03:47.815",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 224.08,
+          "end": 227.55,
+          "text": "worth he scored over 20 crazy but I see that Travis Kelce only scores like I",
+          "keywords": [
+            "score"
+          ]
+        },
+        {
+          "start": 227.55,
+          "end": 227.56,
+          "text": "that Travis Kelce only scores like I",
+          "keywords": [
+            "score"
+          ]
+        },
+        {
+          "start": 227.56,
+          "end": 228.949,
+          "text": "that Travis Kelce only scores like I don't even know like maybe no points",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 228.949,
+          "end": 228.959,
+          "text": "don't even know like maybe no points",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 228.959,
+          "end": 230.83,
+          "text": "don't even know like maybe no points like no points from Travis Kelce I feel",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 228.835,
+      "timestamp": "00:03:48.835",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 230.83,
+          "end": 230.84,
+          "text": "like no points from Travis Kelce I feel",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 230.84,
+          "end": 233.03,
+          "text": "like no points from Travis Kelce I feel bad about that so I apologize Cory I",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 230.835,
+      "timestamp": "00:03:50.835",
+      "strategies": [
+        "scene",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 230.83,
+          "end": 230.84,
+          "text": "like no points from Travis Kelce I feel",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 230.84,
+          "end": 233.03,
+          "text": "like no points from Travis Kelce I feel bad about that so I apologize Cory I",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 232.835,
+      "timestamp": "00:03:52.835",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 230.83,
+          "end": 230.84,
+          "text": "like no points from Travis Kelce I feel",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 230.84,
+          "end": 233.03,
+          "text": "like no points from Travis Kelce I feel bad about that so I apologize Cory I",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 235.133,
+      "timestamp": "00:03:55.133",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 239.633,
+      "timestamp": "00:03:59.633",
+      "strategies": [
+        "periodic",
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 246.367,
+      "timestamp": "00:04:06.367",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 251.874,
+      "timestamp": "00:04:11.874",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 253.239,
+          "end": 254.509,
+          "text": "people in our league that feel the need to trade because their drafts weren't",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 254.509,
+          "end": 254.519,
+          "text": "to trade because their drafts weren't",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 254.519,
+          "end": 258.03,
+          "text": "to trade because their drafts weren't you know Avery is a certified fraud oh",
+          "keywords": [
+            "trade"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 253.874,
+      "timestamp": "00:04:13.874",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 253.239,
+          "end": 254.509,
+          "text": "people in our league that feel the need to trade because their drafts weren't",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 254.509,
+          "end": 254.519,
+          "text": "to trade because their drafts weren't",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 254.519,
+          "end": 258.03,
+          "text": "to trade because their drafts weren't you know Avery is a certified fraud oh",
+          "keywords": [
+            "trade"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 255.1,
+      "timestamp": "00:04:15.100",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 255.874,
+      "timestamp": "00:04:15.874",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 253.239,
+          "end": 254.509,
+          "text": "people in our league that feel the need to trade because their drafts weren't",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 254.509,
+          "end": 254.519,
+          "text": "to trade because their drafts weren't",
+          "keywords": [
+            "trade"
+          ]
+        },
+        {
+          "start": 254.519,
+          "end": 258.03,
+          "text": "to trade because their drafts weren't you know Avery is a certified fraud oh",
+          "keywords": [
+            "trade"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 270.0,
+      "timestamp": "00:04:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 274.767,
+      "timestamp": "00:04:34.767",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 278.894,
+      "timestamp": "00:04:38.894",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 280.16,
+          "end": 281.629,
+          "text": "going to take ra Andre I kind of want him to have ra Andre stuck on his roster",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 281.629,
+          "end": 281.639,
+          "text": "him to have ra Andre stuck on his roster",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 281.639,
+          "end": 283.35,
+          "text": "him to have ra Andre stuck on his roster all season and I kind of want to see him",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 280.894,
+      "timestamp": "00:04:40.894",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 280.16,
+          "end": 281.629,
+          "text": "going to take ra Andre I kind of want him to have ra Andre stuck on his roster",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 281.629,
+          "end": 281.639,
+          "text": "him to have ra Andre stuck on his roster",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 281.639,
+          "end": 283.35,
+          "text": "him to have ra Andre stuck on his roster all season and I kind of want to see him",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 282.894,
+      "timestamp": "00:04:42.894",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 280.16,
+          "end": 281.629,
+          "text": "going to take ra Andre I kind of want him to have ra Andre stuck on his roster",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 281.629,
+          "end": 281.639,
+          "text": "him to have ra Andre stuck on his roster",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 281.639,
+          "end": 283.35,
+          "text": "him to have ra Andre stuck on his roster all season and I kind of want to see him",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 284.475,
+      "timestamp": "00:04:44.475",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 285.52,
+          "end": 287.43,
+          "text": "have to see me have Kenneth Walker on my roster in my Flex spot the entire season",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 287.43,
+          "end": 287.44,
+          "text": "roster in my Flex spot the entire season",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 287.44,
+          "end": 289.35,
+          "text": "roster in my Flex spot the entire season I don't even get a counter you know what",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 286.475,
+      "timestamp": "00:04:46.475",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 285.52,
+          "end": 287.43,
+          "text": "have to see me have Kenneth Walker on my roster in my Flex spot the entire season",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 287.43,
+          "end": 287.44,
+          "text": "roster in my Flex spot the entire season",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 287.44,
+          "end": 289.35,
+          "text": "roster in my Flex spot the entire season I don't even get a counter you know what",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 287.4,
+      "timestamp": "00:04:47.400",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 288.475,
+      "timestamp": "00:04:48.475",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 285.52,
+          "end": 287.43,
+          "text": "have to see me have Kenneth Walker on my roster in my Flex spot the entire season",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 287.43,
+          "end": 287.44,
+          "text": "roster in my Flex spot the entire season",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 287.44,
+          "end": 289.35,
+          "text": "roster in my Flex spot the entire season I don't even get a counter you know what",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 295.067,
+      "timestamp": "00:04:55.067",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 300.0,
+      "timestamp": "00:05:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 301.933,
+      "timestamp": "00:05:01.933",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 306.133,
+      "timestamp": "00:05:06.133",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 321.9,
+      "timestamp": "00:05:21.900",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 328.533,
+      "timestamp": "00:05:28.533",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 330.0,
+      "timestamp": "00:05:30.000",
+      "strategies": [
+        "periodic",
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 334.133,
+      "timestamp": "00:05:34.133",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 336.867,
+      "timestamp": "00:05:36.867",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 350.467,
+      "timestamp": "00:05:50.467",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 360.0,
+      "timestamp": "00:06:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 370.533,
+      "timestamp": "00:06:10.533",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 377.233,
+      "timestamp": "00:06:17.233",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 378.615,
+      "timestamp": "00:06:18.615",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 379.28,
+          "end": 381.95,
+          "text": "not Bengals wide receiver T Higgins hamstring is doubtful for week one per",
+          "keywords": [
+            "availability",
+            "week"
+          ]
+        },
+        {
+          "start": 381.95,
+          "end": 381.96,
+          "text": "hamstring is doubtful for week one per",
+          "keywords": [
+            "availability",
+            "week"
+          ]
+        },
+        {
+          "start": 381.96,
+          "end": 383.749,
+          "text": "hamstring is doubtful for week one per at Adam chefer I should have freaking",
+          "keywords": [
+            "availability",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 380.615,
+      "timestamp": "00:06:20.615",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 379.28,
+          "end": 381.95,
+          "text": "not Bengals wide receiver T Higgins hamstring is doubtful for week one per",
+          "keywords": [
+            "availability",
+            "week"
+          ]
+        },
+        {
+          "start": 381.95,
+          "end": 381.96,
+          "text": "hamstring is doubtful for week one per",
+          "keywords": [
+            "availability",
+            "week"
+          ]
+        },
+        {
+          "start": 381.96,
+          "end": 383.749,
+          "text": "hamstring is doubtful for week one per at Adam chefer I should have freaking",
+          "keywords": [
+            "availability",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 382.615,
+      "timestamp": "00:06:22.615",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 379.28,
+          "end": 381.95,
+          "text": "not Bengals wide receiver T Higgins hamstring is doubtful for week one per",
+          "keywords": [
+            "availability",
+            "week"
+          ]
+        },
+        {
+          "start": 381.95,
+          "end": 381.96,
+          "text": "hamstring is doubtful for week one per",
+          "keywords": [
+            "availability",
+            "week"
+          ]
+        },
+        {
+          "start": 381.96,
+          "end": 383.749,
+          "text": "hamstring is doubtful for week one per at Adam chefer I should have freaking",
+          "keywords": [
+            "availability",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 387.267,
+      "timestamp": "00:06:27.267",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 390.0,
+      "timestamp": "00:06:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 392.5,
+      "timestamp": "00:06:32.500",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 415.133,
+      "timestamp": "00:06:55.133",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 420.0,
+      "timestamp": "00:07:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 440.667,
+      "timestamp": "00:07:20.667",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 448.1,
+      "timestamp": "00:07:28.100",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 450.0,
+      "timestamp": "00:07:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 454.133,
+      "timestamp": "00:07:34.133",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 459.1,
+      "timestamp": "00:07:39.100",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 480.0,
+      "timestamp": "00:08:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 486.4,
+      "timestamp": "00:08:06.400",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 510.0,
+      "timestamp": "00:08:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 519.2,
+      "timestamp": "00:08:39.200",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 520.767,
+      "timestamp": "00:08:40.767",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 531.667,
+      "timestamp": "00:08:51.667",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 540.0,
+      "timestamp": "00:09:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 541.667,
+      "timestamp": "00:09:01.667",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 551.767,
+      "timestamp": "00:09:11.767",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 570.733,
+      "timestamp": "00:09:30.733",
+      "strategies": [
+        "periodic",
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 594.533,
+      "timestamp": "00:09:54.533",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 600.0,
+      "timestamp": "00:10:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 603.294,
+      "timestamp": "00:10:03.294",
+      "strategies": [
+        "scene",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 603.519,
+          "end": 607.069,
+          "text": "his bench spots dude make a decision ladies and gentlemen start your engines",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 607.079,
+          "end": 609.829,
+          "text": "ladies and gentlemen start your engines week one is here all right it is",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 609.829,
+          "end": 609.839,
+          "text": "week one is here all right it is",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 605.294,
+      "timestamp": "00:10:05.294",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 603.519,
+          "end": 607.069,
+          "text": "his bench spots dude make a decision ladies and gentlemen start your engines",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 607.079,
+          "end": 609.829,
+          "text": "ladies and gentlemen start your engines week one is here all right it is",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 609.829,
+          "end": 609.839,
+          "text": "week one is here all right it is",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 607.294,
+      "timestamp": "00:10:07.294",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 603.519,
+          "end": 607.069,
+          "text": "his bench spots dude make a decision ladies and gentlemen start your engines",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 607.079,
+          "end": 609.829,
+          "text": "ladies and gentlemen start your engines week one is here all right it is",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 609.829,
+          "end": 609.839,
+          "text": "week one is here all right it is",
+          "keywords": [
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 608.967,
+      "timestamp": "00:10:08.967",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 616.533,
+      "timestamp": "00:10:16.533",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 630.0,
+      "timestamp": "00:10:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 634.867,
+      "timestamp": "00:10:34.867",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 649.8,
+      "timestamp": "00:10:49.800",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 660.0,
+      "timestamp": "00:11:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 670.2,
+      "timestamp": "00:11:10.200",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 689.1,
+      "timestamp": "00:11:29.100",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 690.0,
+      "timestamp": "00:11:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 691.667,
+      "timestamp": "00:11:31.667",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 707.767,
+      "timestamp": "00:11:47.767",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 713.833,
+      "timestamp": "00:11:53.833",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 716.4,
+      "timestamp": "00:11:56.400",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 720.0,
+      "timestamp": "00:12:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 724.2,
+      "timestamp": "00:12:04.200",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 725.934,
+      "timestamp": "00:12:05.934",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 726.959,
+          "end": 728.91,
+          "text": "watch anymore if DeAndre Swift cannot score five points in this game he will",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 728.91,
+          "end": 728.92,
+          "text": "score five points in this game he will",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 728.92,
+          "end": 730.43,
+          "text": "score five points in this game he will go to the waiver wire just to send a",
+          "keywords": [
+            "points",
+            "score",
+            "waiver"
+          ]
+        },
+        {
+          "start": 730.43,
+          "end": 730.44,
+          "text": "go to the waiver wire just to send a",
+          "keywords": [
+            "waiver"
+          ]
+        },
+        {
+          "start": 730.44,
+          "end": 732.509,
+          "text": "go to the waiver wire just to send a message to the rest of the team Josh",
+          "keywords": [
+            "waiver"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 727.934,
+      "timestamp": "00:12:07.934",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 726.959,
+          "end": 728.91,
+          "text": "watch anymore if DeAndre Swift cannot score five points in this game he will",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 728.91,
+          "end": 728.92,
+          "text": "score five points in this game he will",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 728.92,
+          "end": 730.43,
+          "text": "score five points in this game he will go to the waiver wire just to send a",
+          "keywords": [
+            "points",
+            "score",
+            "waiver"
+          ]
+        },
+        {
+          "start": 730.43,
+          "end": 730.44,
+          "text": "go to the waiver wire just to send a",
+          "keywords": [
+            "waiver"
+          ]
+        },
+        {
+          "start": 730.44,
+          "end": 732.509,
+          "text": "go to the waiver wire just to send a message to the rest of the team Josh",
+          "keywords": [
+            "waiver"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 729.934,
+      "timestamp": "00:12:09.934",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 726.959,
+          "end": 728.91,
+          "text": "watch anymore if DeAndre Swift cannot score five points in this game he will",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 728.91,
+          "end": 728.92,
+          "text": "score five points in this game he will",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 728.92,
+          "end": 730.43,
+          "text": "score five points in this game he will go to the waiver wire just to send a",
+          "keywords": [
+            "points",
+            "score",
+            "waiver"
+          ]
+        },
+        {
+          "start": 730.43,
+          "end": 730.44,
+          "text": "go to the waiver wire just to send a",
+          "keywords": [
+            "waiver"
+          ]
+        },
+        {
+          "start": 730.44,
+          "end": 732.509,
+          "text": "go to the waiver wire just to send a message to the rest of the team Josh",
+          "keywords": [
+            "waiver"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 731.695,
+      "timestamp": "00:12:11.695",
+      "strategies": [
+        "scene",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 732.519,
+          "end": 734.87,
+          "text": "message to the rest of the team Josh Allen 30 plus points it wasn't enough in",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 734.87,
+          "end": 734.88,
+          "text": "Allen 30 plus points it wasn't enough in",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 734.88,
+          "end": 738.71,
+          "text": "Allen 30 plus points it wasn't enough in week one congrats to Corey I am truly",
+          "keywords": [
+            "points",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 733.695,
+      "timestamp": "00:12:13.695",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 732.519,
+          "end": 734.87,
+          "text": "message to the rest of the team Josh Allen 30 plus points it wasn't enough in",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 734.87,
+          "end": 734.88,
+          "text": "Allen 30 plus points it wasn't enough in",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 734.88,
+          "end": 738.71,
+          "text": "Allen 30 plus points it wasn't enough in week one congrats to Corey I am truly",
+          "keywords": [
+            "points",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 735.695,
+      "timestamp": "00:12:15.695",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 732.519,
+          "end": 734.87,
+          "text": "message to the rest of the team Josh Allen 30 plus points it wasn't enough in",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 734.87,
+          "end": 734.88,
+          "text": "Allen 30 plus points it wasn't enough in",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 734.88,
+          "end": 738.71,
+          "text": "Allen 30 plus points it wasn't enough in week one congrats to Corey I am truly",
+          "keywords": [
+            "points",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 741.1,
+      "timestamp": "00:12:21.100",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 749.475,
+      "timestamp": "00:12:29.474",
+      "strategies": [
+        "periodic",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 750.639,
+          "end": 752.31,
+          "text": "is Amari the guy that I need look how how many how many points did that",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 752.31,
+          "end": 752.32,
+          "text": "how how many how many points did that",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 752.32,
+          "end": 754.67,
+          "text": "how how many how many points did that cost me o moment of the week has to go",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 754.68,
+          "end": 756.71,
+          "text": "cost me o moment of the week has to go to Nathan in his match up against Tom",
+          "keywords": [
+            "matchup"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 751.475,
+      "timestamp": "00:12:31.474",
+      "strategies": [
+        "scene",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 750.639,
+          "end": 752.31,
+          "text": "is Amari the guy that I need look how how many how many points did that",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 752.31,
+          "end": 752.32,
+          "text": "how how many how many points did that",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 752.32,
+          "end": 754.67,
+          "text": "how how many how many points did that cost me o moment of the week has to go",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 754.68,
+          "end": 756.71,
+          "text": "cost me o moment of the week has to go to Nathan in his match up against Tom",
+          "keywords": [
+            "matchup"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 753.475,
+      "timestamp": "00:12:33.474",
+      "strategies": [
+        "scene",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 750.639,
+          "end": 752.31,
+          "text": "is Amari the guy that I need look how how many how many points did that",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 752.31,
+          "end": 752.32,
+          "text": "how how many how many points did that",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 752.32,
+          "end": 754.67,
+          "text": "how how many how many points did that cost me o moment of the week has to go",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 754.68,
+          "end": 756.71,
+          "text": "cost me o moment of the week has to go to Nathan in his match up against Tom",
+          "keywords": [
+            "matchup"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 762.955,
+      "timestamp": "00:12:42.954",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 763.199,
+          "end": 766.71,
+          "text": "even more painful we go down here we see Cooper cup 32 PP points scored absolute",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 766.71,
+          "end": 766.72,
+          "text": "Cooper cup 32 PP points scored absolute",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 766.72,
+          "end": 768.67,
+          "text": "Cooper cup 32 PP points scored absolute monster in this game and it's really",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 764.955,
+      "timestamp": "00:12:44.954",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 763.199,
+          "end": 766.71,
+          "text": "even more painful we go down here we see Cooper cup 32 PP points scored absolute",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 766.71,
+          "end": 766.72,
+          "text": "Cooper cup 32 PP points scored absolute",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 766.72,
+          "end": 768.67,
+          "text": "Cooper cup 32 PP points scored absolute monster in this game and it's really",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 766.955,
+      "timestamp": "00:12:46.954",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 763.199,
+          "end": 766.71,
+          "text": "even more painful we go down here we see Cooper cup 32 PP points scored absolute",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 766.71,
+          "end": 766.72,
+          "text": "Cooper cup 32 PP points scored absolute",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 766.72,
+          "end": 768.67,
+          "text": "Cooper cup 32 PP points scored absolute monster in this game and it's really",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 776.4,
+      "timestamp": "00:12:56.400",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 780.0,
+      "timestamp": "00:13:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 790.067,
+      "timestamp": "00:13:10.067",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 792.375,
+      "timestamp": "00:13:12.374",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 793.279,
+          "end": 795.47,
+          "text": "puka man I find it genuinely hilarious that my team is about to beat Sals I'm",
+          "keywords": [
+            "result"
+          ]
+        },
+        {
+          "start": 795.47,
+          "end": 795.48,
+          "text": "that my team is about to beat Sals I'm",
+          "keywords": [
+            "result"
+          ]
+        },
+        {
+          "start": 795.48,
+          "end": 797.55,
+          "text": "that my team is about to beat Sals I'm down by one point I still have Garrett",
+          "keywords": [
+            "points",
+            "result"
+          ]
+        },
+        {
+          "start": 797.55,
+          "end": 797.56,
+          "text": "down by one point I still have Garrett",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 797.56,
+          "end": 800.189,
+          "text": "down by one point I still have Garrett Wilson left to go and the reason that",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 794.375,
+      "timestamp": "00:13:14.374",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 793.279,
+          "end": 795.47,
+          "text": "puka man I find it genuinely hilarious that my team is about to beat Sals I'm",
+          "keywords": [
+            "result"
+          ]
+        },
+        {
+          "start": 795.47,
+          "end": 795.48,
+          "text": "that my team is about to beat Sals I'm",
+          "keywords": [
+            "result"
+          ]
+        },
+        {
+          "start": 795.48,
+          "end": 797.55,
+          "text": "that my team is about to beat Sals I'm down by one point I still have Garrett",
+          "keywords": [
+            "points",
+            "result"
+          ]
+        },
+        {
+          "start": 797.55,
+          "end": 797.56,
+          "text": "down by one point I still have Garrett",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 797.56,
+          "end": 800.189,
+          "text": "down by one point I still have Garrett Wilson left to go and the reason that",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 796.375,
+      "timestamp": "00:13:16.374",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 793.279,
+          "end": 795.47,
+          "text": "puka man I find it genuinely hilarious that my team is about to beat Sals I'm",
+          "keywords": [
+            "result"
+          ]
+        },
+        {
+          "start": 795.47,
+          "end": 795.48,
+          "text": "that my team is about to beat Sals I'm",
+          "keywords": [
+            "result"
+          ]
+        },
+        {
+          "start": 795.48,
+          "end": 797.55,
+          "text": "that my team is about to beat Sals I'm down by one point I still have Garrett",
+          "keywords": [
+            "points",
+            "result"
+          ]
+        },
+        {
+          "start": 797.55,
+          "end": 797.56,
+          "text": "down by one point I still have Garrett",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 797.56,
+          "end": 800.189,
+          "text": "down by one point I still have Garrett Wilson left to go and the reason that",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 804.455,
+      "timestamp": "00:13:24.455",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 805.24,
+          "end": 807.67,
+          "text": "cime Fair Baron and the Chargers defense combined for like 31 points other than",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 807.67,
+          "end": 807.68,
+          "text": "combined for like 31 points other than",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 807.68,
+          "end": 809.829,
+          "text": "combined for like 31 points other than Devon Anan pretty much everybody in my",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 809.839,
+          "end": 812.03,
+          "text": "Devon Anan pretty much everybody in my lineup you know [ __ ] the bed it felt",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 806.455,
+      "timestamp": "00:13:26.455",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 805.24,
+          "end": 807.67,
+          "text": "cime Fair Baron and the Chargers defense combined for like 31 points other than",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 807.67,
+          "end": 807.68,
+          "text": "combined for like 31 points other than",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 807.68,
+          "end": 809.829,
+          "text": "combined for like 31 points other than Devon Anan pretty much everybody in my",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 809.839,
+          "end": 812.03,
+          "text": "Devon Anan pretty much everybody in my lineup you know [ __ ] the bed it felt",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 808.455,
+      "timestamp": "00:13:28.455",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 805.24,
+          "end": 807.67,
+          "text": "cime Fair Baron and the Chargers defense combined for like 31 points other than",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 807.67,
+          "end": 807.68,
+          "text": "combined for like 31 points other than",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 807.68,
+          "end": 809.829,
+          "text": "combined for like 31 points other than Devon Anan pretty much everybody in my",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 809.839,
+          "end": 812.03,
+          "text": "Devon Anan pretty much everybody in my lineup you know [ __ ] the bed it felt",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 810.035,
+      "timestamp": "00:13:30.035",
+      "strategies": [
+        "periodic",
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 812.03,
+          "end": 812.04,
+          "text": "lineup you know [ __ ] the bed it felt",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 812.04,
+          "end": 813.389,
+          "text": "lineup you know [ __ ] the bed it felt real comfortable but it looks like your",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 813.399,
+          "end": 815.829,
+          "text": "real comfortable but it looks like your kicker got like 300 points so that kind",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 815.829,
+          "end": 815.839,
+          "text": "kicker got like 300 points so that kind",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 815.839,
+          "end": 817.829,
+          "text": "kicker got like 300 points so that kind of sucks and then all my other players",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 812.035,
+      "timestamp": "00:13:32.035",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 812.03,
+          "end": 812.04,
+          "text": "lineup you know [ __ ] the bed it felt",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 812.04,
+          "end": 813.389,
+          "text": "lineup you know [ __ ] the bed it felt real comfortable but it looks like your",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 813.399,
+          "end": 815.829,
+          "text": "real comfortable but it looks like your kicker got like 300 points so that kind",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 815.829,
+          "end": 815.839,
+          "text": "kicker got like 300 points so that kind",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 815.839,
+          "end": 817.829,
+          "text": "kicker got like 300 points so that kind of sucks and then all my other players",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 814.035,
+      "timestamp": "00:13:34.035",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 812.03,
+          "end": 812.04,
+          "text": "lineup you know [ __ ] the bed it felt",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 812.04,
+          "end": 813.389,
+          "text": "lineup you know [ __ ] the bed it felt real comfortable but it looks like your",
+          "keywords": [
+            "roster"
+          ]
+        },
+        {
+          "start": 813.399,
+          "end": 815.829,
+          "text": "real comfortable but it looks like your kicker got like 300 points so that kind",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 815.829,
+          "end": 815.839,
+          "text": "kicker got like 300 points so that kind",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 815.839,
+          "end": 817.829,
+          "text": "kicker got like 300 points so that kind of sucks and then all my other players",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 840.0,
+      "timestamp": "00:14:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 850.833,
+      "timestamp": "00:14:10.833",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 863.4,
+      "timestamp": "00:14:23.400",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 870.0,
+      "timestamp": "00:14:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 871.1,
+      "timestamp": "00:14:31.100",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 900.0,
+      "timestamp": "00:15:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 911.274,
+      "timestamp": "00:15:11.274",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 911.839,
+          "end": 914.71,
+          "text": "Pitman only having seven points I found myself regretting not",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 914.71,
+          "end": 914.72,
+          "text": "points I found myself regretting not",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 914.72,
+          "end": 917.629,
+          "text": "points I found myself regretting not starting Jaden Daniels who had 28",
+          "keywords": [
+            "points",
+            "roster"
+          ]
+        },
+        {
+          "start": 917.629,
+          "end": 917.639,
+          "text": "starting Jaden Daniels who had 28",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 913.274,
+      "timestamp": "00:15:13.274",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 911.839,
+          "end": 914.71,
+          "text": "Pitman only having seven points I found myself regretting not",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 914.71,
+          "end": 914.72,
+          "text": "points I found myself regretting not",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 914.72,
+          "end": 917.629,
+          "text": "points I found myself regretting not starting Jaden Daniels who had 28",
+          "keywords": [
+            "points",
+            "roster"
+          ]
+        },
+        {
+          "start": 917.629,
+          "end": 917.639,
+          "text": "starting Jaden Daniels who had 28",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 915.274,
+      "timestamp": "00:15:15.274",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 911.839,
+          "end": 914.71,
+          "text": "Pitman only having seven points I found myself regretting not",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 914.71,
+          "end": 914.72,
+          "text": "points I found myself regretting not",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 914.72,
+          "end": 917.629,
+          "text": "points I found myself regretting not starting Jaden Daniels who had 28",
+          "keywords": [
+            "points",
+            "roster"
+          ]
+        },
+        {
+          "start": 917.629,
+          "end": 917.639,
+          "text": "starting Jaden Daniels who had 28",
+          "keywords": [
+            "roster"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 916.755,
+      "timestamp": "00:15:16.754",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 917.639,
+          "end": 919.87,
+          "text": "starting Jaden Daniels who had 28 points I will be better in weeks moving",
+          "keywords": [
+            "points",
+            "roster"
+          ]
+        },
+        {
+          "start": 919.87,
+          "end": 919.88,
+          "text": "points I will be better in weeks moving",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 919.88,
+          "end": 921.71,
+          "text": "points I will be better in weeks moving forward but for now this is a dark day",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 918.755,
+      "timestamp": "00:15:18.754",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 917.639,
+          "end": 919.87,
+          "text": "starting Jaden Daniels who had 28 points I will be better in weeks moving",
+          "keywords": [
+            "points",
+            "roster"
+          ]
+        },
+        {
+          "start": 919.87,
+          "end": 919.88,
+          "text": "points I will be better in weeks moving",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 919.88,
+          "end": 921.71,
+          "text": "points I will be better in weeks moving forward but for now this is a dark day",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 920.755,
+      "timestamp": "00:15:20.754",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 917.639,
+          "end": 919.87,
+          "text": "starting Jaden Daniels who had 28 points I will be better in weeks moving",
+          "keywords": [
+            "points",
+            "roster"
+          ]
+        },
+        {
+          "start": 919.87,
+          "end": 919.88,
+          "text": "points I will be better in weeks moving",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 919.88,
+          "end": 921.71,
+          "text": "points I will be better in weeks moving forward but for now this is a dark day",
+          "keywords": [
+            "points"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 930.0,
+      "timestamp": "00:15:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 947.033,
+      "timestamp": "00:15:47.033",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 958.6,
+      "timestamp": "00:15:58.600",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 960.0,
+      "timestamp": "00:16:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 974.133,
+      "timestamp": "00:16:14.133",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 982.167,
+      "timestamp": "00:16:22.167",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 990.0,
+      "timestamp": "00:16:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 991.534,
+      "timestamp": "00:16:31.534",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 992.399,
+          "end": 994.67,
+          "text": "enough but hey I appreciate it you know who scored the most points in the league",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 994.67,
+          "end": 994.68,
+          "text": "who scored the most points in the league",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 994.68,
+          "end": 1000.03,
+          "text": "who scored the most points in the league this this week in week one me I did 148",
+          "keywords": [
+            "points",
+            "score",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 993.534,
+      "timestamp": "00:16:33.534",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 992.399,
+          "end": 994.67,
+          "text": "enough but hey I appreciate it you know who scored the most points in the league",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 994.67,
+          "end": 994.68,
+          "text": "who scored the most points in the league",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 994.68,
+          "end": 1000.03,
+          "text": "who scored the most points in the league this this week in week one me I did 148",
+          "keywords": [
+            "points",
+            "score",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 995.534,
+      "timestamp": "00:16:35.534",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 992.399,
+          "end": 994.67,
+          "text": "enough but hey I appreciate it you know who scored the most points in the league",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 994.67,
+          "end": 994.68,
+          "text": "who scored the most points in the league",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 994.68,
+          "end": 1000.03,
+          "text": "who scored the most points in the league this this week in week one me I did 148",
+          "keywords": [
+            "points",
+            "score",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 998.035,
+      "timestamp": "00:16:38.035",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 1000.03,
+          "end": 1000.04,
+          "text": "this this week in week one me I did 148",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 1000.04,
+          "end": 1002.87,
+          "text": "this this week in week one me I did 148 points this week and next week in week",
+          "keywords": [
+            "points",
+            "week"
+          ]
+        },
+        {
+          "start": 1002.87,
+          "end": 1002.88,
+          "text": "points this week and next week in week",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 1002.88,
+          "end": 1005.55,
+          "text": "points this week and next week in week two I am facing the Mandana King himself",
+          "keywords": [
+            "points",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 1000.035,
+      "timestamp": "00:16:40.035",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 1000.03,
+          "end": 1000.04,
+          "text": "this this week in week one me I did 148",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 1000.04,
+          "end": 1002.87,
+          "text": "this this week in week one me I did 148 points this week and next week in week",
+          "keywords": [
+            "points",
+            "week"
+          ]
+        },
+        {
+          "start": 1002.87,
+          "end": 1002.88,
+          "text": "points this week and next week in week",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 1002.88,
+          "end": 1005.55,
+          "text": "points this week and next week in week two I am facing the Mandana King himself",
+          "keywords": [
+            "points",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 1002.035,
+      "timestamp": "00:16:42.035",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 1000.03,
+          "end": 1000.04,
+          "text": "this this week in week one me I did 148",
+          "keywords": [
+            "week"
+          ]
+        },
+        {
+          "start": 1000.04,
+          "end": 1002.87,
+          "text": "this this week in week one me I did 148 points this week and next week in week",
+          "keywords": [
+            "points",
+            "week"
+          ]
+        },
+        {
+          "start": 1002.87,
+          "end": 1002.88,
+          "text": "points this week and next week in week",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 1002.88,
+          "end": 1005.55,
+          "text": "points this week and next week in week two I am facing the Mandana King himself",
+          "keywords": [
+            "points",
+            "week"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 1011.167,
+      "timestamp": "00:16:51.167",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 1020.0,
+      "timestamp": "00:17:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 1035.635,
+      "timestamp": "00:17:15.635",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 1035.919,
+          "end": 1039.35,
+          "text": "who had two points he played Chase Brown as his rb2 with Five Points shout out to",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 1039.35,
+          "end": 1039.36,
+          "text": "as his rb2 with Five Points shout out to",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 1039.36,
+          "end": 1042.309,
+          "text": "as his rb2 with Five Points shout out to Danny good win this week ah sweet",
+          "keywords": [
+            "points",
+            "result"
+          ]
+        },
+        {
+          "start": 1042.309,
+          "end": 1042.319,
+          "text": "Danny good win this week ah sweet",
+          "keywords": [
+            "result"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 1037.635,
+      "timestamp": "00:17:17.635",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 1035.919,
+          "end": 1039.35,
+          "text": "who had two points he played Chase Brown as his rb2 with Five Points shout out to",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 1039.35,
+          "end": 1039.36,
+          "text": "as his rb2 with Five Points shout out to",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 1039.36,
+          "end": 1042.309,
+          "text": "as his rb2 with Five Points shout out to Danny good win this week ah sweet",
+          "keywords": [
+            "points",
+            "result"
+          ]
+        },
+        {
+          "start": 1042.309,
+          "end": 1042.319,
+          "text": "Danny good win this week ah sweet",
+          "keywords": [
+            "result"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 1039.635,
+      "timestamp": "00:17:19.635",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 1035.919,
+          "end": 1039.35,
+          "text": "who had two points he played Chase Brown as his rb2 with Five Points shout out to",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 1039.35,
+          "end": 1039.36,
+          "text": "as his rb2 with Five Points shout out to",
+          "keywords": [
+            "points"
+          ]
+        },
+        {
+          "start": 1039.36,
+          "end": 1042.309,
+          "text": "as his rb2 with Five Points shout out to Danny good win this week ah sweet",
+          "keywords": [
+            "points",
+            "result"
+          ]
+        },
+        {
+          "start": 1042.309,
+          "end": 1042.319,
+          "text": "Danny good win this week ah sweet",
+          "keywords": [
+            "result"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 1041.033,
+      "timestamp": "00:17:21.033",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 1050.0,
+      "timestamp": "00:17:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 1055.033,
+      "timestamp": "00:17:35.033",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 1080.0,
+      "timestamp": "00:18:00.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 1105.233,
+      "timestamp": "00:18:25.233",
+      "strategies": [
+        "scene"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 1110.0,
+      "timestamp": "00:18:30.000",
+      "strategies": [
+        "periodic"
+      ],
+      "target_evidence": []
+    },
+    {
+      "timestamp_seconds": 1120.035,
+      "timestamp": "00:18:40.035",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 1121.12,
+          "end": 1122.95,
+          "text": "opponent's head and ultimately it's about scoring more points which is",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 1122.95,
+          "end": 1122.96,
+          "text": "about scoring more points which is",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 1122.96,
+          "end": 1124.549,
+          "text": "about scoring more points which is exactly what I did this week which is",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 1122.035,
+      "timestamp": "00:18:42.035",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 1121.12,
+          "end": 1122.95,
+          "text": "opponent's head and ultimately it's about scoring more points which is",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 1122.95,
+          "end": 1122.96,
+          "text": "about scoring more points which is",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 1122.96,
+          "end": 1124.549,
+          "text": "about scoring more points which is exactly what I did this week which is",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp_seconds": 1124.035,
+      "timestamp": "00:18:44.035",
+      "strategies": [
+        "targeted"
+      ],
+      "target_evidence": [
+        {
+          "start": 1121.12,
+          "end": 1122.95,
+          "text": "opponent's head and ultimately it's about scoring more points which is",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 1122.95,
+          "end": 1122.96,
+          "text": "about scoring more points which is",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        },
+        {
+          "start": 1122.96,
+          "end": 1124.549,
+          "text": "about scoring more points which is exactly what I did this week which is",
+          "keywords": [
+            "points",
+            "score"
+          ]
+        }
+      ]
+    }
+  ]
+}

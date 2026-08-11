@@ -72,6 +72,81 @@ If YouTube requires authentication for that optional check, add
 `--cookies-from-browser chrome` after fully closing Chrome. The local audit does
 not contact YouTube and does not modify anything in `uploads/`.
 
+### Plan transient visual review
+
+Plan scene-change, periodic, and transcript-targeted visual samples for an
+episode by its YouTube ID:
+
+```powershell
+.\.venv\Scripts\python.exe .\flock-league\extract_frames.py -- -9vcgs-W6YM
+```
+
+The `--` separator is needed only when a video ID itself begins with a hyphen.
+
+The command creates images only inside a temporary directory. It records their
+timestamps, extraction strategies, and triggering caption evidence in
+`artifacts/VIDEO_ID/visual-sampling.json`, then deletes every image. Overlapping
+samples are deduplicated while retaining every selection reason. An identical
+rerun uses the plan cache; pass `--force` to recompute it.
+
+The episode-analysis stage will consume these temporary samples while reviewing
+the corresponding transcript windows. Its durable outputs will be
+`episode_notes.json`, `events.json`, and `recap.md`; it will retain zero evidence
+frames. Any visual evidence can be regenerated later from its video timestamp.
+
+Useful tuning options include `--periodic-interval`, `--scene-threshold`,
+`--max-scene-frames`, `--max-targeted-frames`, and `--width`.
+
+### Analyze an episode
+
+The episode reviewer combines cleaned caption windows with transient visual
+samples and uses the OpenAI Responses API to write structured notes, normalized
+events, and a Markdown recap. Install the dependencies, add your API key to the
+ignored `.env` file in the repository root, and provide the episode's YouTube
+ID:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r .\flock-league\requirements.txt
+.\.venv\Scripts\python.exe .\flock-league\analyze_episode.py -- -9vcgs-W6YM
+```
+
+The local `.env` entry should be:
+
+```dotenv
+OPENAI_API_KEY=your-key-here
+```
+
+API model usage is billed to the project associated with the supplied key. The
+configurable default is `gpt-5.6-terra` with medium reasoning. Use `--model`,
+`--reasoning-effort`, `--window-seconds`, `--max-images-per-window`, and
+`--image-detail` to tune quality, latency, and cost.
+
+To validate all local preparation without an API key or model charges:
+
+```powershell
+.\.venv\Scripts\python.exe .\flock-league\analyze_episode.py --prepare-only -- -9vcgs-W6YM
+```
+
+The reviewer writes `metadata.json`, a deduplicated `transcript.json`, and
+`review-plan.json` before making model calls. During a full run it checkpoints
+each completed window in `episode_notes.json`, allowing an interrupted run to
+resume without repeating completed window calls. When complete, it writes:
+
+```text
+artifacts/VIDEO_ID/
+├── metadata.json
+├── transcript.json
+├── review-plan.json
+├── visual-sampling.json
+├── episode_notes.json
+├── events.json
+└── recap.md
+```
+
+Images exist only inside the active temporary directory. Base64 image data is
+sent directly to the model and is not written to any artifact. Successful,
+failed, and interrupted runs retain zero image files.
+
 ## Analysis pipeline plan
 
 The downloaded episodes will eventually feed an evidence-first analysis
@@ -116,11 +191,11 @@ Prefer human-created YouTube captions, then automatic YouTube captions, and
 finally local speech-to-text when captions are missing or unusable. Preserve
 timestamped segments instead of storing only a single block of text.
 
-### 4. Analyze transcripts and selected frames
+### 4. Analyze transcripts and transient visual samples
 
-Extract frames at scene changes and near relevant transcript passages so that
-scores, standings, trades, and rosters shown on screen are not missed. Analyze
-selected frames rather than every video frame.
+Review temporary images from scene changes, periodic coverage, and relevant
+transcript passages so that scores, standings, trades, and rosters shown on
+screen are not missed. Delete the images after recording timestamped notes.
 
 Each episode should produce:
 
@@ -158,7 +233,8 @@ flock-league/
 │       ├── metadata.json
 │       ├── transcript.json
 │       ├── transcript.vtt
-│       ├── frames/
+│       ├── visual-sampling.json
+│       ├── episode_notes.json
 │       ├── events.json
 │       ├── recap.md
 │       └── processing.json
