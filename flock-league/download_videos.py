@@ -42,7 +42,7 @@ def main() -> None:
         "ignoreerrors": True,
         "continuedl": True,
         "windowsfilenames": True,
-        "sleep_interval_requests": 1,
+        "sleep_interval_requests": 10,
     }
     if args.cookies_from_browser:
         options["cookiesfrombrowser"] = (
