@@ -48,6 +48,30 @@ The backfill only processes media filenames containing a YouTube ID. If YouTube
 requires authentication, add `--cookies-from-browser edge` (or another supported
 browser) to the command. Existing sidecars are not overwritten.
 
+### Audit downloads
+
+Run the local audit after downloading or backfilling:
+
+```powershell
+.\.venv\Scripts\python.exe .\flock-league\audit_downloads.py
+```
+
+The audit matches media, metadata, captions, and download-archive entries by
+YouTube ID. When `ffprobe` is available on `PATH`, it also checks that each file
+contains audio and video and compares its duration with YouTube metadata. A
+machine-readable report is written to `flock-league/reports/download-audit.json`.
+
+To also compare the local collection with the current channel listing without
+downloading media:
+
+```powershell
+.\.venv\Scripts\python.exe .\flock-league\audit_downloads.py --check-channel
+```
+
+If YouTube requires authentication for that optional check, add
+`--cookies-from-browser chrome` after fully closing Chrome. The local audit does
+not contact YouTube and does not modify anything in `uploads/`.
+
 ## Analysis pipeline plan
 
 The downloaded episodes will eventually feed an evidence-first analysis
