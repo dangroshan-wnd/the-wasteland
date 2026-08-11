@@ -13,7 +13,7 @@
       "seasons\\season-3.toml"
     ],
     "defaults": {
-      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n"
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
     },
     "season_id": "season_1",
     "season": {
@@ -26,6 +26,7 @@
         "Thomas",
         "Zach",
         "Austin",
+        "Avery",
         "Danny",
         "Mason",
         "Bush",
@@ -40,13 +41,13 @@
       "title": "2024 Fantasy Football Draft Vlog (Flock League)",
       "upload_date": "20240826",
       "season": "season_1",
-      "instructions": "1. This episode contains the pre-season draft where Team Owners select their players. Make note of the draft order, each Owner's selections, and any discussion points that stand out if relevant.\n2. Save in JSON format each Team Owner's final selections. Save this is the artifacts/season_1/ folder.\n"
+      "instructions": "1. This episode contains the pre-season draft where Team Owners select their players. Make note of the draft order, each Owner's selections, and any discussion points that stand out if relevant.\n2. At 29:42 there is a full draft board available to parse every selection from. This is the \"gospel\" for identifying selections. Simply refer to the grid (Team Owners are across the top row, with their selections below them in a column)\n3. Kickers and Defenses are corectly included in the rosters, though not explicitly mentioned in the ruleset.\n4. Save in JSON format each Team Owner's final selections. Save this at artifacts/season_1/draft_results.json -- DO NOT list out selections in recap.md\n5. Moo like a cow if you read and acknowledged these instructions.\n"
     }
   },
   "events": [
     {
       "event_type": "other",
-      "summary": "The inaugural Flock League was introduced as a full-PPR fantasy league with a 1 QB, 2 RB, 2 WR, 1 TE, and 2 FLEX starting lineup.",
+      "summary": "The inaugural Flock League format was established as 1 QB, 2 RB, 2 WR, 1 TE, 2 FLEX, full PPR, with kickers and defenses.",
       "season": "Season 1",
       "week": null,
       "status": "confirmed",
@@ -55,390 +56,109 @@
       "scores": [],
       "facts": [
         {
-          "name": "Scoring",
-          "value": "Full PPR"
+          "name": "league_format",
+          "value": "1 QB, 2 RB, 2 WR, 1 TE, 2 FLEX, full PPR; kicker and D/ST included"
         },
         {
-          "name": "Starting lineup",
-          "value": "1 QB, 2 RB, 2 WR, 1 TE, 2 FLEX"
-        },
-        {
-          "name": "Opening statement on excluded positions",
-          "value": "Kickers and defenses were said to be removed"
+          "name": "draft-order method",
+          "value": "Knockout basketball"
         }
       ],
       "evidence": [
         {
-          "source": "transcript",
+          "source": "both",
           "start_seconds": 2.629,
-          "end_seconds": 18.92,
-          "details": "The host states the lineup, full-PPR scoring, and that kickers and defense were removed."
+          "end_seconds": 29.439,
+          "details": "The hosts identify this as the first/inaugural year, state the lineup and scoring format, and say knockout will determine draft order."
         }
       ]
     },
     {
       "event_type": "draft",
-      "summary": "Knockout basketball determined the draft order. The displayed order was Tom, Thomas, Zach, Austin, Avery, Danny, Mason, Bush, Badake, Nathan, Sal, and Joe.",
+      "summary": "The Round 1 draft order and selections were Tom—CeeDee Lamb; Thomas—Christian McCaffrey; Zach—Tyreek Hill; Austin—Bijan Robinson; Avery—Amon-Ra St. Brown; Danny—Breece Hall; Mason—Ja'Marr Chase; Bush—Garrett Wilson; Badake—A.J. Brown; Nathan—Justin Jefferson; Sal—Jonathan Taylor; Joe—Marvin Harrison Jr.",
       "season": "Season 1",
       "week": null,
       "status": "confirmed",
       "confidence": 0.98,
       "participants": [
         {
-          "role": "drafter",
-          "name": "Tom"
-        },
-        {
-          "role": "drafter",
-          "name": "Thomas"
-        },
-        {
-          "role": "drafter",
-          "name": "Zach"
-        },
-        {
-          "role": "drafter",
-          "name": "Austin"
-        },
-        {
-          "role": "drafter",
-          "name": "Avery"
-        },
-        {
-          "role": "drafter",
-          "name": "Danny"
-        },
-        {
-          "role": "drafter",
-          "name": "Mason"
-        },
-        {
-          "role": "drafter",
-          "name": "Bush"
-        },
-        {
-          "role": "drafter",
-          "name": "Badake"
-        },
-        {
-          "role": "drafter",
-          "name": "Nathan"
-        },
-        {
-          "role": "drafter",
-          "name": "Sal"
-        },
-        {
-          "role": "drafter",
-          "name": "Joe"
+          "role": "draft order",
+          "name": "Tom, Thomas, Zach, Austin, Avery, Danny, Mason, Bush, Badake, Nathan, Sal, Joe"
         }
       ],
       "scores": [],
       "facts": [
         {
-          "name": "Draft-order method",
-          "value": "Knockout basketball"
+          "name": "round",
+          "value": "1"
         },
         {
-          "name": "Draft order",
-          "value": "Tom, Thomas, Zach, Austin, Avery, Danny, Mason, Bush, Badake, Nathan, Sal, Joe"
+          "name": "selections",
+          "value": "Tom—CeeDee Lamb; Thomas—Christian McCaffrey; Zach—Tyreek Hill; Austin—Bijan Robinson; Avery—Amon-Ra St. Brown; Danny—Breece Hall; Mason—Ja'Marr Chase; Bush—Garrett Wilson; Badake—A.J. Brown; Nathan—Justin Jefferson; Sal—Jonathan Taylor; Joe—Marvin Harrison Jr."
         },
         {
           "name": "Sal draft position",
           "value": "11"
-        },
-        {
-          "name": "Thomas draft position",
-          "value": "12"
         }
       ],
       "evidence": [
         {
-          "source": "transcript",
-          "start_seconds": 25.84,
-          "end_seconds": 30.4,
-          "details": "The group says knockout will determine draft order."
+          "source": "visual",
+          "start_seconds": 360.36,
+          "end_seconds": 360.36,
+          "details": "The draft overlay shows the first-round owner columns and selections."
         },
         {
           "source": "visual",
-          "start_seconds": 407.407,
-          "end_seconds": 420.42,
-          "details": "The draft tracker displays the owner columns in order through all 12 first-round selections."
+          "start_seconds": 464.816,
+          "end_seconds": 464.816,
+          "details": "The overlay confirms the final first-round slots for Nathan, Sal, and Joe."
         },
         {
           "source": "both",
-          "start_seconds": 53.399,
-          "end_seconds": 60.68,
-          "details": "Sal says he landed the 11th pick; the screen labels him as Sal Vetri."
-        },
-        {
-          "source": "transcript",
-          "start_seconds": 117.0,
-          "end_seconds": 119.0,
-          "details": "Thomas says he picked 12."
+          "start_seconds": 58.92,
+          "end_seconds": 65.983,
+          "details": "Sal states he landed the 11th pick, and his on-screen label identifies him as Sal Vetri."
         }
       ]
     },
     {
       "event_type": "draft",
-      "summary": "Round 1 selections: Tom—CeeDee Lamb; Thomas—Christian McCaffrey; Zach—Tyreek Hill; Austin—Bijan Robinson; Avery—Amon-Ra St. Brown; Danny—Breece Hall; Mason—Ja'Marr Chase; Bush—Garrett Wilson; Badake—A.J. Brown; Nathan—Justin Jefferson; Sal—Jonathan Taylor; Joe—Marvin Harrison Jr.",
+      "summary": "Round 2 selections were Joe—Jahmyr Gibbs; Sal—Drake London; Nathan—Puka Nacua; Badake—Saquon Barkley; Bush—De'Von Achane; Mason—Nico Collins; Danny—Jaylen Waddle; Avery—Kyren Williams; Austin—Deebo Samuel; Zach—Derrick Henry; Thomas—Chris Olave; Tom—Isiah Pacheco.",
       "season": "Season 1",
       "week": null,
       "status": "confirmed",
       "confidence": 0.98,
-      "participants": [
-        {
-          "role": "owner",
-          "name": "Tom"
-        },
-        {
-          "role": "owner",
-          "name": "Thomas"
-        },
-        {
-          "role": "owner",
-          "name": "Zach"
-        },
-        {
-          "role": "owner",
-          "name": "Austin"
-        },
-        {
-          "role": "owner",
-          "name": "Avery"
-        },
-        {
-          "role": "owner",
-          "name": "Danny"
-        },
-        {
-          "role": "owner",
-          "name": "Mason"
-        },
-        {
-          "role": "owner",
-          "name": "Bush"
-        },
-        {
-          "role": "owner",
-          "name": "Badake"
-        },
-        {
-          "role": "owner",
-          "name": "Nathan"
-        },
-        {
-          "role": "owner",
-          "name": "Sal"
-        },
-        {
-          "role": "owner",
-          "name": "Joe"
-        }
-      ],
-      "scores": [],
-      "facts": [
-        {
-          "name": "Round 1",
-          "value": "Tom—CeeDee Lamb; Thomas—Christian McCaffrey; Zach—Tyreek Hill; Austin—Bijan Robinson; Avery—Amon-Ra St. Brown; Danny—Breece Hall; Mason—Ja'Marr Chase; Bush—Garrett Wilson; Badake—A.J. Brown; Nathan—Justin Jefferson; Sal—Jonathan Taylor; Joe—Marvin Harrison Jr."
-        }
-      ],
-      "evidence": [
-        {
-          "source": "visual",
-          "start_seconds": 407.407,
-          "end_seconds": 420.42,
-          "details": "The draft tracker shows the completed first round across all owner columns."
-        },
-        {
-          "source": "transcript",
-          "start_seconds": 419.599,
-          "end_seconds": 437.44,
-          "details": "Sal announces Jonathan Taylor at pick 11, consistent with the tracker."
-        }
-      ]
-    },
-    {
-      "event_type": "draft",
-      "summary": "Confirmed Round 2 selections include Joe—Jahmyr Gibbs; Sal—Drake London; Nathan—Puka Nacua; Badake—Saquon Barkley; Mason—De'Von Achane; Danny—Jaylen Waddle; Avery—Kyren Williams; Zach—Derrick Henry; Austin—Deebo Samuel; Thomas—Chris Olave; and Tom—Isiah Pacheco.",
-      "season": "Season 1",
-      "week": null,
-      "status": "confirmed",
-      "confidence": 0.94,
-      "participants": [
-        {
-          "role": "owner",
-          "name": "Joe"
-        },
-        {
-          "role": "owner",
-          "name": "Sal"
-        },
-        {
-          "role": "owner",
-          "name": "Nathan"
-        },
-        {
-          "role": "owner",
-          "name": "Badake"
-        },
-        {
-          "role": "owner",
-          "name": "Mason"
-        },
-        {
-          "role": "owner",
-          "name": "Danny"
-        },
-        {
-          "role": "owner",
-          "name": "Avery"
-        },
-        {
-          "role": "owner",
-          "name": "Zach"
-        },
-        {
-          "role": "owner",
-          "name": "Austin"
-        },
-        {
-          "role": "owner",
-          "name": "Thomas"
-        },
-        {
-          "role": "owner",
-          "name": "Tom"
-        }
-      ],
-      "scores": [],
-      "facts": [
-        {
-          "name": "Round 2 selections confirmed",
-          "value": "Joe—Jahmyr Gibbs; Sal—Drake London; Nathan—Puka Nacua; Badake—Saquon Barkley; Mason—De'Von Achane; Danny—Jaylen Waddle; Avery—Kyren Williams; Zach—Derrick Henry; Austin—Deebo Samuel; Thomas—Chris Olave; Tom—Isiah Pacheco"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "visual",
-          "start_seconds": 510.51,
-          "end_seconds": 524.816,
-          "details": "The tracker shows Gibbs under Joe, London under Sal, and Nacua under Nathan."
-        },
-        {
-          "source": "both",
-          "start_seconds": 544.56,
-          "end_seconds": 697.84,
-          "details": "Commentary and board views confirm Barkley, Achane, Waddle, Williams, and Henry in their respective owner columns."
-        },
-        {
-          "source": "visual",
-          "start_seconds": 718.694,
-          "end_seconds": 718.694,
-          "details": "The board lists Olave, Pacheco, and Deebo Samuel in the respective owner columns."
-        }
-      ]
-    },
-    {
-      "event_type": "draft",
-      "summary": "Round 3 selections: Tom—Cooper Kupp; Thomas—Davante Adams; Zach—Brandon Aiyuk; Austin—Mike Evans; Avery—Travis Etienne; Danny—Malik Nabers; Mason—DeVonta Smith; Bush—Travis Kelce; Badake—D.J. Moore; Nathan—Josh Jacobs; Sal—Josh Allen. Joe's card was visible only as “J. Jackson,” with the full identity unclear.",
-      "season": "Season 1",
-      "week": null,
-      "status": "confirmed",
-      "confidence": 0.9,
-      "participants": [
-        {
-          "role": "owner",
-          "name": "Tom"
-        },
-        {
-          "role": "owner",
-          "name": "Thomas"
-        },
-        {
-          "role": "owner",
-          "name": "Zach"
-        },
-        {
-          "role": "owner",
-          "name": "Austin"
-        },
-        {
-          "role": "owner",
-          "name": "Avery"
-        },
-        {
-          "role": "owner",
-          "name": "Danny"
-        },
-        {
-          "role": "owner",
-          "name": "Mason"
-        },
-        {
-          "role": "owner",
-          "name": "Bush"
-        },
-        {
-          "role": "owner",
-          "name": "Badake"
-        },
-        {
-          "role": "owner",
-          "name": "Nathan"
-        },
-        {
-          "role": "owner",
-          "name": "Sal"
-        },
-        {
-          "role": "owner",
-          "name": "Joe"
-        }
-      ],
-      "scores": [],
-      "facts": [
-        {
-          "name": "Round 3 selections",
-          "value": "Tom—Cooper Kupp; Thomas—Davante Adams; Zach—Brandon Aiyuk; Austin—Mike Evans; Avery—Travis Etienne; Danny—Malik Nabers; Mason—DeVonta Smith; Bush—Travis Kelce; Badake—D.J. Moore; Nathan—Josh Jacobs; Sal—Josh Allen; Joe—J. Jackson (full identity unclear)"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "visual",
-          "start_seconds": 720.694,
-          "end_seconds": 743.743,
-          "details": "The draft-board overlay displays the third-round cards under each owner."
-        }
-      ]
-    },
-    {
-      "event_type": "draft",
-      "summary": "Round 4 selections: Tom—Dalton Kincaid; Thomas—Alvin Kamara; Zach—Trey McBride; Austin—Jalen Hurts; Avery—Michael Pittman; Danny—Rashee Rice; Mason—Sam LaPorta; Bush—Patrick Mahomes; Badake—James Cook; Nathan—Rachaad White; Sal—DK Metcalf; Joe—Mark Andrews.",
-      "season": "Season 1",
-      "week": null,
-      "status": "confirmed",
-      "confidence": 0.97,
       "participants": [],
       "scores": [],
       "facts": [
         {
-          "name": "Round 4",
-          "value": "Tom—Dalton Kincaid; Thomas—Alvin Kamara; Zach—Trey McBride; Austin—Jalen Hurts; Avery—Michael Pittman; Danny—Rashee Rice; Mason—Sam LaPorta; Bush—Patrick Mahomes; Badake—James Cook; Nathan—Rachaad White; Sal—DK Metcalf; Joe—Mark Andrews"
+          "name": "round",
+          "value": "2"
+        },
+        {
+          "name": "selections",
+          "value": "Joe—Jahmyr Gibbs; Sal—Drake London; Nathan—Puka Nacua; Badake—Saquon Barkley; Bush—De'Von Achane; Mason—Nico Collins; Danny—Jaylen Waddle; Avery—Kyren Williams; Austin—Deebo Samuel; Zach—Derrick Henry; Thomas—Chris Olave; Tom—Isiah Pacheco"
         }
       ],
       "evidence": [
         {
+          "source": "visual",
+          "start_seconds": 718.694,
+          "end_seconds": 720.0,
+          "details": "The full first-two-round overlay lists the selections under all 12 owner columns."
+        },
+        {
           "source": "both",
-          "start_seconds": 900.96,
-          "end_seconds": 920.0,
-          "details": "The board displays the fourth selection in each owner column, with commentary naming several picks."
+          "start_seconds": 615.12,
+          "end_seconds": 697.68,
+          "details": "Draft discussion and overlay corroborate Mason—Nico Collins, Danny—Jaylen Waddle, Avery—Kyren Williams, and Zach—Derrick Henry."
         }
       ]
     },
     {
       "event_type": "draft",
-      "summary": "Round 5 selections: Tom—Anthony Richardson; Thomas—Stefon Diggs; Zach—Joe Mixon; Austin—Zay Flowers; Avery—Tee Higgins; Danny—Kyle Pitts; Mason—Amari Cooper; Bush—Tank Dell; Nathan—Jayden Reed; Sal—George Pickens; Joe—Xavier Worthy. Badake's selection was not captured clearly.",
+      "summary": "Round 3 selections confirmed were Tom—Cooper Kupp; Thomas—Davante Adams; Zach—Brandon Aiyuk; Austin—Mike Evans; Avery—Travis Etienne; Danny—Malik Nabers; Mason—DeVonta Smith; Bush—Travis Kelce; Badake—DJ Moore; Nathan—Josh Jacobs; Sal—Josh Allen. Joe's board entry is only legible as “C. Jackson.”",
       "season": "Season 1",
       "week": null,
       "status": "confirmed",
@@ -447,154 +167,24 @@
       "scores": [],
       "facts": [
         {
-          "name": "Round 5 selections confirmed",
-          "value": "Tom—Anthony Richardson; Thomas—Stefon Diggs; Zach—Joe Mixon; Austin—Zay Flowers; Avery—Tee Higgins; Danny—Kyle Pitts; Mason—Amari Cooper; Bush—Tank Dell; Nathan—Jayden Reed; Sal—George Pickens; Joe—Xavier Worthy"
+          "name": "round",
+          "value": "3"
         },
         {
-          "name": "Unresolved Round 5 selection",
-          "value": "Badake"
+          "name": "confirmed selections",
+          "value": "Tom—Cooper Kupp; Thomas—Davante Adams; Zach—Brandon Aiyuk; Austin—Mike Evans; Avery—Travis Etienne; Danny—Malik Nabers; Mason—DeVonta Smith; Bush—Travis Kelce; Badake—DJ Moore; Nathan—Josh Jacobs; Sal—Josh Allen"
+        },
+        {
+          "name": "unresolved board entry",
+          "value": "Joe—C. Jackson (as displayed)"
         }
       ],
       "evidence": [
         {
-          "source": "both",
-          "start_seconds": 1013.039,
-          "end_seconds": 1079.64,
-          "details": "The board and spoken announcements identify these fifth-round selections."
-        }
-      ]
-    },
-    {
-      "event_type": "draft",
-      "summary": "Confirmed later owner-linked selections include Zach—Rome Odunze (Round 6); Avery—Kenneth Walker (Round 6); Mason—Terry McLaurin (Round 6); and Round 7 picks Tom—Brian Thomas, Thomas—Diontae Johnson, Zach—Christian Watson, Austin—Jordan Addison, Avery—Chris Godwin, Danny—David Montgomery, and Mason—Keon Coleman.",
-      "season": "Season 1",
-      "week": null,
-      "status": "confirmed",
-      "confidence": 0.9,
-      "participants": [],
-      "scores": [],
-      "facts": [
-        {
-          "name": "Round 6 selections confirmed",
-          "value": "Zach—Rome Odunze; Avery—Kenneth Walker; Mason—Terry McLaurin"
-        },
-        {
-          "name": "Round 7 selections confirmed",
-          "value": "Tom—Brian Thomas; Thomas—Diontae Johnson; Zach—Christian Watson; Austin—Jordan Addison; Avery—Chris Godwin; Danny—David Montgomery; Mason—Keon Coleman"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "transcript",
-          "start_seconds": 1145.12,
-          "end_seconds": 1164.64,
-          "details": "Zach says he selected Rome Odunze in Round 6."
-        },
-        {
-          "source": "both",
-          "start_seconds": 1192.32,
-          "end_seconds": 1201.52,
-          "details": "Commentary and board identify Mason's McLaurin selection and Avery's Kenneth Walker selection."
-        },
-        {
-          "source": "both",
-          "start_seconds": 1222.32,
-          "end_seconds": 1258.315,
-          "details": "Consecutive announcements and the board show the listed Round 7 selections."
-        }
-      ]
-    },
-    {
-      "event_type": "injury_update",
-      "summary": "The drafter of Marquise “Hollywood” Brown said Brown was injured at the time of the draft; no injury type, timetable, or owner assignment was established.",
-      "season": "Season 1",
-      "week": null,
-      "status": "reported",
-      "confidence": 0.82,
-      "participants": [
-        {
-          "role": "NFL player",
-          "name": "Marquise Brown"
-        }
-      ],
-      "scores": [],
-      "facts": [
-        {
-          "name": "Injury detail",
-          "value": "Described only as “injured right now”"
-        },
-        {
-          "name": "Fantasy owner",
-          "value": "Not reliably identified"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "transcript",
-          "start_seconds": 1272.64,
-          "end_seconds": 1276.64,
-          "details": "Following the Brown selection, the speaker says he does not care that Brown is injured right now."
-        }
-      ]
-    },
-    {
-      "event_type": "injury_update",
-      "summary": "Jalen McMillan was described by a speaker as dealing with an injury, though the speaker said it did not appear serious by available accounts.",
-      "season": "Season 1",
-      "week": null,
-      "status": "reported",
-      "confidence": 0.82,
-      "participants": [
-        {
-          "role": "NFL player",
-          "name": "Jalen McMillan"
-        }
-      ],
-      "scores": [],
-      "facts": [
-        {
-          "name": "Severity characterization",
-          "value": "Speaker said it did not seem serious"
-        },
-        {
-          "name": "Fantasy owner",
-          "value": "Not reliably identified"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "transcript",
-          "start_seconds": 1667.88,
-          "end_seconds": 1675.04,
-          "details": "The speaker says McMillan is dealing with an injury but that it does not seem serious by all accounts."
-        }
-      ]
-    },
-    {
-      "event_type": "other",
-      "summary": "The speakers stated that the draft was complete and said a last-place punishment and first-place rewards would be explained later.",
-      "season": "Season 1",
-      "week": null,
-      "status": "confirmed",
-      "confidence": 0.96,
-      "participants": [],
-      "scores": [],
-      "facts": [
-        {
-          "name": "Draft status",
-          "value": "Finished"
-        },
-        {
-          "name": "Future league details previewed",
-          "value": "Last-place punishment and first-place rewards"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "transcript",
-          "start_seconds": 1778.24,
-          "end_seconds": 1796.08,
-          "details": "The closing remarks say they finished the draft and will later discuss the punishment and rewards."
+          "source": "visual",
+          "start_seconds": 752.254,
+          "end_seconds": 764.867,
+          "details": "The roster overlay and board identify the listed third-round selections; Joe's entry is only readable as “C. Jackson.”}]},{"
         }
       ]
     }
