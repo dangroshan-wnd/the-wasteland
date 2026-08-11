@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "video_id": "4g7RRKqHFgM",
+  "video_title": "200 Fans Auditioned To Join Our Fantasy League",
+  "raw_sample_counts": {
+    "scene": 374,
+    "periodic": 111,
+    "targeted": 90,
+    "configured": 0
+  },
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_2",
+    "season": {
+      "id": "season_2",
+      "label": "Season 2",
+      "start_date": "2025-08-02",
+      "end_date": "2025-12-30",
+      "team_owners": [],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "200 Fans Auditioned To Join Our Fantasy League",
+      "upload_date": "20250802",
+      "season": "season_2",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        6.24,
+        40.007,
+        48.275,
+        50.275,
+        52.275,
+        60.06,
+        83.85,
+        90.09,
+        124.424,
+        139.355,
+        143.355,
+        158.314
+      ]
+    },
+    {
+      "index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        189.823,
+        206.54,
+        219.753,
+        232.132,
+        252.986,
+        270.27,
+        288.435,
+        292.435,
+        311.378,
+        329.914,
+        333.914,
+        351.075
+      ]
+    },
+    {
+      "index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        366.733,
+        397.035,
+        399.035,
+        406.834,
+        425.875,
+        444.711,
+        455.488,
+        471.394,
+        483.983,
+        507.507,
+        510.51,
+        534.601
+      ]
+    },
+    {
+      "index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        540.54,
+        556.875,
+        558.875,
+        560.875,
+        578.978,
+        596.663,
+        602.769,
+        623.835,
+        630.63,
+        660.66,
+        682.074,
+        690.715
+      ]
+    },
+    {
+      "index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        725.658,
+        750.75,
+        770.154,
+        772.154,
+        780.78,
+        803.236,
+        818.317,
+        836.602,
+        843.743,
+        869.135,
+        870.87,
+        890.594
+      ]
+    },
+    {
+      "index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        903.995,
+        907.995,
+        915.194,
+        930.93,
+        945.912,
+        970.069,
+        980.395,
+        1003.955,
+        1007.955,
+        1021.02,
+        1039.505,
+        1051.05
+      ]
+    },
+    {
+      "index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1081.08,
+        1113.394,
+        1115.394,
+        1117.394,
+        1141.14,
+        1157.39,
+        1171.17,
+        1192.475,
+        1194.475,
+        1201.2,
+        1219.185,
+        1239.555
+      ]
+    },
+    {
+      "index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1262.661,
+        1282.515,
+        1284.515,
+        1286.515,
+        1297.129,
+        1321.32,
+        1359.491,
+        1379.311,
+        1381.38,
+        1403.075,
+        1405.075,
+        1412.478
+      ]
+    },
+    {
+      "index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1441.44,
+        1457.089,
+        1471.47,
+        1477.443,
+        1501.5,
+        1505.771,
+        1517.95,
+        1531.53,
+        1539.104,
+        1561.56,
+        1591.59,
+        1615.414
+      ]
+    },
+    {
+      "index": 9,
+      "start": 1620.0,
+      "end": 1800.0,
+      "transient_sample_count": 10,
+      "sample_timestamps": [
+        1621.62,
+        1631.797,
+        1651.65,
+        1681.68,
+        1693.225,
+        1711.71,
+        1719.384,
+        1741.74,
+        1751.049,
+        1771.436
+      ]
+    },
+    {
+      "index": 10,
+      "start": 1800.0,
+      "end": 1980.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        1801.8,
+        1812.811,
+        1831.83,
+        1841.106,
+        1861.86,
+        1874.039,
+        1891.89,
+        1904.202,
+        1921.92,
+        1948.98,
+        1951.95,
+        1969.701
+      ]
+    },
+    {
+      "index": 11,
+      "start": 1980.0,
+      "end": 2160.0,
+      "transient_sample_count": 11,
+      "sample_timestamps": [
+        1981.98,
+        1992.724,
+        2012.01,
+        2016.815,
+        2042.04,
+        2060.995,
+        2062.995,
+        2064.995,
+        2072.203,
+        2102.1,
+        2132.13
+      ]
+    },
+    {
+      "index": 12,
+      "start": 2160.0,
+      "end": 2340.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        2162.16,
+        2192.19,
+        2205.07,
+        2222.22,
+        2238.303,
+        2252.25,
+        2264.195,
+        2273.671,
+        2281.78,
+        2287.719,
+        2301.432,
+        2312.31
+      ]
+    },
+    {
+      "index": 13,
+      "start": 2340.0,
+      "end": 2520.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        2342.34,
+        2353.585,
+        2363.428,
+        2372.37,
+        2394.692,
+        2402.4,
+        2432.43,
+        2463.328,
+        2492.49,
+        2508.235,
+        2510.235,
+        2512.235
+      ]
+    },
+    {
+      "index": 14,
+      "start": 2520.0,
+      "end": 2700.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        2529.427,
+        2539.637,
+        2552.55,
+        2567.555,
+        2571.555,
+        2582.58,
+        2601.732,
+        2619.55,
+        2631.762,
+        2652.45,
+        2672.67,
+        2687.919
+      ]
+    },
+    {
+      "index": 15,
+      "start": 2700.0,
+      "end": 2880.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        2702.7,
+        2724.188,
+        2732.73,
+        2739.937,
+        2755.653,
+        2762.76,
+        2798.362,
+        2805.636,
+        2807.838,
+        2820.384,
+        2848.979,
+        2858.923
+      ]
+    },
+    {
+      "index": 16,
+      "start": 2880.0,
+      "end": 3060.0,
+      "transient_sample_count": 12,
+      "sample_timestamps": [
+        2882.88,
+        2897.695,
+        2910.074,
+        2912.91,
+        2932.73,
+        2940.271,
+        2942.94,
+        2972.97,
+        2986.183,
+        3007.905,
+        3033.03,
+        3055.653
+      ]
+    },
+    {
+      "index": 17,
+      "start": 3060.0,
+      "end": 3240.0,
+      "transient_sample_count": 8,
+      "sample_timestamps": [
+        3063.06,
+        3093.09,
+        3115.145,
+        3123.12,
+        3144.141,
+        3153.15,
+        3183.18,
+        3213.21
+      ]
+    },
+    {
+      "index": 18,
+      "start": 3240.0,
+      "end": 3326.0,
+      "transient_sample_count": 7,
+      "sample_timestamps": [
+        3243.24,
+        3273.27,
+        3283.874,
+        3285.874,
+        3287.874,
+        3303.3,
+        3323.287
+      ]
+    }
+  ]
+}

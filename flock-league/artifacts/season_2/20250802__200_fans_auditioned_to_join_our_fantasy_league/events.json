@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "video_id": "4g7RRKqHFgM",
+  "video_title": "200 Fans Auditioned To Join Our Fantasy League",
+  "season": "Season 2",
+  "week": null,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_2",
+    "season": {
+      "id": "season_2",
+      "label": "Season 2",
+      "start_date": "2025-08-02",
+      "end_date": "2025-12-30",
+      "team_owners": [],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "200 Fans Auditioned To Join Our Fantasy League",
+      "upload_date": "20250802",
+      "season": "season_2",
+      "instructions": ""
+    }
+  },
+  "events": [
+    {
+      "event_type": "roster_move",
+      "summary": "Sam Millet was selected to join the Flock League as its incoming fan participant for the season; flights to Austin were booked.",
+      "season": "Season 2",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.99,
+      "participants": [
+        {
+          "role": "incoming participant",
+          "name": "Sam Millet"
+        },
+        {
+          "role": "backup candidate",
+          "name": "Zoofuh"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Sam Millet audition score",
+          "score": 63.5
+        },
+        {
+          "name": "Zoofuh audition score",
+          "score": 58.0
+        }
+      ],
+      "facts": [
+        {
+          "name": "selection",
+          "value": "Sam Millet selected for the 12th league spot"
+        },
+        {
+          "name": "backup_candidate",
+          "value": "Zoofuh, if Sam declines"
+        },
+        {
+          "name": "travel",
+          "value": "Flights booked to Austin"
+        },
+        {
+          "name": "participation_term",
+          "value": "One year; may return for 2026 if he wins the league"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "both",
+          "start_seconds": 2501.2,
+          "end_seconds": 2514.16,
+          "details": "Sam's official audition score is stated as 63.5 and the score board lists him first."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 3111.68,
+          "end_seconds": 3125.28,
+          "details": "Hosts announce Sam at No. 1, identify Zoofuh as backup if Sam declines, and say flights are booked and Sam is coming to Austin."
+        },
+        {
+          "source": "transcript",
+          "start_seconds": 3145.76,
+          "end_seconds": 3166.96,
+          "details": "Hosts state Sam's participation is for one year unless he wins, which would allow a 2026 return."
+        }
+      ]
+    },
+    {
+      "event_type": "standings",
+      "summary": "The visible audition standings placed Sam Millet first with 63.5 points and Zoofuh second with 58.",
+      "season": "Season 2",
+      "week": null,
+      "status": "confirmed",
+      "confidence": 0.98,
+      "participants": [
+        {
+          "role": "audition leader",
+          "name": "Sam Millet"
+        },
+        {
+          "role": "second-place audition candidate",
+          "name": "Zoofuh"
+        }
+      ],
+      "scores": [
+        {
+          "name": "Sam Millet",
+          "score": 63.5
+        },
+        {
+          "name": "Zoofuh",
+          "score": 58.0
+        },
+        {
+          "name": "Shaun",
+          "score": 51.0
+        },
+        {
+          "name": "Alec",
+          "score": 47.0
+        },
+        {
+          "name": "Batman",
+          "score": 46.5
+        },
+        {
+          "name": "Dylpicks",
+          "score": 45.5
+        },
+        {
+          "name": "Notorious",
+          "score": 41.0
+        },
+        {
+          "name": "Jose",
+          "score": 34.0
+        },
+        {
+          "name": "TD Vulture",
+          "score": 33.0
+        }
+      ],
+      "facts": [
+        {
+          "name": "standings_type",
+          "value": "Fan-audition leaderboard, not fantasy-season standings"
+        }
+      ],
+      "evidence": [
+        {
+          "source": "visual",
+          "start_seconds": 2064.995,
+          "end_seconds": 2064.995,
+          "details": "Scoreboard lists Zoofuh 58, Shaun 51, Alec 47, Batman 46.5, Dylpicks 45.5, Notorious 41, Jose 34, and TD Vulture 33."
+        },
+        {
+          "source": "both",
+          "start_seconds": 2501.2,
+          "end_seconds": 2514.16,
+          "details": "Sam is stated and shown as the number-one audition entry with 63.5."
+        }
+      ]
+    }
+  ]
+}

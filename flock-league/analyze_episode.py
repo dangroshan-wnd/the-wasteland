@@ -2,20 +2,19 @@
 """Review one episode with transient visuals and write notes, events, and a recap."""
 
 import argparse
-import base64
 import hashlib
 import json
 import os
+import shutil
+import subprocess
 import tempfile
 import tomllib
 from datetime import date
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Literal
+from typing import Any, Literal, TypeVar
 
-from openai import OpenAI
-from dotenv import load_dotenv
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 from extract_frames import (
     artifact_directory,
@@ -28,25 +27,30 @@ from extract_frames import (
 )
 
 
-SCRIPT_VERSION = 5
+SCRIPT_VERSION = 6
 DEFAULT_MODEL = "gpt-5.6-terra"
 REPOSITORY_DIR = Path(__file__).resolve().parent.parent
 DEFAULT_GUIDANCE_PATH = Path(__file__).resolve().parent / "config" / "review-guidance.toml"
+StructuredOutput = TypeVar("StructuredOutput", bound=BaseModel)
 
 
-class FactField(BaseModel):
+class StructuredModel(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+
+class FactField(StructuredModel):
     name: str
     value: str
 
 
-class Evidence(BaseModel):
+class Evidence(StructuredModel):
     source: Literal["transcript", "visual", "both"]
     start_seconds: float
     end_seconds: float
     details: str
 
 
-class WindowObservation(BaseModel):
+class WindowObservation(StructuredModel):
     category: Literal[
         "matchup_result",
         "trade",
@@ -67,23 +71,23 @@ class WindowObservation(BaseModel):
     evidence: list[Evidence]
 
 
-class WindowReview(BaseModel):
+class WindowReview(StructuredModel):
     window_summary: str
     observations: list[WindowObservation]
     open_questions: list[str]
 
 
-class EventParticipant(BaseModel):
+class EventParticipant(StructuredModel):
     role: str
     name: str
 
 
-class ScoreEntry(BaseModel):
+class ScoreEntry(StructuredModel):
     name: str
     score: float
 
 
-class LeagueEvent(BaseModel):
+class LeagueEvent(StructuredModel):
     event_type: Literal[
         "matchup_result",
         "trade",
@@ -106,23 +110,23 @@ class LeagueEvent(BaseModel):
     evidence: list[Evidence]
 
 
-class RecapSection(BaseModel):
+class RecapSection(StructuredModel):
     heading: str
     body: str
 
 
-class SupplementalOutput(BaseModel):
+class SupplementalOutput(StructuredModel):
     id: str
     content: str
 
 
-class InstructionCompliance(BaseModel):
+class InstructionCompliance(StructuredModel):
     instruction: str
     status: Literal["fulfilled", "partial", "unfulfilled", "not_applicable"]
     details: str
 
 
-class EpisodeSynthesis(BaseModel):
+class EpisodeSynthesis(StructuredModel):
     season: str | None
     week: int | None
     summary: str
@@ -169,7 +173,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--model",
         default=os.environ.get("FLOCK_LEAGUE_MODEL", DEFAULT_MODEL),
-        help=f"Vision-capable Responses API model (default: {DEFAULT_MODEL}).",
+        help=f"Vision-capable Codex model (default: {DEFAULT_MODEL}).",
     )
     parser.add_argument(
         "--reasoning-effort",
@@ -189,9 +193,14 @@ def parse_args() -> argparse.Namespace:
         help="Maximum transient images supplied per window (default: 12).",
     )
     parser.add_argument(
-        "--image-detail",
-        choices=("low", "high", "original", "auto"),
-        default="high",
+        "--codex",
+        help="Path or command name for the Codex CLI; defaults to PATH lookup.",
+    )
+    parser.add_argument(
+        "--codex-timeout-seconds",
+        type=float,
+        default=900.0,
+        help="Timeout for each Codex invocation (default: 900).",
     )
     parser.add_argument("--ffmpeg", help="Path to ffmpeg; defaults to PATH lookup.")
     parser.add_argument(
@@ -203,7 +212,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--prepare-only",
         action="store_true",
-        help="Build transcript and review plan without making API calls.",
+        help="Build transcript and review plan without invoking Codex.",
     )
     parser.add_argument(
         "--force",
@@ -215,6 +224,8 @@ def parse_args() -> argparse.Namespace:
         parser.error("--window-seconds must be greater than zero")
     if args.max_images_per_window <= 0:
         parser.error("--max-images-per-window must be greater than zero")
+    if args.codex_timeout_seconds <= 0:
+        parser.error("--codex-timeout-seconds must be greater than zero")
     return args
 
 
@@ -320,10 +331,6 @@ def sampling_reason(sample: dict[str, Any]) -> str:
     if keywords:
         reason += f"; caption keywords: {', '.join(keywords)}"
     return reason
-
-
-def encode_image(path: Path) -> str:
-    return base64.b64encode(path.read_bytes()).decode("ascii")
 
 
 def json_safe(value: Any) -> Any:
@@ -543,69 +550,178 @@ def structured_episode_controls(
     return visual_timestamps, recap_exclusions, outputs
 
 
+def find_codex(configured: str | None) -> str:
+    candidates = [configured] if configured else (
+        ["codex.cmd", "codex.exe", "codex"] if os.name == "nt" else ["codex"]
+    )
+    for candidate in candidates:
+        if not candidate:
+            continue
+        explicit = Path(candidate).expanduser()
+        if explicit.is_file():
+            return str(explicit.resolve())
+        discovered = shutil.which(candidate)
+        if discovered:
+            return discovered
+    raise SystemExit(
+        "Codex CLI was not found. Install Codex or pass its path with --codex."
+    )
+
+
+def codex_environment() -> dict[str, str]:
+    environment = os.environ.copy()
+    # This pipeline must use the saved ChatGPT login, never API-key billing.
+    environment.pop("OPENAI_API_KEY", None)
+    environment.pop("CODEX_API_KEY", None)
+    return environment
+
+
+def require_chatgpt_auth(codex: str) -> None:
+    result = subprocess.run(
+        [codex, "login", "status"],
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        env=codex_environment(),
+        check=False,
+    )
+    status = "\n".join(part for part in (result.stdout, result.stderr) if part).strip()
+    normalized = status.casefold()
+    if result.returncode != 0 or "not logged in" in normalized:
+        command = "codex.cmd login" if os.name == "nt" else "codex login"
+        raise SystemExit(
+            f"Codex is not signed in. Run `{command}`, choose ChatGPT sign-in, "
+            "and rerun the analysis."
+        )
+    if "chatgpt" not in normalized or "api key" in normalized:
+        raise SystemExit(
+            "Codex is not confirmed to be using ChatGPT subscription authentication. "
+            "Refusing to run to prevent API-key usage. "
+            f"`codex login status` reported: {status}"
+        )
+
+
+def run_codex_structured(
+    codex: str,
+    args: argparse.Namespace,
+    prompt: str,
+    output_type: type[StructuredOutput],
+    images: list[Path],
+    scratch_dir: Path,
+    label: str,
+) -> StructuredOutput:
+    schema_path = scratch_dir / f"{label}-schema.json"
+    result_path = scratch_dir / f"{label}-result.json"
+    schema_path.write_text(
+        json.dumps(output_type.model_json_schema(), indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+    result_path.unlink(missing_ok=True)
+
+    command = [
+        codex,
+        "exec",
+        "--ephemeral",
+        "--ignore-user-config",
+        "--ignore-rules",
+        "--skip-git-repo-check",
+        "--sandbox",
+        "read-only",
+        "--cd",
+        str(scratch_dir),
+        "--model",
+        args.model,
+        "--config",
+        f'model_reasoning_effort="{args.reasoning_effort}"',
+        "--output-schema",
+        str(schema_path),
+        "--output-last-message",
+        str(result_path),
+    ]
+    for image_path in images:
+        command.extend(["--image", str(image_path.resolve())])
+    command.append("-")
+
+    try:
+        result = subprocess.run(
+            command,
+            input=prompt,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            env=codex_environment(),
+            timeout=args.codex_timeout_seconds,
+            check=False,
+        )
+    except subprocess.TimeoutExpired as error:
+        raise RuntimeError(
+            f"Codex timed out after {args.codex_timeout_seconds:g} seconds during {label}."
+        ) from error
+    if result.returncode != 0:
+        details = (result.stderr or result.stdout).strip()
+        if len(details) > 4000:
+            details = details[-4000:]
+        raise RuntimeError(f"Codex failed during {label}:\n{details}")
+    if not result_path.is_file():
+        raise RuntimeError(f"Codex produced no structured output file during {label}.")
+    try:
+        return output_type.model_validate_json(result_path.read_text(encoding="utf-8"))
+    except Exception as error:
+        raise RuntimeError(
+            f"Codex returned invalid structured output during {label}: {error}"
+        ) from error
+
+
 def review_window(
-    client: OpenAI,
+    codex: str,
     args: argparse.Namespace,
     title: str,
     window: dict[str, Any],
     transcript: str,
     samples: list[dict[str, Any]],
     guidance: dict[str, Any],
+    scratch_dir: Path,
 ) -> WindowReview:
-    content: list[dict[str, Any]] = [
-        {
-            "type": "input_text",
-            "text": (
-                f"Episode: {title}\n"
-                f"Window: {timestamp_display(window['start'])}–"
-                f"{timestamp_display(window['end'])}\n\n"
-                f"Timestamped transcript:\n{transcript}"
-            ),
-        }
-    ]
-    for sample in samples:
-        content.append(
-            {
-                "type": "input_text",
-                "text": (
-                    f"Visual sample at {timestamp_display(sample['timestamp'])}. "
-                    f"Selection reason: {sampling_reason(sample)}"
-                ),
-            }
-        )
-        content.append(
-            {
-                "type": "input_image",
-                "image_url": f"data:image/jpeg;base64,{encode_image(sample['path'])}",
-                "detail": args.image_detail,
-            }
-        )
-
-    response = client.responses.parse(
-        model=args.model,
-        reasoning={"effort": args.reasoning_effort},
-        store=False,
-        input=[
-            {
-                "role": "system",
-                "content": WINDOW_SYSTEM_PROMPT + trusted_guidance_prompt(guidance),
-            },
-            {"role": "user", "content": content},
-        ],
-        text_format=WindowReview,
+    visual_index = "\n".join(
+        f"{index}. {timestamp_display(sample['timestamp'])}; "
+        f"selection reason: {sampling_reason(sample)}"
+        for index, sample in enumerate(samples, start=1)
     )
-    if response.output_parsed is None:
-        raise RuntimeError("The model returned no parsed window review.")
-    return response.output_parsed
+    prompt = (
+        "AUTHORITATIVE ANALYSIS INSTRUCTIONS\n"
+        + WINDOW_SYSTEM_PROMPT
+        + trusted_guidance_prompt(guidance)
+        + "\n\nDo not inspect other files, execute commands, browse, or modify anything. "
+        "Analyze only the supplied transcript and attached images. Return only the "
+        "JSON object required by the provided output schema.\n\n"
+        f"Episode: {title}\n"
+        f"Window: {timestamp_display(window['start'])}–"
+        f"{timestamp_display(window['end'])}\n\n"
+        f"Timestamped transcript:\n{transcript}\n\n"
+        "Attached visual samples in attachment order:\n"
+        + (visual_index or "[No visual samples]")
+    )
+    return run_codex_structured(
+        codex=codex,
+        args=args,
+        prompt=prompt,
+        output_type=WindowReview,
+        images=[sample["path"] for sample in samples],
+        scratch_dir=scratch_dir,
+        label=f"window-{window['index']:04d}",
+    )
 
 
 def synthesize_episode(
-    client: OpenAI,
+    codex: str,
     args: argparse.Namespace,
     metadata: dict[str, Any],
     segments: list[dict[str, Any]],
     reviews: list[dict[str, Any]],
     guidance: dict[str, Any],
+    scratch_dir: Path,
 ) -> EpisodeSynthesis:
     transcript = "\n".join(
         f"[{timestamp_display(segment['start'])}] {segment['text']}" for segment in segments
@@ -620,26 +736,25 @@ def synthesize_episode(
         "window_reviews": reviews,
         "transcript": transcript,
     }
-    response = client.responses.parse(
-        model=args.model,
-        reasoning={"effort": args.reasoning_effort},
-        store=False,
-        input=[
-            {
-                "role": "system",
-                "content": SYNTHESIS_SYSTEM_PROMPT + trusted_guidance_prompt(guidance),
-            },
-            {
-                "role": "user",
-                "content": "Create the episode synthesis from this source JSON:\n"
-                + json.dumps(source, ensure_ascii=False),
-            },
-        ],
-        text_format=EpisodeSynthesis,
+    prompt = (
+        "AUTHORITATIVE ANALYSIS INSTRUCTIONS\n"
+        + SYNTHESIS_SYSTEM_PROMPT
+        + trusted_guidance_prompt(guidance)
+        + "\n\nDo not inspect other files, execute commands, browse, or modify anything. "
+        "Analyze only the source JSON below. Return only the JSON object required "
+        "by the provided output schema.\n\nCreate the episode synthesis from this "
+        "source JSON:\n"
+        + json.dumps(source, ensure_ascii=False)
     )
-    if response.output_parsed is None:
-        raise RuntimeError("The model returned no parsed episode synthesis.")
-    return response.output_parsed
+    return run_codex_structured(
+        codex=codex,
+        args=args,
+        prompt=prompt,
+        output_type=EpisodeSynthesis,
+        images=[],
+        scratch_dir=scratch_dir,
+        label="episode-synthesis",
+    )
 
 
 def fingerprint(paths: list[Path | None], settings: dict[str, Any]) -> str:
@@ -660,21 +775,10 @@ def write_json(path: Path, value: Any) -> None:
     temporary.replace(path)
 
 
-def recap_markdown(
-    title: str, synthesis: EpisodeSynthesis, excluded_event_types: set[str]
-) -> str:
+def recap_markdown(title: str, synthesis: EpisodeSynthesis) -> str:
     lines = [f"# {title}", "", synthesis.summary.strip(), ""]
     for section in synthesis.sections:
         lines.extend([f"## {section.heading}", "", section.body.strip(), ""])
-    recap_events = [
-        event for event in synthesis.events if event.event_type not in excluded_event_types
-    ]
-    if recap_events:
-        lines.extend(["## Key league events", ""])
-        for event in recap_events:
-            qualifier = "" if event.status == "confirmed" else f" ({event.status})"
-            lines.append(f"- {event.summary}{qualifier}")
-        lines.append("")
     if synthesis.open_questions:
         lines.extend(["## Items requiring review", ""])
         lines.extend(f"- {question}" for question in synthesis.open_questions)
@@ -717,12 +821,10 @@ def prepare_supplemental_outputs(
 
 def main() -> None:
     args = parse_args()
-    load_dotenv(REPOSITORY_DIR / ".env")
-    if not args.prepare_only and not os.environ.get("OPENAI_API_KEY"):
-        raise SystemExit(
-            "OPENAI_API_KEY is not configured. Set it in the environment or run with "
-            "--prepare-only to validate local processing without API calls."
-        )
+    codex = None
+    if not args.prepare_only:
+        codex = find_codex(args.codex)
+        require_chatgpt_auth(codex)
 
     ffmpeg = find_ffmpeg(args.ffmpeg)
     media, metadata_path, caption, metadata = find_episode_files(args.video_id)
@@ -753,7 +855,7 @@ def main() -> None:
     transcript_path = output_dir / "transcript.json"
     episode_metadata_path = output_dir / "metadata.json"
     review_plan_path = output_dir / "review-plan.json"
-    visual_timestamps, recap_exclusions, requested_outputs = structured_episode_controls(
+    visual_timestamps, _recap_exclusions, requested_outputs = structured_episode_controls(
         guidance, duration, output_dir
     )
 
@@ -791,7 +893,7 @@ def main() -> None:
         "reasoning_effort": args.reasoning_effort,
         "window_seconds": args.window_seconds,
         "max_images_per_window": args.max_images_per_window,
-        "image_detail": args.image_detail,
+        "backend": "codex-chatgpt-auth",
         "guidance": guidance,
         "sampling": {
             "periodic_interval": 30.0,
@@ -812,13 +914,14 @@ def main() -> None:
             return
 
     windows = build_windows(duration, args.window_seconds)
-    with tempfile.TemporaryDirectory(prefix="episode-review-", dir=output_dir) as temp:
+    with tempfile.TemporaryDirectory(prefix="episode-review-") as temp:
+        scratch_dir = Path(temp)
         samples, raw_counts = create_temporary_samples(
             ffmpeg=ffmpeg,
             media=media,
             caption=caption,
             duration=duration,
-            temp_dir=Path(temp),
+            temp_dir=scratch_dir,
             configured_timestamps=visual_timestamps,
         )
         for window in windows:
@@ -869,7 +972,7 @@ def main() -> None:
                     review["window_index"]: review for review in existing.get("windows", [])
                 }
 
-        client = OpenAI(max_retries=3, timeout=300.0)
+        assert codex is not None
         for window in windows:
             if window["index"] in completed_reviews:
                 print(f"Window {window['index'] + 1}/{len(windows)} already complete; skipping.")
@@ -880,13 +983,14 @@ def main() -> None:
             )
             transcript = transcript_for_window(segments, window["start"], window["end"])
             review = review_window(
-                client,
+                codex,
                 args,
                 metadata.get("title") or args.video_id,
                 window,
                 transcript,
                 window["samples"],
                 guidance,
+                scratch_dir,
             )
             completed_reviews[window["index"]] = {
                 "window_index": window["index"],
@@ -914,7 +1018,7 @@ def main() -> None:
         ordered_reviews = [completed_reviews[index] for index in sorted(completed_reviews)]
         print("Synthesizing episode events and recap...")
         synthesis = synthesize_episode(
-            client, args, metadata, segments, ordered_reviews, guidance
+            codex, args, metadata, segments, ordered_reviews, guidance, scratch_dir
         )
         supplemental_outputs = prepare_supplemental_outputs(
             synthesis, requested_outputs
@@ -958,11 +1062,7 @@ def main() -> None:
             },
         )
         recap_path.write_text(
-            recap_markdown(
-                metadata.get("title") or args.video_id,
-                synthesis,
-                recap_exclusions,
-            ),
+            recap_markdown(metadata.get("title") or args.video_id, synthesis),
             encoding="utf-8",
         )
         for path, output_format, value in supplemental_outputs:

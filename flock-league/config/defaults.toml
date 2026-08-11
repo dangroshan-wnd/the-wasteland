@@ -10,4 +10,5 @@ instructions = """
 7. Be concise in the note-taking; wordiness is not a virtue.
 8. Make note of any "items requiring review" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.
 9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.
+10. Write the recap as a concise, non-repetitive narrative. State each fact only once. The opening summary should give only the episode's main outcome in one or two sentences. Each subsequent section must add new information rather than restating the summary or another section. Omit any section that would merely repeat an already stated event.
 """

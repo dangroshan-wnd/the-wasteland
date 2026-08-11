@@ -100,35 +100,37 @@ Useful tuning options include `--periodic-interval`, `--scene-threshold`,
 ### Analyze an episode
 
 The episode reviewer combines cleaned caption windows with transient visual
-samples and uses the OpenAI Responses API to write structured notes, normalized
-events, and a Markdown recap. Install the dependencies, add your API key to the
-ignored `.env` file in the repository root, and provide the episode's YouTube
+samples and uses the local Codex CLI with ChatGPT subscription authentication to
+write structured notes, normalized events, and a Markdown recap. Install the
+dependencies, sign Codex in with ChatGPT once, and provide the episode's YouTube
 ID:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r .\flock-league\requirements.txt
+codex.cmd login
+codex.cmd login status
 .\.venv\Scripts\python.exe .\flock-league\analyze_episode.py -- -9vcgs-W6YM
 ```
 
-The local `.env` entry should be:
+Choose the browser-based ChatGPT sign-in flow. The analyzer verifies that
+`codex login status` identifies ChatGPT authentication and removes
+`OPENAI_API_KEY` and `CODEX_API_KEY` from every Codex child process. It refuses
+to analyze when ChatGPT authentication cannot be confirmed, preventing fallback
+to API-key billing. The repository-root `.env` file is not read by this script.
 
-```dotenv
-OPENAI_API_KEY=your-key-here
-```
+The configurable default is `gpt-5.6-terra` with medium reasoning. Use
+`--model`, `--reasoning-effort`, `--window-seconds`,
+`--max-images-per-window`, and `--codex-timeout-seconds` to tune the run. Pass
+`--codex` if the Codex executable is not discoverable on `PATH`.
 
-API model usage is billed to the project associated with the supplied key. The
-configurable default is `gpt-5.6-terra` with medium reasoning. Use `--model`,
-`--reasoning-effort`, `--window-seconds`, `--max-images-per-window`, and
-`--image-detail` to tune quality, latency, and cost.
-
-To validate all local preparation without an API key or model charges:
+To validate all local preparation without invoking Codex:
 
 ```powershell
 .\.venv\Scripts\python.exe .\flock-league\analyze_episode.py --prepare-only -- -9vcgs-W6YM
 ```
 
 The reviewer writes `metadata.json`, a deduplicated `transcript.json`, and
-`review-plan.json` before making model calls. During a full run it checkpoints
+`review-plan.json` before invoking Codex. During a full run it checkpoints
 each completed window in `episode_notes.json`, allowing an interrupted run to
 resume without repeating completed window calls. When complete, it writes:
 
@@ -150,9 +152,9 @@ underscores, while parentheses are retained (for example,
 remains the canonical lookup key and is stored with `video_title` in generated
 JSON files.
 
-Images exist only inside the active temporary directory. Base64 image data is
-sent directly to the model and is not written to any artifact. Successful,
-failed, and interrupted runs retain zero image files.
+Images exist only inside the active system temporary directory and are attached
+directly to the Codex invocation. They are not written to any artifact.
+Successful, failed, and interrupted runs retain zero image files.
 
 ### Add season and episode guidance
 

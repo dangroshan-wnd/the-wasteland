@@ -1,0 +1,1153 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-11T22:51:55.855330+00:00",
+  "fingerprint": "39e12cc44b72e5d7900974b2188da51b52774f605c1bc4c1db3f370fd1de3291",
+  "complete": true,
+  "model": "gpt-5.6-terra",
+  "video_id": "4g7RRKqHFgM",
+  "video_title": "200 Fans Auditioned To Join Our Fantasy League",
+  "retained_image_count": 0,
+  "guidance": {
+    "sources": [
+      "review-guidance.toml",
+      "defaults.toml",
+      "episodes.toml",
+      "seasons\\season-1.toml",
+      "seasons\\season-2.toml",
+      "seasons\\season-3.toml"
+    ],
+    "defaults": {
+      "instructions": "1. This is a video series that follows a group of friends/content creators competitive Fantasy Football league. The league takes place during an individual NFL season. There is a playoff tournament at the end of each \"season\", ultimately resulting in a championship winner. There is also an Ultimate Loser of each season, who faces a special punishment before the start of the following season. Each new season starts fresh, coinciding with the start of the next NFL season. The inaugural season took place during the 2024-25 NFL season.\n2. Reference a generic Fantasy Football PPR ruleset to understand how the game is played.\n3. The narrative importance should be placed primarily on the \"Team Owners\" rather than the NFL athletes. For example, if noting that NFL athlete Puka Nacua is injured during Week 1, it is important to note who is the Team Owner with Puka Nacua on their team.\n4. Team names (e.g. \"StevenSwagal\") may change week-to-week but Team Owner (e.g. \"Tom\") should remain static. Therefore, it is best to use the Team Owner name rather than the Team name in all notes.\n5. Track as many details of who wins head-to-head matchups (including the score) each week, but note that the full details of every matchup are not always available for a given week due to how the videos are selectively edited.\n6. Always make note of mentioned injuries, trades, and waiver wire actions.\n7. Be concise in the note-taking; wordiness is not a virtue.\n8. Make note of any \"items requiring review\" for each episode so that the human (me) can review your uncertainties and potentially add more guidance.\n9. YouTube transcripts can be used as a supplement but note that they are not 100% accurate. If ever noticing a discrepancy between transcripted text and what appears on-screen, defer to on-screen content.\n"
+    },
+    "season_id": "season_2",
+    "season": {
+      "id": "season_2",
+      "label": "Season 2",
+      "start_date": "2025-08-02",
+      "end_date": "2025-12-30",
+      "team_owners": [],
+      "instructions": ""
+    },
+    "episode": {
+      "title": "200 Fans Auditioned To Join Our Fantasy League",
+      "upload_date": "20250802",
+      "season": "season_2",
+      "instructions": ""
+    }
+  },
+  "windows": [
+    {
+      "window_index": 0,
+      "start": 0.0,
+      "end": 180.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "League members begin reviewing fan-submitted audition clips to fill the league's 12th spot; no winner is selected in this window.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Sean Thompson submits an audition to become the next member of the Fantasy Flock League, competing for the league's 12th spot.",
+            "status": "reported",
+            "confidence": 0.96,
+            "raw_names": [
+              "Sean Thompson",
+              "Fantasy Flock League"
+            ],
+            "facts": [
+              {
+                "name": "roster_status",
+                "value": "Candidate/audition; not selected in this window"
+              },
+              {
+                "name": "open_spot",
+                "value": "12th league spot"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 16.4,
+                "end_seconds": 51.12,
+                "details": "Hosts say they will review fan submissions for the 12th spot and choose a winner at the end of the video."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 112.23,
+                "end_seconds": 116.16,
+                "details": "The audition states, 'My name is Sean Thompson' and that he is seeking to be the next member of the Fantasy Flock League."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Which fan ultimately wins the 12th league spot?"
+        ]
+      }
+    },
+    {
+      "window_index": 1,
+      "start": 180.0,
+      "end": 360.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Panelists score the audition clip of a candidate referred to as Antler Eyes; no fantasy-league transaction, matchup, injury, or roster event is established.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Audition candidate Antler Eyes received panel scores of 10, 8.5, 7, 5, 5, and 5.5; another panelist subsequently states a 10, while the displayed tally at that point shows a seventh 10.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Antler Eyes",
+              "Bodaki",
+              "Bush",
+              "Nathan",
+              "Avery",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "score_sequence",
+                "value": "10, 8.5, 7, 5, 5, 5.5, 10"
+              },
+              {
+                "name": "scoring_basis",
+                "value": "Creativity was stated as the primary criterion by the final speaker."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 184.0,
+                "end_seconds": 191.04,
+                "details": "Transcript gives Antler Eyes a 10; visual at 00:04:12.986 shows the first score icon labeled 10."
+              },
+              {
+                "source": "both",
+                "start_seconds": 202.72,
+                "end_seconds": 207.2,
+                "details": "Transcript gives an 8.5; visual at 00:04:30.270 shows score icons 10 and 8.5."
+              },
+              {
+                "source": "both",
+                "start_seconds": 296.24,
+                "end_seconds": 305.2,
+                "details": "Transcript gives 7, then 5 and 5; visuals at 00:05:11.378 and 00:05:29.914 show the tally through 5."
+              },
+              {
+                "source": "both",
+                "start_seconds": 329.04,
+                "end_seconds": 351.92,
+                "details": "Transcript gives 5.5, then says there are two 10s and explains creativity; visual at 00:05:33.914 shows 5.5 and visual at 00:05:51.075 shows the seventh score as 10."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The candidate's actual identity and whether they ultimately joined the league are not established in this window.",
+          "The transcript attributes a five-point score to Avery, but the complete speaker-to-score mapping is not fully visible."
+        ]
+      }
+    },
+    {
+      "window_index": 2,
+      "start": 360.0,
+      "end": 540.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The group continues judging auditions for the league’s 12th member. Jose Hernandez’s audition is shown and begins receiving scores; no new league member is selected in this window.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "The contest is to choose the Flock League’s 12th member from fan applicants.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [],
+            "facts": [
+              {
+                "name": "contest purpose",
+                "value": "Select the 12th member of the Flock League"
+              },
+              {
+                "name": "candidate status",
+                "value": "No winner is announced in this window"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 366.88,
+                "end_seconds": 369.04,
+                "details": "Speakers state that the contest is for the 12th member of the Flock League."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 366.733,
+                "end_seconds": 366.733,
+                "details": "Four-person Flock League discussion panel is visible."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Jose Hernandez is an audition candidate; Bush gives his audition a score of 5.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Jose Hernandez",
+              "Bush"
+            ],
+            "facts": [
+              {
+                "name": "candidate",
+                "value": "Jose Hernandez"
+              },
+              {
+                "name": "scorer",
+                "value": "Bush"
+              },
+              {
+                "name": "score",
+                "value": "5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 414.0,
+                "end_seconds": 418.16,
+                "details": "The group introduces Jose Hernandez’s audition."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 534.8,
+                "end_seconds": 538.16,
+                "details": "Bush says, “the Jose grade I gave a five.”},{"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 425.874,
+                "end_seconds": 425.874,
+                "details": "Jose’s audition video is visible, including the caption ‘Let’s go, Little Mason.’"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The final composite score and selection outcome for Jose Hernandez are not shown in this window.",
+          "The displayed ‘Total score for Antleriz Shawn: 51 points’ appears to concern a different applicant, but the exact identity/spelling and its place in the selection process are unclear."
+        ]
+      }
+    },
+    {
+      "window_index": 3,
+      "start": 540.0,
+      "end": 720.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "League members discuss and score an audition clip from “Lil Mason,” then introduce a new audition from “TD Vultures.” No league admission or roster move is confirmed in this window.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "“Lil Mason” receives visible audition ratings of 5, 4, 4, 8, 3, 3, and 7 from the panel; the 8 is explicitly stated as an 8/10 and the 3 as a 3/10. This is an evaluation only, not a confirmed league selection.",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "raw_names": [
+              "Lil Mason",
+              "Tom",
+              "Sean",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "audition_ratings",
+                "value": "5, 4, 4, 8, 3, 3, 7"
+              },
+              {
+                "name": "highest_visible_rating",
+                "value": "8/10"
+              },
+              {
+                "name": "lowest_visible_rating",
+                "value": "3/10"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 599.279,
+                "end_seconds": 620.96,
+                "details": "Panel members state ratings including 4, 8, 3, and 7; the discussion identifies the audition subject as Lil Mason."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 623.835,
+                "end_seconds": 623.835,
+                "details": "On-screen score tiles show seven ratings: 5, 4, 4, 8, 3, 3, and 7."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "A new audition clip is introduced as “TD Vultures”; a speaker says they believe one of its members is “Bush,” but this identification is uncertain.",
+            "status": "unclear",
+            "confidence": 0.55,
+            "raw_names": [
+              "TD Vultures",
+              "Bush"
+            ],
+            "facts": [],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 630.0,
+                "end_seconds": 638.32,
+                "details": "Speaker introduces “TD Vultures” and says, “I’m pretty sure one of these guys are Bush, but we’ll see.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Whether Lil Mason or TD Vultures was ultimately selected to join the league is not established in this window.",
+          "The identity of “Bush” in TD Vultures is only a tentative comment."
+        ]
+      }
+    },
+    {
+      "window_index": 4,
+      "start": 720.0,
+      "end": 900.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Panelists reviewed and scored the fan audition submitted by TD Vulture; no league roster, matchup, trade, waiver, or injury event was confirmed.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "TD Vulture's audition received panel scores ranging from 3 to 6.5; the window does not state a selection outcome.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "TD Vulture",
+              "Mason",
+              "Corey",
+              "Avery"
+            ],
+            "facts": [
+              {
+                "name": "scores stated",
+                "value": "5, 4.5, 3, weak 5, 3, 6.5, and 6"
+              },
+              {
+                "name": "selection outcome",
+                "value": "Not stated in this window"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 743.6,
+                "end_seconds": 778.0,
+                "details": "Panelists discuss TD Vulture's audition and state scores including 5, 4.5, 3, weak 5, 3, 6.5, and 6."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 770.78,
+                "end_seconds": 818.32,
+                "details": "On-screen score graphics progress from 5 and 4.5 to additional scores of 3, 5, and 3."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Was TD Vulture ultimately selected to join the league? This window does not say."
+        ]
+      }
+    },
+    {
+      "window_index": 5,
+      "start": 900.0,
+      "end": 1080.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Audition scoring eliminates Alec from consideration for the league’s open spot.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Alec received 47 points in the audition rankings, placed behind Shaun (51), and was said not to make the league.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Alec",
+              "Shaun",
+              "Sean Antler Ice"
+            ],
+            "facts": [
+              {
+                "name": "Alec audition score",
+                "value": "47"
+              },
+              {
+                "name": "Shaun audition score",
+                "value": "51"
+              },
+              {
+                "name": "Outcome",
+                "value": "Alec did not make it"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1004.48,
+                "end_seconds": 1010.0,
+                "details": "Speaker says the candidate is behind 'Sean Antler Ice,' will score 47 total, and 'sadly not make it.'"
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1007.955,
+                "end_seconds": 1007.955,
+                "details": "Scoreboard shows Shaun 51 and Alec 47."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The transcript’s spoken name 'Sean Antler Ice' differs from the on-screen scoreboard name 'Shaun'; their exact identity/team-name mapping is unclear."
+        ]
+      }
+    },
+    {
+      "window_index": 6,
+      "start": 1080.0,
+      "end": 1260.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The group reviews applicant Dill Pix’s audition and records seven ratings; no roster decision is shown.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Dill Pix’s audition is evaluated with seven visible scores: 7.5, 6.5, 4.5, 7, 5, 9, and 6. The reviewers praise its humor/editing but repeatedly note limited league references.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Dill Pix"
+            ],
+            "facts": [
+              {
+                "name": "score_1",
+                "value": "7.5"
+              },
+              {
+                "name": "score_2",
+                "value": "6.5"
+              },
+              {
+                "name": "score_3",
+                "value": "4.5"
+              },
+              {
+                "name": "score_4",
+                "value": "7"
+              },
+              {
+                "name": "score_5",
+                "value": "5"
+              },
+              {
+                "name": "score_6",
+                "value": "9"
+              },
+              {
+                "name": "score_7",
+                "value": "6"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1163.44,
+                "end_seconds": 1242.24,
+                "details": "Reviewers state the individual ratings and explain their critiques."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 1239.555,
+                "end_seconds": 1239.555,
+                "details": "On-screen score row displays 7.5, 6.5, 4.5, 7, 5, 9, and 6."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window does not show whether Dill Pix is selected to join the league."
+        ]
+      }
+    },
+    {
+      "window_index": 7,
+      "start": 1260.0,
+      "end": 1440.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The group reviews fan applicant William Dempsey (“the Black Batman”) and gives preliminary audition feedback; no fantasy-league transaction or roster outcome is confirmed.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "William Dempsey, presented as “the Black Batman,” auditions to join the league. A reviewer assigns him a score of 5, while another says they gave him an A for the humor and group dynamic he could bring.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "William Dempsey",
+              "the Black Batman",
+              "Cory",
+              "Nathan"
+            ],
+            "facts": [
+              {
+                "name": "audition_score",
+                "value": "5"
+              },
+              {
+                "name": "additional_grade",
+                "value": "A"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1267.52,
+                "end_seconds": 1269.92,
+                "details": "Speaker identifies William Dempsey as the Black Batman."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1395.68,
+                "end_seconds": 1399.92,
+                "details": "Reviewer says they will give William a five."
+              },
+              {
+                "source": "both",
+                "start_seconds": 1421.2,
+                "end_seconds": 1437.76,
+                "details": "Speaker says they gave Black Batman an A because of the dynamics and humor he could bring; the on-screen score 5 is visible shortly after the discussion begins."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window does not establish whether William Dempsey was ultimately selected to join the league."
+        ]
+      }
+    },
+    {
+      "window_index": 8,
+      "start": 1440.0,
+      "end": 1620.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Audition scoring continues; Notorious Fantasy presents an application to join the Flock League.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "An audition clip received a total score of 46.5. The displayed/audition leaderboard then listed Shawn Antler Ice first, Alec second, and Black Batman third.",
+            "status": "confirmed",
+            "confidence": 0.93,
+            "raw_names": [
+              "Shawn Antler Ice",
+              "Alec",
+              "Black Batman"
+            ],
+            "facts": [
+              {
+                "name": "audition_score",
+                "value": "46.5"
+              },
+              {
+                "name": "leaderboard_order",
+                "value": "1. Shawn Antler Ice; 2. Alec; 3. Black Batman"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2867.84,
+                "end_seconds": 2878.32,
+                "details": "Speakers state the total score and leaderboard order."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "A candidate calling himself Notorious Fantasy says he wants to compete in the Flock League and predicts he will win its championship; this is an audition/prediction, not a confirmed roster move or league result.",
+            "status": "speculative",
+            "confidence": 0.96,
+            "raw_names": [
+              "Notorious Fantasy",
+              "Nick",
+              "Bush",
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "candidate",
+                "value": "Notorious Fantasy"
+              },
+              {
+                "name": "claimed_event",
+                "value": "Plans to attend Austin, Texas on August 15–16 and compete in the Flock League"
+              },
+              {
+                "name": "claimed_goal",
+                "value": "Win the Flock League championship"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2892.48,
+                "end_seconds": 2923.76,
+                "details": "Candidate describes his wedding, names Bush and Danny, and says he wants to compete in the Flock League."
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 2946.96,
+                "end_seconds": 2983.52,
+                "details": "Candidate says he will be in Austin on August 15–16 and predicts he is the league's best fantasy player."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 2897.95,
+                "end_seconds": 2900.0,
+                "details": "Wedding photo shown during the candidate's audition clip."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Whether Notorious Fantasy is selected for the league is not established in this window.",
+          "The audition leaderboard's relationship to final league membership is not stated."
+        ]
+      }
+    },
+    {
+      "window_index": 9,
+      "start": 1620.0,
+      "end": 1800.0,
+      "transient_image_count": 10,
+      "review": {
+        "window_summary": "Panel reviews prospective applicants for the fantasy league; no completed league transaction, roster move, matchup, or injury is established.",
+        "observations": [],
+        "open_questions": [
+          "Nick from Notorious Fantasy receives a stated total audition score of 41, but this window does not announce whether he is selected for the league."
+        ]
+      }
+    },
+    {
+      "window_index": 10,
+      "start": 1800.0,
+      "end": 1980.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Audition footage for Zufa includes trade-related boasts; panel discussion references Mason and a prior second-round playoff loss, but no confirmed current-season league transaction or roster decision occurs.",
+        "observations": [
+          {
+            "category": "standings",
+            "summary": "During panel discussion, a speaker says that “The Joker” lost in the second round of the playoffs. The clip does not establish whether “The Joker” is Mason.",
+            "status": "reported",
+            "confidence": 0.68,
+            "raw_names": [
+              "The Joker",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "playoff result",
+                "value": "The Joker reportedly lost in the second round of the playoffs."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1958.88,
+                "end_seconds": 1961.52,
+                "details": "Speaker says, “The Joker lost in the second round of the playoffs.”"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 1952.72,
+                "end_seconds": 1957.92,
+                "details": "Panel discusses people calling Mason “the Joker,” but does not confirm the identity link."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Panelist Bush says he gave audition candidate Zufa a score of seven; the transcript cuts off before any final selection decision.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Bush",
+              "Zufa"
+            ],
+            "facts": [
+              {
+                "name": "audition score",
+                "value": "Zufa received a 7 from Bush."
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 1975.76,
+                "end_seconds": 1977.68,
+                "details": "Bush says, “I gave Zufa a seven.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Whether “The Joker” refers to Mason.",
+          "Whether Zufa was selected to join the league; no decision is shown in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 11,
+      "start": 1980.0,
+      "end": 2160.0,
+      "transient_image_count": 11,
+      "review": {
+        "window_summary": "Audition scoring continues for a prospective 12th league member; no entrant is selected in this window.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Zoofuh leads the fan-audition scoreboard with 58 points, but this is an ongoing selection process rather than a confirmed league addition.",
+            "status": "confirmed",
+            "confidence": 0.97,
+            "raw_names": [
+              "Zoofuh"
+            ],
+            "facts": [
+              {
+                "name": "audition_score",
+                "value": "58 points"
+              },
+              {
+                "name": "audition_rank",
+                "value": "1st"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 2058.8,
+                "end_seconds": 2064.72,
+                "details": "Speakers assign the final eight-point score and state that it puts the candidate in the lead with 58 points; the later on-screen scoreboard spells the name as Zoofuh and shows 58."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 2064.995,
+                "end_seconds": 2064.995,
+                "details": "On-screen scoreboard lists '1. ZOOFUH' with 58."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "The visible audition standings are: Zoofuh 58, Shaun 51, Alec 47, Batman 46.5, Dylpicks 45.5, Notorious 41, Jose 34, and TD Vulture 33.",
+            "status": "confirmed",
+            "confidence": 0.96,
+            "raw_names": [
+              "Zoofuh",
+              "Shaun",
+              "Alec",
+              "Batman",
+              "Dylpicks",
+              "Notorious",
+              "Jose",
+              "TD Vulture"
+            ],
+            "facts": [
+              {
+                "name": "audition_standings",
+                "value": "1. Zoofuh 58; 2. Shaun 51; 3. Alec 47; 4. Batman 46.5; 5. Dylpicks 45.5; 6. Notorious 41; 7. Jose 34; 8. TD Vulture 33"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "visual",
+                "start_seconds": 2064.995,
+                "end_seconds": 2064.995,
+                "details": "Orange 'Scores' panel displays the eight ranked candidates and point totals."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Whether Zoofuh ultimately joins the league as the 12th member is not resolved in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 12,
+      "start": 2160.0,
+      "end": 2340.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "A fan audition video is shown and the group begins discussing/rating the applicant; no completed fantasy-league transaction, matchup, injury, roster move, or standings result is established.",
+        "observations": [],
+        "open_questions": [
+          "Whether the applicant discussed as “Sam” was ultimately selected is not resolved in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 13,
+      "start": 2340.0,
+      "end": 2520.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Audition scoring concludes for Sam; he takes the top spot with a 63.5 official score.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Sam Millet's audition receives an official score of 63.5 and moves him into the number-one spot on the audition leaderboard.",
+            "status": "confirmed",
+            "confidence": 0.99,
+            "raw_names": [
+              "Sam",
+              "Sam Millet",
+              "Thomas"
+            ],
+            "facts": [
+              {
+                "name": "official_score",
+                "value": "63.5"
+              },
+              {
+                "name": "leaderboard_position",
+                "value": "1"
+              },
+              {
+                "name": "lower_score_outlier",
+                "value": "Thomas gave 5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 2501.2,
+                "end_seconds": 2514.16,
+                "details": "Speakers state that Sam's official score is 63.5, call him the number-one entry, and say everyone rated him at least 9 except Thomas; the on-screen Scores board lists Sam Millet first with 63.5."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The window does not confirm whether Sam Millet is ultimately admitted to the fantasy league."
+        ]
+      }
+    },
+    {
+      "window_index": 14,
+      "start": 2520.0,
+      "end": 2700.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "The panel reviews applicant Wes; no confirmed current-league transaction or matchup result occurs.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Wes auditions for a spot in the fantasy league, describing past success in a separate league; the panel discusses but does not confirm his admission.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Wes"
+            ],
+            "facts": [
+              {
+                "name": "event",
+                "value": "League-spot audition"
+              },
+              {
+                "name": "outcome",
+                "value": "No admission decision shown in this window"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 2527.52,
+                "end_seconds": 2548.96,
+                "details": "Wes introduces himself as seeking one league spot; visuals show his audition and judges."
+              }
+            ]
+          },
+          {
+            "category": "roster_move",
+            "summary": "Danny is referred to as already being in the league.",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "raw_names": [
+              "Danny"
+            ],
+            "facts": [
+              {
+                "name": "roster_status",
+                "value": "Existing league member"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 2640.96,
+                "end_seconds": 2651.2,
+                "details": "A judge says stories about old fantasy leagues are 'already in our league with Danny.'"
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "The speakers give Wes ratings (including 85 and 5), but the final selection outcome is not shown."
+        ]
+      }
+    },
+    {
+      "window_index": 15,
+      "start": 2700.0,
+      "end": 2880.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Audition judging and a candidate’s promotional clip; no confirmed fantasy-league transaction, matchup result, roster move, or injury update is established in this window.",
+        "observations": [],
+        "open_questions": []
+      }
+    },
+    {
+      "window_index": 16,
+      "start": 2880.0,
+      "end": 3060.0,
+      "transient_image_count": 12,
+      "review": {
+        "window_summary": "Panel discusses and scores an audition submission from Tom; no league-selection decision is shown.",
+        "observations": [
+          {
+            "category": "other",
+            "summary": "Audition candidate Tom received seven visible panel scores: 6, 8, 10, 3, 7, 7, and 8. The discussion is evaluative; it does not confirm that he joins the league.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Tom",
+              "Avery",
+              "Zack"
+            ],
+            "facts": [
+              {
+                "name": "audition_scores",
+                "value": "6, 8, 10, 3, 7, 7, 8"
+              },
+              {
+                "name": "selection_outcome",
+                "value": "Not shown in this window"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "both",
+                "start_seconds": 2971.68,
+                "end_seconds": 3055.653,
+                "details": "Transcript states the individual scores, and the on-screen score graphics cumulatively display 6, 8, 10, 3, 7, 7, and 8."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Whether Tom was ultimately selected to join the league is not established in this window."
+        ]
+      }
+    },
+    {
+      "window_index": 17,
+      "start": 3060.0,
+      "end": 3240.0,
+      "transient_image_count": 8,
+      "review": {
+        "window_summary": "Sam Millet is selected as the incoming fan participant for the league; Zoofuh is the backup candidate.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Sam Millet is confirmed as joining the league for the season; flights to Austin are booked. Zoofuh would receive the invitation if Sam declines.",
+            "status": "confirmed",
+            "confidence": 0.98,
+            "raw_names": [
+              "Sam Millet",
+              "Sam",
+              "Zoofuh",
+              "Zufa"
+            ],
+            "facts": [
+              {
+                "name": "incoming_participant",
+                "value": "Sam Millet"
+              },
+              {
+                "name": "backup_candidate",
+                "value": "Zoofuh"
+              },
+              {
+                "name": "travel",
+                "value": "Flights booked to Austin"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 3111.68,
+                "end_seconds": 3125.28,
+                "details": "The hosts announce Sam at No. 1, say Zoofuh is the backup if Sam declines, and state that flights are booked and Sam is coming to Austin."
+              },
+              {
+                "source": "visual",
+                "start_seconds": 3093.09,
+                "end_seconds": 3093.09,
+                "details": "On-screen audition leaderboard lists Sam Millet first and Zoofuh second."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "The hosts state that Sam's league participation is limited to one year unless he wins the league, in which case he can return for 2026.",
+            "status": "confirmed",
+            "confidence": 0.94,
+            "raw_names": [
+              "Sam"
+            ],
+            "facts": [
+              {
+                "name": "participation_term",
+                "value": "One year"
+              },
+              {
+                "name": "return_condition",
+                "value": "May return for 2026 if he wins the league"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 3145.76,
+                "end_seconds": 3166.96,
+                "details": "A host says this is Sam's only year in the league unless he wins it, which would allow him to return for 2026."
+              }
+            ]
+          },
+          {
+            "category": "other",
+            "summary": "Sam identifies \"the team of Destiny\" as a prospective rival later in the season and denies any collusion with Land; this is a stated intention/assurance, not a completed league event.",
+            "status": "speculative",
+            "confidence": 0.88,
+            "raw_names": [
+              "Sam",
+              "Dev",
+              "team of Destiny",
+              "Land"
+            ],
+            "facts": [
+              {
+                "name": "prospective_rival",
+                "value": "Team of Destiny"
+              },
+              {
+                "name": "collusion_statement",
+                "value": "Sam says there will be no collusion with Land"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 3209.92,
+                "end_seconds": 3234.56,
+                "details": "Sam says he may start with Dev before eventually coming for the team of Destiny, and says there is no Land collusion."
+              }
+            ]
+          }
+        ],
+        "open_questions": [
+          "Whether \"Dev\" and \"the team of Destiny\" correspond to established team owners is not resolved within this window."
+        ]
+      }
+    },
+    {
+      "window_index": 18,
+      "start": 3240.0,
+      "end": 3326.0,
+      "transient_image_count": 7,
+      "review": {
+        "window_summary": "Nick, the new editor, is introduced as a league member; the remainder is banter about the league’s international makeup and his audition win.",
+        "observations": [
+          {
+            "category": "roster_move",
+            "summary": "Nick, identified as the new editor, is in the fantasy league and says he came out on top in the selection process.",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "raw_names": [
+              "Nick",
+              "Mason"
+            ],
+            "facts": [
+              {
+                "name": "person",
+                "value": "Nick"
+              },
+              {
+                "name": "league status",
+                "value": "in the league"
+              },
+              {
+                "name": "selection outcome",
+                "value": "came out on top"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "transcript",
+                "start_seconds": 3240.88,
+                "end_seconds": 3243.12,
+                "details": "Speaker says, “Nick, the new editor in the league is Canadian.”"
+              },
+              {
+                "source": "transcript",
+                "start_seconds": 3291.36,
+                "end_seconds": 3302.16,
+                "details": "Nick says that when it came time, “my land boys, they got me” and that he is happy he “came out on top.”"
+              }
+            ]
+          }
+        ],
+        "open_questions": []
+      }
+    }
+  ],
+  "open_questions": [
+    "The ending refers to “Nick, the new editor in the league,” while the confirmed audition winner is Sam Millet; the source does not clearly establish whether Nick is a separate existing league member or a naming/transcript ambiguity.",
+    "The exact identity spelling of Shaun/Sean Antler Ice remains inconsistent between transcript and on-screen displays."
+  ],
+  "instruction_compliance": [
+    {
+      "instruction": "Consolidate evidence-linked notes, distinguish confirmed events from proposals or predictions, and preserve unresolved conflicts.",
+      "status": "fulfilled",
+      "details": "Confirmed selection and audition standings are retained with supporting timestamps; audition boasts, rival calls, and collusion assurances were not treated as completed league events."
+    },
+    {
+      "instruction": "Prioritize team owners and record league actions, injuries, trades, waivers, and matchup results when supported.",
+      "status": "fulfilled",
+      "details": "This episode establishes a league-entry selection; it does not confirm any fantasy matchup, trade, waiver, or injury event."
+    },
+    {
+      "instruction": "Honor recap exclusions and return each declared supplemental output exactly once.",
+      "status": "fulfilled",
+      "details": "No recap exclusions or supplemental outputs were configured."
+    }
+  ],
+  "supplemental_outputs": []
+}
