@@ -5,7 +5,7 @@ from __future__ import annotations
 import os
 from datetime import UTC, datetime
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import parse_qsl, quote, urlencode, urlsplit, urlunsplit
 
 import psycopg
 import pytest
@@ -80,6 +80,13 @@ def _snapshot(*, title: str = "Software Engineer") -> SnapshotRecord:
     )
 
 
+def _with_session_timezone(database_url: str, timezone_name: str) -> str:
+    parsed = urlsplit(database_url)
+    query = dict(parse_qsl(parsed.query, keep_blank_values=True))
+    query["options"] = f"-c timezone={timezone_name}"
+    return urlunsplit(parsed._replace(query=urlencode(query, quote_via=quote)))
+
+
 def test_insert_and_jsonb_round_trip(database_url: str) -> None:
     expected = _snapshot()
 
@@ -92,6 +99,20 @@ def test_insert_and_jsonb_round_trip(database_url: str) -> None:
         "id": 1,
         "attributes": {"active": True},
     }
+
+
+def test_round_trip_normalizes_non_utc_database_session(database_url: str) -> None:
+    session_url = _with_session_timezone(database_url, "America/New_York")
+    expected = _snapshot()
+
+    inserted = persist_snapshot(session_url, expected)
+    retried = persist_snapshot(session_url, _snapshot(title="Changed during retry"))
+
+    assert inserted.inserted is True
+    assert inserted.snapshot == expected
+    assert inserted.snapshot.captured_at.tzinfo is UTC
+    assert retried.inserted is False
+    assert retried.snapshot == expected
 
 
 def test_retry_returns_first_snapshot_without_updating_it(database_url: str) -> None:
