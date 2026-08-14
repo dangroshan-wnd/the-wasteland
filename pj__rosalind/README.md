@@ -13,13 +13,13 @@ DNA sequence from standard input and prints the counts of `A`, `C`, `G`, and
 Run the solution:
 
 ```powershell
-Get-Content input.txt | python rosalind/dna.py
+Get-Content input.txt | python pj__rosalind/dna.py
 ```
 
 Run its tests from the repository root:
 
 ```powershell
-python -m unittest discover -s rosalind/tests -v
+python -m unittest discover -s pj__rosalind/tests -v
 ```
 
 The solution uses only the Python standard library.

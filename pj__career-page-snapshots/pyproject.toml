@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "career-page-snapshots"
+version = "0.1.0"
+description = "Collect complete company career-page snapshots into Postgres."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "alembic>=1.16,<2",
+    "beautifulsoup4>=4.13,<5",
+    "httpx>=0.28,<1",
+    "prefect>=3.1,<4",
+    "psycopg[binary]>=3.2,<4",
+    "pydantic>=2.10,<3",
+    "pydantic-settings>=2.7,<3",
+    "pyyaml>=6,<7",
+]
+
+[project.scripts]
+career-page-snapshots = "career_page_snapshots.cli:main"
+career-page-snapshots-check = "career_page_snapshots.readiness:main"
+career-page-snapshots-deployment = "career_page_snapshots.deployment:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3,<10",
+    "ruff>=0.16,<0.17",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/career_page_snapshots"]
+
+[tool.pytest.ini_options]
+addopts = "-m 'not integration'"
+markers = [
+    "integration: tests that require an external service such as Postgres",
+]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "UP"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["career_page_snapshots"]

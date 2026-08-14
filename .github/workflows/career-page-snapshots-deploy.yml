@@ -1,0 +1,120 @@
+name: Register Prefect production deployment
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - pj__career-page-snapshots/prefect.yaml
+      - pj__career-page-snapshots/requirements-prod.txt
+      - pj__career-page-snapshots/src/**
+      - pj__career-page-snapshots/companies.yml
+      - pj__career-page-snapshots/pyproject.toml
+      - pj__career-page-snapshots/uv.lock
+      - .github/workflows/career-page-snapshots-deploy.yml
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: Register the runnable production deployment
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: prefect-production-deployment
+  cancel-in-progress: false
+
+jobs:
+  validate-and-deploy:
+    name: Validate and optionally deploy to Prefect Managed
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: pj__career-page-snapshots
+    env:
+      PREFECT_HOME: /tmp/prefect
+      PREFECT_API_URL: ${{ secrets.PREFECT_API_URL }}
+      PREFECT_API_KEY: ${{ secrets.PREFECT_API_KEY }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Install uv and Python
+        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          version: "0.10.7"
+          python-version: "3.12"
+          enable-cache: true
+          cache-dependency-glob: pj__career-page-snapshots/uv.lock
+
+      - name: Install locked environment
+        run: uv sync --locked --dev
+
+      - name: Validate deployment offline
+        run: uv run career-page-snapshots-deployment validate
+
+      - name: Verify exported production dependencies are current
+        run: |
+          uv export --locked --no-dev --no-editable --no-header --no-hashes \
+            --format requirements.txt --output-file requirements-prod.generated.txt
+          diff --strip-trailing-cr requirements-prod.txt requirements-prod.generated.txt
+
+      - name: Determine deployment request
+        id: deployment
+        env:
+          MANUAL_DEPLOY: ${{ inputs.deploy || false }}
+        run: |
+          if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
+            echo "requested=true" >> "${GITHUB_OUTPUT}"
+          else
+            echo "requested=${MANUAL_DEPLOY}" >> "${GITHUB_OUTPUT}"
+          fi
+
+      - name: Require Prefect credentials for manual deployment
+        if: >-
+          github.event_name == 'workflow_dispatch' &&
+          steps.deployment.outputs.requested == 'true' &&
+          (env.PREFECT_API_URL == '' || env.PREFECT_API_KEY == '')
+        run: |
+          echo "Manual deployment requested, but PREFECT_API_URL and PREFECT_API_KEY are required."
+          exit 1
+
+      - name: Ensure Prefect Managed work pool exists
+        if: >-
+          steps.deployment.outputs.requested == 'true' &&
+          env.PREFECT_API_URL != '' &&
+          env.PREFECT_API_KEY != ''
+        run: |
+          if ! uv run prefect work-pool inspect career-page-snapshots-managed; then
+            uv run prefect work-pool create career-page-snapshots-managed --type prefect:managed
+          fi
+
+      - name: Register runnable production deployment
+        if: >-
+          steps.deployment.outputs.requested == 'true' &&
+          env.PREFECT_API_URL != '' &&
+          env.PREFECT_API_KEY != ''
+        run: uv run prefect deploy --all --no-prompt
+
+      - name: Report skipped automatic deployment
+        if: >-
+          github.event_name == 'push' &&
+          (env.PREFECT_API_URL == '' || env.PREFECT_API_KEY == '')
+        run: >-
+          echo "Offline validation passed; Prefect deployment skipped because Cloud credentials are unavailable."
+
+      - name: Report validation-only manual run
+        if: >-
+          github.event_name == 'workflow_dispatch' &&
+          steps.deployment.outputs.requested != 'true'
+        run: echo "Offline validation passed; manual deployment was not requested."
+
+      - name: Summarize production safety state
+        run: |
+          echo "The production deployment targets Prefect Managed and Neon PostgreSQL." >> "${GITHUB_STEP_SUMMARY}"
+          echo "Its smoke-tested schedule runs daily at 9 PM America/New_York." >> "${GITHUB_STEP_SUMMARY}"

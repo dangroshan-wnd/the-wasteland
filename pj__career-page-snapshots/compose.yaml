@@ -1,0 +1,41 @@
+name: career-page-snapshots
+
+services:
+  app:
+    profiles:
+      - app
+    image: career-page-snapshots:dev
+    build:
+      context: .
+    environment:
+      APP_ENV: dev
+      COMPANIES_FILE: /app/companies.yml
+      HTTP_TIMEOUT_SECONDS: ${HTTP_TIMEOUT_SECONDS:-30}
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  postgres:
+    image: postgres:17.10-bookworm
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:?Set POSTGRES_DB in .env}
+      POSTGRES_USER: ${POSTGRES_USER:?Set POSTGRES_USER in .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres-dev-data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U "$${POSTGRES_USER}" -d "$${POSTGRES_DB}"
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    shm_size: 128mb
+
+volumes:
+  postgres-dev-data:
+    name: career-page-snapshots-postgres-dev-data

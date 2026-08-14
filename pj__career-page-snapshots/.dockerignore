@@ -1,0 +1,8 @@
+**
+!Dockerfile
+!pyproject.toml
+!uv.lock
+!README.md
+!companies.yml
+!src/
+!src/**

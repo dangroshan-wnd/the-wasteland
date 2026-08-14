@@ -1,0 +1,22 @@
+{
+  "jobs": [
+    {
+      "id": 101,
+      "title": "Software Engineer",
+      "location": {"name": "New York or Remote"},
+      "absolute_url": "https://job-boards.greenhouse.io/example/jobs/101",
+      "content": "<p>Build reliable systems.</p>",
+      "departments": [{"id": 10, "name": "Engineering"}],
+      "updated_at": "2026-08-01T12:00:00Z"
+    },
+    {
+      "id": 102,
+      "title": "Operations Analyst",
+      "location": {"name": "New York, NY"},
+      "absolute_url": "https://job-boards.greenhouse.io/example/jobs/102",
+      "departments": [],
+      "updated_at": "2026-08-02T12:00:00Z"
+    }
+  ],
+  "meta": {"total": 2}
+}

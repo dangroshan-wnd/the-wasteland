@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lever-101",
+    "text": "Forward Deployed Engineer",
+    "categories": {
+      "commitment": "Full-time",
+      "location": "New York, NY",
+      "team": "Engineering",
+      "allLocations": ["New York, NY", "Washington, DC"]
+    },
+    "descriptionPlain": "Work directly with customers.",
+    "hostedUrl": "https://jobs.lever.co/example/lever-101",
+    "createdAt": 1785600000000
+  },
+  {
+    "id": "lever-102",
+    "text": "Product Designer",
+    "categories": {
+      "commitment": "Full-time",
+      "location": "London, United Kingdom",
+      "team": "Design"
+    },
+    "hostedUrl": "https://jobs.lever.co/example/lever-102",
+    "createdAt": 1785686400000
+  }
+]

@@ -1,0 +1,19 @@
+companies:
+  - name: Netflix
+    scraper: eightfold
+    slug: netflix
+    careers_host: explore.jobs.netflix.net
+    domain: netflix.com
+
+  - name: Kalshi
+    scraper: greenhouse
+    slug: kalshi
+
+  - name: Google
+    scraper: google
+    slug: google
+
+  - name: Palantir
+    scraper: lever
+    slug: palantir
+    region: global

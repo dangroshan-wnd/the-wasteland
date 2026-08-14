@@ -1,0 +1,26 @@
+{
+  "count": 3,
+  "positions": [
+    {
+      "id": 201,
+      "name": "Senior Software Engineer",
+      "posting_name": "Senior Software Engineer",
+      "location": "USA - Remote",
+      "locations": ["USA - Remote"],
+      "department": "Engineering",
+      "business_unit": "Product",
+      "job_description": "",
+      "canonicalPositionUrl": "https://explore.jobs.example.com/careers/job/201",
+      "t_update": 1785600000
+    },
+    {
+      "id": 202,
+      "name": "Content Accountant",
+      "location": "Los Angeles, California",
+      "locations": ["Los Angeles, California", "New York, New York"],
+      "department": "Finance",
+      "canonicalPositionUrl": "https://explore.jobs.example.com/careers/job/202",
+      "t_update": 1785686400
+    }
+  ]
+}

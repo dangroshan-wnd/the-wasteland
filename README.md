@@ -1,23 +1,19 @@
 # The Wasteland
 
-An all-purpose sandbox for experiments, prototypes, and random ideas. Projects
-that grow beyond the experimental stage may graduate into repositories of their
-own.
+The shared home for data ingestion, collection, and focused experimental projects. Each substantial
+project is isolated in a `pj__*` directory with its own dependencies, tests, and operating notes.
 
-## Getting started
+## Projects
 
-Create and activate the local Python environment:
+- [`pj__career-page-snapshots/`](pj__career-page-snapshots/) collects complete company job-board
+  snapshots into Postgres and deploys through Prefect Managed.
+- [`pj__biotechnology/`](pj__biotechnology/) contains biotechnology experiments.
+- [`pj__flock-league/`](pj__flock-league/) contains Flock League media tooling and derived analysis.
+- [`pj__rosalind/`](pj__rosalind/) contains tested Rosalind bioinformatics exercises.
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-```
+Start in a project's README and run its commands from that project directory unless the README says
+otherwise. Repository-level GitHub Actions live under `.github/workflows/` and use path filters so a
+project runs only its own checks.
 
-When an experiment needs dependencies, keep them documented alongside that
-experiment or add a project-level dependency file.
-
-## Organization
-
-Keep each substantial experiment in its own clearly named directory. Include a
-short README when an experiment needs setup instructions or context.
-
+Large raw inputs, downloaded media, credentials, local environments, and generated artifacts stay
+untracked. Never place real secrets in project configuration or workflow files.
