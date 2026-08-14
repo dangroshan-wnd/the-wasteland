@@ -1,0 +1,35 @@
+[
+  {
+    "dob": "1993-06-13",
+    "draft_info": "Detroit Lions in the 2nd round (54th overall) of the 2015 NFL Draft.",
+    "from_year": 2015,
+    "height": "5-9",
+    "name": "Ameer Abdullah",
+    "position": "RB",
+    "to_year": 2024,
+    "url": "https://www.pro-football-reference.com/players/A/AbduAm00.htm",
+    "weight": "205 lbs"
+  },
+  {
+    "dob": "2000-04-12",
+    "draft_info": "Jacksonville Jaguars in the 5th round (136th overall) of the 2023 NFL Draft.",
+    "from_year": 2023,
+    "height": "6-1",
+    "name": "Yasir Abdullah",
+    "position": "LB",
+    "to_year": 2024,
+    "url": "https://www.pro-football-reference.com/players/A/AbduYa00.htm",
+    "weight": "237 lbs"
+  },
+  {
+    "dob": "1997-02-10",
+    "draft_info": null,
+    "from_year": 2022,
+    "height": "6-0",
+    "name": "Micah Abernathy",
+    "position": "S",
+    "to_year": 2024,
+    "url": "https://www.pro-football-reference.com/players/A/AberMi00.htm",
+    "weight": "195 lbs"
+  }
+]

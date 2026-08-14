@@ -7,6 +7,8 @@ project is isolated in a `pj__*` directory with its own dependencies, tests, and
 
 - [`pj__career-page-snapshots/`](pj__career-page-snapshots/) collects complete company job-board
   snapshots into Postgres and deploys through Prefect Managed.
+- [`pj__fantasy-football-ingestion/`](pj__fantasy-football-ingestion/) owns Underdog and Pro
+  Football Reference landing-data ingestion plus related data-transfer utilities.
 - [`pj__biotechnology/`](pj__biotechnology/) contains biotechnology experiments.
 - [`pj__flock-league/`](pj__flock-league/) contains Flock League media tooling and derived analysis.
 - [`pj__rosalind/`](pj__rosalind/) contains tested Rosalind bioinformatics exercises.
