@@ -10,6 +10,8 @@ import pandas as pd
 import undetected_chromedriver as uc
 from bs4 import BeautifulSoup, Comment
 
+from fantasy_football_ingestion.paths import PFR_TEAM_ABBREVIATION_MAP_PATH
+
 #####################################################################################################################
 #####################################################################################################################
 #####################################################################################################################
@@ -153,10 +155,7 @@ def scrape_boxscore_from_schedule_row(row, test_mode=True, browser_session=None)
 
 
 def scrape_season_schedule(season):
-    json_path = os.path.join(
-        os.path.dirname(__file__), "..", "json_seeds", "pfr__team_abbreviation_to_name.json"
-    )
-    with open(json_path) as f:
+    with PFR_TEAM_ABBREVIATION_MAP_PATH.open(encoding="utf-8") as f:
         TEAM_ABBR_MAP = json.load(f)
 
     url = f"https://www.pro-football-reference.com/years/{season}/games.htm"
