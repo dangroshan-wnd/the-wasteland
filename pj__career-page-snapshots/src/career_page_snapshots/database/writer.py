@@ -76,6 +76,14 @@ class WriteResult(BaseModel):
     inserted: bool
 
 
+def _snapshot_from_database_row(row: dict[str, Any]) -> SnapshotRecord:
+    """Normalize Postgres session-local timestamps before contract validation."""
+    captured_at = row.get("captured_at")
+    if isinstance(captured_at, datetime) and captured_at.tzinfo is not None:
+        row = {**row, "captured_at": captured_at.astimezone(UTC)}
+    return SnapshotRecord.model_validate(row)
+
+
 def write_snapshot(connection: psycopg.Connection[Any], snapshot: SnapshotRecord) -> WriteResult:
     """Insert a snapshot once, returning the first row on an idempotency conflict.
 
@@ -105,7 +113,7 @@ def write_snapshot(connection: psycopg.Connection[Any], snapshot: SnapshotRecord
         cursor.execute(insert_query, values)
         row = cursor.fetchone()
         if row is not None:
-            return WriteResult(snapshot=SnapshotRecord.model_validate(row), inserted=True)
+            return WriteResult(snapshot=_snapshot_from_database_row(row), inserted=True)
 
         cursor.execute(
             sql.SQL("SELECT {} FROM {} WHERE company_name = %s AND collection_key = %s").format(
@@ -117,7 +125,7 @@ def write_snapshot(connection: psycopg.Connection[Any], snapshot: SnapshotRecord
 
     if existing is None:
         raise RuntimeError("snapshot conflict occurred but the existing row was not found")
-    return WriteResult(snapshot=SnapshotRecord.model_validate(existing), inserted=False)
+    return WriteResult(snapshot=_snapshot_from_database_row(existing), inserted=False)
 
 
 def persist_snapshot(database_url: str, snapshot: SnapshotRecord) -> WriteResult:
