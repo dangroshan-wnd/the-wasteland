@@ -7,8 +7,8 @@ From the repository root, install the dependency into the existing virtual
 environment and run the downloader:
 
 ```powershell
-.\.venv\Scripts\python.exe -m pip install -r .\flock-league\requirements.txt
-.\.venv\Scripts\python.exe .\flock-league\download_videos.py
+.\.venv\Scripts\python.exe -m pip install -r .\pj__flock-league\requirements.txt
+.\.venv\Scripts\python.exe .\pj__flock-league\download_videos.py
 ```
 
 New downloads also save YouTube metadata (`.info.json`) and available English
@@ -28,7 +28,7 @@ If YouTube asks you to sign in to confirm you are not a bot, wait before retryin
 and pass cookies from a browser where you are already signed into YouTube:
 
 ```powershell
-.\.venv\Scripts\python.exe .\flock-league\download_videos.py --cookies-from-browser edge
+.\.venv\Scripts\python.exe .\pj__flock-league\download_videos.py --cookies-from-browser edge
 ```
 
 Supported values are `chrome`, `edge`, and `firefox`. Treat browser cookies as
@@ -41,7 +41,7 @@ To fetch metadata and captions for videos already present in `uploads/` without
 downloading their media again:
 
 ```powershell
-.\.venv\Scripts\python.exe .\flock-league\backfill_metadata.py
+.\.venv\Scripts\python.exe .\pj__flock-league\backfill_metadata.py
 ```
 
 The backfill only processes media filenames containing a YouTube ID. If YouTube
@@ -53,19 +53,19 @@ browser) to the command. Existing sidecars are not overwritten.
 Run the local audit after downloading or backfilling:
 
 ```powershell
-.\.venv\Scripts\python.exe .\flock-league\audit_downloads.py
+.\.venv\Scripts\python.exe .\pj__flock-league\audit_downloads.py
 ```
 
 The audit matches media, metadata, captions, and download-archive entries by
 YouTube ID. When `ffprobe` is available on `PATH`, it also checks that each file
 contains audio and video and compares its duration with YouTube metadata. A
-machine-readable report is written to `flock-league/reports/download-audit.json`.
+machine-readable report is written to `pj__flock-league/reports/download-audit.json`.
 
 To also compare the local collection with the current channel listing without
 downloading media:
 
 ```powershell
-.\.venv\Scripts\python.exe .\flock-league\audit_downloads.py --check-channel
+.\.venv\Scripts\python.exe .\pj__flock-league\audit_downloads.py --check-channel
 ```
 
 If YouTube requires authentication for that optional check, add
@@ -78,7 +78,7 @@ Plan scene-change, periodic, and transcript-targeted visual samples for an
 episode by its YouTube ID:
 
 ```powershell
-.\.venv\Scripts\python.exe .\flock-league\extract_frames.py -- -9vcgs-W6YM
+.\.venv\Scripts\python.exe .\pj__flock-league\extract_frames.py -- -9vcgs-W6YM
 ```
 
 The `--` separator is needed only when a video ID itself begins with a hyphen.
@@ -106,10 +106,10 @@ dependencies, sign Codex in with ChatGPT once, and provide the episode's YouTube
 ID:
 
 ```powershell
-.\.venv\Scripts\python.exe -m pip install -r .\flock-league\requirements.txt
+.\.venv\Scripts\python.exe -m pip install -r .\pj__flock-league\requirements.txt
 codex.cmd login
 codex.cmd login status
-.\.venv\Scripts\python.exe .\flock-league\analyze_episode.py -- -9vcgs-W6YM
+.\.venv\Scripts\python.exe .\pj__flock-league\analyze_episode.py -- -9vcgs-W6YM
 ```
 
 Choose the browser-based ChatGPT sign-in flow. The analyzer verifies that
@@ -126,7 +126,7 @@ The configurable default is `gpt-5.6-terra` with medium reasoning. Use
 To validate all local preparation without invoking Codex:
 
 ```powershell
-.\.venv\Scripts\python.exe .\flock-league\analyze_episode.py --prepare-only -- -9vcgs-W6YM
+.\.venv\Scripts\python.exe .\pj__flock-league\analyze_episode.py --prepare-only -- -9vcgs-W6YM
 ```
 
 The reviewer writes `metadata.json`, a deduplicated `transcript.json`, and
@@ -282,7 +282,7 @@ silently overwriting them.
 ### Proposed layout
 
 ```text
-flock-league/
+pj__flock-league/
 ├── uploads/
 ├── config/
 │   ├── league.yaml

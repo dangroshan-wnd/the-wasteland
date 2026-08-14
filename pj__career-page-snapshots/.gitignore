@@ -1,0 +1,52 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python caches and generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Test, lint, type-check, and coverage output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+.uv-cache/
+.mypy_cache/
+.tox/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Prefect local state
+.prefect/
+prefect.db
+
+# Local databases and runtime output
+*.db
+*.sqlite
+*.sqlite3
+logs/
+tmp/
+requirements-prod.generated.txt
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

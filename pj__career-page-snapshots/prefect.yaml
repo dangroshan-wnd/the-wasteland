@@ -1,0 +1,47 @@
+name: career-page-snapshots
+prefect-version: 3.8.2
+
+build: null
+push: null
+
+pull:
+  - prefect.deployments.steps.git_clone:
+      id: clone-repository
+      repository: https://github.com/dangroshan-wnd/the-wasteland.git
+      commit_sha: "{{ $GITHUB_SHA }}"
+  - prefect.deployments.steps.pip_install_requirements:
+      directory: "{{ clone-repository.directory }}/pj__career-page-snapshots"
+      requirements_file: requirements-prod.txt
+  - prefect.deployments.steps.set_working_directory:
+      directory: "{{ clone-repository.directory }}/pj__career-page-snapshots"
+
+deployments:
+  - name: production
+    version: "{{ $GITHUB_SHA }}"
+    description: >-
+      Daily production collection of complete career-page snapshots into Neon PostgreSQL.
+    entrypoint: src/career_page_snapshots/flows/ingestion.py:career_page_snapshots_flow
+    parameters: {}
+    tags:
+      - production
+      - prefect-managed
+      - neon
+    paused: false
+    concurrency_limit:
+      limit: 1
+      collision_strategy: ENQUEUE
+    schedules:
+      - cron: "0 21 * * *"
+        timezone: America/New_York
+        slug: daily-9pm-eastern
+        active: true
+    work_pool:
+      name: career-page-snapshots-managed
+      work_queue_name: default
+      job_variables:
+        image: prefecthq/prefect-client:3-python3.12
+        env:
+          APP_ENV: prod
+          COMPANIES_FILE: companies.yml
+          HTTP_TIMEOUT_SECONDS: "30"
+          DATABASE_URL_SECRET_BLOCK: neon-database-url

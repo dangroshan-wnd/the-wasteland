@@ -1,0 +1,14 @@
+{
+  "count": 3,
+  "positions": [
+    {
+      "id": 203,
+      "posting_name": "Administrative Assistant",
+      "location": "London, United Kingdom",
+      "department": null,
+      "job_description": null,
+      "canonicalPositionUrl": "https://explore.jobs.example.com/careers/job/203",
+      "t_update": 1785772800
+    }
+  ]
+}
