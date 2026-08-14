@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fantasy-football-ingestion"
+version = "0.1.0"
+description = "Load fantasy-football landing data and operate related data transfers."
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "beautifulsoup4>=4.13,<5",
+    "pandas>=2.2,<3",
+    "psycopg2-binary>=2.9,<3",
+    "python-dotenv>=1.0,<2",
+    "requests>=2.32,<3",
+    "setuptools>=75",
+    "sqlalchemy>=2.0,<3",
+    "tqdm>=4.67,<5",
+    "undetected-chromedriver>=3.5,<4",
+]
+
+[project.scripts]
+fantasy-ingest-annual = "fantasy_football_ingestion.protocols.master_protocol__annual:main"
+fantasy-ingest-weekly-inseason = "fantasy_football_ingestion.protocols.master_protocol__weekly_inseason:main"
+fantasy-ingest-weekly-offseason = "fantasy_football_ingestion.protocols.master_protocol__weekly_offseason:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3,<10",
+    "ruff>=0.16,<0.17",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fantasy_football_ingestion"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "UP"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["fantasy_football_ingestion"]
