@@ -5,7 +5,11 @@ import pkgutil
 from pathlib import Path
 
 import fantasy_football_ingestion
-from fantasy_football_ingestion.paths import PROJECT_ROOT, SAMPLES_DIR
+from fantasy_football_ingestion.paths import (
+    PFR_TEAM_ABBREVIATION_MAP_PATH,
+    PROJECT_ROOT,
+    SAMPLES_DIR,
+)
 
 
 def test_all_package_modules_import_without_external_calls() -> None:
@@ -32,6 +36,10 @@ def test_paths_resolve_inside_this_subproject() -> None:
     )
     assert SAMPLES_DIR.is_dir()
     assert len(list(SAMPLES_DIR.glob("sample__*.json"))) == 9
+    assert PFR_TEAM_ABBREVIATION_MAP_PATH.is_file()
+    assert '"Washington Commanders": "was"' in PFR_TEAM_ABBREVIATION_MAP_PATH.read_text(
+        encoding="utf-8"
+    )
 
 
 def test_source_has_no_fantasy_repository_path_hacks() -> None:
