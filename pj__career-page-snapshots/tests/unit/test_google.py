@@ -63,6 +63,7 @@ def test_google_scraper_collects_all_server_rendered_pages() -> None:
 
     def handler(request: httpx.Request) -> httpx.Response:
         page = request.url.params["page"]
+        assert request.url.params["sort_by"] == "date"
         observed_pages.append(page)
         return httpx.Response(200, text=pages[page], headers={"content-type": "text/html"})
 
@@ -73,6 +74,39 @@ def test_google_scraper_collects_all_server_rendered_pages() -> None:
     assert result.job_count == 5
     assert result.source.reported_job_count == 5
     assert [page.item_count for page in result.source.pages] == [2, 2, 1]
+    assert result.source.metadata["sort_by"] == "date"
+    assert result.source.metadata["inventory_attempt"] == 1
+
+
+def test_google_scraper_retries_inventory_with_duplicate_job_ids() -> None:
+    pages = {
+        "1": load_fixture("google_page_1.html"),
+        "2": load_fixture("google_page_2.html"),
+        "3": load_fixture("google_page_3.html"),
+    }
+    drifting_second_page = pages["2"].replace("303-data-scientist", "301-data-scientist")
+    observed_pages: list[str] = []
+    inventory_attempt = 0
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        nonlocal inventory_attempt
+        page = request.url.params["page"]
+        if page == "1":
+            inventory_attempt += 1
+        observed_pages.append(page)
+        html = drifting_second_page if inventory_attempt == 1 and page == "2" else pages[page]
+        return httpx.Response(200, text=html)
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        result = GoogleScraper(
+            make_company(),
+            page_delay_seconds=0,
+            inventory_retry_delay_seconds=0,
+        ).collect(client)
+
+    assert observed_pages == ["1", "2", "3", "1", "2", "3"]
+    assert result.job_count == 5
+    assert result.source.metadata["inventory_attempt"] == 2
 
 
 def test_google_scraper_accepts_empty_inventory() -> None:
@@ -120,7 +154,11 @@ def test_google_scraper_rejects_changed_count() -> None:
 
     with httpx.Client(transport=httpx.MockTransport(handler)) as client:
         with pytest.raises(IncompleteCollectionError, match="count changed"):
-            GoogleScraper(make_company(), page_delay_seconds=0).collect(client)
+            GoogleScraper(
+                make_company(),
+                page_delay_seconds=0,
+                inventory_retry_delay_seconds=0,
+            ).collect(client)
 
 
 def test_google_scraper_rejects_page_safety_bound() -> None:
@@ -142,7 +180,11 @@ def test_google_scraper_rejects_repeated_job_page() -> None:
 
     with httpx.Client(transport=httpx.MockTransport(handler)) as client:
         with pytest.raises(IncompleteCollectionError, match="repeated job page"):
-            GoogleScraper(make_company(), page_delay_seconds=0).collect(client)
+            GoogleScraper(
+                make_company(),
+                page_delay_seconds=0,
+                inventory_retry_delay_seconds=0,
+            ).collect(client)
 
 
 def test_google_scraper_rejects_nonsequential_next_link() -> None:

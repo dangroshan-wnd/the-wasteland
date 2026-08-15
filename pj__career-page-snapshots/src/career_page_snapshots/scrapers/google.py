@@ -36,6 +36,10 @@ class _UnexpectedGooglePageError(ParsingError):
     """A successful response lacked the expected careers results document."""
 
 
+class _UnstableGoogleInventoryError(IncompleteCollectionError):
+    """The careers inventory changed while its ordered pages were collected."""
+
+
 @dataclass(frozen=True, slots=True)
 class ParsedGooglePage:
     jobs: tuple[NormalizedJob, ...]
@@ -148,7 +152,10 @@ def _validate_next_url(next_url: str, expected_page: int) -> str:
     query_values = httpx.QueryParams(parsed.query)
     if query_values.get("page") != str(expected_page):
         raise IncompleteCollectionError("Google next-page link did not advance sequentially")
-    return next_url
+    query_values = query_values.set("sort_by", "date")
+    return urlunsplit(
+        (parsed.scheme, parsed.netloc, parsed.path, str(query_values), parsed.fragment)
+    )
 
 
 class GoogleScraper:
@@ -162,6 +169,8 @@ class GoogleScraper:
         page_delay_seconds: float = 0.25,
         page_parse_attempts: int = 2,
         page_retry_delay_seconds: float = 1.0,
+        inventory_attempts: int = 2,
+        inventory_retry_delay_seconds: float = 1.0,
         retry_policy: HttpRetryPolicy | None = None,
         sleep: Callable[[float], None] = time.sleep,
     ) -> None:
@@ -173,11 +182,17 @@ class GoogleScraper:
             raise ValueError("Google page_parse_attempts must be between 1 and 3")
         if page_retry_delay_seconds < 0:
             raise ValueError("Google page_retry_delay_seconds cannot be negative")
+        if inventory_attempts < 1 or inventory_attempts > 3:
+            raise ValueError("Google inventory_attempts must be between 1 and 3")
+        if inventory_retry_delay_seconds < 0:
+            raise ValueError("Google inventory_retry_delay_seconds cannot be negative")
         self.company = company
         self.max_pages = max_pages
         self.page_delay_seconds = page_delay_seconds
         self.page_parse_attempts = page_parse_attempts
         self.page_retry_delay_seconds = page_retry_delay_seconds
+        self.inventory_attempts = inventory_attempts
+        self.inventory_retry_delay_seconds = inventory_retry_delay_seconds
         self.retry_policy = retry_policy or HttpRetryPolicy()
         self.sleep = sleep
 
@@ -205,10 +220,21 @@ class GoogleScraper:
         raise AssertionError("page parse retry loop terminated without returning or raising")
 
     def collect(self, client: httpx.Client) -> CollectionResult:
+        """Collect a stable inventory, restarting once if the live ordering changes."""
+        for inventory_attempt in range(1, self.inventory_attempts + 1):
+            try:
+                return self._collect_once(client, inventory_attempt=inventory_attempt)
+            except _UnstableGoogleInventoryError:
+                if inventory_attempt == self.inventory_attempts:
+                    raise
+                self.sleep(self.inventory_retry_delay_seconds)
+        raise AssertionError("inventory retry loop terminated without returning or raising")
+
+    def _collect_once(self, client: httpx.Client, *, inventory_attempt: int) -> CollectionResult:
         all_jobs: list[NormalizedJob] = []
         pages: list[PageMetadata] = []
         reported_count: int | None = None
-        next_url = f"{RESULTS_URL}?hl=en&page=1"
+        next_url = f"{RESULTS_URL}?hl=en&sort_by=date&page=1"
         seen_urls: set[str] = set()
         seen_page_ids: set[tuple[str, ...]] = set()
         transient_page_retries = 0
@@ -224,17 +250,19 @@ class GoogleScraper:
             if reported_count is None:
                 reported_count = parsed_page.reported_count
             elif parsed_page.reported_count != reported_count:
-                raise IncompleteCollectionError("Google reported count changed during pagination")
+                raise _UnstableGoogleInventoryError(
+                    "Google reported count changed during pagination"
+                )
 
             expected_start = 0 if reported_count == 0 else len(all_jobs) + 1
             if parsed_page.range_start != expected_start:
-                raise IncompleteCollectionError(
+                raise _UnstableGoogleInventoryError(
                     "Google result range did not continue from the prior page"
                 )
 
             page_ids = tuple(job.external_job_id for job in parsed_page.jobs)
             if page_ids and page_ids in seen_page_ids:
-                raise IncompleteCollectionError("Google returned a repeated job page")
+                raise _UnstableGoogleInventoryError("Google returned a repeated job page")
             seen_page_ids.add(page_ids)
 
             pages.append(
@@ -249,16 +277,16 @@ class GoogleScraper:
 
             if len(all_jobs) == reported_count:
                 if parsed_page.next_url is not None:
-                    raise IncompleteCollectionError(
+                    raise _UnstableGoogleInventoryError(
                         "Google exposed another page after the reported inventory ended"
                     )
                 break
             if len(all_jobs) > reported_count:
-                raise IncompleteCollectionError(
+                raise _UnstableGoogleInventoryError(
                     f"Google returned {len(all_jobs)} jobs after reporting {reported_count}"
                 )
             if parsed_page.next_url is None:
-                raise IncompleteCollectionError(
+                raise _UnstableGoogleInventoryError(
                     f"Google pagination ended after {len(all_jobs)} of {reported_count} jobs"
                 )
             next_url = _validate_next_url(parsed_page.next_url, page_number + 1)
@@ -269,6 +297,11 @@ class GoogleScraper:
             )
 
         assert reported_count is not None
+        job_ids = [job.external_job_id for job in all_jobs]
+        if len(job_ids) != len(set(job_ids)):
+            raise _UnstableGoogleInventoryError(
+                "Google returned duplicate job IDs while the inventory was changing"
+            )
         source = SourceMetadata(
             adapter="google",
             source_identifier=self.company.slug,
@@ -278,8 +311,10 @@ class GoogleScraper:
             metadata={
                 "rendering": "server_html",
                 "language": "en",
+                "sort_by": "date",
                 "page_delay_seconds": self.page_delay_seconds,
                 "transient_page_retries": transient_page_retries,
+                "inventory_attempt": inventory_attempt,
             },
         )
         try:
