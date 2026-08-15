@@ -1,0 +1,61 @@
+name: Captain's Log SQL CI
+
+on:
+  pull_request:
+    paths:
+      - pj__captains-log/**
+      - databases.yml
+      - README.md
+      - .github/workflows/captains-log-ci.yml
+  push:
+    branches:
+      - main
+    paths:
+      - pj__captains-log/**
+      - databases.yml
+      - README.md
+      - .github/workflows/captains-log-ci.yml
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Compile apply and publish scripts
+        run: python3 -m py_compile pj__captains-log/run_sql.py pj__captains-log/scripts/publish_schema_to_neon.py
+
+      - name: Check databases.yml inventory
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          text = Path("databases.yml").read_text(encoding="utf-8")
+          assert "cluster: dgdb" in text, "databases.yml must name cluster dgdb"
+          assert "name: captains_log" in text, "databases.yml must list captains_log"
+          assert "folder: pj__captains-log" in text, "captains_log must map to pj__captains-log"
+          print("databases.yml ok")
+          PY
+
+      - name: Check landing DDL
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          sql = Path("pj__captains-log/sql/ddl__captains_log__tables.sql").read_text(
+              encoding="utf-8"
+          )
+          for needle in (
+              "CREATE SCHEMA IF NOT EXISTS landing",
+              "CREATE TABLE IF NOT EXISTS landing.entries",
+              "CREATE TABLE IF NOT EXISTS landing.processor_heartbeats",
+          ):
+              assert needle in sql, f"DDL missing: {needle}"
+          print("DDL ok")
+          PY
