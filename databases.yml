@@ -1,0 +1,16 @@
+# Databases on the local Postgres cluster.
+# dgdb is the Windows PostgreSQL 17 service on localhost:5432 — not a
+# CREATE DATABASE name. Schema and table names live in each project's SQL.
+#
+# Create a database once, connected to postgres:
+#   CREATE DATABASE captains_log;
+
+cluster: dgdb
+
+databases:
+  - name: captains_log
+    folder: pj__captains-log
+  - name: career_page_snapshots
+    folder: pj__career-page-snapshots
+  - name: fantasy_football
+    folder: pj__fantasy-football-ingestion

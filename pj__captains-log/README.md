@@ -4,9 +4,10 @@ Wasteland-owned DDL for the Captain's Log journal tables. The Android app and
 Render processor live in `captains-log`; this project is the local Postgres
 schema and the empty publish to Neon.
 
-Names are in `sql/ddl__captains_log__tables.sql`: database `captains_log`
-(same locally and on Neon), schema `landing`, tables `entries` and
-`processor_heartbeats`.
+Database `captains_log` is listed in [`databases.yml`](../databases.yml).
+Schema and table names are in `sql/ddl__captains_log__tables.sql`:
+`landing.entries` and `landing.processor_heartbeats`. Same database name
+locally and on Neon.
 
 Create the database once if it does not exist:
 

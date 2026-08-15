@@ -17,6 +17,10 @@ project is isolated in a `pj__*` directory with its own dependencies, tests, and
   as local Postgres DDL, then empty publish to Neon. Names live in that
   project's SQL.
 
+[`databases.yml`](databases.yml) lists every database on the local `dgdb` cluster
+(Windows PostgreSQL 17 on `localhost:5432`). One database per `pj__*` project
+that owns Postgres. Tables stay in that project's SQL.
+
 Start in a project's README and run its commands from that project directory unless the README says
 otherwise. Repository-level GitHub Actions live under `.github/workflows/` and use path filters so a
 project runs only its own checks.
