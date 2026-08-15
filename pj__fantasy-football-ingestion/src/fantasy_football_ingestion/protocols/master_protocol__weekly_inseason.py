@@ -7,7 +7,7 @@ import sys
 # Protocol Notes
 # -------------------------
 
-# In-season weekly ingest: PFR box scores for completed games.
+# In-season weekly ingest: refresh the in-progress PFR schedule, then box scores.
 # Toggles (TEST_MODE, slate filters, sleep, etc.) live in each child script.
 
 # -------------------------
@@ -15,6 +15,10 @@ import sys
 # -------------------------
 
 STEPS = [
+    (
+        "fantasy_football_ingestion.jobs.ingest__pfr__inprogress_season_schedules",
+        "ingest__pfr__inprogress_season_schedules.py",
+    ),
     ("fantasy_football_ingestion.jobs.ingest__pfr__box_scores", "ingest__pfr__box_scores.py"),
 ]
 

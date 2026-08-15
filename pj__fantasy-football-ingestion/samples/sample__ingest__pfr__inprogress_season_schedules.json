@@ -1,0 +1,28 @@
+[
+  {
+    "season": 2026,
+    "week": "1",
+    "date": "20260909",
+    "home_team": "Seattle Seahawks",
+    "home_abbr": "sea",
+    "away_team": "New England Patriots",
+    "away_abbr": "nwe",
+    "boxscore_url": null,
+    "winner": null,
+    "loser": null,
+    "game_id": "202609090sea"
+  },
+  {
+    "season": 2026,
+    "week": "1",
+    "date": "20260910",
+    "home_team": "Los Angeles Rams",
+    "home_abbr": "ram",
+    "away_team": "San Francisco 49ers",
+    "away_abbr": "sfo",
+    "boxscore_url": null,
+    "winner": null,
+    "loser": null,
+    "game_id": "202609100ram"
+  }
+]

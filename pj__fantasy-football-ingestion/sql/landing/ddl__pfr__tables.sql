@@ -28,6 +28,20 @@ CREATE UNIQUE INDEX IF NOT EXISTS idx_landing_pfr_schedules_game_id
 CREATE INDEX IF NOT EXISTS idx_landing_pfr_schedules_season
     ON landing.pfr_completed_season_schedules ((payload->>'season'));
 
+/* IN-PROGRESS SEASON SCHEDULES */
+
+CREATE TABLE IF NOT EXISTS landing.pfr_inprogress_season_schedules (
+    payload JSONB NOT NULL,
+    game_id TEXT NOT NULL,
+    ingested_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+
+CREATE UNIQUE INDEX IF NOT EXISTS idx_landing_pfr_inprogress_schedules_game_id
+    ON landing.pfr_inprogress_season_schedules (game_id);
+
+CREATE INDEX IF NOT EXISTS idx_landing_pfr_inprogress_schedules_season
+    ON landing.pfr_inprogress_season_schedules ((payload->>'season'));
+
 /* BOX SCORES */
 
 CREATE TABLE IF NOT EXISTS landing.pfr_box_scores (

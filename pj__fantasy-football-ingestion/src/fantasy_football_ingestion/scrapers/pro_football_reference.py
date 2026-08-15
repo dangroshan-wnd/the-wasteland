@@ -237,6 +237,160 @@ def scrape_season_schedule(season):
     return pd.DataFrame(games)
 
 
+def _load_pfr_team_abbr_map():
+    with PFR_TEAM_ABBREVIATION_MAP_PATH.open(encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _read_pfr_games_dataframe(table):
+    df = pd.read_html(StringIO(str(table)))[0]
+    if isinstance(df.columns, pd.MultiIndex):
+        df.columns = df.columns.get_level_values(-1)
+    df.columns = [str(col).strip() for col in df.columns]
+    return df
+
+
+def _inprogress_date_column(df):
+    if "Date" in df.columns:
+        return "Date"
+    unnamed = [col for col in df.columns if col.startswith("Unnamed: 2")]
+    if unnamed:
+        return unnamed[0]
+    raise ValueError(f"in-progress schedule table is missing a date column: {df.columns.tolist()}")
+
+
+def _parse_inprogress_game_date(raw, season):
+    text = "" if raw is None else str(raw).strip()
+    if not text or text.lower() == "date":
+        return None
+    if re.fullmatch(r"\d{8}", text):
+        return text
+    # PFR in-progress pages emit "September 9" without a year.
+    dated = text if re.search(r"\d{4}", text) else f"{text}, {season}"
+    parsed = pd.to_datetime(dated, errors="coerce")
+    if pd.isna(parsed):
+        return None
+    year = season + 1 if parsed.month < 8 else season
+    return parsed.replace(year=year).strftime("%Y%m%d")
+
+
+def _optional_int(raw):
+    text = "" if raw is None else str(raw).strip()
+    if not text:
+        return None
+    try:
+        return int(text)
+    except ValueError:
+        return None
+
+
+def _is_preseason_week(week):
+    text = str(week).strip().lower()
+    return text.startswith("pre") or text in {"hof", "hall of fame"}
+
+
+def _winner_loser_from_scores(home_team, away_team, home_pts, away_pts):
+    if home_pts is None or away_pts is None:
+        return None, None
+    if away_pts > home_pts:
+        return away_team, home_team
+    if home_pts > away_pts:
+        return home_team, away_team
+    return home_team, away_team
+
+
+def _find_boxscore_url(table, date_token):
+    if not date_token:
+        return None
+    for html_row in table.find_all("tr"):
+        if str(date_token) not in str(html_row):
+            continue
+        cell = html_row.find("td", {"data-stat": "boxscore_word"})
+        if cell and cell.a and cell.a.get("href"):
+            return f"https://www.pro-football-reference.com{cell.a['href']}"
+    return None
+
+
+def parse_inprogress_season_schedule(html, season, team_abbr_map=None):
+    """Parse a PFR games table that uses visitor/home columns (in-progress seasons)."""
+    team_abbr_map = team_abbr_map if team_abbr_map is not None else _load_pfr_team_abbr_map()
+    soup = BeautifulSoup(html, "html.parser")
+    table = find_pfr_table(soup, "games", raw_html=html)
+    if table is None:
+        print(f"❌ No game table found for {season}")
+        return pd.DataFrame()
+
+    try:
+        df = _read_pfr_games_dataframe(table)
+        print("🧱 Columns:", df.columns.tolist())
+        print(df.head(5))
+    except Exception as e:
+        print(f"❌ pd.read_html failed: {e}")
+        return pd.DataFrame()
+
+    if "Winner/tie" in df.columns or "Loser/tie" in df.columns:
+        raise ValueError("PFR page is in completed Winner/tie format; use scrape_season_schedule")
+    if "VisTm" not in df.columns or "HomeTm" not in df.columns:
+        raise ValueError(
+            f"in-progress schedule table is missing VisTm/HomeTm columns: {df.columns.tolist()}"
+        )
+
+    date_col = _inprogress_date_column(df)
+    games = []
+    for _, row in df.iterrows():
+        week = row.get("Week")
+        if week is None or _is_preseason_week(week):
+            continue
+        week_text = str(week).strip()
+        if week_text.lower() in {"week", "nan"}:
+            continue
+
+        home_team = row.get("HomeTm")
+        away_team = row.get("VisTm")
+        if pd.isna(home_team) or pd.isna(away_team):
+            continue
+        home_team = str(home_team).strip()
+        away_team = str(away_team).strip()
+        if not home_team or not away_team:
+            continue
+        if home_team in {"HomeTm", "Home"} or away_team in {"VisTm", "Visitor"}:
+            continue
+
+        date_str = _parse_inprogress_game_date(row.get(date_col), season)
+        if not date_str:
+            print(f"⚠️ Failed to parse date: {row.get(date_col)}")
+            continue
+
+        home_pts = _optional_int(row.get("Pts.1"))
+        away_pts = _optional_int(row.get("Pts"))
+        winner, loser = _winner_loser_from_scores(home_team, away_team, home_pts, away_pts)
+
+        games.append(
+            {
+                "season": season,
+                "week": week_text,
+                "date": date_str,
+                "home_team": home_team,
+                "home_abbr": team_abbr_map.get(home_team),
+                "away_team": away_team,
+                "away_abbr": team_abbr_map.get(away_team),
+                "boxscore_url": _find_boxscore_url(table, row.get(date_col)),
+                "winner": winner,
+                "loser": loser,
+            }
+        )
+
+    print(f"✅ Parsed {len(games)} in-progress games for {season}")
+    return pd.DataFrame(games)
+
+
+def scrape_inprogress_season_schedule(season):
+    url = f"https://www.pro-football-reference.com/years/{season}/games.htm"
+    print(f"URL: {url}")
+    html = fetch_pfr_html(url, wait_for='id="games"')
+    return parse_inprogress_season_schedule(html, season)
+
+
 ############################################################################################################################################################################################################
 
 

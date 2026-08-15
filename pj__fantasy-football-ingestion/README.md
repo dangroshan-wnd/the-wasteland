@@ -38,6 +38,7 @@ Run one job directly as a module when a full protocol is unnecessary:
 
 ```powershell
 uv run python -m fantasy_football_ingestion.jobs.ingest__ud__slates
+uv run python -m fantasy_football_ingestion.jobs.ingest__pfr__inprogress_season_schedules
 uv run python -m fantasy_football_ingestion.jobs.ingest__pfr__box_scores
 ```
 
