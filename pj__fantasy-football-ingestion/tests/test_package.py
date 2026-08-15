@@ -35,7 +35,7 @@ def test_paths_resolve_inside_this_subproject() -> None:
         == Path(fantasy_football_ingestion.__file__).parent
     )
     assert SAMPLES_DIR.is_dir()
-    assert len(list(SAMPLES_DIR.glob("sample__*.json"))) == 9
+    assert len(list(SAMPLES_DIR.glob("sample__*.json"))) == 10
     assert PFR_TEAM_ABBREVIATION_MAP_PATH.is_file()
     assert '"Washington Commanders": "was"' in PFR_TEAM_ABBREVIATION_MAP_PATH.read_text(
         encoding="utf-8"
