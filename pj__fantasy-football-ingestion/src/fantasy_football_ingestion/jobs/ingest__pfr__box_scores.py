@@ -1,6 +1,7 @@
 import json
 import random
 import time
+from datetime import date
 from pathlib import Path
 
 from psycopg2.extras import Json
@@ -17,8 +18,10 @@ from fantasy_football_ingestion.scrapers.pro_football_reference import (
 # Model Notes
 # -------------------------
 
-# One HTML scrape per game; reads schedules from landing. Skips already-ingested games.
-# Optional SEASON_FILTER_ENABLED to limit which seasons are scraped.
+# One HTML scrape per game; reads schedules from landing. Skips already-ingested
+# games and dates that have not occurred yet. The current season comes from
+# landing.pfr_inprogress_season_schedules; earlier seasons come from
+# landing.pfr_completed_season_schedules.
 
 # -------------------------
 # Standard Toggles
@@ -36,7 +39,12 @@ TEST_MODE_RECORD_LIMIT = 2
 SEASON_FILTER_ENABLED = True
 # Inclusive start, exclusive end — same semantics as range(2020, 2025) → 2020–2024
 SEASON_START = 2022
-SEASON_END = 2025
+SEASON_END = 2027
+# Seasons >= CURRENT_SEASON are read from the in-progress schedule table.
+CURRENT_SEASON = 2026
+
+COMPLETED_SCHEDULES_TABLE = "landing.pfr_completed_season_schedules"
+INPROGRESS_SCHEDULES_TABLE = "landing.pfr_inprogress_season_schedules"
 
 # -------------------------
 # Routing
@@ -49,32 +57,87 @@ SAMPLE_JSON_PATH = SAMPLES_DIR / f"sample__{Path(__file__).stem}.json"
 # -------------------------
 
 
-def get_games_from_db(conn):
-    sql = """
+def schedule_table_for_season(season, current_season=CURRENT_SEASON):
+    if int(season) >= current_season:
+        return INPROGRESS_SCHEDULES_TABLE
+    return COMPLETED_SCHEDULES_TABLE
+
+
+def build_games_query(
+    *,
+    season_filter_enabled=SEASON_FILTER_ENABLED,
+    season_start=SEASON_START,
+    season_end=SEASON_END,
+    current_season=CURRENT_SEASON,
+):
+    params = []
+    selects = []
+    select_sql = """
         SELECT
             game_id,
             payload->>'week' AS week,
             payload->>'date' AS game_date,
             payload->>'season' AS season
-        FROM landing.pfr_completed_season_schedules
+        FROM {table}
+        WHERE (payload->>'season')::int {op} %s
     """
-    params = []
-    if SEASON_FILTER_ENABLED:
-        sql += """
-        WHERE (payload->>'season')::int >= %s
-          AND (payload->>'season')::int < %s
-        """
-        params.extend([SEASON_START, SEASON_END])
-    sql += """
-        ORDER BY (payload->>'season')::int DESC, payload->>'week', game_id
-    """
+
+    if season_filter_enabled:
+        seasons = range(season_start, season_end)
+        include_completed = any(season < current_season for season in seasons)
+        include_inprogress = any(season >= current_season for season in seasons)
+    else:
+        include_completed = True
+        include_inprogress = True
+
+    if include_completed:
+        selects.append(select_sql.format(table=COMPLETED_SCHEDULES_TABLE, op="<"))
+        params.append(current_season)
+    if include_inprogress:
+        selects.append(select_sql.format(table=INPROGRESS_SCHEDULES_TABLE, op=">="))
+        params.append(current_season)
+
+    if not selects:
+        return (
+            "SELECT NULL::text AS game_id, NULL::text AS week, "
+            "NULL::text AS game_date, NULL::text AS season WHERE FALSE",
+            [],
+        )
+
+    sql = (
+        "SELECT game_id, week, game_date, season FROM ("
+        + " UNION ALL ".join(selects)
+        + ") AS schedules"
+    )
+    if season_filter_enabled:
+        sql += " WHERE season::int >= %s AND season::int < %s"
+        params.extend([season_start, season_end])
+    sql += " ORDER BY season::int DESC, week, game_id"
+    return sql, params
+
+
+def game_has_occurred(game, today=None):
+    as_of = today or date.today().strftime("%Y%m%d")
+    game_date = game.get("game_date")
+    return bool(game_date) and str(game_date) <= as_of
+
+
+def get_games_from_db(conn):
+    sql, params = build_games_query()
     with conn.cursor() as cur:
         cur.execute(sql, params)
-        return [
-            {"game_id": r[0], "week": r[1], "game_date": r[2], "season": r[3]}
+        games = [
+            {
+                "game_id": r[0],
+                "week": r[1],
+                "game_date": r[2],
+                "season": r[3],
+                "schedule_source": schedule_table_for_season(r[3]),
+            }
             for r in cur.fetchall()
-            if r[0] is not None
+            if r[0] is not None and r[3] is not None
         ]
+    return games
 
 
 def get_existing_game_ids(conn):
@@ -159,7 +222,23 @@ def main():
         print("📅 Season filter: disabled (all seasons in landing)")
 
     games = get_games_from_db(conn)
-    print(f"📋 {len(games)} game(s) in landing.pfr_completed_season_schedules")
+    completed_count = sum(
+        1 for game in games if game["schedule_source"] == COMPLETED_SCHEDULES_TABLE
+    )
+    inprogress_count = sum(
+        1 for game in games if game["schedule_source"] == INPROGRESS_SCHEDULES_TABLE
+    )
+    print(
+        f"📋 {len(games)} game(s) from schedule landing "
+        f"({completed_count} completed, {inprogress_count} in-progress)"
+    )
+
+    occurred, upcoming = [], []
+    for game in games:
+        (occurred if game_has_occurred(game) else upcoming).append(game)
+    if upcoming:
+        print(f"⏭️ {len(upcoming)} future game(s) skipped")
+    games = occurred
 
     existing_game_ids = get_existing_game_ids(conn)
     games = [g for g in games if g["game_id"] not in existing_game_ids]

@@ -95,7 +95,7 @@ def _parse_player_offense_table(table, date_str):
 
 def scrape_boxscore_from_schedule_row(row, test_mode=True, browser_session=None):
     """
-    Expects a single row from dbt_staging.stg__pfr__completed_season_schedules:
+    Expects a single landing schedule row (completed or in-progress).
     Must include: game_id, week, game_date
     """
     game_id = row["game_id"]
