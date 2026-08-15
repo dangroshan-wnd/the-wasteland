@@ -3,22 +3,14 @@
 from __future__ import annotations
 
 import os
-import sys
 from pathlib import Path
 
 import psycopg2
 from dotenv import load_dotenv
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-WASTELAND_ROOT = PROJECT_ROOT.parent
-if str(WASTELAND_ROOT) not in sys.path:
-    sys.path.insert(0, str(WASTELAND_ROOT))
-
-from naming import names_for  # noqa: E402
-
 DDL_PATH = PROJECT_ROOT / "sql" / "ddl__captains_log__tables.sql"
-TABLES = ("entries", "processor_heartbeats")
-NAMES = names_for(PROJECT_ROOT.name)
+TABLES = ("landing.entries", "landing.processor_heartbeats")
 
 
 def main() -> None:
@@ -34,10 +26,9 @@ def main() -> None:
             for stmt in statements:
                 cur.execute(stmt)
             for table in TABLES:
-                qualified = NAMES.table(table)
-                cur.execute(f"SELECT COUNT(*) FROM {qualified}")
+                cur.execute(f"SELECT COUNT(*) FROM {table}")
                 count = cur.fetchone()[0]
-                print(f"Neon {NAMES.database}.{qualified}: {count:,} rows")
+                print(f"Neon {table}: {count:,} rows")
         conn.commit()
     finally:
         conn.close()

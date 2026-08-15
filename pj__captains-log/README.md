@@ -4,18 +4,14 @@ Wasteland-owned DDL for the Captain's Log journal tables. The Android app and
 Render processor live in `captains-log`; this project is the local Postgres
 schema and the empty publish to Neon.
 
-Names follow [`naming.yml`](../naming.yml): `pj__captains-log` →
-`captains_log.landing.<table>`.
+Names are in `sql/ddl__captains_log__tables.sql`: database `captains_log`
+(same locally and on Neon), schema `landing`, tables `entries` and
+`processor_heartbeats`.
 
-| Environment | Database | Schema | Tables |
-|---|---|---|---|
-| Local | `captains_log_dev` | `landing` | `entries`, `processor_heartbeats` |
-| Neon | `captains_log` | `landing` | same |
-
-Create the local database once if it does not exist:
+Create the database once if it does not exist:
 
 ```sql
-CREATE DATABASE captains_log_dev;
+CREATE DATABASE captains_log;
 ```
 
 ## Setup
@@ -24,8 +20,8 @@ CREATE DATABASE captains_log_dev;
 Copy-Item .env.example .env
 ```
 
-Point `LOCAL_DATABASE_URL` at `captains_log_dev` and `NEON_DATABASE_URL` at the
-captains-log Neon database. Keep `.env` untracked.
+Point `LOCAL_DATABASE_URL` and `NEON_DATABASE_URL` at the `captains_log`
+database. Keep `.env` untracked.
 
 Needs `psycopg2` and `python-dotenv` (same stack as fantasy-football-ingestion).
 
@@ -37,7 +33,7 @@ From this directory:
 python run_sql.py sql/ddl__captains_log__tables.sql
 ```
 
-Confirm in local Postgres (connected to `captains_log_dev`):
+Confirm:
 
 ```sql
 SELECT COUNT(*) FROM landing.entries;
@@ -54,5 +50,5 @@ After the local tables exist and look right:
 python scripts/publish_schema_to_neon.py
 ```
 
-That runs the same `CREATE SCHEMA` / `CREATE TABLE IF NOT EXISTS` against Neon.
-It does not copy rows, drop tables, or truncate.
+That runs the same DDL against Neon. It does not copy rows, drop tables, or
+truncate.

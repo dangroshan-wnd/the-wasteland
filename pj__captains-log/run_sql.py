@@ -10,14 +10,7 @@ import psycopg2
 from dotenv import load_dotenv
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-WASTELAND_ROOT = PROJECT_ROOT.parent
-if str(WASTELAND_ROOT) not in sys.path:
-    sys.path.insert(0, str(WASTELAND_ROOT))
-
-from naming import names_for  # noqa: E402
-
 _PG_ENV_NAMES = ("PG_HOST", "PG_PORT", "PG_NAME", "PG_USER", "PG_PASS")
-NAMES = names_for(PROJECT_ROOT.name)
 
 
 def connect_to_db():
@@ -31,14 +24,13 @@ def connect_to_db():
         names = ", ".join(missing)
         raise RuntimeError(
             "Missing local database configuration: set LOCAL_DATABASE_URL "
-            f"or DATABASE_URL, or {names}. Expected database "
-            f"{NAMES.local_database}."
+            f"or DATABASE_URL, or {names}"
         )
 
     return psycopg2.connect(
         host=os.environ["PG_HOST"],
         port=os.environ["PG_PORT"],
-        dbname=os.environ.get("PG_NAME", NAMES.local_database),
+        dbname=os.environ["PG_NAME"],
         user=os.environ["PG_USER"],
         password=os.environ["PG_PASS"],
     )
@@ -64,7 +56,6 @@ def main() -> None:
     if not path.is_file():
         raise SystemExit(f"File not found: {path}")
 
-    print(f"Applying to {NAMES.qualified} (local db {NAMES.local_database})")
     run_sql_file(path)
     print(f"Done: {path}")
 

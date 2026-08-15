@@ -5,9 +5,15 @@
 -- then, empty schema only (no rows):
 --   python scripts/publish_schema_to_neon.py
 --
--- Qualified name: captains_log.landing.entries
---                 captains_log.landing.processor_heartbeats
--- Connection string selects the database; SQL uses landing.<table>.
+-- Names (same locally and on Neon):
+--   database  captains_log
+--   schema    landing
+--   tables    landing.entries
+--             landing.processor_heartbeats
+--
+-- Create the database once if it does not exist (from postgres):
+--   CREATE DATABASE captains_log;
+-- Then connect to captains_log and run this file.
 
 CREATE SCHEMA IF NOT EXISTS landing;
 
