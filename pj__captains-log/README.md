@@ -22,7 +22,9 @@ Copy-Item .env.example .env
 ```
 
 Point `LOCAL_DATABASE_URL` and `NEON_DATABASE_URL` at the `captains_log`
-database. Keep `.env` untracked.
+database. All Captain's Log connection settings belong in this directory's
+`.env`; its scripts do not read the repository-root `.env`. Keep `.env`
+untracked.
 
 Needs `psycopg2` and `python-dotenv` (same stack as fantasy-football-ingestion).
 

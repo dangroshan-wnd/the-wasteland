@@ -14,7 +14,7 @@ TABLES = ("landing.entries", "landing.processor_heartbeats")
 
 
 def main() -> None:
-    load_dotenv(PROJECT_ROOT / ".env")
+    load_dotenv(PROJECT_ROOT / ".env", override=True)
     neon_url = os.getenv("NEON_DATABASE_URL")
     if not neon_url:
         raise RuntimeError("NEON_DATABASE_URL is required")
