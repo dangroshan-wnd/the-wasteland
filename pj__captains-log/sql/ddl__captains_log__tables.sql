@@ -1,8 +1,13 @@
-/* HOW TO RUN */
--- from powershell, in pj__captains-log/:
+-- HOW TO RUN
+-- From the repository root:
+--   python pj__captains-log/run_sql.py pj__captains-log/sql/ddl__captains_log__tables.sql
+--
+-- Or, from pj__captains-log/:
 --   python run_sql.py sql/ddl__captains_log__tables.sql
 --
--- then, empty schema only (no rows):
+-- Do not run this .sql file directly with Python.
+--
+-- Then, publish the empty schema only (no rows):
 --   python scripts/publish_schema_to_neon.py
 --
 -- Names (same locally and on Neon):
@@ -17,7 +22,7 @@
 
 CREATE SCHEMA IF NOT EXISTS landing;
 
-/* ENTRIES — one row per journal video (PK = client ULID) */
+-- ENTRIES - one row per journal video (PK = client ULID)
 
 CREATE TABLE IF NOT EXISTS landing.entries (
     id VARCHAR(64) PRIMARY KEY,
@@ -58,7 +63,7 @@ CREATE INDEX IF NOT EXISTS ix_entries_journal_date
 CREATE INDEX IF NOT EXISTS ix_entries_processing_status
     ON landing.entries (processing_status);
 
-/* PROCESSOR HEARTBEATS — poller liveness */
+-- PROCESSOR HEARTBEATS - poller liveness
 
 CREATE TABLE IF NOT EXISTS landing.processor_heartbeats (
     name VARCHAR(64) PRIMARY KEY,
