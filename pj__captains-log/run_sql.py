@@ -10,16 +10,12 @@ import psycopg2
 from dotenv import load_dotenv
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-REPOSITORY_ROOT = PROJECT_ROOT.parent
 DEFAULT_PG_NAME = "captains_log"
 _PG_ENV_NAMES = ("PG_HOST", "PG_PORT", "PG_USER", "PG_PASS")
 
 
 def connect_to_db():
-    # Prefer project-specific settings, then fill in missing values from the
-    # shared repository environment.
-    load_dotenv(PROJECT_ROOT / ".env")
-    load_dotenv(REPOSITORY_ROOT / ".env")
+    load_dotenv(PROJECT_ROOT / ".env", override=True)
     database_url = os.getenv("LOCAL_DATABASE_URL") or os.getenv("DATABASE_URL")
     if database_url:
         return psycopg2.connect(database_url)
