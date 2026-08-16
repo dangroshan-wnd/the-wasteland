@@ -10,6 +10,9 @@
 -- Then, publish the empty schema only (no rows):
 --   python scripts/publish_schema_to_neon.py
 --
+-- Pull Neon landing rows onto local Postgres (replaces local rows):
+--   python scripts/sync_neon_to_postgres.py
+--
 -- Names (same locally and on Neon):
 --   database  captains_log
 --   schema    landing

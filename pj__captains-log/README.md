@@ -56,3 +56,24 @@ python scripts/publish_schema_to_neon.py
 
 That runs the same DDL against Neon. It does not copy rows, drop tables, or
 truncate.
+
+## Pull Neon rows back to local Postgres
+
+Replaces local `landing.entries` and `landing.processor_heartbeats` with the
+Neon snapshot. Does not write to Neon. Uses the **direct** host (not `-pooler`).
+
+```powershell
+python scripts/sync_neon_to_postgres.py
+```
+
+Success looks like:
+
+```text
+Local landing.entries: 2 rows (from Neon)
+Local landing.processor_heartbeats: 1 rows (from Neon)
+Replaced local landing rows with the Neon snapshot.
+```
+
+`python -m captainslog.inspect_entries` in the captains-log repo still reads
+whatever `DATABASE_URL` is in that repo's `.env` (usually Neon). This script
+only updates `dgdb` / local `captains_log`.
