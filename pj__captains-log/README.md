@@ -21,10 +21,11 @@ CREATE DATABASE captains_log;
 Copy-Item .env.example .env
 ```
 
-Point `LOCAL_DATABASE_URL` and `NEON_DATABASE_URL` at the `captains_log`
-database. All Captain's Log connection settings belong in this directory's
-`.env`; its scripts do not read the repository-root `.env`. Keep `.env`
-untracked.
+Set `PG_HOST`, `PG_PORT`, `PG_NAME`, `PG_USER`, and `PG_PASS` for the local
+`captains_log` database. `LOCAL_DATABASE_URL` is an optional fallback. Set
+`NEON_DATABASE_URL` for publishing. All Captain's Log connection settings
+belong in this directory's `.env`; its scripts do not read the repository-root
+`.env`. Keep `.env` untracked.
 
 Needs `psycopg2` and `python-dotenv` (same stack as fantasy-football-ingestion).
 
