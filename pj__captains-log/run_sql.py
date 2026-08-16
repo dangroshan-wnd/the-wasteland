@@ -16,24 +16,24 @@ _PG_ENV_NAMES = ("PG_HOST", "PG_PORT", "PG_USER", "PG_PASS")
 
 def connect_to_db():
     load_dotenv(PROJECT_ROOT / ".env", override=True)
+    missing = [name for name in _PG_ENV_NAMES if not os.getenv(name)]
+    if not missing:
+        return psycopg2.connect(
+            host=os.environ["PG_HOST"],
+            port=os.environ["PG_PORT"],
+            dbname=os.getenv("PG_NAME") or DEFAULT_PG_NAME,
+            user=os.environ["PG_USER"],
+            password=os.environ["PG_PASS"],
+        )
+
     database_url = os.getenv("LOCAL_DATABASE_URL") or os.getenv("DATABASE_URL")
     if database_url:
         return psycopg2.connect(database_url)
 
-    missing = [name for name in _PG_ENV_NAMES if not os.getenv(name)]
-    if missing:
-        names = ", ".join(missing)
-        raise RuntimeError(
-            "Missing local database configuration: set LOCAL_DATABASE_URL "
-            f"or DATABASE_URL, or {names}"
-        )
-
-    return psycopg2.connect(
-        host=os.environ["PG_HOST"],
-        port=os.environ["PG_PORT"],
-        dbname=os.getenv("PG_NAME") or DEFAULT_PG_NAME,
-        user=os.environ["PG_USER"],
-        password=os.environ["PG_PASS"],
+    names = ", ".join(missing)
+    raise RuntimeError(
+        "Missing local database configuration in pj__captains-log/.env: "
+        f"set {names}, or LOCAL_DATABASE_URL"
     )
 
 
