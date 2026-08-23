@@ -55,7 +55,9 @@ python scripts/publish_schema_to_neon.py
 ```
 
 That runs the same DDL against Neon. It does not copy rows, drop tables, or
-truncate.
+truncate tables. The spoken-metadata migration intentionally drops the legacy
+`mood` and `mood_span` columns after adding the five score columns and emphasis
+JSON fields; apply it before deploying the matching Captain's Log processor.
 
 ## Pull Neon rows back to local Postgres
 

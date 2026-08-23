@@ -43,8 +43,6 @@ CREATE TABLE IF NOT EXISTS landing.entries (
     lease_expires_at TIMESTAMPTZ,
     last_error TEXT,
     transcript TEXT,
-    mood INTEGER,
-    mood_span VARCHAR(128),
     title TEXT,
     summary TEXT,
     topics_json JSON,
@@ -55,10 +53,42 @@ CREATE TABLE IF NOT EXISTS landing.entries (
     created_at TIMESTAMPTZ NOT NULL,
     updated_at TIMESTAMPTZ NOT NULL,
     processed_at TIMESTAMPTZ,
+    disposition_score INTEGER,
+    energy_score INTEGER,
+    physical_score INTEGER,
+    sharpness_score INTEGER,
+    aggregate_score INTEGER,
+    spoken_score_spans_json JSON,
+    emphasis_spans_json JSON,
+    emphases_json JSON,
     CONSTRAINT uq_entries_drive_video_id UNIQUE (drive_video_id),
     CONSTRAINT uq_entries_drive_sidecar_id UNIQUE (drive_sidecar_id),
-    CONSTRAINT uq_entries_drive_ready_id UNIQUE (drive_ready_id)
+    CONSTRAINT uq_entries_drive_ready_id UNIQUE (drive_ready_id),
+    CONSTRAINT ck_entries_disposition_score CHECK (disposition_score BETWEEN 1 AND 5),
+    CONSTRAINT ck_entries_energy_score CHECK (energy_score BETWEEN 1 AND 5),
+    CONSTRAINT ck_entries_physical_score CHECK (physical_score BETWEEN 1 AND 5),
+    CONSTRAINT ck_entries_sharpness_score CHECK (sharpness_score BETWEEN 1 AND 5),
+    CONSTRAINT ck_entries_aggregate_score CHECK (aggregate_score BETWEEN 1 AND 5)
 );
+
+-- Existing beta databases: add spoken metadata, then remove legacy Mood values and columns.
+
+ALTER TABLE landing.entries
+    ADD COLUMN IF NOT EXISTS disposition_score INTEGER
+        CONSTRAINT ck_entries_disposition_score CHECK (disposition_score BETWEEN 1 AND 5),
+    ADD COLUMN IF NOT EXISTS energy_score INTEGER
+        CONSTRAINT ck_entries_energy_score CHECK (energy_score BETWEEN 1 AND 5),
+    ADD COLUMN IF NOT EXISTS physical_score INTEGER
+        CONSTRAINT ck_entries_physical_score CHECK (physical_score BETWEEN 1 AND 5),
+    ADD COLUMN IF NOT EXISTS sharpness_score INTEGER
+        CONSTRAINT ck_entries_sharpness_score CHECK (sharpness_score BETWEEN 1 AND 5),
+    ADD COLUMN IF NOT EXISTS aggregate_score INTEGER
+        CONSTRAINT ck_entries_aggregate_score CHECK (aggregate_score BETWEEN 1 AND 5),
+    ADD COLUMN IF NOT EXISTS spoken_score_spans_json JSON,
+    ADD COLUMN IF NOT EXISTS emphasis_spans_json JSON,
+    ADD COLUMN IF NOT EXISTS emphases_json JSON,
+    DROP COLUMN IF EXISTS mood,
+    DROP COLUMN IF EXISTS mood_span;
 
 CREATE INDEX IF NOT EXISTS ix_entries_journal_date
     ON landing.entries (journal_date);
