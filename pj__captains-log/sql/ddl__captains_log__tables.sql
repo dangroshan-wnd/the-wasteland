@@ -32,6 +32,10 @@ CREATE TABLE IF NOT EXISTS landing.entries (
     drive_video_id VARCHAR(128),
     drive_sidecar_id VARCHAR(128),
     drive_ready_id VARCHAR(128),
+    storage_provider VARCHAR(32),
+    storage_video_key VARCHAR(256),
+    storage_sidecar_key VARCHAR(256),
+    storage_ready_key VARCHAR(256),
     source VARCHAR(32) NOT NULL,
     recorded_at TIMESTAMPTZ NOT NULL,
     journal_date DATE NOT NULL,
@@ -64,6 +68,9 @@ CREATE TABLE IF NOT EXISTS landing.entries (
     CONSTRAINT uq_entries_drive_video_id UNIQUE (drive_video_id),
     CONSTRAINT uq_entries_drive_sidecar_id UNIQUE (drive_sidecar_id),
     CONSTRAINT uq_entries_drive_ready_id UNIQUE (drive_ready_id),
+    CONSTRAINT uq_entries_storage_video_key UNIQUE (storage_video_key),
+    CONSTRAINT uq_entries_storage_sidecar_key UNIQUE (storage_sidecar_key),
+    CONSTRAINT uq_entries_storage_ready_key UNIQUE (storage_ready_key),
     CONSTRAINT ck_entries_disposition_score CHECK (disposition_score BETWEEN 1 AND 5),
     CONSTRAINT ck_entries_energy_score CHECK (energy_score BETWEEN 1 AND 5),
     CONSTRAINT ck_entries_physical_score CHECK (physical_score BETWEEN 1 AND 5),
@@ -74,6 +81,10 @@ CREATE TABLE IF NOT EXISTS landing.entries (
 -- Existing beta databases: add spoken metadata, then remove legacy Mood values and columns.
 
 ALTER TABLE landing.entries
+    ADD COLUMN IF NOT EXISTS storage_provider VARCHAR(32),
+    ADD COLUMN IF NOT EXISTS storage_video_key VARCHAR(256),
+    ADD COLUMN IF NOT EXISTS storage_sidecar_key VARCHAR(256),
+    ADD COLUMN IF NOT EXISTS storage_ready_key VARCHAR(256),
     ADD COLUMN IF NOT EXISTS disposition_score INTEGER
         CONSTRAINT ck_entries_disposition_score CHECK (disposition_score BETWEEN 1 AND 5),
     ADD COLUMN IF NOT EXISTS energy_score INTEGER
@@ -89,6 +100,15 @@ ALTER TABLE landing.entries
     ADD COLUMN IF NOT EXISTS emphases_json JSON,
     DROP COLUMN IF EXISTS mood,
     DROP COLUMN IF EXISTS mood_span;
+
+CREATE UNIQUE INDEX IF NOT EXISTS uq_entries_storage_video_key
+    ON landing.entries (storage_video_key);
+
+CREATE UNIQUE INDEX IF NOT EXISTS uq_entries_storage_sidecar_key
+    ON landing.entries (storage_sidecar_key);
+
+CREATE UNIQUE INDEX IF NOT EXISTS uq_entries_storage_ready_key
+    ON landing.entries (storage_ready_key);
 
 CREATE INDEX IF NOT EXISTS ix_entries_journal_date
     ON landing.entries (journal_date);

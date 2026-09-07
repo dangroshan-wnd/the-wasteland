@@ -14,7 +14,7 @@ project is isolated in a `pj__*` directory with its own dependencies, tests, and
 - [`pj__rosalind/`](pj__rosalind/) contains tested Rosalind bioinformatics exercises.
 - [`pj__captains-log/`](pj__captains-log/) owns the Captain's Log journal tables
   (`captains_log.landing.entries`, `captains_log.landing.processor_heartbeats`)
-  as local Postgres DDL, then empty publish to Neon. Names live in that
+  and provider-neutral object-storage key columns as local Postgres DDL, then empty publish to Neon. Names live in that
   project's SQL.
 
 [`databases.yml`](databases.yml) lists every database on the local `dgdb` cluster

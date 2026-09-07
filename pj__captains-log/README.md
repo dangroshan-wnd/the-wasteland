@@ -7,7 +7,9 @@ schema and the empty publish to Neon.
 Database `captains_log` is listed in [`databases.yml`](../databases.yml).
 Schema and table names are in `sql/ddl__captains_log__tables.sql`:
 `landing.entries` and `landing.processor_heartbeats`. Same database name
-locally and on Neon.
+locally and on Neon. New ingest rows use `storage_provider` and the three
+`storage_*_key` columns; legacy `drive_*_id` columns remain only so existing
+journal history is preserved.
 
 Create the database once if it does not exist:
 
