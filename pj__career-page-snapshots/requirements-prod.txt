@@ -148,7 +148,7 @@ markupsafe==3.0.3
     #   mako
 mdurl==0.1.2
     # via markdown-it-py
-oauthlib==3.3.1
+oauthlib==4.0.0
     # via requests-oauthlib
 opentelemetry-api==1.44.0
     # via
