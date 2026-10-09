@@ -324,7 +324,7 @@ tzlocal==5.4.4
     # via dateparser
 uncalled-for==0.4.0
     # via pydocket
-urllib3==2.7.0
+urllib3==2.8.0
     # via
     #   docker
     #   requests
