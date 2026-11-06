@@ -136,7 +136,7 @@ jsonschema==4.26.0
     # via prefect
 jsonschema-specifications==2025.9.1
     # via jsonschema
-mako==1.4.1
+mako==1.4.2
     # via alembic
 markdown==3.10.3
     # via apprise
